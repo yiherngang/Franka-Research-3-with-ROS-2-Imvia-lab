@@ -171,8 +171,9 @@ make menuconfig
 
 > Cryptographic API
 >> Certificates for signature checking
->>>> X.509 cerficates to be preloaded into the system blacklist keyring
->>>>> Remove the permission
+>>> X.509 cerficates to be preloaded into the system blacklist keyring
+>>>> Remove the permission
+>>>>> ok
 
 > save to .config
 
