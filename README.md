@@ -37,3 +37,16 @@ The primary objectives of this project include:
 ### Applications
 
 The integrated system is designed to support various applications, including industrial automation, research in robotics, and educational purposes. By combining state-of-the-art hardware and software, this project aims to advance the capabilities of robotic systems in real-world scenarios.
+
+## 2. Pre-requisite
+
+### Tested Working Versions
+
+Below are the tested working versions for each software:
+
+- **Franka Research 3**: Version 5.2.2
+- **libfranka**: Version 0.13.2
+- **ROS 2**: Humble Hawksbill
+- **franka_ros2**: Version 0.1.13
+- **Ubuntu**: Ubuntu 22.04.4 LTS (Jammy)
+- **Linux RT Kernel**: Version 6.9.0-rt5+ PREEMPT_RT
