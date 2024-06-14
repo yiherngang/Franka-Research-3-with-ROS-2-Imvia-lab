@@ -1,4 +1,4 @@
-# Franka-Research-3-with-ROS-2-Imvia-lab
+# Franka Research 3 with ROS 2 Imvia lab
 
 ## 1. Introduction
 
