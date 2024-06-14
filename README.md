@@ -225,3 +225,33 @@ sudo nano /etc/security/limits.conf
 @realtime hard priority 99
 @realtime hard memlock 102400
 ```
+
+#### Building libfranka from source 
+
+1. Uninstall the existing installations of libfranka
+
+```bash
+sudo apt remove "*libfranka*"
+```
+
+2. Install the following dependencies
+
+```bash
+sudo apt install build-essential cmake git libpoco-dev libeigen3-dev
+```
+
+3. Download the source code from Github
+
+```bash
+git clone --recursive https://github.com/frankaemika/libfranka --branch 0.13.2
+```
+
+4. build the directory
+
+```bash
+cd libfranka
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF ..
+cmake --build .
+```
