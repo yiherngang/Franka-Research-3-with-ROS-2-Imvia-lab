@@ -27,18 +27,6 @@ The project utilizes the following hardware and software components:
 
 - **ViSP (Visual Servoing Platform)**: Integrated into the robot's system, ViSP is an open-source library that provides visual servoing capabilities. This allows the robot to perform tasks based on visual feedback, improving accuracy and adaptability in various applications.
 
-### Objectives
-
-The primary objectives of this project include:
-
-1. Implementing advanced manipulation functionalities using MoveIt2.
-2. Integrating camera perception to enhance environmental awareness.
-3. Utilizing ViSP for visual servoing capabilities, improving task precision and flexibility.
-
-### Applications
-
-The integrated system is designed to support various applications, including industrial automation, research in robotics, and educational purposes. By combining state-of-the-art hardware and software, this project aims to advance the capabilities of robotic systems in real-world scenarios.
-
 ## 2. Pre-requisite
 
 ### Tested Working Versions
