@@ -156,3 +156,7 @@ make olddefconfig
 ```sh
 make menuconfig
 ```
+
+> General setup
+>> Preemption Model (Voluntary Kernel Preemption (Desktop))
+>>> (x) Fully Preemptible Kernel (Real-Time)
