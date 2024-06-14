@@ -288,7 +288,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-5. Desktop
+5. Install
 
 ```bash
 sudo apt install ros-humble-desktop
