@@ -40,11 +40,11 @@ Below are the tested working versions for each software:
 - **Ubuntu**: Ubuntu 22.04.4 LTS (Jammy)
 - **Linux RT Kernel**: Version 6.9.0-rt5+ PREEMPT_RT
 
-### Installation
+### 2.1 Installation
 
 Below is the step-by-step guide for installation:
 
-#### Setting up the Real-Time Kernel
+#### 2.1.1 Setting up the Real-Time Kernel
 
 1. Check the current Linux kernel:
 
@@ -226,7 +226,7 @@ sudo nano /etc/security/limits.conf
 @realtime hard memlock 102400
 ```
 
-#### Building libfranka from source 
+#### 2.1.2 Building libfranka from source 
 
 1. Uninstall the existing installations of libfranka
 
@@ -257,7 +257,7 @@ cmake --build . -j$(nproc)
 cpack -G DEB
 sudo dpkg -i libfranka-*.deb
 ```
-#### Install ROS2 Humble Hawksbill
+#### 2.1.3 Install ROS2 Humble Hawksbill
 
 ##### Add the ROS 2 apt repository to the system
 
