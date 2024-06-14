@@ -50,3 +50,15 @@ Below are the tested working versions for each software:
 - **franka_ros2**: Version 0.1.13
 - **Ubuntu**: Ubuntu 22.04.4 LTS (Jammy)
 - **Linux RT Kernel**: Version 6.9.0-rt5+ PREEMPT_RT
+
+### Installation
+
+Below is the step-by-step guide for installation:
+
+#### Setting up the Real-Time Kernel
+
+1. Check the current Linux kernel:
+
+```sh
+uname -a
+```
