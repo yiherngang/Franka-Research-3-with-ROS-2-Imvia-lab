@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  4%] Built target gtest
+[  8%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target moveit_setup_srdf_plugins[0m
+[ 95%] Built target moveit_setup_srdf_plugins
+[35m[1mConsolidate compiler generated dependencies of target test_srdf[0m
+[100%] Built target test_srdf
+-- Install configuration: "Release"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/compute_default_collisions.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/srdf_step.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/rotated_header_view.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_matrix_model.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_linear_model.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_meta_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/kinematic_chain_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_edit_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_srdf_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_srdf_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/packages/moveit_setup_srdf_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_srdf_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport-release.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.xml

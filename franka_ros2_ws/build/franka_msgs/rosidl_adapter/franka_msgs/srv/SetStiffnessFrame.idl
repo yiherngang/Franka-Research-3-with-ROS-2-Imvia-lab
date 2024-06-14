@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_msgs/srv/SetStiffnessFrame.srv
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module srv {
+    typedef double double__16[16];
+    @verbatim (language="comment", text=
+      "Sets the transformation matrix describing the stiffness frame relative to the TCP frame." "\n"
+      "A 4x4 column-major transformation matrix representing the position and orientation.")
+    struct SetStiffnessFrame_Request {
+      double__16 transformation;
+    };
+    struct SetStiffnessFrame_Response {
+      boolean success;
+
+      string error;
+    };
+  };
+};

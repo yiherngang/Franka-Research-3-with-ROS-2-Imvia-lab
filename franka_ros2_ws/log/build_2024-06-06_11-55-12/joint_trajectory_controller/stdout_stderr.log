@@ -1,0 +1,7 @@
+[ 18%] Built target gmock
+[ 31%] Built target joint_trajectory_controller_parameters
+[ 43%] Built target gmock_main
+[ 62%] Built target joint_trajectory_controller
+[ 75%] Built target test_load_joint_trajectory_controller
+[ 87%] Built target test_trajectory_controller
+[100%] Built target test_trajectory

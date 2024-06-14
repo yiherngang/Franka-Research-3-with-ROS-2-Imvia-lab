@@ -1,0 +1,49 @@
+[ 40%] Built target moveit_warehouse
+[ 55%] Built target moveit_warehouse_broadcast
+[ 60%] Built target moveit_warehouse_services
+[ 70%] Built target moveit_warehouse_import_from_text
+[ 80%] Built target moveit_warehouse_save_as_text
+[ 90%] Built target moveit_init_demo_warehouse
+[100%] Built target moveit_save_to_warehouse
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml

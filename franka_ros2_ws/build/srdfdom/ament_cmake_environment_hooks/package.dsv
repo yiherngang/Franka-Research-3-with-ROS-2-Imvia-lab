@@ -1,0 +1,4 @@
+source;share/srdfdom/local_setup.bash
+source;share/srdfdom/local_setup.dsv
+source;share/srdfdom/local_setup.sh
+source;share/srdfdom/local_setup.zsh

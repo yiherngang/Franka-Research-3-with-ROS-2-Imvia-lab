@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/MotionSequenceItem.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MotionPlanRequest.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The plan request for this item." "\n"
+      "It is the planning request for this segment of the sequence, as if it were a solitary motion.")
+    struct MotionSequenceItem {
+      moveit_msgs::msg::MotionPlanRequest req;
+
+      @verbatim (language="comment", text=
+        "To blend between sequence items, the motion may be smoothed using a circular motion." "\n"
+        "The blend radius of the circle between this and the next command, where 0 means no blending.")
+      double blend_radius;
+    };
+  };
+};

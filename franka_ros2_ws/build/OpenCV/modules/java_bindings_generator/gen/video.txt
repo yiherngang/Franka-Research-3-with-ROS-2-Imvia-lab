@@ -1,0 +1,221 @@
+PORTED FUNCs LIST (208 of 208):
+
+ void cv::BackgroundSubtractor::apply(Mat image, Mat& fgmask, double learningRate = -1)
+ void cv::BackgroundSubtractor::getBackgroundImage(Mat& backgroundImage)
+ int cv::BackgroundSubtractorKNN::getHistory()
+ void cv::BackgroundSubtractorKNN::setHistory(int history)
+ int cv::BackgroundSubtractorKNN::getNSamples()
+ void cv::BackgroundSubtractorKNN::setNSamples(int _nN)
+ double cv::BackgroundSubtractorKNN::getDist2Threshold()
+ void cv::BackgroundSubtractorKNN::setDist2Threshold(double _dist2Threshold)
+ int cv::BackgroundSubtractorKNN::getkNNSamples()
+ void cv::BackgroundSubtractorKNN::setkNNSamples(int _nkNN)
+ bool cv::BackgroundSubtractorKNN::getDetectShadows()
+ void cv::BackgroundSubtractorKNN::setDetectShadows(bool detectShadows)
+ int cv::BackgroundSubtractorKNN::getShadowValue()
+ void cv::BackgroundSubtractorKNN::setShadowValue(int value)
+ double cv::BackgroundSubtractorKNN::getShadowThreshold()
+ void cv::BackgroundSubtractorKNN::setShadowThreshold(double threshold)
+ int cv::BackgroundSubtractorMOG2::getHistory()
+ void cv::BackgroundSubtractorMOG2::setHistory(int history)
+ int cv::BackgroundSubtractorMOG2::getNMixtures()
+ void cv::BackgroundSubtractorMOG2::setNMixtures(int nmixtures)
+ double cv::BackgroundSubtractorMOG2::getBackgroundRatio()
+ void cv::BackgroundSubtractorMOG2::setBackgroundRatio(double ratio)
+ double cv::BackgroundSubtractorMOG2::getVarThreshold()
+ void cv::BackgroundSubtractorMOG2::setVarThreshold(double varThreshold)
+ double cv::BackgroundSubtractorMOG2::getVarThresholdGen()
+ void cv::BackgroundSubtractorMOG2::setVarThresholdGen(double varThresholdGen)
+ double cv::BackgroundSubtractorMOG2::getVarInit()
+ void cv::BackgroundSubtractorMOG2::setVarInit(double varInit)
+ double cv::BackgroundSubtractorMOG2::getVarMin()
+ void cv::BackgroundSubtractorMOG2::setVarMin(double varMin)
+ double cv::BackgroundSubtractorMOG2::getVarMax()
+ void cv::BackgroundSubtractorMOG2::setVarMax(double varMax)
+ double cv::BackgroundSubtractorMOG2::getComplexityReductionThreshold()
+ void cv::BackgroundSubtractorMOG2::setComplexityReductionThreshold(double ct)
+ bool cv::BackgroundSubtractorMOG2::getDetectShadows()
+ void cv::BackgroundSubtractorMOG2::setDetectShadows(bool detectShadows)
+ int cv::BackgroundSubtractorMOG2::getShadowValue()
+ void cv::BackgroundSubtractorMOG2::setShadowValue(int value)
+ double cv::BackgroundSubtractorMOG2::getShadowThreshold()
+ void cv::BackgroundSubtractorMOG2::setShadowThreshold(double threshold)
+ void cv::BackgroundSubtractorMOG2::apply(Mat image, Mat& fgmask, double learningRate = -1)
+ int cv::DISOpticalFlow::getFinestScale()
+ void cv::DISOpticalFlow::setFinestScale(int val)
+ int cv::DISOpticalFlow::getPatchSize()
+ void cv::DISOpticalFlow::setPatchSize(int val)
+ int cv::DISOpticalFlow::getPatchStride()
+ void cv::DISOpticalFlow::setPatchStride(int val)
+ int cv::DISOpticalFlow::getGradientDescentIterations()
+ void cv::DISOpticalFlow::setGradientDescentIterations(int val)
+ int cv::DISOpticalFlow::getVariationalRefinementIterations()
+ void cv::DISOpticalFlow::setVariationalRefinementIterations(int val)
+ float cv::DISOpticalFlow::getVariationalRefinementAlpha()
+ void cv::DISOpticalFlow::setVariationalRefinementAlpha(float val)
+ float cv::DISOpticalFlow::getVariationalRefinementDelta()
+ void cv::DISOpticalFlow::setVariationalRefinementDelta(float val)
+ float cv::DISOpticalFlow::getVariationalRefinementGamma()
+ void cv::DISOpticalFlow::setVariationalRefinementGamma(float val)
+ float cv::DISOpticalFlow::getVariationalRefinementEpsilon()
+ void cv::DISOpticalFlow::setVariationalRefinementEpsilon(float val)
+ bool cv::DISOpticalFlow::getUseMeanNormalization()
+ void cv::DISOpticalFlow::setUseMeanNormalization(bool val)
+ bool cv::DISOpticalFlow::getUseSpatialPropagation()
+ void cv::DISOpticalFlow::setUseSpatialPropagation(bool val)
+static Ptr_DISOpticalFlow cv::DISOpticalFlow::create(int preset = DISOpticalFlow::PRESET_FAST)
+ void cv::DenseOpticalFlow::calc(Mat I0, Mat I1, Mat& flow)
+ void cv::DenseOpticalFlow::collectGarbage()
+ int cv::FarnebackOpticalFlow::getNumLevels()
+ void cv::FarnebackOpticalFlow::setNumLevels(int numLevels)
+ double cv::FarnebackOpticalFlow::getPyrScale()
+ void cv::FarnebackOpticalFlow::setPyrScale(double pyrScale)
+ bool cv::FarnebackOpticalFlow::getFastPyramids()
+ void cv::FarnebackOpticalFlow::setFastPyramids(bool fastPyramids)
+ int cv::FarnebackOpticalFlow::getWinSize()
+ void cv::FarnebackOpticalFlow::setWinSize(int winSize)
+ int cv::FarnebackOpticalFlow::getNumIters()
+ void cv::FarnebackOpticalFlow::setNumIters(int numIters)
+ int cv::FarnebackOpticalFlow::getPolyN()
+ void cv::FarnebackOpticalFlow::setPolyN(int polyN)
+ double cv::FarnebackOpticalFlow::getPolySigma()
+ void cv::FarnebackOpticalFlow::setPolySigma(double polySigma)
+ int cv::FarnebackOpticalFlow::getFlags()
+ void cv::FarnebackOpticalFlow::setFlags(int flags)
+static Ptr_FarnebackOpticalFlow cv::FarnebackOpticalFlow::create(int numLevels = 5, double pyrScale = 0.5, bool fastPyramids = false, int winSize = 13, int numIters = 10, int polyN = 5, double polySigma = 1.1, int flags = 0)
+  cv::KalmanFilter::KalmanFilter()
+  cv::KalmanFilter::KalmanFilter(int dynamParams, int measureParams, int controlParams = 0, int type = CV_32F)
+ Mat cv::KalmanFilter::predict(Mat control = Mat())
+ Mat cv::KalmanFilter::correct(Mat measurement)
+Mat KalmanFilter::statePre
+void KalmanFilter::statePre
+Mat KalmanFilter::statePost
+void KalmanFilter::statePost
+Mat KalmanFilter::transitionMatrix
+void KalmanFilter::transitionMatrix
+Mat KalmanFilter::controlMatrix
+void KalmanFilter::controlMatrix
+Mat KalmanFilter::measurementMatrix
+void KalmanFilter::measurementMatrix
+Mat KalmanFilter::processNoiseCov
+void KalmanFilter::processNoiseCov
+Mat KalmanFilter::measurementNoiseCov
+void KalmanFilter::measurementNoiseCov
+Mat KalmanFilter::errorCovPre
+void KalmanFilter::errorCovPre
+Mat KalmanFilter::gain
+void KalmanFilter::gain
+Mat KalmanFilter::errorCovPost
+void KalmanFilter::errorCovPost
+ void cv::SparseOpticalFlow::calc(Mat prevImg, Mat nextImg, Mat prevPts, Mat& nextPts, Mat& status, Mat& err = cv::Mat())
+ Size cv::SparsePyrLKOpticalFlow::getWinSize()
+ void cv::SparsePyrLKOpticalFlow::setWinSize(Size winSize)
+ int cv::SparsePyrLKOpticalFlow::getMaxLevel()
+ void cv::SparsePyrLKOpticalFlow::setMaxLevel(int maxLevel)
+ TermCriteria cv::SparsePyrLKOpticalFlow::getTermCriteria()
+ void cv::SparsePyrLKOpticalFlow::setTermCriteria(TermCriteria crit)
+ int cv::SparsePyrLKOpticalFlow::getFlags()
+ void cv::SparsePyrLKOpticalFlow::setFlags(int flags)
+ double cv::SparsePyrLKOpticalFlow::getMinEigThreshold()
+ void cv::SparsePyrLKOpticalFlow::setMinEigThreshold(double minEigThreshold)
+static Ptr_SparsePyrLKOpticalFlow cv::SparsePyrLKOpticalFlow::create(Size winSize = Size(21, 21), int maxLevel = 3, TermCriteria crit = TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01), int flags = 0, double minEigThreshold = 1e-4)
+ void cv::Tracker::init(Mat image, Rect boundingBox)
+ bool cv::Tracker::update(Mat image, Rect& boundingBox)
+static Ptr_TrackerDaSiamRPN cv::TrackerDaSiamRPN::create(TrackerDaSiamRPN_Params parameters = TrackerDaSiamRPN::Params())
+ float cv::TrackerDaSiamRPN::getTrackingScore()
+  cv::TrackerDaSiamRPN::Params::Params()
+string TrackerDaSiamRPN_Params::model
+void TrackerDaSiamRPN_Params::model
+string TrackerDaSiamRPN_Params::kernel_cls1
+void TrackerDaSiamRPN_Params::kernel_cls1
+string TrackerDaSiamRPN_Params::kernel_r1
+void TrackerDaSiamRPN_Params::kernel_r1
+int TrackerDaSiamRPN_Params::backend
+void TrackerDaSiamRPN_Params::backend
+int TrackerDaSiamRPN_Params::target
+void TrackerDaSiamRPN_Params::target
+static Ptr_TrackerGOTURN cv::TrackerGOTURN::create(TrackerGOTURN_Params parameters = TrackerGOTURN::Params())
+  cv::TrackerGOTURN::Params::Params()
+string TrackerGOTURN_Params::modelTxt
+void TrackerGOTURN_Params::modelTxt
+string TrackerGOTURN_Params::modelBin
+void TrackerGOTURN_Params::modelBin
+static Ptr_TrackerMIL cv::TrackerMIL::create(TrackerMIL_Params parameters = TrackerMIL::Params())
+  cv::TrackerMIL::Params::Params()
+float TrackerMIL_Params::samplerInitInRadius
+void TrackerMIL_Params::samplerInitInRadius
+int TrackerMIL_Params::samplerInitMaxNegNum
+void TrackerMIL_Params::samplerInitMaxNegNum
+float TrackerMIL_Params::samplerSearchWinSize
+void TrackerMIL_Params::samplerSearchWinSize
+float TrackerMIL_Params::samplerTrackInRadius
+void TrackerMIL_Params::samplerTrackInRadius
+int TrackerMIL_Params::samplerTrackMaxPosNum
+void TrackerMIL_Params::samplerTrackMaxPosNum
+int TrackerMIL_Params::samplerTrackMaxNegNum
+void TrackerMIL_Params::samplerTrackMaxNegNum
+int TrackerMIL_Params::featureSetNumFeatures
+void TrackerMIL_Params::featureSetNumFeatures
+static Ptr_TrackerNano cv::TrackerNano::create(TrackerNano_Params parameters = TrackerNano::Params())
+ float cv::TrackerNano::getTrackingScore()
+  cv::TrackerNano::Params::Params()
+string TrackerNano_Params::backbone
+void TrackerNano_Params::backbone
+string TrackerNano_Params::neckhead
+void TrackerNano_Params::neckhead
+int TrackerNano_Params::backend
+void TrackerNano_Params::backend
+int TrackerNano_Params::target
+void TrackerNano_Params::target
+static Ptr_TrackerVit cv::TrackerVit::create(TrackerVit_Params parameters = TrackerVit::Params())
+ float cv::TrackerVit::getTrackingScore()
+  cv::TrackerVit::Params::Params()
+string TrackerVit_Params::net
+void TrackerVit_Params::net
+int TrackerVit_Params::backend
+void TrackerVit_Params::backend
+int TrackerVit_Params::target
+void TrackerVit_Params::target
+Scalar TrackerVit_Params::meanvalue
+void TrackerVit_Params::meanvalue
+Scalar TrackerVit_Params::stdvalue
+void TrackerVit_Params::stdvalue
+ void cv::VariationalRefinement::calcUV(Mat I0, Mat I1, Mat& flow_u, Mat& flow_v)
+ int cv::VariationalRefinement::getFixedPointIterations()
+ void cv::VariationalRefinement::setFixedPointIterations(int val)
+ int cv::VariationalRefinement::getSorIterations()
+ void cv::VariationalRefinement::setSorIterations(int val)
+ float cv::VariationalRefinement::getOmega()
+ void cv::VariationalRefinement::setOmega(float val)
+ float cv::VariationalRefinement::getAlpha()
+ void cv::VariationalRefinement::setAlpha(float val)
+ float cv::VariationalRefinement::getDelta()
+ void cv::VariationalRefinement::setDelta(float val)
+ float cv::VariationalRefinement::getGamma()
+ void cv::VariationalRefinement::setGamma(float val)
+ float cv::VariationalRefinement::getEpsilon()
+ void cv::VariationalRefinement::setEpsilon(float val)
+static Ptr_VariationalRefinement cv::VariationalRefinement::create()
+ RotatedRect cv::CamShift(Mat probImage, Rect& window, TermCriteria criteria)
+ int cv::meanShift(Mat probImage, Rect& window, TermCriteria criteria)
+ int cv::buildOpticalFlowPyramid(Mat img, vector_Mat& pyramid, Size winSize, int maxLevel, bool withDerivatives = true, int pyrBorder = BORDER_REFLECT_101, int derivBorder = BORDER_CONSTANT, bool tryReuseInputImage = true)
+ void cv::calcOpticalFlowPyrLK(Mat prevImg, Mat nextImg, vector_Point2f prevPts, vector_Point2f& nextPts, vector_uchar& status, vector_float& err, Size winSize = Size(21,21), int maxLevel = 3, TermCriteria criteria = TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01), int flags = 0, double minEigThreshold = 1e-4)
+ void cv::calcOpticalFlowFarneback(Mat prev, Mat next, Mat& flow, double pyr_scale, int levels, int winsize, int iterations, int poly_n, double poly_sigma, int flags)
+ double cv::computeECC(Mat templateImage, Mat inputImage, Mat inputMask = Mat())
+ double cv::findTransformECC(Mat templateImage, Mat inputImage, Mat& warpMatrix, int motionType, TermCriteria criteria, Mat inputMask, int gaussFiltSize)
+ double cv::findTransformECC(Mat templateImage, Mat inputImage, Mat& warpMatrix, int motionType = MOTION_AFFINE, TermCriteria criteria = TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 50, 0.001), Mat inputMask = Mat())
+ Mat cv::readOpticalFlow(String path)
+ bool cv::writeOpticalFlow(String path, Mat flow)
+ Ptr_BackgroundSubtractorMOG2 cv::createBackgroundSubtractorMOG2(int history = 500, double varThreshold = 16, bool detectShadows = true)
+ Ptr_BackgroundSubtractorKNN cv::createBackgroundSubtractorKNN(int history = 500, double dist2Threshold = 400.0, bool detectShadows = true)
+
+SKIPPED FUNCs LIST (0 of 208):
+
+
+0 def args - 123 funcs
+1 def args - 11 funcs
+2 def args - 1 funcs
+3 def args - 3 funcs
+4 def args - 1 funcs
+5 def args - 2 funcs
+8 def args - 1 funcs

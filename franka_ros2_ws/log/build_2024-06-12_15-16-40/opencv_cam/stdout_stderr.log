@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV version 4.10.0
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found camera_calibration_parsers: 3.1.9 (/opt/ros/humble/share/camera_calibration_parsers/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found ros2_shared: 0.1.0 (/home/adminlab/franka_ros2_ws/install/ros2_shared/share/ros2_shared/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/opencv_cam
+[ 12%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/opencv_cam_node.dir/src/opencv_cam_node.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libopencv_cam_node.so[0m
+[ 37%] Built target opencv_cam_node
+[ 50%] [32m[1mLinking CXX shared library libsubscriber_node.so[0m
+[ 50%] Built target subscriber_node
+[ 62%] [32mBuilding CXX object CMakeFiles/opencv_cam_main.dir/src/opencv_cam_main.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable opencv_cam_main[0m
+[ 75%] Built target opencv_cam_main
+[ 87%] [32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ipc_test_main[0m
+[100%] Built target ipc_test_main
+-- Install configuration: ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/package.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libsubscriber_node.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py

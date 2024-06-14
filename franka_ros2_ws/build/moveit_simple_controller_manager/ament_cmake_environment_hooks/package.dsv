@@ -1,0 +1,4 @@
+source;share/moveit_simple_controller_manager/local_setup.bash
+source;share/moveit_simple_controller_manager/local_setup.dsv
+source;share/moveit_simple_controller_manager/local_setup.sh
+source;share/moveit_simple_controller_manager/local_setup.zsh

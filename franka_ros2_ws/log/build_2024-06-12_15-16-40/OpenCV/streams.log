@@ -1,0 +1,1817 @@
+[0.063s] Invoking command in '/home/adminlab/franka_ros2_ws/build/OpenCV': /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/opencv -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/OpenCV
+[0.112s] -- 'Release' build type is used by default. Use CMAKE_BUILD_TYPE to specify build type (Release or Debug)
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- Detecting CXX compiler ABI info
+[0.331s] -- Detecting CXX compiler ABI info - done
+[0.339s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.340s] -- Detecting CXX compile features
+[0.340s] -- Detecting CXX compile features - done
+[0.345s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.427s] -- Detecting C compile features
+[0.427s] -- Detecting C compile features - done
+[0.433s] -- Detected processor: x86_64
+[0.622s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.2") 
+[0.655s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable exact version "3.10.12") 
+[1.122s] -- Looking for ccache - not found
+[1.123s] -- Performing Test HAVE_CXX_FSIGNED_CHAR
+[1.236s] -- Performing Test HAVE_CXX_FSIGNED_CHAR - Success
+[1.237s] -- Performing Test HAVE_C_FSIGNED_CHAR
+[1.348s] -- Performing Test HAVE_C_FSIGNED_CHAR - Success
+[1.349s] -- Performing Test HAVE_CXX_W
+[1.459s] -- Performing Test HAVE_CXX_W - Success
+[1.460s] -- Performing Test HAVE_C_W
+[1.577s] -- Performing Test HAVE_C_W - Success
+[1.577s] -- Performing Test HAVE_CXX_WALL
+[1.726s] -- Performing Test HAVE_CXX_WALL - Success
+[1.726s] -- Performing Test HAVE_C_WALL
+[1.810s] -- Performing Test HAVE_C_WALL - Success
+[1.810s] -- Performing Test HAVE_CXX_WRETURN_TYPE
+[1.920s] -- Performing Test HAVE_CXX_WRETURN_TYPE - Success
+[1.920s] -- Performing Test HAVE_C_WRETURN_TYPE
+[2.011s] -- Performing Test HAVE_C_WRETURN_TYPE - Success
+[2.011s] -- Performing Test HAVE_CXX_WNON_VIRTUAL_DTOR
+[2.160s] -- Performing Test HAVE_CXX_WNON_VIRTUAL_DTOR - Success
+[2.162s] -- Performing Test HAVE_C_WNON_VIRTUAL_DTOR
+[2.281s] -- Performing Test HAVE_C_WNON_VIRTUAL_DTOR - Failed
+[2.281s] -- Performing Test HAVE_CXX_WADDRESS
+[2.386s] -- Performing Test HAVE_CXX_WADDRESS - Success
+[2.386s] -- Performing Test HAVE_C_WADDRESS
+[2.479s] -- Performing Test HAVE_C_WADDRESS - Success
+[2.479s] -- Performing Test HAVE_CXX_WSEQUENCE_POINT
+[2.590s] -- Performing Test HAVE_CXX_WSEQUENCE_POINT - Success
+[2.590s] -- Performing Test HAVE_C_WSEQUENCE_POINT
+[2.739s] -- Performing Test HAVE_C_WSEQUENCE_POINT - Success
+[2.740s] -- Performing Test HAVE_CXX_WFORMAT
+[2.893s] -- Performing Test HAVE_CXX_WFORMAT - Success
+[2.893s] -- Performing Test HAVE_C_WFORMAT
+[3.038s] -- Performing Test HAVE_C_WFORMAT - Success
+[3.038s] -- Performing Test HAVE_CXX_WFORMAT_SECURITY
+[3.187s] -- Performing Test HAVE_CXX_WFORMAT_SECURITY - Success
+[3.188s] -- Performing Test HAVE_C_WFORMAT_SECURITY
+[3.418s] -- Performing Test HAVE_C_WFORMAT_SECURITY - Success
+[3.418s] -- Performing Test HAVE_CXX_WMISSING_DECLARATIONS
+[4.187s] -- Performing Test HAVE_CXX_WMISSING_DECLARATIONS - Success
+[4.188s] -- Performing Test HAVE_C_WMISSING_DECLARATIONS
+[4.732s] -- Performing Test HAVE_C_WMISSING_DECLARATIONS - Success
+[4.732s] -- Performing Test HAVE_CXX_WMISSING_PROTOTYPES
+[5.431s] -- Performing Test HAVE_CXX_WMISSING_PROTOTYPES - Failed
+[5.431s] -- Performing Test HAVE_C_WMISSING_PROTOTYPES
+[5.600s] -- Performing Test HAVE_C_WMISSING_PROTOTYPES - Success
+[5.600s] -- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES
+[6.275s] -- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES - Failed
+[6.278s] -- Performing Test HAVE_C_WSTRICT_PROTOTYPES
+[6.872s] -- Performing Test HAVE_C_WSTRICT_PROTOTYPES - Success
+[6.874s] -- Performing Test HAVE_CXX_WUNDEF
+[7.566s] -- Performing Test HAVE_CXX_WUNDEF - Success
+[7.566s] -- Performing Test HAVE_C_WUNDEF
+[8.594s] -- Performing Test HAVE_C_WUNDEF - Success
+[8.594s] -- Performing Test HAVE_CXX_WINIT_SELF
+[10.584s] -- Performing Test HAVE_CXX_WINIT_SELF - Success
+[10.584s] -- Performing Test HAVE_C_WINIT_SELF
+[11.358s] -- Performing Test HAVE_C_WINIT_SELF - Success
+[11.363s] -- Performing Test HAVE_CXX_WPOINTER_ARITH
+[12.949s] -- Performing Test HAVE_CXX_WPOINTER_ARITH - Success
+[12.949s] -- Performing Test HAVE_C_WPOINTER_ARITH
+[13.882s] -- Performing Test HAVE_C_WPOINTER_ARITH - Success
+[13.883s] -- Performing Test HAVE_CXX_WSHADOW
+[14.270s] -- Performing Test HAVE_CXX_WSHADOW - Success
+[14.270s] -- Performing Test HAVE_C_WSHADOW
+[14.406s] -- Performing Test HAVE_C_WSHADOW - Success
+[14.406s] -- Performing Test HAVE_CXX_WSIGN_PROMO
+[14.526s] -- Performing Test HAVE_CXX_WSIGN_PROMO - Success
+[14.526s] -- Performing Test HAVE_C_WSIGN_PROMO
+[14.651s] -- Performing Test HAVE_C_WSIGN_PROMO - Failed
+[14.651s] -- Performing Test HAVE_CXX_WUNINITIALIZED
+[14.744s] -- Performing Test HAVE_CXX_WUNINITIALIZED - Success
+[14.744s] -- Performing Test HAVE_C_WUNINITIALIZED
+[14.832s] -- Performing Test HAVE_C_WUNINITIALIZED - Success
+[14.833s] -- Performing Test HAVE_CXX_WSUGGEST_OVERRIDE
+[14.936s] -- Performing Test HAVE_CXX_WSUGGEST_OVERRIDE - Success
+[14.936s] -- Performing Test HAVE_C_WSUGGEST_OVERRIDE
+[15.041s] -- Performing Test HAVE_C_WSUGGEST_OVERRIDE - Failed
+[15.041s] -- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR
+[15.137s] -- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR - Success
+[15.137s] -- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR
+[15.220s] -- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR - Failed
+[15.220s] -- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+[15.299s] -- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+[15.299s] -- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+[15.375s] -- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+[15.375s] -- Performing Test HAVE_CXX_WNO_COMMENT
+[15.475s] -- Performing Test HAVE_CXX_WNO_COMMENT - Success
+[15.475s] -- Performing Test HAVE_C_WNO_COMMENT
+[15.562s] -- Performing Test HAVE_C_WNO_COMMENT - Success
+[15.562s] -- Performing Test HAVE_CXX_WIMPLICIT_FALLTHROUGH_3
+[15.641s] -- Performing Test HAVE_CXX_WIMPLICIT_FALLTHROUGH_3 - Success
+[15.641s] -- Performing Test HAVE_C_WIMPLICIT_FALLTHROUGH_3
+[15.723s] -- Performing Test HAVE_C_WIMPLICIT_FALLTHROUGH_3 - Success
+[15.723s] -- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW
+[15.826s] -- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW - Success
+[15.826s] -- Performing Test HAVE_C_WNO_STRICT_OVERFLOW
+[15.918s] -- Performing Test HAVE_C_WNO_STRICT_OVERFLOW - Success
+[15.918s] -- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION
+[16.021s] -- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION - Success
+[16.022s] -- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION
+[16.109s] -- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION - Success
+[16.109s] -- Performing Test HAVE_CXX_WNO_LONG_LONG
+[16.206s] -- Performing Test HAVE_CXX_WNO_LONG_LONG - Success
+[16.206s] -- Performing Test HAVE_C_WNO_LONG_LONG
+[16.283s] -- Performing Test HAVE_C_WNO_LONG_LONG - Success
+[16.283s] -- Performing Test HAVE_CXX_PTHREAD
+[16.377s] -- Performing Test HAVE_CXX_PTHREAD - Success
+[16.378s] -- Performing Test HAVE_C_PTHREAD
+[16.447s] -- Performing Test HAVE_C_PTHREAD - Success
+[16.447s] -- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER
+[16.533s] -- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER - Success
+[16.533s] -- Performing Test HAVE_C_FOMIT_FRAME_POINTER
+[16.608s] -- Performing Test HAVE_C_FOMIT_FRAME_POINTER - Success
+[16.608s] -- Performing Test HAVE_CXX_FFUNCTION_SECTIONS
+[16.698s] -- Performing Test HAVE_CXX_FFUNCTION_SECTIONS - Success
+[16.698s] -- Performing Test HAVE_C_FFUNCTION_SECTIONS
+[16.779s] -- Performing Test HAVE_C_FFUNCTION_SECTIONS - Success
+[16.779s] -- Performing Test HAVE_CXX_FDATA_SECTIONS
+[16.866s] -- Performing Test HAVE_CXX_FDATA_SECTIONS - Success
+[16.866s] -- Performing Test HAVE_C_FDATA_SECTIONS
+[16.939s] -- Performing Test HAVE_C_FDATA_SECTIONS - Success
+[16.942s] -- Performing Test HAVE_CXX_MSSE (check file: cmake/checks/cpu_sse.cpp)
+[17.066s] -- Performing Test HAVE_CXX_MSSE - Success
+[17.066s] -- Performing Test HAVE_CXX_MSSE2 (check file: cmake/checks/cpu_sse2.cpp)
+[17.154s] -- Performing Test HAVE_CXX_MSSE2 - Success
+[17.155s] -- Performing Test HAVE_CXX_MSSE3 (check file: cmake/checks/cpu_sse3.cpp)
+[17.254s] -- Performing Test HAVE_CXX_MSSE3 - Success
+[17.255s] -- Performing Test HAVE_CXX_MSSSE3 (check file: cmake/checks/cpu_ssse3.cpp)
+[17.373s] -- Performing Test HAVE_CXX_MSSSE3 - Success
+[17.373s] -- Performing Test HAVE_CXX_MSSE4_1 (check file: cmake/checks/cpu_sse41.cpp)
+[17.494s] -- Performing Test HAVE_CXX_MSSE4_1 - Success
+[17.494s] -- Performing Test HAVE_CXX_MPOPCNT (check file: cmake/checks/cpu_popcnt.cpp)
+[17.586s] -- Performing Test HAVE_CXX_MPOPCNT - Success
+[17.587s] -- Performing Test HAVE_CXX_MSSE4_2 (check file: cmake/checks/cpu_sse42.cpp)
+[17.680s] -- Performing Test HAVE_CXX_MSSE4_2 - Success
+[17.680s] -- Performing Test HAVE_CXX_MF16C (check file: cmake/checks/cpu_fp16.cpp)
+[18.078s] -- Performing Test HAVE_CXX_MF16C - Success
+[18.079s] -- Performing Test HAVE_CXX_MFMA
+[18.170s] -- Performing Test HAVE_CXX_MFMA - Success
+[18.171s] -- Performing Test HAVE_CXX_MAVX (check file: cmake/checks/cpu_avx.cpp)
+[18.625s] -- Performing Test HAVE_CXX_MAVX - Success
+[18.625s] -- Performing Test HAVE_CXX_MAVX2 (check file: cmake/checks/cpu_avx2.cpp)
+[18.960s] -- Performing Test HAVE_CXX_MAVX2 - Success
+[18.961s] -- Performing Test HAVE_CXX_MAVX512F (check file: cmake/checks/cpu_avx512.cpp)
+[19.381s] -- Performing Test HAVE_CXX_MAVX512F - Success
+[19.381s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD (check file: cmake/checks/cpu_avx512common.cpp)
+[19.697s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD - Success
+[19.698s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD_MAVX512VL_MAVX512BW_MAVX512DQ (check file: cmake/checks/cpu_avx512skx.cpp)
+[20.023s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD_MAVX512VL_MAVX512BW_MAVX512DQ - Success
+[20.025s] -- Performing Test HAVE_CPU_BASELINE_FLAGS
+[20.120s] -- Performing Test HAVE_CPU_BASELINE_FLAGS - Success
+[20.123s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1
+[20.204s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1 - Success
+[20.207s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2
+[20.309s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2 - Success
+[20.311s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16
+[20.404s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16 - Success
+[20.407s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX
+[20.504s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX - Success
+[20.507s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2
+[20.597s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2 - Success
+[20.599s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX
+[20.692s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX - Success
+[20.692s] -- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
+[20.785s] -- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
+[20.785s] -- Performing Test HAVE_C_FVISIBILITY_HIDDEN
+[20.872s] -- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
+[20.872s] -- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN
+[20.946s] -- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN - Success
+[20.946s] -- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN
+[21.015s] -- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN - Failed
+[21.016s] -- Performing Test HAVE_LINK_AS_NEEDED
+[21.099s] -- Performing Test HAVE_LINK_AS_NEEDED - Success
+[21.099s] -- Performing Test HAVE_LINK_NO_UNDEFINED
+[21.191s] -- Performing Test HAVE_LINK_NO_UNDEFINED - Success
+[21.200s] -- Looking for pthread.h
+[21.287s] -- Looking for pthread.h - found
+[21.287s] -- Looking for posix_memalign
+[21.377s] -- Looking for posix_memalign - found
+[21.377s] -- Looking for malloc.h
+[21.462s] -- Looking for malloc.h - found
+[21.463s] -- Looking for memalign
+[21.538s] -- Looking for memalign - found
+[21.553s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found suitable version "1.2.11", minimum required is "1.2.3") 
+[21.565s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[21.574s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[21.577s] -- Found WebP: /usr/lib/x86_64-linux-gnu/libwebp.so  
+[21.585s] -- The imported target "openjpip" references the file
+[21.585s]    "/usr/lib/x86_64-linux-gnu/libopenjpip.so.2.4.0"
+[21.585s] but this file does not exist.  Possible reasons include:
+[21.585s] * The file was deleted, renamed, or moved to another location.
+[21.585s] * An install or uninstall procedure did not complete successfully.
+[21.585s] * The installation package was faulty and contained
+[21.585s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.585s] but not all the files it references.
+[21.586s] 
+[21.586s] -- The imported target "opj_decompress" references the file
+[21.586s]    "/usr/bin/opj_decompress"
+[21.586s] but this file does not exist.  Possible reasons include:
+[21.586s] * The file was deleted, renamed, or moved to another location.
+[21.586s] * An install or uninstall procedure did not complete successfully.
+[21.586s] * The installation package was faulty and contained
+[21.586s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.587s] but not all the files it references.
+[21.587s] 
+[21.587s] -- The imported target "opj_compress" references the file
+[21.587s]    "/usr/bin/opj_compress"
+[21.587s] but this file does not exist.  Possible reasons include:
+[21.587s] * The file was deleted, renamed, or moved to another location.
+[21.587s] * An install or uninstall procedure did not complete successfully.
+[21.587s] * The installation package was faulty and contained
+[21.587s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.587s] but not all the files it references.
+[21.587s] 
+[21.587s] -- The imported target "opj_dump" references the file
+[21.587s]    "/usr/bin/opj_dump"
+[21.587s] but this file does not exist.  Possible reasons include:
+[21.588s] * The file was deleted, renamed, or moved to another location.
+[21.588s] * An install or uninstall procedure did not complete successfully.
+[21.588s] * The installation package was faulty and contained
+[21.588s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.588s] but not all the files it references.
+[21.588s] 
+[21.588s] -- The imported target "opj_jpip_addxml" references the file
+[21.588s]    "/usr/bin/opj_jpip_addxml"
+[21.588s] but this file does not exist.  Possible reasons include:
+[21.588s] * The file was deleted, renamed, or moved to another location.
+[21.588s] * An install or uninstall procedure did not complete successfully.
+[21.588s] * The installation package was faulty and contained
+[21.588s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.588s] but not all the files it references.
+[21.588s] 
+[21.589s] -- The imported target "opj_server" references the file
+[21.589s]    "/usr/bin/opj_server"
+[21.589s] but this file does not exist.  Possible reasons include:
+[21.589s] * The file was deleted, renamed, or moved to another location.
+[21.589s] * An install or uninstall procedure did not complete successfully.
+[21.589s] * The installation package was faulty and contained
+[21.589s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.589s] but not all the files it references.
+[21.589s] 
+[21.589s] -- The imported target "opj_dec_server" references the file
+[21.589s]    "/usr/bin/opj_dec_server"
+[21.589s] but this file does not exist.  Possible reasons include:
+[21.589s] * The file was deleted, renamed, or moved to another location.
+[21.589s] * An install or uninstall procedure did not complete successfully.
+[21.589s] * The installation package was faulty and contained
+[21.590s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.590s] but not all the files it references.
+[21.590s] 
+[21.590s] -- The imported target "opj_jpip_transcode" references the file
+[21.590s]    "/usr/bin/opj_jpip_transcode"
+[21.590s] but this file does not exist.  Possible reasons include:
+[21.590s] * The file was deleted, renamed, or moved to another location.
+[21.590s] * An install or uninstall procedure did not complete successfully.
+[21.590s] * The installation package was faulty and contained
+[21.590s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.590s] but not all the files it references.
+[21.590s] 
+[21.590s] -- The imported target "opj_jpip_test" references the file
+[21.591s]    "/usr/bin/opj_jpip_test"
+[21.591s] but this file does not exist.  Possible reasons include:
+[21.591s] * The file was deleted, renamed, or moved to another location.
+[21.591s] * An install or uninstall procedure did not complete successfully.
+[21.591s] * The installation package was faulty and contained
+[21.591s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.1/OpenJPEGTargets.cmake"
+[21.591s] but not all the files it references.
+[21.591s] 
+[21.591s] -- Found system OpenJPEG: openjp2 (found version "2.4.0")
+[21.628s] -- Found OpenEXR: /usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so
+[21.629s] -- libva: missing va.h header (VA_INCLUDE_DIR)
+[21.630s] -- IPPICV: Downloading ippicv_2021.11.0_lnx_intel64_20240201_general.tgz from https://raw.githubusercontent.com/opencv/opencv_3rdparty/fd27188235d85e552de31425e7ea0f53ba73ba53/ippicv/ippicv_2021.11.0_lnx_intel64_20240201_general.tgz
+[22.189s] -- found Intel IPP (ICV version): 2021.11.0 [2021.11.0]
+[22.189s] -- at: /home/adminlab/franka_ros2_ws/build/OpenCV/3rdparty/ippicv/ippicv_lnx/icv
+[22.190s] -- found Intel IPP Integration Wrappers sources: 2021.11.0
+[22.190s] -- at: /home/adminlab/franka_ros2_ws/build/OpenCV/3rdparty/ippicv/ippicv_lnx/iw
+[22.212s] -- Could not find OpenBLAS include. Turning OpenBLAS_FOUND off
+[22.212s] -- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+[22.223s] -- Could NOT find Atlas (missing: Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY) 
+[22.228s] -- Looking for sgemm_
+[22.319s] -- Looking for sgemm_ - not found
+[22.320s] -- Looking for pthread.h
+[22.414s] -- Looking for pthread.h - found
+[22.414s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[22.512s] -- Found Threads: TRUE  
+[22.622s] -- Looking for sgemm_
+[22.715s] -- Looking for sgemm_ - found
+[22.715s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[22.718s] -- Looking for cheev_
+[22.812s] -- Looking for cheev_ - not found
+[22.839s] -- Looking for cheev_
+[22.914s] -- Looking for cheev_ - not found
+[22.915s] -- Looking for cheev_
+[23.022s] -- Looking for cheev_ - found
+[23.022s] -- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  
+[23.027s] -- Performing Test HAVE_CXX_WNO_DEPRECATED
+[23.127s] -- Performing Test HAVE_CXX_WNO_DEPRECATED - Success
+[23.127s] -- Performing Test HAVE_CXX_WNO_MISSING_PROTOTYPES
+[23.229s] -- Performing Test HAVE_CXX_WNO_MISSING_PROTOTYPES - Failed
+[23.229s] -- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS
+[23.322s] -- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS - Success
+[23.322s] -- Performing Test HAVE_CXX_WNO_SHADOW
+[23.410s] -- Performing Test HAVE_CXX_WNO_SHADOW - Success
+[23.410s] -- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER
+[23.504s] -- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success
+[23.505s] -- Performing Test HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS
+[23.599s] -- Performing Test HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS - Success
+[23.600s] -- Performing Test HAVE_CXX_WNO_SIGN_COMPARE
+[23.695s] -- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success
+[23.696s] -- Performing Test HAVE_CXX_WNO_SIGN_PROMO
+[23.772s] -- Performing Test HAVE_CXX_WNO_SIGN_PROMO - Success
+[23.772s] -- Performing Test HAVE_CXX_WNO_UNDEF
+[23.865s] -- Performing Test HAVE_CXX_WNO_UNDEF - Success
+[23.865s] -- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE
+[23.960s] -- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE - Failed
+[23.960s] -- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS
+[24.051s] -- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS - Success
+[24.052s] -- Performing Test HAVE_CXX_WNO_EXTRA
+[24.137s] -- Performing Test HAVE_CXX_WNO_EXTRA - Success
+[24.137s] -- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION
+[24.228s] -- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION - Success
+[24.228s] -- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE
+[24.301s] -- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE - Success
+[24.302s] -- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32
+[24.382s] -- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32 - Failed
+[24.383s] -- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF
+[24.473s] -- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF - Success
+[24.473s] -- Performing Test HAVE_CXX_WNO_ENUM_COMPARE_SWITCH
+[24.572s] -- Performing Test HAVE_CXX_WNO_ENUM_COMPARE_SWITCH - Failed
+[24.572s] -- Performing Test HAVE_CXX_WNO_SUGGEST_OVERRIDE
+[24.669s] -- Performing Test HAVE_CXX_WNO_SUGGEST_OVERRIDE - Success
+[24.669s] -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE
+[24.770s] -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE - Failed
+[24.771s] -- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH
+[24.866s] -- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH - Success
+[24.866s] -- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS
+[24.963s] -- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS - Success
+[24.963s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW
+[25.075s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW - Success
+[25.081s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD
+[25.192s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD - Success
+[25.192s] -- Performing Test HAVE_CXX_WNO_EXTRA_SEMI
+[25.327s] -- Performing Test HAVE_CXX_WNO_EXTRA_SEMI - Success
+[25.328s] -- Performing Test HAVE_CXX_WNO_COMMA
+[25.455s] -- Performing Test HAVE_CXX_WNO_COMMA - Failed
+[25.456s] -- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS
+[25.589s] -- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS - Success
+[25.718s] -- Found Java: /usr/bin/java (found version "11.0.23") 
+[25.735s] -- Found JNI: /usr/lib/jvm/default-java/lib/libjawt.so  
+[29.341s] -- Found VTK 9.1.0
+[29.361s] -- Looking for dlerror in dl
+[29.464s] -- Looking for dlerror in dl - found
+[29.465s] -- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH
+[29.569s] -- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH - Success
+[29.569s] -- Performing Test HAVE_C_WNO_UNDEF
+[29.650s] -- Performing Test HAVE_C_WNO_UNDEF - Success
+[29.650s] -- Performing Test HAVE_C_WNO_SIGN_COMPARE
+[29.747s] -- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
+[29.747s] -- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES
+[29.847s] -- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES - Success
+[29.873s] -- ADE: Downloading v0.1.2d.zip from https://github.com/opencv/ade/archive/v0.1.2d.zip
+[29.911s] -- Checking for module 'gtk+-3.0'
+[29.955s] --   Found gtk+-3.0, version 3.24.33
+[30.056s] -- Checking for module 'gtk+-2.0'
+[30.062s] --   No package 'gtk+-2.0' found
+[30.063s] -- Checking for module 'gthread-2.0>=2.32'
+[30.093s] --   Found gthread-2.0, version 2.72.4
+[30.181s] -- Checking for modules 'libavcodec;libavformat;libavutil;libswscale'
+[30.228s] --   Found libavcodec, version 58.134.100
+[30.250s] --   Found libavformat, version 58.76.100
+[30.271s] --   Found libavutil, version 56.70.100
+[30.299s] --   Found libswscale, version 5.9.100
+[30.365s] -- Checking for module 'libavresample'
+[30.371s] --   No package 'libavresample' found
+[30.766s] -- WARNING: Can't build ffmpeg test code
+[30.767s] -- Checking for module 'gstreamer-base-1.0'
+[30.802s] --   Found gstreamer-base-1.0, version 1.20.3
+[30.863s] -- Checking for module 'gstreamer-app-1.0'
+[30.898s] --   Found gstreamer-app-1.0, version 1.20.1
+[30.964s] -- Checking for module 'gstreamer-riff-1.0'
+[30.999s] --   Found gstreamer-riff-1.0, version 1.20.1
+[31.066s] -- Checking for module 'gstreamer-pbutils-1.0'
+[31.098s] --   Found gstreamer-pbutils-1.0, version 1.20.1
+[31.167s] -- Checking for module 'gstreamer-video-1.0'
+[31.200s] --   Found gstreamer-video-1.0, version 1.20.1
+[31.264s] -- Checking for module 'gstreamer-audio-1.0'
+[31.294s] --   Found gstreamer-audio-1.0, version 1.20.1
+[31.501s] -- Checking for module 'libdc1394-2'
+[31.531s] --   Found libdc1394-2, version 2.2.6
+[31.780s] -- Allocator metrics storage type: 'long long'
+[31.800s] -- Excluding from source files list: <BUILD>/modules/core/test/test_intrin256.lasx.cpp
+[31.837s] -- Excluding from source files list: modules/imgproc/src/imgwarp.lasx.cpp
+[31.838s] -- Excluding from source files list: modules/imgproc/src/resize.lasx.cpp
+[31.897s] -- Registering hook 'INIT_MODULE_SOURCES_opencv_dnn': /home/adminlab/franka_ros2_ws/src/opencv/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
+[31.943s] -- opencv_dnn: filter out cuda4dnn source code
+[31.955s] -- Excluding from source files list: modules/dnn/src/layers/cpu_kernels/conv_winograd_f63.neon.cpp
+[31.959s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.rvv.cpp
+[31.959s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.lasx.cpp
+[31.960s] -- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.rvv.cpp
+[31.961s] -- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.lasx.cpp
+[31.961s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon.cpp
+[31.961s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon_fp16.cpp
+[31.963s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.rvv.cpp
+[31.963s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.lasx.cpp
+[31.963s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_winograd_f63.neon_fp16.cpp
+[31.964s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.neon.cpp
+[31.964s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.lasx.cpp
+[32.010s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+[32.128s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+[32.179s] -- highgui: using builtin backend: GTK3
+[32.331s] -- Found 'misc' Python modules from /home/adminlab/franka_ros2_ws/src/opencv/modules/python/package/extra_modules
+[32.332s] -- Found 'mat_wrapper;utils' Python modules from /home/adminlab/franka_ros2_ws/src/opencv/modules/core/misc/python/package
+[32.333s] -- Found 'gapi' Python modules from /home/adminlab/franka_ros2_ws/src/opencv/modules/gapi/misc/python/package
+[32.436s] -- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+[32.553s] -- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+[32.553s] -- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD
+[32.669s] -- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD - Failed
+[32.671s] -- Found 'misc' Python modules from /home/adminlab/franka_ros2_ws/src/opencv/modules/python/package/extra_modules
+[32.671s] -- Found 'mat_wrapper;utils' Python modules from /home/adminlab/franka_ros2_ws/src/opencv/modules/core/misc/python/package
+[32.672s] -- Found 'gapi' Python modules from /home/adminlab/franka_ros2_ws/src/opencv/modules/gapi/misc/python/package
+[32.712s] -- 
+[32.713s] -- General configuration for OpenCV 4.10.0-pre =====================================
+[32.713s] --   Version control:               4.9.0-529-gd9421ac148
+[32.713s] -- 
+[32.713s] --   Platform:
+[32.713s] --     Timestamp:                   2024-06-12T13:17:15Z
+[32.713s] --     Host:                        Linux 5.9.1-rt20 x86_64
+[32.713s] --     CMake:                       3.22.1
+[32.713s] --     CMake generator:             Unix Makefiles
+[32.713s] --     CMake build tool:            /usr/bin/gmake
+[32.714s] --     Configuration:               Release
+[32.714s] -- 
+[32.714s] --   CPU/HW features:
+[32.714s] --     Baseline:                    SSE SSE2 SSE3
+[32.714s] --       requested:                 SSE3
+[32.714s] --     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+[32.714s] --       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+[32.714s] --       SSE4_1 (18 files):         + SSSE3 SSE4_1
+[32.714s] --       SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+[32.715s] --       FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+[32.715s] --       AVX (9 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+[32.715s] --       AVX2 (38 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+[32.715s] --       AVX512_SKX (8 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
+[32.715s] -- 
+[32.715s] --   C/C++:
+[32.715s] --     Built as dynamic libs?:      YES
+[32.715s] --     C++ standard:                11
+[32.715s] --     C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
+[32.716s] --     C++ flags (Release):         -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+[32.716s] --     C++ flags (Debug):           -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+[32.716s] --     C Compiler:                  /usr/bin/cc
+[32.716s] --     C flags (Release):           -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+[32.716s] --     C flags (Debug):             -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+[32.716s] --     Linker flags (Release):      -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  
+[32.716s] --     Linker flags (Debug):        -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  
+[32.716s] --     ccache:                      NO
+[32.716s] --     Precompiled headers:         NO
+[32.721s] --     Extra dependencies:          dl m pthread rt
+[32.722s] --     3rdparty dependencies:
+[32.722s] -- 
+[32.722s] --   OpenCV modules:
+[32.722s] --     To be built:                 calib3d core dnn features2d flann gapi highgui imgcodecs imgproc java ml objdetect photo python3 stitching ts video videoio
+[32.722s] --     Disabled:                    world
+[32.722s] --     Disabled by dependency:      -
+[32.722s] --     Unavailable:                 python2
+[32.723s] --     Applications:                tests perf_tests apps
+[32.723s] --     Documentation:               NO
+[32.724s] --     Non-free algorithms:         NO
+[32.724s] -- 
+[32.724s] --   GUI:                           GTK3
+[32.724s] --     GTK+:                        YES (ver 3.24.33)
+[32.724s] --       GThread :                  YES (ver 2.72.4)
+[32.724s] --       GtkGlExt:                  NO
+[32.724s] --     VTK support:                 YES (ver 9.1.0)
+[32.724s] -- 
+[32.724s] --   Media I/O: 
+[32.724s] --     ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.11)
+[32.725s] --     JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver 80)
+[32.725s] --     WEBP:                        /usr/lib/x86_64-linux-gnu/libwebp.so (ver encoder: 0x020f)
+[32.725s] --     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.6.37)
+[32.725s] --     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.3.0)
+[32.725s] --     JPEG 2000:                   OpenJPEG (ver 2.4.0)
+[32.725s] --     OpenEXR:                     /usr/lib/x86_64-linux-gnu/libImath-2_5.so /usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so /usr/lib/x86_64-linux-gnu/libIex-2_5.so /usr/lib/x86_64-linux-gnu/libHalf-2_5.so /usr/lib/x86_64-linux-gnu/libIlmThread-2_5.so (ver 2_5)
+[32.725s] --     HDR:                         YES
+[32.725s] --     SUNRASTER:                   YES
+[32.726s] --     PXM:                         YES
+[32.726s] --     PFM:                         YES
+[32.726s] -- 
+[32.726s] --   Video I/O:
+[32.726s] --     DC1394:                      YES (2.2.6)
+[32.726s] --     FFMPEG:                      NO
+[32.726s] --       avcodec:                   YES (58.134.100)
+[32.726s] --       avformat:                  YES (58.76.100)
+[32.726s] --       avutil:                    YES (56.70.100)
+[32.727s] --       swscale:                   YES (5.9.100)
+[32.727s] --       avresample:                NO
+[32.727s] --     GStreamer:                   YES (1.20.3)
+[32.727s] --     v4l/v4l2:                    YES (linux/videodev2.h)
+[32.727s] -- 
+[32.728s] --   Parallel framework:            pthreads
+[32.728s] -- 
+[32.728s] --   Trace:                         YES (with Intel ITT)
+[32.728s] -- 
+[32.728s] --   Other third-party libraries:
+[32.728s] --     Intel IPP:                   2021.11.0 [2021.11.0]
+[32.728s] --            at:                   /home/adminlab/franka_ros2_ws/build/OpenCV/3rdparty/ippicv/ippicv_lnx/icv
+[32.728s] --     Intel IPP IW:                sources (2021.11.0)
+[32.728s] --               at:                /home/adminlab/franka_ros2_ws/build/OpenCV/3rdparty/ippicv/ippicv_lnx/iw
+[32.729s] --     VA:                          NO
+[32.729s] --     Lapack:                      NO
+[32.729s] --     Eigen:                       YES (ver 3.4.0)
+[32.729s] --     Custom HAL:                  NO
+[32.729s] --     Protobuf:                    build (3.19.1)
+[32.729s] --     Flatbuffers:                 builtin/3rdparty (23.5.9)
+[32.729s] -- 
+[32.730s] --   OpenCL:                        YES (no extra features)
+[32.730s] --     Include path:                /home/adminlab/franka_ros2_ws/src/opencv/3rdparty/include/opencl/1.2
+[32.730s] --     Link libraries:              Dynamic load
+[32.730s] -- 
+[32.730s] --   Python 3:
+[32.730s] --     Interpreter:                 /usr/bin/python3 (ver 3.10.12)
+[32.730s] --     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.10.so (ver 3.10.12)
+[32.730s] --     Limited API:                 NO
+[32.730s] --     numpy:                       /home/adminlab/.local/lib/python3.10/site-packages/numpy/core/include (ver 1.26.4)
+[32.731s] --     install path:                lib/python3.10/dist-packages/cv2/python-3.10
+[32.731s] -- 
+[32.731s] --   Python (for build):            /usr/bin/python3
+[32.731s] -- 
+[32.731s] --   Java:                          
+[32.731s] --     ant:                         NO
+[32.731s] --     Java:                        YES (ver 11.0.23)
+[32.731s] --     JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+[32.731s] --     Java wrappers:               YES (JAVA)
+[32.731s] --     Java tests:                  NO
+[32.732s] -- 
+[32.732s] --   Install to:                    /home/adminlab/franka_ros2_ws/install/OpenCV
+[32.732s] -- -----------------------------------------------------------------
+[32.732s] -- 
+[33.480s] -- Configuring done
+[33.876s] -- Generating done
+[33.893s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/OpenCV
+[33.956s] Invoked command in '/home/adminlab/franka_ros2_ws/build/OpenCV' returned '0': /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/opencv -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/OpenCV
+[33.961s] Invoking command in '/home/adminlab/franka_ros2_ws/build/OpenCV': /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/OpenCV -- -j16 -l16
+[34.040s] [  0%] Built target opencv_dnn_plugins
+[34.066s] [  0%] [34m[1mGenerate files for Python bindings and documentation[0m
+[34.540s] Note: Class cv::Feature2D has more than 1 base class (not supported by Python C extensions)
+[34.541s]       Bases:  cv::Algorithm, cv::class, cv::Feature2D, cv::Algorithm
+[34.541s]       Only the first base class will be used
+[34.735s] Note: Class cv::detail::GraphCutSeamFinder has more than 1 base class (not supported by Python C extensions)
+[34.736s]       Bases:  cv::detail::GraphCutSeamFinderBase, cv::detail::SeamFinder
+[34.736s]       Only the first base class will be used
+[35.750s] [  0%] Built target gen_opencv_python_source
+[35.782s] [  0%] [34m[1mGenerate files for Java bindings[0m
+[35.862s] JAVA: Processing OpenCV modules: 12
+[35.960s] duplicated: CLASS cv::.Algorithm : 
+[37.251s] Generated files: 259 (updated 259)
+[37.284s] [  0%] Built target gen_opencv_java_source
+[37.315s] [  0%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/alloc.cpp.o[0m
+[37.404s] [  0%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/memory_descriptor_view.cpp.o[0m
+[38.025s] [  0%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/metadata.cpp.o[0m
+[38.336s] [  0%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/metatypes.cpp.o[0m
+[38.734s] [  0%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/node.cpp.o[0m
+[39.147s] [  0%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/passes/communications.cpp.o[0m
+[40.981s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/search.cpp.o[0m
+[41.684s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/subgraphs.cpp.o[0m
+[42.799s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/topological_sort.cpp.o[0m
+[43.618s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/memory_descriptor_ref.cpp.o[0m
+[44.060s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/memory_descriptor.cpp.o[0m
+[44.470s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/memory_accessor.cpp.o[0m
+[45.078s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/graph.cpp.o[0m
+[45.901s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/execution_engine.cpp.o[0m
+[46.822s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/edge.cpp.o[0m
+[47.270s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/check_cycles.cpp.o[0m
+[47.879s] [  1%] [32mBuilding CXX object CMakeFiles/ade.dir/3rdparty/ade/ade-0.1.2d/sources/ade/source/assert.cpp.o[0m
+[47.960s] [  1%] [32m[1mLinking CXX static library 3rdparty/lib/libade.a[0m
+[48.047s] [  1%] Built target ade
+[48.075s] [  1%] [34m[1mCopy Java(JAR) source files[0m
+[48.146s] [  1%] Built target opencv_java_jar_source_copy
+[48.178s] [  1%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any_lite.cc.o[0m
+[49.006s] [  1%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/zero_copy_stream_impl.cc.o[0m
+[49.433s] [  1%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o[0m
+[49.891s] [  1%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/map.cc.o[0m
+[50.352s] [  1%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/message_lite.cc.o[0m
+[51.193s] [  1%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/parse_context.cc.o[0m
+[52.260s] [  1%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/repeated_field.cc.o[0m
+[53.664s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/repeated_ptr_field.cc.o[0m
+[54.115s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/bytestream.cc.o[0m
+[54.452s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/common.cc.o[0m
+[54.948s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/int128.cc.o[0m
+[55.355s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/status.cc.o[0m
+[55.794s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/stringpiece.cc.o[0m
+[56.124s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/stringprintf.cc.o[0m
+[56.447s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/structurally_valid.cc.o[0m
+[56.778s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/strutil.cc.o[0m
+[57.858s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wire_format_lite.cc.o[0m
+[58.651s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any.cc.o[0m
+[59.155s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor.cc.o[0m
+[64.190s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/zero_copy_stream.cc.o[0m
+[64.191s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor.pb.cc.o[0m
+[64.782s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/strtod.cc.o[0m
+[64.783s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/io_win32.cc.o[0m
+[64.830s] [  2%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor_database.cc.o[0m
+[65.399s] [  3%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/dynamic_message.cc.o[0m
+[66.446s] [  3%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/extension_set_heavy.cc.o[0m
+[66.449s] [  3%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/coded_stream.cc.o[0m
+[66.457s] [  3%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/implicit_weak_message.cc.o[0m
+[67.494s] [  3%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_util.cc.o[0m
+[67.508s] [  3%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/extension_set.cc.o[0m
+[67.573s] [  3%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_reflection.cc.o[0m
+[67.573s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arenastring.cc.o[0m
+[68.214s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/tokenizer.cc.o[0m
+[68.257s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/map_field.cc.o[0m
+[73.586s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wire_format.cc.o[0m
+[76.640s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/unknown_field_set.cc.o[0m
+[77.630s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/text_format.cc.o[0m
+[81.455s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/substitute.cc.o[0m
+[81.814s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/reflection_ops.cc.o[0m
+[82.857s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/message.cc.o[0m
+[84.078s] [  4%] [32mBuilding CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arena.cc.o[0m
+[84.549s] [  4%] [32m[1mLinking CXX static library ../lib/liblibprotobuf.a[0m
+[84.650s] [  4%] Built target libprotobuf
+[84.669s] [  4%] [34m[1mGenerating ../../../CMakeFiles/dephelper/opencv_java_jar[0m
+[84.697s] [  4%] Built target opencv_java_jar_sources
+[84.718s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_core.c.o[0m
+[84.800s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_scharr.c.o[0m
+[84.879s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_sobel.c.o[0m
+[84.974s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy.c.o[0m
+[85.044s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy_channel.c.o[0m
+[85.116s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy_make_border.c.o[0m
+[85.326s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy_merge.c.o[0m
+[85.406s] [  4%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_copy_split.c.o[0m
+[85.486s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_scale.c.o[0m
+[85.575s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_set.c.o[0m
+[85.749s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_set_channel.c.o[0m
+[85.823s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_op_swap_channels.c.o[0m
+[85.900s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_transform_mirror.c.o[0m
+[85.979s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_transform_resize.c.o[0m
+[86.126s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_transform_rotate.c.o[0m
+[86.181s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_transform_warpaffine.c.o[0m
+[86.295s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_own.c.o[0m
+[86.433s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_morphology.c.o[0m
+[86.576s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_laplacian.c.o[0m
+[86.648s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_general.c.o[0m
+[86.750s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_gaussian.c.o[0m
+[86.897s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_canny.c.o[0m
+[86.977s] [  5%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_box.c.o[0m
+[87.080s] [  6%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_filter_bilateral.c.o[0m
+[87.168s] [  6%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_color_convert_rgbs.c.o[0m
+[87.241s] [  6%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image_color_convert_all.c.o[0m
+[87.326s] [  6%] [32mBuilding C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image.c.o[0m
+[87.611s] [  6%] [32m[1mLinking C static library ../lib/libippiw.a[0m
+[87.673s] [  6%] Built target ippiw
+[87.696s] [  6%] [34m[1mBuilding Java objects for opencv_java_jar.jar[0m
+[90.532s] Note: Some input files use or override a deprecated API.
+[90.532s] Note: Recompile with -Xlint:deprecation for details.
+[90.611s] [  6%] [34m[1mGenerating CMakeFiles/opencv_java_jar.dir/java_class_filelist[0m
+[90.632s] [  6%] [34m[1mCreating Java archive opencv-4100.jar[0m
+[90.771s] [  6%] Built target opencv_java_jar
+[90.792s] [  6%] [32mBuilding C object 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o[0m
+[91.247s] [  6%] [32mBuilding C object 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o[0m
+[91.292s] [  6%] [32m[1mLinking C static library ../lib/libittnotify.a[0m
+[91.351s] [  6%] Built target ittnotify
+[91.369s] [  6%] Built target opencv_videoio_plugins
+[91.380s] [  6%] [34m[1mProcessing OpenCL kernels (core)[0m
+[91.425s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o[0m
+[92.635s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert_c.cpp.o[0m
+[93.902s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert_scale.dispatch.cpp.o[0m
+[96.062s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o[0m
+[97.929s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/count_non_zero.dispatch.cpp.o[0m
+[99.333s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o[0m
+[100.663s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat_nd.cpp.o[0m
+[102.029s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o[0m
+[103.479s] [  6%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o[0m
+[105.203s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o[0m
+[106.490s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o[0m
+[108.703s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o[0m
+[109.943s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o[0m
+[111.640s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o[0m
+[114.671s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o[0m
+[114.671s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.dispatch.cpp.o[0m
+[115.706s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o[0m
+[115.716s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o[0m
+[116.202s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/check.cpp.o[0m
+[117.266s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/channels.cpp.o[0m
+[117.267s] [  7%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o[0m
+[118.382s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/buffer_area.cpp.o[0m
+[118.412s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/bindings_utils.cpp.o[0m
+[118.522s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/batch_distance.cpp.o[0m
+[118.550s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/async.cpp.o[0m
+[122.510s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o[0m
+[125.061s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matmul.dispatch.cpp.o[0m
+[131.272s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o[0m
+[132.992s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_c.cpp.o[0m
+[134.299s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o[0m
+[136.158s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_expressions.cpp.o[0m
+[138.495s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_iterator.cpp.o[0m
+[139.718s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_operations.cpp.o[0m
+[144.800s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_sparse.cpp.o[0m
+[147.061s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_transform.cpp.o[0m
+[149.085s] [  8%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_wrap.cpp.o[0m
+[149.321s] [  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o[0m
+[150.340s] [  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/mean.dispatch.cpp.o[0m
+[151.359s] [  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/lut.cpp.o[0m
+[151.786s] [  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o[0m
+[152.621s] [  9%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/merge.dispatch.cpp.o[0m
+[153.642s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/minmax.cpp.o[0m
+[154.751s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clblas.cpp.o[0m
+[156.778s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clfft.cpp.o[0m
+[157.254s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o[0m
+[157.499s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o[0m
+[164.271s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o[0m
+[164.275s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o[0m
+[164.275s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o[0m
+[165.296s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/logger.cpp.o[0m
+[165.296s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/norm.cpp.o[0m
+[166.321s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o[0m
+[166.321s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o[0m
+[166.851s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o[0m
+[166.859s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/has_non_zero.dispatch.cpp.o[0m
+[166.878s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o[0m
+[167.232s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel.cpp.o[0m
+[168.328s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_openmp.cpp.o[0m
+[168.344s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o[0m
+[180.355s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o[0m
+[182.771s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o[0m
+[184.481s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/split.dispatch.cpp.o[0m
+[185.788s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o[0m
+[186.832s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat_c.cpp.o[0m
+[187.896s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o[0m
+[188.899s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/sum.dispatch.cpp.o[0m
+[190.544s] [ 10%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o[0m
+[192.501s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o[0m
+[193.514s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o[0m
+[195.117s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o[0m
+[196.219s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o[0m
+[197.703s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/datafile.cpp.o[0m
+[199.241s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/filesystem.cpp.o[0m
+[200.259s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagconfigparser.cpp.o[0m
+[201.124s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_yml.cpp.o[0m
+[201.124s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_xml.cpp.o[0m
+[202.144s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagmanager.cpp.o[0m
+[202.884s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_types.cpp.o[0m
+[202.884s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_json.cpp.o[0m
+[206.338s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.sse4_1.cpp.o[0m
+[211.004s] [ 11%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o[0m
+[212.092s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o[0m
+[213.785s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o[0m
+[215.593s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o[0m
+[217.066s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/arithm.avx2.cpp.o[0m
+[222.259s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/convert.avx2.cpp.o[0m
+[224.762s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/convert_scale.avx2.cpp.o[0m
+[226.905s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/count_non_zero.avx2.cpp.o[0m
+[228.308s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/has_non_zero.avx2.cpp.o[0m
+[229.322s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.avx2.cpp.o[0m
+[229.324s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o[0m
+[229.324s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/arithm.sse4_1.cpp.o[0m
+[229.734s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/samples.cpp.o[0m
+[229.734s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o[0m
+[229.846s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/mean.avx2.cpp.o[0m
+[230.867s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/merge.avx2.cpp.o[0m
+[230.867s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_base64_encoding.cpp.o[0m
+[231.926s] [ 12%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o[0m
+[231.950s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o[0m
+[232.330s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel_impl.cpp.o[0m
+[232.372s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/split.avx2.cpp.o[0m
+[233.427s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/sum.avx2.cpp.o[0m
+[233.443s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel/parallel_tbb.cpp.o[0m
+[233.524s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o[0m
+[233.574s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.dispatch.cpp.o[0m
+[242.009s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.avx512_skx.cpp.o[0m
+[246.463s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o[0m
+[246.468s] [ 13%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o[0m
+[250.136s] [ 14%] [32m[1mLinking CXX shared library ../../lib/libopencv_core.so[0m
+[251.231s] [ 14%] Built target opencv_core
+[251.250s] [ 14%] [34m[1mProcessing OpenCL kernels (imgproc)[0m
+[251.267s] [ 14%] Built target opencv_highgui_plugins
+[251.300s] [ 14%] [32mBuilding CXX object apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o[0m
+[251.346s] [ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.cpp.o[0m
+[251.346s] [ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.dispatch.cpp.o[0m
+[252.474s] [ 14%] [32m[1mLinking CXX executable ../../bin/opencv_version[0m
+[252.616s] [ 14%] Built target opencv_version
+[252.631s] [ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/colormap.cpp.o[0m
+[252.652s] [ 14%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.cpp.o[0m
+[256.683s] [ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/connectedcomponents.cpp.o[0m
+[257.233s] [ 14%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/data.cpp.o[0m
+[261.075s] [ 14%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/boost.cpp.o[0m
+[263.017s] [ 14%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/em.cpp.o[0m
+[264.089s] [ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_approx.cpp.o[0m
+[265.106s] [ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.cpp.o[0m
+[265.986s] [ 14%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.cpp.o[0m
+[266.126s] [ 14%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_yuv.dispatch.cpp.o[0m
+[266.304s] [ 15%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_rgb.dispatch.cpp.o[0m
+[266.304s] [ 15%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.cpp.o[0m
+[267.325s] [ 15%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_lab.cpp.o[0m
+[268.339s] [ 15%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/kdtree.cpp.o[0m
+[268.370s] [ 15%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_hsv.dispatch.cpp.o[0m
+[268.864s] [ 15%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.cpp.o[0m
+[268.867s] [ 16%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.cpp.o[0m
+[272.420s] [ 16%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.cpp.o[0m
+[275.105s] [ 16%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svmsgd.cpp.o[0m
+[275.612s] [ 16%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.cpp.o[0m
+[276.576s] [ 16%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/testset.cpp.o[0m
+[277.261s] [ 16%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.cpp.o[0m
+[277.865s] [ 16%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/tree.cpp.o[0m
+[278.683s] [ 16%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.cpp.o[0m
+[279.800s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/demosaicing.cpp.o[0m
+[280.632s] [ 17%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svm.cpp.o[0m
+[282.145s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.cpp.o[0m
+[283.352s] [ 17%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.cpp.o[0m
+[284.360s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.cpp.o[0m
+[284.396s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/drawing.cpp.o[0m
+[284.990s] [ 17%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/lr.cpp.o[0m
+[284.990s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.cpp.o[0m
+[286.010s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd_new.cpp.o[0m
+[286.867s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.cpp.o[0m
+[287.211s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.dispatch.cpp.o[0m
+[287.551s] [ 17%] [32m[1mLinking CXX shared library ../../lib/libopencv_ml.so[0m
+[287.584s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.cpp.o[0m
+[287.706s] [ 17%] Built target opencv_ml
+[287.738s] [ 17%] [32mBuilding CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/flann.cpp.o[0m
+[288.553s] [ 17%] [32mBuilding CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o[0m
+[288.553s] [ 17%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/generalized_hough.cpp.o[0m
+[294.110s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.cpp.o[0m
+[294.112s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hershey_fonts.cpp.o[0m
+[294.113s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.cpp.o[0m
+[295.132s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.cpp.o[0m
+[295.132s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/gabor.cpp.o[0m
+[295.774s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_new.cpp.o[0m
+[295.774s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_common.cpp.o[0m
+[295.774s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours_link.cpp.o[0m
+[296.270s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.cpp.o[0m
+[297.252s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.cpp.o[0m
+[297.264s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/clahe.cpp.o[0m
+[297.655s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intelligent_scissors.cpp.o[0m
+[297.670s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.cpp.o[0m
+[297.686s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/box_filter.dispatch.cpp.o[0m
+[298.550s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intersection.cpp.o[0m
+[298.570s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/blend.cpp.o[0m
+[298.750s] [ 18%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.cpp.o[0m
+[313.153s] [ 19%] [32m[1mLinking CXX shared library ../../lib/libopencv_flann.so[0m
+[313.375s] [ 19%] Built target opencv_flann
+[313.881s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.cpp.o[0m
+[316.512s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.cpp.o[0m
+[319.655s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.dispatch.cpp.o[0m
+[328.586s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spatialgradient.cpp.o[0m
+[330.521s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/stackblur.cpp.o[0m
+[333.132s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.cpp.o[0m
+[334.438s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.dispatch.cpp.o[0m
+[336.444s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.cpp.o[0m
+[337.338s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.cpp.o[0m
+[338.816s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.cpp.o[0m
+[340.415s] [ 19%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.cpp.o[0m
+[341.361s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/opencl_kernels_imgproc.cpp.o[0m
+[341.762s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.sse4_1.cpp.o[0m
+[342.874s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/resize.sse4_1.cpp.o[0m
+[343.817s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/accum.sse4_1.cpp.o[0m
+[344.837s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/box_filter.sse4_1.cpp.o[0m
+[345.855s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.cpp.o[0m
+[346.483s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.cpp.o[0m
+[347.502s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/filter.sse4_1.cpp.o[0m
+[348.523s] [ 20%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/resize.cpp.o[0m
+[348.645s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.cpp.o[0m
+[348.717s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_hsv.sse4_1.cpp.o[0m
+[357.461s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/smooth.sse4_1.cpp.o[0m
+[359.480s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.avx.cpp.o[0m
+[359.485s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/morph.sse4_1.cpp.o[0m
+[360.502s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/median_blur.sse4_1.cpp.o[0m
+[361.521s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_yuv.sse4_1.cpp.o[0m
+[361.980s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_rgb.sse4_1.cpp.o[0m
+[362.635s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/accum.avx.cpp.o[0m
+[362.635s] [ 21%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/phasecorr.cpp.o[0m
+[363.657s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.avx2.cpp.o[0m
+[365.274s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/resize.avx2.cpp.o[0m
+[366.130s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.dispatch.cpp.o[0m
+[366.157s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/accum.avx2.cpp.o[0m
+[366.614s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/bilateral_filter.avx2.cpp.o[0m
+[367.114s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/box_filter.avx2.cpp.o[0m
+[368.175s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/filter.avx2.cpp.o[0m
+[368.730s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.cpp.o[0m
+[368.850s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/min_enclosing_triangle.cpp.o[0m
+[382.224s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/sumpixels.avx512_skx.cpp.o[0m
+[384.914s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/sumpixels.avx2.cpp.o[0m
+[387.775s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/smooth.avx2.cpp.o[0m
+[396.558s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/morph.avx2.cpp.o[0m
+[400.161s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/median_blur.avx2.cpp.o[0m
+[402.723s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_yuv.avx2.cpp.o[0m
+[405.886s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_rgb.avx2.cpp.o[0m
+[407.784s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_hsv.avx2.cpp.o[0m
+[409.624s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/median_blur.dispatch.cpp.o[0m
+[409.628s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.cpp.o[0m
+[411.300s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/main.cpp.o[0m
+[412.999s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsd.cpp.o[0m
+[413.090s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/bilateral_filter.dispatch.cpp.o[0m
+[415.033s] [ 22%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.cpp.o[0m
+[417.580s] [ 23%] [32m[1mLinking CXX shared library ../../lib/libopencv_imgproc.so[0m
+[419.575s] [ 23%] Built target opencv_imgproc
+[419.615s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o[0m
+[423.556s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o[0m
+[426.411s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pfm.cpp.o[0m
+[428.947s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o[0m
+[431.316s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o[0m
+[433.882s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_spng.cpp.o[0m
+[435.749s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o[0m
+[437.285s] [ 23%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o[0m
+[440.937s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o[0m
+[442.154s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o[0m
+[443.360s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o[0m
+[444.376s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o[0m
+[445.488s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000_openjpeg.cpp.o[0m
+[446.873s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o[0m
+[447.692s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o[0m
+[448.722s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o[0m
+[449.675s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o[0m
+[450.507s] [ 24%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o[0m
+[451.340s] [ 25%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o[0m
+[452.671s] [ 25%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o[0m
+[453.767s] [ 25%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o[0m
+[454.744s] [ 25%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_avif.cpp.o[0m
+[454.748s] [ 25%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o[0m
+[456.108s] [ 25%] [32m[1mLinking CXX shared library ../../lib/libopencv_imgcodecs.so[0m
+[456.334s] [ 25%] Built target opencv_imgcodecs
+[456.354s] [ 25%] [34m[1mProcessing OpenCL kernels (photo)[0m
+[456.354s] [ 25%] [34m[1mProcessing OpenCL kernels (features2d)[0m
+[456.354s] [ 25%] [34m[1mProcessing OpenCL kernels (dnn)[0m
+[456.405s] [ 25%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o[0m
+[456.405s] [ 25%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o[0m
+[456.405s] [ 25%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o[0m
+[456.410s] [ 25%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/affine_feature.cpp.o[0m
+[456.451s] [ 25%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/caffe/opencv-caffe.pb.cc.o[0m
+[457.429s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o[0m
+[457.446s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o[0m
+[457.446s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o[0m
+[458.503s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o[0m
+[459.871s] [ 26%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o[0m
+[462.206s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o[0m
+[463.076s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o[0m
+[463.725s] [ 26%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o[0m
+[465.529s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o[0m
+[466.602s] [ 26%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o[0m
+[469.634s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o[0m
+[470.467s] [ 26%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o[0m
+[471.458s] [ 26%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o[0m
+[472.474s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o[0m
+[473.182s] [ 27%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o[0m
+[473.256s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/types.pb.cc.o[0m
+[474.093s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/tensor_shape.pb.cc.o[0m
+[474.492s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o[0m
+[475.207s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/versions.pb.cc.o[0m
+[476.142s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/tensor.pb.cc.o[0m
+[476.521s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o[0m
+[477.066s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/backend.cpp.o[0m
+[477.716s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o[0m
+[478.923s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o[0m
+[479.037s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/caffe/caffe_io.cpp.o[0m
+[480.055s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o[0m
+[481.219s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o[0m
+[481.663s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/darknet/darknet_importer.cpp.o[0m
+[482.859s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o[0m
+[483.146s] [ 27%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/darknet/darknet_io.cpp.o[0m
+[484.155s] [ 27%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o[0m
+[484.164s] [ 28%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/caffe/caffe_shrinker.cpp.o[0m
+[485.175s] [ 28%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o[0m
+[485.184s] [ 28%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/caffe/caffe_importer.cpp.o[0m
+[485.209s] [ 28%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o[0m
+[485.893s] [ 28%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/op_def.pb.cc.o[0m
+[485.893s] [ 28%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/debug_utils.cpp.o[0m
+[485.893s] [ 28%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o[0m
+[486.606s] [ 28%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/dnn.cpp.o[0m
+[486.606s] [ 28%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o[0m
+[487.062s] [ 28%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/graph.pb.cc.o[0m
+[487.082s] [ 28%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o[0m
+[487.110s] [ 28%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o[0m
+[487.550s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o[0m
+[487.960s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o[0m
+[488.148s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/dnn_params.cpp.o[0m
+[488.300s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/function.pb.cc.o[0m
+[488.362s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o[0m
+[488.406s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/dnn_read.cpp.o[0m
+[488.482s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/tensorflow/attr_value.pb.cc.o[0m
+[488.993s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o[0m
+[489.002s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/misc/onnx/opencv-onnx.pb.cc.o[0m
+[490.176s] [ 29%] [32m[1mLinking CXX shared library ../../lib/libopencv_photo.so[0m
+[490.462s] [ 29%] Built target opencv_photo
+[494.039s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/sift.avx512_skx.cpp.o[0m
+[494.343s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/convolution_layer.cpp.o[0m
+[497.391s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/sift.avx2.cpp.o[0m
+[497.942s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/eltwise_layer.cpp.o[0m
+[500.163s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/fully_connected_layer.cpp.o[0m
+[500.708s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.avx2.cpp.o[0m
+[501.408s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/pooling_layer.cpp.o[0m
+[502.533s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/sift.sse4_1.cpp.o[0m
+[503.100s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/scale_layer.cpp.o[0m
+[504.080s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o[0m
+[504.558s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/sift.dispatch.cpp.o[0m
+[504.623s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layer_factory.cpp.o[0m
+[505.446s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/accum_layer.cpp.o[0m
+[506.799s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/arg_layer.cpp.o[0m
+[506.912s] [ 29%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o[0m
+[508.290s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/batch_norm_layer.cpp.o[0m
+[509.266s] [ 29%] [32m[1mLinking CXX shared library ../../lib/libopencv_features2d.so[0m
+[509.467s] [ 29%] Built target opencv_features2d
+[509.590s] [ 29%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/concat_layer.cpp.o[0m
+[510.755s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/blank_layer.cpp.o[0m
+[511.571s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/const_layer.cpp.o[0m
+[512.327s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/convolution_layer.cpp.o[0m
+[514.396s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/correlation_layer.cpp.o[0m
+[515.266s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/conv_depthwise.cpp.o[0m
+[516.143s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/conv_winograd_f63.cpp.o[0m
+[517.005s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/convolution.cpp.o[0m
+[518.874s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/fast_gemm.cpp.o[0m
+[519.891s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/fast_norm.cpp.o[0m
+[520.183s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/attention_layer.cpp.o[0m
+[520.847s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cpu_kernels/softmax.cpp.o[0m
+[521.660s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/crop_and_resize_layer.cpp.o[0m
+[522.158s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/cumsum_layer.cpp.o[0m
+[522.954s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/detection_output_layer.cpp.o[0m
+[523.666s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/einsum_layer.cpp.o[0m
+[527.535s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/eltwise_layer.cpp.o[0m
+[529.558s] [ 30%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/expand_layer.cpp.o[0m
+[529.559s] [ 31%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layer.cpp.o[0m
+[529.559s] [ 31%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/elementwise_layers.cpp.o[0m
+[530.582s] [ 31%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/quantization_utils.cpp.o[0m
+[530.582s] [ 31%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/softmax_layer.cpp.o[0m
+[530.640s] [ 31%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/layers_rvp052.cpp.o[0m
+[531.520s] [ 31%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/flatten_layer.cpp.o[0m
+[531.541s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/elementwise_layers.cpp.o[0m
+[531.730s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/flow_warp_layer.cpp.o[0m
+[532.074s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/fully_connected_layer.cpp.o[0m
+[533.234s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/gather_elements_layer.cpp.o[0m
+[533.274s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/int8layers/batch_norm_layer.cpp.o[0m
+[533.464s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/init.cpp.o[0m
+[533.502s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ie_ngraph.cpp.o[0m
+[533.515s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/halide_scheduler.cpp.o[0m
+[534.112s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/gather_layer.cpp.o[0m
+[542.075s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/normalize_bbox_layer.cpp.o[0m
+[543.548s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/not_implemented_layer.cpp.o[0m
+[544.974s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/padding_layer.cpp.o[0m
+[547.220s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/permute_layer.cpp.o[0m
+[549.369s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/pooling_layer.cpp.o[0m
+[551.521s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/prior_box_layer.cpp.o[0m
+[553.266s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/proposal_layer.cpp.o[0m
+[555.177s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/recurrent_layers.cpp.o[0m
+[556.957s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/reduce_layer.cpp.o[0m
+[561.274s] [ 32%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/region_layer.cpp.o[0m
+[562.308s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/reorg_layer.cpp.o[0m
+[563.548s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/reshape_layer.cpp.o[0m
+[564.652s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/resize_layer.cpp.o[0m
+[566.032s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/scale_layer.cpp.o[0m
+[567.591s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/scatterND_layer.cpp.o[0m
+[569.184s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/scatter_layer.cpp.o[0m
+[570.197s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/shuffle_channel_layer.cpp.o[0m
+[571.096s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/nary_eltwise_layers.cpp.o[0m
+[571.096s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/mvn_layer.cpp.o[0m
+[572.112s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/slice_layer.cpp.o[0m
+[572.115s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/max_unpooling_layer.cpp.o[0m
+[573.137s] [ 33%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/softmax_layer.cpp.o[0m
+[573.330s] [ 34%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/matmul_layer.cpp.o[0m
+[579.893s] [ 34%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/net.cpp.o[0m
+[581.696s] [ 34%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/net_cann.cpp.o[0m
+[582.415s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/net_impl.cpp.o[0m
+[587.160s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/net_impl_backend.cpp.o[0m
+[588.091s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/net_impl_fuse.cpp.o[0m
+[589.953s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/net_openvino.cpp.o[0m
+[590.674s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/net_quantization.cpp.o[0m
+[592.781s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/nms.cpp.o[0m
+[593.970s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ocl4dnn/src/common.cpp.o[0m
+[594.533s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ocl4dnn/src/math_functions.cpp.o[0m
+[595.384s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp.o[0m
+[597.400s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ocl4dnn/src/ocl4dnn_inner_product.cpp.o[0m
+[598.084s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ocl4dnn/src/ocl4dnn_lrn.cpp.o[0m
+[598.847s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ocl4dnn/src/ocl4dnn_pool.cpp.o[0m
+[599.599s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/ocl4dnn/src/ocl4dnn_softmax.cpp.o[0m
+[600.329s] [ 35%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/onnx/onnx_graph_simplifier.cpp.o[0m
+[603.643s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/onnx/onnx_importer.cpp.o[0m
+[610.031s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_cann.cpp.o[0m
+[610.667s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_cuda.cpp.o[0m
+[611.316s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_halide.cpp.o[0m
+[612.111s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_inf_engine.cpp.o[0m
+[612.760s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_timvx.cpp.o[0m
+[613.493s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_vkcom.cpp.o[0m
+[614.226s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/op_webnn.cpp.o[0m
+[614.947s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/registry.cpp.o[0m
+[615.592s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/tensorflow/tf_graph_simplifier.cpp.o[0m
+[618.299s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/tensorflow/tf_importer.cpp.o[0m
+[624.960s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/tensorflow/tf_io.cpp.o[0m
+[626.327s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/tflite/tflite_importer.cpp.o[0m
+[629.351s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/THDiskFile.cpp.o[0m
+[629.354s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/legacy_backend.cpp.o[0m
+[629.354s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/model.cpp.o[0m
+[629.660s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/tile_layer.cpp.o[0m
+[629.664s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/split_layer.cpp.o[0m
+[629.664s] [ 36%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/lrn_layer.cpp.o[0m
+[630.686s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/layers_common.cpp.o[0m
+[630.688s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/THFile.cpp.o[0m
+[630.750s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/layer_norm.cpp.o[0m
+[631.024s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/THGeneral.cpp.o[0m
+[631.362s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/torch/torch_importer.cpp.o[0m
+[631.962s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/instance_norm_layer.cpp.o[0m
+[631.968s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/group_norm_layer.cpp.o[0m
+[631.989s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_1x1_fast_spv.cpp.o[0m
+[632.380s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_depthwise_3x3_spv.cpp.o[0m
+[632.440s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_depthwise_spv.cpp.o[0m
+[632.527s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/layers/gemm_layer.cpp.o[0m
+[632.530s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/conv_implicit_gemm_spv.cpp.o[0m
+[632.575s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/graph_simplifier.cpp.o[0m
+[633.252s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/gemm_spv.cpp.o[0m
+[638.254s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/pipeline.cpp.o[0m
+[639.374s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/tensor.cpp.o[0m
+[640.247s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_functions.cpp.o[0m
+[641.018s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/vulkan/vk_loader.cpp.o[0m
+[641.672s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/opencl_kernels_dnn.cpp.o[0m
+[642.151s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/layers_common.avx.cpp.o[0m
+[643.038s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_block.avx.cpp.o[0m
+[643.877s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_depthwise.avx.cpp.o[0m
+[644.742s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_winograd_f63.avx.cpp.o[0m
+[645.609s] [ 37%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.avx.cpp.o[0m
+[646.748s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/layers_common.avx2.cpp.o[0m
+[647.706s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx2.cpp.o[0m
+[648.856s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_block.avx2.cpp.o[0m
+[649.780s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_depthwise.avx2.cpp.o[0m
+[649.781s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_naryEltwise.cpp.o[0m
+[650.425s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/conv_winograd_f63.avx2.cpp.o[0m
+[650.442s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/cpu_kernels/fast_gemm_kernels.avx2.cpp.o[0m
+[650.887s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_matmul.cpp.o[0m
+[651.631s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/layers/layers_common.avx512_skx.cpp.o[0m
+[651.631s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_conv.cpp.o[0m
+[652.186s] [ 38%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/int8layers/layers_common.avx512_skx.cpp.o[0m
+[652.519s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/op_base.cpp.o[0m
+[652.621s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/internal.cpp.o[0m
+[653.707s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/fence.cpp.o[0m
+[653.711s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/context.cpp.o[0m
+[653.873s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/command.cpp.o[0m
+[655.222s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/src/buffer.cpp.o[0m
+[656.539s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/spv_shader.cpp.o[0m
+[657.330s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/vkcom/shader/nary_eltwise_binary_forward_spv.cpp.o[0m
+[657.984s] [ 39%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_dnn.dir/src/dnn_utils.cpp.o[0m
+[659.187s] [ 39%] [32m[1mLinking CXX shared library ../../lib/libopencv_dnn.so[0m
+[659.801s] [ 39%] Built target opencv_dnn
+[659.812s] [ 39%] [34m[1mProcessing OpenCL kernels (calib3d)[0m
+[659.842s] [ 40%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ap3p.cpp.o[0m
+[661.252s] [ 40%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/homography_decomp.cpp.o[0m
+[662.821s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ippe.cpp.o[0m
+[664.360s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/levmarq.cpp.o[0m
+[665.496s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/main.cpp.o[0m
+[666.470s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/p3p.cpp.o[0m
+[667.804s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/polynom_solver.cpp.o[0m
+[668.825s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.cpp.o[0m
+[669.921s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ptsetreg.cpp.o[0m
+[671.836s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/quadsubpix.cpp.o[0m
+[673.014s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/rho.cpp.o[0m
+[674.427s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/solvepnp.cpp.o[0m
+[676.350s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/sqpnp.cpp.o[0m
+[677.953s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.cpp.o[0m
+[679.976s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.cpp.o[0m
+[680.714s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.cpp.o[0m
+[681.727s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.cpp.o[0m
+[682.746s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/five-point.cpp.o[0m
+[682.832s] [ 41%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fisheye.cpp.o[0m
+[682.852s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/undistort.dispatch.cpp.o[0m
+[683.871s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/upnp.cpp.o[0m
+[685.200s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/bundle.cpp.o[0m
+[685.961s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/degeneracy.cpp.o[0m
+[686.736s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/dls_solver.cpp.o[0m
+[686.871s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/essential_solver.cpp.o[0m
+[688.897s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/estimator.cpp.o[0m
+[689.061s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/epnp.cpp.o[0m
+[703.631s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/pnp_solver.cpp.o[0m
+[705.650s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/quality.cpp.o[0m
+[708.230s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/ransac_solvers.cpp.o[0m
+[708.881s] [ 42%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/local_optimization.cpp.o[0m
+[711.872s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/termination.cpp.o[0m
+[713.305s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/utils.cpp.o[0m
+[714.323s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/sampler.cpp.o[0m
+[714.323s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/opencl_kernels_calib3d.cpp.o[0m
+[715.241s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/gamma_values.cpp.o[0m
+[715.241s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/homography_solver.cpp.o[0m
+[716.447s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/usac/fundamental_solver.cpp.o[0m
+[716.447s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.o[0m
+[716.892s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/dls.cpp.o[0m
+[718.113s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.o[0m
+[718.136s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/circlesgrid.cpp.o[0m
+[732.203s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/chessboard.cpp.o[0m
+[736.360s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.o[0m
+[737.470s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration_handeye.cpp.o[0m
+[739.364s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.cpp.o[0m
+[742.969s] [ 43%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.cpp.o[0m
+[749.030s] [ 43%] [32m[1mLinking CXX shared library ../../lib/libopencv_calib3d.so[0m
+[749.219s] [ 43%] Built target opencv_calib3d
+[749.238s] [ 43%] [32mBuilding CXX object apps/model-diagnostics/CMakeFiles/opencv_model_diagnostics.dir/model_diagnostics.cpp.o[0m
+[749.876s] [ 43%] [32m[1mLinking CXX executable ../../bin/opencv_model_diagnostics[0m
+[749.950s] [ 43%] Built target opencv_model_diagnostics
+[749.959s] [ 43%] [34m[1mProcessing OpenCL kernels (video)[0m
+[749.991s] [ 43%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o[0m
+[751.122s] [ 43%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_state.cpp.o[0m
+[752.140s] [ 43%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_model.cpp.o[0m
+[753.175s] [ 43%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler.cpp.o[0m
+[754.127s] [ 43%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_sampler_algorithm.cpp.o[0m
+[755.062s] [ 43%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_state_estimator.cpp.o[0m
+[755.929s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_feature.cpp.o[0m
+[757.068s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracking_online_mil.cpp.o[0m
+[758.290s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker.cpp.o[0m
+[759.045s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_dasiamrpn.cpp.o[0m
+[760.058s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_goturn.cpp.o[0m
+[760.060s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_mil_model.cpp.o[0m
+[760.237s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature_set.cpp.o[0m
+[761.243s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/detail/tracker_feature.cpp.o[0m
+[761.243s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_mil.cpp.o[0m
+[761.283s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_nano.cpp.o[0m
+[761.377s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/tracking/tracker_vit.cpp.o[0m
+[762.396s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o[0m
+[762.832s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o[0m
+[762.836s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o[0m
+[763.142s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o[0m
+[764.038s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o[0m
+[764.038s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o[0m
+[764.226s] [ 44%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o[0m
+[767.192s] [ 45%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o[0m
+[768.929s] [ 45%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o[0m
+[769.763s] [ 45%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o[0m
+[771.001s] [ 45%] [32m[1mLinking CXX shared library ../../lib/libopencv_video.so[0m
+[771.126s] [ 45%] Built target opencv_video
+[771.136s] [ 45%] [34m[1mProcessing OpenCL kernels (stitching)[0m
+[771.145s] [ 45%] [34m[1mProcessing OpenCL kernels (objdetect)[0m
+[771.155s] [ 45%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.o[0m
+[771.158s] [ 45%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/videoio_c.cpp.o[0m
+[771.158s] [ 45%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/videoio_registry.cpp.o[0m
+[771.177s] [ 45%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o[0m
+[771.186s] [ 46%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/apriltag/apriltag_quad_thresh.cpp.o[0m
+[772.178s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_obsensor_capture.cpp.o[0m
+[773.197s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.o[0m
+[773.350s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_gstreamer.cpp.o[0m
+[773.350s] [ 46%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/apriltag/zmaxheap.cpp.o[0m
+[773.818s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_dc1394_v2.cpp.o[0m
+[773.818s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/container_avi.cpp.o[0m
+[773.819s] [ 46%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/aruco_board.cpp.o[0m
+[774.341s] [ 46%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o[0m
+[774.633s] [ 46%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/aruco_detector.cpp.o[0m
+[774.811s] [ 46%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o[0m
+[774.811s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_static.cpp.o[0m
+[774.864s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_plugin.cpp.o[0m
+[775.570s] [ 46%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/aruco_dictionary.cpp.o[0m
+[775.881s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o[0m
+[776.191s] [ 46%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.o[0m
+[776.578s] [ 46%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o[0m
+[776.625s] [ 47%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o[0m
+[776.948s] [ 47%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_obsensor/obsensor_uvc_stream_channel.cpp.o[0m
+[777.561s] [ 47%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o[0m
+[777.629s] [ 47%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/aruco_utils.cpp.o[0m
+[777.810s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o[0m
+[777.846s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/aruco/charuco_detector.cpp.o[0m
+[778.680s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o[0m
+[778.769s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode.cpp.o[0m
+[778.769s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o[0m
+[778.846s] [ 48%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_obsensor/obsensor_stream_channel_v4l2.cpp.o[0m
+[782.465s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_decoder/upcean_decoder.cpp.o[0m
+[783.133s] [ 48%] [32m[1mLinking CXX shared library ../../lib/libopencv_videoio.so[0m
+[783.313s] [ 48%] Built target opencv_videoio
+[784.129s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o[0m
+[784.533s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o[0m
+[784.933s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o[0m
+[786.149s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o[0m
+[786.906s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/face_detect.cpp.o[0m
+[788.135s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/face_recognize.cpp.o[0m
+[789.211s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o[0m
+[789.333s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o[0m
+[790.350s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o[0m
+[790.666s] [ 48%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o[0m
+[790.670s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o[0m
+[791.693s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/graphical_code_detector.cpp.o[0m
+[792.124s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o[0m
+[792.195s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode_encoder.cpp.o[0m
+[793.586s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o[0m
+[793.653s] [ 48%] [32m[1mLinking CXX shared library ../../lib/libopencv_stitching.so[0m
+[793.891s] [ 48%] Built target opencv_stitching
+[793.928s] [ 48%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o[0m
+[793.928s] [ 48%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/backend.cpp.o[0m
+[798.192s] [ 48%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.cpp.o[0m
+[798.789s] [ 48%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o[0m
+[800.208s] [ 49%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_detector/bardetect.cpp.o[0m
+[800.209s] [ 49%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_decoder/ean8_decoder.cpp.o[0m
+[800.978s] [ 49%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o[0m
+[801.891s] [ 49%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_decoder/ean13_decoder.cpp.o[0m
+[802.420s] [ 49%] [32m[1mLinking CXX shared library ../../lib/libopencv_highgui.so[0m
+[802.614s] [ 49%] Built target opencv_highgui
+[802.665s] [ 49%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gorigin.cpp.o[0m
+[802.665s] [ 49%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/grunarg.cpp.o[0m
+[802.756s] [ 49%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_decoder/common/utils.cpp.o[0m
+[803.762s] [ 49%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gkernel.cpp.o[0m
+[803.843s] [ 49%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_decoder/common/super_scale.cpp.o[0m
+[805.805s] [ 49%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_decoder/common/hybrid_binarizer.cpp.o[0m
+[806.349s] [ 49%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcall.cpp.o[0m
+[806.967s] [ 49%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/barcode_decoder/abs_decoder.cpp.o[0m
+[807.216s] [ 49%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/operators.cpp.o[0m
+[807.952s] [ 49%] [32m[1mLinking CXX shared library ../../lib/libopencv_objdetect.so[0m
+[807.952s] [ 49%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_core.cpp.o[0m
+[808.078s] [ 49%] Built target opencv_objdetect
+[811.520s] [ 49%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_imgproc.cpp.o[0m
+[814.552s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcomputation.cpp.o[0m
+[816.843s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_video.cpp.o[0m
+[818.438s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_nnparsers.cpp.o[0m
+[819.455s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_ot.cpp.o[0m
+[819.457s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gnode.cpp.o[0m
+[819.594s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gproto.cpp.o[0m
+[820.366s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_streaming.cpp.o[0m
+[821.101s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_stereo.cpp.o[0m
+[821.101s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcommon.cpp.o[0m
+[821.971s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gbackend.cpp.o[0m
+[821.972s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/render.cpp.o[0m
+[822.102s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/render_ocv.cpp.o[0m
+[822.118s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/ginfer.cpp.o[0m
+[822.410s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/media.cpp.o[0m
+[823.462s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/rmat.cpp.o[0m
+[823.482s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gframe.cpp.o[0m
+[823.502s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gscalar.cpp.o[0m
+[826.559s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/helpers.cpp.o[0m
+[828.182s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/dump_dot.cpp.o[0m
+[830.399s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/islands.cpp.o[0m
+[832.375s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/meta.cpp.o[0m
+[833.840s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/kernels.cpp.o[0m
+[834.852s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/exec.cpp.o[0m
+[835.858s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gstreaming.cpp.o[0m
+[836.875s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/transformations.cpp.o[0m
+[837.857s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gcompiled.cpp.o[0m
+[837.935s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/pattern_matching.cpp.o[0m
+[838.955s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/perform_substitution.cpp.o[0m
+[841.179s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gabstractexecutor.cpp.o[0m
+[843.366s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gabstractstreamingexecutor.cpp.o[0m
+[844.908s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gexecutor.cpp.o[0m
+[847.401s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gtbbexecutor.cpp.o[0m
+[847.425s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gthreadedexecutor.cpp.o[0m
+[849.444s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/intrin.cpp.o[0m
+[849.444s] [ 50%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gstreamingexecutor.cpp.o[0m
+[849.969s] [ 51%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/streaming.cpp.o[0m
+[850.989s] [ 51%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gasync.cpp.o[0m
+[851.081s] [ 51%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gcompiler.cpp.o[0m
+[851.478s] [ 51%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/thread_pool.cpp.o[0m
+[851.478s] [ 51%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gislandmodel.cpp.o[0m
+[852.328s] [ 51%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpubackend.cpp.o[0m
+[853.309s] [ 51%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpukernel.cpp.o[0m
+[853.315s] [ 52%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gmodelbuilder.cpp.o[0m
+[854.268s] [ 52%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpuimgproc.cpp.o[0m
+[854.272s] [ 52%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gmodel.cpp.o[0m
+[855.293s] [ 52%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpustereo.cpp.o[0m
+[855.293s] [ 52%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gopaque.cpp.o[0m
+[856.313s] [ 52%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/garray.cpp.o[0m
+[856.314s] [ 52%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gmat.cpp.o[0m
+[856.429s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpuvideo.cpp.o[0m
+[856.849s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpucore.cpp.o[0m
+[857.134s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpuot.cpp.o[0m
+[857.244s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gnnparsers.cpp.o[0m
+[857.251s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidbuffer.cpp.o[0m
+[857.835s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidbackend.cpp.o[0m
+[858.361s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidimgproc.cpp.o[0m
+[858.370s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidimgproc_func.dispatch.cpp.o[0m
+[858.510s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidcore.cpp.o[0m
+[858.766s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidcore_func.dispatch.cpp.o[0m
+[859.085s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/oak/goak.cpp.o[0m
+[859.468s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/oak/goakbackend.cpp.o[0m
+[860.198s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/oak/goak_memory_adapters.cpp.o[0m
+[860.413s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclbackend.cpp.o[0m
+[860.450s] [ 53%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclkernel.cpp.o[0m
+[860.558s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclimgproc.cpp.o[0m
+[860.925s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclcore.cpp.o[0m
+[861.334s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ie/giebackend.cpp.o[0m
+[862.022s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ie/giebackend/giewrapper.cpp.o[0m
+[862.062s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ov/govbackend.cpp.o[0m
+[863.551s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/onnx/gonnxbackend.cpp.o[0m
+[863.712s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/onnx/dml_ep.cpp.o[0m
+[864.015s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/onnx/coreml_ep.cpp.o[0m
+[864.349s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/render/grenderocv.cpp.o[0m
+[869.976s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ie/bindings_ie.cpp.o[0m
+[871.075s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/onnx/bindings_onnx.cpp.o[0m
+[872.064s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ov/bindings_ov.cpp.o[0m
+[873.223s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/python/gpythonbackend.cpp.o[0m
+[875.057s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/queue_source.cpp.o[0m
+[875.057s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/streaming/gstreamingbackend.cpp.o[0m
+[876.067s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/source.cpp.o[0m
+[876.657s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/source_priv.cpp.o[0m
+[877.155s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/file_data_provider.cpp.o[0m
+[877.217s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/cfg_params.cpp.o[0m
+[877.621s] [ 54%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/cfg_params_parser.cpp.o[0m
+[877.877s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/utils.cpp.o[0m
+[878.049s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/default.cpp.o[0m
+[878.152s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/data_provider_interface_exception.cpp.o[0m
+[878.425s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/base_frame_adapter.cpp.o[0m
+[878.437s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/cpu_frame_adapter.cpp.o[0m
+[878.664s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/serialization.cpp.o[0m
+[878.874s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/dx11_frame_adapter.cpp.o[0m
+[879.060s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/surface.cpp.o[0m
+[879.346s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/surface/surface_pool.cpp.o[0m
+[879.651s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/accel_policy_cpu.cpp.o[0m
+[879.672s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/accel_policy_dx11.cpp.o[0m
+[879.693s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/accel_policy_va_api.cpp.o[0m
+[879.715s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/dx11_alloc_resource.cpp.o[0m
+[879.737s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/engine_session.cpp.o[0m
+[879.759s] [ 55%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/processing_engine_base.cpp.o[0m
+[879.782s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/decode/decode_engine_legacy.cpp.o[0m
+[879.803s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/decode/decode_session.cpp.o[0m
+[879.824s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/transcode/transcode_engine_legacy.cpp.o[0m
+[879.845s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/transcode/transcode_session.cpp.o[0m
+[879.865s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc/preproc_engine.cpp.o[0m
+[879.889s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc/preproc_session.cpp.o[0m
+[879.909s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc/preproc_dispatcher.cpp.o[0m
+[880.708s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/engine/preproc_engine_interface.cpp.o[0m
+[881.486s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/demux/async_mfp_demux_data_provider.cpp.o[0m
+[881.510s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/data_provider_dispatcher.cpp.o[0m
+[881.531s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/cfg_param_device_selector.cpp.o[0m
+[881.553s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/device_selector_interface.cpp.o[0m
+[881.830s] [ 56%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamer_pipeline_facade.cpp.o[0m
+[883.927s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamersource.cpp.o[0m
+[884.940s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamerpipeline.cpp.o[0m
+[885.057s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/onevpl/accelerators/utils/shared_lock.cpp.o[0m
+[885.311s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamer_buffer_utils.cpp.o[0m
+[885.659s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/s11n.cpp.o[0m
+[885.659s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamer_media_adapter.cpp.o[0m
+[885.963s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/streaming/gstreamer/gstreamerenv.cpp.o[0m
+[886.385s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/utils/itt.cpp.o[0m
+[886.633s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/kalman_filter/kalman_filter_no_opencv.cpp.o[0m
+[886.722s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/hungarian_wrap.cpp.o[0m
+[887.245s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/objects_associator.cpp.o[0m
+[887.383s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/mtt/rgb_histogram.cpp.o[0m
+[887.404s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/object_tracker.cpp.o[0m
+[887.694s] [ 57%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/short_term_imageless_tracker.cpp.o[0m
+[887.694s] [ 58%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gcompoundkernel.cpp.o[0m
+[888.087s] [ 58%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/tracker.cpp.o[0m
+[888.300s] [ 58%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/tracklet.cpp.o[0m
+[888.550s] [ 58%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/3rdparty/vasot/src/components/ot/zero_term_imageless_tracker.cpp.o[0m
+[889.098s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidimgproc_func.sse4_1.cpp.o[0m
+[889.117s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidcore_func.sse4_1.cpp.o[0m
+[889.317s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidimgproc_func.avx2.cpp.o[0m
+[889.349s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidcore_func.avx2.cpp.o[0m
+[894.912s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gcompoundbackend.cpp.o[0m
+[895.124s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gmetabackend.cpp.o[0m
+[895.275s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/plaidml/gplaidmlbackend.cpp.o[0m
+[895.303s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/plaidml/gplaidmlcore.cpp.o[0m
+[896.059s] [ 59%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/render/ft_render.cpp.o[0m
+[897.409s] [ 59%] [32m[1mLinking CXX shared library ../../lib/libopencv_gapi.so[0m
+[897.814s] [ 59%] Built target opencv_gapi
+[897.834s] [ 59%] [32mBuilding CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o[0m
+[897.834s] [ 59%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/generator/src/cpp/Mat.cpp.o[0m
+[897.836s] [ 59%] [32mBuilding CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o[0m
+[897.836s] [ 59%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/generator/src/cpp/converters.cpp.o[0m
+[898.851s] [ 59%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/generator/src/cpp/utils.cpp.o[0m
+[898.858s] [ 59%] [32mBuilding CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o[0m
+[899.011s] [ 59%] [32mBuilding CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o[0m
+[899.710s] [ 60%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/__/dnn/misc/java/src/cpp/dnn_converters.cpp.o[0m
+[899.793s] [ 60%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/__/features2d/misc/java/src/cpp/features2d_converters.cpp.o[0m
+[899.836s] [ 60%] [32mBuilding CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o[0m
+[899.854s] [ 60%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/__/core/misc/java/src/cpp/core_manual.cpp.o[0m
+[900.213s] [ 60%] [32mBuilding CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o[0m
+[900.648s] [ 60%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/generator/src/cpp/opencv_java.cpp.o[0m
+[900.747s] [ 60%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/generator/src/cpp/listconverters.cpp.o[0m
+[900.817s] [ 60%] [32mBuilding CXX object modules/java/jni/CMakeFiles/opencv_java.dir/__/generator/src/cpp/jni_part.cpp.o[0m
+[902.028s] [ 60%] [32m[1mLinking CXX executable ../../bin/opencv_interactive-calibration[0m
+[902.313s] [ 60%] Built target opencv_interactive-calibration
+[902.345s] [ 60%] [32mBuilding CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o[0m
+[902.346s] [ 60%] [32mBuilding CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_util.cpp.o[0m
+[903.435s] [ 60%] [32mBuilding CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_highgui.cpp.o[0m
+[929.852s] [ 60%] [32m[1mLinking CXX shared module ../../../lib/libopencv_java4100.so[0m
+[930.062s] [ 60%] Built target opencv_java
+[990.791s] [ 60%] [32mBuilding CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_convert.cpp.o[0m
+[991.614s] [ 60%] [32mBuilding CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2_numpy.cpp.o[0m
+[992.037s] [ 60%] [32m[1mLinking CXX shared module ../../lib/python3/cv2.cpython-310-x86_64-linux-gnu.so[0m
+[992.294s] [ 60%] Built target opencv_python3
+[992.310s] [ 60%] [32mBuilding CXX object apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o[0m
+[993.054s] [ 61%] [32m[1mLinking CXX executable ../../bin/opencv_visualisation[0m
+[993.180s] [ 61%] Built target opencv_visualisation
+[993.197s] [ 61%] [32mBuilding CXX object apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o[0m
+[993.790s] [ 61%] [32m[1mLinking CXX executable ../../bin/opencv_annotation[0m
+[993.902s] [ 61%] Built target opencv_annotation
+[993.918s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_perf.cpp.o[0m
+[995.048s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_tags.cpp.o[0m
+[996.566s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_perf.cpp.o[0m
+[998.895s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_gtest.cpp.o[0m
+[1004.239s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_func.cpp.o[0m
+[1004.240s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts_arrtest.cpp.o[0m
+[1010.872s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ts.cpp.o[0m
+[1010.872s] [ 61%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_test.cpp.o[0m
+[1010.876s] [ 62%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/ocl_perf.cpp.o[0m
+[1012.271s] [ 62%] [32mBuilding CXX object modules/ts/CMakeFiles/opencv_ts.dir/src/cuda_test.cpp.o[0m
+[1014.034s] [ 62%] [32m[1mLinking CXX static library ../../lib/libopencv_ts.a[0m
+[1014.154s] [ 62%] Built target opencv_ts
+[1014.190s] [ 62%] [32mBuilding CXX object modules/flann/CMakeFiles/opencv_test_flann.dir/test/test_lshtable_badarg.cpp.o[0m
+[1014.190s] [ 62%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.o[0m
+[1014.190s] [ 62%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.o[0m
+[1015.752s] [ 62%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.o[0m
+[1016.219s] [ 62%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o[0m
+[1017.248s] [ 62%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_audio.cpp.o[0m
+[1018.333s] [ 62%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_jpeg.cpp.o[0m
+[1019.442s] [ 62%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_avif.cpp.o[0m
+[1020.227s] [ 62%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o[0m
+[1020.750s] [ 62%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.o[0m
+[1021.470s] [ 62%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_common.cpp.o[0m
+[1022.025s] [ 62%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o[0m
+[1022.586s] [ 62%] [32mBuilding CXX object modules/flann/CMakeFiles/opencv_test_flann.dir/test/test_main.cpp.o[0m
+[1022.640s] [ 62%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_png.cpp.o[0m
+[1023.564s] [ 62%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o[0m
+[1024.804s] [ 62%] [32m[1mLinking CXX executable ../../bin/opencv_test_flann[0m
+[1024.862s] [ 62%] [32m[1mLinking CXX executable ../../bin/opencv_perf_imgcodecs[0m
+[1025.069s] [ 62%] Built target opencv_test_flann
+[1025.171s] [ 62%] Built target opencv_perf_imgcodecs
+[1025.334s] [ 62%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_camera.cpp.o[0m
+[1026.679s] [ 63%] [32m[1mLinking CXX executable ../../bin/opencv_perf_videoio[0m
+[1027.019s] [ 63%] Built target opencv_perf_videoio
+[1030.241s] [ 63%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o[0m
+[1030.599s] [ 64%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_dynamic.cpp.o[0m
+[1032.462s] [ 64%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_container_avi.cpp.o[0m
+[1033.832s] [ 64%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.o[0m
+[1033.946s] [ 64%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o[0m
+[1034.900s] [ 64%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o[0m
+[1035.018s] [ 64%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o[0m
+[1037.350s] [ 64%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o[0m
+[1039.005s] [ 64%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.o[0m
+[1040.788s] [ 65%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o[0m
+[1042.136s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.o[0m
+[1042.895s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.o[0m
+[1044.973s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.o[0m
+[1045.583s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.o[0m
+[1046.492s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.o[0m
+[1047.142s] [ 65%] [32mBuilding CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o[0m
+[1047.492s] [ 65%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_gstreamer.cpp.o[0m
+[1048.338s] [ 65%] [32m[1mLinking CXX executable ../../bin/opencv_test_imgcodecs[0m
+[1048.430s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.o[0m
+[1048.543s] [ 65%] Built target opencv_test_imgcodecs
+[1049.337s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.o[0m
+[1050.759s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.o[0m
+[1050.802s] [ 65%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_images.cpp.o[0m
+[1052.452s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_opencl.cpp.o[0m
+[1052.727s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.o[0m
+[1053.333s] [ 65%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o[0m
+[1054.624s] [ 65%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o[0m
+[1054.847s] [ 65%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.o[0m
+[1056.362s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.o[0m
+[1057.368s] [ 66%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_microphone.cpp.o[0m
+[1058.242s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.o[0m
+[1059.533s] [ 66%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_orientation.cpp.o[0m
+[1059.907s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o[0m
+[1061.565s] [ 66%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_plugins.cpp.o[0m
+[1061.691s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_allocation.cpp.o[0m
+[1062.955s] [ 66%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_v4l2.cpp.o[0m
+[1062.967s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o[0m
+[1065.056s] [ 66%] [32mBuilding CXX object modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o[0m
+[1066.404s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.o[0m
+[1068.673s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_async.cpp.o[0m
+[1068.742s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.o[0m
+[1069.681s] [ 66%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/opencl/test_hogdetector.cpp.o[0m
+[1070.483s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.o[0m
+[1070.893s] [ 66%] [32m[1mLinking CXX executable ../../bin/opencv_test_videoio[0m
+[1071.096s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.o[0m
+[1071.259s] [ 66%] Built target opencv_test_videoio
+[1072.287s] [ 66%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_aruco_tutorial.cpp.o[0m
+[1072.294s] [ 66%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_cascades.cpp.o[0m
+[1072.421s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.o[0m
+[1073.226s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.o[0m
+[1074.321s] [ 66%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o[0m
+[1074.694s] [ 66%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/opencl/perf_hogdetect.cpp.o[0m
+[1075.061s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.o[0m
+[1075.241s] [ 66%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_aruco_utils.cpp.o[0m
+[1076.371s] [ 66%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_aruco.cpp.o[0m
+[1076.437s] [ 66%] [32mBuilding CXX object modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o[0m
+[1076.451s] [ 66%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_arucodetection.cpp.o[0m
+[1076.843s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.o[0m
+[1077.763s] [ 66%] [32m[1mLinking CXX executable ../../bin/opencv_test_highgui[0m
+[1078.038s] [ 66%] Built target opencv_test_highgui
+[1079.329s] [ 66%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_cuda.cpp.o[0m
+[1079.360s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.o[0m
+[1079.718s] [ 67%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_barcode.cpp.o[0m
+[1079.874s] [ 67%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_barcode.cpp.o[0m
+[1080.218s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.o[0m
+[1082.006s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.o[0m
+[1082.075s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.o[0m
+[1082.372s] [ 67%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_main.cpp.o[0m
+[1083.083s] [ 67%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_boarddetection.cpp.o[0m
+[1083.470s] [ 67%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect.dir/perf/perf_qrcode_pipeline.cpp.o[0m
+[1084.002s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.o[0m
+[1084.801s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.o[0m
+[1085.188s] [ 67%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_cascadeandhog.cpp.o[0m
+[1086.386s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.o[0m
+[1086.985s] [ 67%] [32m[1mLinking CXX executable ../../bin/opencv_perf_objdetect[0m
+[1087.203s] [ 67%] Built target opencv_perf_objdetect
+[1087.377s] [ 67%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_charucodetection.cpp.o[0m
+[1087.646s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.o[0m
+[1087.854s] [ 67%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.o[0m
+[1088.380s] [ 68%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.o[0m
+[1090.590s] [ 68%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.o[0m
+[1090.970s] [ 68%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_face.cpp.o[0m
+[1091.398s] [ 68%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.o[0m
+[1092.403s] [ 69%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_main.cpp.o[0m
+[1092.805s] [ 69%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_hasnonzero.cpp.o[0m
+[1093.194s] [ 69%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_qrcode.cpp.o[0m
+[1095.277s] [ 69%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o[0m
+[1095.278s] [ 69%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o[0m
+[1095.278s] [ 69%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/opencl/perf_stereobm.cpp.o[0m
+[1095.321s] [ 69%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.o[0m
+[1095.879s] [ 69%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.o[0m
+[1096.306s] [ 69%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/opencl/perf_brute_force_matcher.cpp.o[0m
+[1096.306s] [ 69%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o[0m
+[1097.444s] [ 70%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_brute_force_matcher.cpp.o[0m
+[1097.486s] [ 70%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_caffe.cpp.o[0m
+[1097.691s] [ 70%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/opencl/perf_denoising.cpp.o[0m
+[1097.707s] [ 70%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/npy_blob.cpp.o[0m
+[1097.824s] [ 70%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_common.cpp.o[0m
+[1097.836s] [ 70%] [32mBuilding CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect.dir/test/test_qrcode_encode.cpp.o[0m
+[1098.850s] [ 70%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/ocl/test_denoising.cpp.o[0m
+[1098.858s] [ 70%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_ann.cpp.o[0m
+[1099.880s] [ 70%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o[0m
+[1100.074s] [ 71%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_affine2d.cpp.o[0m
+[1100.610s] [ 71%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.o[0m
+[1100.830s] [ 71%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_cuda.cpp.o[0m
+[1101.538s] [ 71%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_backends.cpp.o[0m
+[1101.560s] [ 71%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o[0m
+[1102.886s] [ 71%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o[0m
+[1103.726s] [ 71%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/opencl/perf_feature2d.cpp.o[0m
+[1103.806s] [ 71%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution.cpp.o[0m
+[1104.828s] [ 72%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_hdr.cpp.o[0m
+[1105.218s] [ 72%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o[0m
+[1105.312s] [ 72%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_feature2d.cpp.o[0m
+[1105.980s] [ 72%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_bayes.cpp.o[0m
+[1106.486s] [ 72%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.o[0m
+[1106.736s] [ 72%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_cloning.cpp.o[0m
+[1107.186s] [ 72%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o[0m
+[1107.522s] [ 72%] [32m[1mLinking CXX executable ../../bin/opencv_test_objdetect[0m
+[1108.482s] [ 72%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_inpaint.cpp.o[0m
+[1108.686s] [ 72%] Built target opencv_test_objdetect
+[1108.871s] [ 72%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_exposure_compensate.cpp.o[0m
+[1109.120s] [ 72%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_cicrlesGrid.cpp.o[0m
+[1109.371s] [ 72%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_em.cpp.o[0m
+[1110.938s] [ 72%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o[0m
+[1111.087s] [ 72%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_decolor.cpp.o[0m
+[1111.108s] [ 73%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution1d.cpp.o[0m
+[1111.268s] [ 73%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/perf_batchDistance.cpp.o[0m
+[1111.818s] [ 73%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_affine_feature.cpp.o[0m
+[1112.368s] [ 73%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o[0m
+[1112.376s] [ 73%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o[0m
+[1113.597s] [ 73%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_denoise_tvl1.cpp.o[0m
+[1113.615s] [ 73%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_main.cpp.o[0m
+[1114.278s] [ 73%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o[0m
+[1114.544s] [ 73%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_agast.cpp.o[0m
+[1114.855s] [ 73%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o[0m
+[1115.083s] [ 73%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_perf_photo.dir/perf/perf_main.cpp.o[0m
+[1115.150s] [ 73%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_kmeans.cpp.o[0m
+[1115.543s] [ 73%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_pnp.cpp.o[0m
+[1115.985s] [ 73%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_denoising.cpp.o[0m
+[1116.722s] [ 73%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_akaze.cpp.o[0m
+[1116.742s] [ 73%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/perf_feature2d.cpp.o[0m
+[1116.892s] [ 73%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution3d.cpp.o[0m
+[1116.998s] [ 73%] [32m[1mLinking CXX executable ../../bin/opencv_perf_photo[0m
+[1117.267s] [ 73%] Built target opencv_perf_photo
+[1117.405s] [ 73%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_knearest.cpp.o[0m
+[1118.146s] [ 74%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_calibration_hand_eye.cpp.o[0m
+[1118.446s] [ 74%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_reprojection.cpp.o[0m
+[1118.517s] [ 74%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_denoising.cuda.cpp.o[0m
+[1118.706s] [ 74%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.o[0m
+[1118.805s] [ 74%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_blobdetector.cpp.o[0m
+[1118.961s] [ 74%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o[0m
+[1120.215s] [ 74%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_hdr.cpp.o[0m
+[1120.390s] [ 74%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_lr.cpp.o[0m
+[1120.795s] [ 74%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_stereosgbm.cpp.o[0m
+[1120.861s] [ 74%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_perf_features2d.dir/perf/perf_main.cpp.o[0m
+[1121.118s] [ 74%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_brisk.cpp.o[0m
+[1121.559s] [ 74%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o[0m
+[1122.123s] [ 75%] [32m[1mLinking CXX executable ../../bin/opencv_perf_features2d[0m
+[1122.132s] [ 75%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_einsum.cpp.o[0m
+[1122.417s] [ 75%] Built target opencv_perf_features2d
+[1122.962s] [ 75%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_main.cpp.o[0m
+[1122.999s] [ 75%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o[0m
+[1123.183s] [ 75%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_invariance.cpp.o[0m
+[1123.653s] [ 75%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.o[0m
+[1123.670s] [ 75%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_inpaint.cpp.o[0m
+[1124.468s] [ 75%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_stitcher.cpp.o[0m
+[1124.689s] [ 75%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_mltests.cpp.o[0m
+[1125.432s] [ 75%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_caffe_importer.cpp.o[0m
+[1125.438s] [ 75%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d.dir/perf/perf_undistort.cpp.o[0m
+[1125.740s] [ 75%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_main.cpp.o[0m
+[1126.796s] [ 75%] [32m[1mLinking CXX executable ../../bin/opencv_perf_calib3d[0m
+[1127.086s] [ 75%] Built target opencv_perf_calib3d
+[1127.121s] [ 75%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_regression.cpp.o[0m
+[1127.141s] [ 75%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_gemm.cpp.o[0m
+[1127.423s] [ 75%] [32mBuilding CXX object modules/photo/CMakeFiles/opencv_test_photo.dir/test/test_npr.cpp.o[0m
+[1127.486s] [ 75%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_wave_correction.cpp.o[0m
+[1128.310s] [ 75%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.o[0m
+[1129.178s] [ 75%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_rtrees.cpp.o[0m
+[1129.512s] [ 76%] [32m[1mLinking CXX executable ../../bin/opencv_test_photo[0m
+[1129.589s] [ 76%] [32mBuilding CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o[0m
+[1129.884s] [ 76%] Built target opencv_test_photo
+[1130.244s] [ 76%] [32m[1mLinking CXX executable ../../bin/opencv_test_stitching[0m
+[1130.585s] [ 76%] Built target opencv_test_stitching
+[1131.089s] [ 76%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o[0m
+[1131.482s] [ 77%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_save_load.cpp.o[0m
+[1131.701s] [ 77%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.o[0m
+[1132.202s] [ 77%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_common.cpp.o[0m
+[1132.676s] [ 77%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_main.cpp.o[0m
+[1133.342s] [ 77%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_regression.cpp.o[0m
+[1133.739s] [ 77%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_svmsgd.cpp.o[0m
+[1134.155s] [ 77%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_darknet_importer.cpp.o[0m
+[1134.226s] [ 77%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o[0m
+[1134.240s] [ 77%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_net.cpp.o[0m
+[1135.239s] [ 77%] [32m[1mLinking CXX executable ../../bin/opencv_perf_stitching[0m
+[1135.404s] [ 77%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_invariance.cpp.o[0m
+[1135.465s] [ 77%] Built target opencv_perf_stitching
+[1136.530s] [ 77%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o[0m
+[1136.919s] [ 77%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.o[0m
+[1137.022s] [ 77%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_svmtrainauto.cpp.o[0m
+[1138.137s] [ 77%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_drawing.cpp.o[0m
+[1138.665s] [ 77%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_layer.cpp.o[0m
+[1139.152s] [ 77%] [32mBuilding CXX object modules/ml/CMakeFiles/opencv_test_ml.dir/test/test_utils.cpp.o[0m
+[1139.708s] [ 77%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o[0m
+[1139.751s] [ 78%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_graph_simplifier.cpp.o[0m
+[1140.390s] [ 78%] [32m[1mLinking CXX executable ../../bin/opencv_perf_core[0m
+[1141.014s] [ 78%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_fast.cpp.o[0m
+[1141.037s] [ 78%] Built target opencv_perf_core
+[1141.068s] [ 78%] [32m[1mLinking CXX executable ../../bin/opencv_test_ml[0m
+[1141.191s] [ 78%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o[0m
+[1141.409s] [ 78%] Built target opencv_test_ml
+[1141.758s] [ 78%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_int8_layers.cpp.o[0m
+[1142.495s] [ 78%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_keypoints.cpp.o[0m
+[1142.741s] [ 78%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.o[0m
+[1143.319s] [ 78%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o[0m
+[1144.273s] [ 79%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_main.cpp.o[0m
+[1144.830s] [ 79%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o[0m
+[1145.555s] [ 79%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_matchers_algorithmic.cpp.o[0m
+[1146.017s] [ 79%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.o[0m
+[1146.215s] [ 79%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o[0m
+[1147.500s] [ 79%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagmanager.cpp.o[0m
+[1147.818s] [ 79%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_layers.cpp.o[0m
+[1147.946s] [ 79%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o[0m
+[1148.160s] [ 79%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_mser.cpp.o[0m
+[1148.250s] [ 79%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_recurrent.cpp.o[0m
+[1149.500s] [ 79%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_nearestneighbors.cpp.o[0m
+[1149.906s] [ 79%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o[0m
+[1150.768s] [ 79%] [32m[1mLinking CXX executable ../../bin/opencv_perf_dnn[0m
+[1151.079s] [ 79%] Built target opencv_perf_dnn
+[1151.340s] [ 79%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_orb.cpp.o[0m
+[1151.385s] [ 79%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_filter_homography_decomp.cpp.o[0m
+[1152.086s] [ 79%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.o[0m
+[1152.880s] [ 79%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_sift.cpp.o[0m
+[1152.956s] [ 79%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o[0m
+[1154.255s] [ 79%] [32mBuilding CXX object modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_utils.cpp.o[0m
+[1155.677s] [ 79%] [32m[1mLinking CXX executable ../../bin/opencv_test_features2d[0m
+[1156.028s] [ 79%] Built target opencv_test_features2d
+[1157.775s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o[0m
+[1159.817s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o[0m
+[1160.831s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_main.cpp.o[0m
+[1161.627s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_ie_models.cpp.o[0m
+[1161.728s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o[0m
+[1161.905s] [ 80%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_opencl.cpp.o[0m
+[1162.386s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_misc.cpp.o[0m
+[1162.880s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o[0m
+[1163.627s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o[0m
+[1164.358s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o[0m
+[1164.721s] [ 80%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.o[0m
+[1165.098s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o[0m
+[1166.468s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_model.cpp.o[0m
+[1166.475s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o[0m
+[1168.788s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_googlenet.cpp.o[0m
+[1170.453s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_nms.cpp.o[0m
+[1171.736s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_onnx_conformance.cpp.o[0m
+[1171.825s] [ 80%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_quaternion.cpp.o[0m
+[1172.704s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o[0m
+[1173.986s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_onnx_importer.cpp.o[0m
+[1175.272s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_translation3d_estimator.cpp.o[0m
+[1175.944s] [ 80%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.o[0m
+[1176.470s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o[0m
+[1177.619s] [ 80%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.o[0m
+[1178.831s] [ 80%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o[0m
+[1179.636s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_tflite_importer.cpp.o[0m
+[1179.637s] [ 80%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_tf_importer.cpp.o[0m
+[1179.642s] [ 81%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_logtagconfigparser.cpp.o[0m
+[1179.642s] [ 81%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.o[0m
+[1179.642s] [ 81%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.o[0m
+[1179.848s] [ 81%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o[0m
+[1180.181s] [ 81%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.o[0m
+[1180.183s] [ 81%] [32mBuilding CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_usac.cpp.o[0m
+[1181.202s] [ 81%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin_emulator.cpp.o[0m
+[1183.188s] [ 81%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.o[0m
+[1184.160s] [ 81%] [32mBuilding CXX object modules/dnn/CMakeFiles/opencv_test_dnn.dir/test/test_torch_importer.cpp.o[0m
+[1187.454s] [ 82%] [32m[1mLinking CXX executable ../../bin/opencv_test_calib3d[0m
+[1188.547s] [ 82%] Built target opencv_test_calib3d
+[1195.837s] [ 82%] [32m[1mLinking CXX executable ../../bin/opencv_test_dnn[0m
+[1196.473s] [ 82%] Built target opencv_test_dnn
+[1205.179s] [ 82%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx.cpp.o[0m
+[1218.562s] [ 82%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx2.cpp.o[0m
+[1220.581s] [ 82%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.fp16.cpp.o[0m
+[1220.584s] [ 82%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx2.cpp.o[0m
+[1221.605s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_1.cpp.o[0m
+[1221.606s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_2.cpp.o[0m
+[1222.623s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.ssse3.cpp.o[0m
+[1222.624s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse3.cpp.o[0m
+[1223.682s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse2.cpp.o[0m
+[1223.695s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.o[0m
+[1254.509s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin512.avx512_skx.cpp.o[0m
+[1270.755s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx512_skx.cpp.o[0m
+[1270.760s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx512_skx.cpp.o[0m
+[1270.779s] [ 83%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o[0m
+[1282.042s] gmake[2]: *** [modules/core/CMakeFiles/opencv_test_core.dir/build.make:748: modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx512_skx.cpp.o] Interrupt
+[1282.043s] gmake[2]: *** [modules/core/CMakeFiles/opencv_test_core.dir/build.make:734: modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx512_skx.cpp.o] Interrupt
+[1282.043s] gmake[2]: *** [modules/core/CMakeFiles/opencv_test_core.dir/build.make:580: modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o] Interrupt
+[1282.043s] gmake[1]: *** [CMakeFiles/Makefile2:1680: modules/core/CMakeFiles/opencv_test_core.dir/all] Interrupt
+[1282.043s] gmake: *** [Makefile:166: all] Interrupt

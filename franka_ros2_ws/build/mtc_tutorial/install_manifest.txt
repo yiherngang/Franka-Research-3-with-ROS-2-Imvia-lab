@@ -1,0 +1,16 @@
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/lib/mtc_tutorial/mtc_tutorial
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/package_run_dependencies/mtc_tutorial
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/parent_prefix_path/mtc_tutorial
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.sh
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.dsv
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.sh
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.dsv
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.bash
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.sh
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.zsh
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.dsv
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.dsv
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/packages/mtc_tutorial
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig.cmake
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig-version.cmake
+/home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.xml

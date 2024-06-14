@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetMotionPlan.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MotionPlanRequest.idl"
+#include "moveit_msgs/msg/MotionPlanResponse.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "This service contains the definition for a request to the motion" "\n"
+      "planner and the output it provides")
+    struct GetMotionPlan_Request {
+      moveit_msgs::msg::MotionPlanRequest motion_plan_request;
+    };
+    struct GetMotionPlan_Response {
+      moveit_msgs::msg::MotionPlanResponse motion_plan_response;
+    };
+  };
+};

@@ -1,0 +1,100 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found franka_hardware: 0.1.13 (/home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found franka_msgs: 0.1.13 (/home/adminlab/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+-- Found ament_cmake_gmock: 1.3.9 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found controller_interface: 2.41.0 (/opt/ros/humble/share/controller_interface/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/franka_semantic_components
+[35m[1mConsolidate compiler generated dependencies of target franka_semantic_components[0m
+[  4%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_robot_state.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/translation_utils.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_semantic_component_interface.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_cartesian_velocity_interface.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_cartesian_pose_interface.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_robot_model.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libfranka_semantic_components.so[0m
+[ 31%] Built target franka_semantic_components
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 40%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 50%] Built target gmock_main
+[ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 54%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target test_franka_robot_state[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/test_franka_robot_state.dir/test/franka_robot_state_test.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable test_franka_robot_state[0m
+[ 63%] Built target test_franka_robot_state
+[35m[1mConsolidate compiler generated dependencies of target franka_cartesian_pose_interface_test[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_cartesian_velocity_interface_test[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_semantic_component_interface_test[0m
+[35m[1mConsolidate compiler generated dependencies of target test_franka_robot_model[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/franka_cartesian_pose_interface_test.dir/test/franka_cartesian_pose_interface_test.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/franka_cartesian_velocity_interface_test.dir/test/franka_cartesian_velocity_interface_test.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/franka_semantic_component_interface_test.dir/test/franka_semantic_interface_test.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_franka_robot_model.dir/test/franka_robot_model_test.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable franka_semantic_component_interface_test[0m
+[ 86%] Built target franka_semantic_component_interface_test
+[ 90%] [32m[1mLinking CXX executable franka_cartesian_velocity_interface_test[0m
+[ 90%] Built target franka_cartesian_velocity_interface_test
+[ 95%] [32m[1mLinking CXX executable test_franka_robot_model[0m
+[100%] [32m[1mLinking CXX executable franka_cartesian_pose_interface_test[0m
+[100%] Built target test_franka_robot_model
+[100%] Built target franka_cartesian_pose_interface_test
+-- Install configuration: "Debug"
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/lib/libfranka_semantic_components.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/franka_semantic_components/lib/libfranka_semantic_components.so" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_semantic_component_interface.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_pose_interface.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_velocity_interface.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_state.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/robot_description_test.txt
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/package_run_dependencies/franka_semantic_components
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/parent_prefix_path/franka_semantic_components
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/packages/franka_semantic_components
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.xml

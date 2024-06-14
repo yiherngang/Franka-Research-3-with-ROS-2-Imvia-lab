@@ -1,0 +1,206 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found tf2_kdl: 0.25.7 (/opt/ros/humble/share/tf2_kdl/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Found random_numbers: 2.0.1 (/opt/ros/humble/share/random_numbers/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found moveit_core: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found moveit_ros_planning: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options system 
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.7.0 (/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found moveit_resources_fanuc_description: 2.0.7 (/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake)
+-- Found moveit_resources_fanuc_moveit_config: 2.0.7 (/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake)
+-- Found moveit_resources_panda_description: 2.0.7 (/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+-- Found moveit_resources_panda_moveit_config: 2.0.7 (/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/adminlab/franka_ros2_ws/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/include;/home/adminlab/franka_ros2_ws/src/moveit2/moveit_kinematics/lma_kinematics_plugin/include;/home/adminlab/franka_ros2_ws/src/moveit2/moveit_kinematics/srv_kinematics_plugin/include;/home/adminlab/franka_ros2_ws/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_kinematics
+[  5%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[ 10%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[ 10%] Built target moveit_cached_ik_kinematics_base
+[ 15%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[ 21%] [32m[1mLinking CXX executable benchmark_ik[0m
+[ 21%] Built target benchmark_ik
+[ 26%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 31%] Built target gtest
+[ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 42%] [32mBuilding CXX object lma_kinematics_plugin/CMakeFiles/moveit_lma_kinematics_plugin.dir/src/lma_kinematics_plugin.cpp.o[0m
+[ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 47%] Built target gtest_main
+[ 52%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[ 57%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libmoveit_lma_kinematics_plugin.so[0m
+[ 63%] Built target moveit_lma_kinematics_plugin
+[ 68%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[ 68%] Built target moveit_kdl_kinematics_plugin
+[ 73%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[ 78%] Built target moveit_srv_kinematics_plugin
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[ 89%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[ 94%] Built target moveit_cached_ik_kinematics_plugin
+[100%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[100%] Built target test_kinematics_plugin
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/lma_kinematics_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/srv_kinematics_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/lma_kinematics_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/lma_kinematics_plugin/lma_kinematics_plugin.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/srv_kinematics_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-test.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-singular-test.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-singular-test.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-test.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma-singular.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma-singular.test.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_kinematics/share/moveit_kinematics/package.xml

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_msgs/action/GlobalPlanner.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MotionPlanResponse.idl"
+#include "moveit_msgs/msg/MotionSequenceRequest.idl"
+
+module moveit_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Motion planning request to the global planner")
+    struct GlobalPlanner_Goal {
+      string planning_group;
+
+      moveit_msgs::msg::MotionSequenceRequest motion_sequence;
+    };
+    @verbatim (language="comment", text=
+      "Motion planning response from the global planner")
+    struct GlobalPlanner_Result {
+      moveit_msgs::msg::MotionPlanResponse response;
+    };
+    @verbatim (language="comment", text=
+      "Feedback about the currently running global planning operation")
+    struct GlobalPlanner_Feedback {
+      string feedback;
+    };
+  };
+};

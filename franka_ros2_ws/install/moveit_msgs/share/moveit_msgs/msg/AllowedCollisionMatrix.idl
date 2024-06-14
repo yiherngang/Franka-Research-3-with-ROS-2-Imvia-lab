@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/AllowedCollisionMatrix.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/AllowedCollisionEntry.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The list of entry names in the matrix")
+    struct AllowedCollisionMatrix {
+      sequence<string> entry_names;
+
+      @verbatim (language="comment", text=
+        "The individual entries in the allowed collision matrix" "\n"
+        "square, symmetric, with same order as entry_names")
+      sequence<moveit_msgs::msg::AllowedCollisionEntry> entry_values;
+
+      @verbatim (language="comment", text=
+        "In addition to the collision matrix itself, we also have" "\n"
+        "the default entry value for each entry name." "\n"
+        "If the allowed collision flag is queried for a pair of names (n1, n2)" "\n"
+        "that is not found in the collision matrix itself, the value of" "\n"
+        "the collision flag is considered to be that of the entry (n1 or n2)" "\n"
+        "specified in the list below. If both n1 and n2 are found in the list" "\n"
+        "of defaults, the result is computed with an AND operation")
+      sequence<string> default_entry_names;
+
+      sequence<boolean> default_entry_values;
+    };
+  };
+};

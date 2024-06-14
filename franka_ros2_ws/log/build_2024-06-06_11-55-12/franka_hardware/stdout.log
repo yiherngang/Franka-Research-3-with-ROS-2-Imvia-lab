@@ -1,0 +1,6 @@
+[ 18%] Built target gmock
+[ 50%] Built target franka_hardware
+[ 62%] Built target gmock_main
+[ 75%] Built target franka_hardware_test
+[ 87%] Built target franka_hardware_robot_test
+[100%] Built target franka_hardware_command_interface_test

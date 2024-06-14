@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/ChangeDriftDimensions.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Transform.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "For use with moveit_jog_arm Cartesian planner" "\n"
+      "" "\n"
+      "Allow the robot to drift along these dimensions in a smooth but unregulated way." "\n"
+      "Give 'true' to enable drift in the direction, 'false' to disable." "\n"
+      "For example, may allow wrist rotation by drift_x_rotation == true.")
+    struct ChangeDriftDimensions_Request {
+      boolean drift_x_translation;
+
+      boolean drift_y_translation;
+
+      boolean drift_z_translation;
+
+      boolean drift_x_rotation;
+
+      boolean drift_y_rotation;
+
+      boolean drift_z_rotation;
+
+      @verbatim (language="comment", text=
+        "Not implemented as of Jan 2020 (for now assumed to be the identity matrix). In the future it will allow us to transform" "\n"
+        "from the jog control frame to a unique drift frame, so the robot can drift along off-principal axes")
+      geometry_msgs::msg::Transform transform_jog_frame_to_drift_frame;
+    };
+    struct ChangeDriftDimensions_Response {
+      boolean success;
+    };
+  };
+};

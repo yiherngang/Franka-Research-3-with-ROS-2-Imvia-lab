@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PlanningSceneWorld.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/CollisionObject.idl"
+#include "octomap_msgs/msg/OctomapWithPose.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "collision objects")
+    struct PlanningSceneWorld {
+      sequence<moveit_msgs::msg::CollisionObject> collision_objects;
+
+      @verbatim (language="comment", text=
+        "The octomap that represents additional collision data")
+      octomap_msgs::msg::OctomapWithPose octomap;
+    };
+  };
+};

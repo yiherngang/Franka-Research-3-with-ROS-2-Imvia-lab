@@ -1,0 +1,306 @@
+PORTED FUNCs LIST (247 of 262):
+
+  cv::CascadeClassifier::CascadeClassifier()
+  cv::CascadeClassifier::CascadeClassifier(String filename)
+ bool cv::CascadeClassifier::empty()
+ bool cv::CascadeClassifier::load(String filename)
+ void cv::CascadeClassifier::detectMultiScale(Mat image, vector_Rect& objects, double scaleFactor = 1.1, int minNeighbors = 3, int flags = 0, Size minSize = Size(), Size maxSize = Size())
+ void cv::CascadeClassifier::detectMultiScale(Mat image, vector_Rect& objects, vector_int& numDetections, double scaleFactor = 1.1, int minNeighbors = 3, int flags = 0, Size minSize = Size(), Size maxSize = Size())
+ void cv::CascadeClassifier::detectMultiScale(Mat image, vector_Rect& objects, vector_int& rejectLevels, vector_double& levelWeights, double scaleFactor = 1.1, int minNeighbors = 3, int flags = 0, Size minSize = Size(), Size maxSize = Size(), bool outputRejectLevels = false)
+ bool cv::CascadeClassifier::isOldFormatCascade()
+ Size cv::CascadeClassifier::getOriginalWindowSize()
+ int cv::CascadeClassifier::getFeatureType()
+static bool cv::CascadeClassifier::convert(String oldcascade, String newcascade)
+ void cv::FaceDetectorYN::setInputSize(Size input_size)
+ Size cv::FaceDetectorYN::getInputSize()
+ void cv::FaceDetectorYN::setScoreThreshold(float score_threshold)
+ float cv::FaceDetectorYN::getScoreThreshold()
+ void cv::FaceDetectorYN::setNMSThreshold(float nms_threshold)
+ float cv::FaceDetectorYN::getNMSThreshold()
+ void cv::FaceDetectorYN::setTopK(int top_k)
+ int cv::FaceDetectorYN::getTopK()
+ int cv::FaceDetectorYN::detect(Mat image, Mat& faces)
+static Ptr_FaceDetectorYN cv::FaceDetectorYN::create(String model, String config, Size input_size, float score_threshold = 0.9f, float nms_threshold = 0.3f, int top_k = 5000, int backend_id = 0, int target_id = 0)
+static Ptr_FaceDetectorYN cv::FaceDetectorYN::create(String framework, vector_uchar bufferModel, vector_uchar bufferConfig, Size input_size, float score_threshold = 0.9f, float nms_threshold = 0.3f, int top_k = 5000, int backend_id = 0, int target_id = 0)
+ void cv::FaceRecognizerSF::alignCrop(Mat src_img, Mat face_box, Mat& aligned_img)
+ void cv::FaceRecognizerSF::feature(Mat aligned_img, Mat& face_feature)
+ double cv::FaceRecognizerSF::match(Mat face_feature1, Mat face_feature2, int dis_type = FaceRecognizerSF::FR_COSINE)
+static Ptr_FaceRecognizerSF cv::FaceRecognizerSF::create(String model, String config, int backend_id = 0, int target_id = 0)
+ bool cv::GraphicalCodeDetector::detect(Mat img, Mat& points)
+ string cv::GraphicalCodeDetector::decode(Mat img, Mat points, Mat& straight_code = Mat())
+ string cv::GraphicalCodeDetector::detectAndDecode(Mat img, Mat& points = Mat(), Mat& straight_code = Mat())
+ bool cv::GraphicalCodeDetector::detectMulti(Mat img, Mat& points)
+ bool cv::GraphicalCodeDetector::decodeMulti(Mat img, Mat points, vector_string& decoded_info, vector_Mat& straight_code = vector_Mat())
+ bool cv::GraphicalCodeDetector::detectAndDecodeMulti(Mat img, vector_string& decoded_info, Mat& points = Mat(), vector_Mat& straight_code = vector_Mat())
+  cv::HOGDescriptor::HOGDescriptor()
+  cv::HOGDescriptor::HOGDescriptor(Size _winSize, Size _blockSize, Size _blockStride, Size _cellSize, int _nbins, int _derivAperture = 1, double _winSigma = -1, HOGDescriptor_HistogramNormType _histogramNormType = HOGDescriptor::L2Hys, double _L2HysThreshold = 0.2, bool _gammaCorrection = false, int _nlevels = HOGDescriptor::DEFAULT_NLEVELS, bool _signedGradient = false)
+  cv::HOGDescriptor::HOGDescriptor(String filename)
+ size_t cv::HOGDescriptor::getDescriptorSize()
+ bool cv::HOGDescriptor::checkDetectorSize()
+ double cv::HOGDescriptor::getWinSigma()
+ void cv::HOGDescriptor::setSVMDetector(Mat svmdetector)
+ bool cv::HOGDescriptor::load(String filename, String objname = String())
+ void cv::HOGDescriptor::save(String filename, String objname = String())
+ void cv::HOGDescriptor::compute(Mat img, vector_float& descriptors, Size winStride = Size(), Size padding = Size(), vector_Point locations = std::vector<Point>())
+ void cv::HOGDescriptor::detect(Mat img, vector_Point& foundLocations, vector_double& weights, double hitThreshold = 0, Size winStride = Size(), Size padding = Size(), vector_Point searchLocations = std::vector<Point>())
+ void cv::HOGDescriptor::detectMultiScale(Mat img, vector_Rect& foundLocations, vector_double& foundWeights, double hitThreshold = 0, Size winStride = Size(), Size padding = Size(), double scale = 1.05, double groupThreshold = 2.0, bool useMeanshiftGrouping = false)
+ void cv::HOGDescriptor::computeGradient(Mat img, Mat& grad, Mat& angleOfs, Size paddingTL = Size(), Size paddingBR = Size())
+static vector_float cv::HOGDescriptor::getDefaultPeopleDetector()
+static vector_float cv::HOGDescriptor::getDaimlerPeopleDetector()
+Size HOGDescriptor::winSize
+Size HOGDescriptor::blockSize
+Size HOGDescriptor::blockStride
+Size HOGDescriptor::cellSize
+int HOGDescriptor::nbins
+int HOGDescriptor::derivAperture
+double HOGDescriptor::winSigma
+HOGDescriptor_HistogramNormType HOGDescriptor::histogramNormType
+double HOGDescriptor::L2HysThreshold
+bool HOGDescriptor::gammaCorrection
+vector_float HOGDescriptor::svmDetector
+int HOGDescriptor::nlevels
+bool HOGDescriptor::signedGradient
+ void cv::groupRectangles(vector_Rect& rectList, vector_int& weights, int groupThreshold, double eps = 0.2)
+ void cv::aruco::drawDetectedMarkers(Mat& image, vector_Mat corners, Mat ids = Mat(), Scalar borderColor = Scalar(0, 255, 0))
+ void cv::aruco::generateImageMarker(Dictionary dictionary, int id, int sidePixels, Mat& img, int borderBits = 1)
+ void cv::aruco::drawDetectedCornersCharuco(Mat& image, Mat charucoCorners, Mat charucoIds = Mat(), Scalar cornerColor = Scalar(255, 0, 0))
+ void cv::aruco::drawDetectedDiamonds(Mat& image, vector_Mat diamondCorners, Mat diamondIds = Mat(), Scalar borderColor = Scalar(0, 0, 255))
+ Dictionary cv::aruco::getPredefinedDictionary(int dict)
+ Dictionary cv::aruco::extendDictionary(int nMarkers, int markerSize, Dictionary baseDictionary = Dictionary(), int randomSeed = 0)
+  cv::QRCodeDetector::QRCodeDetector()
+ QRCodeDetector cv::QRCodeDetector::setEpsX(double epsX)
+ QRCodeDetector cv::QRCodeDetector::setEpsY(double epsY)
+ QRCodeDetector cv::QRCodeDetector::setUseAlignmentMarkers(bool useAlignmentMarkers)
+ String cv::QRCodeDetector::decodeCurved(Mat img, Mat points, Mat& straight_qrcode = Mat())
+ string cv::QRCodeDetector::detectAndDecodeCurved(Mat img, Mat& points = Mat(), Mat& straight_qrcode = Mat())
+  cv::QRCodeDetectorAruco::QRCodeDetectorAruco()
+  cv::QRCodeDetectorAruco::QRCodeDetectorAruco(QRCodeDetectorAruco_Params params)
+ QRCodeDetectorAruco_Params cv::QRCodeDetectorAruco::getDetectorParameters()
+ QRCodeDetectorAruco cv::QRCodeDetectorAruco::setDetectorParameters(QRCodeDetectorAruco_Params params)
+  cv::QRCodeDetectorAruco::Params::Params()
+float QRCodeDetectorAruco_Params::minModuleSizeInPyramid
+void QRCodeDetectorAruco_Params::minModuleSizeInPyramid
+float QRCodeDetectorAruco_Params::maxRotation
+void QRCodeDetectorAruco_Params::maxRotation
+float QRCodeDetectorAruco_Params::maxModuleSizeMismatch
+void QRCodeDetectorAruco_Params::maxModuleSizeMismatch
+float QRCodeDetectorAruco_Params::maxTimingPatternMismatch
+void QRCodeDetectorAruco_Params::maxTimingPatternMismatch
+float QRCodeDetectorAruco_Params::maxPenalties
+void QRCodeDetectorAruco_Params::maxPenalties
+float QRCodeDetectorAruco_Params::maxColorsMismatch
+void QRCodeDetectorAruco_Params::maxColorsMismatch
+float QRCodeDetectorAruco_Params::scaleTimingPatternScore
+void QRCodeDetectorAruco_Params::scaleTimingPatternScore
+static Ptr_QRCodeEncoder cv::QRCodeEncoder::create(QRCodeEncoder_Params parameters = QRCodeEncoder::Params())
+ void cv::QRCodeEncoder::encode(String encoded_info, Mat& qrcode)
+ void cv::QRCodeEncoder::encodeStructuredAppend(String encoded_info, vector_Mat& qrcodes)
+  cv::QRCodeEncoder::Params::Params()
+int QRCodeEncoder_Params::version
+void QRCodeEncoder_Params::version
+int QRCodeEncoder_Params::structure_number
+void QRCodeEncoder_Params::structure_number
+  cv::aruco::ArucoDetector::ArucoDetector(Dictionary dictionary = getPredefinedDictionary(cv::aruco::DICT_4X4_50), DetectorParameters detectorParams = DetectorParameters(), RefineParameters refineParams = RefineParameters())
+ void cv::aruco::ArucoDetector::detectMarkers(Mat image, vector_Mat& corners, Mat& ids, vector_Mat& rejectedImgPoints = vector_Mat())
+ void cv::aruco::ArucoDetector::refineDetectedMarkers(Mat image, Board board, vector_Mat& detectedCorners, Mat& detectedIds, vector_Mat& rejectedCorners, Mat cameraMatrix = Mat(), Mat distCoeffs = Mat(), Mat& recoveredIdxs = Mat())
+ Dictionary cv::aruco::ArucoDetector::getDictionary()
+ void cv::aruco::ArucoDetector::setDictionary(Dictionary dictionary)
+ DetectorParameters cv::aruco::ArucoDetector::getDetectorParameters()
+ void cv::aruco::ArucoDetector::setDetectorParameters(DetectorParameters detectorParameters)
+ RefineParameters cv::aruco::ArucoDetector::getRefineParameters()
+ void cv::aruco::ArucoDetector::setRefineParameters(RefineParameters refineParameters)
+  cv::aruco::Board::Board(vector_Mat objPoints, Dictionary dictionary, Mat ids)
+ Dictionary cv::aruco::Board::getDictionary()
+ vector_vector_Point3f cv::aruco::Board::getObjPoints()
+ vector_int cv::aruco::Board::getIds()
+ Point3f cv::aruco::Board::getRightBottomCorner()
+ void cv::aruco::Board::matchImagePoints(vector_Mat detectedCorners, Mat detectedIds, Mat& objPoints, Mat& imgPoints)
+ void cv::aruco::Board::generateImage(Size outSize, Mat& img, int marginSize = 0, int borderBits = 1)
+  cv::aruco::CharucoBoard::CharucoBoard(Size size, float squareLength, float markerLength, Dictionary dictionary, Mat ids = Mat())
+ void cv::aruco::CharucoBoard::setLegacyPattern(bool legacyPattern)
+ bool cv::aruco::CharucoBoard::getLegacyPattern()
+ Size cv::aruco::CharucoBoard::getChessboardSize()
+ float cv::aruco::CharucoBoard::getSquareLength()
+ float cv::aruco::CharucoBoard::getMarkerLength()
+ vector_Point3f cv::aruco::CharucoBoard::getChessboardCorners()
+ bool cv::aruco::CharucoBoard::checkCharucoCornersCollinear(Mat charucoIds)
+  cv::aruco::CharucoDetector::CharucoDetector(CharucoBoard board, CharucoParameters charucoParams = CharucoParameters(), DetectorParameters detectorParams = DetectorParameters(), RefineParameters refineParams = RefineParameters())
+ CharucoBoard cv::aruco::CharucoDetector::getBoard()
+ void cv::aruco::CharucoDetector::setBoard(CharucoBoard board)
+ CharucoParameters cv::aruco::CharucoDetector::getCharucoParameters()
+ void cv::aruco::CharucoDetector::setCharucoParameters(CharucoParameters charucoParameters)
+ DetectorParameters cv::aruco::CharucoDetector::getDetectorParameters()
+ void cv::aruco::CharucoDetector::setDetectorParameters(DetectorParameters detectorParameters)
+ RefineParameters cv::aruco::CharucoDetector::getRefineParameters()
+ void cv::aruco::CharucoDetector::setRefineParameters(RefineParameters refineParameters)
+ void cv::aruco::CharucoDetector::detectBoard(Mat image, Mat& charucoCorners, Mat& charucoIds, vector_Mat& markerCorners = vector_Mat(), Mat& markerIds = Mat())
+ void cv::aruco::CharucoDetector::detectDiamonds(Mat image, vector_Mat& diamondCorners, Mat& diamondIds, vector_Mat& markerCorners = vector_Mat(), Mat& markerIds = Mat())
+  cv::aruco::CharucoParameters::CharucoParameters()
+Mat CharucoParameters::cameraMatrix
+void CharucoParameters::cameraMatrix
+Mat CharucoParameters::distCoeffs
+void CharucoParameters::distCoeffs
+int CharucoParameters::minMarkers
+void CharucoParameters::minMarkers
+bool CharucoParameters::tryRefineMarkers
+void CharucoParameters::tryRefineMarkers
+  cv::aruco::DetectorParameters::DetectorParameters()
+int DetectorParameters::adaptiveThreshWinSizeMin
+void DetectorParameters::adaptiveThreshWinSizeMin
+int DetectorParameters::adaptiveThreshWinSizeMax
+void DetectorParameters::adaptiveThreshWinSizeMax
+int DetectorParameters::adaptiveThreshWinSizeStep
+void DetectorParameters::adaptiveThreshWinSizeStep
+double DetectorParameters::adaptiveThreshConstant
+void DetectorParameters::adaptiveThreshConstant
+double DetectorParameters::minMarkerPerimeterRate
+void DetectorParameters::minMarkerPerimeterRate
+double DetectorParameters::maxMarkerPerimeterRate
+void DetectorParameters::maxMarkerPerimeterRate
+double DetectorParameters::polygonalApproxAccuracyRate
+void DetectorParameters::polygonalApproxAccuracyRate
+double DetectorParameters::minCornerDistanceRate
+void DetectorParameters::minCornerDistanceRate
+int DetectorParameters::minDistanceToBorder
+void DetectorParameters::minDistanceToBorder
+double DetectorParameters::minMarkerDistanceRate
+void DetectorParameters::minMarkerDistanceRate
+float DetectorParameters::minGroupDistance
+void DetectorParameters::minGroupDistance
+int DetectorParameters::cornerRefinementMethod
+void DetectorParameters::cornerRefinementMethod
+int DetectorParameters::cornerRefinementWinSize
+void DetectorParameters::cornerRefinementWinSize
+float DetectorParameters::relativeCornerRefinmentWinSize
+void DetectorParameters::relativeCornerRefinmentWinSize
+int DetectorParameters::cornerRefinementMaxIterations
+void DetectorParameters::cornerRefinementMaxIterations
+double DetectorParameters::cornerRefinementMinAccuracy
+void DetectorParameters::cornerRefinementMinAccuracy
+int DetectorParameters::markerBorderBits
+void DetectorParameters::markerBorderBits
+int DetectorParameters::perspectiveRemovePixelPerCell
+void DetectorParameters::perspectiveRemovePixelPerCell
+double DetectorParameters::perspectiveRemoveIgnoredMarginPerCell
+void DetectorParameters::perspectiveRemoveIgnoredMarginPerCell
+double DetectorParameters::maxErroneousBitsInBorderRate
+void DetectorParameters::maxErroneousBitsInBorderRate
+double DetectorParameters::minOtsuStdDev
+void DetectorParameters::minOtsuStdDev
+double DetectorParameters::errorCorrectionRate
+void DetectorParameters::errorCorrectionRate
+float DetectorParameters::aprilTagQuadDecimate
+void DetectorParameters::aprilTagQuadDecimate
+float DetectorParameters::aprilTagQuadSigma
+void DetectorParameters::aprilTagQuadSigma
+int DetectorParameters::aprilTagMinClusterPixels
+void DetectorParameters::aprilTagMinClusterPixels
+int DetectorParameters::aprilTagMaxNmaxima
+void DetectorParameters::aprilTagMaxNmaxima
+float DetectorParameters::aprilTagCriticalRad
+void DetectorParameters::aprilTagCriticalRad
+float DetectorParameters::aprilTagMaxLineFitMse
+void DetectorParameters::aprilTagMaxLineFitMse
+int DetectorParameters::aprilTagMinWhiteBlackDiff
+void DetectorParameters::aprilTagMinWhiteBlackDiff
+int DetectorParameters::aprilTagDeglitch
+void DetectorParameters::aprilTagDeglitch
+bool DetectorParameters::detectInvertedMarker
+void DetectorParameters::detectInvertedMarker
+bool DetectorParameters::useAruco3Detection
+void DetectorParameters::useAruco3Detection
+int DetectorParameters::minSideLengthCanonicalImg
+void DetectorParameters::minSideLengthCanonicalImg
+float DetectorParameters::minMarkerLengthRatioOriginalImg
+void DetectorParameters::minMarkerLengthRatioOriginalImg
+  cv::aruco::Dictionary::Dictionary()
+  cv::aruco::Dictionary::Dictionary(Mat bytesList, int _markerSize, int maxcorr = 0)
+ bool cv::aruco::Dictionary::identify(Mat onlyBits, int& idx, int& rotation, double maxCorrectionRate)
+ int cv::aruco::Dictionary::getDistanceToId(Mat bits, int id, bool allRotations = true)
+ void cv::aruco::Dictionary::generateImageMarker(int id, int sidePixels, Mat& _img, int borderBits = 1)
+static Mat cv::aruco::Dictionary::getByteListFromBits(Mat bits)
+static Mat cv::aruco::Dictionary::getBitsFromByteList(Mat byteList, int markerSize)
+Mat Dictionary::bytesList
+void Dictionary::bytesList
+int Dictionary::markerSize
+void Dictionary::markerSize
+int Dictionary::maxCorrectionBits
+void Dictionary::maxCorrectionBits
+  cv::aruco::GridBoard::GridBoard(Size size, float markerLength, float markerSeparation, Dictionary dictionary, Mat ids = Mat())
+ Size cv::aruco::GridBoard::getGridSize()
+ float cv::aruco::GridBoard::getMarkerLength()
+ float cv::aruco::GridBoard::getMarkerSeparation()
+  cv::aruco::RefineParameters::RefineParameters(float minRepDistance = 10.f, float errorCorrectionRate = 3.f, bool checkAllOrders = true)
+float RefineParameters::minRepDistance
+void RefineParameters::minRepDistance
+float RefineParameters::errorCorrectionRate
+void RefineParameters::errorCorrectionRate
+bool RefineParameters::checkAllOrders
+void RefineParameters::checkAllOrders
+  cv::barcode::BarcodeDetector::BarcodeDetector()
+  cv::barcode::BarcodeDetector::BarcodeDetector(string prototxt_path, string model_path)
+ bool cv::barcode::BarcodeDetector::decodeWithType(Mat img, Mat points, vector_string& decoded_info, vector_string& decoded_type)
+ bool cv::barcode::BarcodeDetector::detectAndDecodeWithType(Mat img, vector_string& decoded_info, vector_string& decoded_type, Mat& points = Mat())
+ double cv::barcode::BarcodeDetector::getDownsamplingThreshold()
+ BarcodeDetector cv::barcode::BarcodeDetector::setDownsamplingThreshold(double thresh)
+ void cv::barcode::BarcodeDetector::getDetectorScales(vector_float& sizes)
+ BarcodeDetector cv::barcode::BarcodeDetector::setDetectorScales(vector_float sizes)
+ double cv::barcode::BarcodeDetector::getGradientThreshold()
+ BarcodeDetector cv::barcode::BarcodeDetector::setGradientThreshold(double thresh)
+
+SKIPPED FUNCs LIST (15 of 262):
+
+ bool cv::CascadeClassifier::read(FileNode node)
+// Unknown type 'FileNode' (I), skipping the function
+
+ aruco_DetectorParameters cv::QRCodeDetectorAruco::getArucoParameters()
+// Return type 'aruco_DetectorParameters' is not supported, skipping the function
+
+ void cv::QRCodeDetectorAruco::setArucoParameters(aruco_DetectorParameters params)
+// Unknown type 'aruco_DetectorParameters' (I), skipping the function
+
+CorrectionLevel QRCodeEncoder_Params::correction_level
+// Return type 'CorrectionLevel' is not supported, skipping the function
+
+void QRCodeEncoder_Params::correction_level
+// Unknown type 'CorrectionLevel' (I), skipping the function
+
+EncodeMode QRCodeEncoder_Params::mode
+// Return type 'EncodeMode' is not supported, skipping the function
+
+void QRCodeEncoder_Params::mode
+// Unknown type 'EncodeMode' (I), skipping the function
+
+ void cv::aruco::ArucoDetector::write(FileStorage fs, String name)
+// Unknown type 'FileStorage' (I), skipping the function
+
+ void cv::aruco::ArucoDetector::read(FileNode fn)
+// Unknown type 'FileNode' (I), skipping the function
+
+ bool cv::aruco::DetectorParameters::readDetectorParameters(FileNode fn)
+// Unknown type 'FileNode' (I), skipping the function
+
+ bool cv::aruco::DetectorParameters::writeDetectorParameters(FileStorage fs, String name = String())
+// Unknown type 'FileStorage' (I), skipping the function
+
+ bool cv::aruco::Dictionary::readDictionary(FileNode fn)
+// Unknown type 'FileNode' (I), skipping the function
+
+ void cv::aruco::Dictionary::writeDictionary(FileStorage fs, String name = String())
+// Unknown type 'FileStorage' (I), skipping the function
+
+ bool cv::aruco::RefineParameters::readRefineParameters(FileNode fn)
+// Unknown type 'FileNode' (I), skipping the function
+
+ bool cv::aruco::RefineParameters::writeRefineParameters(FileStorage fs, String name = String())
+// Unknown type 'FileStorage' (I), skipping the function
+
+
+0 def args - 95 funcs
+1 def args - 19 funcs
+2 def args - 12 funcs
+3 def args - 5 funcs
+4 def args - 1 funcs
+5 def args - 4 funcs
+6 def args - 2 funcs
+7 def args - 1 funcs

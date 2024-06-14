@@ -1,0 +1,21 @@
+[0.546s] Invoking command in '/home/adminlab/franka_ros2_ws/src/FrankaTeleop/handcv': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/hand_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/hand_interfaces LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/build/handcv/prefix_override:/home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/handcv build --build-base /home/adminlab/franka_ros2_ws/build/handcv/build install --record /home/adminlab/franka_ros2_ws/build/handcv/install.log --single-version-externally-managed install_data
+[0.729s] running egg_info
+[0.729s] writing ../../../build/handcv/handcv.egg-info/PKG-INFO
+[0.730s] writing dependency_links to ../../../build/handcv/handcv.egg-info/dependency_links.txt
+[0.730s] writing entry points to ../../../build/handcv/handcv.egg-info/entry_points.txt
+[0.730s] writing requirements to ../../../build/handcv/handcv.egg-info/requires.txt
+[0.730s] writing top-level names to ../../../build/handcv/handcv.egg-info/top_level.txt
+[0.731s] reading manifest file '../../../build/handcv/handcv.egg-info/SOURCES.txt'
+[0.731s] writing manifest file '../../../build/handcv/handcv.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.732s] running install
+[0.733s] running install_lib
+[0.734s] running install_data
+[0.735s] running install_egg_info
+[0.737s] removing '/home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv-0.0.1-py3.10.egg-info' (and everything under it)
+[0.737s] Copying ../../../build/handcv/handcv.egg-info to /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv-0.0.1-py3.10.egg-info
+[0.738s] running install_scripts
+[0.756s] Installing handcv script to /home/adminlab/franka_ros2_ws/install/handcv/lib/handcv
+[0.756s] writing list of installed files to '/home/adminlab/franka_ros2_ws/build/handcv/install.log'
+[0.870s] Invoked command in '/home/adminlab/franka_ros2_ws/src/FrankaTeleop/handcv' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/hand_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/hand_interfaces LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/build/handcv/prefix_override:/home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/handcv build --build-base /home/adminlab/franka_ros2_ws/build/handcv/build install --record /home/adminlab/franka_ros2_ws/build/handcv/install.log --single-version-externally-managed install_data

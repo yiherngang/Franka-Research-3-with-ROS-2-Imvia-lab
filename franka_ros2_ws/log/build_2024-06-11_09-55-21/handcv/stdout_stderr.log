@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../build/handcv/handcv.egg-info/PKG-INFO
+writing dependency_links to ../../../build/handcv/handcv.egg-info/dependency_links.txt
+writing entry points to ../../../build/handcv/handcv.egg-info/entry_points.txt
+writing requirements to ../../../build/handcv/handcv.egg-info/requires.txt
+writing top-level names to ../../../build/handcv/handcv.egg-info/top_level.txt
+reading manifest file '../../../build/handcv/handcv.egg-info/SOURCES.txt'
+writing manifest file '../../../build/handcv/handcv.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/handcv/handcv.egg-info to /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv-0.0.1-py3.10.egg-info
+running install_scripts
+Installing handcv script to /home/adminlab/franka_ros2_ws/install/handcv/lib/handcv
+writing list of installed files to '/home/adminlab/franka_ros2_ws/build/handcv/install.log'

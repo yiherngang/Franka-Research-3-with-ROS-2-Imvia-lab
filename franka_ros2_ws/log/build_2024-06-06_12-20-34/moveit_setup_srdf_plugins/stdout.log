@@ -1,0 +1,89 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_setup_srdf_plugins[0m
+[  2%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/compute_default_collisions.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses_widget.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/rotated_header_view.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints_widget.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_collision_linear_model.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_collision_matrix_model.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_default_collisions_widget.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_end_effectors_widget.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_group_edit_widget.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_kinematic_chain_widget.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_passive_joints_widget.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints_widget.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_edit_widget.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_meta_config.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions_widget.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_planning_groups_widget.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_virtual_joints_widget.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_rotated_header_view.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_robot_poses_widget.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libmoveit_setup_srdf_plugins.so[0m
+[ 87%] Built target moveit_setup_srdf_plugins
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 89%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 93%] Built target gtest_main
+[ 95%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 95%] Built target gtest
+[ 97%] [32mBuilding CXX object CMakeFiles/test_srdf.dir/test/test_srdf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_srdf[0m
+[100%] Built target test_srdf
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/compute_default_collisions.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/srdf_step.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/rotated_header_view.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_matrix_model.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_linear_model.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_meta_config.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/kinematic_chain_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_edit_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_srdf_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_srdf_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/packages/moveit_setup_srdf_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_srdf_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.xml

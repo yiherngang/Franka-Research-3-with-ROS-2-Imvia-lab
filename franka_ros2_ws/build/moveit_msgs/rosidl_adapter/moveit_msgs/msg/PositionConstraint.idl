@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PositionConstraint.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "moveit_msgs/msg/BoundingVolume.idl"
+#include "std_msgs/msg/Header.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains the definition of a position constraint.")
+    struct PositionConstraint {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "The robot link this constraint refers to")
+      string link_name;
+
+      @verbatim (language="comment", text=
+        "The offset (in the link frame) for the target point on the link we are planning for")
+      geometry_msgs::msg::Vector3 target_point_offset;
+
+      @verbatim (language="comment", text=
+        "The volume this constraint refers to")
+      moveit_msgs::msg::BoundingVolume constraint_region;
+
+      @verbatim (language="comment", text=
+        "A weighting factor for this constraint (denotes relative importance to other constraints. Closer to zero means less important)")
+      double weight;
+    };
+  };
+};

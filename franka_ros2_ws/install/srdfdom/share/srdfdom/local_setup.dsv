@@ -1,0 +1,4 @@
+source;share/srdfdom/environment/ament_prefix_path.sh
+source;share/srdfdom/environment/library_path.sh
+source;share/srdfdom/environment/path.sh
+source;share/srdfdom/environment/pythonpath.sh

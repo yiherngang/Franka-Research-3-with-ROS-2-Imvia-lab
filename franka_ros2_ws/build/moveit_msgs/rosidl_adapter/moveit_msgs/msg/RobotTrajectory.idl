@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/RobotTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+#include "trajectory_msgs/msg/MultiDOFJointTrajectory.idl"
+
+module moveit_msgs {
+  module msg {
+    struct RobotTrajectory {
+      trajectory_msgs::msg::JointTrajectory joint_trajectory;
+
+      trajectory_msgs::msg::MultiDOFJointTrajectory multi_dof_joint_trajectory;
+    };
+  };
+};

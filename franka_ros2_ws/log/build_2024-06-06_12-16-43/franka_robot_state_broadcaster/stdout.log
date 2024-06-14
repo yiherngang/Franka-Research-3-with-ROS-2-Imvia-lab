@@ -1,0 +1,35 @@
+[  8%] Built target franka_robot_state_broadcaster_parameters
+[ 25%] Built target gmock_main
+[ 50%] Built target gmock
+[ 66%] Built target franka_robot_state_broadcaster
+[ 83%] Built target franka_robot_state_broadcaster_test
+[100%] Built target test_load_franka_robot_state_broadcaster
+-- Install configuration: ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters/franka_robot_state_broadcaster_parameters.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/franka_robot_state_broadcaster.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/franka_robot_state_broadcaster
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/franka_robot_state_broadcaster
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/packages/franka_robot_state_broadcaster
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_robot_state_broadcaster
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.xml

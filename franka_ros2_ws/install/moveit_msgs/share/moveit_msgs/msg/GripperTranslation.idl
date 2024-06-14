@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/GripperTranslation.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3Stamped.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "defines a translation for the gripper, used in pickup or place tasks" "\n"
+      "for example for lifting an object off a table or approaching the table for placing")
+    struct GripperTranslation {
+      @verbatim (language="comment", text=
+        "the direction of the translation")
+      geometry_msgs::msg::Vector3Stamped direction;
+
+      @verbatim (language="comment", text=
+        "the desired translation distance")
+      float desired_distance;
+
+      @verbatim (language="comment", text=
+        "the min distance that must be considered feasible before the" "\n"
+        "grasp is even attempted")
+      float min_distance;
+    };
+  };
+};

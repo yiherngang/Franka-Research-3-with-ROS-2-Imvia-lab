@@ -1,0 +1,8 @@
+source;share/mtc_tutorial/hook/cmake_prefix_path.ps1
+source;share/mtc_tutorial/hook/cmake_prefix_path.dsv
+source;share/mtc_tutorial/hook/cmake_prefix_path.sh
+source;share/mtc_tutorial/local_setup.bash
+source;share/mtc_tutorial/local_setup.dsv
+source;share/mtc_tutorial/local_setup.ps1
+source;share/mtc_tutorial/local_setup.sh
+source;share/mtc_tutorial/local_setup.zsh

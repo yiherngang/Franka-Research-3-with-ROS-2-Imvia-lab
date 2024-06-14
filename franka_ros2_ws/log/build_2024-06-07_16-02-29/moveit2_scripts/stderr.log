@@ -1,0 +1,7 @@
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/approach_retreat.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/approach_retreat.cpp:63:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess_arm[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   63 |   bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+      |        [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/approach_retreat.cpp:101:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess_gripper[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  101 |   bool [01;35m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+      |        [01;35m[K^~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from franka_msgs/action/Homing.action
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module action {
+    struct Homing_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Homing_Result {
+      boolean success;
+
+      string error;
+    };
+    struct Homing_Feedback {
+      @unit (value="m")
+      double current_width;
+    };
+  };
+};

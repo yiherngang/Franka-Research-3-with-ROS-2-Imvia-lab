@@ -1,0 +1,10 @@
+[  0%] Built target ament_cmake_python_copy_franka_gripper
+[100%] Built target gripper_server
+[100%] Built target franka_gripper_node
+running egg_info
+writing franka_gripper.egg-info/PKG-INFO
+writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+writing top-level names to franka_gripper.egg-info/top_level.txt
+reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_franka_gripper_egg

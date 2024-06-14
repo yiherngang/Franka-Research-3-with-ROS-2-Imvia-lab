@@ -1,0 +1,45 @@
+[0.345s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description -- -j16 -l16
+[0.575s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description -- -j16 -l16
+[0.614s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description
+[0.629s] -- Install configuration: ""
+[0.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[0.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[0.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[0.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[0.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[0.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[0.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[0.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[0.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[0.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[0.633s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[0.634s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[0.634s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[0.635s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[0.636s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[0.636s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[0.636s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[0.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[0.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[0.678s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_description

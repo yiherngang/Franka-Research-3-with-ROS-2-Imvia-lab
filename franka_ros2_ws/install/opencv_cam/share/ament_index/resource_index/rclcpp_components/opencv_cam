@@ -1,0 +1,2 @@
+opencv_cam::OpencvCamNode;lib/libopencv_cam_node.so
+opencv_cam::ImageSubscriberNode;lib/libsubscriber_node.so

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/RobotState.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/AttachedCollisionObject.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "sensor_msgs/msg/MultiDOFJointState.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains information about the robot state, i.e. the positions of its joints and links")
+    struct RobotState {
+      sensor_msgs::msg::JointState joint_state;
+
+      @verbatim (language="comment", text=
+        "Joints that may have multiple DOF are specified here")
+      sensor_msgs::msg::MultiDOFJointState multi_dof_joint_state;
+
+      @verbatim (language="comment", text=
+        "Attached collision objects (attached to some link on the robot)")
+      sequence<moveit_msgs::msg::AttachedCollisionObject> attached_collision_objects;
+
+      @verbatim (language="comment", text=
+        "Flag indicating whether this scene is to be interpreted as a diff with respect to some other scene" "\n"
+        "This is mostly important for handling the attached bodies (whether or not to clear the attached bodies" "\n"
+        "of a moveit::core::RobotState before updating it with this message)")
+      boolean is_diff;
+    };
+  };
+};

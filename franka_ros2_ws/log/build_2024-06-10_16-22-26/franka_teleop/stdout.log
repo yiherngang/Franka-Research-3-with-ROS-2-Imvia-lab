@@ -1,0 +1,24 @@
+[  2%] Built target franka_teleop__cpp
+[ 11%] Built target franka_teleop__rosidl_generator_c
+[ 20%] Built target franka_teleop__rosidl_typesupport_cpp
+[ 20%] Built target ament_cmake_python_copy_franka_teleop
+[ 28%] Built target franka_teleop__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target franka_teleop__rosidl_typesupport_introspection_cpp
+[ 45%] Built target franka_teleop__rosidl_typesupport_c
+[ 54%] Built target franka_teleop__rosidl_typesupport_fastrtps_c
+[ 62%] Built target franka_teleop__rosidl_typesupport_introspection_c
+[ 65%] [32mBuilding CXX object CMakeFiles/franka_servo_real.dir/src/franka_servo_real.cpp.o[0m
+[ 65%] Built target franka_teleop
+[ 68%] [32mBuilding CXX object CMakeFiles/franka_servo_fake.dir/src/franka_servo_fake.cpp.o[0m
+[ 71%] Built target franka_teleop__py
+[ 77%] Built target franka_teleop__rosidl_generator_py
+[ 94%] Built target franka_teleop__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target franka_teleop__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target franka_teleop__rosidl_typesupport_c__pyext
+running egg_info
+writing franka_teleop.egg-info/PKG-INFO
+writing dependency_links to franka_teleop.egg-info/dependency_links.txt
+writing top-level names to franka_teleop.egg-info/top_level.txt
+reading manifest file 'franka_teleop.egg-info/SOURCES.txt'
+writing manifest file 'franka_teleop.egg-info/SOURCES.txt'
+[ 94%] Built target ament_cmake_python_build_franka_teleop_egg

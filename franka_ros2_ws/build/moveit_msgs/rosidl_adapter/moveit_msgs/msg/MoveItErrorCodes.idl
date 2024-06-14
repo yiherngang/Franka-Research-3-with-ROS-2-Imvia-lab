@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/MoveItErrorCodes.msg
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module msg {
+    module MoveItErrorCodes_Constants {
+      @verbatim (language="comment", text=
+        "overall behavior")
+      const int32 SUCCESS = 1;
+      const int32 FAILURE = 99999;
+      const int32 PLANNING_FAILED = -1;
+      const int32 INVALID_MOTION_PLAN = -2;
+      const int32 MOTION_PLAN_INVALIDATED_BY_ENVIRONMENT_CHANGE = -3;
+      const int32 CONTROL_FAILED = -4;
+      const int32 UNABLE_TO_AQUIRE_SENSOR_DATA = -5;
+      const int32 TIMED_OUT = -6;
+      const int32 PREEMPTED = -7;
+      @verbatim (language="comment", text=
+        "planning & kinematics request errors")
+      const int32 START_STATE_IN_COLLISION = -10;
+      const int32 START_STATE_VIOLATES_PATH_CONSTRAINTS = -11;
+      const int32 START_STATE_INVALID = -26;
+      const int32 GOAL_IN_COLLISION = -12;
+      const int32 GOAL_VIOLATES_PATH_CONSTRAINTS = -13;
+      const int32 GOAL_CONSTRAINTS_VIOLATED = -14;
+      const int32 GOAL_STATE_INVALID = -27;
+      const int32 UNRECOGNIZED_GOAL_TYPE = -28;
+      const int32 INVALID_GROUP_NAME = -15;
+      const int32 INVALID_GOAL_CONSTRAINTS = -16;
+      const int32 INVALID_ROBOT_STATE = -17;
+      const int32 INVALID_LINK_NAME = -18;
+      const int32 INVALID_OBJECT_NAME = -19;
+      @verbatim (language="comment", text=
+        "system errors")
+      const int32 FRAME_TRANSFORM_FAILURE = -21;
+      const int32 COLLISION_CHECKING_UNAVAILABLE = -22;
+      const int32 ROBOT_STATE_STALE = -23;
+      const int32 SENSOR_INFO_STALE = -24;
+      const int32 COMMUNICATION_FAILURE = -25;
+      const int32 CRASH = -29;
+      const int32 ABORT = -30;
+      @verbatim (language="comment", text=
+        "kinematics errors")
+      const int32 NO_IK_SOLUTION = -31;
+    };
+    struct MoveItErrorCodes {
+      int32 val;
+    };
+  };
+};

@@ -1,0 +1,104 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found moveit_core: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+-- Found control_msgs: 4.5.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit2_scripts
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory3[0m
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory[0m
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[35m[1mConsolidate compiler generated dependencies of target test_gripper[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/test_trajectory3.dir/src/test_trajectory3.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   54 |   bool [01;35m[Ksuccess[m[K =
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   54 |   bool [01;35m[Ksuccess[m[K =
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:47:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess_gripper[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   47 |   bool [01;35m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+      |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |   bool [01;35m[Ksuccess[m[K =
+      |        [01;35m[K^~~~~~~[m[K
+[ 62%] [32m[1mLinking CXX executable test_gripper[0m
+[ 62%] Built target test_gripper
+[ 75%] [32m[1mLinking CXX executable test_trajectory3[0m
+[ 87%] [32m[1mLinking CXX executable test_trajectory[0m
+[100%] [32m[1mLinking CXX executable test_trajectory2[0m
+[100%] Built target test_trajectory3
+[100%] Built target test_trajectory2
+[100%] Built target test_trajectory
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/approach_retreat.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py

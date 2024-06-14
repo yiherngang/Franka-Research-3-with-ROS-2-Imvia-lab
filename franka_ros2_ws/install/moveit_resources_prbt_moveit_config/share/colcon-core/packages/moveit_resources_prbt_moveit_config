@@ -1,0 +1,1 @@
+joint_state_publisher:moveit_resources_prbt_ikfast_manipulator_plugin:moveit_resources_prbt_support:moveit_ros_move_group:robot_state_publisher:rviz2:xacro

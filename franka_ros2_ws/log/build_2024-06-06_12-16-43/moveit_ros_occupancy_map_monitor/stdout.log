@@ -1,0 +1,36 @@
+[ 23%] Built target gmock
+[ 53%] Built target moveit_ros_occupancy_map_monitor
+[ 69%] Built target gmock_main
+[ 84%] Built target moveit_ros_occupancy_map_server
+[100%] Built target occupancy_map_monitor_tests
+-- Install configuration: "Release"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor_middleware_handle.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/package_run_dependencies/moveit_ros_occupancy_map_monitor
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/parent_prefix_path/moveit_ros_occupancy_map_monitor
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/packages/moveit_ros_occupancy_map_monitor
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/export_moveit_ros_occupancy_map_monitorExport-release.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.xml

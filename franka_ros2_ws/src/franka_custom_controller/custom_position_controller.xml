@@ -1,0 +1,6 @@
+<library path="libfranka_custom_controller.so">
+  <class name="franka_custom_controller::CustomPositionController" type="franka_custom_controller::CustomPositionController" base_class_type="controller_interface::ControllerInterface">
+    <description>Custom Position Controller for Franka Emika</description>
+  </class>
+</library>
+

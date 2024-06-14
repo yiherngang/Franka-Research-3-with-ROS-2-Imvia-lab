@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[ 60%] Built target approach_retreat
+[ 60%] Built target test_gripper
+[ 60%] Built target test_trajectory
+[ 70%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[ 90%] Built target test_trajectory3
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:76:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan[m[K’
+   76 |   moveit::planning_interface::MoveGroupInterface::Plan [01;31m[Kmy_plan[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:59:56:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan my_plan[m[K’ previously declared here
+   59 |   moveit::planning_interface::MoveGroupInterface::Plan [01;36m[Kmy_plan[m[K;
+      |                                                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:34:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   34 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/test_trajectory2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

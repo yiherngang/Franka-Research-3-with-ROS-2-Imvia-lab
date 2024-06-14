@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PlannerParams.msg
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "parameter names (same size as values)")
+    struct PlannerParams {
+      sequence<string> keys;
+
+      @verbatim (language="comment", text=
+        "parameter values (same size as keys)")
+      sequence<string> values;
+
+      @verbatim (language="comment", text=
+        "parameter description (can be empty)")
+      sequence<string> descriptions;
+    };
+  };
+};

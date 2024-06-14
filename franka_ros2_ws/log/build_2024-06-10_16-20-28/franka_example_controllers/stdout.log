@@ -1,0 +1,8 @@
+[  3%] Built target franka_example_controllers_parameters
+[ 21%] Built target gmock_main
+[ 21%] Built target gmock
+[ 71%] Built target franka_example_controllers
+[ 78%] Built target franka_example_controllers_test_load_move_to_start
+[ 85%] Built target franka_example_controllers_test
+[ 92%] Built target franka_example_controllers_gravity_test
+[100%] Built target franka_example_controllers_move_to_start_test

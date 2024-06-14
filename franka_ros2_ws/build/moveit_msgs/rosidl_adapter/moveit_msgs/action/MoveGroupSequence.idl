@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_msgs/action/MoveGroupSequence.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MotionSequenceRequest.idl"
+#include "moveit_msgs/msg/MotionSequenceResponse.idl"
+#include "moveit_msgs/msg/PlanningOptions.idl"
+
+module moveit_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "A list of motion commands - one for each section of the sequence")
+    struct MoveGroupSequence_Goal {
+      moveit_msgs::msg::MotionSequenceRequest request;
+
+      @verbatim (language="comment", text=
+        "Planning options")
+      moveit_msgs::msg::PlanningOptions planning_options;
+    };
+    struct MoveGroupSequence_Result {
+      @verbatim (language="comment", text=
+        "Response comprising information on all sections of the sequence")
+      moveit_msgs::msg::MotionSequenceResponse response;
+    };
+    struct MoveGroupSequence_Feedback {
+      @verbatim (language="comment", text=
+        "The internal state that the move group action currently is in")
+      string state;
+    };
+  };
+};

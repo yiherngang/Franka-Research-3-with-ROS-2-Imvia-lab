@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/CartesianTrajectoryPoint.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "moveit_msgs/msg/CartesianPoint.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The definition of a cartesian point in a trajectory. Defines the cartesian state of the point and it's time," "\n"
+      "following the pattern of the JointTrajectory message")
+    struct CartesianTrajectoryPoint {
+      moveit_msgs::msg::CartesianPoint point;
+
+      builtin_interfaces::msg::Duration time_from_start;
+    };
+  };
+};

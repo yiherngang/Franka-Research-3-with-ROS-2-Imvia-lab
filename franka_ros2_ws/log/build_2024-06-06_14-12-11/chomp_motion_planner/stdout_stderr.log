@@ -1,0 +1,66 @@
+-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found moveit_core: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/adminlab/franka_ros2_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/chomp_motion_planner
+[35m[1mConsolidate compiler generated dependencies of target chomp_motion_planner[0m
+[100%] Built target chomp_motion_planner
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.xml

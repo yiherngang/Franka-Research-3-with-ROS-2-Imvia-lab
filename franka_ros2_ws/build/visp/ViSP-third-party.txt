@@ -1,0 +1,206 @@
+
+==========================================================
+General configuration information for ViSP 3.6.1
+
+  Version control:               v3.6.0-1056-g92b1ddcd6-dirty
+
+  Platform:
+    Timestamp:                   2024-06-13T13:39:13Z
+    Host:                        Linux 6.9.0-rt5+ x86_64
+    CMake:                       3.22.1
+    CMake generator:             Unix Makefiles
+    CMake build tool:            /usr/bin/gmake
+    Configuration:               Release
+
+  System information:
+    Number of CPU logical cores: 16
+    Number of CPU physical cores: 12
+    Total physical memory (in MiB): 15678
+    OS name:                     Linux
+    OS release:                  6.9.0-rt5+
+    OS version:                  #5 SMP PREEMPT_RT Thu Jun 13 14:50:20 CEST 2024
+    OS platform:                 x86_64
+    CPU name:                    Unknown P6 family
+    Is the CPU 64-bit?           yes
+    Does the CPU have FPU?       yes
+    CPU optimization:            SSE2 SSE3 SSSE3
+
+  C/C++:
+    Built as dynamic libs?:      yes
+    C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
+    C++ flags (Release):         -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+    C++ flags (Debug):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+    C Compiler:                  /usr/bin/cc
+    C flags (Release):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+    C flags (Debug):             -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+    Linker flags (Release):
+    Linker flags (Debug):
+    Use cxx standard:            17
+
+  ViSP modules:
+    To be built:                 core dnn_tracker gui imgproc io java_bindings_generator klt me sensor ar blob robot visual_features vs vision detection mbt tt tt_mi
+    Disabled:                    -
+    Disabled by dependency:      -
+    Unavailable:                 java
+    Enable visp namespace:       no
+
+  Python 3:
+    Interpreter:                 /usr/bin/python3.10 (ver 3.10.12)
+
+  Java:                          
+    ant:                         no
+    JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+
+  Python3 bindings:              no
+    Requirements: 
+      Python version > 3.7.0:    ok (ver 3.10.12)
+      Python in Virtual environment or conda:
+                                 failed
+      Pybind11 found:            ok
+      CMake > 3.19.0:            ok (3.22.1)
+      C++ standard > 201703L:    ok (201703L)
+
+  Build options: 
+    Build deprecated:            yes
+    Build with moment combine:   no
+
+  OpenCV: 
+    Version:                     4.10.0
+    Modules:                     calib3d core dnn features2d flann gapi highgui imgcodecs imgproc ml objdetect photo stitching video videoio
+    OpenCV dir:                  /usr/local/lib/cmake/opencv4
+
+  Mathematics: 
+    Blas/Lapack:                 yes
+    \- Use MKL:                  no
+    \- Use OpenBLAS:             no
+    \- Use Atlas:                no
+    \- Use Netlib:               yes (ver 3.10.0)
+    \- Use GSL:                  no
+    \- Use Lapack (built-in):    no
+    Use Eigen3:                  yes (ver 3.4.0)
+    Use OpenCV:                  yes (ver 4.10.0)
+
+  Simulator: 
+    Ogre simulator: 
+    \- Use Ogre3D:               yes (ver 1.9.0)
+    \- Use OIS:                  no
+    Coin simulator: 
+    \- Use Coin3D:               no
+    \- Use SoWin:                no
+    \- Use SoXt:                 no
+    \- Use SoQt:                 no
+    \- Use Qt5:                  no
+    \- Use Qt4:                  no
+    \- Use Qt3:                  no
+
+  Media I/O: 
+    Use JPEG:                    yes (ver 80)
+    Use PNG:                     yes (ver 1.6.37)
+    \- Use ZLIB:                 yes (ver 1.2.11)
+    Use OpenCV:                  yes (ver 4.10.0)
+    Use stb_image (built-in):    yes (ver 2.27.0)
+    Use TinyEXR (built-in):      yes (ver 1.0.2)
+    Use simdlib (built-in):      yes
+    Use npz I/O (built-in):      yes
+
+  Real robots: 
+    Use Afma4:                   no
+    Use Afma6:                   no
+    Use Franka:                  yes (ver 0.13.2)
+    Use Viper650:                no
+    Use Viper850:                no
+    Use ur_rtde:                 no
+    Use Kinova Jaco:             no
+    Use aria (Pioneer):          no
+    Use PTU46:                   no
+    Use Biclops PTU:             no
+    Use Flir PTU SDK:            no
+    Use MAVSDK:                  no
+    Use Parrot ARSDK:            no
+    \-Use ffmpeg:                no
+    Use Virtuose:                no
+    Use qbdevice (built-in):     yes (ver 2.6.0)
+    Use takktile2 (built-in):    yes (ver 1.0.0)
+    Use pololu (built-in):       yes (ver 1.0.0)
+
+  GUI: 
+    Use X11:                     yes
+    Use GTK:                     no
+    Use OpenCV:                  yes (ver 4.10.0)
+    Use GDI:                     no
+    Use Direct3D:                no
+
+  Cameras: 
+    Use DC1394-2.x:              yes (ver 2.2.6)
+    Use CMU 1394:                no
+    Use V4L2:                    yes (ver 1.22.1)
+    Use directshow:              no
+    Use OpenCV:                  yes (ver 4.10.0)
+    Use FLIR Flycapture:         no
+    Use Basler Pylon:            no
+    Use IDS uEye:                no
+
+  RGB-D sensors: 
+    Use Realsense:               no
+    Use Realsense2:              yes (ver 2.55.1)
+    Use Occipital Structure:     no
+    Use Kinect:                  no
+    \- Use libfreenect:          no
+    \- Use libusb-1:             yes (ver 1.0.25)
+    \- Use std::thread:          yes
+    Use PCL:                     yes (ver 1.12.1)
+    \- Use VTK:                  yes (ver 9.1.0)
+
+  F/T sensors: 
+    Use atidaq (built-in):       no
+    Use comedi:                  no
+    Use IIT SDK:                 no
+
+  Mocap: 
+    Use Qualisys:                no
+    Use Vicon:                   no
+
+  Detection: 
+    Use zbar:                    yes (ver 0.23.92)
+    Use dmtx:                    no
+    Use AprilTag (built-in):     yes (ver 3.1.1)
+    \- Use AprilTag big family:  no
+
+  Misc: 
+    Use Clipper (built-in):      yes (ver 6.4.2)
+    Use pugixml (built-in):      yes (ver 1.9.0)
+    Use libxml2:                 yes (ver 2.9.13)
+    Use json (nlohmann):         yes (ver 3.10.5)
+
+  Optimization: 
+    Use OpenMP:                  yes
+    Use std::thread:             yes
+    Use pthread:                 yes
+    Use pthread (built-in):      no
+    Use simdlib (built-in):      yes
+
+  DNN: 
+    Use CUDA Toolkit:            no
+    Use TensorRT:                no
+
+  Documentation: 
+    Use doxygen:                 no
+    \- Use mathjax:              no
+
+  Tests and samples:
+    Use catch2 (built-in):       yes (ver 2.13.7)
+    Tests:                       yes
+    Apps:                        yes
+    Demos:                       yes
+    Examples:                    yes
+    Tutorials:                   yes
+    Dataset found:               no
+
+  Library dirs:
+    Eigen3 include dir:          /usr/share/eigen3/cmake
+    OpenCV dir:                  /usr/local/lib/cmake/opencv4
+    PCL dir:                     /usr/lib/x86_64-linux-gnu/cmake/pcl
+
+  Install path:                  /usr/local
+
+==========================================================

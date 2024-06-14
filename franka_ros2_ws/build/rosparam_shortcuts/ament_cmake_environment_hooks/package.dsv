@@ -1,0 +1,4 @@
+source;share/rosparam_shortcuts/local_setup.bash
+source;share/rosparam_shortcuts/local_setup.dsv
+source;share/rosparam_shortcuts/local_setup.sh
+source;share/rosparam_shortcuts/local_setup.zsh

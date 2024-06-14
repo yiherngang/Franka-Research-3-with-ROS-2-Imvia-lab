@@ -1,0 +1,42 @@
+[ 15%] Built target gtest
+[ 30%] Built target gtest_main
+[ 84%] Built target moveit_robot_interaction
+[100%] Built target locked_robot_state_test
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction_handler.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options_map.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interactive_marker_helpers.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/robot_interaction.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/locked_robot_state.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/include/moveit_robot_interaction_export.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.dae
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.stl
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/ament_index/resource_index/package_run_dependencies/moveit_ros_robot_interaction
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/ament_index/resource_index/parent_prefix_path/moveit_ros_robot_interaction
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/ament_index/resource_index/packages/moveit_ros_robot_interaction
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.xml

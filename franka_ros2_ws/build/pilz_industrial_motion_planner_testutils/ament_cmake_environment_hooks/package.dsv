@@ -1,0 +1,4 @@
+source;share/pilz_industrial_motion_planner_testutils/local_setup.bash
+source;share/pilz_industrial_motion_planner_testutils/local_setup.dsv
+source;share/pilz_industrial_motion_planner_testutils/local_setup.sh
+source;share/pilz_industrial_motion_planner_testutils/local_setup.zsh

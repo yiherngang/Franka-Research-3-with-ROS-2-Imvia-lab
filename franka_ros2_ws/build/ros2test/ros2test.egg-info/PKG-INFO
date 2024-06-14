@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ros2test
+Version: 0.7.0
+Summary: The test command for ROS 2 launch tests.
+Home-page: https://github.com/ros2/rostest/tree/master/ros2test
+Author: Michel Hidalgo
+Author-email: michel@ekumenlabs.com
+Maintainer: Dharini Dutia
+Maintainer-email: dharini@openrobotics.org
+License: Apache License, Version 2.0
+Download-URL: https://github.com/ros2/rostest/releases
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+
+This package provides the test command for ROS 2 launch tests.
+

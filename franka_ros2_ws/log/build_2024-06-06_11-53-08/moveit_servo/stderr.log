@@ -1,0 +1,8 @@
+[0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+gmake[2]: *** [CMakeFiles/servo_node_main.dir/build.make:76: CMakeFiles/servo_node_main.dir/src/servo_node_main.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/pose_tracking.dir/build.make:76: CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/servo_calcs_unit_tests.dir/build.make:76: CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:230: CMakeFiles/pose_tracking.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:480: CMakeFiles/servo_calcs_unit_tests.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/servo_node_main.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

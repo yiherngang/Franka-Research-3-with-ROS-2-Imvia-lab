@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/QueryPlannerInterfaces.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/PlannerInterfaceDescription.idl"
+
+module moveit_msgs {
+  module srv {
+    struct QueryPlannerInterfaces_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct QueryPlannerInterfaces_Response {
+      @verbatim (language="comment", text=
+        "The planning instances that could be used in the benchmark")
+      sequence<moveit_msgs::msg::PlannerInterfaceDescription> planner_interfaces;
+    };
+  };
+};

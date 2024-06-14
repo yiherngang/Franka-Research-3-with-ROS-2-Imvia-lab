@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_msgs/srv/SetCartesianStiffness.srv
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module srv {
+    typedef double double__6[6];
+    @verbatim (language="comment", text=
+      "Cartesian stiffness represented as (x, y, z, roll, pitch, yaw)." "\n"
+      "The values are used in the direction of the stiffness frame.")
+    struct SetCartesianStiffness_Request {
+      double__6 cartesian_stiffness;
+    };
+    struct SetCartesianStiffness_Response {
+      boolean success;
+
+      string error;
+    };
+  };
+};

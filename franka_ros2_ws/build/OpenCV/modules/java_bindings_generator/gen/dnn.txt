@@ -1,0 +1,209 @@
+PORTED FUNCs LIST (172 of 180):
+
+ vector_Target cv::dnn::getAvailableTargets(dnn_Backend be)
+ Net cv::dnn::readNetFromDarknet(String cfgFile, String darknetModel = String())
+ Net cv::dnn::readNetFromDarknet(vector_uchar bufferCfg, vector_uchar bufferModel = std::vector<uchar>())
+ Net cv::dnn::readNetFromCaffe(String prototxt, String caffeModel = String())
+ Net cv::dnn::readNetFromCaffe(vector_uchar bufferProto, vector_uchar bufferModel = std::vector<uchar>())
+ Net cv::dnn::readNetFromTensorflow(String model, String config = String())
+ Net cv::dnn::readNetFromTensorflow(vector_uchar bufferModel, vector_uchar bufferConfig = std::vector<uchar>())
+ Net cv::dnn::readNetFromTFLite(String model)
+ Net cv::dnn::readNetFromTFLite(vector_uchar bufferModel)
+ Net cv::dnn::readNetFromTorch(String model, bool isBinary = true, bool evaluate = true)
+ Net cv::dnn::readNet(String model, String config = "", String framework = "")
+ Net cv::dnn::readNet(String framework, vector_uchar bufferModel, vector_uchar bufferConfig = std::vector<uchar>())
+ Mat cv::dnn::readTorchBlob(String filename, bool isBinary = true)
+ Net cv::dnn::readNetFromModelOptimizer(String xml, String bin = "")
+ Net cv::dnn::readNetFromModelOptimizer(vector_uchar bufferModelConfig, vector_uchar bufferWeights)
+ Net cv::dnn::readNetFromONNX(String onnxFile)
+ Net cv::dnn::readNetFromONNX(vector_uchar buffer)
+ Mat cv::dnn::readTensorFromONNX(String path)
+ Mat cv::dnn::blobFromImage(Mat image, double scalefactor = 1.0, Size size = Size(), Scalar mean = Scalar(), bool swapRB = false, bool crop = false, int ddepth = CV_32F)
+ Mat cv::dnn::blobFromImages(vector_Mat images, double scalefactor = 1.0, Size size = Size(), Scalar mean = Scalar(), bool swapRB = false, bool crop = false, int ddepth = CV_32F)
+ Mat cv::dnn::blobFromImageWithParams(Mat image, Image2BlobParams param = Image2BlobParams())
+ void cv::dnn::blobFromImageWithParams(Mat image, Mat& blob, Image2BlobParams param = Image2BlobParams())
+ Mat cv::dnn::blobFromImagesWithParams(vector_Mat images, Image2BlobParams param = Image2BlobParams())
+ void cv::dnn::blobFromImagesWithParams(vector_Mat images, Mat& blob, Image2BlobParams param = Image2BlobParams())
+ void cv::dnn::imagesFromBlob(Mat blob_, vector_Mat& images_)
+ void cv::dnn::shrinkCaffeModel(String src, String dst, vector_String layersTypes = std::vector<String>())
+ void cv::dnn::writeTextGraph(String model, String output)
+ void cv::dnn::NMSBoxes(vector_Rect2d bboxes, vector_float scores, float score_threshold, float nms_threshold, vector_int& indices, float eta = 1.f, int top_k = 0)
+ void cv::dnn::NMSBoxes(vector_RotatedRect bboxes, vector_float scores, float score_threshold, float nms_threshold, vector_int& indices, float eta = 1.f, int top_k = 0)
+ void cv::dnn::NMSBoxesBatched(vector_Rect2d bboxes, vector_float scores, vector_int class_ids, float score_threshold, float nms_threshold, vector_int& indices, float eta = 1.f, int top_k = 0)
+ void cv::dnn::softNMSBoxes(vector_Rect bboxes, vector_float scores, vector_float& updated_scores, float score_threshold, float nms_threshold, vector_int& indices, size_t top_k = 0, float sigma = 0.5, SoftNMSMethod method = SoftNMSMethod::SOFTNMS_GAUSSIAN)
+ String cv::dnn::getInferenceEngineBackendType()
+ String cv::dnn::setInferenceEngineBackendType(String newBackendType)
+ void cv::dnn::resetMyriadDevice()
+ String cv::dnn::getInferenceEngineVPUType()
+ String cv::dnn::getInferenceEngineCPUType()
+ void cv::dnn::releaseHDDLPlugin()
+  cv::dnn::ClassificationModel::ClassificationModel(String model, String config = "")
+  cv::dnn::ClassificationModel::ClassificationModel(Net network)
+ ClassificationModel cv::dnn::ClassificationModel::setEnableSoftmaxPostProcessing(bool enable)
+ bool cv::dnn::ClassificationModel::getEnableSoftmaxPostProcessing()
+ void cv::dnn::ClassificationModel::classify(Mat frame, int& classId, float& conf)
+  cv::dnn::DetectionModel::DetectionModel(String model, String config = "")
+  cv::dnn::DetectionModel::DetectionModel(Net network)
+ DetectionModel cv::dnn::DetectionModel::setNmsAcrossClasses(bool value)
+ bool cv::dnn::DetectionModel::getNmsAcrossClasses()
+ void cv::dnn::DetectionModel::detect(Mat frame, vector_int& classIds, vector_float& confidences, vector_Rect& boxes, float confThreshold = 0.5f, float nmsThreshold = 0.0f)
+  cv::dnn::DictValue::DictValue(int i)
+  cv::dnn::DictValue::DictValue(double p)
+  cv::dnn::DictValue::DictValue(String s)
+ bool cv::dnn::DictValue::isInt()
+ bool cv::dnn::DictValue::isString()
+ bool cv::dnn::DictValue::isReal()
+ int cv::dnn::DictValue::getIntValue(int idx = -1)
+ double cv::dnn::DictValue::getRealValue(int idx = -1)
+ String cv::dnn::DictValue::getStringValue(int idx = -1)
+  cv::dnn::Image2BlobParams::Image2BlobParams()
+  cv::dnn::Image2BlobParams::Image2BlobParams(Scalar scalefactor, Size size = Size(), Scalar mean = Scalar(), bool swapRB = false, int ddepth = CV_32F, DataLayout datalayout = DNN_LAYOUT_NCHW, ImagePaddingMode mode = DNN_PMODE_NULL, Scalar borderValue = 0.0)
+ Rect cv::dnn::Image2BlobParams::blobRectToImageRect(Rect rBlob, Size size)
+ void cv::dnn::Image2BlobParams::blobRectsToImageRects(vector_Rect rBlob, vector_Rect& rImg, Size size)
+Scalar Image2BlobParams::scalefactor
+void Image2BlobParams::scalefactor
+Size Image2BlobParams::size
+void Image2BlobParams::size
+Scalar Image2BlobParams::mean
+void Image2BlobParams::mean
+bool Image2BlobParams::swapRB
+void Image2BlobParams::swapRB
+int Image2BlobParams::ddepth
+void Image2BlobParams::ddepth
+Scalar Image2BlobParams::borderValue
+void Image2BlobParams::borderValue
+  cv::dnn::KeypointsModel::KeypointsModel(String model, String config = "")
+  cv::dnn::KeypointsModel::KeypointsModel(Net network)
+ vector_Point2f cv::dnn::KeypointsModel::estimate(Mat frame, float thresh = 0.5)
+ void cv::dnn::Layer::finalize(vector_Mat inputs, vector_Mat& outputs)
+ void cv::dnn::Layer::run(vector_Mat inputs, vector_Mat& outputs, vector_Mat& internals)
+ int cv::dnn::Layer::outputNameToIndex(String outputName)
+vector_Mat Layer::blobs
+void Layer::blobs
+String Layer::name
+String Layer::type
+int Layer::preferableTarget
+  cv::dnn::Model::Model(String model, String config = "")
+  cv::dnn::Model::Model(Net network)
+ Model cv::dnn::Model::setInputSize(Size size)
+ Model cv::dnn::Model::setInputSize(int width, int height)
+ Model cv::dnn::Model::setInputMean(Scalar mean)
+ Model cv::dnn::Model::setInputScale(Scalar scale)
+ Model cv::dnn::Model::setInputCrop(bool crop)
+ Model cv::dnn::Model::setInputSwapRB(bool swapRB)
+ Model cv::dnn::Model::setOutputNames(vector_String outNames)
+ void cv::dnn::Model::setInputParams(double scale = 1.0, Size size = Size(), Scalar mean = Scalar(), bool swapRB = false, bool crop = false)
+ void cv::dnn::Model::predict(Mat frame, vector_Mat& outs)
+ Model cv::dnn::Model::setPreferableBackend(dnn_Backend backendId)
+ Model cv::dnn::Model::setPreferableTarget(dnn_Target targetId)
+ Model cv::dnn::Model::enableWinograd(bool useWinograd)
+  cv::dnn::Net::Net()
+static Net cv::dnn::Net::readFromModelOptimizer(String xml, String bin)
+static Net cv::dnn::Net::readFromModelOptimizer(vector_uchar bufferModelConfig, vector_uchar bufferWeights)
+ bool cv::dnn::Net::empty()
+ String cv::dnn::Net::dump()
+ void cv::dnn::Net::dumpToFile(String path)
+ void cv::dnn::Net::dumpToPbtxt(String path)
+ int cv::dnn::Net::getLayerId(String layer)
+ vector_String cv::dnn::Net::getLayerNames()
+ Ptr_Layer cv::dnn::Net::getLayer(int layerId)
+ Ptr_Layer cv::dnn::Net::getLayer(String layerName)
+ Ptr_Layer cv::dnn::Net::getLayer(LayerId layerId)
+ void cv::dnn::Net::connect(String outPin, String inpPin)
+ void cv::dnn::Net::setInputsNames(vector_String inputBlobNames)
+ void cv::dnn::Net::setInputShape(String inputName, MatShape shape)
+ Mat cv::dnn::Net::forward(String outputName = String())
+ void cv::dnn::Net::forward(vector_Mat& outputBlobs, String outputName = String())
+ void cv::dnn::Net::forward(vector_Mat& outputBlobs, vector_String outBlobNames)
+ Net cv::dnn::Net::quantize(vector_Mat calibData, int inputsDtype, int outputsDtype, bool perChannel = true)
+ void cv::dnn::Net::getInputDetails(vector_float& scales, vector_int& zeropoints)
+ void cv::dnn::Net::getOutputDetails(vector_float& scales, vector_int& zeropoints)
+ void cv::dnn::Net::setHalideScheduler(String scheduler)
+ void cv::dnn::Net::setPreferableBackend(int backendId)
+ void cv::dnn::Net::setPreferableTarget(int targetId)
+ void cv::dnn::Net::setInput(Mat blob, String name = "", double scalefactor = 1.0, Scalar mean = Scalar())
+ void cv::dnn::Net::setParam(int layer, int numParam, Mat blob)
+ void cv::dnn::Net::setParam(String layerName, int numParam, Mat blob)
+ Mat cv::dnn::Net::getParam(int layer, int numParam = 0)
+ Mat cv::dnn::Net::getParam(String layerName, int numParam = 0)
+ vector_int cv::dnn::Net::getUnconnectedOutLayers()
+ vector_String cv::dnn::Net::getUnconnectedOutLayersNames()
+ int64 cv::dnn::Net::getFLOPS(vector_MatShape netInputShapes)
+ int64 cv::dnn::Net::getFLOPS(MatShape netInputShape)
+ int64 cv::dnn::Net::getFLOPS(int layerId, vector_MatShape netInputShapes)
+ int64 cv::dnn::Net::getFLOPS(int layerId, MatShape netInputShape)
+ void cv::dnn::Net::getLayerTypes(vector_String& layersTypes)
+ int cv::dnn::Net::getLayersCount(String layerType)
+ void cv::dnn::Net::getMemoryConsumption(MatShape netInputShape, size_t& weights, size_t& blobs)
+ void cv::dnn::Net::getMemoryConsumption(int layerId, vector_MatShape netInputShapes, size_t& weights, size_t& blobs)
+ void cv::dnn::Net::getMemoryConsumption(int layerId, MatShape netInputShape, size_t& weights, size_t& blobs)
+ void cv::dnn::Net::enableFusion(bool fusion)
+ void cv::dnn::Net::enableWinograd(bool useWinograd)
+ int64 cv::dnn::Net::getPerfProfile(vector_double& timings)
+  cv::dnn::SegmentationModel::SegmentationModel(String model, String config = "")
+  cv::dnn::SegmentationModel::SegmentationModel(Net network)
+ void cv::dnn::SegmentationModel::segment(Mat frame, Mat& mask)
+ void cv::dnn::TextDetectionModel::detect(Mat frame, vector_vector_Point& detections, vector_float& confidences)
+ void cv::dnn::TextDetectionModel::detect(Mat frame, vector_vector_Point& detections)
+ void cv::dnn::TextDetectionModel::detectTextRectangles(Mat frame, vector_RotatedRect& detections, vector_float& confidences)
+ void cv::dnn::TextDetectionModel::detectTextRectangles(Mat frame, vector_RotatedRect& detections)
+  cv::dnn::TextDetectionModel_DB::TextDetectionModel_DB(Net network)
+  cv::dnn::TextDetectionModel_DB::TextDetectionModel_DB(string model, string config = "")
+ TextDetectionModel_DB cv::dnn::TextDetectionModel_DB::setBinaryThreshold(float binaryThreshold)
+ float cv::dnn::TextDetectionModel_DB::getBinaryThreshold()
+ TextDetectionModel_DB cv::dnn::TextDetectionModel_DB::setPolygonThreshold(float polygonThreshold)
+ float cv::dnn::TextDetectionModel_DB::getPolygonThreshold()
+ TextDetectionModel_DB cv::dnn::TextDetectionModel_DB::setUnclipRatio(double unclipRatio)
+ double cv::dnn::TextDetectionModel_DB::getUnclipRatio()
+ TextDetectionModel_DB cv::dnn::TextDetectionModel_DB::setMaxCandidates(int maxCandidates)
+ int cv::dnn::TextDetectionModel_DB::getMaxCandidates()
+  cv::dnn::TextDetectionModel_EAST::TextDetectionModel_EAST(Net network)
+  cv::dnn::TextDetectionModel_EAST::TextDetectionModel_EAST(string model, string config = "")
+ TextDetectionModel_EAST cv::dnn::TextDetectionModel_EAST::setConfidenceThreshold(float confThreshold)
+ float cv::dnn::TextDetectionModel_EAST::getConfidenceThreshold()
+ TextDetectionModel_EAST cv::dnn::TextDetectionModel_EAST::setNMSThreshold(float nmsThreshold)
+ float cv::dnn::TextDetectionModel_EAST::getNMSThreshold()
+  cv::dnn::TextRecognitionModel::TextRecognitionModel(Net network)
+  cv::dnn::TextRecognitionModel::TextRecognitionModel(string model, string config = "")
+ TextRecognitionModel cv::dnn::TextRecognitionModel::setDecodeType(string decodeType)
+ string cv::dnn::TextRecognitionModel::getDecodeType()
+ TextRecognitionModel cv::dnn::TextRecognitionModel::setDecodeOptsCTCPrefixBeamSearch(int beamSize, int vocPruneSize = 0)
+ TextRecognitionModel cv::dnn::TextRecognitionModel::setVocabulary(vector_string vocabulary)
+ vector_string cv::dnn::TextRecognitionModel::getVocabulary()
+ string cv::dnn::TextRecognitionModel::recognize(Mat frame)
+ void cv::dnn::TextRecognitionModel::recognize(Mat frame, vector_Mat roiRects, vector_string& results)
+
+SKIPPED FUNCs LIST (8 of 180):
+
+DataLayout Image2BlobParams::datalayout
+// Return type 'DataLayout' is not supported, skipping the function
+
+void Image2BlobParams::datalayout
+// Unknown type 'DataLayout' (I), skipping the function
+
+ImagePaddingMode Image2BlobParams::paddingmode
+// Return type 'ImagePaddingMode' is not supported, skipping the function
+
+void Image2BlobParams::paddingmode
+// Unknown type 'ImagePaddingMode' (I), skipping the function
+
+ AsyncArray cv::dnn::Net::forwardAsync(String outputName = String())
+// Return type 'AsyncArray' is not supported, skipping the function
+
+ void cv::dnn::Net::forward(vector_vector_Mat& outputBlobs, vector_String outBlobNames)
+// Unknown type 'vector_vector_Mat' (O), skipping the function
+
+ void cv::dnn::Net::getLayersShapes(vector_MatShape netInputShapes, vector_int& layersIds, vector_vector_MatShape& inLayersShapes, vector_vector_MatShape& outLayersShapes)
+// Unknown type 'vector_vector_MatShape' (O), skipping the function
+
+ void cv::dnn::Net::getLayersShapes(MatShape netInputShape, vector_int& layersIds, vector_vector_MatShape& inLayersShapes, vector_vector_MatShape& outLayersShapes)
+// Unknown type 'vector_vector_MatShape' (O), skipping the function
+
+
+0 def args - 114 funcs
+1 def args - 33 funcs
+2 def args - 6 funcs
+3 def args - 2 funcs
+5 def args - 1 funcs
+6 def args - 2 funcs
+7 def args - 1 funcs

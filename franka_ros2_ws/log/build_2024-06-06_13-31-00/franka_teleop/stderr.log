@@ -1,0 +1,14 @@
+[01m[K/home/adminlab/franka_ros2_ws/src/FrankaTeleop/franka_teleop/src/franka_servo_real.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_servo/servo.hpp: No such file or directory
+    8 | #include [01;31m[K<moveit_servo/servo.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/FrankaTeleop/franka_teleop/src/franka_servo_fake.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_servo/servo.hpp: No such file or directory
+   15 | #include [01;31m[K<moveit_servo/servo.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/franka_servo_real.dir/build.make:76: CMakeFiles/franka_servo_real.dir/src/franka_servo_real.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/franka_servo_fake.dir/build.make:76: CMakeFiles/franka_servo_fake.dir/src/franka_servo_fake.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/franka_servo_real.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/franka_servo_fake.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

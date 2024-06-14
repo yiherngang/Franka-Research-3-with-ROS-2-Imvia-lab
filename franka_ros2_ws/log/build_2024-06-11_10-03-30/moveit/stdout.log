@@ -1,0 +1,16 @@
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/ament_index/resource_index/packages/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit/share/moveit/package.xml

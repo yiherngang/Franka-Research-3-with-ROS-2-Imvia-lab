@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/DisplayRobotState.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/ObjectColor.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The robot state to display")
+    struct DisplayRobotState {
+      moveit_msgs::msg::RobotState state;
+
+      @verbatim (language="comment", text=
+        "Optionally, various links can be highlighted")
+      sequence<moveit_msgs::msg::ObjectColor> highlight_links;
+
+      @verbatim (language="comment", text=
+        "If true, suppress the display in visualizations (like rviz)")
+      boolean hide;
+    };
+  };
+};

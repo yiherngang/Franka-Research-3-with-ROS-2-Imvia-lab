@@ -1,0 +1,140 @@
+[0.015s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/adminlab/franka_ros2_ws/install/moveit_core/lib:/home/adminlab/franka_ros2_ws/install/srdfdom/lib:/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:/home/adminlab/franka_ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/moveit_core/bin:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_ros_planning -- -j16 -l16
+[0.058s] [  4%] Built target moveit_rdf_loader
+[0.073s] [  9%] Built target gmock
+[0.096s] [ 12%] Built target moveit_constraint_sampler_manager_loader
+[0.117s] [ 16%] Built target moveit_kinematics_plugin_loader
+[0.131s] [ 19%] Built target gmock_main
+[0.149s] [ 22%] Built target moveit_robot_model_loader
+[0.167s] [ 25%] Built target moveit_list_request_adapter_plugins
+[0.186s] [ 29%] Built target moveit_print_planning_model_info
+[0.219s] [ 46%] Built target moveit_default_planning_request_adapter_plugins
+[0.239s] [ 50%] Built target moveit_planning_pipeline
+[0.258s] [ 53%] Built target moveit_collision_plugin_loader
+[0.288s] [ 62%] Built target moveit_planning_scene_monitor
+[0.309s] [ 66%] Built target demo_scene
+[0.330s] [ 69%] Built target moveit_trajectory_execution_manager
+[0.353s] [ 72%] Built target moveit_publish_scene_from_text
+[0.377s] [ 77%] Built target moveit_cpp
+[0.399s] [ 80%] Built target moveit_plan_execution
+[0.422s] [ 83%] Built target moveit_evaluate_collision_checking_speed
+[0.443s] [ 87%] Built target moveit_visualize_robot_collision_volume
+[0.464s] [ 90%] Built target moveit_display_random_state
+[0.484s] [ 93%] Built target moveit_print_planning_scene_info
+[0.505s] [ 96%] Built target trajectory_monitor_tests
+[0.526s] [100%] Built target current_state_monitor_tests
+[0.533s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/adminlab/franka_ros2_ws/install/moveit_core/lib:/home/adminlab/franka_ros2_ws/install/srdfdom/lib:/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:/home/adminlab/franka_ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/moveit_core/bin:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_ros_planning -- -j16 -l16
+[0.552s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/adminlab/franka_ros2_ws/install/moveit_core/lib:/home/adminlab/franka_ros2_ws/install/srdfdom/lib:/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:/home/adminlab/franka_ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/moveit_core/bin:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_ros_planning
+[0.557s] -- Install configuration: "Release"
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/rdf_loader
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/rdf_loader/rdf_loader.h
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/rdf_loader/synchronized_string_parameter.h
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/robin.srdf.xacro
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.urdf
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.srdf
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.urdf
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.srdf
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch/test_rdf_integration.test.py
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/collision_plugin_loader
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/collision_plugin_loader/collision_plugin_loader.h
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/kinematics_plugin_loader
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/robot_model_loader
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/constraint_sampler_manager_loader
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/constraint_sampler_manager_loader/constraint_sampler_manager_loader.h
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit_planning_pipeline_export.h
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_list_request_adapter_plugins
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/demo_scene
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor_middleware_handle.hpp
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor.h
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor_middleware_handle.hpp
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h
+[0.560s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit_planning_scene_monitor_export.h
+[0.561s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info
+[0.561s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info
+[0.562s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state
+[0.562s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume
+[0.562s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/plan_execution
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/plan_execution/plan_execution.h
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/plan_execution/plan_representation.h
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include
+[0.563s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit
+[0.564s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/moveit_cpp
+[0.564s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h
+[0.564s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/include/moveit/moveit_cpp/moveit_cpp.h
+[0.564s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.5.5
+[0.564s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so
+[0.564s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.5.5
+[0.564s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so
+[0.565s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.5.5
+[0.565s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so
+[0.565s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.5
+[0.565s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so
+[0.566s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.5.5
+[0.566s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so
+[0.566s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.5
+[0.566s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so
+[0.566s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.5.5
+[0.566s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_plan_execution.so
+[0.567s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.5.5
+[0.567s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so
+[0.567s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.5.5
+[0.567s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so
+[0.567s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.5
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.5
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/lib/libmoveit_cpp.so
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.sh
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.dsv
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/planning_request_adapters_plugin_description.xml
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/ament_index/resource_index/package_run_dependencies/moveit_ros_planning
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/ament_index/resource_index/parent_prefix_path/moveit_ros_planning
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.sh
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.dsv
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.sh
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.dsv
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.bash
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.sh
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.zsh
+[0.568s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.dsv
+[0.568s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/package.dsv
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/ament_index/resource_index/packages/moveit_ros_planning
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_planning
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport.cmake
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport-release.cmake
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_targets-extras.cmake
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.569s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake
+[0.570s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig-version.cmake
+[0.570s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/package.xml
+[0.571s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/adminlab/franka_ros2_ws/install/moveit_core:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/adminlab/franka_ros2_ws/install/moveit_core/lib:/home/adminlab/franka_ros2_ws/install/srdfdom/lib:/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:/home/adminlab/franka_ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/moveit_core/bin:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_ros_planning

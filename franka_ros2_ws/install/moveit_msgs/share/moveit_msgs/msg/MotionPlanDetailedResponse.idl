@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/MotionPlanDetailedResponse.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The representation of a solution to a planning problem, including intermediate data")
+    struct MotionPlanDetailedResponse {
+      @verbatim (language="comment", text=
+        "The starting state considered for the robot solution path")
+      moveit_msgs::msg::RobotState trajectory_start;
+
+      @verbatim (language="comment", text=
+        "The group used for planning (usually the same as in the request)")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        "Multiple solution paths are reported, each reflecting intermediate steps in the trajectory processing" "\n"
+        "The list of reported trajectories")
+      sequence<moveit_msgs::msg::RobotTrajectory> trajectory;
+
+      @verbatim (language="comment", text=
+        "Description of the reported trajectories (name of processing step)")
+      sequence<string> description;
+
+      @verbatim (language="comment", text=
+        "The amount of time spent computing a particular step in motion plan computation")
+      sequence<double> processing_time;
+
+      @verbatim (language="comment", text=
+        "Status at the end of this plan")
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+    };
+  };
+};

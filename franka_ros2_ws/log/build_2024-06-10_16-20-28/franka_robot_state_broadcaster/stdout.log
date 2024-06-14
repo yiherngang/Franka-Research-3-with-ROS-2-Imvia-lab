@@ -1,0 +1,6 @@
+[  8%] Built target franka_robot_state_broadcaster_parameters
+[ 33%] Built target gmock
+[ 50%] Built target gmock_main
+[ 66%] Built target franka_robot_state_broadcaster
+[ 83%] Built target franka_robot_state_broadcaster_test
+[100%] Built target test_load_franka_robot_state_broadcaster

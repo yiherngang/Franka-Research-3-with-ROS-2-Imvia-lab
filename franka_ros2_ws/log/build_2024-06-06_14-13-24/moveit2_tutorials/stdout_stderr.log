@@ -1,0 +1,136 @@
+[35m[1mConsolidate compiler generated dependencies of target move_group_interface_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target mtc_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_planning_api_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target minimal_mtc_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target planning_scene_ros_api_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target planning_scene_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target servo_keyboard_input[0m
+[35m[1mConsolidate compiler generated dependencies of target pilz_move_group[0m
+[35m[1mConsolidate compiler generated dependencies of target pilz_mtc[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_cpp_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_model_and_robot_state_tutorial[0m
+[35m[1mConsolidate compiler generated dependencies of target ompl_constrained_planning[0m
+[35m[1mConsolidate compiler generated dependencies of target servo_cpp_interface_demo[0m
+[  7%] [32mBuilding CXX object doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o[0m
+[  7%] [32mBuilding CXX object doc/examples/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o[0m
+[ 11%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[ 15%] [32mBuilding CXX object doc/examples/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[ 19%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/minimal_mtc_tutorial.dir/src/minimal.cpp.o[0m
+[ 23%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/mtc_tutorial.dir/src/mtc_node.cpp.o[0m
+[ 30%] [32mBuilding CXX object doc/examples/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o[0m
+[ 30%] [32mBuilding CXX object doc/examples/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[ 34%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_mtc.dir/src/pilz_mtc.cpp.o[0m
+[ 38%] [32mBuilding CXX object doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o[0m
+[ 42%] [32mBuilding CXX object doc/how_to_guides/using_ompl_constrained_planning/CMakeFiles/ompl_constrained_planning.dir/src/ompl_constrained_planning_tutorial.cpp.o[0m
+[ 46%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[ 50%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir/src/pilz_move_group.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[ 53%] Built target servo_keyboard_input
+[ 57%] [32m[1mLinking CXX executable minimal_mtc_tutorial[0m
+[ 61%] [32m[1mLinking CXX executable robot_model_and_robot_state_tutorial[0m
+[ 65%] [32m[1mLinking CXX executable planning_scene_ros_api_tutorial[0m
+[ 69%] [32m[1mLinking CXX executable pilz_mtc[0m
+[ 69%] Built target minimal_mtc_tutorial
+[ 69%] Built target planning_scene_ros_api_tutorial
+[ 69%] Built target robot_model_and_robot_state_tutorial
+[ 69%] Built target pilz_mtc
+[ 73%] [32m[1mLinking CXX executable planning_scene_tutorial[0m
+[ 76%] [32m[1mLinking CXX executable move_group_interface_tutorial[0m
+[ 80%] [32m[1mLinking CXX executable pilz_move_group[0m
+[ 84%] [32m[1mLinking CXX executable ompl_constrained_planning[0m
+[ 84%] Built target planning_scene_tutorial
+[ 88%] [32m[1mLinking CXX executable mtc_tutorial[0m
+[ 88%] Built target ompl_constrained_planning
+[ 88%] Built target move_group_interface_tutorial
+[ 88%] Built target mtc_tutorial
+[ 92%] [32m[1mLinking CXX executable moveit_cpp_tutorial[0m
+[ 92%] Built target pilz_move_group
+[ 96%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[ 96%] Built target moveit_cpp_tutorial
+[100%] [32m[1mLinking CXX executable motion_planning_api_tutorial[0m
+[100%] Built target servo_cpp_interface_demo
+[100%] Built target motion_planning_api_tutorial
+-- Install configuration: "Debug"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_hello_moveit.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/pick_place_demo.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo_minimal.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/pilz_mtc.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/chomp_demo.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_chomp.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.launch.py

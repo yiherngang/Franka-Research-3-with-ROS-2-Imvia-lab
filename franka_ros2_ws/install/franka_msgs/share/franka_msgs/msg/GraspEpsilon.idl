@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_msgs/msg/GraspEpsilon.msg
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Maximum tolerated deviation when the actual grasped width" "\n"
+      "is smaller than the commanded grasp width. Unit:")
+    struct GraspEpsilon {
+      @default (value=0.005)
+      double inner;
+
+      @verbatim (language="comment", text=
+        "Maximum tolerated deviation when the actual grasped width" "\n"
+        "is larger than the commanded grasp width. Unit:")
+      @default (value=0.005)
+      @unit (value="m")
+      double outer;
+    };
+  };
+};

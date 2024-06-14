@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetPlanningScene.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/PlanningScene.idl"
+#include "moveit_msgs/msg/PlanningSceneComponents.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Get parts of the planning scene that are of interest" "\n"
+      "All scene components are returned if none are specified")
+    struct GetPlanningScene_Request {
+      moveit_msgs::msg::PlanningSceneComponents components;
+    };
+    struct GetPlanningScene_Response {
+      moveit_msgs::msg::PlanningScene scene;
+    };
+  };
+};

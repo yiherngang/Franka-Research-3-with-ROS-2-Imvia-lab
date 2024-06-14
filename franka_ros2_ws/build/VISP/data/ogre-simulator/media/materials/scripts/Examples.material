@@ -1,0 +1,33 @@
+
+
+material Examples/Robot
+{
+	// Software blending technique
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture r2skin.jpg
+			}
+		}
+	}
+}
+
+material Examples/GrassFloor
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture grass_1024.jpg
+			}
+		}
+	}
+}
+
+

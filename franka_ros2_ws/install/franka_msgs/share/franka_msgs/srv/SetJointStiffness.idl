@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_msgs/srv/SetJointStiffness.srv
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module srv {
+    typedef double double__7[7];
+    @verbatim (language="comment", text=
+      "Impedance for each joint in the internal controller")
+    struct SetJointStiffness_Request {
+      double__7 joint_stiffness;
+    };
+    struct SetJointStiffness_Response {
+      boolean success;
+
+      string error;
+    };
+  };
+};

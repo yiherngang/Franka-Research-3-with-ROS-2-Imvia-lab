@@ -1,0 +1,4 @@
+source;share/opencv_cam/local_setup.bash
+source;share/opencv_cam/local_setup.dsv
+source;share/opencv_cam/local_setup.sh
+source;share/opencv_cam/local_setup.zsh

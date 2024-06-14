@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/ApplyPlanningScene.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/PlanningScene.idl"
+
+module moveit_msgs {
+  module srv {
+    struct ApplyPlanningScene_Request {
+      moveit_msgs::msg::PlanningScene scene;
+    };
+    struct ApplyPlanningScene_Response {
+      boolean success;
+    };
+  };
+};

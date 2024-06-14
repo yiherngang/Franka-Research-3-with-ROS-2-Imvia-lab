@@ -1,0 +1,93 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/include/opencv2/highgui.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/src/backend.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/src/window.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/src/roiSelector.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/src/window_gtk.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/src/opencv/modules/highgui/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/OpenCV/cvconfig.h"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/OpenCV/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_highgui",
+			"Module"
+		],
+		"name" : "opencv_highgui"
+	}
+}

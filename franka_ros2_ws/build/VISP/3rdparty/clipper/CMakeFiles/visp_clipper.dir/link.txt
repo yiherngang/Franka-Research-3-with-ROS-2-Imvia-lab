@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libvisp_clipper.a CMakeFiles/visp_clipper.dir/clipper.cpp.o
+/usr/bin/ranlib ../lib/libvisp_clipper.a

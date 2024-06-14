@@ -1,0 +1,1563 @@
+[0.071s] Invoking command in '/home/adminlab/franka_ros2_ws/build/VISP': /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/VISP -- -j16 -l16
+[0.232s] [  0%] Built target visp_qbdevice
+[0.233s] [  0%] Built target visp_pololu
+[0.233s] [  0%] Built target visp_pugixml
+[0.234s] [  0%] Built target developer_scripts
+[0.235s] [  0%] Built target visp_clipper
+[0.235s] [  0%] Built target man
+[0.237s] [  0%] Built target visp_reflex_takktile2
+[0.243s] [  1%] Built target visp_apriltag
+[0.271s] [  7%] Built target visp_simdlib
+[0.415s] [ 14%] Built target visp_core
+[0.435s] [ 14%] Built target visp_dnn_tracker
+[0.435s] [ 14%] Built target visp_klt
+[0.435s] [ 14%] Built target visp_blob
+[0.437s] [ 15%] Built target visp_me
+[0.438s] [ 16%] Built target visp_imgproc
+[0.439s] [ 17%] Built target visp_io
+[0.445s] [ 19%] Built target visp_sensor
+[0.450s] [ 20%] Built target visp_ar
+[0.469s] [ 21%] Built target visp_gui
+[0.496s] [ 21%] Built target testAutoThreshold
+[0.499s] [ 21%] Built target testContours
+[0.503s] [ 21%] Built target testImgproc
+[0.508s] [ 21%] Built target testFloodFill
+[0.508s] [ 21%] Built target testConnectedComponents
+[0.513s] [ 21%] Built target testImageLoadSave
+[0.513s] [ 21%] Built target perfImageLoadSave
+[0.514s] [ 21%] Built target testJsonArgumentParser
+[0.520s] [ 21%] Built target testVideo
+[0.536s] [ 23%] Built target visp_visual_features
+[0.546s] [ 23%] Built target testCameraParametersConversion
+[0.547s] [ 23%] Built target testXmlParserCamera
+[0.549s] [ 23%] Built target testJsonCamera
+[0.564s] [ 23%] Built target perfGaussianFilter
+[0.564s] [ 23%] Built target perfColorConversion
+[0.564s] [ 23%] Built target perfImageAddSub
+[0.601s] [ 23%] Built target perfImageResize
+[0.605s] [ 24%] Built target perfImageMorphology
+[0.614s] [ 24%] Built target perfImageWarp
+[0.623s] [ 25%] Built target testColorConversion
+[0.623s] [ 25%] Built target testConversion
+[0.623s] [ 25%] Built target testGaussianFilter
+[0.628s] [ 25%] Built target testCrop
+[0.629s] [ 25%] Built target testCropAdvanced
+[0.630s] [ 25%] Built target testImageAddSub
+[0.647s] [ 25%] Built target testImageComparison
+[0.664s] [ 25%] Built target testImageTemplateMatching
+[0.665s] [ 25%] Built target testImageNormalizedCorrelation
+[0.668s] [ 26%] Built target testImageFilter
+[0.675s] [ 26%] Built target testImageWarp
+[0.676s] [ 26%] Built target testIoPFM
+[0.686s] [ 26%] Built target testIoEXR
+[0.715s] [ 27%] Built target testIoPPM
+[0.724s] [ 27%] Built target testPerformanceLUT
+[0.724s] [ 27%] Built target testIoPGM
+[0.725s] [ 27%] Built target testUndistortImage
+[0.731s] [ 27%] Built target testImageGetValue
+[0.734s] [ 27%] Built target testImageBinarise
+[0.735s] [ 27%] Built target testImageDifference
+[0.738s] [ 27%] Built target testImageDraw
+[0.742s] [ 27%] Built target testImageMorphology
+[0.745s] [ 27%] Built target testReadImage
+[0.747s] [ 27%] Built target testImageOwnership
+[0.749s] [ 27%] Built target testImageMeanAndStdev
+[0.754s] [ 28%] Built target perfColVectorOperations
+[0.754s] [ 28%] Built target testImageResize
+[0.755s] [ 28%] Built target testImagePrint
+[0.755s] [ 28%] Built target testImagePoint
+[0.770s] [ 28%] Built target perfMatrixMultiplication
+[0.775s] [ 28%] Built target perfMatrixTranspose
+[0.782s] [ 28%] Built target testColVector
+[0.784s] [ 29%] Built target testArray2D
+[0.786s] [ 29%] Built target testEigenConversion
+[0.787s] [ 29%] Built target testKalmanAcceleration
+[0.787s] [ 29%] Built target testKalmanVelocity
+[0.787s] [ 29%] Built target testJsonArrayConversion
+[0.789s] [ 29%] Built target testHomogeneousMatrix
+[0.792s] [ 29%] Built target testMatrix
+[0.793s] [ 29%] Built target testLineFitting
+[0.793s] [ 30%] Built target testMath
+[0.797s] [ 30%] Built target testMatrixCholesky
+[0.797s] [ 30%] Built target testMatrixConditionNumber
+[0.798s] [ 30%] Built target testMathUtils
+[0.801s] [ 30%] Built target testMatrixConvolution
+[0.814s] [ 30%] Built target testMatrixDeterminant
+[0.815s] [ 30%] Built target testMatrixException
+[0.822s] [ 31%] Built target testMatrixInverse
+[0.822s] [ 31%] Built target testMatrixInitialization
+[0.824s] [ 31%] Built target testMatrixPseudoInverse
+[0.827s] [ 31%] Built target testPoseVector
+[0.828s] [ 31%] Built target testQuaternion
+[0.829s] [ 31%] Built target testRotation
+[0.830s] [ 31%] Built target testSPC
+[0.830s] [ 31%] Built target testRobust
+[0.830s] [ 31%] Built target testSvd
+[0.830s] [ 31%] Built target testRowVector
+[0.831s] [ 31%] Built target testRand
+[0.834s] [ 31%] Built target testMomentAlpha
+[0.834s] [ 31%] Built target testTranslationVector
+[0.843s] [ 31%] Built target testTwistMatrix
+[0.858s] [ 31%] Built target testXmlParserHomogeneousMatrix
+[0.858s] [ 31%] Built target testMunkres
+[0.859s] [ 31%] Built target testClient
+[0.860s] [ 32%] Built target testServer
+[0.861s] [ 33%] Built target testUDPServer
+[0.862s] [ 33%] Built target testUDPClient
+[0.863s] [ 33%] Built target testCPUFeatures
+[0.863s] [ 33%] Built target testConvert
+[0.869s] [ 33%] Built target testImageCircle
+[0.869s] [ 33%] Built target testXmlParserRectOriented
+[0.869s] [ 34%] Built target testRect
+[0.870s] [ 34%] Built target testEndian
+[0.870s] [ 34%] Built target testPolygon2
+[0.872s] [ 34%] Built target testPolygon
+[0.872s] [ 35%] Built target testHistogram
+[0.877s] [ 35%] Built target testIoTools
+[0.888s] [ 35%] Built target testSerialRead
+[0.896s] [ 35%] Built target testDisplayScaled
+[0.896s] [ 35%] Built target testNPZ
+[0.898s] [ 35%] Built target testTime
+[0.899s] [ 35%] Built target testXmlParser
+[0.899s] [ 35%] Built target testBuildInformation
+[0.902s] [ 35%] Built target testSerialWrite
+[0.903s] [ 35%] Built target testClick
+[0.908s] [ 35%] Built target testJsonMe
+[0.908s] [ 36%] Built target testMouseEvent
+[0.908s] [ 36%] Built target testDisplayPolygonLines
+[0.909s] [ 36%] Built target testDisplays
+[0.909s] [ 37%] Built target testVideoDevice
+[0.914s] [ 37%] Built target testDisplayRoi
+[0.914s] [ 37%] Built target testVideoDeviceDual
+[0.918s] [ 37%] Built target testNurbs
+[0.925s] [ 37%] Built target testComedi
+[0.934s] [ 37%] Built target testForceTorqueAti
+[0.934s] [ 37%] Built target testForceTorqueAtiNetFTSensor
+[0.934s] [ 37%] Built target test1394TwoGrabber
+[0.934s] [ 37%] Built target testForceTorqueIitSensor
+[0.935s] [ 38%] Built target testPylonGrabber
+[0.936s] [ 38%] Built target testMocapQualisys
+[0.937s] [ 38%] Built target test1394TwoResetBus
+[0.941s] [ 38%] Built target testOccipitalStructure_Core_imu
+[0.941s] [ 38%] Built target testMocapVicon
+[0.943s] [ 38%] Built target testOccipitalStructure_Core_images
+[0.947s] [ 38%] Built target testRealSense2_D435
+[0.947s] [ 38%] Built target testOccipitalStructure_Core_pcl
+[0.950s] [ 38%] Built target testRealSense2_D435_opencv
+[0.962s] [ 38%] Built target testRealSense2_D435_align
+[0.968s] [ 39%] Built target testRealSense2_D435_pcl
+[0.973s] [ 39%] Built target testRealSense2_SR300
+[0.973s] [ 39%] Built target testRealSense2_T265_images
+[0.974s] [ 39%] Built target testRealSense2_T265_odometry
+[0.975s] [ 39%] Built target testRealSense2_T265_undistort
+[0.975s] [ 39%] Built target testRealSense2_T265_images_odometry_async
+[0.975s] [ 39%] Built target testTrackDot
+[0.975s] [ 39%] Built target testRealSense2_T265_images_odometry
+[0.977s] [ 39%] Built target testPoint
+[0.978s] [ 39%] Built target testRealSense2_T265_imu
+[0.978s] [ 39%] Built target visp_vs
+[0.992s] [ 40%] Built target visp_vision
+[1.004s] [ 44%] Built target visp_robot
+[1.019s] [ 45%] Built target visp_detection
+[1.030s] [ 45%] Built target testAfma4
+[1.031s] [ 45%] Built target testAfma6
+[1.035s] [ 45%] Built target testRobotBebop2
+[1.037s] [ 45%] Built target testQbSoftHand
+[1.039s] [ 45%] Built target testRobotAfma6
+[1.039s] [ 46%] Built target testFrankaCartForceTorque-2
+[1.042s] [ 46%] Built target testFrankaCartForceTorque
+[1.042s] [ 46%] Built target testRobotFlirPtu
+[1.045s] [ 46%] Built target testRobotAfma4
+[1.045s] [ 46%] Built target testFrankaCartVelocity-3
+[1.045s] [ 46%] Built target testFrankaCartVelocity
+[1.046s] [ 46%] Built target testFrankaCartVelocity-2
+[1.052s] [ 47%] Built target visp_tt
+[1.052s] [ 47%] Built target testRobotAfma6Pose
+[1.056s] [ 47%] Built target testFrankaGetPose
+[1.078s] [ 47%] Built target testFrankaJointTorque
+[1.082s] [ 47%] Built target testFrankaJointPosition
+[1.085s] [ 48%] Built target testFrankaJointVelocity
+[1.085s] [ 48%] Built target testFrankaJointVelocity-2
+[1.088s] [ 49%] Built target testPixhawkDroneKeyboard
+[1.088s] [ 49%] Built target testPixhawkDroneTakeoff
+[1.088s] [ 49%] Built target testFrankaJointVelocityLimits
+[1.088s] [ 49%] Built target testPixhawkDronePositionAbsoluteControl
+[1.093s] [ 49%] Built target testPixhawkDronePositionRelativeControl
+[1.095s] [ 49%] Built target testFrankaJointVelocity-3
+[1.095s] [ 49%] Built target testPixhawkDroneVelocityControl
+[1.097s] [ 50%] Built target visp_mbt
+[1.098s] [ 50%] Built target testPixhawkRoverVelocityControl
+[1.103s] [ 51%] Built target testPololuVelocity
+[1.104s] [ 51%] Built target testPololuPosition
+[1.107s] [ 51%] Built target testUniversalRobotsCartPosition
+[1.132s] [ 51%] Built target testUniversalRobotsCartVelocity
+[1.133s] [ 51%] Built target testUniversalRobotsGetData
+[1.134s] [ 51%] Built target testUniversalRobotsJointVelocity
+[1.138s] [ 51%] Built target testUniversalRobotsJointPosition
+[1.138s] [ 51%] Built target testRobotViper650-frames
+[1.138s] [ 52%] Built target testRobotViper850-frames
+[1.139s] [ 52%] Built target testRobotViper850
+[1.143s] [ 52%] Built target testViper650
+[1.147s] [ 52%] Built target testVirtuose
+[1.147s] [ 52%] Built target testRobotViper850Pose
+[1.147s] [ 52%] Built target testViper850
+[1.152s] [ 52%] Built target testVirtuoseHapticBox
+[1.152s] [ 52%] Built target testVirtuoseAfma6
+[1.159s] [ 53%] Built target testVirtuosePeriodicFunction
+[1.161s] [ 53%] Built target testVirtuoseJointLimits
+[1.162s] [ 53%] Built target testVirtuoseWithGlove
+[1.185s] [ 54%] Built target testFeatureMoment
+[1.185s] [ 54%] Built target testFeature
+[1.191s] [ 54%] Built target testFeatureSegment
+[1.197s] [ 55%] Built target testDisplacement
+[1.199s] [ 55%] Built target testKeyPoint-3
+[1.200s] [ 55%] Built target testKeyPoint-4
+[1.201s] [ 55%] Built target testKeyPoint-6
+[1.201s] [ 55%] Built target testKeyPoint-5
+[1.201s] [ 55%] Built target testKeyPoint-2
+[1.204s] [ 55%] Built target testKeyPoint-7
+[1.208s] [ 55%] Built target testXmlConfigParserKeyPoint
+[1.208s] [ 56%] Built target testKeyPoint
+[1.208s] [ 56%] Built target testPoseRansac2
+[1.209s] [ 56%] Built target testFindMatch
+[1.215s] [ 56%] Built target testPose
+[1.220s] [ 56%] Built target testPoseFeatures
+[1.233s] [ 56%] Built target testPoseRansac
+[1.234s] [ 56%] Built target perfApriltagDetection
+[1.241s] [ 56%] Built target testAprilTag
+[1.246s] [ 56%] Built target testGenericTrackerCAOParsing
+[1.251s] [ 56%] Built target perfGenericTracker
+[1.251s] [ 56%] Built target testGenericTrackerDepth
+[1.251s] [ 56%] Built target testGenericTracker
+[1.252s] [ 56%] Built target testTukeyEstimator
+[1.254s] [ 56%] Built target testGenericTrackerDeterminist
+[1.255s] [ 56%] Built target testMbtJsonSettings
+[1.260s] [ 57%] Built target visp_tt_mi
+[1.260s] [ 57%] Built target testMbtXmlGenericParser
+[1.294s] [ 58%] Built target simulateFourPoints2DPolarCamVelocity
+[1.294s] [ 58%] Built target visp-compute-chessboard-poses
+[1.295s] [ 58%] Built target visp-compute-hand-eye-calibration
+[1.296s] [ 58%] Built target servoSimu4Points
+[1.298s] [ 58%] Built target servoSimuSphere
+[1.298s] [ 58%] Built target calibrate-camera
+[1.300s] [ 58%] Built target displayGDI
+[1.303s] [ 58%] Built target displayGTK
+[1.303s] [ 58%] Built target displaySequence
+[1.303s] [ 58%] Built target displayD3D
+[1.303s] [ 58%] Built target displayX
+[1.303s] [ 58%] Built target simulateFourPoints2DCartesianCamVelocity
+[1.304s] [ 58%] Built target simulateCircle2DCamVelocity
+[1.304s] [ 58%] Built target servoSimuCylinder
+[1.305s] [ 58%] Built target calibrate-hand-eye
+[1.305s] [ 58%] Built target visp-acquire-franka-calib-data
+[1.334s] [ 59%] Built target displayOpenCV
+[1.339s] [ 59%] Built target getRealSense2Info
+[1.341s] [ 59%] Built target grabDirectShow
+[1.341s] [ 59%] Built target grab1394Two
+[1.342s] [ 59%] Built target grabDirectShowMulti
+[1.344s] [ 59%] Built target grab1394CMU
+[1.344s] [ 59%] Built target displayXMulti
+[1.347s] [ 59%] Built target grabDisk
+[1.347s] [ 59%] Built target grabFlyCapture
+[1.349s] [ 59%] Built target grabV4l2
+[1.351s] [ 59%] Built target grabV4l2MultiCpp11Thread
+[1.352s] [ 59%] Built target grabRealSense2_T265
+[1.352s] [ 59%] Built target kinectAcquisition
+[1.352s] [ 60%] Built target grabRealSense2
+[1.361s] [ 60%] Built target readRealSenseData
+[1.363s] [ 60%] Built target saveRealSenseData
+[1.385s] [ 60%] Built target SickLDMRS-Acq
+[1.386s] [ 60%] Built target ringLight
+[1.390s] [ 61%] Built target photometricVisualServoingWithoutVpServo
+[1.390s] [ 61%] Built target SickLDMRS-Process
+[1.393s] [ 61%] Built target homographyHLM2DObject
+[1.393s] [ 62%] Built target homographyRansac2DObject
+[1.393s] [ 62%] Built target photometricVisualServoing
+[1.394s] [ 62%] Built target homographyHartleyDLT2DObject
+[1.395s] [ 62%] Built target homographyHLM3DObject
+[1.399s] [ 62%] Built target ukf-nonlinear-complex-example
+[1.399s] [ 62%] Built target ukf-linear-example
+[1.399s] [ 62%] Built target imageDiskRW
+[1.402s] [ 62%] Built target ukf-nonlinear-example
+[1.407s] [ 62%] Built target manGeometricFeatures
+[1.415s] [ 62%] Built target manDisplay
+[1.415s] [ 62%] Built target HelloWorld
+[1.439s] [ 62%] Built target manGrabDirectShow
+[1.440s] [ 63%] Built target manGrab1394
+[1.445s] [ 63%] Built target manSimu4Dots
+[1.445s] [ 63%] Built target manSimu4Points
+[1.452s] [ 63%] Built target manGrabV4l2
+[1.454s] [ 63%] Built target exponentialMap
+[1.454s] [ 63%] Built target manGrabDisk
+[1.454s] [ 63%] Built target manServoMomentsSimple
+[1.454s] [ 63%] Built target manServo4PointsDisplay
+[1.455s] [ 63%] Built target HelloWorldOgreAdvanced
+[1.456s] [ 63%] Built target HelloWorldOgre
+[1.458s] [ 63%] Built target quadprog_eq
+[1.461s] [ 63%] Built target BSpline
+[1.467s] [ 63%] Built target quadprog
+[1.471s] [ 63%] Built target random
+[1.479s] [ 63%] Built target servoMomentImage
+[1.498s] [ 63%] Built target servoMomentPoints
+[1.498s] [ 63%] Built target servoMomentPolygon
+[1.508s] [ 63%] Built target parse-argv1
+[1.512s] [ 64%] Built target parse-argv2
+[1.513s] [ 64%] Built target poseVirtualVS
+[1.513s] [ 65%] Built target takktile2-read-data
+[1.513s] [ 65%] Built target takktile2-control
+[1.514s] [ 65%] Built target AROgre
+[1.515s] [ 66%] Built target servoSimu3D_cdMc_CamVelocity
+[1.515s] [ 66%] Built target servoSimuAfma6FourPoints2DCamVelocity
+[1.516s] [ 66%] Built target servoSimu3D_cMcd_CamVelocity
+[1.518s] [ 66%] Built target servoSimuCircle2DCamVelocity
+[1.518s] [ 66%] Built target AROgreBasic
+[1.525s] [ 66%] Built target servoSimuCircle2DCamVelocityDisplay
+[1.527s] [ 66%] Built target servoSimuCylinder2DCamVelocityDisplay
+[1.533s] [ 66%] Built target servoSimuFourPoints2DCamVelocity
+[1.552s] [ 66%] Built target servoSimuFourPoints2DCamVelocityDisplay
+[1.553s] [ 66%] Built target servoSimuLine2DCamVelocityDisplay
+[1.560s] [ 66%] Built target servoSimuPoint2DCamVelocity2
+[1.561s] [ 66%] Built target servoSimuPoint2DhalfCamVelocity2
+[1.561s] [ 66%] Built target servoSimuPoint2DhalfCamVelocity3
+[1.564s] [ 66%] Built target servoSimuPoint2DCamVelocity1
+[1.566s] [ 67%] Built target servoSimuPoint3DCamVelocity
+[1.566s] [ 67%] Built target servoSimuPoint2DhalfCamVelocity1
+[1.566s] [ 67%] Built target servoSimuPoint2DCamVelocity3
+[1.567s] [ 67%] Built target servoSimuSphere2DCamVelocityDisplay
+[1.567s] [ 67%] Built target servoSimu3D_cMcd_CamVelocityWithoutVpServo
+[1.571s] [ 67%] Built target servoSimuThetaUCamVelocity
+[1.574s] [ 67%] Built target servoSimuSphere2DCamVelocity
+[1.578s] [ 68%] Built target servoSimuSquareLine2DCamVelocityDisplay
+[1.580s] [ 68%] Built target servoSimu3D_cdMc_CamVelocityWithoutVpServo
+[1.588s] [ 69%] Built target servoSimuCylinder2DCamVelocityDisplaySecondaryTask
+[1.594s] [ 69%] Built target servoSimuSphere2DCamVelocityDisplaySecondaryTask
+[1.598s] [ 69%] Built target servoSimuFourPoints2DPolarCamVelocityDisplay
+[1.598s] [ 69%] Built target servoAfma4Point2DArtVelocity
+[1.598s] [ 69%] Built target servoAfma4Point2DCamVelocity
+[1.602s] [ 69%] Built target servoAfma4Point2DCamVelocityKalman
+[1.602s] [ 69%] Built target moveAfma4
+[1.603s] [ 69%] Built target servoSimuViper850FourPoints2DCamVelocity
+[1.605s] [ 69%] Built target servoAfma6Ellipse2DCamVelocity
+[1.606s] [ 69%] Built target servoAfma6Point2DArtVelocity
+[1.606s] [ 69%] Built target servoAfma6Line2DCamVelocity
+[1.606s] [ 69%] Built target servoAfma6FourPoints2DArtVelocity
+[1.607s] [ 69%] Built target servoAfma6AprilTagIBVS
+[1.612s] [ 69%] Built target servoAfma6AprilTagPBVS
+[1.614s] [ 69%] Built target servoAfma6Points2DCamVelocityEyeToHand
+[1.616s] [ 70%] Built target servoAfma6Point2DCamVelocity
+[1.618s] [ 70%] Built target servoAfma6SquareLines2DCamVelocity
+[1.623s] [ 70%] Built target servoAfma6TwoLines2DCamVelocity
+[1.625s] [ 70%] Built target servoAfma6Cylinder2DCamVelocity
+[1.626s] [ 70%] Built target servoAfma6Segment2DCamVelocity
+[1.627s] [ 70%] Built target servoAfma62DhalfCamVelocity
+[1.627s] [ 70%] Built target servoAfma6FourPoints2DCamVelocityLs_des
+[1.633s] [ 70%] Built target servoAfma6FourPoints2DCamVelocityLs_cur
+[1.635s] [ 71%] Built target servoAfma6Cylinder2DCamVelocitySecondaryTask
+[1.635s] [ 71%] Built target moveBiclops
+[1.636s] [ 71%] Built target servoBiclopsPoint2DArtVelocity
+[1.639s] [ 71%] Built target frankaGripper
+[1.639s] [ 71%] Built target servoBebop2
+[1.640s] [ 71%] Built target servoAfma6MegaposePBVS
+[1.641s] [ 71%] Built target frankaMoveToPosition
+[1.641s] [ 71%] Built target keyboardControlBebop2
+[1.644s] [ 71%] Built target servoFlirPtuIBVS
+[1.647s] [ 71%] Built target frankaSavePosition
+[1.658s] [ 71%] Built target servoKinovaJacoCart
+[1.661s] [ 71%] Built target movePioneer
+[1.661s] [ 72%] Built target sendMocapToPixhawk
+[1.662s] [ 71%] Built target servoKinovaJacoJoint
+[1.663s] [ 72%] Built target servoFrankaPBVS
+[1.665s] [ 73%] Built target servoFrankaIBVS
+[1.666s] [ 74%] Built target servoPioneerPoint2DDepth
+[1.668s] [ 74%] Built target servoPixhawkDroneIBVS
+[1.668s] [ 74%] Built target movePtu46
+[1.668s] [ 74%] Built target servoPioneerPoint2DDepthWithoutVpServo
+[1.668s] [ 74%] Built target sonarPioneerReader
+[1.671s] [ 74%] Built target servoPioneerPanSegment3D
+[1.673s] [ 74%] Built target servoPtu46Point2DArtVelocity
+[1.678s] [ 74%] Built target servoPololuPtuPoint2DJointVelocity
+[1.681s] [ 74%] Built target UniversalRobotsMoveToPosition
+[1.682s] [ 74%] Built target servoUniversalRobotsPBVS
+[1.684s] [ 74%] Built target UniversalRobotsSavePosition
+[1.687s] [ 74%] Built target servoViper650FourPoints2DArtVelocityLs_cur
+[1.688s] [ 74%] Built target servoUniversalRobotsIBVS
+[1.689s] [ 75%] Built target servoViper650Point2DCamVelocity
+[1.689s] [ 75%] Built target servoViper650FourPoints2DCamVelocityLs_cur
+[1.690s] [ 75%] Built target servoViper650FourPoints2DCamVelocityLs_cur-SR300
+[1.691s] [ 75%] Built target servoViper850Point2DArtVelocity
+[1.694s] [ 75%] Built target servoViper850FourPointsKinect
+[1.694s] [ 75%] Built target servoViper850FourPoints2DArtVelocityLs_cur
+[1.695s] [ 75%] Built target servoViper850Point2DCamVelocityKalman
+[1.704s] [ 75%] Built target servoViper850Point2DCamVelocity
+[1.704s] [ 75%] Built target servoViper850FourPoints2DArtVelocityLs_des
+[1.704s] [ 75%] Built target servoViper850FourPoints2DCamVelocityLs_cur
+[1.705s] [ 75%] Built target servoViper850Point2DArtVelocity-jointAvoidance-gpa
+[1.706s] [35m[1mConsolidate compiler generated dependencies of target mbtEdgeKltTracking[0m
+[1.708s] [35m[1mConsolidate compiler generated dependencies of target mbtGenericTracking[0m
+[1.710s] [35m[1mConsolidate compiler generated dependencies of target mbtGenericTracking2[0m
+[1.713s] [35m[1mConsolidate compiler generated dependencies of target mbtEdgeTracking[0m
+[1.713s] [ 75%] Built target servoViper850Point2DArtVelocity-jointAvoidance-basic
+[1.714s] [35m[1mConsolidate compiler generated dependencies of target mbtGenericTrackingDepth[0m
+[1.718s] [35m[1mConsolidate compiler generated dependencies of target mbtKltTracking[0m
+[1.718s] [ 77%] Built target plot3d
+[1.718s] [ 77%] Built target servoViper850Point2DArtVelocity-jointAvoidance-large
+[1.718s] [35m[1mConsolidate compiler generated dependencies of target mbtGenericTrackingDepthOnly[0m
+[1.718s] [ 77%] Built target plot2d
+[1.719s] [35m[1mConsolidate compiler generated dependencies of target templateTracker[0m
+[1.721s] [35m[1mConsolidate compiler generated dependencies of target trackDot2WithAutoDetection[0m
+[1.721s] [ 77%] Built target keyboard
+[1.721s] [ 77%] Built target parallelPort
+[1.731s] [ 77%] Built target histogram
+[1.732s] [35m[1mConsolidate compiler generated dependencies of target trackMeEllipse[0m
+[1.732s] [35m[1mConsolidate compiler generated dependencies of target trackMeCircle[0m
+[1.735s] [ 77%] Built target mbtGenericTracking
+[1.735s] [ 77%] Built target mbtGenericTracking2
+[1.738s] [35m[1mConsolidate compiler generated dependencies of target trackDot2[0m
+[1.738s] [35m[1mConsolidate compiler generated dependencies of target trackDot[0m
+[1.738s] [ 77%] Built target mbtEdgeKltTracking
+[1.738s] [ 77%] Built target mbtEdgeTracking
+[1.738s] [35m[1mConsolidate compiler generated dependencies of target trackKltOpencv[0m
+[1.739s] [35m[1mConsolidate compiler generated dependencies of target trackMeLine[0m
+[1.740s] [ 77%] Built target mbtGenericTrackingDepth
+[1.740s] [ 77%] Built target trackDot2WithAutoDetection
+[1.742s] [ 77%] Built target templateTracker
+[1.743s] [ 78%] Built target mbtGenericTrackingDepthOnly
+[1.745s] [ 78%] Built target mbtKltTracking
+[1.746s] [35m[1mConsolidate compiler generated dependencies of target imageSequenceReader[0m
+[1.749s] [35m[1mConsolidate compiler generated dependencies of target videoReader[0m
+[1.752s] [35m[1mConsolidate compiler generated dependencies of target wireframeSimulator[0m
+[1.755s] [35m[1mConsolidate compiler generated dependencies of target tutorial-bridge-opencv-camera-param[0m
+[1.755s] [ 78%] Built target trackMeEllipse
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target tutorial-bridge-opencv-image[0m
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target tutorial-bridge-opencv-matrix[0m
+[1.756s] [ 78%] Built target trackMeCircle
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target tutorial-homography-from-points[0m
+[1.756s] [ 79%] Built target trackDot2
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target tutorial-pose-from-planar-object[0m
+[1.759s] [35m[1mConsolidate compiler generated dependencies of target tutorial-pose-from-points-live[0m
+[1.761s] [ 79%] Built target trackKltOpencv
+[1.761s] [ 79%] Built target trackMeLine
+[1.765s] [ 79%] Built target trackDot
+[1.765s] [ 79%] Built target videoReader
+[1.765s] [35m[1mConsolidate compiler generated dependencies of target tutorial-pose-from-points-image[0m
+[1.770s] [35m[1mConsolidate compiler generated dependencies of target tutorial-pose-from-points-realsense-T265[0m
+[1.770s] [ 80%] Built target wireframeSimulator
+[1.774s] [ 80%] Built target tutorial-bridge-opencv-camera-param
+[1.774s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-1394[0m
+[1.775s] [35m[1mConsolidate compiler generated dependencies of target tutorial-pose-from-qrcode-image[0m
+[1.775s] [ 80%] Built target tutorial-bridge-opencv-image
+[1.775s] [ 80%] Built target imageSequenceReader
+[1.776s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-basler-pylon[0m
+[1.777s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-1394-writer[0m
+[1.782s] [ 80%] Built target tutorial-pose-from-planar-object
+[1.782s] [ 80%] Built target tutorial-homography-from-points
+[1.782s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-bebop2[0m
+[1.782s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-CMU1394[0m
+[1.782s] [ 80%] Built target tutorial-bridge-opencv-matrix
+[1.783s] [ 80%] Built target tutorial-pose-from-points-live
+[1.791s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-ids-ueye[0m
+[1.791s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-multiple-realsense[0m
+[1.791s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-flycapture[0m
+[1.791s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-opencv[0m
+[1.793s] [ 81%] Built target tutorial-pose-from-points-image
+[1.793s] [ 81%] Built target tutorial-grabber-1394
+[1.793s] [ 81%] Built target tutorial-pose-from-points-realsense-T265
+[1.795s] [ 81%] Built target tutorial-pose-from-qrcode-image
+[1.796s] [ 81%] Built target tutorial-grabber-CMU1394
+[1.803s] [ 81%] Built target tutorial-grabber-1394-writer
+[1.803s] [ 81%] Built target tutorial-grabber-basler-pylon
+[1.804s] [ 81%] Built target tutorial-grabber-bebop2
+[1.805s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-realsense[0m
+[1.805s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-opencv-threaded[0m
+[1.805s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-rgbd-D435-structurecore[0m
+[1.805s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-realsense-T265[0m
+[1.806s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-structure-core[0m
+[1.809s] [ 81%] Built target tutorial-grabber-ids-ueye
+[1.811s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-v4l2[0m
+[1.811s] [35m[1mConsolidate compiler generated dependencies of target tutorial-grabber-v4l2-threaded[0m
+[1.812s] [ 82%] Built target tutorial-grabber-multiple-realsense
+[1.813s] [ 82%] Built target tutorial-grabber-opencv
+[1.815s] [35m[1mConsolidate compiler generated dependencies of target tutorial-video-reader[0m
+[1.816s] [35m[1mConsolidate compiler generated dependencies of target tutorial-video-recorder[0m
+[1.816s] [ 82%] Built target tutorial-grabber-flycapture
+[1.854s] [35m[1mConsolidate compiler generated dependencies of target tutorial-pcl-viewer[0m
+[1.854s] [35m[1mConsolidate compiler generated dependencies of target tutorial-barcode-detector-live[0m
+[1.854s] [35m[1mConsolidate compiler generated dependencies of target tutorial-barcode-detector[0m
+[1.863s] [35m[1mConsolidate compiler generated dependencies of target tutorial-dnn-object-detection-live[0m
+[1.863s] [ 82%] Built target tutorial-grabber-opencv-threaded
+[1.863s] [35m[1mConsolidate compiler generated dependencies of target tutorial-dnn-tensorrt-live[0m
+[1.864s] [ 82%] Built target tutorial-grabber-rgbd-D435-structurecore
+[1.870s] [ 82%] Built target tutorial-grabber-realsense-T265
+[1.874s] [ 82%] Built target tutorial-grabber-realsense
+[1.874s] [35m[1mConsolidate compiler generated dependencies of target tutorial-face-detector[0m
+[1.876s] [ 82%] Built target tutorial-grabber-structure-core
+[1.876s] [ 82%] Built target tutorial-grabber-v4l2
+[1.876s] [ 83%] Built target tutorial-grabber-v4l2-threaded
+[1.876s] [35m[1mConsolidate compiler generated dependencies of target tutorial-face-detector-live[0m
+[1.877s] [ 83%] Built target tutorial-video-reader
+[1.879s] [ 84%] Built target tutorial-video-recorder
+[1.879s] [ 84%] Built target tutorial-barcode-detector-live
+[1.879s] [35m[1mConsolidate compiler generated dependencies of target tutorial-matching-keypoint[0m
+[1.879s] [35m[1mConsolidate compiler generated dependencies of target tutorial-face-detector-live-threaded[0m
+[1.883s] [ 84%] Built target tutorial-barcode-detector
+[1.886s] [35m[1mConsolidate compiler generated dependencies of target tutorial-matching-keypoint-SIFT[0m
+[1.887s] [ 84%] Built target tutorial-dnn-tensorrt-live
+[1.890s] [ 84%] Built target tutorial-pcl-viewer
+[1.890s] [35m[1mConsolidate compiler generated dependencies of target tutorial-matching-keypoint-homography[0m
+[1.891s] [35m[1mConsolidate compiler generated dependencies of target tutorial-detection-object-mbt2[0m
+[1.892s] [ 84%] Built target tutorial-face-detector
+[1.892s] [ 84%] Built target tutorial-dnn-object-detection-live
+[1.892s] [35m[1mConsolidate compiler generated dependencies of target tutorial-detection-object-mbt[0m
+[1.893s] [35m[1mConsolidate compiler generated dependencies of target tutorial-detection-object-mbt-deprecated[0m
+[1.893s] [ 84%] Built target tutorial-face-detector-live
+[1.893s] [35m[1mConsolidate compiler generated dependencies of target tutorial-apriltag-detector[0m
+[1.894s] [35m[1mConsolidate compiler generated dependencies of target tutorial-apriltag-detector-live-T265-realsense[0m
+[1.894s] [35m[1mConsolidate compiler generated dependencies of target tutorial-detection-object-mbt2-deprecated[0m
+[1.895s] [35m[1mConsolidate compiler generated dependencies of target tutorial-apriltag-detector-live[0m
+[1.896s] [35m[1mConsolidate compiler generated dependencies of target tutorial-apriltag-detector-live-rgbd-realsense[0m
+[1.897s] [35m[1mConsolidate compiler generated dependencies of target tutorial-apriltag-detector-live-rgbd-structure-core[0m
+[1.897s] [ 84%] Built target tutorial-matching-keypoint-SIFT
+[1.897s] [ 84%] Built target tutorial-face-detector-live-threaded
+[1.898s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-colormap[0m
+[1.899s] [ 85%] Built target tutorial-matching-keypoint
+[1.899s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-converter[0m
+[1.908s] [ 85%] Built target tutorial-matching-keypoint-homography
+[1.908s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-manipulation[0m
+[1.911s] [ 85%] Built target tutorial-detection-object-mbt2
+[1.911s] [ 85%] Built target tutorial-detection-object-mbt
+[1.911s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-reader[0m
+[1.912s] [ 85%] Built target tutorial-apriltag-detector
+[1.912s] [ 85%] Built target tutorial-detection-object-mbt-deprecated
+[1.917s] [ 85%] Built target tutorial-apriltag-detector-live-rgbd-realsense
+[1.917s] [ 85%] Built target tutorial-apriltag-detector-live-rgbd-structure-core
+[1.918s] [ 86%] Built target tutorial-detection-object-mbt2-deprecated
+[1.918s] [ 86%] Built target tutorial-image-converter
+[1.920s] [ 86%] Built target tutorial-image-colormap
+[1.921s] [ 87%] Built target tutorial-apriltag-detector-live-T265-realsense
+[1.924s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-viewer[0m
+[1.924s] [ 87%] Built target tutorial-apriltag-detector-live
+[1.925s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-filter[0m
+[1.928s] [35m[1mConsolidate compiler generated dependencies of target tutorial-undistort[0m
+[1.931s] [35m[1mConsolidate compiler generated dependencies of target tutorial-viewer[0m
+[1.935s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-display-scaled-manu[0m
+[1.937s] [ 87%] Built target tutorial-image-manipulation
+[1.937s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-display[0m
+[1.937s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-display-scaled-auto[0m
+[1.946s] [35m[1mConsolidate compiler generated dependencies of target tutorial-draw-line[0m
+[1.946s] [35m[1mConsolidate compiler generated dependencies of target tutorial-draw-rectangle[0m
+[1.949s] [35m[1mConsolidate compiler generated dependencies of target tutorial-draw-cross[0m
+[1.952s] [ 87%] Built target tutorial-image-reader
+[1.952s] [35m[1mConsolidate compiler generated dependencies of target tutorial-draw-text[0m
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target tutorial-draw-point[0m
+[1.955s] [35m[1mConsolidate compiler generated dependencies of target tutorial-draw-circle[0m
+[1.957s] [35m[1mConsolidate compiler generated dependencies of target tutorial-export-image[0m
+[1.957s] [ 87%] Built target tutorial-image-viewer
+[1.957s] [ 87%] Built target tutorial-image-display-scaled-manu
+[1.961s] [35m[1mConsolidate compiler generated dependencies of target tutorial-draw-frame[0m
+[1.967s] [ 87%] Built target tutorial-viewer
+[1.967s] [ 87%] Built target tutorial-image-display
+[1.968s] [ 87%] Built target tutorial-undistort
+[1.968s] [ 87%] Built target tutorial-image-display-scaled-auto
+[1.968s] [ 88%] Built target tutorial-image-filter
+[1.975s] [ 89%] Built target tutorial-draw-rectangle
+[1.975s] [ 89%] Built target tutorial-draw-line
+[1.977s] [35m[1mConsolidate compiler generated dependencies of target tutorial-event-keyboard[0m
+[1.981s] [ 89%] Built target tutorial-draw-text
+[1.984s] [ 89%] Built target tutorial-draw-point
+[1.988s] [ 89%] Built target tutorial-draw-cross
+[1.988s] [35m[1mConsolidate compiler generated dependencies of target tutorial-connected-components[0m
+[1.990s] [35m[1mConsolidate compiler generated dependencies of target tutorial-brightness-adjustment[0m
+[1.990s] [ 89%] Built target tutorial-draw-circle
+[1.990s] [35m[1mConsolidate compiler generated dependencies of target tutorial-canny[0m
+[1.991s] [ 89%] Built target tutorial-export-image
+[1.994s] [35m[1mConsolidate compiler generated dependencies of target tutorial-video-manipulation[0m
+[1.998s] [ 89%] Built target tutorial-draw-frame
+[1.998s] [35m[1mConsolidate compiler generated dependencies of target tutorial-autothreshold[0m
+[1.998s] [35m[1mConsolidate compiler generated dependencies of target tutorial-flood-fill[0m
+[2.000s] [35m[1mConsolidate compiler generated dependencies of target tutorial-count-coins[0m
+[2.000s] [35m[1mConsolidate compiler generated dependencies of target tutorial-contrast-sharpening[0m
+[2.005s] [35m[1mConsolidate compiler generated dependencies of target tutorial-contour[0m
+[2.005s] [35m[1mConsolidate compiler generated dependencies of target tutorial-circle-hough[0m
+[2.010s] [ 89%] Built target tutorial-event-keyboard
+[2.013s] [35m[1mConsolidate compiler generated dependencies of target tutorial-meandrift[0m
+[2.015s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ukf[0m
+[2.018s] [35m[1mConsolidate compiler generated dependencies of target tutorial-munkres-assignment[0m
+[2.025s] [35m[1mConsolidate compiler generated dependencies of target tutorial-npz[0m
+[2.025s] [ 89%] Built target tutorial-connected-components
+[2.029s] [ 89%] Built target tutorial-brightness-adjustment
+[2.031s] [ 89%] Built target tutorial-canny
+[2.032s] [35m[1mConsolidate compiler generated dependencies of target tutorial-flir-ptu-ibvs[0m
+[2.033s] [ 89%] Built target tutorial-autothreshold
+[2.034s] [ 89%] Built target tutorial-count-coins
+[2.035s] [ 89%] Built target tutorial-contour
+[2.036s] [ 89%] Built target tutorial-video-manipulation
+[2.036s] [ 90%] Built target tutorial-flood-fill
+[2.038s] [ 90%] Built target tutorial-contrast-sharpening
+[2.039s] [35m[1mConsolidate compiler generated dependencies of target tutorial-pioneer-robot[0m
+[2.041s] [ 91%] Built target tutorial-circle-hough
+[2.043s] [ 92%] Built target tutorial-meandrift
+[2.044s] [35m[1mConsolidate compiler generated dependencies of target tutorial-simu-pioneer[0m
+[2.045s] [ 92%] Built target tutorial-ukf
+[2.051s] [ 92%] Built target tutorial-munkres-assignment
+[2.053s] [35m[1mConsolidate compiler generated dependencies of target tutorial-simu-pioneer-pan[0m
+[2.054s] [35m[1mConsolidate compiler generated dependencies of target tutorial-simu-pioneer-continuous-gain-constant[0m
+[2.056s] [ 92%] Built target tutorial-npz
+[2.058s] [35m[1mConsolidate compiler generated dependencies of target tutorial-simu-pioneer-continuous-gain-adaptive[0m
+[2.059s] [35m[1mConsolidate compiler generated dependencies of target mbot-apriltag-ibvs[0m
+[2.062s] [35m[1mConsolidate compiler generated dependencies of target test-serial-mbot[0m
+[2.062s] [35m[1mConsolidate compiler generated dependencies of target mbot-apriltag-pbvs[0m
+[2.062s] [35m[1mConsolidate compiler generated dependencies of target mbot-apriltag-2D-half-vs[0m
+[2.062s] [ 92%] Built target tutorial-flir-ptu-ibvs
+[2.065s] [35m[1mConsolidate compiler generated dependencies of target tutorial-hsv-segmentation[0m
+[2.066s] [35m[1mConsolidate compiler generated dependencies of target tutorial-hsv-range-tuner[0m
+[2.069s] [ 92%] Built target tutorial-pioneer-robot
+[2.070s] [35m[1mConsolidate compiler generated dependencies of target tutorial-hsv-segmentation-basic[0m
+[2.072s] [35m[1mConsolidate compiler generated dependencies of target tutorial-hsv-segmentation-pcl[0m
+[2.073s] [ 92%] Built target tutorial-simu-pioneer
+[2.078s] [35m[1mConsolidate compiler generated dependencies of target tutorial-hsv-segmentation-pcl-viewer[0m
+[2.082s] [ 93%] Built target tutorial-simu-pioneer-continuous-gain-constant
+[2.082s] [35m[1mConsolidate compiler generated dependencies of target tutorial-image-simulator[0m
+[2.082s] [ 93%] Built target tutorial-simu-pioneer-pan
+[2.087s] [35m[1mConsolidate compiler generated dependencies of target tutorial-trace[0m
+[2.089s] [ 93%] Built target test-serial-mbot
+[2.089s] [ 93%] Built target tutorial-simu-pioneer-continuous-gain-adaptive
+[2.091s] [ 93%] Built target mbot-apriltag-ibvs
+[2.095s] [35m[1mConsolidate compiler generated dependencies of target tutorial-blob-auto-tracker[0m
+[2.095s] [ 94%] Built target mbot-apriltag-2D-half-vs
+[2.096s] [ 94%] Built target tutorial-hsv-range-tuner
+[2.096s] [ 94%] Built target mbot-apriltag-pbvs
+[2.098s] [35m[1mConsolidate compiler generated dependencies of target tutorial-blob-tracker-live-firewire[0m
+[2.100s] [ 94%] Built target tutorial-hsv-segmentation
+[2.100s] [ 94%] Built target tutorial-hsv-segmentation-basic
+[2.102s] [35m[1mConsolidate compiler generated dependencies of target tutorial-klt-tracker[0m
+[2.103s] [35m[1mConsolidate compiler generated dependencies of target tutorial-blob-tracker-live-v4l2[0m
+[2.103s] [ 94%] Built target tutorial-hsv-segmentation-pcl
+[2.111s] [ 94%] Built target tutorial-image-simulator
+[2.111s] [ 94%] Built target tutorial-hsv-segmentation-pcl-viewer
+[2.113s] [ 94%] Built target tutorial-trace
+[2.114s] [35m[1mConsolidate compiler generated dependencies of target tutorial-klt-tracker-live-v4l2[0m
+[2.115s] [35m[1mConsolidate compiler generated dependencies of target tutorial-klt-tracker-with-reinit[0m
+[2.115s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-live[0m
+[2.115s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker[0m
+[2.118s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-save[0m
+[2.118s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-read[0m
+[2.120s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-full[0m
+[2.121s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-apriltag-webcam[0m
+[2.122s] [ 94%] Built target tutorial-blob-auto-tracker
+[2.122s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-apriltag-rs2[0m
+[2.125s] [ 95%] Built target tutorial-blob-tracker-live-firewire
+[2.131s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-rgbd[0m
+[2.132s] [ 95%] Built target tutorial-blob-tracker-live-v4l2
+[2.132s] [ 95%] Built target tutorial-klt-tracker
+[2.134s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-rgbd-realsense[0m
+[2.135s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-rgbd-structure-core[0m
+[2.143s] [ 95%] Built target tutorial-klt-tracker-live-v4l2
+[2.143s] [ 95%] Built target tutorial-klt-tracker-with-reinit
+[2.145s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-rgbd-realsense-json[0m
+[2.148s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-rgbd-blender[0m
+[2.149s] [ 95%] Built target tutorial-mb-generic-tracker-read
+[2.151s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-stereo[0m
+[2.153s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-generic-tracker-stereo-mono[0m
+[2.154s] [ 95%] Built target tutorial-mb-generic-tracker
+[2.156s] [ 96%] Built target tutorial-mb-generic-tracker-live
+[2.156s] [ 96%] Built target tutorial-mb-generic-tracker-full
+[2.157s] [ 96%] Built target tutorial-mb-generic-tracker-apriltag-webcam
+[2.157s] [ 96%] Built target tutorial-mb-generic-tracker-apriltag-rs2
+[2.157s] [ 96%] Built target tutorial-mb-generic-tracker-save
+[2.165s] [ 96%] Built target tutorial-mb-generic-tracker-rgbd
+[2.166s] [ 96%] Built target tutorial-mb-generic-tracker-rgbd-structure-core
+[2.167s] [ 96%] Built target tutorial-mb-generic-tracker-rgbd-realsense
+[2.169s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-edge-tracker[0m
+[2.169s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-tracker[0m
+[2.174s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-tracker-full[0m
+[2.176s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-klt-tracker[0m
+[2.176s] [35m[1mConsolidate compiler generated dependencies of target tutorial-template-tracker[0m
+[2.176s] [35m[1mConsolidate compiler generated dependencies of target tutorial-me-ellipse-tracker[0m
+[2.180s] [35m[1mConsolidate compiler generated dependencies of target tutorial-megapose-live-single-object-tracking[0m
+[2.181s] [35m[1mConsolidate compiler generated dependencies of target tutorial-mb-hybrid-tracker[0m
+[2.181s] [35m[1mConsolidate compiler generated dependencies of target tutorial-me-line-tracker[0m
+[2.181s] [ 96%] Built target tutorial-mb-generic-tracker-rgbd-realsense-json
+[2.187s] [ 97%] Built target tutorial-mb-generic-tracker-stereo-mono
+[2.187s] [ 97%] Built target tutorial-mb-generic-tracker-stereo
+[2.189s] [ 97%] Built target tutorial-mb-generic-tracker-rgbd-blender
+[2.190s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-display[0m
+[2.193s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts[0m
+[2.194s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-image-tracking[0m
+[2.203s] [ 97%] Built target tutorial-mb-edge-tracker
+[2.204s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-ogre[0m
+[2.204s] [ 97%] Built target tutorial-mb-tracker
+[2.205s] [ 97%] Built target tutorial-mb-tracker-full
+[2.207s] [ 97%] Built target tutorial-me-ellipse-tracker
+[2.207s] [ 97%] Built target tutorial-template-tracker
+[2.208s] [ 97%] Built target tutorial-mb-klt-tracker
+[2.210s] [ 97%] Built target tutorial-me-line-tracker
+[2.210s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-plotter[0m
+[2.210s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-plotter-gain-adaptive[0m
+[2.213s] [ 97%] Built target tutorial-megapose-live-single-object-tracking
+[2.213s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-ogre-tracking[0m
+[2.218s] [ 97%] Built target tutorial-mb-hybrid-tracker
+[2.219s] [ 98%] Built target tutorial-ibvs-4pts-display
+[2.219s] [ 98%] Built target tutorial-ibvs-4pts
+[2.219s] [ 98%] Built target tutorial-ibvs-4pts-image-tracking
+[2.220s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-plotter-continuous-gain-adaptive[0m
+[2.220s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-wireframe-robot-viper[0m
+[2.223s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-json[0m
+[2.223s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-wireframe-camera[0m
+[2.224s] [35m[1mConsolidate compiler generated dependencies of target tutorial-ibvs-4pts-wireframe-robot-afma6[0m
+[2.225s] [ 98%] Built target tutorial-ibvs-4pts-plotter-gain-adaptive
+[2.230s] [ 98%] Built target tutorial-ibvs-4pts-plotter
+[2.231s] [ 98%] Built target tutorial-ibvs-4pts-ogre
+[2.236s] [ 98%] Built target tutorial-ibvs-4pts-ogre-tracking
+[2.236s] [ 98%] Built target tutorial-ibvs-4pts-plotter-continuous-gain-adaptive
+[2.236s] [ 98%] Built target tutorial-ibvs-4pts-json
+[2.236s] [ 98%] Built target tutorial-ibvs-4pts-wireframe-robot-viper
+[2.240s] [ 98%] Built target tutorial-ibvs-4pts-wireframe-robot-afma6
+[2.241s] [100%] Built target tutorial-ibvs-4pts-wireframe-camera
+[2.253s] Invoked command in '/home/adminlab/franka_ros2_ws/build/VISP' returned '0': /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/VISP -- -j16 -l16
+[2.604s] Invoking command in '/home/adminlab/franka_ros2_ws/build/VISP': /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/VISP
+[2.609s] -- Install configuration: "Release"
+[2.609s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/visp/data/ogre-simulator/plugins.cfg
+[2.609s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/visp/data/ogre-simulator/plugins_d.cfg
+[2.609s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/resources.cfg
+[2.609s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media
+[2.609s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/models
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/models/robot.skeleton
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/models/robot.mesh
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/textures
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/textures/r2skin.jpg
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/textures/grass_1024.jpg
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/scripts
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/scripts/Examples.material
+[2.610s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/man/man1/visp-config.1.gz
+[2.611s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpConfig.h
+[2.611s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_modules.h
+[2.611s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp.h
+[2.611s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/visp_modules.h
+[2.611s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vp1394CMUGrabber.h
+[2.611s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vp1394TwoGrabber.h
+[2.611s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAR.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAROgre.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAdaptiveGain.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAfma4.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAfma6.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpArray2D.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBSpline.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBasicFeature.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBasicKeyPoint.h
+[2.612s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBiclops.h
+[2.613s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCPUFeatures.h
+[2.613s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCalibration.h
+[2.613s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCalibrationException.h
+[2.613s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCameraParameters.h
+[2.613s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCannyEdgeDetection.h
+[2.613s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCircle.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCircleHoughTransform.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpClient.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColVector.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColor.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColorBlindFriendlyPalette.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColorDepthConversion.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColormap.h
+[2.614s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpComedi.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpConfig.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpContours.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpConvert.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCylinder.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpD3DRenderer.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDebug.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorAprilTag.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorBase.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorDNNOpenCV.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorDataMatrixCode.h
+[2.615s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorFace.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorQRCode.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowDevice.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowGrabber.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowGrabberImpl.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowSampleGrabberI.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDiskGrabber.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplay.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayD3D.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayException.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayFactory.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayGDI.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayGTK.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayOpenCV.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayPCL.h
+[2.616s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayWin32.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayX.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDot.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDot2.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpEigenConversion.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpEndian.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpException.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpExponentialMap.h
+[2.617s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureBuilder.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureDepth.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureDisplay.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureEllipse.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureException.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureLine.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureLuminance.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMoment.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentAlpha.h
+[2.618s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentArea.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentAreaNormalized.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentBasic.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentCInvariant.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentCentered.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentCommon.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentDatabase.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentGravityCenter.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentGravityCenterNormalized.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeaturePoint.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeaturePoint3D.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeaturePointPolar.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureSegment.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureThetaU.h
+[2.619s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureTranslation.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureVanishingPoint.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFlyCaptureGrabber.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFont.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTorqueAtiNetFTSensor.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTorqueAtiSensor.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTorqueIitSensor.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTwistMatrix.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForwardProjection.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFrameGrabber.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFrameGrabberException.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGDIRenderer.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGEMM.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGaussRand.h
+[2.620s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGaussianFilter.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGenericFeature.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHandEyeCalibration.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHinkley.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHistogram.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHistogramPeak.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHistogramValey.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHomogeneousMatrix.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHomography.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImage.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageCircle.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageConvert.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageDraw.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageException.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageFilter.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageIo.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageMorphology.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImagePoint.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageQueue.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageSimulator.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageStorageWorker.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageTools.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImgproc.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpIoException.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpIoTools.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpJsonArgumentParser.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpJsonParsing.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKalmanFilter.h
+[2.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKeyPoint.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKeyboard.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKinect.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKltOpencv.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLaserScan.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLaserScanner.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLinProg.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLine.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLinearKalmanFilterInstantiation.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpList.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMath.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMatrix.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMatrixException.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbDepthDenseTracker.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbDepthNormalTracker.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbEdgeKltTracker.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbEdgeTracker.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbGenericTracker.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbHiddenFaces.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbKltTracker.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbScanLine.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbTracker.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceCircle.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceCylinder.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceKltCylinder.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceKltPoints.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceLine.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtFaceDepthDense.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtFaceDepthNormal.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtMeEllipse.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtMeLine.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtPolygon.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtTukeyEstimator.h
+[2.622s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtXmlGenericParser.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMe.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeEllipse.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeLine.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeNurbs.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeSite.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeTracker.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMegaPose.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMegaPoseTracker.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeterPixelConversion.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMocap.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMocapQualisys.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMocapVicon.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMoment.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentAlpha.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentArea.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentAreaNormalized.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentBasic.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentCInvariant.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentCentered.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentCommon.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentDatabase.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentGravityCenter.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentGravityCenterNormalized.h
+[2.623s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentObject.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMouseButton.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMunkres.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMutex.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNetwork.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNoise.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNullptrEmulated.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNurbs.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpOccipitalStructure.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpParallelPort.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpParallelPortException.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpParseArgv.h
+[2.624s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPclViewer.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPioneer.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPioneerPan.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPixelMeterConversion.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlane.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlaneEstimation.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlot.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlotCurve.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlotGraph.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoint.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPololu.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPolygon.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPolygon3D.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPose.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoseException.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoseFeatures.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoseVector.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpProjectionDisplay.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPtu46.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPylonFactory.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPylonGrabber.h
+[2.625s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQbDevice.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQbSoftHand.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQuadProg.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQuaternionVector.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRGBa.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRGBf.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRansac.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRealSense.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRealSense2.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRect.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRectOriented.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpReflexTakktile2.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRequest.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRingLight.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobot.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotAfma4.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotAfma6.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotBebop2.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotBiclops.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotCamera.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotException.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotFlirPtu.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotFranka.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotKinova.h
+[2.626s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotMavsdk.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotPioneer.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotPololuPtu.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotPtu46.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotSimulator.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotTemplate.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotUniversalRobots.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotViper650.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotViper850.h
+[2.627s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotWireFrameSimulator.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobust.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRotationMatrix.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRotationVector.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRowVector.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRxyzVector.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRzyxVector.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRzyzVector.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpScale.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpScanPoint.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSerial.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServer.h
+[2.628s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServo.h
+[2.629s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServoData.h
+[2.629s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServoDisplay.h
+[2.629s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServoException.h
+[2.629s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServolens.h
+[2.629s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSickLDMRS.h
+[2.629s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulator.h
+[2.629s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorAfma6.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorCamera.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorException.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorPioneer.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorPioneerPan.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorViper850.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSphere.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestAbstract.h
+[2.630s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestEWMA.h
+[2.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestHinkley.h
+[2.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestMeanAdjustedCUSUM.h
+[2.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestShewhart.h
+[2.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestSigma.h
+[2.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSubColVector.h
+[2.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSubMatrix.h
+[2.631s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSubRowVector.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTracker.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerBSpline.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerHeader.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMI.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIBSpline.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIESM.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIForwardAdditional.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIForwardCompositional.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIInverseCompositional.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSD.h
+[2.632s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDESM.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDForwardAdditional.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDForwardCompositional.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDInverseCompositional.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerTriangle.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarp.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpAffine.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpHomography.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpHomographySL3.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpRT.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpSRT.h
+[2.633s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpTranslation.h
+[2.634s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZNCC.h
+[2.634s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZNCCForwardAdditional.h
+[2.635s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZNCCInverseCompositional.h
+[2.635s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZone.h
+[2.635s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpThetaUVector.h
+[2.635s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpThread.h
+[2.636s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTime.h
+[2.636s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTracker.h
+[2.637s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTrackingException.h
+[2.637s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTranslationVector.h
+[2.637s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTriangle.h
+[2.637s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUDPClient.h
+[2.637s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUDPServer.h
+[2.637s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUKSigmaDrawerAbstract.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUKSigmaDrawerMerwe.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUeyeGrabber.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUniRand.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUnicycle.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUnscentedKalman.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpV4l2Grabber.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVelocityTwistMatrix.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVideoReader.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVideoWriter.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViewer.h
+[2.638s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViper.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViper650.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViper850.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVirtuose.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWin32API.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWin32Renderer.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWin32Window.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWireFrameSimulator.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWireFrameSimulatorTypes.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlConfigParserKeyPoint.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParser.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParserCamera.h
+[2.639s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParserHomogeneousMatrix.h
+[2.640s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParserRectOriented.h
+[2.640s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPModules.cmake
+[2.640s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPModules-release.cmake
+[2.640s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPConfig-version.cmake
+[2.640s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPConfig.cmake
+[2.640s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPUse.cmake
+[2.641s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-config
+[2.641s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/pkgconfig/visp.pc
+[2.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_core.h
+[2.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_core.so.3.6.1
+[2.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_core.so.3.6
+[2.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_core.so
+[2.642s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpArray2D.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpBSpline.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCPUFeatures.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCameraParameters.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCannyEdgeDetection.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCircle.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpClient.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColVector.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColor.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColorDepthConversion.h
+[2.643s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColormap.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpConvert.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCylinder.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpDebug.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpDisplay.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpDisplayException.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpEigenConversion.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpEndian.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpException.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpExponentialMap.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFeatureDisplay.h
+[2.644s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFont.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpForceTwistMatrix.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpForwardProjection.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFrameGrabber.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFrameGrabberException.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpGEMM.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpGaussRand.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpGaussianFilter.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHinkley.h
+[2.645s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHistogram.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHistogramPeak.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHistogramValey.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHomogeneousMatrix.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImage.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageCircle.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageConvert.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageDraw.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageException.h
+[2.646s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageFilter.h
+[2.647s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageMorphology.h
+[2.647s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImagePoint.h
+[2.647s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageTools.h
+[2.647s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpIoException.h
+[2.647s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpIoTools.h
+[2.647s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpJsonParsing.h
+[2.647s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpKalmanFilter.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpLinProg.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpLine.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpLinearKalmanFilterInstantiation.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpList.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMath.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMatrix.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMatrixException.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMeterPixelConversion.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMoment.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentAlpha.h
+[2.648s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentArea.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentAreaNormalized.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentBasic.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentCInvariant.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentCentered.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentCommon.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentDatabase.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentGravityCenter.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentGravityCenterNormalized.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentObject.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMouseButton.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMunkres.h
+[2.649s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMutex.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpNetwork.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpNoise.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpNullptrEmulated.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPixelMeterConversion.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPlane.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPoint.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPolygon.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPolygon3D.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPoseVector.h
+[2.650s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpQuadProg.h
+[2.651s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpQuaternionVector.h
+[2.651s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRGBa.h
+[2.651s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRGBf.h
+[2.651s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRansac.h
+[2.651s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRect.h
+[2.651s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRectOriented.h
+[2.651s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRequest.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRobust.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRotationMatrix.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRotationVector.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRowVector.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRxyzVector.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRzyxVector.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRzyzVector.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpScale.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSerial.h
+[2.652s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpServer.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSphere.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestAbstract.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestEWMA.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestHinkley.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestMeanAdjustedCUSUM.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestShewhart.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestSigma.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSubColVector.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSubMatrix.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSubRowVector.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpThetaUVector.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpThread.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTime.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTracker.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTrackingException.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTranslationVector.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTriangle.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUDPClient.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUDPServer.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUKSigmaDrawerAbstract.h
+[2.653s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUKSigmaDrawerMerwe.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUniRand.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUnscentedKalman.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpVelocityTwistMatrix.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParser.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParserCamera.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParserHomogeneousMatrix.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParserRectOriented.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpConfig.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_modules.h
+[2.654s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/font/Rubik-Regular.ttf
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_dnn_tracker.h
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_dnn_tracker.so.3.6.1
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_dnn_tracker.so.3.6
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_dnn_tracker.so
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/dnn_tracker/vpMegaPose.h
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/dnn_tracker/vpMegaPoseTracker.h
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_gui.h
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_gui.so.3.6.1
+[2.655s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_gui.so.3.6
+[2.656s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_gui.so
+[2.656s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpColorBlindFriendlyPalette.h
+[2.656s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpD3DRenderer.h
+[2.656s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayD3D.h
+[2.657s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayFactory.h
+[2.657s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayGDI.h
+[2.657s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayGTK.h
+[2.657s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayOpenCV.h
+[2.657s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayPCL.h
+[2.657s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayWin32.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayX.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpGDIRenderer.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPclViewer.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPlot.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPlotCurve.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPlotGraph.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpProjectionDisplay.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpWin32API.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpWin32Renderer.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpWin32Window.h
+[2.658s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_imgproc.h
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_imgproc.so.3.6.1
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_imgproc.so.3.6
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_imgproc.so
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/imgproc/vpCircleHoughTransform.h
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/imgproc/vpContours.h
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/imgproc/vpImgproc.h
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_io.h
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_io.so.3.6.1
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_io.so.3.6
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_io.so
+[2.659s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpDiskGrabber.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpImageIo.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpImageQueue.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpImageStorageWorker.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpJsonArgumentParser.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpKeyboard.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpParallelPort.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpParallelPortException.h
+[2.660s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpParseArgv.h
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpVideoReader.h
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpVideoWriter.h
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_klt.h
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_klt.so.3.6.1
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_klt.so.3.6
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_klt.so
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/klt/vpKltOpencv.h
+[2.661s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_me.h
+[2.662s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_me.so.3.6.1
+[2.662s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_me.so.3.6
+[2.662s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_me.so
+[2.662s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMe.h
+[2.662s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeEllipse.h
+[2.663s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeLine.h
+[2.663s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeNurbs.h
+[2.663s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeSite.h
+[2.663s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeTracker.h
+[2.663s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpNurbs.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_sensor.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_sensor.so.3.6.1
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_sensor.so.3.6
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_sensor.so
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vp1394CMUGrabber.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vp1394TwoGrabber.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpComedi.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowDevice.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowGrabber.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowGrabberImpl.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowSampleGrabberI.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpFlyCaptureGrabber.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpForceTorqueAtiNetFTSensor.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpForceTorqueAtiSensor.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpForceTorqueIitSensor.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpKinect.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpLaserScan.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpLaserScanner.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpMocap.h
+[2.664s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpMocapQualisys.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpMocapVicon.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpOccipitalStructure.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpPylonFactory.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpPylonGrabber.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpRealSense.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpRealSense2.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpScanPoint.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpSickLDMRS.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpUeyeGrabber.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpV4l2Grabber.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_ar.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_ar.so.3.6.1
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_ar.so.3.6
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_ar.so
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpAR.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpAROgre.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpSimulator.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpSimulatorException.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpViewer.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_blob.h
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_blob.so.3.6.1
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_blob.so.3.6
+[2.665s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_blob.so
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/blob/vpDot.h
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/blob/vpDot2.h
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm1.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm2.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm3.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm4.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_gate.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_tool_ccmop.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_tool_gripper.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_tool_vacuum.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm1.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm2.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm3.bnd
+[2.666s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm4.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm5.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm6.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/3pts.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/camera.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle_sq2.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circles2.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cube.bnd
+[2.667s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cylinder.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/diamond.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/line.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/pipe.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plan.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_6cm.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_8cm.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point.bnd
+[2.668s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point_cloud.bnd
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/rectangle.bnd
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/road.bnd
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/sphere.bnd
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/square10cm.bnd
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/tool.bnd
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/trapezoid.bnd
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/3pts.sld
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/camera.sld
+[2.669s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle_sq2.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circles2.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cube.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cylinder.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/diamond.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/line.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/pipe.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plan.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_6cm.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_8cm.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point_cloud.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/rectangle.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/road.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/sphere.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/square10cm.sld
+[2.670s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/tool.sld
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/trapezoid.sld
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_robot.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_robot.so.3.6.1
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_robot.so.3.6
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_robot.so
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpAfma4.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpAfma6.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpBiclops.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpImageSimulator.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPioneer.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPioneerPan.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPololu.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPtu46.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpQbDevice.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpQbSoftHand.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpReflexTakktile2.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRingLight.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobot.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotAfma4.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotAfma6.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotBebop2.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotBiclops.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotCamera.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotException.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotFlirPtu.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotFranka.h
+[2.671s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotKinova.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotMavsdk.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotPioneer.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotPololuPtu.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotPtu46.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotSimulator.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotTemplate.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotUniversalRobots.h
+[2.672s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotViper650.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotViper850.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotWireFrameSimulator.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpServolens.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorAfma6.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorCamera.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorPioneer.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorPioneerPan.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorViper850.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpUnicycle.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpViper.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpViper650.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpViper850.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpVirtuose.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpWireFrameSimulator.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpWireFrameSimulatorTypes.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_visual_features.h
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_visual_features.so.3.6.1
+[2.673s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_visual_features.so.3.6
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_visual_features.so
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpBasicFeature.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureBuilder.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureDepth.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureEllipse.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureException.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureLine.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureLuminance.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMoment.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentAlpha.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentArea.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentAreaNormalized.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentBasic.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentCInvariant.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentCentered.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentCommon.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentDatabase.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentGravityCenter.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentGravityCenterNormalized.h
+[2.674s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeaturePoint.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeaturePoint3D.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeaturePointPolar.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureSegment.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureThetaU.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureTranslation.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureVanishingPoint.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpGenericFeature.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_vs.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vs.so.3.6.1
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vs.so.3.6
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vs.so
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpAdaptiveGain.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServo.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServoData.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServoDisplay.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServoException.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_vision.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vision.so.3.6.1
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vision.so.3.6
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vision.so
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpBasicKeyPoint.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpCalibration.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpCalibrationException.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpHandEyeCalibration.h
+[2.675s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpHomography.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpKeyPoint.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPlaneEstimation.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPose.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPoseException.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPoseFeatures.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpXmlConfigParserKeyPoint.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_detection.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_detection.so.3.6.1
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_detection.so.3.6
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_detection.so
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorAprilTag.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorBase.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorDNNOpenCV.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorDataMatrixCode.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorFace.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorQRCode.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_mbt.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_mbt.so.3.6.1
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_mbt.so.3.6
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_mbt.so
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbDepthDenseTracker.h
+[2.676s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbDepthNormalTracker.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbEdgeKltTracker.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbEdgeTracker.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbGenericTracker.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbHiddenFaces.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbKltTracker.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbScanLine.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbTracker.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceCircle.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceCylinder.h
+[2.677s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceKltCylinder.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceKltPoints.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceLine.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtFaceDepthDense.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtFaceDepthNormal.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtMeEllipse.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtMeLine.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtPolygon.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtTukeyEstimator.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtXmlGenericParser.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_tt.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt.so.3.6.1
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt.so.3.6
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt.so
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTracker.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerBSpline.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerHeader.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSD.h
+[2.678s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDESM.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDForwardAdditional.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDForwardCompositional.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDInverseCompositional.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerTriangle.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarp.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpAffine.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpHomography.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpHomographySL3.h
+[2.679s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpRT.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpSRT.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpTranslation.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZNCC.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZNCCForwardAdditional.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZNCCInverseCompositional.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZone.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_tt_mi.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt_mi.so.3.6.1
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt_mi.so.3.6
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt_mi.so
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMI.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIBSpline.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIESM.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIForwardAdditional.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIForwardCompositional.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIInverseCompositional.h
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-compute-chessboard-poses
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-compute-hand-eye-calibration
+[2.680s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-acquire-franka-calib-data
+[2.690s] Invoked command in '/home/adminlab/franka_ros2_ws/build/VISP' returned '0': /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/VISP

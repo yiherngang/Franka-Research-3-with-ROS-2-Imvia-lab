@@ -1,0 +1,4 @@
+source;share/moveit_ros_occupancy_map_monitor/local_setup.bash
+source;share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+source;share/moveit_ros_occupancy_map_monitor/local_setup.sh
+source;share/moveit_ros_occupancy_map_monitor/local_setup.zsh

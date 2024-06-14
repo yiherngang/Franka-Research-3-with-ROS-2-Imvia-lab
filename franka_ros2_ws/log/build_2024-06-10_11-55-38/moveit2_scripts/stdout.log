@@ -1,0 +1,5 @@
+[ 60%] Built target approach_retreat
+[ 60%] Built target test_trajectory
+[ 60%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[ 70%] Built target test_trajectory3
+[ 90%] Built target test_gripper

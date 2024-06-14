@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/camera_publisher/camera_publisher.egg-info
+writing ../../build/camera_publisher/camera_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_publisher/camera_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_publisher/camera_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/camera_publisher/camera_publisher.egg-info/requires.txt
+writing top-level names to ../../build/camera_publisher/camera_publisher.egg-info/top_level.txt
+writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adminlab/franka_ros2_ws/build/camera_publisher/build
+creating /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib
+creating /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+copying youtube_robot/__init__.py -> /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+copying youtube_robot/intel_sub.py -> /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+copying youtube_robot/intel_pub.py -> /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+running install
+running install_lib
+creating /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+copying /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot/__init__.py -> /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+copying /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot/intel_sub.py -> /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+copying /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot/intel_pub.py -> /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+byte-compiling /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot/intel_sub.py to intel_sub.cpython-310.pyc
+byte-compiling /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot/intel_pub.py to intel_pub.cpython-310.pyc
+running install_data
+creating /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index
+creating /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index/resource_index
+creating /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index/resource_index/packages
+copying resource/camera_publisher -> /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/adminlab/franka_ros2_ws/install/camera_publisher/share/camera_publisher
+running install_egg_info
+Copying ../../build/camera_publisher/camera_publisher.egg-info to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing intel_pub script to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/camera_publisher
+Installing intel_sub script to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/camera_publisher
+writing list of installed files to '/home/adminlab/franka_ros2_ws/build/camera_publisher/install.log'

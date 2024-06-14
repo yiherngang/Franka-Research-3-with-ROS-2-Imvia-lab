@@ -1,0 +1,404 @@
+[0.000000] (-) TimerEvent: {}
+[0.000457] (-) JobUnselected: {'identifier': 'OpenCV'}
+[0.000595] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.000616] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000624] (-) JobUnselected: {'identifier': 'cmake_generate_parameter_module_example'}
+[0.000656] (-) JobUnselected: {'identifier': 'cv_franka_bridge'}
+[0.000663] (-) JobUnselected: {'identifier': 'franka_bringup'}
+[0.000671] (-) JobUnselected: {'identifier': 'franka_custom_controller'}
+[0.000679] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.000686] (-) JobUnselected: {'identifier': 'franka_example_controllers'}
+[0.000693] (-) JobUnselected: {'identifier': 'franka_gripper'}
+[0.000699] (-) JobUnselected: {'identifier': 'franka_hardware'}
+[0.000706] (-) JobUnselected: {'identifier': 'franka_moveit_config'}
+[0.000713] (-) JobUnselected: {'identifier': 'franka_msgs'}
+[0.000721] (-) JobUnselected: {'identifier': 'franka_robot_state_broadcaster'}
+[0.000728] (-) JobUnselected: {'identifier': 'franka_semantic_components'}
+[0.000734] (-) JobUnselected: {'identifier': 'franka_teleop'}
+[0.000741] (-) JobUnselected: {'identifier': 'generate_parameter_library'}
+[0.000748] (-) JobUnselected: {'identifier': 'generate_parameter_library_example'}
+[0.000755] (-) JobUnselected: {'identifier': 'generate_parameter_library_py'}
+[0.000763] (-) JobUnselected: {'identifier': 'generate_parameter_module_example'}
+[0.000770] (-) JobUnselected: {'identifier': 'hand_interfaces'}
+[0.000777] (-) JobUnselected: {'identifier': 'handcv'}
+[0.000784] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.000791] (-) JobUnselected: {'identifier': 'integration_launch_testing'}
+[0.000798] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000805] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000812] (-) JobUnselected: {'identifier': 'librealsense2'}
+[0.000819] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000826] (-) JobUnselected: {'identifier': 'moveit2_scripts'}
+[0.000833] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000840] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000847] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000854] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000861] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000868] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000875] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000882] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.000889] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000896] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000902] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000909] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000916] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000923] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000930] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000937] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000944] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000951] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000957] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000965] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000972] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000979] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000986] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000993] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001000] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.001007] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001014] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001021] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001028] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001239] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001262] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001270] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001278] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001285] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001292] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001299] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001305] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001312] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001319] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001326] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001333] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001340] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001346] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001353] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001360] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001367] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001374] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001381] (-) JobUnselected: {'identifier': 'mtc_tutorial'}
+[0.001394] (-) JobUnselected: {'identifier': 'numsr_franka_moveit_config'}
+[0.001401] (-) JobUnselected: {'identifier': 'parameter_traits'}
+[0.001408] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001415] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001422] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001429] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001436] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001443] (-) JobUnselected: {'identifier': 'ros2test'}
+[0.001450] (-) JobUnselected: {'identifier': 'ros_testing'}
+[0.001457] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.001463] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001470] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.001479] (moveit_servo) JobQueued: {'identifier': 'moveit_servo', 'dependencies': OrderedDict([('generate_parameter_library_py', '/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py'), ('launch_param_builder', '/home/adminlab/franka_ros2_ws/install/launch_param_builder'), ('moveit_common', '/home/adminlab/franka_ros2_ws/install/moveit_common'), ('moveit_msgs', '/home/adminlab/franka_ros2_ws/install/moveit_msgs'), ('moveit_resources_panda_description', '/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description'), ('parameter_traits', '/home/adminlab/franka_ros2_ws/install/parameter_traits'), ('ros2test', '/home/adminlab/franka_ros2_ws/install/ros2test'), ('srdfdom', '/home/adminlab/franka_ros2_ws/install/srdfdom'), ('generate_parameter_library', '/home/adminlab/franka_ros2_ws/install/generate_parameter_library'), ('moveit_configs_utils', '/home/adminlab/franka_ros2_ws/install/moveit_configs_utils'), ('moveit_resources_panda_moveit_config', '/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config'), ('ros_testing', '/home/adminlab/franka_ros2_ws/install/ros_testing'), ('joint_trajectory_controller', '/home/adminlab/franka_ros2_ws/install/joint_trajectory_controller'), ('moveit_core', '/home/adminlab/franka_ros2_ws/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/adminlab/franka_ros2_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_ros_planning', '/home/adminlab/franka_ros2_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/adminlab/franka_ros2_ws/install/moveit_kinematics'), ('moveit_ros_warehouse', '/home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/adminlab/franka_ros2_ws/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface')])}
+[0.001517] (moveit_servo) JobStarted: {'identifier': 'moveit_servo'}
+[0.018937] (moveit_servo) JobProgress: {'identifier': 'moveit_servo', 'progress': 'cmake'}
+[0.018984] (moveit_servo) Command: {'cmd': ['/usr/bin/cmake', '/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo', '-DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/moveit_servo'], 'cwd': '/home/adminlab/franka_ros2_ws/build/moveit_servo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adminlab'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/adminlab/franka_ros2_ws/install/srdfdom/lib:/home/adminlab/franka_ros2_ws/install/moveit_msgs/lib:/home/adminlab/franka_ros2_ws/install/rviz_marker_tools/lib:/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs/lib:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_example/lib:/home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs/lib:/home/adminlab/franka_ros2_ws/install/librealsense2/lib:/home/adminlab/franka_ros2_ws/install/integration_launch_testing/lib:/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib:/home/adminlab/franka_ros2_ws/install/franka_example_controllers/lib:/home/adminlab/franka_ros2_ws/install/franka_semantic_components/lib:/home/adminlab/franka_ros2_ws/install/franka_hardware/lib:/home/adminlab/franka_ros2_ws/install/franka_gripper/lib:/home/adminlab/franka_ros2_ws/install/franka_msgs/lib:/home/adminlab/franka_ros2_ws/install/OpenCV/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adminlab'), ('OLDPWD', '/home/adminlab/franka_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '73790'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adminlab/franka_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adminlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/adminlab/franka_ros2_ws/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adminlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:/home/adminlab/franka_ros2_ws/install/librealsense2/bin:/home/adminlab/franka_ros2_ws/install/OpenCV/bin:/opt/ros/humble/bin:/home/adminlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/CO-P-MASTERS-13:@/tmp/.ICE-unix/2268,unix/CO-P-MASTERS-13:/tmp/.ICE-unix/2268'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f89c171c_0313_487b_8e89_fe8eeba80d9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P9NVO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.340'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/rviz_marker_tools:/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/realsense2_description:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs:/home/adminlab/franka_ros2_ws/install/joint_trajectory_controller:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_example:/home/adminlab/franka_ros2_ws/install/franka_bringup:/home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs:/home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support:/home/adminlab/franka_ros2_ws/install/moveit_resources:/home/adminlab/franka_ros2_ws/install/moveit_resources_pr2_description:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/integration_launch_testing:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/hand_interfaces:/home/adminlab/franka_ros2_ws/install/franka_example_controllers:/home/adminlab/franka_ros2_ws/install/franka_semantic_components:/home/adminlab/franka_ros2_ws/install/franka_moveit_config:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/franka_hardware:/home/adminlab/franka_ros2_ws/install/franka_gripper:/home/adminlab/franka_ros2_ws/install/franka_msgs:/home/adminlab/franka_ros2_ws/install/franka_description:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adminlab/franka_ros2_ws/build/moveit_servo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adminlab/franka_ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/adminlab/franka_ros2_ws/install/joint_trajectory_controller:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/rviz_marker_tools:/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts:/home/adminlab/franka_ros2_ws/install/realsense2_description:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_example:/home/adminlab/franka_ros2_ws/install/franka_bringup:/home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs:/home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support:/home/adminlab/franka_ros2_ws/install/moveit_resources:/home/adminlab/franka_ros2_ws/install/moveit_resources_pr2_description:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/home/adminlab/franka_ros2_ws/install/librealsense2:/home/adminlab/franka_ros2_ws/install/integration_launch_testing:/home/adminlab/franka_ros2_ws/install/hand_interfaces:/home/adminlab/franka_ros2_ws/install/franka_example_controllers:/home/adminlab/franka_ros2_ws/install/franka_semantic_components:/home/adminlab/franka_ros2_ws/install/franka_moveit_config:/home/adminlab/franka_ros2_ws/install/franka_hardware:/home/adminlab/franka_ros2_ws/install/franka_gripper:/home/adminlab/franka_ros2_ws/install/franka_msgs:/home/adminlab/franka_ros2_ws/install/franka_description:/home/adminlab/franka_ros2_ws/install/OpenCV:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[0.063552] (moveit_servo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.096802] (moveit_servo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.100050] (-) TimerEvent: {}
+[0.100914] (moveit_servo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.146199] (moveit_servo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.150105] (moveit_servo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.150178] (moveit_servo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.150390] (moveit_servo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.152174] (moveit_servo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200134] (moveit_servo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.200253] (-) TimerEvent: {}
+[0.204331] (moveit_servo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.204408] (moveit_servo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.204710] (moveit_servo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.205916] (moveit_servo) StdoutLine: {'line': b'-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)\n'}
+[0.208337] (moveit_servo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300480] (-) TimerEvent: {}
+[0.310896] (moveit_servo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400707] (-) TimerEvent: {}
+[0.432849] (moveit_servo) StdoutLine: {'line': b'-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  \n'}
+[0.440203] (moveit_servo) StdoutLine: {'line': b'-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) \n'}
+[0.440364] (moveit_servo) StdoutLine: {'line': b'-- BACKWARD_HAS_UNWIND=1\n'}
+[0.440433] (moveit_servo) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE=0\n'}
+[0.440496] (moveit_servo) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE_SYMBOL=0\n'}
+[0.440556] (moveit_servo) StdoutLine: {'line': b'-- BACKWARD_HAS_DW=1\n'}
+[0.440625] (moveit_servo) StdoutLine: {'line': b'-- BACKWARD_HAS_BFD=0\n'}
+[0.441038] (moveit_servo) StdoutLine: {'line': b'-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  \n'}
+[0.441327] (moveit_servo) StderrLine: {'line': b"\x1b[0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance\x1b[0m\n"}
+[0.444859] (moveit_servo) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.452931] (moveit_servo) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.455379] (moveit_servo) StdoutLine: {'line': b'-- Found control_msgs: 4.5.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.492958] (moveit_servo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.499383] (moveit_servo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500779] (-) TimerEvent: {}
+[0.508318] (moveit_servo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.521829] (moveit_servo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541121] (moveit_servo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601019] (-) TimerEvent: {}
+[0.701320] (-) TimerEvent: {}
+[0.801684] (-) TimerEvent: {}
+[0.867829] (moveit_servo) StdoutLine: {'line': b'-- Found control_toolbox: 3.2.0 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[0.901913] (-) TimerEvent: {}
+[0.927675] (moveit_servo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.932460] (moveit_servo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002145] (-) TimerEvent: {}
+[1.008398] (moveit_servo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.025162] (moveit_servo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.058064] (moveit_servo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.069648] (moveit_servo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.102370] (-) TimerEvent: {}
+[1.127863] (moveit_servo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.128016] (moveit_servo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.188327] (moveit_servo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.188955] (moveit_servo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.202586] (-) TimerEvent: {}
+[1.302952] (-) TimerEvent: {}
+[1.311143] (moveit_servo) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)\n'}
+[1.329157] (moveit_servo) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.387495] (moveit_servo) StdoutLine: {'line': b'-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[1.403188] (-) TimerEvent: {}
+[1.428668] (moveit_servo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.443646] (moveit_servo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.503411] (-) TimerEvent: {}
+[1.509780] (moveit_servo) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.603643] (-) TimerEvent: {}
+[1.649394] (moveit_servo) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.703857] (-) TimerEvent: {}
+[1.804270] (-) TimerEvent: {}
+[1.904697] (-) TimerEvent: {}
+[2.005124] (-) TimerEvent: {}
+[2.105548] (-) TimerEvent: {}
+[2.205948] (-) TimerEvent: {}
+[2.216237] (moveit_servo) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)\n'}
+[2.219468] (moveit_servo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.306189] (-) TimerEvent: {}
+[2.406591] (-) TimerEvent: {}
+[2.479893] (moveit_servo) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.506802] (-) TimerEvent: {}
+[2.577714] (moveit_servo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.580586] (moveit_servo) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.581233] (moveit_servo) StdoutLine: {'line': b'-- Found ros_testing: 0.7.0 (/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake)\n'}
+[2.583803] (moveit_servo) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[2.586616] (moveit_servo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.601774] (moveit_servo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.605979] (moveit_servo) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.606051] (moveit_servo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.606080] (moveit_servo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.606107] (moveit_servo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.606957] (-) TimerEvent: {}
+[2.620219] (moveit_servo) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.623192] (moveit_servo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.707170] (-) TimerEvent: {}
+[2.807535] (-) TimerEvent: {}
+[2.907842] (-) TimerEvent: {}
+[2.972594] (moveit_servo) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.008007] (-) TimerEvent: {}
+[3.016644] (moveit_servo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.017659] (moveit_servo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/include\n'}
+[3.017722] (moveit_servo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.018480] (moveit_servo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.019090] (moveit_servo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.019674] (moveit_servo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.020808] (moveit_servo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.105669] (moveit_servo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.107461] (moveit_servo) StdoutLine: {'line': b'-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_servo\n'}
+[3.108065] (-) TimerEvent: {}
+[3.117675] (moveit_servo) CommandEnded: {'returncode': 0}
+[3.117932] (moveit_servo) JobProgress: {'identifier': 'moveit_servo', 'progress': 'build'}
+[3.117948] (moveit_servo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adminlab/franka_ros2_ws/build/moveit_servo', '--', '-j16', '-l16'], 'cwd': '/home/adminlab/franka_ros2_ws/build/moveit_servo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adminlab'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/lib:/home/adminlab/franka_ros2_ws/install/srdfdom/lib:/home/adminlab/franka_ros2_ws/install/moveit_msgs/lib:/home/adminlab/franka_ros2_ws/install/rviz_marker_tools/lib:/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs/lib:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_example/lib:/home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster/lib:/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs/lib:/home/adminlab/franka_ros2_ws/install/librealsense2/lib:/home/adminlab/franka_ros2_ws/install/integration_launch_testing/lib:/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib:/home/adminlab/franka_ros2_ws/install/franka_example_controllers/lib:/home/adminlab/franka_ros2_ws/install/franka_semantic_components/lib:/home/adminlab/franka_ros2_ws/install/franka_hardware/lib:/home/adminlab/franka_ros2_ws/install/franka_gripper/lib:/home/adminlab/franka_ros2_ws/install/franka_msgs/lib:/home/adminlab/franka_ros2_ws/install/OpenCV/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/adminlab'), ('OLDPWD', '/home/adminlab/franka_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '73790'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/adminlab/franka_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'adminlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/adminlab/franka_ros2_ws/install/librealsense2/lib/x86_64-linux-gnu/pkgconfig:/home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'adminlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:/home/adminlab/franka_ros2_ws/install/librealsense2/bin:/home/adminlab/franka_ros2_ws/install/OpenCV/bin:/opt/ros/humble/bin:/home/adminlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/CO-P-MASTERS-13:@/tmp/.ICE-unix/2268,unix/CO-P-MASTERS-13:/tmp/.ICE-unix/2268'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f89c171c_0313_487b_8e89_fe8eeba80d9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P9NVO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.340'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/rviz_marker_tools:/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/realsense2_description:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs:/home/adminlab/franka_ros2_ws/install/joint_trajectory_controller:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_example:/home/adminlab/franka_ros2_ws/install/franka_bringup:/home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs:/home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support:/home/adminlab/franka_ros2_ws/install/moveit_resources:/home/adminlab/franka_ros2_ws/install/moveit_resources_pr2_description:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/integration_launch_testing:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/hand_interfaces:/home/adminlab/franka_ros2_ws/install/franka_example_controllers:/home/adminlab/franka_ros2_ws/install/franka_semantic_components:/home/adminlab/franka_ros2_ws/install/franka_moveit_config:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/franka_hardware:/home/adminlab/franka_ros2_ws/install/franka_gripper:/home/adminlab/franka_ros2_ws/install/franka_msgs:/home/adminlab/franka_ros2_ws/install/franka_description:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adminlab/franka_ros2_ws/build/moveit_servo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adminlab/franka_ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages:/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:/home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/adminlab/franka_ros2_ws/install/joint_trajectory_controller:/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config:/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/srdfdom:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/home/adminlab/franka_ros2_ws/install/moveit_msgs:/home/adminlab/franka_ros2_ws/install/moveit_common:/home/adminlab/franka_ros2_ws/install/rviz_marker_tools:/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts:/home/adminlab/franka_ros2_ws/install/realsense2_description:/home/adminlab/franka_ros2_ws/install/realsense2_camera_msgs:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_example:/home/adminlab/franka_ros2_ws/install/franka_bringup:/home/adminlab/franka_ros2_ws/install/franka_robot_state_broadcaster:/home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_msgs:/home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support:/home/adminlab/franka_ros2_ws/install/moveit_resources:/home/adminlab/franka_ros2_ws/install/moveit_resources_pr2_description:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/home/adminlab/franka_ros2_ws/install/librealsense2:/home/adminlab/franka_ros2_ws/install/integration_launch_testing:/home/adminlab/franka_ros2_ws/install/hand_interfaces:/home/adminlab/franka_ros2_ws/install/franka_example_controllers:/home/adminlab/franka_ros2_ws/install/franka_semantic_components:/home/adminlab/franka_ros2_ws/install/franka_moveit_config:/home/adminlab/franka_ros2_ws/install/franka_hardware:/home/adminlab/franka_ros2_ws/install/franka_gripper:/home/adminlab/franka_ros2_ws/install/franka_msgs:/home/adminlab/franka_ros2_ws/install/franka_description:/home/adminlab/franka_ros2_ws/install/OpenCV:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[3.153769] (moveit_servo) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/fake_command_publisher.dir/test/publish_fake_jog_commands.cpp.o\x1b[0m\n'}
+[3.153944] (moveit_servo) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.154097] (moveit_servo) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/servo_parameters.cpp.o\x1b[0m\n'}
+[3.154287] (moveit_servo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/teleop_demo/joystick_servo_example.cpp.o\x1b[0m\n'}
+[3.156698] (moveit_servo) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/parameter_descriptor_builder.cpp.o\x1b[0m\n'}
+[3.159943] (moveit_servo) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.208178] (-) TimerEvent: {}
+[3.308435] (-) TimerEvent: {}
+[3.408679] (-) TimerEvent: {}
+[3.508954] (-) TimerEvent: {}
+[3.609251] (-) TimerEvent: {}
+[3.671809] (moveit_servo) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.709355] (-) TimerEvent: {}
+[3.730912] (moveit_servo) StdoutLine: {'line': b'[ 21%] Built target gtest_main\n'}
+[3.809464] (-) TimerEvent: {}
+[3.909747] (-) TimerEvent: {}
+[4.010001] (-) TimerEvent: {}
+[4.110301] (-) TimerEvent: {}
+[4.210573] (-) TimerEvent: {}
+[4.310869] (-) TimerEvent: {}
+[4.411144] (-) TimerEvent: {}
+[4.511440] (-) TimerEvent: {}
+[4.611748] (-) TimerEvent: {}
+[4.712049] (-) TimerEvent: {}
+[4.812355] (-) TimerEvent: {}
+[4.912749] (-) TimerEvent: {}
+[5.013127] (-) TimerEvent: {}
+[5.113513] (-) TimerEvent: {}
+[5.213884] (-) TimerEvent: {}
+[5.314265] (-) TimerEvent: {}
+[5.414645] (-) TimerEvent: {}
+[5.515018] (-) TimerEvent: {}
+[5.615297] (-) TimerEvent: {}
+[5.715668] (-) TimerEvent: {}
+[5.816042] (-) TimerEvent: {}
+[5.916414] (-) TimerEvent: {}
+[6.016784] (-) TimerEvent: {}
+[6.117046] (-) TimerEvent: {}
+[6.132752] (moveit_servo) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX executable fake_command_publisher\x1b[0m\n'}
+[6.217247] (-) TimerEvent: {}
+[6.217479] (moveit_servo) StdoutLine: {'line': b'[ 24%] Built target fake_command_publisher\n'}
+[6.317479] (-) TimerEvent: {}
+[6.417851] (-) TimerEvent: {}
+[6.518225] (-) TimerEvent: {}
+[6.618601] (-) TimerEvent: {}
+[6.718981] (-) TimerEvent: {}
+[6.819329] (-) TimerEvent: {}
+[6.919710] (-) TimerEvent: {}
+[7.020084] (-) TimerEvent: {}
+[7.120470] (-) TimerEvent: {}
+[7.220864] (-) TimerEvent: {}
+[7.321123] (-) TimerEvent: {}
+[7.421510] (-) TimerEvent: {}
+[7.521897] (-) TimerEvent: {}
+[7.622268] (-) TimerEvent: {}
+[7.722637] (-) TimerEvent: {}
+[7.823010] (-) TimerEvent: {}
+[7.923320] (-) TimerEvent: {}
+[7.971849] (moveit_servo) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.018506] (moveit_servo) StdoutLine: {'line': b'[ 27%] Built target gtest\n'}
+[8.023403] (-) TimerEvent: {}
+[8.123645] (-) TimerEvent: {}
+[8.223906] (-) TimerEvent: {}
+[8.324165] (-) TimerEvent: {}
+[8.424432] (-) TimerEvent: {}
+[8.524688] (-) TimerEvent: {}
+[8.624958] (-) TimerEvent: {}
+[8.725224] (-) TimerEvent: {}
+[8.825472] (-) TimerEvent: {}
+[8.925733] (-) TimerEvent: {}
+[9.026001] (-) TimerEvent: {}
+[9.126388] (-) TimerEvent: {}
+[9.226704] (-) TimerEvent: {}
+[9.232410] (moveit_servo) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_servo_lib_parameters.so\x1b[0m\n'}
+[9.326932] (-) TimerEvent: {}
+[9.356583] (moveit_servo) StdoutLine: {'line': b'[ 30%] Built target moveit_servo_lib_parameters\n'}
+[9.372239] (moveit_servo) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o\x1b[0m\n'}
+[9.372482] (moveit_servo) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o\x1b[0m\n'}
+[9.372572] (moveit_servo) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o\x1b[0m\n'}
+[9.374197] (moveit_servo) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/collision_check.cpp.o\x1b[0m\n'}
+[9.374326] (moveit_servo) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/enforce_limits.cpp.o\x1b[0m\n'}
+[9.374403] (moveit_servo) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o\x1b[0m\n'}
+[9.374556] (moveit_servo) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/utilities.cpp.o\x1b[0m\n'}
+[9.427058] (-) TimerEvent: {}
+[9.527343] (-) TimerEvent: {}
+[9.555856] (moveit_servo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/test_servo_collision.cpp:41\x1b[m\x1b[K:\n'}
+[9.556030] (moveit_servo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/servo_launch_test_common.hpp:54:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory\n'}
+[9.556104] (moveit_servo) StderrLine: {'line': b'   54 | #include \x1b[01;31m\x1b[K<moveit_msgs/srv/change_drift_dimensions.hpp>\x1b[m\x1b[K\n'}
+[9.556170] (moveit_servo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.556240] (moveit_servo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/test_servo_interface.cpp:39\x1b[m\x1b[K:\n'}
+[9.556304] (moveit_servo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/servo_launch_test_common.hpp:54:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory\n'}
+[9.556367] (moveit_servo) StderrLine: {'line': b'   54 | #include \x1b[01;31m\x1b[K<moveit_msgs/srv/change_drift_dimensions.hpp>\x1b[m\x1b[K\n'}
+[9.556434] (moveit_servo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.556496] (moveit_servo) StderrLine: {'line': b'compilation terminated.\n'}
+[9.556557] (moveit_servo) StderrLine: {'line': b'compilation terminated.\n'}
+[9.558491] (moveit_servo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_servo_integration.dir/build.make:76: CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o] Error 1\n'}
+[9.558700] (moveit_servo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/test_servo_integration.dir/all] Error 2\n'}
+[9.558815] (moveit_servo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.558890] (moveit_servo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_servo_collision.dir/build.make:76: CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o] Error 1\n'}
+[9.558987] (moveit_servo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/test_servo_collision.dir/all] Error 2\n'}
+[9.627566] (-) TimerEvent: {}
+[9.727953] (-) TimerEvent: {}
+[9.828341] (-) TimerEvent: {}
+[9.928687] (-) TimerEvent: {}
+[10.029008] (-) TimerEvent: {}
+[10.129308] (-) TimerEvent: {}
+[10.129955] (moveit_servo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/src/servo_calcs.cpp:50\x1b[m\x1b[K:\n'}
+[10.130111] (moveit_servo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/servo_calcs.h:52:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory\n'}
+[10.130179] (moveit_servo) StderrLine: {'line': b'   52 | #include \x1b[01;31m\x1b[K<moveit_msgs/srv/change_drift_dimensions.hpp>\x1b[m\x1b[K\n'}
+[10.130240] (moveit_servo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.130299] (moveit_servo) StderrLine: {'line': b'compilation terminated.\n'}
+[10.137766] (moveit_servo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/moveit_servo_lib.dir/build.make:118: CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o] Error 1\n'}
+[10.137924] (moveit_servo) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[10.202239] (moveit_servo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/servo.h:47\x1b[m\x1b[K,\n'}
+[10.202400] (moveit_servo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/src/servo.cpp:41\x1b[m\x1b[K:\n'}
+[10.202466] (moveit_servo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/servo_calcs.h:52:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory\n'}
+[10.202529] (moveit_servo) StderrLine: {'line': b'   52 | #include \x1b[01;31m\x1b[K<moveit_msgs/srv/change_drift_dimensions.hpp>\x1b[m\x1b[K\n'}
+[10.202588] (moveit_servo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.202645] (moveit_servo) StderrLine: {'line': b'compilation terminated.\n'}
+[10.210530] (moveit_servo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/moveit_servo_lib.dir/build.make:104: CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o] Error 1\n'}
+[10.229441] (-) TimerEvent: {}
+[10.329822] (-) TimerEvent: {}
+[10.430210] (-) TimerEvent: {}
+[10.530585] (-) TimerEvent: {}
+[10.630964] (-) TimerEvent: {}
+[10.731344] (-) TimerEvent: {}
+[10.831728] (-) TimerEvent: {}
+[10.931985] (-) TimerEvent: {}
+[11.032375] (-) TimerEvent: {}
+[11.132767] (-) TimerEvent: {}
+[11.233024] (-) TimerEvent: {}
+[11.333409] (-) TimerEvent: {}
+[11.433808] (-) TimerEvent: {}
+[11.514112] (moveit_servo) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libservo_controller_input.so\x1b[0m\n'}
+[11.534034] (-) TimerEvent: {}
+[11.634438] (-) TimerEvent: {}
+[11.734827] (-) TimerEvent: {}
+[11.793033] (moveit_servo) StdoutLine: {'line': b'[ 54%] Built target servo_controller_input\n'}
+[11.835052] (-) TimerEvent: {}
+[11.935437] (-) TimerEvent: {}
+[12.035818] (-) TimerEvent: {}
+[12.136161] (-) TimerEvent: {}
+[12.236534] (-) TimerEvent: {}
+[12.336842] (-) TimerEvent: {}
+[12.437226] (-) TimerEvent: {}
+[12.537604] (-) TimerEvent: {}
+[12.637979] (-) TimerEvent: {}
+[12.738388] (-) TimerEvent: {}
+[12.838767] (-) TimerEvent: {}
+[12.939153] (-) TimerEvent: {}
+[13.039534] (-) TimerEvent: {}
+[13.139908] (-) TimerEvent: {}
+[13.240289] (-) TimerEvent: {}
+[13.340580] (-) TimerEvent: {}
+[13.440963] (-) TimerEvent: {}
+[13.541348] (-) TimerEvent: {}
+[13.641725] (-) TimerEvent: {}
+[13.742110] (-) TimerEvent: {}
+[13.842506] (-) TimerEvent: {}
+[13.942887] (-) TimerEvent: {}
+[14.043271] (-) TimerEvent: {}
+[14.143648] (-) TimerEvent: {}
+[14.244034] (-) TimerEvent: {}
+[14.344418] (-) TimerEvent: {}
+[14.444803] (-) TimerEvent: {}
+[14.545187] (-) TimerEvent: {}
+[14.645566] (-) TimerEvent: {}
+[14.745945] (-) TimerEvent: {}
+[14.846319] (-) TimerEvent: {}
+[14.946694] (-) TimerEvent: {}
+[15.047085] (-) TimerEvent: {}
+[15.147470] (-) TimerEvent: {}
+[15.247842] (-) TimerEvent: {}
+[15.348155] (-) TimerEvent: {}
+[15.448541] (-) TimerEvent: {}
+[15.548921] (-) TimerEvent: {}
+[15.649295] (-) TimerEvent: {}
+[15.749660] (-) TimerEvent: {}
+[15.850039] (-) TimerEvent: {}
+[15.950418] (-) TimerEvent: {}
+[16.050780] (-) TimerEvent: {}
+[16.151153] (-) TimerEvent: {}
+[16.251516] (-) TimerEvent: {}
+[16.351892] (-) TimerEvent: {}
+[16.452257] (-) TimerEvent: {}
+[16.552614] (-) TimerEvent: {}
+[16.652986] (-) TimerEvent: {}
+[16.753365] (-) TimerEvent: {}
+[16.853726] (-) TimerEvent: {}
+[16.954097] (-) TimerEvent: {}
+[17.054471] (-) TimerEvent: {}
+[17.154862] (-) TimerEvent: {}
+[17.255235] (-) TimerEvent: {}
+[17.355602] (-) TimerEvent: {}
+[17.455990] (-) TimerEvent: {}
+[17.520020] (moveit_servo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/moveit_servo_lib.dir/all] Error 2\n'}
+[17.520256] (moveit_servo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.522457] (moveit_servo) CommandEnded: {'returncode': 2}
+[17.556191] (-) TimerEvent: {}
+[17.577729] (moveit_servo) JobEnded: {'identifier': 'moveit_servo', 'rc': 2}
+[17.588062] (-) EventReactorShutdown: {}

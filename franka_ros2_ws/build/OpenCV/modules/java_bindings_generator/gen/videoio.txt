@@ -1,0 +1,64 @@
+PORTED FUNCs LIST (41 of 46):
+
+  cv::VideoCapture::VideoCapture()
+  cv::VideoCapture::VideoCapture(String filename, int apiPreference = CAP_ANY)
+  cv::VideoCapture::VideoCapture(String filename, int apiPreference, vector_int params)
+  cv::VideoCapture::VideoCapture(int index, int apiPreference = CAP_ANY)
+  cv::VideoCapture::VideoCapture(int index, int apiPreference, vector_int params)
+ bool cv::VideoCapture::open(String filename, int apiPreference = CAP_ANY)
+ bool cv::VideoCapture::open(String filename, int apiPreference, vector_int params)
+ bool cv::VideoCapture::open(int index, int apiPreference = CAP_ANY)
+ bool cv::VideoCapture::open(int index, int apiPreference, vector_int params)
+ bool cv::VideoCapture::isOpened()
+ void cv::VideoCapture::release()
+ bool cv::VideoCapture::grab()
+ bool cv::VideoCapture::retrieve(Mat& image, int flag = 0)
+ bool cv::VideoCapture::read(Mat& image)
+ bool cv::VideoCapture::set(int propId, double value)
+ double cv::VideoCapture::get(int propId)
+ String cv::VideoCapture::getBackendName()
+ void cv::VideoCapture::setExceptionMode(bool enable)
+ bool cv::VideoCapture::getExceptionMode()
+  cv::VideoWriter::VideoWriter()
+  cv::VideoWriter::VideoWriter(String filename, int fourcc, double fps, Size frameSize, bool isColor = true)
+  cv::VideoWriter::VideoWriter(String filename, int apiPreference, int fourcc, double fps, Size frameSize, bool isColor = true)
+  cv::VideoWriter::VideoWriter(String filename, int fourcc, double fps, Size frameSize, vector_int params)
+  cv::VideoWriter::VideoWriter(String filename, int apiPreference, int fourcc, double fps, Size frameSize, vector_int params)
+ bool cv::VideoWriter::open(String filename, int fourcc, double fps, Size frameSize, bool isColor = true)
+ bool cv::VideoWriter::open(String filename, int apiPreference, int fourcc, double fps, Size frameSize, bool isColor = true)
+ bool cv::VideoWriter::open(String filename, int fourcc, double fps, Size frameSize, vector_int params)
+ bool cv::VideoWriter::open(String filename, int apiPreference, int fourcc, double fps, Size frameSize, vector_int params)
+ bool cv::VideoWriter::isOpened()
+ void cv::VideoWriter::release()
+ void cv::VideoWriter::write(Mat image)
+ bool cv::VideoWriter::set(int propId, double value)
+ double cv::VideoWriter::get(int propId)
+static int cv::VideoWriter::fourcc(char c1, char c2, char c3, char c4)
+ String cv::VideoWriter::getBackendName()
+ String cv::videoio_registry::getBackendName(VideoCaptureAPIs api)
+ bool cv::videoio_registry::hasBackend(VideoCaptureAPIs api)
+ bool cv::videoio_registry::isBackendBuiltIn(VideoCaptureAPIs api)
+ string cv::videoio_registry::getCameraBackendPluginVersion(VideoCaptureAPIs api, int& version_ABI, int& version_API)
+ string cv::videoio_registry::getStreamBackendPluginVersion(VideoCaptureAPIs api, int& version_ABI, int& version_API)
+ string cv::videoio_registry::getWriterBackendPluginVersion(VideoCaptureAPIs api, int& version_ABI, int& version_API)
+
+SKIPPED FUNCs LIST (5 of 46):
+
+static bool cv::VideoCapture::waitAny(vector_VideoCapture streams, vector_int& readyIndex, int64 timeoutNs = 0)
+// Unknown type 'vector_VideoCapture' (I), skipping the function
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getCameraBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getStreamBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getWriterBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+
+0 def args - 36 funcs
+1 def args - 10 funcs

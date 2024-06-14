@@ -1,0 +1,42 @@
+[0.563s] Invoking command in '/home/adminlab/franka_ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/franka_description -- -j16 -l16
+[0.620s] Invoked command in '/home/adminlab/franka_ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/franka_description -- -j16 -l16
+[0.689s] Invoking command in '/home/adminlab/franka_ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/franka_description
+[0.704s] -- Install configuration: ""
+[0.705s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//launch
+[0.707s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[0.708s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.urdf.xacro
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.xacro
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.ros2_control.xacro
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/hand.urdf.xacro
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/hand.xacro
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link6.dae
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link2.dae
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link7.dae
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/finger.dae
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link1.dae
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/hand.dae
+[0.709s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link5.dae
+[0.710s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link3.dae
+[0.710s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link4.dae
+[0.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link0.dae
+[0.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//rviz
+[0.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[0.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[0.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[0.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[0.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[0.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/path.sh
+[0.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/path.dsv
+[0.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.bash
+[0.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.sh
+[0.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.zsh
+[0.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.dsv
+[0.713s] -- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/package.dsv
+[0.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[0.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[0.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[0.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/package.xml
+[0.755s] Invoked command in '/home/adminlab/franka_ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/franka_description

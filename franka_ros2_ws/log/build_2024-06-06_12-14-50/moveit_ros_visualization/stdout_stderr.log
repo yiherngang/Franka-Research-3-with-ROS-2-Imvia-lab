@@ -1,0 +1,131 @@
+[  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_rviz_plugin_render_tools[0m
+[ 18%] Built target moveit_rviz_plugin_render_tools
+[ 22%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin_core[0m
+[ 22%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin_core[0m
+[ 22%] Built target moveit_robot_state_rviz_plugin_core_autogen
+[ 22%] Built target moveit_planning_scene_rviz_plugin_core_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_robot_state_rviz_plugin_core[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene_rviz_plugin_core[0m
+[ 27%] Built target moveit_robot_state_rviz_plugin_core
+[ 34%] Built target moveit_planning_scene_rviz_plugin_core
+[ 36%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin[0m
+[ 39%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin[0m
+[ 39%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin_core[0m
+[ 39%] Built target moveit_robot_state_rviz_plugin_autogen
+[ 39%] Built target moveit_planning_scene_rviz_plugin_autogen
+[ 39%] Built target moveit_trajectory_rviz_plugin_core_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_robot_state_rviz_plugin[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene_rviz_plugin[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_trajectory_rviz_plugin_core[0m
+[ 44%] Built target moveit_robot_state_rviz_plugin
+[ 50%] Built target moveit_planning_scene_rviz_plugin
+[ 55%] Built target moveit_trajectory_rviz_plugin_core
+[ 56%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin_core[0m
+[ 58%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin[0m
+[ 58%] Built target moveit_trajectory_rviz_plugin_autogen
+[ 58%] Built target moveit_motion_planning_rviz_plugin_core_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_trajectory_rviz_plugin[0m
+[ 63%] Built target moveit_trajectory_rviz_plugin
+[35m[1mConsolidate compiler generated dependencies of target moveit_motion_planning_rviz_plugin_core[0m
+[ 93%] Built target moveit_motion_planning_rviz_plugin_core
+[ 94%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin[0m
+[ 94%] Built target moveit_motion_planning_rviz_plugin_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_motion_planning_rviz_plugin[0m
+[100%] Built target moveit_motion_planning_rviz_plugin
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/planning_scene_render.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/planning_link_updater.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/render_shapes.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/trajectory_panel.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/trajectory_visualization.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/ogre_helpers
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/ogre_helpers/mesh_shape.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin/background_processing.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin/planning_scene_display.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit_planning_scene_rviz_plugin_core_export.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_frame.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/interactive_marker_display.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_display.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/trajectory_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/trajectory_rviz_plugin/trajectory_display.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/RobotState.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/MotionPlanning.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/PlanningScene.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/Trajectory.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/motion_planning_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/trajectory_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/planning_scene_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/robot_state_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/package_run_dependencies/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/parent_prefix_path/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/packages/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/export_moveit_ros_visualizationExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/export_moveit_ros_visualizationExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ConfigExtras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.xml

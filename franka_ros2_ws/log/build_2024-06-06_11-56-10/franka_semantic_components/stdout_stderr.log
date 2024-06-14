@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_semantic_components[0m
+[ 13%] Built target gmock
+[ 22%] Built target gmock_main
+[ 54%] Built target franka_semantic_components
+[35m[1mConsolidate compiler generated dependencies of target franka_semantic_component_interface_test[0m
+[35m[1mConsolidate compiler generated dependencies of target test_franka_robot_model[0m
+[35m[1mConsolidate compiler generated dependencies of target test_franka_robot_state[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_cartesian_pose_interface_test[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_cartesian_velocity_interface_test[0m
+[ 68%] Built target test_franka_robot_model
+[ 72%] Built target franka_semantic_component_interface_test
+[ 81%] Built target test_franka_robot_state
+[ 90%] Built target franka_cartesian_pose_interface_test
+[100%] Built target franka_cartesian_velocity_interface_test
+-- Install configuration: ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/lib/libfranka_semantic_components.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_semantic_component_interface.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_pose_interface.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_velocity_interface.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_state.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/robot_description_test.txt
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/package_run_dependencies/franka_semantic_components
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/parent_prefix_path/franka_semantic_components
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/packages/franka_semantic_components
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.xml

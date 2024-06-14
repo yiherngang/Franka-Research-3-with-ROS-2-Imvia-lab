@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_msgs/action/ExecuteTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+
+module moveit_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "The trajectory to execute")
+    struct ExecuteTrajectory_Goal {
+      moveit_msgs::msg::RobotTrajectory trajectory;
+    };
+    struct ExecuteTrajectory_Result {
+      @verbatim (language="comment", text=
+        "Error code - encodes the overall reason for failure")
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+    };
+    struct ExecuteTrajectory_Feedback {
+      @verbatim (language="comment", text=
+        "The internal state that the move group action currently is in")
+      string state;
+    };
+  };
+};

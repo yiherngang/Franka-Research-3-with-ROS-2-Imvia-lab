@@ -1,0 +1,1 @@
+Invoking command in '/home/adminlab/franka_ros2_ws/build/VISP': /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/visp -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/VISP

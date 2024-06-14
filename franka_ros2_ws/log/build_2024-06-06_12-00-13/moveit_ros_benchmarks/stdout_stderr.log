@@ -1,0 +1,120 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0mmoveit_ros_benchmarks: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found moveit_core: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_warehouse: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/benchmarks/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_ros_benchmarks
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libmoveit_ros_benchmarks.so[0m
+[ 42%] Built target moveit_ros_benchmarks
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_combine_predefined_poses_benchmark.dir/src/simple_benchmarks/CombinePredefinedPosesBenchmark.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/moveit_run_benchmark.dir/src/RunBenchmark.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable moveit_run_benchmark[0m
+[ 85%] Built target moveit_run_benchmark
+[100%] [32m[1mLinking CXX executable moveit_combine_predefined_poses_benchmark[0m
+[100%] Built target moveit_combine_predefined_poses_benchmark
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/include/moveit/benchmarks
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/include/moveit/benchmarks/BenchmarkExecutor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/include/moveit/benchmarks/BenchmarkOptions.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_benchmark_statistics.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo2.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_predefined_poses.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo1.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_obstacles.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_fanuc.launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners_obstacles.launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners.launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_predefined_poses.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/package_run_dependencies/moveit_ros_benchmarks
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/parent_prefix_path/moveit_ros_benchmarks
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/packages/moveit_ros_benchmarks
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/export_moveit_ros_benchmarksExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/export_moveit_ros_benchmarksExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ConfigExtras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.xml

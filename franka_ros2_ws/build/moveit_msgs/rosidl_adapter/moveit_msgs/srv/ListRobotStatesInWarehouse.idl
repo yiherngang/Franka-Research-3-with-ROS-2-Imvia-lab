@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/ListRobotStatesInWarehouse.srv
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module srv {
+    struct ListRobotStatesInWarehouse_Request {
+      string regex;
+
+      string robot;
+    };
+    struct ListRobotStatesInWarehouse_Response {
+      sequence<string> states;
+    };
+  };
+};

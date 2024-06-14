@@ -1,0 +1,268 @@
+Cloning into 'json'...
+HEAD is now at 9cca280 JSON for Modern C++ 3.11.3 (#4222)
+Cloning into 'libcurl'...
+HEAD is now at 2f33be817 RELEASE-NOTES: synced
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ANDROID_ABI
+    ANDROID_STL
+    CMAKE_CXX_FLAGS
+    CMAKE_CXX_STANDARD_LIBRARIES
+
+[0m
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kcert_stuff[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:803:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_ctrl[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  803 |           [01;35m[Kif[m[K(!ENGINE_ctrl(data->state.engine, ENGINE_CTRL_GET_CMD_FROM_NAME,
+      |           [01;35m[K^~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:429:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  429 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_ctrl[m[K(ENGINE *e, int cmd, long i, void *p,
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:810:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_ctrl_cmd[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  810 |           [01;35m[Kif[m[K(!ENGINE_ctrl_cmd(data->state.engine, cmd_name,
+      |           [01;35m[K^~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:450:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  450 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_ctrl_cmd[m[K(ENGINE *e, const char *cmd_name,
+      |                           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1005:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_load_private_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1005 |             [01;35m[KENGINE_load_private_key[m[K(data->state.engine, key_file,
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:638:11:[m[K [01;36m[Knote: [m[Kdeclared here
+  638 | EVP_PKEY *[01;36m[KENGINE_load_private_key[m[K(ENGINE *e, const char *key_id,
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1069:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get1_RSA[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1069 |         [01;35m[KRSA[m[K *rsa = EVP_PKEY_get1_RSA(priv_key);
+      |         [01;35m[K^~~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/evp.h:1348:16:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1348 | struct rsa_st *[01;36m[KEVP_PKEY_get1_RSA[m[K(EVP_PKEY *pkey);
+      |                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1070:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRSA_flags[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1070 |         [01;35m[Kif[m[K(RSA_flags(rsa) & RSA_METHOD_FLAG_NO_CHECK)
+      |         [01;35m[K^~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:36[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/rsa.h:301:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  301 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KRSA_flags[m[K(const RSA *r);
+      |                           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1072:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRSA_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1072 |         [01;35m[KRSA_free[m[K(rsa); /* Decrement reference count */
+      |         [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:36[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/rsa.h:298:28:[m[K [01;36m[Knote: [m[Kdeclared here
+  298 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KRSA_free[m[K(RSA *r);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_set_engine[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1278:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_by_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1278 |   [01;35m[Ke[m[K = ENGINE_by_id(engine);
+      |   [01;35m[K^[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:336:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  336 | OSSL_DEPRECATEDIN_3_0 ENGINE *[01;36m[KENGINE_by_id[m[K(const char *id);
+      |                               [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1294:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_finish[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1294 |     [01;35m[KENGINE_finish[m[K(data->state.engine);
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:628:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  628 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_finish[m[K(ENGINE *e);
+      |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1295:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1295 |     [01;35m[KENGINE_free[m[K(data->state.engine);
+      |     [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:493:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  493 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_free[m[K(ENGINE *e);
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1298:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_init[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1298 |   [01;35m[Kif[m[K(!ENGINE_init(e)) {
+      |   [01;35m[K^~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:620:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  620 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_init[m[K(ENGINE *e);
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1301:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1301 |     [01;35m[KENGINE_free[m[K(e);
+      |     [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:493:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  493 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_free[m[K(ENGINE *e);
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_set_engine_default[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1321:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_set_default[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1321 |     [01;35m[Kif[m[K(ENGINE_set_default(data->state.engine, ENGINE_METHOD_ALL) > 0) {
+      |     [01;35m[K^~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:708:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  708 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_set_default[m[K(ENGINE *e, unsigned int flags);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1323:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1323 |             [01;35m[KENGINE_get_id[m[K(data->state.engine));
+      |             [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:552:35:[m[K [01;36m[Knote: [m[Kdeclared here
+  552 | OSSL_DEPRECATEDIN_3_0 const char *[01;36m[KENGINE_get_id[m[K(const ENGINE *e);
+      |                                   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1327:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1327 |             [01;35m[KENGINE_get_id[m[K(data->state.engine));
+      |             [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:552:35:[m[K [01;36m[Knote: [m[Kdeclared here
+  552 | OSSL_DEPRECATEDIN_3_0 const char *[01;36m[KENGINE_get_id[m[K(const ENGINE *e);
+      |                                   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_engines_list[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1346:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_first[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1346 |   [01;35m[Kfor[m[K(e = ENGINE_get_first(); e; e = ENGINE_get_next(e)) {
+      |   [01;35m[K^~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:318:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  318 | OSSL_DEPRECATEDIN_3_0 ENGINE *[01;36m[KENGINE_get_first[m[K(void);
+      |                               [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1346:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_next[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1346 |   [01;35m[Kfor[m[K(e = ENGINE_get_first(); e; e = ENGINE_get_next(e)) {
+      |   [01;35m[K^~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:323:31:[m[K [01;36m[Knote: [m[Kdeclared here
+  323 | OSSL_DEPRECATEDIN_3_0 ENGINE *[01;36m[KENGINE_get_next[m[K(ENGINE *e);
+      |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1347:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1347 |     [01;35m[Kbeg[m[K = curl_slist_append(list, ENGINE_get_id(e));
+      |     [01;35m[K^~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:552:35:[m[K [01;36m[Knote: [m[Kdeclared here
+  552 | OSSL_DEPRECATEDIN_3_0 const char *[01;36m[KENGINE_get_id[m[K(const ENGINE *e);
+      |                                   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_close_all[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1507:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_finish[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1507 |     [01;35m[KENGINE_finish[m[K(data->state.engine);
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:628:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  628 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_finish[m[K(ENGINE *e);
+      |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1508:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 1508 |     [01;35m[KENGINE_free[m[K(data->state.engine);
+      |     [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[01m[K/usr/include/openssl/engine.h:493:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  493 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_free[m[K(ENGINE *e);
+      |                           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kget_cert_chain[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3627:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get0_RSA[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3627 |         [01;35m[Krsa[m[K = EVP_PKEY_get0_RSA(pubkey);
+      |         [01;35m[K^~~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/evp.h:1346:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1346 | const struct rsa_st *[01;36m[KEVP_PKEY_get0_RSA[m[K(const EVP_PKEY *pkey);
+      |                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3627:13:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdiscarded-qualifiers-Wdiscarded-qualifiers]8;;[m[K]
+ 3627 |         rsa [01;35m[K=[m[K EVP_PKEY_get0_RSA(pubkey);
+      |             [01;35m[K^[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3637:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KRSA_get0_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3637 |           [01;35m[KRSA_get0_key[m[K(rsa, &n, &e, NULL);
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:36[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/rsa.h:222:28:[m[K [01;36m[Knote: [m[Kdeclared here
+  222 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KRSA_get0_key[m[K(const RSA *r,
+      |                            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3657:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get0_DSA[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3657 |         [01;35m[Kdsa[m[K = EVP_PKEY_get0_DSA(pubkey);
+      |         [01;35m[K^~~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/evp.h:1355:22:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1355 | const struct dsa_st *[01;36m[KEVP_PKEY_get0_DSA[m[K(const EVP_PKEY *pkey);
+      |                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3657:13:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdiscarded-qualifiers-Wdiscarded-qualifiers]8;;[m[K]
+ 3657 |         dsa [01;35m[K=[m[K EVP_PKEY_get0_DSA(pubkey);
+      |             [01;35m[K^[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3668:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDSA_get0_pqg[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3668 |           [01;35m[KDSA_get0_pqg[m[K(dsa, &p, &q, &g);
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:37[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/dsa.h:201:28:[m[K [01;36m[Knote: [m[Kdeclared here
+  201 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDSA_get0_pqg[m[K(const DSA *d, const BIGNUM **p,
+      |                            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3669:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDSA_get0_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3669 |           [01;35m[KDSA_get0_key[m[K(dsa, &pub_key, NULL);
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:37[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/dsa.h:204:28:[m[K [01;36m[Knote: [m[Kdeclared here
+  204 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDSA_get0_key[m[K(const DSA *d, const BIGNUM **pub_key,
+      |                            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3689:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get0_DH[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3689 |         [01;35m[Kdh[m[K = EVP_PKEY_get0_DH(pubkey);
+      |         [01;35m[K^~[m[K
+In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/evp.h:1363:43:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1363 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *[01;36m[KEVP_PKEY_get0_DH[m[K(const EVP_PKEY *pkey);
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3689:12:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdiscarded-qualifiers-Wdiscarded-qualifiers]8;;[m[K]
+ 3689 |         dh [01;35m[K=[m[K EVP_PKEY_get0_DH(pubkey);
+      |            [01;35m[K^[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3699:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDH_get0_pqg[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3699 |           [01;35m[KDH_get0_pqg[m[K(dh, &p, &q, &g);
+      |           [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/openssl/dsa.h:51[m[K,
+                 from [01m[K/usr/include/openssl/x509.h:37[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/dh.h:257:28:[m[K [01;36m[Knote: [m[Kdeclared here
+  257 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDH_get0_pqg[m[K(const DH *dh, const BIGNUM **p,
+      |                            [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3700:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDH_get0_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 3700 |           [01;35m[KDH_get0_key[m[K(dh, &pub_key, NULL);
+      |           [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/openssl/dsa.h:51[m[K,
+                 from [01m[K/usr/include/openssl/x509.h:37[m[K,
+                 from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[01m[K/usr/include/openssl/dh.h:260:28:[m[K [01;36m[Knote: [m[Kdeclared here
+  260 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDH_get0_key[m[K(const DH *dh, const BIGNUM **pub_key,
+      |                            [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/src/core/options-watcher.h:8[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../core/sensor-interface.h:12[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../sensor.h:5[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../uvc-sensor.h:6[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../hw-monitor.h:6[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/fw-update-unsigned.h:6[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/ds/ds-private.h:7[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/common/../src/ds/d400/d400-private.h:6[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/common/calibration-model.cpp:10[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/librealsense/third-party/rsutils/include/rsutils/signal.h:[m[K In member function ‘[01m[Krsutils::subscription rsutils::signal<Args>::subscribe(rsutils::signal<Args>::callback&&)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/librealsense/third-party/rsutils/include/rsutils/signal.h:84:20:[m[K [01;35m[Kwarning: [m[Klambda capture initializers only available with ‘[01m[K-std=c++14[m[K’ or ‘[01m[K-std=gnu++14[m[K’
+   84 |             [slot, [01;35m[Kweak[m[K = std::weak_ptr< impl >( _impl )]
+      |                    [01;35m[K^~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/realsense-viewer.cpp:[m[K In function ‘[01m[Kvoid add_playback_device(rs2::context&, std::shared_ptr<std::vector<std::unique_ptr<rs2::device_model> > >, std::string&, rs2::viewer_model&, const string&)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/realsense-viewer.cpp:69:33:[m[K [01;35m[Kwarning: [m[Klambda capture initializers only available with ‘[01m[K-std=c++14[m[K’ or ‘[01m[K-std=gnu++14[m[K’
+   69 |                 [&viewer_model, [01;35m[Kweak_device_models[m[K = std::weak_ptr< device_models_list >( device_models ), filename](
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[31mCMake Error at tools/realsense-viewer/cmake_install.cmake:74 (file):
+  file INSTALL cannot set permissions on
+  "/home/adminlab/Documents/librealsense2/presets": Operation not permitted.
+Call Stack (most recent call first):
+  tools/cmake_install.cmake:55 (include)
+  cmake_install.cmake:138 (include)
+
+[0m

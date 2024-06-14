@@ -1,0 +1,58 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found moveit_task_constructor_core: 0.1.3 (/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/adminlab/franka_ros2_ws/src/mtc_tutorial/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/mtc_tutorial
+[35m[1mConsolidate compiler generated dependencies of target mtc_tutorial[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mtc_tutorial[0m
+[100%] Built target mtc_tutorial
+-- Install configuration: "Debug"
+-- Installing: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/lib/mtc_tutorial/mtc_tutorial
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/mtc_tutorial/lib/mtc_tutorial/mtc_tutorial" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/package_run_dependencies/mtc_tutorial
+-- Installing: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/parent_prefix_path/mtc_tutorial
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/packages/mtc_tutorial
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.xml

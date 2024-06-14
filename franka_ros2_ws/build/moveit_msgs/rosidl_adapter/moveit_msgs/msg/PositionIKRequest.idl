@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PositionIKRequest.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A Position IK request message")
+    struct PositionIKRequest {
+      @verbatim (language="comment", text=
+        "The name of the group which will be used to compute IK" "\n"
+        "e.g. \"right_arm\", or \"arms\" - see IK specification for multiple-groups below" "\n"
+        "Information from the SRDF will be used to automatically determine which link" "\n"
+        "to solve IK for, unless ik_link_name is also specified")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        "A RobotState consisting of hint/seed positions for the IK computation and positions" "\n"
+        "for all the other joints in the robot. Additional state information provided here is" "\n"
+        "used to specify starting positions for other joints/links on the robot." "\n"
+        "This state MUST contain state for all joints to be used by the IK solver" "\n"
+        "to compute IK. The list of joints that the IK solver deals with can be" "\n"
+        "found using the SRDF for the corresponding group")
+      moveit_msgs::msg::RobotState robot_state;
+
+      @verbatim (language="comment", text=
+        "A set of constraints that the IK must obey; by default, this set of constraints is empty")
+      moveit_msgs::msg::Constraints constraints;
+
+      @verbatim (language="comment", text=
+        "Find an IK solution that avoids collisions. By default, this is false")
+      boolean avoid_collisions;
+
+      @verbatim (language="comment", text=
+        "(OPTIONAL) The name of the link for which we are computing IK" "\n"
+        "If not specified, the link name will be inferred from a combination" "\n"
+        "of the group name and the SRDF. If any values are specified for ik_link_names," "\n"
+        "this value is ignored")
+      string ik_link_name;
+
+      @verbatim (language="comment", text=
+        "The stamped pose of the link, when the IK solver computes the joint values" "\n"
+        "for all the joints in a group. This value is ignored if pose_stamped_vector" "\n"
+        "has any elements specified.")
+      geometry_msgs::msg::PoseStamped pose_stamped;
+
+      @verbatim (language="comment", text=
+        "Multi-group parameters" "\n"
+        "(OPTIONAL) The names of the links for which we are computing IK" "\n"
+        "If not specified, the link name will be inferred from a combination" "\n"
+        "of the group name and the SRDF")
+      sequence<string> ik_link_names;
+
+      @verbatim (language="comment", text=
+        "(OPTIONAL) The (stamped) poses of the links we are computing IK for (when a group has more than one end effector)" "\n"
+        "e.g. The \"arms\" group might consist of both the \"right_arm\" and the \"left_arm\"" "\n"
+        "The order of the groups referred to is the same as the order setup in the SRDF")
+      sequence<geometry_msgs::msg::PoseStamped> pose_stamped_vector;
+
+      @verbatim (language="comment", text=
+        "Maximum allowed time for IK calculation")
+      builtin_interfaces::msg::Duration timeout;
+    };
+  };
+};

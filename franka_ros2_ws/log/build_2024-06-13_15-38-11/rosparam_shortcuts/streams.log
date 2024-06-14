@@ -1,0 +1,43 @@
+[0.076s] Invoking command in '/home/adminlab/franka_ros2_ws/build/rosparam_shortcuts': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/ros2test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/opt/ros/humble PYTHONPATH=/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/rosparam_shortcuts -- -j16 -l16
+[0.161s] [ 15%] Built target gtest_main
+[0.167s] [ 30%] Built target gtest
+[0.168s] [ 53%] Built target rosparam_shortcuts
+[0.225s] [ 69%] Built target rosparam_shortcuts_node_parameters_example
+[0.228s] [ 84%] Built target rosparam_shortcuts_example
+[0.229s] [100%] Built target test_node_parameters
+[0.252s] Invoked command in '/home/adminlab/franka_ros2_ws/build/rosparam_shortcuts' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/ros2test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/opt/ros/humble PYTHONPATH=/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/rosparam_shortcuts -- -j16 -l16
+[0.407s] Invoking command in '/home/adminlab/franka_ros2_ws/build/rosparam_shortcuts': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/ros2test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/opt/ros/humble PYTHONPATH=/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/rosparam_shortcuts
+[0.415s] -- Install configuration: ""
+[0.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[0.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[0.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[0.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include
+[0.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts
+[0.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[0.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[0.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[0.418s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[0.418s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[0.418s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[0.418s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[0.418s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[0.418s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[0.419s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[0.420s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[0.420s] -- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[0.420s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-noconfig.cmake
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[0.429s] Invoked command in '/home/adminlab/franka_ros2_ws/build/rosparam_shortcuts' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/home/adminlab/franka_ros2_ws/install/ros2test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/ros_testing:/opt/ros/humble PYTHONPATH=/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/rosparam_shortcuts

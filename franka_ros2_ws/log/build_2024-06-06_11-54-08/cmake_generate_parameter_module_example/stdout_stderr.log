@@ -1,0 +1,9 @@
+[100%] Built target admittance_parameters
+[100%] Built target ament_cmake_python_copy_cmake_generate_parameter_module_example
+running egg_info
+writing cmake_generate_parameter_module_example.egg-info/PKG-INFO
+writing dependency_links to cmake_generate_parameter_module_example.egg-info/dependency_links.txt
+writing top-level names to cmake_generate_parameter_module_example.egg-info/top_level.txt
+reading manifest file 'cmake_generate_parameter_module_example.egg-info/SOURCES.txt'
+writing manifest file 'cmake_generate_parameter_module_example.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_cmake_generate_parameter_module_example_egg

@@ -1,0 +1,93 @@
+-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found moveit_msgs: 2.2.1 (/home/adminlab/franka_ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found moveit_core: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_warehouse: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found moveit_ros_move_group: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.7.0 (/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_ros_planning_interface
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene_interface[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_common_planning_interface_objects[0m
+[ 33%] Built target moveit_planning_scene_interface
+[ 66%] Built target moveit_common_planning_interface_objects
+[35m[1mConsolidate compiler generated dependencies of target moveit_move_group_interface[0m
+[100%] Built target moveit_move_group_interface
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit/common_planning_interface_objects
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit/common_planning_interface_objects/common_objects.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface/planning_scene_interface.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/include/moveit_move_group_interface_export.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_common_planning_interface_objects.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_common_planning_interface_objects.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_planning_scene_interface.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_planning_scene_interface.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_move_group_interface.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_move_group_interface.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_planning_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_planning_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/ament_index/resource_index/packages/moveit_ros_planning_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/export_moveit_ros_planning_interfaceExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/export_moveit_ros_planning_interfaceExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/package.xml

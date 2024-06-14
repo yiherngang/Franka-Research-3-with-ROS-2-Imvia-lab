@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_msgs/srv/SetForceTorqueCollisionBehavior.srv
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module srv {
+    typedef double double__7[7];
+    typedef double double__6[6];
+    struct SetForceTorqueCollisionBehavior_Request {
+      double__7 lower_torque_thresholds_nominal;
+
+      double__7 upper_torque_thresholds_nominal;
+
+      double__6 lower_force_thresholds_nominal;
+
+      double__6 upper_force_thresholds_nominal;
+    };
+    struct SetForceTorqueCollisionBehavior_Response {
+      boolean success;
+
+      string error;
+    };
+  };
+};

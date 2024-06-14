@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target mtc_tutorial[0m
+[100%] Built target mtc_tutorial
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/lib/mtc_tutorial/mtc_tutorial
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/package_run_dependencies/mtc_tutorial
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/parent_prefix_path/mtc_tutorial
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/packages/mtc_tutorial
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.xml

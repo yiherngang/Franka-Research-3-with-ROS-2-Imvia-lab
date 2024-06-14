@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/KinematicSolverInfo.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/JointLimits.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A list of joints in the kinematic tree")
+    struct KinematicSolverInfo {
+      sequence<string> joint_names;
+
+      @verbatim (language="comment", text=
+        "A list of joint limits corresponding to the joint names")
+      sequence<moveit_msgs::msg::JointLimits> limits;
+
+      @verbatim (language="comment", text=
+        "A list of links that the kinematics node provides solutions for")
+      sequence<string> link_names;
+    };
+  };
+};

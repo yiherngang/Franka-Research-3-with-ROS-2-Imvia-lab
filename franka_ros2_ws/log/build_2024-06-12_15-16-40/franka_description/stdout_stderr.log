@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/franka_description
+-- Install configuration: ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.urdf.xacro
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.xacro
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/panda_arm.ros2_control.xacro
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/hand.urdf.xacro
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//robots/hand.xacro
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link6.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link2.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link7.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/finger.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link1.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/hand.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link5.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link3.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link4.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//meshes/visual/link0.dae
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_description/share/franka_description/package.xml

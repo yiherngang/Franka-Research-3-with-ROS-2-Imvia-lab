@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/ContactInformation.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module moveit_msgs {
+  module msg {
+    module ContactInformation_Constants {
+      const uint32 ROBOT_LINK = 0;
+      const uint32 WORLD_OBJECT = 1;
+      const uint32 ROBOT_ATTACHED = 2;
+    };
+    @verbatim (language="comment", text=
+      "Standard ROS header contains information " "\n"
+      "about the frame in which this " "\n"
+      "contact is specified")
+    struct ContactInformation {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Position of the contact point")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "Normal corresponding to the contact point")
+      geometry_msgs::msg::Vector3 normal;
+
+      @verbatim (language="comment", text=
+        "Depth of contact point")
+      double depth;
+
+      @verbatim (language="comment", text=
+        "Name of the first body that is in contact" "\n"
+        "This could be a link or a namespace that represents a body")
+      string contact_body_1;
+
+      uint32 body_type_1;
+
+      @verbatim (language="comment", text=
+        "Name of the second body that is in contact" "\n"
+        "This could be a link or a namespace that represents a body")
+      string contact_body_2;
+
+      uint32 body_type_2;
+    };
+  };
+};

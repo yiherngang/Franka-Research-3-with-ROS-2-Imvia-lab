@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from franka_msgs/action/Move.action
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module action {
+    struct Move_Goal {
+      @unit (value="m")
+      double width;
+
+      @unit (value="m/s")
+      double speed;
+    };
+    struct Move_Result {
+      boolean success;
+
+      string error;
+    };
+    struct Move_Feedback {
+      @unit (value="m")
+      double current_width;
+    };
+  };
+};

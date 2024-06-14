@@ -1,0 +1,4 @@
+share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+share/moveit_kinematics/lma_kinematics_plugin_description.xml
+share/moveit_kinematics/srv_kinematics_plugin_description.xml
+share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml

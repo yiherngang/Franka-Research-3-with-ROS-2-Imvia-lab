@@ -1,0 +1,1 @@
+/usr/bin/c++  -pedantic -Wno-missing-field-initializers -Wno-switch -Wno-multichar -Wsequence-point -Wformat -Wformat-security -mssse3 -pthread -O3 -DNDEBUG -rdynamic CMakeFiles/rs-embed.dir/rs-embed.cpp.o CMakeFiles/rs-embed.dir/__/__/third-party/realsense-file/lz4/lz4.c.o -o ../../Release/rs-embed 

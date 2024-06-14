@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PlanningOptions.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/PlanningScene.idl"
+
+module moveit_msgs {
+  module msg {
+    struct PlanningOptions {
+      @verbatim (language="comment", text=
+        "The diff to consider for the planning scene (optional)")
+      moveit_msgs::msg::PlanningScene planning_scene_diff;
+
+      @verbatim (language="comment", text=
+        "If this flag is set to true, the action" "\n"
+        "returns an executable plan in the response but does not attempt execution")
+      boolean plan_only;
+
+      @verbatim (language="comment", text=
+        "If this flag is set to true, the action of planning &" "\n"
+        "executing is allowed to look around  (move sensors) if" "\n"
+        "it seems that not enough information is available about" "\n"
+        "the environment")
+      boolean look_around;
+
+      @verbatim (language="comment", text=
+        "If this value is positive, the action of planning & executing" "\n"
+        "is allowed to look around for a maximum number of attempts;" "\n"
+        "If the value is left as 0, the default value is used, as set" "\n"
+        "with dynamic_reconfigure")
+      int32 look_around_attempts;
+
+      @verbatim (language="comment", text=
+        "If set and if look_around is true, this value is used as" "\n"
+        "the maximum cost allowed for a path to be considered executable." "\n"
+        "If the cost of a path is higher than this value, more sensing or" "\n"
+        "a new plan needed. If left as 0.0 but look_around is true, then" "\n"
+        "the default value set via dynamic_reconfigure is used")
+      double max_safe_execution_cost;
+
+      @verbatim (language="comment", text=
+        "If the plan becomes invalidated during execution, it is possible to have" "\n"
+        "that plan recomputed and execution restarted. This flag enables this" "\n"
+        "functionality")
+      boolean replan;
+
+      @verbatim (language="comment", text=
+        "The maximum number of replanning attempts")
+      int32 replan_attempts;
+
+      @verbatim (language="comment", text=
+        "The amount of time to wait in between replanning attempts (in seconds)")
+      double replan_delay;
+    };
+  };
+};

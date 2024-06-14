@@ -1,0 +1,63 @@
+[0.552s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support
+[0.621s] -- The C compiler identification is GNU 11.4.0
+[0.699s] -- The CXX compiler identification is GNU 11.4.0
+[0.706s] -- Detecting C compiler ABI info
+[0.809s] -- Detecting C compiler ABI info - done
+[0.817s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.817s] -- Detecting C compile features
+[0.818s] -- Detecting C compile features - done
+[0.820s] -- Detecting CXX compiler ABI info
+[0.919s] -- Detecting CXX compiler ABI info - done
+[0.931s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.931s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.931s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.115s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.287s] -- Configuring done
+[1.290s] -- Generating done
+[1.291s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support
+[1.295s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support
+[1.299s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support -- -j16 -l16
+[1.420s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support -- -j16 -l16
+[1.481s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support
+[1.497s] -- Install configuration: ""
+[1.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[1.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[1.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[1.500s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[1.500s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[1.500s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[1.501s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[1.501s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[1.501s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[1.501s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[1.501s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[1.502s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[1.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[1.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[1.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[1.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[1.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[1.504s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[1.544s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_prbt_support

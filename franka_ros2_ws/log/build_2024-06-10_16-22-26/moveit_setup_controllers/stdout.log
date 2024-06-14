@@ -1,0 +1,61 @@
+[  3%] [34m[1mAutomatic MOC for target moveit_setup_controllers[0m
+[  6%] [34m[1mAutomatic MOC for target gtest[0m
+[  9%] [34m[1mAutomatic MOC for target gtest_main[0m
+[  9%] Built target moveit_setup_controllers_autogen
+[  9%] Built target gtest_main_autogen
+[  9%] Built target gtest_autogen
+[ 18%] Built target gtest_main
+[ 27%] Built target gtest
+[ 87%] Built target moveit_setup_controllers
+[ 90%] [34m[1mAutomatic MOC for target test_controllers[0m
+[ 90%] Built target test_controllers_autogen
+[100%] Built target test_controllers
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/templates
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/templates/config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/templates/config/gazebo_controllers.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/templates/config/modified.urdf.xacro
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/templates/config/ros2_control.xacro
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/lib/libmoveit_setup_controllers.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/included_xacro_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/controllers_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/moveit_controllers.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/ros2_controllers_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/urdf_modifications.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/moveit_controllers_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/controllers_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/control_xacro_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/urdf_modifications_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/modified_urdf_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/controller_edit_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/controllers.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/include/moveit_setup_controllers/ros2_controllers.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/launch/control.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/ament_index/resource_index/package_run_dependencies/moveit_setup_controllers
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/ament_index/resource_index/parent_prefix_path/moveit_setup_controllers
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/local_setup.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/ament_index/resource_index/packages/moveit_setup_controllers
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_controllers
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/export_moveit_setup_controllersExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/export_moveit_setup_controllersExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/moveit_setup_controllersConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/cmake/moveit_setup_controllersConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_controllers/share/moveit_setup_controllers/package.xml

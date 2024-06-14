@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/CMakeFiles/nlohmann_json"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/CMakeFiles/nlohmann_json.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/CMakeFiles/nlohmann_json-complete.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/src/nlohmann_json-stamp/nlohmann_json-build.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/src/nlohmann_json-stamp/nlohmann_json-configure.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/src/nlohmann_json-stamp/nlohmann_json-download.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/src/nlohmann_json-stamp/nlohmann_json-install.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/src/nlohmann_json-stamp/nlohmann_json-mkdir.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/src/nlohmann_json-stamp/nlohmann_json-patch.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/src/nlohmann_json-stamp/nlohmann_json-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmann_json"
+		],
+		"name" : "nlohmann_json"
+	}
+}

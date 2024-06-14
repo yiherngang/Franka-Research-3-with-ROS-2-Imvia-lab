@@ -1,0 +1,41 @@
+[0.838s] Invoking command in '/home/adminlab/franka_ros2_ws/src/camera_publisher': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/camera_publisher/prefix_override:/home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/adminlab/franka_ros2_ws/build/camera_publisher/build install --record /home/adminlab/franka_ros2_ws/build/camera_publisher/install.log --single-version-externally-managed install_data
+[1.197s] running egg_info
+[1.198s] creating ../../build/camera_publisher/camera_publisher.egg-info
+[1.198s] writing ../../build/camera_publisher/camera_publisher.egg-info/PKG-INFO
+[1.198s] writing dependency_links to ../../build/camera_publisher/camera_publisher.egg-info/dependency_links.txt
+[1.198s] writing entry points to ../../build/camera_publisher/camera_publisher.egg-info/entry_points.txt
+[1.199s] writing requirements to ../../build/camera_publisher/camera_publisher.egg-info/requires.txt
+[1.199s] writing top-level names to ../../build/camera_publisher/camera_publisher.egg-info/top_level.txt
+[1.199s] writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[1.202s] reading manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[1.203s] writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[1.203s] running build
+[1.203s] running build_py
+[1.203s] creating /home/adminlab/franka_ros2_ws/build/camera_publisher/build
+[1.203s] creating /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib
+[1.203s] creating /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+[1.203s] copying youtube_robot/__init__.py -> /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+[1.203s] copying youtube_robot/intel_sub.py -> /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+[1.203s] copying youtube_robot/intel_pub.py -> /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot
+[1.204s] running install
+[1.204s] running install_lib
+[1.205s] creating /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+[1.205s] copying /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot/__init__.py -> /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+[1.206s] copying /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot/intel_sub.py -> /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+[1.206s] copying /home/adminlab/franka_ros2_ws/build/camera_publisher/build/lib/youtube_robot/intel_pub.py -> /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot
+[1.206s] byte-compiling /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot/__init__.py to __init__.cpython-310.pyc
+[1.206s] byte-compiling /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot/intel_sub.py to intel_sub.cpython-310.pyc
+[1.207s] byte-compiling /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/youtube_robot/intel_pub.py to intel_pub.cpython-310.pyc
+[1.207s] running install_data
+[1.208s] creating /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index
+[1.208s] creating /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index/resource_index
+[1.208s] creating /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index/resource_index/packages
+[1.208s] copying resource/camera_publisher -> /home/adminlab/franka_ros2_ws/install/camera_publisher/share/ament_index/resource_index/packages
+[1.208s] copying package.xml -> /home/adminlab/franka_ros2_ws/install/camera_publisher/share/camera_publisher
+[1.208s] running install_egg_info
+[1.211s] Copying ../../build/camera_publisher/camera_publisher.egg-info to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info
+[1.211s] running install_scripts
+[1.237s] Installing intel_pub script to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/camera_publisher
+[1.238s] Installing intel_sub script to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/camera_publisher
+[1.241s] writing list of installed files to '/home/adminlab/franka_ros2_ws/build/camera_publisher/install.log'
+[1.282s] Invoked command in '/home/adminlab/franka_ros2_ws/src/camera_publisher' returned '0': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/camera_publisher/prefix_override:/home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/adminlab/franka_ros2_ws/build/camera_publisher/build install --record /home/adminlab/franka_ros2_ws/build/camera_publisher/install.log --single-version-externally-managed install_data

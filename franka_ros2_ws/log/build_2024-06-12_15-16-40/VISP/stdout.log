@@ -1,0 +1,2258 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_CXX11_FLAG (check file: cmake/checks/cxx11.cpp)
+-- Performing Test HAVE_CXX11_FLAG - Success
+-- Performing Test HAVE_CXX14_FLAG (check file: cmake/checks/cxx14.cpp)
+-- Performing Test HAVE_CXX14_FLAG - Success
+-- Performing Test HAVE_CXX17_FLAG (check file: cmake/checks/cxx17.cpp)
+-- Performing Test HAVE_CXX17_FLAG - Success
+-- Performing Test HAVE_STD_CXX17_FLAG (check file: cmake/checks/cxx17.cpp)
+-- Performing Test HAVE_STD_CXX17_FLAG - Success
+-- Performing Test HAVE_NULLPTR (check file: cmake/checks/nullptr.cpp)
+-- Performing Test HAVE_NULLPTR - Success
+-- Detected processor: x86_64
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- pybind11 found
+-- The python version that you are using (/usr/bin/python3.10) is the system interpreter.
+    pip packages should not be installed system-wide!
+    Python bindings targets will be deactivated!
+    To reenable them, install conda or virtualenv,
+    delete the CMakeCache file then rerun cmake when inside the virtual environment.
+    
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of int
+-- Check size of int - done
+-- Could NOT find MKL (missing: MKL_LIBRARIES MKL_INCLUDE_DIRS MKL_INTERFACE_LIBRARY MKL_SEQUENTIAL_LAYER_LIBRARY MKL_CORE_LIBRARY) 
+-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+-- Could NOT find Atlas (missing: Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY) 
+-- Looking for inet_ntop
+-- Looking for inet_ntop - found
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Try C99 flag = [-std=gnu99]
+-- Performing Test C99_FLAG_DETECTED
+-- Performing Test C99_FLAG_DETECTED - Success
+-- Performing Test __compiler_doesnt_need_c99_flag
+-- Performing Test __compiler_doesnt_need_c99_flag - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- franka found
+-- Performing Test DC1394_CAMERA_ENUMERATE_FOUND
+-- Performing Test DC1394_CAMERA_ENUMERATE_FOUND - Success
+-- dc1394 found
+-- v4l2 found
+-- Could NOT find FTIITSDK (missing: FTIITSDK_FT_LIBRARY FTIITSDK_COMMUNICATION_LIBRARY FTIITSDK_INCLUDE_DIR) 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- openmp found
+-- eigen3 found
+-- Could NOT find Coin3D (missing: COIN3D_LIBRARIES COIN3D_INCLUDE_DIRS) 
+-- OGRE_PREFIX_WATCH changed.
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- ogre found
+-- OIS_PREFIX_PATH changed.
+-- Checking for module 'OIS'
+--   No package 'OIS' found
+-- libusb_1 found
+-- realsense2 found
+-- threads found
+-- xml2 found
+-- opencv found
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- zlib found
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- x11 found
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- jpeg found
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- png found
+-- zbar found
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- pcl found
+-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+-- nlohmann_json found
+-- Performing Test HAVE_FUNC_ISNAN
+-- Performing Test HAVE_FUNC_ISNAN - Success
+-- Performing Test HAVE_FUNC_STD_ISNAN
+-- Performing Test HAVE_FUNC_STD_ISNAN - Success
+-- Performing Test HAVE_FUNC__ISNAN
+-- Performing Test HAVE_FUNC__ISNAN - Failed
+-- Performing Test HAVE_FUNC_ISINF
+-- Performing Test HAVE_FUNC_ISINF - Success
+-- Performing Test HAVE_FUNC_STD_ISINF
+-- Performing Test HAVE_FUNC_STD_ISINF - Success
+-- Performing Test HAVE_FUNC_ROUND
+-- Performing Test HAVE_FUNC_ROUND - Success
+-- Performing Test HAVE_FUNC_STD_ROUND
+-- Performing Test HAVE_FUNC_STD_ROUND - Success
+-- Performing Test HAVE_FUNC_ERFC
+-- Performing Test HAVE_FUNC_ERFC - Success
+-- Performing Test HAVE_FUNC_STD_ERFC
+-- Performing Test HAVE_FUNC_STD_ERFC - Success
+-- Performing Test HAVE_FUNC_STRTOF
+-- Performing Test HAVE_FUNC_STRTOF - Success
+-- Performing Test HAVE_FUNC_ISFINITE
+-- Performing Test HAVE_FUNC_ISFINITE - Success
+-- Performing Test HAVE_FUNC_STD_ISFINITE
+-- Performing Test HAVE_FUNC_STD_ISFINITE - Success
+-- Performing Test HAVE_FUNC__FINITE
+-- Performing Test HAVE_FUNC__FINITE - Failed
+-- Performing Test HAVE_FUNC_LOG1P
+-- Performing Test HAVE_FUNC_LOG1P - Success
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Performing Test HAVE_CXX_WNO_FLOAT_EQUAL
+-- Performing Test HAVE_CXX_WNO_FLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS
+-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE
+-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER
+-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE
+-- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE - Success
+-- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW
+-- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW - Success
+-- Performing Test HAVE_CXX_WNO_TYPE_LIMITS
+-- Performing Test HAVE_CXX_WNO_TYPE_LIMITS - Success
+-- Performing Test HAVE_CXX_WNO_SHIFT_NEGATIVE_VALUE
+-- Performing Test HAVE_CXX_WNO_SHIFT_NEGATIVE_VALUE - Success
+-- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32 - Success
+-- Performing Test HAVE_CXX_WNO_ATTRIBUTES
+-- Performing Test HAVE_CXX_WNO_ATTRIBUTES - Success
+-- Performing Test HAVE_CXX_O0
+-- Performing Test HAVE_CXX_O0 - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_RESULT
+-- Performing Test HAVE_CXX_WNO_UNUSED_RESULT - Success
+-- Performing Test HAVE_SSE2_FLAG (check file: cmake/checks/cpu_sse2.cpp)
+-- Performing Test HAVE_SSE2_FLAG - Success
+-- Performing Test HAVE_SSE4_2_FLAG (check file: cmake/checks/cpu_sse42.cpp)
+-- Performing Test HAVE_SSE4_2_FLAG - Success
+-- Performing Test HAVE_AVX_FLAG (check file: cmake/checks/cpu_avx.cpp)
+-- Performing Test HAVE_AVX_FLAG - Success
+-- Performing Test HAVE_AVX2_FLAG (check file: cmake/checks/cpu_avx2.cpp)
+-- Performing Test HAVE_AVX2_FLAG - Success
+-- Performing Test HAVE_MBMI_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MBMI_FLAG - Success
+-- Performing Test HAVE_MBMI2_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MBMI2_FLAG - Success
+-- Performing Test HAVE_MLZCNT_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MLZCNT_FLAG - Success
+-- Performing Test HAVE_MFMA_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MFMA_FLAG - Success
+-- Performing Test HAVE_AVX256_SUL_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_AVX256_SUL_FLAG - Success
+-- Performing Test HAVE_AVX256_SUS_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_AVX256_SUS_FLAG - Success
+-- Performing Test HAVE_ABIV4_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_ABIV4_FLAG - Success
+-- Performing Test HAVE_NO_UNUSED_VARIABLE_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_UNUSED_VARIABLE_FLAG - Success
+-- Performing Test HAVE_NO_UNUSED_PARAMETER_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_UNUSED_PARAMETER_FLAG - Success
+-- Performing Test HAVE_NO_UNUSED_FUNCTION_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_UNUSED_FUNCTION_FLAG - Success
+-- Performing Test HAVE_NO_SIGN_COMPARE_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_SIGN_COMPARE_FLAG - Success
+-- Performing Test HAVE_NO_IGNORED_QUALIFIERS_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_IGNORED_QUALIFIERS_FLAG - Success
+-- Performing Test HAVE_NO_REORDER_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_REORDER_FLAG - Success
+-- Performing Test HAVE_NO_STRICT_ALIASING_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_STRICT_ALIASING_FLAG - Success
+-- Performing Test HAVE_NO_MISSING_FIELD_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_MISSING_FIELD_FLAG - Success
+-- Found JNI: /usr/lib/jvm/default-java/lib/libjawt.so  
+-- Performing Test HAVE_CXX_WALL
+-- Performing Test HAVE_CXX_WALL - Success
+-- Performing Test HAVE_C_WALL
+-- Performing Test HAVE_C_WALL - Success
+-- Performing Test HAVE_CXX_WEXTRA
+-- Performing Test HAVE_CXX_WEXTRA - Success
+-- Performing Test HAVE_C_WEXTRA
+-- Performing Test HAVE_C_WEXTRA - Success
+-- Performing Test HAVE_CXX_WSTRICT_OVERFLOW_5
+-- Performing Test HAVE_CXX_WSTRICT_OVERFLOW_5 - Success
+-- Performing Test HAVE_C_WSTRICT_OVERFLOW_5
+-- Performing Test HAVE_C_WSTRICT_OVERFLOW_5 - Success
+-- Performing Test HAVE_CXX_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_C_WFLOAT_EQUAL
+-- Performing Test HAVE_C_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_WSIGN_CONVERSION
+-- Performing Test HAVE_CXX_WSIGN_CONVERSION - Success
+-- Performing Test HAVE_C_WSIGN_CONVERSION
+-- Performing Test HAVE_C_WSIGN_CONVERSION - Success
+-- Performing Test HAVE_CXX_WSHADOW
+-- Performing Test HAVE_CXX_WSHADOW - Success
+-- Performing Test HAVE_C_WSHADOW
+-- Performing Test HAVE_C_WSHADOW - Success
+-- Performing Test HAVE_CXX_FFAST_MATH
+-- Performing Test HAVE_CXX_FFAST_MATH - Success
+-- Performing Test HAVE_C_FFAST_MATH
+-- Performing Test HAVE_C_FFAST_MATH - Success
+-- Performing Test HAVE_CXX_FOPENMP
+-- Performing Test HAVE_CXX_FOPENMP - Success
+-- Performing Test HAVE_C_FOPENMP
+-- Performing Test HAVE_C_FOPENMP - Success
+-- Performing Test HAVE_CXX_STD_C++17
+-- Performing Test HAVE_CXX_STD_C++17 - Success
+-- Performing Test HAVE_C_STD_C++17
+-- Performing Test HAVE_C_STD_C++17 - Success
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_CXX_MSSE2
+-- Performing Test HAVE_CXX_MSSE2 - Success
+-- Performing Test HAVE_C_MSSE2
+-- Performing Test HAVE_C_MSSE2 - Success
+-- Performing Test HAVE_CXX_MSSE3
+-- Performing Test HAVE_CXX_MSSE3 - Success
+-- Performing Test HAVE_C_MSSE3
+-- Performing Test HAVE_C_MSSE3 - Success
+-- Performing Test HAVE_CXX_MSSSE3
+-- Performing Test HAVE_CXX_MSSSE3 - Success
+-- Performing Test HAVE_C_MSSSE3
+-- Performing Test HAVE_C_MSSSE3 - Success
+-- Performing Test HAVE_CXX_FPIC
+-- Performing Test HAVE_CXX_FPIC - Success
+-- Performing Test HAVE_C_FPIC
+-- Performing Test HAVE_C_FPIC - Success
+-- Performing Test HAVE_CXX_WNO_MISLEADING_INDENTATION
+-- Performing Test HAVE_CXX_WNO_MISLEADING_INDENTATION - Success
+-- Performing Test HAVE_CXX_WNO_INT_IN_BOOL_CONTEXT
+-- Performing Test HAVE_CXX_WNO_INT_IN_BOOL_CONTEXT - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY - Success
+-- Performing Test HAVE_CXX_WNO_SHADOW
+-- Performing Test HAVE_CXX_WNO_SHADOW - Success
+-- Performing Test HAVE_CXX_WNO_MAYBE_UNINITIALIZED
+-- Performing Test HAVE_CXX_WNO_MAYBE_UNINITIALIZED - Success
+-- Performing Test HAVE_CXX_WNO_STRICT_ALIASING
+-- Performing Test HAVE_CXX_WNO_STRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_WD26812
+-- Performing Test HAVE_CXX_WD26812 - Failed
+-- Performing Test HAVE_CXX_WD4244
+-- Performing Test HAVE_CXX_WD4244 - Failed
+-- Performing Test HAVE_CXX_WNO_PESSIMIZING_MOVE
+-- Performing Test HAVE_CXX_WNO_PESSIMIZING_MOVE - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_WNO_MISSING_FIELD_INITIALIZERS
+-- Performing Test HAVE_CXX_WNO_MISSING_FIELD_INITIALIZERS - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test HAVE_CXX_WNO_REORDER
+-- Performing Test HAVE_CXX_WNO_REORDER - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION
+-- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION - Success
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+-- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE
+-- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE - Success
+-- Performing Test HAVE_CXX_WNO_SIGN_CONVERSION
+-- Performing Test HAVE_CXX_WNO_SIGN_CONVERSION - Success
+-- Performing Test HAVE_CXX_WNO_COMMENT
+-- Performing Test HAVE_CXX_WNO_COMMENT - Success
+-- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS
+-- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS - Success
+-- Performing Test HAVE_CXX_WNO_UNQUALIFIED_STD_CAST_CALL
+-- Performing Test HAVE_CXX_WNO_UNQUALIFIED_STD_CAST_CALL - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_PARAMETER
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_PARAMETER - Success
+-- Performing Test HAVE_CXX_WNO_REGISTER
+-- Performing Test HAVE_CXX_WNO_REGISTER - Success
+-- opencv nonfree or xfeature2d module not found
+-- Performing Test HAVE_CXX_WD4267
+-- Performing Test HAVE_CXX_WD4267 - Failed
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY_WITH_USER_PROVIDED_COPY
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY_WITH_USER_PROVIDED_COPY - Success
+-- Performing Test HAVE_SSE2 (check file: cmake/checks/cpu_sse2.cpp)
+-- Performing Test HAVE_SSE2 - Success
+-- Performing Test HAVE_SSE3 (check file: cmake/checks/cpu_sse3.cpp)
+-- Performing Test HAVE_SSE3 - Success
+-- Performing Test HAVE_SSSE3 (check file: cmake/checks/cpu_ssse3.cpp)
+-- Performing Test HAVE_SSSE3 - Success
+-- Performing Test HAVE_SSE4_1 (check file: cmake/checks/cpu_sse41.cpp)
+-- Performing Test HAVE_SSE4_1 - Failed
+-- Performing Test HAVE_SSE4_2 (check file: cmake/checks/cpu_sse42.cpp)
+-- Performing Test HAVE_SSE4_2 - Failed
+-- Performing Test HAVE_AVX (check file: cmake/checks/cpu_avx.cpp)
+-- Performing Test HAVE_AVX - Failed
+-- Performing Test HAVE_AVX2 (check file: cmake/checks/cpu_avx2.cpp)
+-- Performing Test HAVE_AVX2 - Failed
+-- Performing Test HAVE_NEON (check file: cmake/checks/cpu_neon.cpp)
+-- Performing Test HAVE_NEON - Failed
+-- 
+-- ==========================================================
+-- General configuration information for ViSP 3.6.1
+-- 
+--   Version control:               v3.6.0-1056-g92b1ddcd6-dirty
+-- 
+--   Platform:
+--     Timestamp:                   2024-06-12T13:17:20Z
+--     Host:                        Linux 5.9.1-rt20 x86_64
+--     CMake:                       3.22.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/gmake
+--     Configuration:               Release
+-- 
+--   System information:
+--     Number of CPU logical cores: 16
+--     Number of CPU physical cores: 12
+--     Total physical memory (in MiB): 15687
+--     OS name:                     Linux
+--     OS release:                  5.9.1-rt20
+--     OS version:                  #1 SMP PREEMPT_RT Wed Jan 31 08:43:48 CET 2024
+--     OS platform:                 x86_64
+--     CPU name:                    Unknown P6 family
+--     Is the CPU 64-bit?           yes
+--     Does the CPU have FPU?       yes
+--     CPU optimization:            SSE2 SSE3 SSSE3
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      yes
+--     C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
+--     C++ flags (Release):         -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+--     C++ flags (Debug):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+--     C flags (Debug):             -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+--     Linker flags (Release):
+--     Linker flags (Debug):
+--     Use cxx standard:            17
+-- 
+--   ViSP modules:
+--     To be built:                 core dnn_tracker gui imgproc io java_bindings_generator klt me sensor ar blob robot visual_features vs vision detection mbt tt tt_mi
+--     Disabled:                    -
+--     Disabled by dependency:      -
+--     Unavailable:                 java
+--     Enable visp namespace:       no
+-- 
+--   Python 3:
+--     Interpreter:                 /usr/bin/python3.10 (ver 3.10.12)
+-- 
+--   Java:                          
+--     ant:                         no
+--     JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+-- 
+--   Python3 bindings:              no
+--     Requirements: 
+--       Python version > 3.7.0:    ok (ver 3.10.12)
+--       Python in Virtual environment or conda:
+--                                  failed
+--       Pybind11 found:            ok
+--       CMake > 3.19.0:            ok (3.22.1)
+--       C++ standard > 201703L:    ok (201703L)
+-- 
+--   Build options: 
+--     Build deprecated:            yes
+--     Build with moment combine:   no
+-- 
+--   OpenCV: 
+--     Version:                     4.10.0
+--     Modules:                     calib3d core dnn features2d flann gapi highgui imgcodecs imgproc ml objdetect photo stitching video videoio
+--     OpenCV dir:                  /usr/local/lib/cmake/opencv4
+-- 
+--   Mathematics: 
+--     Blas/Lapack:                 yes
+--     \- Use MKL:                  no
+--     \- Use OpenBLAS:             no
+--     \- Use Atlas:                no
+--     \- Use Netlib:               yes (ver 3.10.0)
+--     \- Use GSL:                  no
+--     \- Use Lapack (built-in):    no
+--     Use Eigen3:                  yes (ver 3.4.0)
+--     Use OpenCV:                  yes (ver 4.10.0)
+-- 
+--   Simulator: 
+--     Ogre simulator: 
+--     \- Use Ogre3D:               yes (ver 1.9.0)
+--     \- Use OIS:                  no
+--     Coin simulator: 
+--     \- Use Coin3D:               no
+--     \- Use SoWin:                no
+--     \- Use SoXt:                 no
+--     \- Use SoQt:                 no
+--     \- Use Qt5:                  no
+--     \- Use Qt4:                  no
+--     \- Use Qt3:                  no
+-- 
+--   Media I/O: 
+--     Use JPEG:                    yes (ver 80)
+--     Use PNG:                     yes (ver 1.6.37)
+--     \- Use ZLIB:                 yes (ver 1.2.11)
+--     Use OpenCV:                  yes (ver 4.10.0)
+--     Use stb_image (built-in):    yes (ver 2.27.0)
+--     Use TinyEXR (built-in):      yes (ver 1.0.2)
+--     Use simdlib (built-in):      yes
+--     Use npz I/O (built-in):      yes
+-- 
+--   Real robots: 
+--     Use Afma4:                   no
+--     Use Afma6:                   no
+--     Use Franka:                  yes (ver 0.13.2)
+--     Use Viper650:                no
+--     Use Viper850:                no
+--     Use ur_rtde:                 no
+--     Use Kinova Jaco:             no
+--     Use aria (Pioneer):          no
+--     Use PTU46:                   no
+--     Use Biclops PTU:             no
+--     Use Flir PTU SDK:            no
+--     Use MAVSDK:                  no
+--     Use Parrot ARSDK:            no
+--     \-Use ffmpeg:                no
+--     Use Virtuose:                no
+--     Use qbdevice (built-in):     yes (ver 2.6.0)
+--     Use takktile2 (built-in):    yes (ver 1.0.0)
+--     Use pololu (built-in):       yes (ver 1.0.0)
+-- 
+--   GUI: 
+--     Use X11:                     yes
+--     Use GTK:                     no
+--     Use OpenCV:                  yes (ver 4.10.0)
+--     Use GDI:                     no
+--     Use Direct3D:                no
+-- 
+--   Cameras: 
+--     Use DC1394-2.x:              yes (ver 2.2.6)
+--     Use CMU 1394:                no
+--     Use V4L2:                    yes (ver 1.22.1)
+--     Use directshow:              no
+--     Use OpenCV:                  yes (ver 4.10.0)
+--     Use FLIR Flycapture:         no
+--     Use Basler Pylon:            no
+--     Use IDS uEye:                no
+-- 
+--   RGB-D sensors: 
+--     Use Realsense:               no
+--     Use Realsense2:              yes (ver 2.55.1)
+--     Use Occipital Structure:     no
+--     Use Kinect:                  no
+--     \- Use libfreenect:          no
+--     \- Use libusb-1:             yes (ver 1.0.25)
+--     \- Use std::thread:          yes
+--     Use PCL:                     yes (ver 1.12.1)
+--     \- Use VTK:                  yes (ver 9.1.0)
+-- 
+--   F/T sensors: 
+--     Use atidaq (built-in):       no
+--     Use comedi:                  no
+--     Use IIT SDK:                 no
+-- 
+--   Mocap: 
+--     Use Qualisys:                no
+--     Use Vicon:                   no
+-- 
+--   Detection: 
+--     Use zbar:                    yes (ver 0.23.92)
+--     Use dmtx:                    no
+--     Use AprilTag (built-in):     yes (ver 3.1.1)
+--     \- Use AprilTag big family:  no
+-- 
+--   Misc: 
+--     Use Clipper (built-in):      yes (ver 6.4.2)
+--     Use pugixml (built-in):      yes (ver 1.9.0)
+--     Use libxml2:                 yes (ver 2.9.13)
+--     Use json (nlohmann):         yes (ver 3.10.5)
+-- 
+--   Optimization: 
+--     Use OpenMP:                  yes
+--     Use std::thread:             yes
+--     Use pthread:                 yes
+--     Use pthread (built-in):      no
+--     Use simdlib (built-in):      yes
+-- 
+--   DNN: 
+--     Use CUDA Toolkit:            no
+--     Use TensorRT:                no
+-- 
+--   Documentation: 
+--     Use doxygen:                 no
+--     \- Use mathjax:              no
+-- 
+--   Tests and samples:
+--     Use catch2 (built-in):       yes (ver 2.13.7)
+--     Tests:                       yes
+--     Apps:                        yes
+--     Demos:                       yes
+--     Examples:                    yes
+--     Tutorials:                   yes
+--     Dataset found:               no
+-- 
+--   Library dirs:
+--     Eigen3 include dir:          /usr/share/eigen3/cmake
+--     OpenCV dir:                  /usr/local/lib/cmake/opencv4
+--     PCL dir:                     /usr/lib/x86_64-linux-gnu/cmake/pcl
+-- 
+--   Install path:                  /home/adminlab/franka_ros2_ws/install/VISP
+-- 
+-- ==========================================================
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/VISP
+[  0%] [34m[1mGenerating doc/man/man1/visp-config.1.gz[0m
+[  0%] Built target man
+[  0%] [32mBuilding CXX object 3rdparty/pololu/CMakeFiles/visp_pololu.dir/src/RPMSerialInterface.cpp.o[0m
+[  0%] [32mBuilding CXX object 3rdparty/pololu/CMakeFiles/visp_pololu.dir/src/RPMSerialInterfacePOSIX.cpp.o[0m
+[  0%] [32m[1mLinking CXX static library ../lib/libvisp_pololu.a[0m
+[  0%] Built target visp_pololu
+[  0%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdLib.cpp.o[0m
+[  0%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseCustomFunctions.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseDeinterleave.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseGaussianBlur.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseGrayToBgr.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseGrayToBgra.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseImageLoad.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseImageLoadJpeg.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseImageLoadPng.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseImageSave.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseImageSaveJpeg.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseImageSavePng.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseInterleave.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseOperation.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseReduce.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseReduceGray2x2.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseReduceGray3x3.cpp.o[0m
+[  1%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseReduceGray4x4.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseReduceGray5x5.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseResizeBilinear.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseCrc32.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseResizer.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseResizerArea.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseResizerBicubic.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseCpu.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseResizerBilinear.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseCopy.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseBgraToGray.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseResizerNearest.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseStretchGray2x2.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41BgrToBgra.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41BgrToGray.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41BgrToRgb.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseBgraToBgr.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41BgraToBgr.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41BgraToGray.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41Cpu.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41CustomFunctions.cpp.o[0m
+[  2%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41Deinterleave.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41GaussianBlur.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41GaussianBlur3x3.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41GrayToBgr.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseBgrToRgb.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseBgrToGray.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdBaseBgrToBgra.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ImageLoad.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ImageLoadPng.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41GrayToBgra.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ImageSaveJpeg.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ImageSavePng.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ImageSave.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41Interleave.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ResizerArea.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ResizerBicubic.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ResizerBilinear.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ResizerNearest.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41StretchGray2x2.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx1Cpu.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx1CustomFunctions.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx1Resizer.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx1ResizerBilinear.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2BgrToBgra.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2BgrToGray.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2BgrToRgb.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2BgraToBgr.cpp.o[0m
+[  3%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2BgraToGray.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2Cpu.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2Deinterleave.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2GaussianBlur.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2GrayToBgr.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2GrayToBgra.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ImageLoad.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ImageSave.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ImageSaveJpeg.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ImageSavePng.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2Interleave.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2Operation.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2Reduce.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ReduceGray2x2.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ReduceGray3x3.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ReduceGray4x4.cpp.o[0m
+[  4%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ReduceGray5x5.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ResizeBilinear.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2Resizer.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ResizerArea.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ResizerBicubic.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ResizerBilinear.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2ResizerNearest.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdAvx2StretchGray2x2.cpp.o[0m
+[  5%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41Resizer.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ResizeBilinear.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ReduceGray5x5.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ReduceGray4x4.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ReduceGray3x3.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41ReduceGray2x2.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41Reduce.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/simdlib/CMakeFiles/visp_simdlib.dir/Simd/SimdSse41Operation.cpp.o[0m
+[  6%] [32m[1mLinking CXX static library ../lib/libvisp_simdlib.a[0m
+[  6%] Built target visp_simdlib
+[  6%] [32mBuilding CXX object 3rdparty/pugixml-1.9/CMakeFiles/visp_pugixml.dir/pugixml.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/reflex-takktile2/CMakeFiles/visp_reflex_takktile2.dir/reflex_driver2.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/reflex-takktile2/CMakeFiles/visp_reflex_takktile2.dir/reflex_hand2.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/qbdevice/CMakeFiles/visp_qbdevice.dir/qb_device_driver.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/qbdevice/CMakeFiles/visp_qbdevice.dir/qbmove_communications.cpp.o[0m
+[  6%] [32m[1mLinking CXX static library ../lib/libvisp_qbdevice.a[0m
+[  6%] Built target visp_qbdevice
+[  6%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/apriltag.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/apriltag_pose.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/apriltag_quad_thresh.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/clipper/CMakeFiles/visp_clipper.dir/clipper.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/pnm.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/pjpeg-idct.cpp.o[0m
+[  6%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/string_util.cpp.o[0m
+[  6%] [32m[1mLinking CXX static library ../lib/libvisp_reflex_takktile2.a[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/svd22.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/pam.cpp.o[0m
+[  7%] Built target visp_reflex_takktile2
+[  7%] [34m[1mGenerate visp-config[0m
+[  7%] Built target developer_scripts
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/times.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/workerpool.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/zhash.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/zmaxheap.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/tag16h5.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/tag25h7.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/time_util.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/zarray.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/matd.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/tag36h11.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/tagCircle21h7.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/tag36h10.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/tag25h9.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/image_u8x4.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/image_u8x3.cpp.o[0m
+[  7%] [32m[1mLinking CXX static library ../lib/libvisp_clipper.a[0m
+[  7%] Built target visp_clipper
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/image_u8.cpp.o[0m
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/homography.cpp.o[0m
+[  7%] [32m[1mLinking CXX static library ../lib/libvisp_pugixml.a[0m
+[  7%] Built target visp_pugixml
+[  7%] [32mBuilding CXX object 3rdparty/apriltag/CMakeFiles/visp_apriltag.dir/common/g2d.cpp.o[0m
+[  7%] [32m[1mLinking CXX static library ../lib/libvisp_apriltag.a[0m
+[  7%] Built target visp_apriltag
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/camera/vpCameraParameters.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageCircle.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageConvert.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageConvert_hsv.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageConvert_pcl.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageConvert_yuv.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageDraw.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageFilter.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImagePoint.cpp.o[0m
+[  7%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpGaussianFilter.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpImageTools.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpRGBa.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpFont.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpColormap.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpCannyEdgeDetection.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/image/vpRGBf.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/kalman/vpKalmanFilter.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/kalman/vpLinearKalmanFilterInstantiation.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/kalman/vpUKSigmaDrawerMerwe.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpEigenConversion.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpMatrix_covariance.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpMatrix_lu.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpMatrix.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpMatrix_mul.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpMatrix_cholesky.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpColVector.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/kalman/vpUnscentedKalman.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/framegrabber/vpFrameGrabber.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/display/vpFeatureDisplay.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/display/vpDisplay_uchar.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpMatrix_qr.cpp.o[0m
+[  8%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpMatrix_svd.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/display/vpDisplay_rgba.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpStatisticalTestHinkley.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpStatisticalTestMeanAdjustedCUSUM.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpStatisticalTestShewhart.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpStatisticalTestSigma.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/random-generator/vpGaussRand.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/random-generator/vpUniRand.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/robust/vpRobust.cpp.o[0m
+[  9%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/robust/vpScale.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/spline/vpBSpline.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpExponentialMap.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpForceTwistMatrix.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpHomogeneousMatrix.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpPoseVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpQuaternionVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpRotationMatrix.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpRotationVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpRxyzVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpRzyxVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpRzyzVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpThetaUVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpTranslationVector.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpVelocityTwistMatrix.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpStatisticalTestEWMA.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/transformation/vpXmlParserHomogeneousMatrix.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/munkres/vpMunkres.cpp.o[0m
+[ 10%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpStatisticalTestAbstract.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/convert/vpConvert.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/cpu-features/vpCPUFeatures.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/cpu-features/x86/cpu_x86.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/endian/vpEndian.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpMath.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/exceptions/vpException.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/file/vpIoTools.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/geometry/vpPlane.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/geometry/vpRectOriented.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/geometry/vpTriangle.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/geometry/vpXmlParserRectOriented.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/histogram/vpHistogram.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/histogram/vpHistogramPeak.cpp.o[0m
+[ 11%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/histogram/vpHistogramValey.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/network/vpClient.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/network/vpNetwork.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/network/vpRequest.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/network/vpServer.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/network/vpUDPClient.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/network/vpUDPServer.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/optimization/vpLinProg.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/optimization/vpQuadProg.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/serial/vpSerial.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/time/vpTime.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/xml/vpXmlParser.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/forward-projection/vpCircle.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/forward-projection/vpCylinder.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/forward-projection/vpForwardProjection.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/forward-projection/vpLine.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/forward-projection/vpPoint.cpp.o[0m
+[ 12%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/geometry/vpRect.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/geometry/vpPolygon3D.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/forward-projection/vpSphere.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/misc/vpHinkley.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tools/geometry/vpPolygon.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMoment.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentAlpha.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentArea.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpSubRowVector.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpSubMatrix.cpp.o[0m
+[ 13%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpSubColVector.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/math/matrix/vpRowVector.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentAreaNormalized.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/display/vpDisplay.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/display/vpColor.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentBasic.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentCInvariant.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/camera/vpXmlParserCamera.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/vpTracker.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentObject.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentGravityCenterNormalized.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentGravityCenter.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentDatabase.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentCommon.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/tracking/moments/vpMomentCentered.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/camera/vpPixelMeterConversion.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/camera/vpColorDepthConversion.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/core/CMakeFiles/visp_core.dir/src/camera/vpMeterPixelConversion.cpp.o[0m
+[ 14%] [32m[1mLinking CXX shared library ../../lib/libvisp_core.so[0m
+[ 14%] Built target visp_core
+[ 14%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/private/vpImageIoLibpng.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/vpDisplayGTK.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/private/vpImageIoLibjpeg.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/vpDisplayOpenCV.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/parallel-port/vpParallelPort.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/vpDisplayX.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/tools/vpJsonArgumentParser.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/windows/vpD3DRenderer.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/windows/vpDisplayD3D.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/windows/vpDisplayGDI.cpp.o[0m
+[ 14%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/windows/vpDisplayWin32.cpp.o[0m
+[ 15%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/windows/vpGDIRenderer.cpp.o[0m
+[ 15%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/windows/vpWin32API.cpp.o[0m
+[ 15%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/tools/vpKeyboard.cpp.o[0m
+[ 15%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/display/windows/vpWin32Window.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/tools/vpParseArgv.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/forward-projection/vpProjectionDisplay.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/video/vpDiskGrabber.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/plot/vpPlot.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/vpImageIo.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/private/vpImageIoTinyEXR.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/private/vpImageIoStb.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/private/vpImageIoSimd.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/private/vpImageIoPortable.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/plot/vpPlotCurve.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/image/private/vpImageIoOpenCV.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/plot/vpPlotGraph.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/pointcloud/vpPclViewer.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/video/vpVideoWriter.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/visp_io.dir/src/video/vpVideoReader.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/pointcloud/vpDisplayPCL.cpp.o[0m
+[ 16%] [32m[1mLinking CXX shared library ../../lib/libvisp_io.so[0m
+[ 16%] Built target visp_io
+[ 16%] [32mBuilding CXX object modules/blob/CMakeFiles/visp_blob.dir/src/dots/vpDot.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/blob/CMakeFiles/visp_blob.dir/src/dots/vpDot2.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/gui/CMakeFiles/visp_gui.dir/src/pointcloud/vpColorBlindFriendlyPalette.cpp.o[0m
+[ 16%] [32m[1mLinking CXX shared library ../../lib/libvisp_gui.so[0m
+[ 16%] [32m[1mLinking CXX shared library ../../lib/libvisp_blob.so[0m
+[ 16%] Built target visp_blob
+[ 16%] Built target visp_gui
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/testVideo.dir/test/video/testVideo.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/core/CMakeFiles/perfImageAddSub.dir/test/image-with-dataset/perfImageAddSub.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/core/CMakeFiles/perfGaussianFilter.dir/test/image-with-dataset/perfGaussianFilter.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/core/CMakeFiles/perfColorConversion.dir/test/image-with-dataset/perfColorConversion.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/core/CMakeFiles/testJsonCamera.dir/test/camera/testJsonCamera.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/core/CMakeFiles/testXmlParserCamera.dir/test/camera/testXmlParserCamera.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/testJsonArgumentParser.dir/test/testJsonArgumentParser.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/core/CMakeFiles/testCameraParametersConversion.dir/test/camera/testCameraParametersConversion.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/testImageLoadSave.dir/test/image-with-dataset/testImageLoadSave.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/io/CMakeFiles/perfImageLoadSave.dir/test/image-with-dataset/perfImageLoadSave.cpp.o[0m
+[ 16%] [32m[1mLinking CXX executable testImageLoadSave[0m
+[ 16%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/force-torque/vpComedi.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/ar/CMakeFiles/visp_ar.dir/src/coin-simulator/vpAR.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/force-torque/vpForceTorqueAtiNetFTSensor.cpp.o[0m
+[ 16%] [32mBuilding CXX object modules/ar/CMakeFiles/visp_ar.dir/src/coin-simulator/vpSimulator.cpp.o[0m
+[ 17%] [32mBuilding CXX object modules/ar/CMakeFiles/visp_ar.dir/src/coin-simulator/vpViewer.cpp.o[0m
+[ 17%] [32mBuilding CXX object modules/ar/CMakeFiles/visp_ar.dir/src/ogre-simulator/vpAROgre.cpp.o[0m
+[ 17%] [32m[1mLinking CXX executable testXmlParserCamera[0m
+[ 17%] Built target testImageLoadSave
+[ 17%] Built target testXmlParserCamera
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/force-torque/vpForceTorqueAtiSensor.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable testCameraParametersConversion[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/force-torque/vpForceTorqueIitSensor.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/1394/vp1394CMUGrabber.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/1394/vp1394TwoGrabber.cpp.o[0m
+[ 18%] Built target testCameraParametersConversion
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/directshow/vpDirectShowDevice.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/directshow/vpDirectShowGrabber.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/directshow/vpDirectShowGrabberImpl.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/directshow/vpDirectShowSampleGrabberI.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/ar/CMakeFiles/visp_ar.dir/src/vpSimulatorException.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library ../../lib/libvisp_ar.so[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/flycapture/vpFlyCaptureGrabber.cpp.o[0m
+[ 18%] Built target visp_ar
+[ 18%] [32m[1mLinking CXX executable testVideo[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/pylon/vpPylonFactory.cpp.o[0m
+[ 18%] Built target testVideo
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/pylon/vpPylonGrabberGigE.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/pylon/vpPylonGrabberUsb.cpp.o[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/ueye/vpUeyeGrabber.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable perfGaussianFilter[0m
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/framegrabber/v4l2/vpV4l2Grabber.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable testJsonCamera[0m
+[ 18%] Built target perfGaussianFilter
+[ 18%] Built target testJsonCamera
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/laserscanner/sick/vpSickLDMRS.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable perfImageAddSub[0m
+[ 18%] Built target perfImageAddSub
+[ 18%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/mocap/vpMocapQualisys.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/mocap/vpMocapVicon.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/rgb-depth/kinect/vpKinect.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/rgb-depth/occipital_structure/vpOccipitalStructure.cpp.o[0m
+[ 19%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/rgb-depth/realsense/vpRealSense.cpp.o[0m
+[ 19%] [32m[1mLinking CXX executable perfColorConversion[0m
+[ 19%] [32m[1mLinking CXX executable perfImageLoadSave[0m
+[ 19%] Built target perfColorConversion
+[ 19%] Built target perfImageLoadSave
+[ 19%] [32m[1mLinking CXX executable testJsonArgumentParser[0m
+[ 19%] Built target testJsonArgumentParser
+[ 19%] [32mBuilding CXX object modules/sensor/CMakeFiles/visp_sensor.dir/src/rgb-depth/realsense/vpRealSense2.cpp.o[0m
+[ 19%] [32m[1mLinking CXX shared library ../../lib/libvisp_sensor.so[0m
+[ 19%] Built target visp_sensor
+[ 19%] [32mBuilding CXX object modules/core/CMakeFiles/testImageFilter.dir/test/image-with-dataset/testImageFilter.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable testImageFilter[0m
+[ 20%] Built target testImageFilter
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testImageNormalizedCorrelation.dir/test/image-with-dataset/testImageNormalizedCorrelation.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testImageComparison.dir/test/image-with-dataset/testImageComparison.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testImageTemplateMatching.dir/test/image-with-dataset/testImageTemplateMatching.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testImageAddSub.dir/test/image-with-dataset/testImageAddSub.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testGaussianFilter.dir/test/image-with-dataset/testGaussianFilter.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable testGaussianFilter[0m
+[ 20%] [32m[1mLinking CXX executable testImageComparison[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testCropAdvanced.dir/test/image-with-dataset/testCropAdvanced.cpp.o[0m
+[ 20%] Built target testImageComparison
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testCrop.dir/test/image-with-dataset/testCrop.cpp.o[0m
+[ 20%] Built target testGaussianFilter
+[ 20%] [32m[1mLinking CXX executable testImageTemplateMatching[0m
+[ 20%] [32m[1mLinking CXX executable testImageNormalizedCorrelation[0m
+[ 20%] Built target testImageNormalizedCorrelation
+[ 20%] Built target testImageTemplateMatching
+[ 20%] [32m[1mLinking CXX executable testCrop[0m
+[ 20%] [32m[1mLinking CXX executable testCropAdvanced[0m
+[ 20%] Built target testCrop
+[ 20%] Built target testCropAdvanced
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testPerformanceLUT.dir/test/image-with-dataset/testPerformanceLUT.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testIoPPM.dir/test/image-with-dataset/testIoPPM.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testIoPGM.dir/test/image-with-dataset/testIoPGM.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testIoPFM.dir/test/image-with-dataset/testIoPFM.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable testIoPFM[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testIoEXR.dir/test/image-with-dataset/testIoEXR.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable testIoEXR[0m
+[ 20%] Built target testIoPFM
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testImageWarp.dir/test/image-with-dataset/testImageWarp.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable testImageWarp[0m
+[ 20%] Built target testIoEXR
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testReadImage.dir/test/image-with-dataset/testReadImage.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testConversion.dir/test/image-with-dataset/testConversion.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testUndistortImage.dir/test/image-with-dataset/testUndistortImage.cpp.o[0m
+[ 20%] Built target testImageWarp
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testColorConversion.dir/test/image-with-dataset/testColorConversion.cpp.o[0m
+[ 20%] [32mBuilding CXX object modules/core/CMakeFiles/testImageBinarise.dir/test/image/testImageBinarise.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable testPerformanceLUT[0m
+[ 21%] [32m[1mLinking CXX executable testIoPPM[0m
+[ 21%] [32mBuilding CXX object modules/core/CMakeFiles/perfImageWarp.dir/test/image-with-dataset/perfImageWarp.cpp.o[0m
+[ 21%] Built target testPerformanceLUT
+[ 21%] [32mBuilding CXX object modules/core/CMakeFiles/perfImageResize.dir/test/image-with-dataset/perfImageResize.cpp.o[0m
+[ 21%] Built target testIoPPM
+[ 21%] [32mBuilding CXX object modules/core/CMakeFiles/testImageDifference.dir/test/image/testImageDifference.cpp.o[0m
+[ 21%] [32m[1mLinking CXX executable testIoPGM[0m
+[ 21%] [32mBuilding CXX object modules/core/CMakeFiles/testImageDraw.dir/test/image/testImageDraw.cpp.o[0m
+[ 21%] Built target testIoPGM
+[ 22%] [32mBuilding CXX object modules/core/CMakeFiles/perfImageMorphology.dir/test/image-with-dataset/perfImageMorphology.cpp.o[0m
+[ 22%] [32mBuilding CXX object modules/me/CMakeFiles/visp_me.dir/src/moving-edges/vpMe.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable testImageBinarise[0m
+[ 22%] [32m[1mLinking CXX executable testImageAddSub[0m
+[ 22%] Built target testImageBinarise
+[ 22%] [32m[1mLinking CXX executable testImageDifference[0m
+[ 22%] Built target testImageDifference
+[ 22%] Built target testImageAddSub
+[ 22%] [32mBuilding CXX object modules/me/CMakeFiles/visp_me.dir/src/moving-edges/vpMeEllipse.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable testReadImage[0m
+[ 22%] [32m[1mLinking CXX executable testConversion[0m
+[ 22%] Built target testReadImage
+[ 22%] [32m[1mLinking CXX executable testUndistortImage[0m
+[ 22%] Built target testConversion
+[ 22%] Built target testUndistortImage
+[ 22%] [32m[1mLinking CXX executable testImageDraw[0m
+[ 22%] Built target testImageDraw
+[ 22%] [32mBuilding CXX object modules/me/CMakeFiles/visp_me.dir/src/moving-edges/vpMeLine.cpp.o[0m
+[ 22%] [32mBuilding CXX object modules/me/CMakeFiles/visp_me.dir/src/moving-edges/vpMeNurbs.cpp.o[0m
+[ 22%] [32mBuilding CXX object modules/me/CMakeFiles/visp_me.dir/src/moving-edges/vpMeSite.cpp.o[0m
+[ 23%] [32mBuilding CXX object modules/me/CMakeFiles/visp_me.dir/src/moving-edges/vpMeTracker.cpp.o[0m
+[ 23%] [32mBuilding CXX object modules/me/CMakeFiles/visp_me.dir/src/moving-edges/vpNurbs.cpp.o[0m
+[ 23%] [32m[1mLinking CXX executable perfImageResize[0m
+[ 23%] Built target perfImageResize
+[ 23%] [32m[1mLinking CXX executable perfImageWarp[0m
+[ 23%] Built target perfImageWarp
+[ 23%] [32m[1mLinking CXX shared library ../../lib/libvisp_me.so[0m
+[ 24%] [32m[1mLinking CXX executable testColorConversion[0m
+[ 24%] Built target visp_me
+[ 24%] Built target testColorConversion
+[ 24%] [32m[1mLinking CXX executable perfImageMorphology[0m
+[ 24%] Built target perfImageMorphology
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/testColVector.dir/test/math/testColVector.cpp.o[0m
+[ 24%] [32m[1mLinking CXX executable testColVector[0m
+[ 24%] Built target testColVector
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/testEigenConversion.dir/test/math/testEigenConversion.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/testHomogeneousMatrix.dir/test/math/testHomogeneousMatrix.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/testArray2D.dir/test/math/testArray2D.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/perfMatrixTranspose.dir/test/math/perfMatrixTranspose.cpp.o[0m
+[ 24%] [32m[1mLinking CXX executable testEigenConversion[0m
+[ 24%] Built target testEigenConversion
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/perfMatrixMultiplication.dir/test/math/perfMatrixMultiplication.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/testJsonArrayConversion.dir/test/math/testJsonArrayConversion.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/perfColVectorOperations.dir/test/math/perfColVectorOperations.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/testImageResize.dir/test/image/testImageResize.cpp.o[0m
+[ 24%] [32mBuilding CXX object modules/core/CMakeFiles/testImagePrint.dir/test/image/testImagePrint.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable testImagePrint[0m
+[ 25%] Built target testImagePrint
+[ 25%] [32m[1mLinking CXX executable testHomogeneousMatrix[0m
+[ 25%] Built target testHomogeneousMatrix
+[ 26%] [32m[1mLinking CXX executable testArray2D[0m
+[ 26%] Built target testArray2D
+[ 26%] [32m[1mLinking CXX executable perfMatrixTranspose[0m
+[ 26%] Built target perfMatrixTranspose
+[ 26%] [32m[1mLinking CXX executable perfMatrixMultiplication[0m
+[ 26%] Built target perfMatrixMultiplication
+[ 26%] [32m[1mLinking CXX executable testImageResize[0m
+[ 26%] [32m[1mLinking CXX executable testJsonArrayConversion[0m
+[ 26%] Built target testImageResize
+[ 26%] [32m[1mLinking CXX executable perfColVectorOperations[0m
+[ 26%] Built target testJsonArrayConversion
+[ 26%] Built target perfColVectorOperations
+[ 26%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixCholesky.dir/test/math/testMatrixCholesky.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixConditionNumber.dir/test/math/testMatrixConditionNumber.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrix.dir/test/math/testMatrix.cpp.o[0m
+[ 26%] [32mBuilding CXX object modules/core/CMakeFiles/testMathUtils.dir/test/math/testMathUtils.cpp.o[0m
+[ 26%] [32m[1mLinking CXX executable testMatrixConditionNumber[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testMath.dir/test/math/testMath.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testLineFitting.dir/test/math/testLineFitting.cpp.o[0m
+[ 27%] Built target testMatrixConditionNumber
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testKalmanVelocity.dir/test/math/testKalmanVelocity.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable testMatrix[0m
+[ 27%] [32m[1mLinking CXX executable testMatrixCholesky[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixConvolution.dir/test/math/testMatrixConvolution.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable testMath[0m
+[ 27%] [32m[1mLinking CXX executable testKalmanVelocity[0m
+[ 27%] Built target testMatrix
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testImageOwnership.dir/test/image/testImageOwnership.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testKalmanAcceleration.dir/test/math/testKalmanAcceleration.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testImagePoint.dir/test/image/testImagePoint.cpp.o[0m
+[ 27%] Built target testMatrixCholesky
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixDeterminant.dir/test/math/testMatrixDeterminant.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixException.dir/test/math/testMatrixException.cpp.o[0m
+[ 27%] Built target testMath
+[ 27%] Built target testKalmanVelocity
+[ 27%] [32m[1mLinking CXX executable testMatrixConvolution[0m
+[ 27%] [32m[1mLinking CXX executable testKalmanAcceleration[0m
+[ 27%] [32m[1mLinking CXX executable testMatrixException[0m
+[ 27%] [32m[1mLinking CXX executable testMatrixDeterminant[0m
+[ 27%] [32m[1mLinking CXX executable testImageOwnership[0m
+[ 27%] Built target testMatrixConvolution
+[ 27%] Built target testKalmanAcceleration
+[ 27%] Built target testMatrixException
+[ 27%] Built target testMatrixDeterminant
+[ 27%] Built target testImageOwnership
+[ 27%] [32m[1mLinking CXX executable testMathUtils[0m
+[ 27%] Built target testMathUtils
+[ 27%] [32m[1mLinking CXX executable testLineFitting[0m
+[ 27%] Built target testLineFitting
+[ 27%] [32m[1mLinking CXX executable testImagePoint[0m
+[ 27%] Built target testImagePoint
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testRotation.dir/test/math/testRotation.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testRobust.dir/test/math/testRobust.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testRowVector.dir/test/math/testRowVector.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testRand.dir/test/math/testRand.cpp.o[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testQuaternion.dir/test/math/testQuaternion.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable testRobust[0m
+[ 27%] [32m[1mLinking CXX executable testRowVector[0m
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testPoseVector.dir/test/math/testPoseVector.cpp.o[0m
+[ 27%] Built target testRobust
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testMomentAlpha.dir/test/math/testMomentAlpha.cpp.o[0m
+[ 27%] Built target testRowVector
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testSPC.dir/test/math/testSPC.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable testSPC[0m
+[ 27%] Built target testSPC
+[ 27%] [32m[1mLinking CXX executable testMomentAlpha[0m
+[ 27%] Built target testMomentAlpha
+[ 27%] [32m[1mLinking CXX executable testRotation[0m
+[ 27%] Built target testRotation
+[ 27%] [32m[1mLinking CXX executable testPoseVector[0m
+[ 27%] Built target testPoseVector
+[ 27%] [32m[1mLinking CXX executable testRand[0m
+[ 27%] Built target testRand
+[ 27%] [32m[1mLinking CXX executable testQuaternion[0m
+[ 27%] Built target testQuaternion
+[ 27%] [32mBuilding CXX object modules/core/CMakeFiles/testClient.dir/test/network/testClient.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable testClient[0m
+[ 27%] Built target testClient
+[ 28%] [32mBuilding CXX object modules/core/CMakeFiles/testServer.dir/test/network/testServer.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable testServer[0m
+[ 28%] Built target testServer
+[ 28%] [32mBuilding CXX object modules/core/CMakeFiles/testUDPClient.dir/test/network/testUDPClient.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable testUDPClient[0m
+[ 28%] Built target testUDPClient
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testUDPServer.dir/test/network/testUDPServer.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable testUDPServer[0m
+[ 29%] Built target testUDPServer
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testConvert.dir/test/tools/convert/testConvert.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable testConvert[0m
+[ 29%] Built target testConvert
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testCPUFeatures.dir/test/tools/cpu-features/testCPUFeatures.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable testCPUFeatures[0m
+[ 29%] Built target testCPUFeatures
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testEndian.dir/test/tools/endian/testEndian.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testImageCircle.dir/test/tools/geometry/testImageCircle.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testMunkres.dir/test/munkres/testMunkres.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable testImageCircle[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testXmlParserHomogeneousMatrix.dir/test/math/testXmlParserHomogeneousMatrix.cpp.o[0m
+[ 29%] Built target testImageCircle
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testTwistMatrix.dir/test/math/testTwistMatrix.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testPolygon.dir/test/tools/geometry/testPolygon.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable testXmlParserHomogeneousMatrix[0m
+[ 29%] [32m[1mLinking CXX executable testTwistMatrix[0m
+[ 29%] Built target testXmlParserHomogeneousMatrix
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testTranslationVector.dir/test/math/testTranslationVector.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testSvd.dir/test/math/testSvd.cpp.o[0m
+[ 29%] Built target testTwistMatrix
+[ 29%] [32m[1mLinking CXX executable testTranslationVector[0m
+[ 29%] [32m[1mLinking CXX executable testPolygon[0m
+[ 29%] [32m[1mLinking CXX executable testSvd[0m
+[ 29%] Built target testTranslationVector
+[ 29%] Built target testPolygon
+[ 29%] Built target testSvd
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testXmlParserRectOriented.dir/test/tools/geometry/testXmlParserRectOriented.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testHistogram.dir/test/tools/histogram-with-dataset/testHistogram.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testIoTools.dir/test/tools/io-with-dataset/testIoTools.cpp.o[0m
+[ 29%] [32mBuilding CXX object modules/core/CMakeFiles/testPolygon2.dir/test/tools/geometry/testPolygon2.cpp.o[0m
+[ 30%] [32mBuilding CXX object modules/core/CMakeFiles/testRect.dir/test/tools/geometry/testRect.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable testEndian[0m
+[ 30%] [32m[1mLinking CXX executable testRect[0m
+[ 30%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixInverse.dir/test/math/testMatrixInverse.cpp.o[0m
+[ 30%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixPseudoInverse.dir/test/math/testMatrixPseudoInverse.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable testXmlParserRectOriented[0m
+[ 30%] Built target testEndian
+[ 30%] Built target testRect
+[ 31%] [32mBuilding CXX object modules/core/CMakeFiles/testMatrixInitialization.dir/test/math/testMatrixInitialization.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/core/CMakeFiles/testImageMorphology.dir/test/image/testImageMorphology.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/core/CMakeFiles/testImageMeanAndStdev.dir/test/image/testImageMeanAndStdev.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/core/CMakeFiles/testBuildInformation.dir/test/tools/io/testBuildInformation.cpp.o[0m
+[ 31%] [32m[1mLinking CXX executable testIoTools[0m
+[ 31%] Built target testXmlParserRectOriented
+[ 31%] [32mBuilding CXX object modules/core/CMakeFiles/testNPZ.dir/test/tools/io/testNPZ.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/core/CMakeFiles/testImageGetValue.dir/test/image/testImageGetValue.cpp.o[0m
+[ 31%] [32mBuilding CXX object modules/klt/CMakeFiles/visp_klt.dir/src/vpKltOpencv.cpp.o[0m
+[ 31%] Built target testIoTools
+[ 31%] [32m[1mLinking CXX executable testBuildInformation[0m
+[ 31%] [32m[1mLinking CXX executable testMatrixInverse[0m
+[ 31%] [32m[1mLinking CXX executable testMatrixPseudoInverse[0m
+[ 31%] [32m[1mLinking CXX executable testMatrixInitialization[0m
+[ 31%] Built target testBuildInformation
+[ 31%] Built target testMatrixInverse
+[ 31%] [32m[1mLinking CXX executable testImageGetValue[0m
+[ 32%] [32m[1mLinking CXX executable testHistogram[0m
+[ 32%] [32m[1mLinking CXX executable testImageMeanAndStdev[0m
+[ 32%] Built target testMatrixPseudoInverse
+[ 32%] Built target testMatrixInitialization
+[ 32%] [32m[1mLinking CXX shared library ../../lib/libvisp_klt.so[0m
+[ 32%] Built target testImageGetValue
+[ 32%] Built target testHistogram
+[ 32%] Built target testImageMeanAndStdev
+[ 32%] Built target visp_klt
+[ 32%] [32m[1mLinking CXX executable testMunkres[0m
+[ 32%] Built target testMunkres
+[ 32%] [32m[1mLinking CXX executable testPolygon2[0m
+[ 32%] Built target testPolygon2
+[ 32%] [32m[1mLinking CXX executable testImageMorphology[0m
+[ 32%] Built target testImageMorphology
+[ 32%] [32m[1mLinking CXX executable testNPZ[0m
+[ 32%] Built target testNPZ
+[ 32%] [32mBuilding CXX object modules/me/CMakeFiles/testJsonMe.dir/test/testJsonMe.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/gui/CMakeFiles/testVideoDeviceDual.dir/test/display/testVideoDeviceDual.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/me/CMakeFiles/testNurbs.dir/test/testNurbs.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/gui/CMakeFiles/testDisplays.dir/test/display/testDisplays.cpp.o[0m
+[ 32%] [32mBuilding CXX object modules/gui/CMakeFiles/testDisplayRoi.dir/test/display/testDisplayRoi.cpp.o[0m
+[ 32%] [32m[1mLinking CXX executable testJsonMe[0m
+[ 32%] [32mBuilding CXX object modules/gui/CMakeFiles/testDisplayPolygonLines.dir/test/display/testDisplayPolygonLines.cpp.o[0m
+[ 32%] Built target testJsonMe
+[ 33%] [32mBuilding CXX object modules/gui/CMakeFiles/testVideoDevice.dir/test/display-with-dataset/testVideoDevice.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable testVideoDeviceDual[0m
+[ 33%] [32m[1mLinking CXX executable testNurbs[0m
+[ 33%] Built target testVideoDeviceDual
+[ 33%] Built target testNurbs
+[ 33%] [32m[1mLinking CXX executable testDisplays[0m
+[ 33%] [32m[1mLinking CXX executable testDisplayRoi[0m
+[ 33%] [32m[1mLinking CXX executable testDisplayPolygonLines[0m
+[ 33%] [32m[1mLinking CXX executable testVideoDevice[0m
+[ 33%] Built target testDisplays
+[ 33%] Built target testDisplayRoi
+[ 33%] Built target testDisplayPolygonLines
+[ 33%] Built target testVideoDevice
+[ 33%] [32mBuilding CXX object modules/sensor/CMakeFiles/test1394TwoResetBus.dir/test/framegrabber/test1394TwoResetBus.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable test1394TwoResetBus[0m
+[ 33%] Built target test1394TwoResetBus
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testPylonGrabber.dir/test/framegrabber/testPylonGrabber.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testPylonGrabber[0m
+[ 34%] Built target testPylonGrabber
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testMocapQualisys.dir/test/mocap/testMocapQualisys.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testMocapQualisys[0m
+[ 34%] Built target testMocapQualisys
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testMocapVicon.dir/test/mocap/testMocapVicon.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testMocapVicon[0m
+[ 34%] Built target testMocapVicon
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testOccipitalStructure_Core_images.dir/test/rgb-depth/testOccipitalStructure_Core_images.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testOccipitalStructure_Core_images[0m
+[ 34%] Built target testOccipitalStructure_Core_images
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testOccipitalStructure_Core_imu.dir/test/rgb-depth/testOccipitalStructure_Core_imu.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testOccipitalStructure_Core_imu[0m
+[ 34%] Built target testOccipitalStructure_Core_imu
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testOccipitalStructure_Core_pcl.dir/test/rgb-depth/testOccipitalStructure_Core_pcl.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testOccipitalStructure_Core_pcl[0m
+[ 34%] Built target testOccipitalStructure_Core_pcl
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_D435.dir/test/rgb-depth/testRealSense2_D435.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testRealSense2_D435[0m
+[ 34%] Built target testRealSense2_D435
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_D435_align.dir/test/rgb-depth/testRealSense2_D435_align.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testRealSense2_D435_align[0m
+[ 34%] Built target testRealSense2_D435_align
+[ 34%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_D435_opencv.dir/test/rgb-depth/testRealSense2_D435_opencv.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable testRealSense2_D435_opencv[0m
+[ 34%] Built target testRealSense2_D435_opencv
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_D435_pcl.dir/test/rgb-depth/testRealSense2_D435_pcl.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable testRealSense2_D435_pcl[0m
+[ 35%] Built target testRealSense2_D435_pcl
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_SR300.dir/test/rgb-depth/testRealSense2_SR300.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable testRealSense2_SR300[0m
+[ 35%] Built target testRealSense2_SR300
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_T265_images.dir/test/rgb-depth/testRealSense2_T265_images.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable testRealSense2_T265_images[0m
+[ 35%] Built target testRealSense2_T265_images
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_T265_images_odometry.dir/test/rgb-depth/testRealSense2_T265_images_odometry.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable testRealSense2_T265_images_odometry[0m
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_T265_images_odometry_async.dir/test/rgb-depth/testRealSense2_T265_images_odometry_async.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testForceTorqueIitSensor.dir/test/force-torque/testForceTorqueIitSensor.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/test1394TwoGrabber.dir/test/framegrabber/test1394TwoGrabber.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testForceTorqueAti.dir/test/force-torque/testForceTorqueAti.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testForceTorqueAtiNetFTSensor.dir/test/force-torque/testForceTorqueAtiNetFTSensor.cpp.o[0m
+[ 35%] Built target testRealSense2_T265_images_odometry
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testComedi.dir/test/force-torque/testComedi.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_T265_imu.dir/test/rgb-depth/testRealSense2_T265_imu.cpp.o[0m
+[ 35%] [32mBuilding CXX object modules/gui/CMakeFiles/testDisplayScaled.dir/test/display-with-dataset/testDisplayScaled.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/gui/CMakeFiles/testMouseEvent.dir/test/display-with-dataset/testMouseEvent.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/core/CMakeFiles/testXmlParser.dir/test/tools/xml/testXmlParser.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/gui/CMakeFiles/testClick.dir/test/display-with-dataset/testClick.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable testForceTorqueIitSensor[0m
+[ 36%] [32m[1mLinking CXX executable testForceTorqueAti[0m
+[ 36%] [32m[1mLinking CXX executable testForceTorqueAtiNetFTSensor[0m
+[ 36%] [32m[1mLinking CXX executable testComedi[0m
+[ 36%] Built target testForceTorqueIitSensor
+[ 36%] Built target testForceTorqueAti
+[ 36%] Built target testForceTorqueAtiNetFTSensor
+[ 36%] [32m[1mLinking CXX executable testXmlParser[0m
+[ 36%] [32m[1mLinking CXX executable test1394TwoGrabber[0m
+[ 36%] Built target testComedi
+[ 36%] Built target test1394TwoGrabber
+[ 36%] Built target testXmlParser
+[ 36%] [32m[1mLinking CXX executable testClick[0m
+[ 36%] [32m[1mLinking CXX executable testRealSense2_T265_images_odometry_async[0m
+[ 36%] [32m[1mLinking CXX executable testMouseEvent[0m
+[ 36%] Built target testClick
+[ 36%] Built target testMouseEvent
+[ 36%] Built target testRealSense2_T265_images_odometry_async
+[ 36%] [32m[1mLinking CXX executable testDisplayScaled[0m
+[ 36%] [32m[1mLinking CXX executable testRealSense2_T265_imu[0m
+[ 36%] Built target testDisplayScaled
+[ 36%] Built target testRealSense2_T265_imu
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/haptic-device/qbdevice/vpQbDevice.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/afma4/vpRobotAfma4.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/afma4/vpServolens.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/afma6/vpAfma6.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/afma6/vpRobotAfma6.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/bebop2/vpRobotBebop2.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/biclops/private/vpRobotBiclopsController_impl.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/biclops/vpBiclops.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/biclops/vpRobotBiclops.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/afma4/vpAfma4.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/flir-ptu/vpRobotFlirPtu.cpp.o[0m
+[ 36%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/franka/vpForceTorqueGenerator_impl.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/franka/vpJointPosTrajGenerator_impl.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/image-simulator/vpImageSimulator.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/light/vpRingLight.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/franka/vpJointVelTrajGenerator_impl.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/franka/vpRobotFranka.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/kinova/vpRobotKinova.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/mavsdk/vpRobotMavsdk.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/pioneer/vpRobotPioneer.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/haptic-device/virtuose/vpVirtuose.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/pololu-maestro/vpPololu.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/viper/vpRobotViper650.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/viper/vpRobotViper850.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/viper/vpViper.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/viper/vpViper650.cpp.o[0m
+[ 37%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/viper/vpViper850.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpRobotCamera.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpRobotSimulator.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpRobotWireFrameSimulator.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpSimulatorAfma6.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpSimulatorCamera.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpSimulatorPioneer.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpSimulatorPioneerPan.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/robot-simulator/vpSimulatorViper850.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/vpRobot.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/vpRobotTemplate.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/universal-robots/vpRobotUniversalRobots.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpArit.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpAritio.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpBound.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpBoundio.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpClipping.cpp.o[0m
+[ 38%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpCoreDisplay.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpKeyword.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpLex.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpMyio.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpParser.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpProjection.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpRfstack.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpScene.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpSkipio.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpTmstack.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpToken.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpViewio.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpVwstack.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/wireframe-simulator/vpWireFrameSimulator.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/ptu46/vpRobotPtu46.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/ptu46/vpPtu46.cpp.o[0m
+[ 39%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/real-robot/pololu-maestro/vpRobotPololuPtu.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/haptic-device/reflex-takktile/vpReflexTakktile2.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/robot/CMakeFiles/visp_robot.dir/src/haptic-device/qbdevice/vpQbSoftHand.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library ../../lib/libvisp_robot.so[0m
+[ 40%] Built target visp_robot
+[ 40%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_T265_undistort.dir/test/rgb-depth/testRealSense2_T265_undistort.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/feature-builder/vpFeatureBuilderEllipse.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/feature-builder/vpFeatureBuilderLine.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureEllipse.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureLine.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable testRealSense2_T265_undistort[0m
+[ 40%] Built target testRealSense2_T265_undistort
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMoment.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentAlpha.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentArea.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentAreaNormalized.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentBasic.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentCInvariant.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentCentered.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentCommon.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentDatabase.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentGravityCenter.cpp.o[0m
+[ 40%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureMomentGravityCenterNormalized.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeaturePoint.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeaturePoint3D.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeaturePointPolar.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureSegment.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureLuminance.cpp.o[0m
+[ 41%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureThetaU.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureDepth.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpBasicFeature.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/feature-builder/vpFeatureBuilderVanishingPoint.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/feature-builder/vpFeatureBuilderSegment.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/feature-builder/vpFeatureBuilderPointPolar.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/feature-builder/vpFeatureBuilderPoint3D.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/feature-builder/vpFeatureBuilderPoint.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureTranslation.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpGenericFeature.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/visp_visual_features.dir/src/visual-feature/vpFeatureVanishingPoint.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library ../../lib/libvisp_visual_features.so[0m
+[ 42%] Built target visp_visual_features
+[ 42%] [32mBuilding CXX object modules/sensor/CMakeFiles/testRealSense2_T265_odometry.dir/test/rgb-depth/testRealSense2_T265_odometry.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable testRealSense2_T265_odometry[0m
+[ 42%] Built target testRealSense2_T265_odometry
+[ 42%] [32mBuilding CXX object modules/vs/CMakeFiles/visp_vs.dir/src/vpAdaptiveGain.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/vs/CMakeFiles/visp_vs.dir/src/vpServoDisplay.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/vs/CMakeFiles/visp_vs.dir/src/vpServoData.cpp.o[0m
+[ 42%] [32mBuilding CXX object modules/vs/CMakeFiles/visp_vs.dir/src/vpServo.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library ../../lib/libvisp_vs.so[0m
+[ 42%] Built target visp_vs
+[ 42%] [32mBuilding CXX object modules/visual_features/CMakeFiles/testPoint.dir/test/feature/testPoint.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable testPoint[0m
+[ 42%] Built target testPoint
+[ 42%] [32mBuilding CXX object modules/vs/CMakeFiles/testFeatureSegment.dir/test/visual-feature/testFeatureSegment.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable testFeatureSegment[0m
+[ 42%] Built target testFeatureSegment
+[ 42%] [32mBuilding CXX object modules/vs/CMakeFiles/testFeatureMoment.dir/test/visual-feature/testFeatureMoment.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable testFeatureMoment[0m
+[ 43%] Built target testFeatureMoment
+[ 43%] [32mBuilding CXX object modules/vs/CMakeFiles/testFeature.dir/test/visual-feature/testFeature.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable testFeature[0m
+[ 43%] Built target testFeature
+[ 43%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/calibration/vpCalibration.cpp.o[0m
+[ 43%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/key-point/vpKeyPoint.cpp.o[0m
+[ 43%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/key-point/vpXmlConfigParserKeyPoint.cpp.o[0m
+[ 43%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/plane-estimation/vpPlaneEstimation.cpp.o[0m
+[ 43%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/private/vpLevenbergMarquartd.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPose.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPoseDementhon.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/homography-estimation/vpHomographyVVS.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/homography-estimation/vpHomographyRansac.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/homography-estimation/vpHomographyExtract.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/homography-estimation/vpHomographyMalis.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPoseFeatures.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/homography-estimation/vpHomographyDLT.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/homography-estimation/vpHomography.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/calibration/vpHandEyeCalibration.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPoseVirtualVisualServoing.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPoseRansac.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPoseLowe.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPoseLagrange.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/pose-estimation/vpPoseRGBD.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/vision/CMakeFiles/visp_vision.dir/src/calibration/vpCalibrationTools.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library ../../lib/libvisp_vision.so[0m
+[ 44%] Built target visp_vision
+[ 44%] [32mBuilding CXX object modules/blob/CMakeFiles/testTrackDot.dir/test/tracking-with-dataset/testTrackDot.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable testTrackDot[0m
+[ 44%] Built target testTrackDot
+[ 44%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaCartForceTorque.dir/test/servo-franka/testFrankaCartForceTorque.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable testFrankaCartForceTorque[0m
+[ 44%] Built target testFrankaCartForceTorque
+[ 44%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaCartVelocity-2.dir/test/servo-franka/testFrankaCartVelocity-2.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable testFrankaCartVelocity-2[0m
+[ 44%] Built target testFrankaCartVelocity-2
+[ 44%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaCartVelocity-3.dir/test/servo-franka/testFrankaCartVelocity-3.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable testFrankaCartVelocity-3[0m
+[ 44%] Built target testFrankaCartVelocity-3
+[ 44%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaCartVelocity.dir/test/servo-franka/testFrankaCartVelocity.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaCartForceTorque-2.dir/test/servo-franka/testFrankaCartForceTorque-2.cpp.o[0m
+[ 44%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaGetPose.dir/test/servo-franka/testFrankaGetPose.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable testFrankaCartForceTorque-2[0m
+[ 45%] [32m[1mLinking CXX executable testFrankaCartVelocity[0m
+[ 45%] Built target testFrankaCartForceTorque-2
+[ 45%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotAfma6Pose.dir/test/servo-afma6/testRobotAfma6Pose.cpp.o[0m
+[ 45%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotFlirPtu.dir/test/servo-flir-ptu/testRobotFlirPtu.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable testRobotFlirPtu[0m
+[ 45%] Built target testFrankaCartVelocity
+[ 45%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaJointPosition.dir/test/servo-franka/testFrankaJointPosition.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable testFrankaGetPose[0m
+[ 45%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaJointTorque.dir/test/servo-franka/testFrankaJointTorque.cpp.o[0m
+[ 45%] Built target testFrankaGetPose
+[ 45%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotAfma6.dir/test/servo-afma6/testRobotAfma6.cpp.o[0m
+[ 45%] [32mBuilding CXX object modules/robot/CMakeFiles/testAfma6.dir/test/servo-afma6/testAfma6.cpp.o[0m
+[ 45%] Built target testRobotFlirPtu
+[ 45%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaJointVelocity-2.dir/test/servo-franka/testFrankaJointVelocity-2.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable testFrankaJointPosition[0m
+[ 45%] Built target testFrankaJointPosition
+[ 45%] [32m[1mLinking CXX executable testFrankaJointTorque[0m
+[ 45%] [32m[1mLinking CXX executable testRobotAfma6[0m
+[ 46%] [32m[1mLinking CXX executable testFrankaJointVelocity-2[0m
+[ 46%] [32m[1mLinking CXX executable testAfma6[0m
+[ 46%] Built target testFrankaJointTorque
+[ 46%] Built target testFrankaJointVelocity-2
+[ 46%] Built target testAfma6
+[ 46%] Built target testRobotAfma6
+[ 46%] [32m[1mLinking CXX executable testRobotAfma6Pose[0m
+[ 46%] Built target testRobotAfma6Pose
+[ 46%] [32mBuilding CXX object modules/robot/CMakeFiles/testPixhawkDronePositionRelativeControl.dir/test/servo-pixhawk/testPixhawkDronePositionRelativeControl.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable testPixhawkDronePositionRelativeControl[0m
+[ 46%] [32mBuilding CXX object modules/robot/CMakeFiles/testPixhawkDroneTakeoff.dir/test/servo-pixhawk/testPixhawkDroneTakeoff.cpp.o[0m
+[ 46%] Built target testPixhawkDronePositionRelativeControl
+[ 46%] [32mBuilding CXX object modules/robot/CMakeFiles/testPixhawkDronePositionAbsoluteControl.dir/test/servo-pixhawk/testPixhawkDronePositionAbsoluteControl.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable testPixhawkDroneTakeoff[0m
+[ 46%] [32m[1mLinking CXX executable testPixhawkDronePositionAbsoluteControl[0m
+[ 46%] [32mBuilding CXX object modules/robot/CMakeFiles/testPixhawkDroneVelocityControl.dir/test/servo-pixhawk/testPixhawkDroneVelocityControl.cpp.o[0m
+[ 46%] Built target testPixhawkDroneTakeoff
+[ 47%] [32mBuilding CXX object modules/robot/CMakeFiles/testPixhawkDroneKeyboard.dir/test/servo-pixhawk/testPixhawkDroneKeyboard.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable testPixhawkDroneVelocityControl[0m
+[ 47%] Built target testPixhawkDronePositionAbsoluteControl
+[ 47%] [32mBuilding CXX object modules/robot/CMakeFiles/testPixhawkRoverVelocityControl.dir/test/servo-pixhawk/testPixhawkRoverVelocityControl.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable testPixhawkDroneKeyboard[0m
+[ 47%] [32m[1mLinking CXX executable testPixhawkRoverVelocityControl[0m
+[ 47%] [32mBuilding CXX object modules/robot/CMakeFiles/testPololuPosition.dir/test/servo-pololu/testPololuPosition.cpp.o[0m
+[ 47%] Built target testPixhawkDroneVelocityControl
+[ 47%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaJointVelocityLimits.dir/test/servo-franka/testFrankaJointVelocityLimits.cpp.o[0m
+[ 47%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaJointVelocity.dir/test/servo-franka/testFrankaJointVelocity.cpp.o[0m
+[ 47%] Built target testPixhawkDroneKeyboard
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testPololuVelocity.dir/test/servo-pololu/testPololuVelocity.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testPololuPosition[0m
+[ 48%] Built target testPixhawkRoverVelocityControl
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testUniversalRobotsCartPosition.dir/test/servo-universal-robots/testUniversalRobotsCartPosition.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testUniversalRobotsCartPosition[0m
+[ 48%] [32m[1mLinking CXX executable testPololuVelocity[0m
+[ 48%] Built target testPololuPosition
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testUniversalRobotsCartVelocity.dir/test/servo-universal-robots/testUniversalRobotsCartVelocity.cpp.o[0m
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testFrankaJointVelocity-3.dir/test/servo-franka/testFrankaJointVelocity-3.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testFrankaJointVelocity[0m
+[ 48%] [32m[1mLinking CXX executable testUniversalRobotsCartVelocity[0m
+[ 48%] Built target testPololuVelocity
+[ 48%] [32m[1mLinking CXX executable testFrankaJointVelocityLimits[0m
+[ 48%] Built target testUniversalRobotsCartPosition
+[ 48%] Built target testFrankaJointVelocity
+[ 48%] Built target testUniversalRobotsCartVelocity
+[ 48%] Built target testFrankaJointVelocityLimits
+[ 48%] [32m[1mLinking CXX executable testFrankaJointVelocity-3[0m
+[ 48%] Built target testFrankaJointVelocity-3
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotViper850.dir/test/servo-viper/testRobotViper850.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testRobotViper850[0m
+[ 48%] Built target testRobotViper850
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotViper850Pose.dir/test/servo-viper/testRobotViper850Pose.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testRobotViper850Pose[0m
+[ 48%] Built target testRobotViper850Pose
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testViper650.dir/test/servo-viper/testViper650.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testViper650[0m
+[ 48%] Built target testViper650
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testViper850.dir/test/servo-viper/testViper850.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testViper850[0m
+[ 48%] Built target testViper850
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testVirtuose.dir/test/virtuose/testVirtuose.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testVirtuose[0m
+[ 48%] Built target testVirtuose
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testVirtuoseAfma6.dir/test/virtuose/testVirtuoseAfma6.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testVirtuoseAfma6[0m
+[ 48%] Built target testVirtuoseAfma6
+[ 48%] [32mBuilding CXX object modules/robot/CMakeFiles/testVirtuoseHapticBox.dir/test/virtuose/testVirtuoseHapticBox.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable testVirtuoseHapticBox[0m
+[ 48%] Built target testVirtuoseHapticBox
+[ 49%] [32mBuilding CXX object modules/robot/CMakeFiles/testVirtuoseJointLimits.dir/test/virtuose/testVirtuoseJointLimits.cpp.o[0m
+[ 49%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotViper850-frames.dir/test/servo-viper/testRobotViper850-frames.cpp.o[0m
+[ 49%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotViper650-frames.dir/test/servo-viper/testRobotViper650-frames.cpp.o[0m
+[ 49%] [32m[1mLinking CXX executable testRobotViper850-frames[0m
+[ 49%] [32m[1mLinking CXX executable testRobotViper650-frames[0m
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testUniversalRobotsJointVelocity.dir/test/servo-universal-robots/testUniversalRobotsJointVelocity.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testVirtuosePeriodicFunction.dir/test/virtuose/testVirtuosePeriodicFunction.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable testUniversalRobotsJointVelocity[0m
+[ 50%] Built target testRobotViper850-frames
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testUniversalRobotsJointPosition.dir/test/servo-universal-robots/testUniversalRobotsJointPosition.cpp.o[0m
+[ 50%] Built target testRobotViper650-frames
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testVirtuoseWithGlove.dir/test/virtuose/testVirtuoseWithGlove.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable testVirtuoseJointLimits[0m
+[ 50%] [32m[1mLinking CXX executable testUniversalRobotsJointPosition[0m
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testUniversalRobotsGetData.dir/test/servo-universal-robots/testUniversalRobotsGetData.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/depth/vpMbDepthDenseTracker.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable testUniversalRobotsGetData[0m
+[ 50%] [32m[1mLinking CXX executable testVirtuosePeriodicFunction[0m
+[ 50%] Built target testUniversalRobotsJointVelocity
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/depth/vpMbDepthNormalTracker.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotAfma4.dir/test/servo-afma4/testRobotAfma4.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testAfma4.dir/test/servo-afma4/testAfma4.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testQbSoftHand.dir/test/qbdevice/testQbSoftHand.cpp.o[0m
+[ 50%] Built target testVirtuoseJointLimits
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/depth/vpMbtFaceDepthDense.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/robot/CMakeFiles/testRobotBebop2.dir/test/bebop2/testRobotBebop2.cpp.o[0m
+[ 50%] Built target testUniversalRobotsJointPosition
+[ 50%] [32mBuilding CXX object modules/core/CMakeFiles/testTime.dir/test/tools/time/testTime.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable testVirtuoseWithGlove[0m
+[ 50%] [32m[1mLinking CXX executable testTime[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/depth/vpMbtFaceDepthNormal.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/core/CMakeFiles/testSerialWrite.dir/test/tools/serial/testSerialWrite.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/core/CMakeFiles/testSerialRead.dir/test/tools/serial/testSerialRead.cpp.o[0m
+[ 50%] Built target testUniversalRobotsGetData
+[ 50%] Built target testVirtuosePeriodicFunction
+[ 50%] [32m[1mLinking CXX executable testSerialWrite[0m
+[ 50%] [32m[1mLinking CXX executable testSerialRead[0m
+[ 50%] Built target testTime
+[ 50%] [32m[1mLinking CXX executable testQbSoftHand[0m
+[ 50%] [32m[1mLinking CXX executable testAfma4[0m
+[ 50%] [32m[1mLinking CXX executable testRobotAfma4[0m
+[ 50%] Built target testSerialWrite
+[ 50%] Built target testSerialRead
+[ 50%] [32m[1mLinking CXX executable testRobotBebop2[0m
+[ 50%] Built target testVirtuoseWithGlove
+[ 50%] Built target testQbSoftHand
+[ 50%] Built target testAfma4
+[ 50%] Built target testRobotAfma4
+[ 50%] Built target testRobotBebop2
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/klt/vpMbtDistanceKltPoints.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/klt/vpMbtDistanceKltCylinder.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/vpMbGenericTracker.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/klt/vpMbKltTracker.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/hybrid/vpMbEdgeKltTracker.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/vpMbtXmlGenericParser.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/vpMbtPolygon.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/vpMbTracker.cpp.o[0m
+[ 50%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/vpMbScanLine.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/edge/vpMbtMeEllipse.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/edge/vpMbtMeLine.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/edge/vpMbtDistanceLine.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/edge/vpMbtDistanceCylinder.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/edge/vpMbtDistanceCircle.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/mbt/CMakeFiles/visp_mbt.dir/src/edge/vpMbEdgeTracker.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library ../../lib/libvisp_mbt.so[0m
+[ 51%] Built target visp_mbt
+[ 51%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/ssd/vpTemplateTrackerSSD.cpp.o[0m
+[ 51%] [32mBuilding CXX object modules/detection/CMakeFiles/visp_detection.dir/src/barcode/vpDetectorDataMatrixCode.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/detection/CMakeFiles/visp_detection.dir/src/barcode/vpDetectorQRCode.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/vision/CMakeFiles/testPose.dir/test/pose/testPose.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/detection/CMakeFiles/visp_detection.dir/src/dnn/vpDetectorDNNOpenCV.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/vision/CMakeFiles/testFindMatch.dir/test/pose/testFindMatch.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/ssd/vpTemplateTrackerSSDESM.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/vision/CMakeFiles/testPoseRansac2.dir/test/pose-with-dataset/testPoseRansac2.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable testPose[0m
+[ 52%] Built target testPose
+[ 52%] [32m[1mLinking CXX executable testFindMatch[0m
+[ 52%] [32mBuilding CXX object modules/vision/CMakeFiles/testPoseFeatures.dir/test/pose/testPoseFeatures.cpp.o[0m
+[ 52%] Built target testFindMatch
+[ 52%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/ssd/vpTemplateTrackerSSDForwardAdditional.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/vision/CMakeFiles/testXmlConfigParserKeyPoint.dir/test/keypoint-with-dataset/testXmlConfigParserKeyPoint.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable testXmlConfigParserKeyPoint[0m
+[ 52%] Built target testXmlConfigParserKeyPoint
+[ 52%] [32m[1mLinking CXX executable testPoseFeatures[0m
+[ 52%] Built target testPoseFeatures
+[ 52%] [32mBuilding CXX object modules/detection/CMakeFiles/visp_detection.dir/src/face/vpDetectorFace.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/ssd/vpTemplateTrackerSSDForwardCompositional.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/ssd/vpTemplateTrackerSSDInverseCompositional.cpp.o[0m
+[ 52%] [32mBuilding CXX object modules/vision/CMakeFiles/testPoseRansac.dir/test/pose/testPoseRansac.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testKeyPoint-7.dir/test/keypoint-with-dataset/testKeyPoint-7.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testKeyPoint.dir/test/keypoint-with-dataset/testKeyPoint.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/detection/CMakeFiles/visp_detection.dir/src/tag/vpDetectorAprilTag.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testKeyPoint-5.dir/test/keypoint-with-dataset/testKeyPoint-5.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testKeyPoint-6.dir/test/keypoint-with-dataset/testKeyPoint-6.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testKeyPoint-3.dir/test/keypoint-with-dataset/testKeyPoint-3.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testKeyPoint-4.dir/test/keypoint-with-dataset/testKeyPoint-4.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testKeyPoint-2.dir/test/keypoint-with-dataset/testKeyPoint-2.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/vision/CMakeFiles/testDisplacement.dir/test/homography/testDisplacement.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpCLAHE.cpp.o[0m
+[ 53%] [32mBuilding CXX object modules/dnn_tracker/CMakeFiles/visp_dnn_tracker.dir/src/vpMegaPose.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable testPoseRansac[0m
+[ 53%] Built target testPoseRansac
+[ 53%] [32mBuilding CXX object modules/detection/CMakeFiles/visp_detection.dir/src/vpDetectorBase.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable testDisplacement[0m
+[ 54%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/tools/vpTemplateTrackerBSpline.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable testKeyPoint[0m
+[ 54%] Built target testDisplacement
+[ 54%] [32m[1mLinking CXX executable testKeyPoint-7[0m
+[ 54%] Built target testKeyPoint
+[ 54%] [32m[1mLinking CXX shared library ../../lib/libvisp_detection.so[0m
+[ 54%] Built target testKeyPoint-7
+[ 54%] [32m[1mLinking CXX executable testKeyPoint-3[0m
+[ 54%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/tools/vpTemplateTrackerTriangle.cpp.o[0m
+[ 54%] Built target visp_detection
+[ 54%] [32m[1mLinking CXX executable testKeyPoint-6[0m
+[ 54%] [32m[1mLinking CXX executable testKeyPoint-5[0m
+[ 54%] Built target testKeyPoint-3
+[ 54%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpContours.cpp.o[0m
+[ 54%] Built target testKeyPoint-6
+[ 54%] Built target testKeyPoint-5
+[ 54%] [32mBuilding CXX object modules/dnn_tracker/CMakeFiles/visp_dnn_tracker.dir/src/vpMegaPoseTracker.cpp.o[0m
+[ 54%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/tools/vpTemplateTrackerZone.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable testPoseRansac2[0m
+[ 54%] Built target testPoseRansac2
+[ 55%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/vpTemplateTracker.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpImgproc.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library ../../lib/libvisp_dnn_tracker.so[0m
+[ 56%] [32m[1mLinking CXX executable testKeyPoint-4[0m
+[ 56%] Built target visp_dnn_tracker
+[ 56%] [32m[1mLinking CXX executable testKeyPoint-2[0m
+[ 56%] Built target testKeyPoint-4
+[ 56%] Built target testKeyPoint-2
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/warp/vpTemplateTrackerWarpAffine.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpMorph.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/warp/vpTemplateTrackerWarp.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpRetinex.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/warp/vpTemplateTrackerWarpHomography.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/warp/vpTemplateTrackerWarpHomographySL3.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpFloodFill.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpThreshold.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpConnectedComponents.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/warp/vpTemplateTrackerWarpRT.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/warp/vpTemplateTrackerWarpSRT.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/warp/vpTemplateTrackerWarpTranslation.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/zncc/vpTemplateTrackerZNCC.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/visp_imgproc.dir/src/vpCircleHoughTransform.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/zncc/vpTemplateTrackerZNCCInverseCompositional.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt/CMakeFiles/visp_tt.dir/src/zncc/vpTemplateTrackerZNCCForwardAdditional.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library ../../lib/libvisp_tt.so[0m
+[ 56%] Built target visp_tt
+[ 56%] [32mBuilding CXX object modules/detection/CMakeFiles/testAprilTag.dir/test/apriltag-with-dataset/testAprilTag.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable testAprilTag[0m
+[ 56%] Built target testAprilTag
+[ 56%] [32mBuilding CXX object modules/tt_mi/CMakeFiles/visp_tt_mi.dir/src/mi/vpTemplateTrackerMIESM.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/tt_mi/CMakeFiles/visp_tt_mi.dir/src/mi/vpTemplateTrackerMI.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library ../../lib/libvisp_imgproc.so[0m
+[ 56%] Built target visp_imgproc
+[ 56%] [32mBuilding CXX object modules/tt_mi/CMakeFiles/visp_tt_mi.dir/src/tools/vpTemplateTrackerMIBSpline.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/testConnectedComponents.dir/test/with-dataset/testConnectedComponents.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/testContours.dir/test/with-dataset/testContours.cpp.o[0m
+[ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/testAutoThreshold.dir/test/with-dataset/testAutoThreshold.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/tt_mi/CMakeFiles/visp_tt_mi.dir/src/mi/vpTemplateTrackerMIInverseCompositional.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/tt_mi/CMakeFiles/visp_tt_mi.dir/src/mi/vpTemplateTrackerMIForwardAdditional.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/tt_mi/CMakeFiles/visp_tt_mi.dir/src/mi/vpTemplateTrackerMIForwardCompositional.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/detection/CMakeFiles/perfApriltagDetection.dir/test/apriltag-with-dataset/perfApriltagDetection.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/imgproc/CMakeFiles/testFloodFill.dir/test/with-dataset/testFloodFill.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/testMbtJsonSettings.dir/test/generic-with-dataset/testMbtJsonSettings.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/testTukeyEstimator.dir/test/testTukeyEstimator.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/testMbtXmlGenericParser.dir/test/generic-with-dataset/testMbtXmlGenericParser.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/testGenericTrackerDepth.dir/test/generic-with-dataset/testGenericTrackerDepth.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/testGenericTrackerDeterminist.dir/test/generic-with-dataset/testGenericTrackerDeterminist.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/testGenericTrackerCAOParsing.dir/test/generic-with-dataset/testGenericTrackerCAOParsing.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/testGenericTracker.dir/test/generic-with-dataset/testGenericTracker.cpp.o[0m
+[ 57%] [32mBuilding CXX object modules/mbt/CMakeFiles/perfGenericTracker.dir/test/generic-with-dataset/perfGenericTracker.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable testGenericTrackerCAOParsing[0m
+[ 57%] [32m[1mLinking CXX executable testConnectedComponents[0m
+[ 57%] [32m[1mLinking CXX executable testTukeyEstimator[0m
+[ 57%] Built target testConnectedComponents
+[ 57%] [32m[1mLinking CXX executable testContours[0m
+[ 57%] Built target testGenericTrackerCAOParsing
+[ 57%] [32m[1mLinking CXX executable testAutoThreshold[0m
+[ 57%] Built target testTukeyEstimator
+[ 57%] [32m[1mLinking CXX executable testFloodFill[0m
+[ 57%] Built target testContours
+[ 57%] Built target testAutoThreshold
+[ 57%] Built target testFloodFill
+[ 57%] [32m[1mLinking CXX shared library ../../lib/libvisp_tt_mi.so[0m
+[ 57%] Built target visp_tt_mi
+[ 57%] [32m[1mLinking CXX executable testMbtXmlGenericParser[0m
+[ 57%] [32m[1mLinking CXX executable testGenericTrackerDepth[0m
+[ 57%] Built target testMbtXmlGenericParser
+[ 57%] Built target testGenericTrackerDepth
+[ 57%] [32m[1mLinking CXX executable testGenericTracker[0m
+[ 57%] Built target testGenericTracker
+[ 57%] [32m[1mLinking CXX executable perfApriltagDetection[0m
+[ 57%] Built target perfApriltagDetection
+[ 57%] [32m[1mLinking CXX executable testGenericTrackerDeterminist[0m
+[ 57%] Built target testGenericTrackerDeterminist
+[ 57%] [32m[1mLinking CXX executable testMbtJsonSettings[0m
+[ 57%] Built target testMbtJsonSettings
+[ 57%] [32m[1mLinking CXX executable perfGenericTracker[0m
+[ 57%] Built target perfGenericTracker
+[ 57%] [32mBuilding CXX object example/device/display/CMakeFiles/displayD3D.dir/displayD3D.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable displayD3D[0m
+[ 57%] Built target displayD3D
+[ 57%] [32mBuilding CXX object example/device/display/CMakeFiles/displayGTK.dir/displayGTK.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable displayGTK[0m
+[ 57%] Built target displayGTK
+[ 57%] [32mBuilding CXX object example/device/display/CMakeFiles/displayX.dir/displayX.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable displayX[0m
+[ 57%] Built target displayX
+[ 58%] [32mBuilding CXX object example/device/display/CMakeFiles/displayOpenCV.dir/displayOpenCV.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable displayOpenCV[0m
+[ 58%] Built target displayOpenCV
+[ 58%] [32mBuilding CXX object example/device/display/CMakeFiles/displayXMulti.dir/displayXMulti.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable displayXMulti[0m
+[ 58%] Built target displayXMulti
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/getRealSense2Info.dir/getRealSense2Info.cpp.o[0m
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grab1394Two.dir/grab1394Two.cpp.o[0m
+[ 58%] [32mBuilding CXX object example/device/display/CMakeFiles/displayGDI.dir/displayGDI.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable displayGDI[0m
+[ 58%] [32mBuilding CXX object example/device/display/CMakeFiles/displaySequence.dir/displaySequence.cpp.o[0m
+[ 58%] [32mBuilding CXX object example/coin-simulator/CMakeFiles/simulateCircle2DCamVelocity.dir/simulateCircle2DCamVelocity.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable simulateCircle2DCamVelocity[0m
+[ 58%] [32m[1mLinking CXX executable getRealSense2Info[0m
+[ 58%] Built target displayGDI
+[ 58%] [32mBuilding CXX object example/coin-simulator/CMakeFiles/simulateFourPoints2DPolarCamVelocity.dir/simulateFourPoints2DPolarCamVelocity.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable simulateFourPoints2DPolarCamVelocity[0m
+[ 58%] Built target getRealSense2Info
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grab1394CMU.dir/grab1394CMU.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable grab1394Two[0m
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabDisk.dir/grabDisk.cpp.o[0m
+[ 58%] Built target grab1394Two
+[ 58%] Built target simulateCircle2DCamVelocity
+[ 58%] Built target simulateFourPoints2DPolarCamVelocity
+[ 58%] [32m[1mLinking CXX executable displaySequence[0m
+[ 58%] Built target displaySequence
+[ 58%] [32m[1mLinking CXX executable grab1394CMU[0m
+[ 58%] Built target grab1394CMU
+[ 58%] [32m[1mLinking CXX executable grabDisk[0m
+[ 58%] Built target grabDisk
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabRealSense2.dir/grabRealSense2.cpp.o[0m
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabRealSense2_T265.dir/grabRealSense2_T265.cpp.o[0m
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabFlyCapture.dir/grabFlyCapture.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable grabFlyCapture[0m
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabDirectShowMulti.dir/grabDirectShowMulti.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable grabDirectShowMulti[0m
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabDirectShow.dir/grabDirectShow.cpp.o[0m
+[ 58%] Built target grabFlyCapture
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabV4l2.dir/grabV4l2.cpp.o[0m
+[ 58%] [32mBuilding CXX object example/coin-simulator/CMakeFiles/simulateFourPoints2DCartesianCamVelocity.dir/simulateFourPoints2DCartesianCamVelocity.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable grabDirectShow[0m
+[ 58%] [32m[1mLinking CXX executable simulateFourPoints2DCartesianCamVelocity[0m
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/grabV4l2MultiCpp11Thread.dir/grabV4l2MultiCpp11Thread.cpp.o[0m
+[ 58%] Built target grabDirectShowMulti
+[ 58%] [32mBuilding CXX object example/calibration/CMakeFiles/calibrate-hand-eye.dir/calibrate-hand-eye.cpp.o[0m
+[ 58%] Built target grabDirectShow
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/readRealSenseData.dir/readRealSenseData.cpp.o[0m
+[ 58%] [32mBuilding CXX object example/calibration/CMakeFiles/calibrate-camera.dir/calibrate-camera.cpp.o[0m
+[ 58%] Built target simulateFourPoints2DCartesianCamVelocity
+[ 58%] [32mBuilding CXX object example/device/framegrabber/CMakeFiles/saveRealSenseData.dir/saveRealSenseData.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable grabRealSense2_T265[0m
+[ 58%] [32mBuilding CXX object example/device/kinect/CMakeFiles/kinectAcquisition.dir/kinectAcquisition.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable kinectAcquisition[0m
+[ 58%] [32m[1mLinking CXX executable calibrate-hand-eye[0m
+[ 58%] [32mBuilding CXX object demo/wireframe-simulator/CMakeFiles/servoSimuSphere.dir/servoSimuSphere.cpp.o[0m
+[ 58%] Built target grabRealSense2_T265
+[ 58%] [32mBuilding CXX object demo/wireframe-simulator/CMakeFiles/servoSimuCylinder.dir/servoSimuCylinder.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable grabRealSense2[0m
+[ 59%] [32m[1mLinking CXX executable grabV4l2[0m
+[ 59%] Built target calibrate-hand-eye
+[ 59%] [32mBuilding CXX object example/device/laserscanner/CMakeFiles/SickLDMRS-Acq.dir/SickLDMRS-Acq.cpp.o[0m
+[ 59%] [32mBuilding CXX object demo/wireframe-simulator/CMakeFiles/servoSimu4Points.dir/servoSimu4Points.cpp.o[0m
+[ 59%] Built target grabV4l2
+[ 59%] Built target kinectAcquisition
+[ 59%] Built target grabRealSense2
+[ 59%] [32m[1mLinking CXX executable SickLDMRS-Acq[0m
+[ 59%] Built target SickLDMRS-Acq
+[ 59%] [32m[1mLinking CXX executable grabV4l2MultiCpp11Thread[0m
+[ 59%] Built target grabV4l2MultiCpp11Thread
+[ 59%] [32m[1mLinking CXX executable servoSimuSphere[0m
+[ 59%] [32m[1mLinking CXX executable calibrate-camera[0m
+[ 59%] [32m[1mLinking CXX executable servoSimuCylinder[0m
+[ 59%] Built target servoSimuSphere
+[ 59%] Built target servoSimuCylinder
+[ 59%] Built target calibrate-camera
+[ 59%] [32m[1mLinking CXX executable servoSimu4Points[0m
+[ 59%] [32m[1mLinking CXX executable readRealSenseData[0m
+[ 59%] Built target servoSimu4Points
+[ 59%] Built target readRealSenseData
+[ 59%] [32m[1mLinking CXX executable saveRealSenseData[0m
+[ 59%] Built target saveRealSenseData
+[ 59%] [32mBuilding CXX object example/kalman/CMakeFiles/ukf-nonlinear-example.dir/ukf-nonlinear-example.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable ukf-nonlinear-example[0m
+[ 59%] Built target ukf-nonlinear-example
+[ 59%] [32mBuilding CXX object example/kalman/CMakeFiles/ukf-nonlinear-complex-example.dir/ukf-nonlinear-complex-example.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable ukf-nonlinear-complex-example[0m
+[ 59%] Built target ukf-nonlinear-complex-example
+[ 59%] [32mBuilding CXX object example/manual/CMakeFiles/manGeometricFeatures.dir/geometric-features/manGeometricFeatures.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable manGeometricFeatures[0m
+[ 59%] Built target manGeometricFeatures
+[ 59%] [32mBuilding CXX object example/manual/CMakeFiles/HelloWorld.dir/hello-world/CMake/HelloWorld.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable HelloWorld[0m
+[ 59%] Built target HelloWorld
+[ 59%] [32mBuilding CXX object example/manual/CMakeFiles/manDisplay.dir/image-manipulation/manDisplay.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable manDisplay[0m
+[ 59%] Built target manDisplay
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manGrab1394.dir/image-manipulation/manGrab1394.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable manGrab1394[0m
+[ 60%] Built target manGrab1394
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manGrabDirectShow.dir/image-manipulation/manGrabDirectShow.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable manGrabDirectShow[0m
+[ 60%] Built target manGrabDirectShow
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manGrabDisk.dir/image-manipulation/manGrabDisk.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable manGrabDisk[0m
+[ 60%] Built target manGrabDisk
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manGrabV4l2.dir/image-manipulation/manGrabV4l2.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable manGrabV4l2[0m
+[ 60%] Built target manGrabV4l2
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/HelloWorldOgre.dir/ogre/HelloWorldOgre.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable HelloWorldOgre[0m
+[ 60%] Built target HelloWorldOgre
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/HelloWorldOgreAdvanced.dir/ogre/HelloWorldOgreAdvanced.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manServo4PointsDisplay.dir/simulation/manServo4PointsDisplay.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable HelloWorldOgreAdvanced[0m
+[ 60%] Built target HelloWorldOgreAdvanced
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manSimu4Dots.dir/simulation/manSimu4Dots.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable manSimu4Dots[0m
+[ 60%] [32m[1mLinking CXX executable manServo4PointsDisplay[0m
+[ 60%] [32mBuilding CXX object example/kalman/CMakeFiles/ukf-linear-example.dir/ukf-linear-example.cpp.o[0m
+[ 60%] Built target manSimu4Dots
+[ 60%] [32mBuilding CXX object example/image/CMakeFiles/imageDiskRW.dir/imageDiskRW.cpp.o[0m
+[ 60%] Built target manServo4PointsDisplay
+[ 60%] [32m[1mLinking CXX executable ukf-linear-example[0m
+[ 60%] Built target ukf-linear-example
+[ 60%] [32m[1mLinking CXX executable imageDiskRW[0m
+[ 60%] Built target imageDiskRW
+[ 60%] [32mBuilding CXX object example/math/CMakeFiles/exponentialMap.dir/exponentialMap.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable exponentialMap[0m
+[ 60%] Built target exponentialMap
+[ 60%] [32mBuilding CXX object example/math/CMakeFiles/BSpline.dir/BSpline.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable BSpline[0m
+[ 60%] Built target BSpline
+[ 60%] [32mBuilding CXX object example/math/CMakeFiles/quadprog_eq.dir/quadprog_eq.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable quadprog_eq[0m
+[ 60%] Built target quadprog_eq
+[ 60%] [32mBuilding CXX object example/math/CMakeFiles/quadprog.dir/quadprog.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable quadprog[0m
+[ 60%] Built target quadprog
+[ 60%] [32mBuilding CXX object example/math/CMakeFiles/random.dir/random.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable random[0m
+[ 60%] Built target random
+[ 60%] [32mBuilding CXX object example/moments/image/CMakeFiles/servoMomentImage.dir/servoMomentImage.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable servoMomentImage[0m
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manSimu4Points.dir/simulation/manSimu4Points.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/manual/CMakeFiles/manServoMomentsSimple.dir/moments/manServoMomentsSimple.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/moments/points/CMakeFiles/servoMomentPoints.dir/servoMomentPoints.cpp.o[0m
+[ 60%] Built target servoMomentImage
+[ 60%] [32mBuilding CXX object example/homography/CMakeFiles/homographyRansac2DObject.dir/homographyRansac2DObject.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable manSimu4Points[0m
+[ 60%] [32mBuilding CXX object example/homography/CMakeFiles/homographyHLM3DObject.dir/homographyHLM3DObject.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/moments/polygon/CMakeFiles/servoMomentPolygon.dir/servoMomentPolygon.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/homography/CMakeFiles/homographyHartleyDLT2DObject.dir/homographyHartleyDLT2DObject.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/homography/CMakeFiles/homographyHLM2DObject.dir/homographyHLM2DObject.cpp.o[0m
+[ 60%] Built target manSimu4Points
+[ 60%] [32mBuilding CXX object example/direct-visual-servoing/CMakeFiles/photometricVisualServoingWithoutVpServo.dir/photometricVisualServoingWithoutVpServo.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/direct-visual-servoing/CMakeFiles/photometricVisualServoing.dir/photometricVisualServoing.cpp.o[0m
+[ 60%] [32mBuilding CXX object example/device/light/CMakeFiles/ringLight.dir/ringLight.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable manServoMomentsSimple[0m
+[ 61%] [32m[1mLinking CXX executable homographyRansac2DObject[0m
+[ 61%] [32mBuilding CXX object example/ogre-simulator/CMakeFiles/AROgre.dir/AROgre.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable ringLight[0m
+[ 61%] [32mBuilding CXX object apps/calibration/CMakeFiles/visp-compute-hand-eye-calibration.dir/visp-compute-hand-eye-calibration.cpp.o[0m
+[ 61%] [32mBuilding CXX object apps/calibration/CMakeFiles/visp-acquire-franka-calib-data.dir/visp-acquire-franka-calib-data.cpp.o[0m
+[ 61%] [32mBuilding CXX object example/device/laserscanner/CMakeFiles/SickLDMRS-Process.dir/SickLDMRS-Process.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable homographyHLM3DObject[0m
+[ 61%] Built target manServoMomentsSimple
+[ 61%] Built target homographyRansac2DObject
+[ 61%] Built target ringLight
+[ 61%] [32m[1mLinking CXX executable homographyHLM2DObject[0m
+[ 61%] [32m[1mLinking CXX executable homographyHartleyDLT2DObject[0m
+[ 61%] Built target homographyHLM3DObject
+[ 61%] Built target homographyHartleyDLT2DObject
+[ 61%] Built target homographyHLM2DObject
+[ 61%] [32m[1mLinking CXX executable servoMomentPoints[0m
+[ 61%] [32m[1mLinking CXX executable visp-compute-hand-eye-calibration[0m
+[ 61%] [32m[1mLinking CXX executable servoMomentPolygon[0m
+[ 61%] Built target servoMomentPoints
+[ 61%] Built target visp-compute-hand-eye-calibration
+[ 61%] [32m[1mLinking CXX executable photometricVisualServoingWithoutVpServo[0m
+[ 61%] Built target servoMomentPolygon
+[ 61%] Built target photometricVisualServoingWithoutVpServo
+[ 61%] [32m[1mLinking CXX executable photometricVisualServoing[0m
+[ 62%] [32m[1mLinking CXX executable SickLDMRS-Process[0m
+[ 62%] Built target photometricVisualServoing
+[ 62%] Built target SickLDMRS-Process
+[ 62%] [32m[1mLinking CXX executable visp-acquire-franka-calib-data[0m
+[ 62%] Built target visp-acquire-franka-calib-data
+[ 62%] [32m[1mLinking CXX executable AROgre[0m
+[ 62%] Built target AROgre
+[ 62%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuFourPoints2DCamVelocity.dir/servoSimuFourPoints2DCamVelocity.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable servoSimuFourPoints2DCamVelocity[0m
+[ 62%] Built target servoSimuFourPoints2DCamVelocity
+[ 62%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuFourPoints2DCamVelocityDisplay.dir/servoSimuFourPoints2DCamVelocityDisplay.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable servoSimuFourPoints2DCamVelocityDisplay[0m
+[ 62%] Built target servoSimuFourPoints2DCamVelocityDisplay
+[ 62%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuLine2DCamVelocityDisplay.dir/servoSimuLine2DCamVelocityDisplay.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable servoSimuLine2DCamVelocityDisplay[0m
+[ 62%] Built target servoSimuLine2DCamVelocityDisplay
+[ 62%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuPoint2DCamVelocity1.dir/servoSimuPoint2DCamVelocity1.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable servoSimuPoint2DCamVelocity1[0m
+[ 62%] Built target servoSimuPoint2DCamVelocity1
+[ 62%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuPoint2DCamVelocity2.dir/servoSimuPoint2DCamVelocity2.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable servoSimuPoint2DCamVelocity2[0m
+[ 62%] Built target servoSimuPoint2DCamVelocity2
+[ 62%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuPoint2DCamVelocity3.dir/servoSimuPoint2DCamVelocity3.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable servoSimuPoint2DCamVelocity3[0m
+[ 62%] Built target servoSimuPoint2DCamVelocity3
+[ 62%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuPoint2DhalfCamVelocity1.dir/servoSimuPoint2DhalfCamVelocity1.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable servoSimuPoint2DhalfCamVelocity1[0m
+[ 63%] Built target servoSimuPoint2DhalfCamVelocity1
+[ 63%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuPoint2DhalfCamVelocity2.dir/servoSimuPoint2DhalfCamVelocity2.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable servoSimuPoint2DhalfCamVelocity2[0m
+[ 63%] Built target servoSimuPoint2DhalfCamVelocity2
+[ 63%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuPoint2DhalfCamVelocity3.dir/servoSimuPoint2DhalfCamVelocity3.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable servoSimuPoint2DhalfCamVelocity3[0m
+[ 63%] Built target servoSimuPoint2DhalfCamVelocity3
+[ 63%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuPoint3DCamVelocity.dir/servoSimuPoint3DCamVelocity.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable servoSimuPoint3DCamVelocity[0m
+[ 63%] Built target servoSimuPoint3DCamVelocity
+[ 63%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuSphere2DCamVelocity.dir/servoSimuSphere2DCamVelocity.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable servoSimuSphere2DCamVelocity[0m
+[ 63%] Built target servoSimuSphere2DCamVelocity
+[ 63%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuSphere2DCamVelocityDisplay.dir/servoSimuSphere2DCamVelocityDisplay.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable servoSimuSphere2DCamVelocityDisplay[0m
+[ 63%] Built target servoSimuSphere2DCamVelocityDisplay
+[ 63%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuSquareLine2DCamVelocityDisplay.dir/servoSimuSquareLine2DCamVelocityDisplay.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable servoSimuSquareLine2DCamVelocityDisplay[0m
+[ 64%] Built target servoSimuSquareLine2DCamVelocityDisplay
+[ 64%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuThetaUCamVelocity.dir/servoSimuThetaUCamVelocity.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable servoSimuThetaUCamVelocity[0m
+[ 64%] Built target servoSimuThetaUCamVelocity
+[ 64%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimu3D_cdMc_CamVelocityWithoutVpServo.dir/servoSimu3D_cdMc_CamVelocityWithoutVpServo.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable servoSimu3D_cdMc_CamVelocityWithoutVpServo[0m
+[ 64%] Built target servoSimu3D_cdMc_CamVelocityWithoutVpServo
+[ 64%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimu3D_cMcd_CamVelocityWithoutVpServo.dir/servoSimu3D_cMcd_CamVelocityWithoutVpServo.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable servoSimu3D_cMcd_CamVelocityWithoutVpServo[0m
+[ 64%] Built target servoSimu3D_cMcd_CamVelocityWithoutVpServo
+[ 64%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuCylinder2DCamVelocityDisplaySecondaryTask.dir/servoSimuCylinder2DCamVelocityDisplaySecondaryTask.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable servoSimuCylinder2DCamVelocityDisplaySecondaryTask[0m
+[ 65%] Built target servoSimuCylinder2DCamVelocityDisplaySecondaryTask
+[ 65%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuSphere2DCamVelocityDisplaySecondaryTask.dir/servoSimuSphere2DCamVelocityDisplaySecondaryTask.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuCircle2DCamVelocityDisplay.dir/servoSimuCircle2DCamVelocityDisplay.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuCylinder2DCamVelocityDisplay.dir/servoSimuCylinder2DCamVelocityDisplay.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuFourPoints2DPolarCamVelocityDisplay.dir/servoSimuFourPoints2DPolarCamVelocityDisplay.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimu3D_cMcd_CamVelocity.dir/servoSimu3D_cMcd_CamVelocity.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimuCircle2DCamVelocity.dir/servoSimuCircle2DCamVelocity.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/robot-simulator/camera/CMakeFiles/servoSimu3D_cdMc_CamVelocity.dir/servoSimu3D_cdMc_CamVelocity.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/robot-simulator/afma6/CMakeFiles/servoSimuAfma6FourPoints2DCamVelocity.dir/servoSimuAfma6FourPoints2DCamVelocity.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/reflex-takktile/CMakeFiles/takktile2-control.dir/takktile2-control.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/reflex-takktile/CMakeFiles/takktile2-read-data.dir/takktile2-read-data.cpp.o[0m
+[ 65%] [32mBuilding CXX object example/pose-estimation/CMakeFiles/poseVirtualVS.dir/poseVirtualVS.cpp.o[0m
+[ 66%] [32mBuilding CXX object example/parse-argv/CMakeFiles/parse-argv2.dir/parse-argv2.cpp.o[0m
+[ 66%] [32mBuilding CXX object example/parse-argv/CMakeFiles/parse-argv1.dir/parse-argv1.cpp.o[0m
+[ 66%] [32mBuilding CXX object example/ogre-simulator/CMakeFiles/AROgreBasic.dir/AROgreBasic.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable servoSimu3D_cMcd_CamVelocity[0m
+[ 66%] [32m[1mLinking CXX executable parse-argv2[0m
+[ 66%] [32m[1mLinking CXX executable parse-argv1[0m
+[ 66%] [32m[1mLinking CXX executable servoSimuCircle2DCamVelocity[0m
+[ 66%] [32m[1mLinking CXX executable takktile2-control[0m
+[ 66%] Built target parse-argv2
+[ 66%] Built target parse-argv1
+[ 66%] Built target servoSimu3D_cMcd_CamVelocity
+[ 67%] [32m[1mLinking CXX executable takktile2-read-data[0m
+[ 67%] [32m[1mLinking CXX executable servoSimuSphere2DCamVelocityDisplaySecondaryTask[0m
+[ 67%] Built target takktile2-control
+[ 67%] Built target servoSimuCircle2DCamVelocity
+[ 68%] [32m[1mLinking CXX executable servoSimu3D_cdMc_CamVelocity[0m
+[ 68%] [32m[1mLinking CXX executable servoSimuCylinder2DCamVelocityDisplay[0m
+[ 68%] Built target takktile2-read-data
+[ 68%] [32m[1mLinking CXX executable servoSimuCircle2DCamVelocityDisplay[0m
+[ 68%] Built target servoSimuSphere2DCamVelocityDisplaySecondaryTask
+[ 68%] [32m[1mLinking CXX executable servoSimuFourPoints2DPolarCamVelocityDisplay[0m
+[ 68%] Built target servoSimu3D_cdMc_CamVelocity
+[ 68%] Built target servoSimuCylinder2DCamVelocityDisplay
+[ 68%] Built target servoSimuCircle2DCamVelocityDisplay
+[ 68%] Built target servoSimuFourPoints2DPolarCamVelocityDisplay
+[ 68%] [32m[1mLinking CXX executable poseVirtualVS[0m
+[ 68%] [32m[1mLinking CXX executable servoSimuAfma6FourPoints2DCamVelocity[0m
+[ 68%] Built target poseVirtualVS
+[ 68%] Built target servoSimuAfma6FourPoints2DCamVelocity
+[ 68%] [32m[1mLinking CXX executable AROgreBasic[0m
+[ 68%] Built target AROgreBasic
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Points2DCamVelocityEyeToHand.dir/servoAfma6Points2DCamVelocityEyeToHand.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6Points2DCamVelocityEyeToHand[0m
+[ 68%] Built target servoAfma6Points2DCamVelocityEyeToHand
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6SquareLines2DCamVelocity.dir/servoAfma6SquareLines2DCamVelocity.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6SquareLines2DCamVelocity[0m
+[ 68%] Built target servoAfma6SquareLines2DCamVelocity
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6TwoLines2DCamVelocity.dir/servoAfma6TwoLines2DCamVelocity.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6TwoLines2DCamVelocity[0m
+[ 68%] Built target servoAfma6TwoLines2DCamVelocity
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma62DhalfCamVelocity.dir/servoAfma62DhalfCamVelocity.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma62DhalfCamVelocity[0m
+[ 68%] Built target servoAfma62DhalfCamVelocity
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Cylinder2DCamVelocity.dir/servoAfma6Cylinder2DCamVelocity.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6Cylinder2DCamVelocity[0m
+[ 68%] Built target servoAfma6Cylinder2DCamVelocity
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Segment2DCamVelocity.dir/servoAfma6Segment2DCamVelocity.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6Segment2DCamVelocity[0m
+[ 68%] Built target servoAfma6Segment2DCamVelocity
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6MegaposePBVS.dir/servoAfma6MegaposePBVS.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6MegaposePBVS[0m
+[ 68%] Built target servoAfma6MegaposePBVS
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6FourPoints2DCamVelocityLs_des.dir/servoAfma6FourPoints2DCamVelocityLs_des.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6FourPoints2DCamVelocityLs_des[0m
+[ 68%] Built target servoAfma6FourPoints2DCamVelocityLs_des
+[ 68%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6FourPoints2DCamVelocityLs_cur.dir/servoAfma6FourPoints2DCamVelocityLs_cur.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable servoAfma6FourPoints2DCamVelocityLs_cur[0m
+[ 68%] Built target servoAfma6FourPoints2DCamVelocityLs_cur
+[ 69%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Cylinder2DCamVelocitySecondaryTask.dir/servoAfma6Cylinder2DCamVelocitySecondaryTask.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable servoAfma6Cylinder2DCamVelocitySecondaryTask[0m
+[ 69%] Built target servoAfma6Cylinder2DCamVelocitySecondaryTask
+[ 69%] [32mBuilding CXX object example/servo-biclops/CMakeFiles/moveBiclops.dir/moveBiclops.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable moveBiclops[0m
+[ 69%] Built target moveBiclops
+[ 69%] [32mBuilding CXX object example/servo-biclops/CMakeFiles/servoBiclopsPoint2DArtVelocity.dir/servoBiclopsPoint2DArtVelocity.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable servoBiclopsPoint2DArtVelocity[0m
+[ 69%] Built target servoBiclopsPoint2DArtVelocity
+[ 69%] [32mBuilding CXX object example/servo-bebop2/CMakeFiles/servoBebop2.dir/servoBebop2.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable servoBebop2[0m
+[ 69%] Built target servoBebop2
+[ 69%] [32mBuilding CXX object example/servo-bebop2/CMakeFiles/keyboardControlBebop2.dir/keyboardControlBebop2.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable keyboardControlBebop2[0m
+[ 69%] [32mBuilding CXX object example/servo-flir-ptu/CMakeFiles/servoFlirPtuIBVS.dir/servoFlirPtuIBVS.cpp.o[0m
+[ 70%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Point2DCamVelocity.dir/servoAfma6Point2DCamVelocity.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable servoAfma6Point2DCamVelocity[0m
+[ 70%] Built target keyboardControlBebop2
+[ 70%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Point2DArtVelocity.dir/servoAfma6Point2DArtVelocity.cpp.o[0m
+[ 70%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Line2DCamVelocity.dir/servoAfma6Line2DCamVelocity.cpp.o[0m
+[ 70%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6AprilTagPBVS.dir/servoAfma6AprilTagPBVS.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable servoAfma6Line2DCamVelocity[0m
+[ 70%] [32m[1mLinking CXX executable servoAfma6Point2DArtVelocity[0m
+[ 70%] [32mBuilding CXX object example/servo-franka/CMakeFiles/frankaGripper.dir/frankaGripper.cpp.o[0m
+[ 70%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6AprilTagIBVS.dir/servoAfma6AprilTagIBVS.cpp.o[0m
+[ 70%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6Ellipse2DCamVelocity.dir/servoAfma6Ellipse2DCamVelocity.cpp.o[0m
+[ 70%] [32mBuilding CXX object example/servo-afma6/CMakeFiles/servoAfma6FourPoints2DArtVelocity.dir/servoAfma6FourPoints2DArtVelocity.cpp.o[0m
+[ 70%] Built target servoAfma6Point2DCamVelocity
+[ 70%] [32mBuilding CXX object example/servo-afma4/CMakeFiles/servoAfma4Point2DCamVelocityKalman.dir/servoAfma4Point2DCamVelocityKalman.cpp.o[0m
+[ 70%] Built target servoAfma6Line2DCamVelocity
+[ 70%] [32m[1mLinking CXX executable servoAfma6FourPoints2DArtVelocity[0m
+[ 70%] [32mBuilding CXX object example/servo-franka/CMakeFiles/frankaMoveToPosition.dir/frankaMoveToPosition.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable servoAfma6Ellipse2DCamVelocity[0m
+[ 70%] Built target servoAfma6Point2DArtVelocity
+[ 70%] [32m[1mLinking CXX executable servoAfma4Point2DCamVelocityKalman[0m
+[ 70%] [32mBuilding CXX object example/servo-franka/CMakeFiles/frankaSavePosition.dir/frankaSavePosition.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable frankaGripper[0m
+[ 71%] [32mBuilding CXX object example/servo-franka/CMakeFiles/servoFrankaIBVS.dir/servoFrankaIBVS.cpp.o[0m
+[ 71%] [32mBuilding CXX object example/servo-afma4/CMakeFiles/servoAfma4Point2DCamVelocity.dir/servoAfma4Point2DCamVelocity.cpp.o[0m
+[ 71%] [32mBuilding CXX object example/servo-afma4/CMakeFiles/servoAfma4Point2DArtVelocity.dir/servoAfma4Point2DArtVelocity.cpp.o[0m
+[ 71%] [32mBuilding CXX object example/servo-afma4/CMakeFiles/moveAfma4.dir/moveAfma4.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable servoAfma4Point2DCamVelocity[0m
+[ 71%] [32m[1mLinking CXX executable servoAfma4Point2DArtVelocity[0m
+[ 71%] Built target frankaGripper
+[ 71%] [32m[1mLinking CXX executable moveAfma4[0m
+[ 71%] Built target servoAfma6Ellipse2DCamVelocity
+[ 71%] Built target servoAfma4Point2DCamVelocityKalman
+[ 71%] Built target servoAfma6FourPoints2DArtVelocity
+[ 71%] [32m[1mLinking CXX executable frankaMoveToPosition[0m
+[ 71%] [32m[1mLinking CXX executable servoFlirPtuIBVS[0m
+[ 71%] [32m[1mLinking CXX executable frankaSavePosition[0m
+[ 71%] Built target frankaMoveToPosition
+[ 71%] Built target servoAfma4Point2DCamVelocity
+[ 71%] Built target frankaSavePosition
+[ 71%] Built target servoAfma4Point2DArtVelocity
+[ 71%] Built target moveAfma4
+[ 71%] [32m[1mLinking CXX executable servoAfma6AprilTagPBVS[0m
+[ 71%] Built target servoFlirPtuIBVS
+[ 71%] Built target servoAfma6AprilTagPBVS
+[ 71%] [32m[1mLinking CXX executable servoAfma6AprilTagIBVS[0m
+[ 71%] Built target servoAfma6AprilTagIBVS
+[ 71%] [32m[1mLinking CXX executable servoFrankaIBVS[0m
+[ 71%] Built target servoFrankaIBVS
+[ 71%] [32mBuilding CXX object example/servo-ptu46/CMakeFiles/movePtu46.dir/movePtu46.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable movePtu46[0m
+[ 71%] Built target movePtu46
+[ 71%] [32mBuilding CXX object example/servo-ptu46/CMakeFiles/servoPtu46Point2DArtVelocity.dir/servoPtu46Point2DArtVelocity.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable servoPtu46Point2DArtVelocity[0m
+[ 71%] Built target servoPtu46Point2DArtVelocity
+[ 71%] [32mBuilding CXX object example/servo-universal-robots/CMakeFiles/servoUniversalRobotsIBVS.dir/servoUniversalRobotsIBVS.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable servoUniversalRobotsIBVS[0m
+[ 71%] Built target servoUniversalRobotsIBVS
+[ 71%] [32mBuilding CXX object example/servo-universal-robots/CMakeFiles/servoUniversalRobotsPBVS.dir/servoUniversalRobotsPBVS.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable servoUniversalRobotsPBVS[0m
+[ 71%] Built target servoUniversalRobotsPBVS
+[ 71%] [32mBuilding CXX object example/servo-universal-robots/CMakeFiles/UniversalRobotsMoveToPosition.dir/UniversalRobotsMoveToPosition.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable UniversalRobotsMoveToPosition[0m
+[ 71%] Built target UniversalRobotsMoveToPosition
+[ 71%] [32mBuilding CXX object example/servo-universal-robots/CMakeFiles/UniversalRobotsSavePosition.dir/UniversalRobotsSavePosition.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable UniversalRobotsSavePosition[0m
+[ 71%] Built target UniversalRobotsSavePosition
+[ 71%] [32mBuilding CXX object example/servo-viper650/CMakeFiles/servoViper650Point2DCamVelocity.dir/servoViper650Point2DCamVelocity.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable servoViper650Point2DCamVelocity[0m
+[ 72%] Built target servoViper650Point2DCamVelocity
+[ 72%] [32mBuilding CXX object example/servo-viper650/CMakeFiles/servoViper650FourPoints2DArtVelocityLs_cur.dir/servoViper650FourPoints2DArtVelocityLs_cur.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable servoViper650FourPoints2DArtVelocityLs_cur[0m
+[ 72%] Built target servoViper650FourPoints2DArtVelocityLs_cur
+[ 72%] [32mBuilding CXX object example/servo-viper650/CMakeFiles/servoViper650FourPoints2DCamVelocityLs_cur.dir/servoViper650FourPoints2DCamVelocityLs_cur.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable servoViper650FourPoints2DCamVelocityLs_cur[0m
+[ 72%] Built target servoViper650FourPoints2DCamVelocityLs_cur
+[ 72%] [32mBuilding CXX object example/servo-viper650/CMakeFiles/servoViper650FourPoints2DCamVelocityLs_cur-SR300.dir/servoViper650FourPoints2DCamVelocityLs_cur-SR300.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable servoViper650FourPoints2DCamVelocityLs_cur-SR300[0m
+[ 72%] Built target servoViper650FourPoints2DCamVelocityLs_cur-SR300
+[ 72%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850FourPointsKinect.dir/servoViper850FourPointsKinect.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable servoViper850FourPointsKinect[0m
+[ 72%] [32mBuilding CXX object example/servo-pixhawk/CMakeFiles/servoPixhawkDroneIBVS.dir/servoPixhawkDroneIBVS.cpp.o[0m
+[ 72%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850Point2DArtVelocity.dir/servoViper850Point2DArtVelocity.cpp.o[0m
+[ 72%] [32mBuilding CXX object example/servo-pololu-ptu/CMakeFiles/servoPololuPtuPoint2DJointVelocity.dir/servoPololuPtuPoint2DJointVelocity.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable servoPixhawkDroneIBVS[0m
+[ 72%] Built target servoViper850FourPointsKinect
+[ 73%] [32mBuilding CXX object example/servo-pixhawk/CMakeFiles/sendMocapToPixhawk.dir/sendMocapToPixhawk.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable servoViper850Point2DArtVelocity[0m
+[ 73%] [32m[1mLinking CXX executable sendMocapToPixhawk[0m
+[ 73%] [32mBuilding CXX object example/servo-pioneer/CMakeFiles/sonarPioneerReader.dir/sonarPioneerReader.cpp.o[0m
+[ 73%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850Point2DCamVelocity.dir/servoViper850Point2DCamVelocity.cpp.o[0m
+[ 73%] Built target servoPixhawkDroneIBVS
+[ 73%] [32mBuilding CXX object example/servo-pioneer/CMakeFiles/servoPioneerPoint2DDepthWithoutVpServo.dir/servoPioneerPoint2DDepthWithoutVpServo.cpp.o[0m
+[ 73%] [32mBuilding CXX object example/servo-pioneer/CMakeFiles/servoPioneerPanSegment3D.dir/servoPioneerPanSegment3D.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable servoViper850Point2DCamVelocity[0m
+[ 74%] [32mBuilding CXX object example/servo-pioneer/CMakeFiles/servoPioneerPoint2DDepth.dir/servoPioneerPoint2DDepth.cpp.o[0m
+[ 74%] Built target servoViper850Point2DArtVelocity
+[ 74%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850Point2DCamVelocityKalman.dir/servoViper850Point2DCamVelocityKalman.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable servoViper850Point2DCamVelocityKalman[0m
+[ 74%] Built target sendMocapToPixhawk
+[ 74%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850FourPoints2DArtVelocityLs_cur.dir/servoViper850FourPoints2DArtVelocityLs_cur.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable servoViper850FourPoints2DArtVelocityLs_cur[0m
+[ 74%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850FourPoints2DArtVelocityLs_des.dir/servoViper850FourPoints2DArtVelocityLs_des.cpp.o[0m
+[ 74%] [32mBuilding CXX object example/servo-pioneer/CMakeFiles/movePioneer.dir/movePioneer.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable servoViper850FourPoints2DArtVelocityLs_des[0m
+[ 74%] [32m[1mLinking CXX executable movePioneer[0m
+[ 74%] Built target servoViper850Point2DCamVelocityKalman
+[ 74%] [32mBuilding CXX object example/servo-kinova/CMakeFiles/servoKinovaJacoJoint.dir/servoKinovaJacoJoint.cpp.o[0m
+[ 74%] [32mBuilding CXX object example/servo-kinova/CMakeFiles/servoKinovaJacoCart.dir/servoKinovaJacoCart.cpp.o[0m
+[ 74%] [32mBuilding CXX object example/servo-franka/CMakeFiles/servoFrankaPBVS.dir/servoFrankaPBVS.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable servoPioneerPanSegment3D[0m
+[ 74%] Built target servoViper850Point2DCamVelocity
+[ 74%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850FourPoints2DCamVelocityLs_cur.dir/servoViper850FourPoints2DCamVelocityLs_cur.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable servoKinovaJacoCart[0m
+[ 74%] [32m[1mLinking CXX executable servoKinovaJacoJoint[0m
+[ 74%] [32m[1mLinking CXX executable servoViper850FourPoints2DCamVelocityLs_cur[0m
+[ 74%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850Point2DArtVelocity-jointAvoidance-gpa.dir/servoViper850Point2DArtVelocity-jointAvoidance-gpa.cpp.o[0m
+[ 74%] Built target servoViper850FourPoints2DArtVelocityLs_cur
+[ 74%] [32mBuilding CXX object example/robot-simulator/viper850/CMakeFiles/servoSimuViper850FourPoints2DCamVelocity.dir/servoSimuViper850FourPoints2DCamVelocity.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable servoViper850Point2DArtVelocity-jointAvoidance-gpa[0m
+[ 74%] Built target servoViper850FourPoints2DArtVelocityLs_des
+[ 74%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850Point2DArtVelocity-jointAvoidance-basic.dir/servoViper850Point2DArtVelocity-jointAvoidance-basic.cpp.o[0m
+[ 74%] [32mBuilding CXX object apps/calibration/CMakeFiles/visp-compute-chessboard-poses.dir/visp-compute-chessboard-poses.cpp.o[0m
+[ 74%] [32mBuilding CXX object modules/imgproc/CMakeFiles/testImgproc.dir/test/with-dataset/testImgproc.cpp.o[0m
+[ 74%] Built target movePioneer
+[ 74%] [32mBuilding CXX object example/servo-viper850/CMakeFiles/servoViper850Point2DArtVelocity-jointAvoidance-large.dir/servoViper850Point2DArtVelocity-jointAvoidance-large.cpp.o[0m
+[ 74%] [32mBuilding CXX object example/tools/CMakeFiles/keyboard.dir/keyboard.cpp.o[0m
+[ 74%] Built target servoPioneerPanSegment3D
+[ 74%] [32mBuilding CXX object example/tools/CMakeFiles/parallelPort.dir/parallelPort.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable servoPololuPtuPoint2DJointVelocity[0m
+[ 74%] Built target servoKinovaJacoJoint
+[ 74%] Built target servoKinovaJacoCart
+[ 75%] [32mBuilding CXX object example/tools/CMakeFiles/plot3d.dir/plot3d.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable servoViper850Point2DArtVelocity-jointAvoidance-basic[0m
+[ 75%] [32mBuilding CXX object example/tools/CMakeFiles/plot2d.dir/plot2d.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable servoViper850Point2DArtVelocity-jointAvoidance-large[0m
+[ 76%] Built target servoViper850FourPoints2DCamVelocityLs_cur
+[ 76%] [32m[1mLinking CXX executable keyboard[0m
+[ 76%] [32mBuilding CXX object example/tools/CMakeFiles/histogram.dir/histogram.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable parallelPort[0m
+[ 76%] [32m[1mLinking CXX executable sonarPioneerReader[0m
+[ 76%] Built target servoViper850Point2DArtVelocity-jointAvoidance-gpa
+[ 76%] Built target keyboard
+[ 76%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtEdgeKltTracking.dir/mbtEdgeKltTracking.cpp.o[0m
+[ 76%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtEdgeTracking.dir/mbtEdgeTracking.cpp.o[0m
+[ 76%] Built target parallelPort
+[ 76%] [32m[1mLinking CXX executable servoPioneerPoint2DDepthWithoutVpServo[0m
+[ 76%] [32m[1mLinking CXX executable servoPioneerPoint2DDepth[0m
+[ 76%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtGenericTracking.dir/mbtGenericTracking.cpp.o[0m
+[ 76%] Built target servoPololuPtuPoint2DJointVelocity
+[ 76%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtGenericTracking2.dir/mbtGenericTracking2.cpp.o[0m
+[ 76%] Built target servoViper850Point2DArtVelocity-jointAvoidance-large
+[ 76%] Built target servoViper850Point2DArtVelocity-jointAvoidance-basic
+[ 76%] [32m[1mLinking CXX executable plot3d[0m
+[ 76%] [32m[1mLinking CXX executable plot2d[0m
+[ 76%] Built target sonarPioneerReader
+[ 76%] Built target servoPioneerPoint2DDepthWithoutVpServo
+[ 76%] Built target servoPioneerPoint2DDepth
+[ 76%] Built target plot3d
+[ 76%] Built target plot2d
+[ 76%] [32m[1mLinking CXX executable histogram[0m
+[ 76%] [32m[1mLinking CXX executable servoSimuViper850FourPoints2DCamVelocity[0m
+[ 76%] [32m[1mLinking CXX executable testImgproc[0m
+[ 76%] Built target histogram
+[ 76%] Built target testImgproc
+[ 77%] [32m[1mLinking CXX executable visp-compute-chessboard-poses[0m
+[ 77%] Built target servoSimuViper850FourPoints2DCamVelocity
+[ 77%] [32m[1mLinking CXX executable servoFrankaPBVS[0m
+[ 77%] Built target visp-compute-chessboard-poses

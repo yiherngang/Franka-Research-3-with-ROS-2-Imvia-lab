@@ -1,0 +1,86 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/CollisionObject.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "object_recognition_msgs/msg/ObjectType.idl"
+#include "shape_msgs/msg/Mesh.idl"
+#include "shape_msgs/msg/Plane.idl"
+#include "shape_msgs/msg/SolidPrimitive.idl"
+#include "std_msgs/msg/Header.idl"
+
+module moveit_msgs {
+  module msg {
+    module CollisionObject_Constants {
+      @verbatim (language="comment", text=
+        "Adds the object to the planning scene. If the object previously existed, it is replaced.")
+      const octet ADD = 0;
+      @verbatim (language="comment", text=
+        "Removes the object from the environment entirely (everything that matches the specified id)")
+      const octet REMOVE = 1;
+      @verbatim (language="comment", text=
+        "Append to an object that already exists in the planning scene. If the object does not exist, it is added.")
+      const octet APPEND = 2;
+      @verbatim (language="comment", text=
+        "If an object already exists in the scene, new poses can be sent (the geometry arrays must be left empty)" "\n"        "if solely moving the object is desired")
+      const octet MOVE = 3;
+    };
+    @verbatim (language="comment", text=
+      "a header, used for interpreting the poses")
+    struct CollisionObject {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "DISCLAIMER: This field is not in use yet and all other poses" "\n"
+        "are still interpreted in the header frame." "\n"
+        "https://github.com/ros-planning/moveit/pull/2037" "\n"
+        "implements the actual logic for this field." "\n"
+        "---" "\n"
+        "The object's pose relative to the header frame." "\n"
+        "The shapes and subframe poses are defined relative to this pose.")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "The id of the object (name used in MoveIt)")
+      string id;
+
+      @verbatim (language="comment", text=
+        "The object type in a database of known objects")
+      object_recognition_msgs::msg::ObjectType type;
+
+      @verbatim (language="comment", text=
+        "The collision geometries associated with the object." "\n"
+        "Their poses are with respect to the object's pose" "\n"
+        "Solid geometric primitives")
+      sequence<shape_msgs::msg::SolidPrimitive> primitives;
+
+      sequence<geometry_msgs::msg::Pose> primitive_poses;
+
+      @verbatim (language="comment", text=
+        "Meshes")
+      sequence<shape_msgs::msg::Mesh> meshes;
+
+      sequence<geometry_msgs::msg::Pose> mesh_poses;
+
+      @verbatim (language="comment", text=
+        "Bounding planes (equation is specified, but the plane can be oriented using an additional pose)")
+      sequence<shape_msgs::msg::Plane> planes;
+
+      sequence<geometry_msgs::msg::Pose> plane_poses;
+
+      @verbatim (language="comment", text=
+        "Named subframes on the object. Use these to define points of interest on the object that you want" "\n"
+        "to plan with (e.g. \"tip\", \"spout\", \"handle\"). The id of the object will be prepended to the subframe." "\n"
+        "If an object with the id \"screwdriver\" and a subframe \"tip\" is in the scene, you can use the frame" "\n"
+        "\"screwdriver/tip\" for planning." "\n"
+        "The length of the subframe_names and subframe_poses has to be identical.")
+      sequence<string> subframe_names;
+
+      sequence<geometry_msgs::msg::Pose> subframe_poses;
+
+      @verbatim (language="comment", text=
+        "Operation to be performed")
+      octet operation;
+    };
+  };
+};

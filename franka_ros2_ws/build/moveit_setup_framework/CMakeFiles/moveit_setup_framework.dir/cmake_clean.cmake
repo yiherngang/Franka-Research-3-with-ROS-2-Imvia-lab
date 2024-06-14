@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_double_list_widget.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_double_list_widget.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_helper_widgets.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_helper_widgets.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_rviz_panel.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_rviz_panel.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_setup_step_widget.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/include/moveit_setup_framework/qt/moc_setup_step_widget.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/data_warehouse.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/data_warehouse.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/double_list_widget.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/double_list_widget.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/helper_widgets.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/helper_widgets.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/package_settings_config.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/package_settings_config.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/rviz_panel.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/rviz_panel.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/srdf_config.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/srdf_config.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/templates.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/templates.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/urdf_config.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/urdf_config.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/utilities.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/utilities.cpp.o.d"
+  "CMakeFiles/moveit_setup_framework.dir/src/xml_syntax_highlighter.cpp.o"
+  "CMakeFiles/moveit_setup_framework.dir/src/xml_syntax_highlighter.cpp.o.d"
+  "include/moveit_setup_framework/qt/moc_double_list_widget.cpp"
+  "include/moveit_setup_framework/qt/moc_helper_widgets.cpp"
+  "include/moveit_setup_framework/qt/moc_rviz_panel.cpp"
+  "include/moveit_setup_framework/qt/moc_setup_step_widget.cpp"
+  "libmoveit_setup_framework.pdb"
+  "libmoveit_setup_framework.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/moveit_setup_framework.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

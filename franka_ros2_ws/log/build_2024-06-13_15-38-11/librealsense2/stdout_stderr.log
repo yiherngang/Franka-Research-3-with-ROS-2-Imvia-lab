@@ -1,0 +1,165 @@
+[35m[1mConsolidate compiler generated dependencies of target rs-embed[0m
+[35m[1mConsolidate compiler generated dependencies of target fw[0m
+[35m[1mConsolidate compiler generated dependencies of target realsense-file[0m
+[35m[1mConsolidate compiler generated dependencies of target rsutils[0m
+[  3%] Built target libcurl
+[  4%] Built target rs-embed
+[  4%] Built target fw
+[ 15%] Built target realsense-file
+[ 15%] Built target rsutils
+[35m[1mConsolidate compiler generated dependencies of target realsense2[0m
+[ 53%] Built target realsense2
+[35m[1mConsolidate compiler generated dependencies of target rs-software-device[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-hello-realsense[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-capture[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-callback[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-save-to-disk[0m
+[35m[1mConsolidate compiler generated dependencies of target realsense2-gl[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-measure[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-pointcloud[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-sensor-control[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-color[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-depth[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-multicam[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-align[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-align-advanced[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-distance[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-post-processing[0m
+[ 54%] Built target rs-software-device
+[ 55%] Built target rs-hello-realsense
+[ 55%] Built target rs-pointcloud
+[ 55%] Built target rs-capture
+[ 56%] Built target rs-callback
+[ 57%] Built target rs-save-to-disk
+[ 58%] Built target rs-depth
+[ 58%] Built target rs-measure
+[ 61%] Built target rs-color
+[ 61%] Built target rs-align
+[ 61%] Built target rs-sensor-control
+[ 62%] Built target rs-distance
+[ 62%] Built target rs-multicam
+[ 63%] Built target rs-align-advanced
+[ 67%] Built target realsense2-gl
+[ 69%] Built target rs-post-processing
+[35m[1mConsolidate compiler generated dependencies of target rs-motion[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-hdr[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-record-playback[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-enumerate-devices[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-record[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-convert[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-fw-update[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-fw-logger[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-align-gl[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-terminal[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-gl[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-data-collect[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-benchmark[0m
+[35m[1mConsolidate compiler generated dependencies of target rs-rosbag-inspector[0m
+[ 70%] Built target rs-motion
+[ 70%] Built target rs-enumerate-devices
+[ 71%] Built target rs-hdr
+[ 73%] Built target rs-record-playback
+[ 73%] Built target rs-record
+[ 74%] Built target rs-convert
+[ 75%] Built target rs-fw-logger
+[ 75%] Built target rs-fw-update
+[ 76%] Built target rs-gl
+[ 77%] Built target rs-benchmark
+[ 77%] Built target rs-terminal
+[ 78%] Built target rs-align-gl
+[ 78%] Built target rs-data-collect
+[ 80%] Built target rs-rosbag-inspector
+[35m[1mConsolidate compiler generated dependencies of target rs-depth-quality[0m
+[35m[1mConsolidate compiler generated dependencies of target realsense-viewer[0m
+[ 90%] Built target rs-depth-quality
+[100%] Built target realsense-viewer
+-- Install configuration: "Release"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55.1
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_advanced_mode_command.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_processing.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_pipeline.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_config.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_device.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_record_playback.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_internal.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_types.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_option.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_context.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_sensor.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_frame.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_internal.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_pipeline.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_export.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_types.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_record_playback.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_serializable_device.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_options.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_processing.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_sensor.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_context.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_frame.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_device.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rsutil.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets-release.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Config.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2ConfigVersion.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2.pc
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librsutils.a
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense-file.a
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55.1
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets-release.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfigVersion.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2-gl.pc
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hello-realsense
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-software-device
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-capture
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-callback
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-save-to-disk
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-multicam
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-pointcloud
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-gl
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-advanced
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-sensor-control
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-measure
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-color
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-distance
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-post-processing
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record-playback
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-motion
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-gl
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hdr
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-convert
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-enumerate-devices
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-logger
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-terminal
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-update
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-embed
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-data-collect
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/realsense-viewer
+-- Up-to-date: /home/adminlab/Documents/librealsense2/presets
+-- Up-to-date: /home/adminlab/Documents/librealsense2/presets/sample.preset
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth-quality
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-rosbag-inspector
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-benchmark
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/libfw.a

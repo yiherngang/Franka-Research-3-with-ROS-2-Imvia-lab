@@ -1,0 +1,4 @@
+share/moveit_ros_visualization/motion_planning_rviz_plugin_description.xml
+share/moveit_ros_visualization/trajectory_rviz_plugin_description.xml
+share/moveit_ros_visualization/planning_scene_rviz_plugin_description.xml
+share/moveit_ros_visualization/robot_state_rviz_plugin_description.xml

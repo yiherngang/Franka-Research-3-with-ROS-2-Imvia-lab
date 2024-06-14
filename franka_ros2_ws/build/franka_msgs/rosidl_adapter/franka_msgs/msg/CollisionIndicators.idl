@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_msgs/msg/CollisionIndicators.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module franka_msgs {
+  module msg {
+    typedef double double__7[7];
+    @verbatim (language="comment", text=
+      "Indicates which dimensions have an active contact/collision flag raised")
+    struct CollisionIndicators {
+      geometry_msgs::msg::Vector3 is_cartesian_linear_collision;
+
+      geometry_msgs::msg::Vector3 is_cartesian_angular_collision;
+
+      geometry_msgs::msg::Vector3 is_cartesian_linear_contact;
+
+      geometry_msgs::msg::Vector3 is_cartesian_angular_contact;
+
+      double__7 is_joint_collision;
+
+      double__7 is_joint_contact;
+    };
+  };
+};

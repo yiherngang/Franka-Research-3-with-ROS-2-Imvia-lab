@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/CartesianTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/CartesianTrajectoryPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message describes the trajectory of a tracked frame in task-space")
+    struct CartesianTrajectory {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "The name of the Cartesian frame being tracked with respect to the base frame provided in header.frame_id")
+      string tracked_frame;
+
+      sequence<moveit_msgs::msg::CartesianTrajectoryPoint> points;
+    };
+  };
+};

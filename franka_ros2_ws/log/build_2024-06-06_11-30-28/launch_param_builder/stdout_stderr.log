@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/launch_param_builder/launch_param_builder.egg-info
+writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adminlab/franka_ros2_ws/build/launch_param_builder/build
+creating /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib
+creating /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+copying launch_param_builder/__init__.py -> /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+copying launch_param_builder/launch_param_builder.py -> /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+copying launch_param_builder/utils.py -> /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+running install
+running install_lib
+creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+copying /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+copying /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+copying /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+byte-compiling /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+byte-compiling /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+running install_data
+creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index
+creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index/resource_index
+creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index/resource_index/packages
+copying resource/launch_param_builder -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index/resource_index/packages
+creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/launch
+copying example/launch_param_builder_example.launch.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/launch
+creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+copying test/data/parameters.yaml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+copying test/data/parameters_injection.yaml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+copying test/data/parameter_file -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+copying test/data/parameter.xacro -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+copying test/data/param_file_to_inject.yaml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+copying package.xml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder
+creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/launch_param_builder
+copying example/example_node.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/launch_param_builder
+running install_egg_info
+Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/adminlab/franka_ros2_ws/build/launch_param_builder/install.log'

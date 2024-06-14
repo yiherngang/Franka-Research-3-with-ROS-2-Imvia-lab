@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_cam_node[0m
+[ 50%] Built target opencv_cam_node
+[ 50%] Built target subscriber_node
+[35m[1mConsolidate compiler generated dependencies of target ipc_test_main[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_cam_main[0m
+[100%] Built target opencv_cam_main
+[100%] Built target ipc_test_main
+-- Install configuration: ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/package.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libsubscriber_node.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py

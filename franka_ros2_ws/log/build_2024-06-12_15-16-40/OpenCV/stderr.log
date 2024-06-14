@@ -1,0 +1,8 @@
+duplicated: CLASS cv::.Algorithm : 
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+gmake[2]: *** [modules/core/CMakeFiles/opencv_test_core.dir/build.make:748: modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx512_skx.cpp.o] Interrupt
+gmake[2]: *** [modules/core/CMakeFiles/opencv_test_core.dir/build.make:734: modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx512_skx.cpp.o] Interrupt
+gmake[2]: *** [modules/core/CMakeFiles/opencv_test_core.dir/build.make:580: modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1680: modules/core/CMakeFiles/opencv_test_core.dir/all] Interrupt
+gmake: *** [Makefile:166: all] Interrupt

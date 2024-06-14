@@ -1,0 +1,11 @@
+source;share/moveit_planners_chomp/hook/cmake_prefix_path.ps1
+source;share/moveit_planners_chomp/hook/cmake_prefix_path.dsv
+source;share/moveit_planners_chomp/hook/cmake_prefix_path.sh
+source;share/moveit_planners_chomp/hook/ld_library_path_lib.ps1
+source;share/moveit_planners_chomp/hook/ld_library_path_lib.dsv
+source;share/moveit_planners_chomp/hook/ld_library_path_lib.sh
+source;share/moveit_planners_chomp/local_setup.bash
+source;share/moveit_planners_chomp/local_setup.dsv
+source;share/moveit_planners_chomp/local_setup.ps1
+source;share/moveit_planners_chomp/local_setup.sh
+source;share/moveit_planners_chomp/local_setup.zsh

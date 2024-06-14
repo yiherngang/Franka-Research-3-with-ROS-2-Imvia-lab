@@ -1,0 +1,104 @@
+[0.200s] Invoking command in '/home/adminlab/franka_ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/srdfdom
+[0.594s] -- The CXX compiler identification is GNU 11.4.0
+[0.594s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.594s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.594s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.594s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.594s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.646s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.719s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.824s] -- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.828s] -- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.279s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.330s] -- The C compiler identification is GNU 11.4.0
+[1.336s] -- Detecting C compiler ABI info
+[1.417s] -- Detecting C compiler ABI info - done
+[1.425s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.425s] -- Detecting C compile features
+[1.425s] -- Detecting C compile features - done
+[1.428s] -- Looking for C++ include pthread.h
+[1.532s] -- Looking for C++ include pthread.h - found
+[1.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.669s] -- Found Threads: TRUE  
+[1.675s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.705s] -- Configuring done
+[1.726s] -- Generating done
+[1.730s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/srdfdom
+[1.938s] Invoked command in '/home/adminlab/franka_ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/srdfdom -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/srdfdom
+[1.938s] Invoking command in '/home/adminlab/franka_ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/srdfdom -- -j16 -l16
+[2.149s] [  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[2.149s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.149s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.150s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[2.150s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[2.339s] running egg_info
+[2.340s] creating srdfdom.egg-info
+[2.341s] writing srdfdom.egg-info/PKG-INFO
+[2.342s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[2.342s] writing top-level names to srdfdom.egg-info/top_level.txt
+[2.342s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.344s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.345s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.387s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[2.881s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.096s] [ 45%] Built target gtest_main
+[4.147s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[4.383s] [ 54%] Built target srdfdom
+[5.459s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.880s] [ 63%] Built target gtest
+[6.178s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[6.193s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[7.949s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[8.046s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[8.529s] [100%] Built target test_cpp_nl_NL.UTF-8
+[8.862s] [100%] Built target test_cpp_C
+[9.064s] Invoked command in '/home/adminlab/franka_ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/srdfdom -- -j16 -l16
+[10.055s] Invoking command in '/home/adminlab/franka_ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/srdfdom
+[13.435s] -- Install configuration: ""
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[13.435s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/model.h
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/srdf_writer.h
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/visibility_control.h
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/srdfdom/display_srdf
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[13.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[13.436s] Listing '/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[13.436s] Compiling '/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[13.436s] Compiling '/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/path.sh
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.bash
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.sh
+[13.436s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/package.dsv
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[13.437s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/package.xml
+[13.447s] Invoked command in '/home/adminlab/franka_ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/srdfdom

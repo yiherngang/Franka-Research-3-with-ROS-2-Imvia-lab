@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: moveit-configs-utils
+Version: 2.5.5
+Summary: Python library for loading MoveIt config parameters in launch files
+Home-page: UNKNOWN
+Maintainer: MoveIt Release Team
+Maintainer-email: moveit_releasers@googlegroups.com
+License: BSD
+Platform: UNKNOWN
+
+UNKNOWN
+

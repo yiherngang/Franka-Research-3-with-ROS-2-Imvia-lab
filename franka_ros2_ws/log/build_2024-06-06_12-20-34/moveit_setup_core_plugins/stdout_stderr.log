@@ -1,0 +1,50 @@
+[  6%] [34m[1mAutomatic MOC for target moveit_setup_core_plugins[0m
+[  6%] Built target moveit_setup_core_plugins_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_setup_core_plugins[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/src/start_screen.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/include/moveit_setup_core_plugins/moc_author_information_widget.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/include/moveit_setup_core_plugins/moc_configuration_files_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/include/moveit_setup_core_plugins/moc_start_screen_widget.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/src/author_information_widget.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/src/author_information.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/src/configuration_files_widget.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/src/configuration_files.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/moveit_setup_core_plugins.dir/src/start_screen_widget.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library libmoveit_setup_core_plugins.so[0m
+[100%] Built target moveit_setup_core_plugins
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/lib/libmoveit_setup_core_plugins.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/lib/libmoveit_setup_core_plugins.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/start_screen.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/author_information_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/configuration_files_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/author_information.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/start_screen_widget.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/include/moveit_setup_core_plugins/configuration_files.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_core_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_core_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/ament_index/resource_index/packages/moveit_setup_core_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_core_plugins
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/export_moveit_setup_core_pluginsExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/export_moveit_setup_core_pluginsExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/moveit_setup_core_pluginsConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/cmake/moveit_setup_core_pluginsConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_core_plugins/share/moveit_setup_core_plugins/package.xml

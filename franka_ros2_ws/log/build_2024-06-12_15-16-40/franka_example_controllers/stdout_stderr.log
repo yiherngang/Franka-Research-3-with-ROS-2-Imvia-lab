@@ -1,0 +1,137 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found controller_interface: 2.41.0 (/opt/ros/humble/share/controller_interface/cmake)
+-- Found franka_msgs: 0.1.13 (/home/adminlab/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found franka_semantic_components: 0.1.0 (/home/adminlab/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+-- Found generate_parameter_library: 0.3.7 (/home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+-- Found ament_cmake_gmock: 1.3.9 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 2.41.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/franka_example_controllers
+[  3%] [34m[1mRunning `/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin/generate_parameter_library_cpp /home/adminlab/franka_ros2_ws/build/franka_example_controllers/franka_example_controllers_parameters/include//franka_example_controllers_parameters.hpp /home/adminlab/franka_ros2_ws/src/franka_ros2/franka_example_controllers/src/model_example_controller_parameters.yaml `[0m
+[  3%] Built target franka_example_controllers_parameters
+[  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 14%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 14%] Built target gmock
+[ 17%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/gravity_compensation_example_controller.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/move_to_start_example_controller.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/model_example_controller.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/elbow_example_controller.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_orientation_example_controller.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_elbow_example_controller.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_impedance_with_ik_example_controller.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_pose_example_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/cartesian_velocity_example_controller.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_position_example_controller.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_velocity_example_controller.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/franka_example_controllers.dir/src/joint_impedance_example_controller.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libfranka_example_controllers.so[0m
+[ 64%] Built target franka_example_controllers
+[ 67%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 71%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 71%] Built target gmock_main
+[ 78%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_test_load_move_to_start.dir/test/test_load_move_to_start_example_controller.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_test.dir/test/test_load_gravity_compensation_controller.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable franka_example_controllers_test[0m
+[ 85%] [32m[1mLinking CXX executable franka_example_controllers_test_load_move_to_start[0m
+[ 85%] Built target franka_example_controllers_test
+[ 85%] Built target franka_example_controllers_test_load_move_to_start
+[ 89%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable franka_example_controllers_move_to_start_test[0m
+[ 92%] Built target franka_example_controllers_move_to_start_test
+[ 96%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable franka_example_controllers_gravity_test[0m
+[100%] Built target franka_example_controllers_gravity_test
+-- Install configuration: ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers_parameters/franka_example_controllers_parameters.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/franka_example_controllers.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_elbow_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_pose_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/model_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_velocity_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/elbow_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/cartesian_orientation_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_impedance_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/move_to_start_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_impedance_with_ik_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_position_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/gravity_compensation_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/default_robot_behavior_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/joint_velocity_example_controller.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml

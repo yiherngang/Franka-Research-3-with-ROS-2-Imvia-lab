@@ -1,0 +1,12 @@
+In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:66[m[K,
+                 from [01m[K/opt/ros/humble/src/gmock_vendor/src/gmock-all.cc:39[m[K:
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h:[m[K In member function ‘[01m[Ktypename testing::internal::Function<F>::Result testing::SetArgRefereeActionP<k, value_type>::gmock_Impl<F>::gmock_PerformImpl(const args_type&, const arg0_type&, const arg1_type&, const arg2_type&, const arg3_type&, const arg4_type&, const arg5_type&, const arg6_type&, const arg7_type&, const arg8_type&, const arg9_type&) const[m[K’:
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h:104:53:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Klong unsigned int[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-conversion-Wsign-conversion]8;;[m[K]
+  104 |   typedef typename ::std::tuple_element<k, args_type[01;35m[K>[m[K::type argk_type;
+      |                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:66[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/generate_parameter_library/example/test/example_test_gmock.cpp:33[m[K:
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h:[m[K In member function ‘[01m[Ktypename testing::internal::Function<F>::Result testing::SetArgRefereeActionP<k, value_type>::gmock_Impl<F>::gmock_PerformImpl(const args_type&, const arg0_type&, const arg1_type&, const arg2_type&, const arg3_type&, const arg4_type&, const arg5_type&, const arg6_type&, const arg7_type&, const arg8_type&, const arg9_type&) const[m[K’:
+[01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h:104:53:[m[K [01;35m[Kwarning: [m[Kconversion to ‘[01m[Klong unsigned int[m[K’ from ‘[01m[Kint[m[K’ may change the sign of the result [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-conversion-Wsign-conversion]8;;[m[K]
+  104 |   typedef typename ::std::tuple_element<k, args_type[01;35m[K>[m[K::type argk_type;
+      |                                                     [01;35m[K^[m[K

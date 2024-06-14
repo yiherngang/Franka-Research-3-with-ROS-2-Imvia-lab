@@ -1,0 +1,49 @@
+[0.068s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config -- -j16 -l16
+[0.372s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config -- -j16 -l16
+[0.436s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config
+[0.441s] -- Install configuration: ""
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_moveit_config
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_moveit_config
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.sh
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.dsv
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.sh
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.dsv
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.bash
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.sh
+[0.442s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.zsh
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.dsv
+[0.443s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/packages/moveit_resources_panda_moveit_config
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig.cmake
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig-version.cmake
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.xml
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/demo.launch.py
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_empty.rviz
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit.rviz
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_rviz.launch.py
+[0.443s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.xacro
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.ros2_control.xacro
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_depthmap.yaml
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/trajopt_planning.yaml
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm_hand.srdf.xacro
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/lerp_planning.yaml
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/initial_positions.yaml
+[0.444s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.srdf.xacro
+[0.445s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/kinematics.yaml
+[0.445s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[0.445s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/chomp_planning.yaml
+[0.445s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/moveit_controllers.yaml
+[0.445s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+[0.446s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ros2_controllers.yaml
+[0.446s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_cartesian_limits.yaml
+[0.446s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_hand.ros2_control.xacro
+[0.446s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.urdf.xacro
+[0.446s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/gripper_moveit_controllers.yaml
+[0.446s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/joint_limits.yaml
+[0.446s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ompl_planning.yaml
+[0.447s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.srdf
+[0.447s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/hand.xacro
+[0.447s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/.setup_assistant
+[0.456s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_panda_description:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_panda_moveit_config

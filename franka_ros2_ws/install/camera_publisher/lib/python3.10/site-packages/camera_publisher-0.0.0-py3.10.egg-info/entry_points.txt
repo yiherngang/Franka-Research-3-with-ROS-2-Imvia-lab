@@ -1,0 +1,4 @@
+[console_scripts]
+intel_pub = youtube_robot.intel_pub:main
+intel_sub = youtube_robot.intel_sub:main
+

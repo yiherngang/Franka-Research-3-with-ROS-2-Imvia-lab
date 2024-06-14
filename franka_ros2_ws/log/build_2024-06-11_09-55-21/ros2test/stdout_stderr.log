@@ -1,0 +1,18 @@
+running egg_info
+writing ../../../build/ros2test/ros2test.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros2test/ros2test.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros2test/ros2test.egg-info/entry_points.txt
+writing requirements to ../../../build/ros2test/ros2test.egg-info/requires.txt
+writing top-level names to ../../../build/ros2test/ros2test.egg-info/top_level.txt
+reading manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test-0.7.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/ros2test/ros2test.egg-info to /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test-0.7.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/adminlab/franka_ros2_ws/build/ros2test/install.log'

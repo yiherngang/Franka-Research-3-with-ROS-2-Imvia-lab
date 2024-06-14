@@ -1,0 +1,17 @@
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/libcurl.a
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/bin/curl-config
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/pkgconfig/libcurl.pc
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/curl.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/easy.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/stdcheaders.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/mprintf.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/multi.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/system.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/curlver.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/urlapi.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/typecheck-gcc.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/options.h
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets.cmake
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets-release.cmake
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfigVersion.cmake
+/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfig.cmake

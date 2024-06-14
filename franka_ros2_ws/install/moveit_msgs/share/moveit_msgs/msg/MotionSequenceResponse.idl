@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/MotionSequenceResponse.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "An error code reflecting what went wrong")
+    struct MotionSequenceResponse {
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+
+      @verbatim (language="comment", text=
+        "The full starting state of the robot at the start of the sequence")
+      moveit_msgs::msg::RobotState sequence_start;
+
+      @verbatim (language="comment", text=
+        "The trajectories that the planner produced for execution")
+      sequence<moveit_msgs::msg::RobotTrajectory> planned_trajectories;
+
+      @verbatim (language="comment", text=
+        "The amount of time it took to complete the motion plan")
+      double planning_time;
+    };
+  };
+};

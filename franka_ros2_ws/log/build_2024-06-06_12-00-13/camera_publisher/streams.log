@@ -1,0 +1,22 @@
+[0.809s] Invoking command in '/home/adminlab/franka_ros2_ws/src/camera_publisher': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/camera_publisher/prefix_override:/home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/adminlab/franka_ros2_ws/build/camera_publisher/build install --record /home/adminlab/franka_ros2_ws/build/camera_publisher/install.log --single-version-externally-managed install_data
+[0.971s] running egg_info
+[0.971s] writing ../../build/camera_publisher/camera_publisher.egg-info/PKG-INFO
+[0.971s] writing dependency_links to ../../build/camera_publisher/camera_publisher.egg-info/dependency_links.txt
+[0.971s] writing entry points to ../../build/camera_publisher/camera_publisher.egg-info/entry_points.txt
+[0.971s] writing requirements to ../../build/camera_publisher/camera_publisher.egg-info/requires.txt
+[0.971s] writing top-level names to ../../build/camera_publisher/camera_publisher.egg-info/top_level.txt
+[0.972s] reading manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[0.973s] writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[0.973s] running build
+[0.973s] running build_py
+[0.973s] running install
+[0.973s] running install_lib
+[0.974s] running install_data
+[0.974s] running install_egg_info
+[0.975s] removing '/home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.975s] Copying ../../build/camera_publisher/camera_publisher.egg-info to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages/camera_publisher-0.0.0-py3.10.egg-info
+[0.975s] running install_scripts
+[0.989s] Installing intel_pub script to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/camera_publisher
+[0.989s] Installing intel_sub script to /home/adminlab/franka_ros2_ws/install/camera_publisher/lib/camera_publisher
+[0.989s] writing list of installed files to '/home/adminlab/franka_ros2_ws/build/camera_publisher/install.log'
+[1.063s] Invoked command in '/home/adminlab/franka_ros2_ws/src/camera_publisher' returned '0': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/camera_publisher/prefix_override:/home/adminlab/franka_ros2_ws/install/camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/adminlab/franka_ros2_ws/build/camera_publisher/build install --record /home/adminlab/franka_ros2_ws/build/camera_publisher/install.log --single-version-externally-managed install_data

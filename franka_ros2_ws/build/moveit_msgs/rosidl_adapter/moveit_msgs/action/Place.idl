@@ -1,0 +1,96 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_msgs/action/Place.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/PlaceLocation.idl"
+#include "moveit_msgs/msg/PlanningOptions.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+
+module moveit_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "An action for placing an object")
+    struct Place_Goal {
+      @verbatim (language="comment", text=
+        "which group to be used to plan for grasping")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        "the name of the attached object to place")
+      string attached_object_name;
+
+      @verbatim (language="comment", text=
+        "a list of possible transformations for placing the object")
+      sequence<moveit_msgs::msg::PlaceLocation> place_locations;
+
+      @verbatim (language="comment", text=
+        "if the user prefers setting the eef pose (same as in pick) rather than" "\n"
+        "the location of the object, this flag should be set to true")
+      boolean place_eef;
+
+      @verbatim (language="comment", text=
+        "the name that the support surface (e.g. table) has in the collision world" "\n"
+        "can be left empty if no name is available")
+      string support_surface_name;
+
+      @verbatim (language="comment", text=
+        "whether collisions between the gripper and the support surface should be acceptable" "\n"
+        "during move from pre-place to place and during retreat. Collisions when moving to the" "\n"
+        "pre-place location are still not allowed even if this is set to true.")
+      boolean allow_gripper_support_collision;
+
+      @verbatim (language="comment", text=
+        "Optional constraints to be imposed on every point in the motion plan")
+      moveit_msgs::msg::Constraints path_constraints;
+
+      @verbatim (language="comment", text=
+        "The name of the motion planner to use. If no name is specified," "\n"
+        "a default motion planner will be used")
+      string planner_id;
+
+      @verbatim (language="comment", text=
+        "an optional list of obstacles that we have semantic information about" "\n"
+        "and that can be touched/pushed/moved in the course of placing")
+      sequence<string> allowed_touch_objects;
+
+      @verbatim (language="comment", text=
+        "The maximum amount of time the motion planner is allowed to plan for")
+      double allowed_planning_time;
+
+      @verbatim (language="comment", text=
+        "Planning options")
+      moveit_msgs::msg::PlanningOptions planning_options;
+    };
+    struct Place_Result {
+      @verbatim (language="comment", text=
+        "The result of the place attempt")
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+
+      @verbatim (language="comment", text=
+        "The full starting state of the robot at the start of the trajectory")
+      moveit_msgs::msg::RobotState trajectory_start;
+
+      @verbatim (language="comment", text=
+        "The trajectory that moved group produced for execution")
+      sequence<moveit_msgs::msg::RobotTrajectory> trajectory_stages;
+
+      sequence<string> trajectory_descriptions;
+
+      @verbatim (language="comment", text=
+        "The successful place location, if any")
+      moveit_msgs::msg::PlaceLocation place_location;
+
+      @verbatim (language="comment", text=
+        "The amount of time in seconds it took to complete the plan")
+      double planning_time;
+    };
+    struct Place_Feedback {
+      @verbatim (language="comment", text=
+        "The internal state that the place action currently is in")
+      string state;
+    };
+  };
+};

@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PlaceLocation.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "moveit_msgs/msg/GripperTranslation.idl"
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A name for this grasp")
+    struct PlaceLocation {
+      string id;
+
+      @verbatim (language="comment", text=
+        "The internal posture of the hand for the grasp" "\n"
+        "positions and efforts are used")
+      trajectory_msgs::msg::JointTrajectory post_place_posture;
+
+      @verbatim (language="comment", text=
+        "The position of the end-effector for the grasp relative to a reference frame" "\n"
+        "(that is always specified elsewhere, not in this message)")
+      geometry_msgs::msg::PoseStamped place_pose;
+
+      @verbatim (language="comment", text=
+        "The estimated probability of success for this place, or some other" "\n"
+        "measure of how \"good\" it is.")
+      double quality;
+
+      @verbatim (language="comment", text=
+        "The approach motion")
+      moveit_msgs::msg::GripperTranslation pre_place_approach;
+
+      @verbatim (language="comment", text=
+        "The retreat motion")
+      moveit_msgs::msg::GripperTranslation post_place_retreat;
+
+      @verbatim (language="comment", text=
+        "an optional list of obstacles that we have semantic information about" "\n"
+        "and that can be touched/pushed/moved in the course of grasping")
+      sequence<string> allowed_touch_objects;
+    };
+  };
+};

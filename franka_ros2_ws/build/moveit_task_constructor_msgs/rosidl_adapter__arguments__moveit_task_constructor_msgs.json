@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

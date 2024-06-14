@@ -1,0 +1,693 @@
+[35m[1mConsolidate compiler generated dependencies of target ittnotify[0m
+[35m[1mConsolidate compiler generated dependencies of target ippiw[0m
+[  0%] Built target opencv_dnn_plugins
+[  0%] Built target opencv_videoio_plugins
+[  0%] Built target opencv_highgui_plugins
+[35m[1mConsolidate compiler generated dependencies of target libprotobuf[0m
+[  0%] Built target ittnotify
+[35m[1mConsolidate compiler generated dependencies of target ade[0m
+[  2%] Built target ippiw
+[  2%] Built target gen_opencv_java_source
+[  2%] Built target gen_opencv_python_source
+[  3%] Built target ade
+[  6%] Built target libprotobuf
+[  6%] Built target opencv_java_jar_source_copy
+[35m[1mConsolidate compiler generated dependencies of target opencv_core[0m
+[  6%] Built target opencv_java_jar_sources
+[  6%] Built target opencv_java_jar
+[ 14%] Built target opencv_core
+[35m[1mConsolidate compiler generated dependencies of target opencv_version[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_flann[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_ml[0m
+[ 15%] Built target opencv_flann
+[ 15%] Built target opencv_version
+[ 16%] Built target opencv_ml
+[35m[1mConsolidate compiler generated dependencies of target opencv_imgproc[0m
+[ 23%] Built target opencv_imgproc
+[35m[1mConsolidate compiler generated dependencies of target opencv_imgcodecs[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_photo[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_features2d[0m
+[ 24%] Built target opencv_photo
+[ 26%] Built target opencv_imgcodecs
+[ 28%] Built target opencv_features2d
+[35m[1mConsolidate compiler generated dependencies of target opencv_dnn[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_videoio[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_calib3d[0m
+[ 29%] Built target opencv_videoio
+[35m[1mConsolidate compiler generated dependencies of target opencv_highgui[0m
+[ 29%] Built target opencv_highgui
+[35m[1mConsolidate compiler generated dependencies of target opencv_visualisation[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_annotation[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_ts[0m
+[ 30%] Built target opencv_visualisation
+[ 34%] Built target opencv_calib3d
+[ 34%] Built target opencv_annotation
+[35m[1mConsolidate compiler generated dependencies of target opencv_stitching[0m
+[ 35%] Built target opencv_ts
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_features2d[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_ml[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_imgcodecs[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_flann[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_photo[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_photo[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_imgcodecs[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_features2d[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_core[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_videoio[0m
+[ 36%] Built target opencv_stitching
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_videoio[0m
+[ 36%] Built target opencv_perf_imgcodecs
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_imgproc[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_core[0m
+[ 37%] Built target opencv_perf_features2d
+[ 38%] Built target opencv_perf_photo
+[ 38%] Built target opencv_test_flann
+[ 39%] Built target opencv_test_photo
+[ 40%] Built target opencv_test_imgcodecs
+[ 41%] Built target opencv_test_ml
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_imgproc[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_calib3d[0m
+[ 42%] Built target opencv_perf_videoio
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_highgui[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_stitching[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_stitching[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_calib3d[0m
+[ 44%] Built target opencv_test_features2d
+[ 45%] Built target opencv_test_videoio
+[ 46%] Built target opencv_test_highgui
+[ 46%] Built target opencv_perf_calib3d
+[ 46%] Built target opencv_perf_stitching
+[ 48%] Built target opencv_perf_core
+[ 48%] Built target opencv_test_stitching
+[ 51%] Built target opencv_perf_imgproc
+[ 54%] Built target opencv_test_calib3d
+[ 65%] Built target opencv_dnn
+[35m[1mConsolidate compiler generated dependencies of target opencv_model_diagnostics[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_dnn[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_dnn[0m
+[ 65%] Built target opencv_model_diagnostics
+[35m[1mConsolidate compiler generated dependencies of target opencv_objdetect[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_video[0m
+[ 68%] Built target opencv_test_core
+[ 72%] Built target opencv_test_imgproc
+[ 73%] Built target opencv_test_dnn
+[ 74%] Built target opencv_perf_dnn
+[ 76%] Built target opencv_objdetect
+[ 78%] Built target opencv_video
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_objdetect[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_objdetect[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_interactive-calibration[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_video[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_video[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_java[0m
+[ 78%] Built target opencv_interactive-calibration
+[ 79%] Built target opencv_test_objdetect
+[ 79%] Built target opencv_perf_objdetect
+[ 80%] Built target opencv_perf_video
+[ 81%] Built target opencv_java
+[35m[1mConsolidate compiler generated dependencies of target opencv_gapi[0m
+[ 82%] Built target opencv_test_video
+[ 92%] Built target opencv_gapi
+[35m[1mConsolidate compiler generated dependencies of target opencv_python3[0m
+[35m[1mConsolidate compiler generated dependencies of target opencv_perf_gapi[0m
+[ 92%] Built target opencv_python3
+[35m[1mConsolidate compiler generated dependencies of target opencv_test_gapi[0m
+[ 93%] Built target opencv_perf_gapi
+[100%] Built target opencv_test_gapi
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippicv-readme.htm
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippicv-EULA.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippicv-third-party-programs.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippiw-support.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippiw-third-party-programs.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippiw-EULA.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/flatbuffers-LICENSE.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/opencl-headers-LICENSE.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ade-LICENSE
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/cvconfig.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/opencv_modules.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVModules.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVModules-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/setup_vars_opencv4.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/valgrind.supp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/valgrind_3rdparty.supp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/protobuf-LICENSE
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/protobuf-README.md
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ittnotify-LICENSE.BSD
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ittnotify-LICENSE.GPL
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/opencv.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/affine.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/async.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/base.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/bindings_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/bufferpool.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/check.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/core_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/block.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/border_interpolate.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/color.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/common.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/datamov_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/color_detail.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/reduce.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/reduce_key_val.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/transform_detail.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/type_traits_detail.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/vec_distance_detail.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/dynamic_smem.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/emulation.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/filters.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/funcattrib.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/functional.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/limits.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/reduce.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/saturate_cast.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/scan.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/simd_functions.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/transform.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/type_traits.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/utility.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/vec_distance.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/vec_math.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/vec_traits.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/warp.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/warp_reduce.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/warp_shuffle.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda_stream_accessor.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda_types.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cv_cpu_helper.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvdef.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvstd.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvstd.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/detail/async_promise.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/detail/dispatch_helper.impl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/detail/exception_ptr.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/directx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/dualquaternion.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/dualquaternion.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/eigen.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/fast_math.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/hal.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/interface.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_avx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_avx512.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_cpp.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_forward.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_lasx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_lsx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_msa.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_neon.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv071.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_010_compat_non-policy.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_010_compat_overloaded-non-policy.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_011_compat.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_compat_overloaded.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_scalable.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_sse.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_sse_em.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_vsx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_wasm.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/msa_macros.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/simd_utils.impl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/mat.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/mat.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/matx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/matx.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/neon_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/ocl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/ocl_genbase.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/ocl_defs.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/opencl_info.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/opencl_svm.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clblas.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clfft.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_clblas.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_clfft.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_gl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_20.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opengl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/operations.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/optim.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/ovx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/parallel/backend/parallel_for.openmp.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/parallel/backend/parallel_for.tbb.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/parallel/parallel_backend.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/persistence.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/quaternion.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/quaternion.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/saturate.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/simd_intrinsics.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/softfloat.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/sse_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/traits.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/types.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/types_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utility.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/allocator_stats.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/allocator_stats.impl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/filesystem.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/fp_control_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/instrumentation.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/logger.defines.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/logger.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/logtag.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/tls.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/trace.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/va_intel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/version.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/vsx_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/SoftFloat-COPYING.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/all_indices.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/allocator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/any.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/autotuned_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/composite_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/config.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/defines.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/dist.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/dummy.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/dynamic_bitset.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/flann.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/flann_base.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/general.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/ground_truth.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/hdf5.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/heap.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/hierarchical_clustering_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/index_testing.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/kdtree_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/kdtree_single_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/kmeans_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/linear_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/logger.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/lsh_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/lsh_table.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/matrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/miniflann.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/nn_index.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/object_factory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/params.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/random.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/result_set.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/sampling.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/saving.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/simplex_downhill.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/timer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/bindings.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/detail/gcgraph.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/detail/legacy.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/hal/hal.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/hal/interface.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/imgproc.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/imgproc_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/segmentation.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/types_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/ml.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/ml/ml.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/ml/ml.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo/cuda.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo/legacy/constants_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo/photo.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/all_layers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/dict.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/dnn.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/dnn.inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/layer.details.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/layer.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/shape_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/utils/debug_utils.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/version.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/features2d.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/features2d/features2d.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/features2d/hal/interface.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/mscr-chi_table_LICENSE.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/imgcodecs_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/ios.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/legacy/constants_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/macosx.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/cap_ios.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/legacy/constants_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/registry.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/videoio.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/videoio_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/calib3d.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/calib3d/calib3d.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/calib3d/calib3d_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/highgui.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/highgui/highgui.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/highgui/highgui_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/aruco_board.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/aruco_detector.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/barcode.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/charuco_detector.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/face.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/objdetect.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/autocalib.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/blenders.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/camera.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/matchers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/seam_finders.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/timelapsers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/util.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/util_inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/warpers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/warpers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/background_segm.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/detail/tracking.detail.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/legacy/constants_c.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/tracking.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/video.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so.4.10.0
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so.410
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/gcpukernel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/imgproc.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/ot.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/stereo.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/video.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/gfluidbuffer.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/gfluidkernel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/imgproc.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/garg.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/garray.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gasync_context.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcall.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcommon.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcompiled.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcompiled_async.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcompoundkernel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcomputation.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcomputation_async.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gframe.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gkernel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gmat.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gmetaarg.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gopaque.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gproto.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gpu/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gpu/ggpukernel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gpu/imgproc.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gscalar.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gstreaming.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gtransform.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gtype_traits.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gtyped.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/imgproc.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/bindings_ie.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/bindings_onnx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/bindings_ov.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/ie.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/onnx.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/ov.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/parsers.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/media.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/oak/infer.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/oak/oak.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ocl/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ocl/goclkernel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ocl/imgproc.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/opencv_includes.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/operators.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ot.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/assert.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/convert.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/cvdefs.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/exports.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/mat.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/saturate.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/scalar.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/types.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/plaidml/core.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/plaidml/gplaidmlkernel.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/plaidml/plaidml.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/python/python.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/render.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/render/render.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/render/render_types.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/rmat.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/s11n.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/s11n/base.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/stereo.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/cap.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/desync.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/format.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/gstreamer/gstreamerpipeline.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/gstreamer/gstreamersource.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/meta.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/accel_types.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/cfg_params.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/data_provider_interface.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/default.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/device_selector_interface.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/source.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/queue_source.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/source.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/sync.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/any.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/compiler_hints.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/copy_through_move.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/optional.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/throw.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/type_traits.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/util.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/variant.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/video.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/vasot-LICENSE.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/java/opencv4/libopencv_java4100.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/share/java/opencv4/libopencv_java4100.so" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/java/opencv4/opencv-4100.jar
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/__init__.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/load_config_py2.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/load_config_py3.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/config.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/misc/__init__.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/misc/version.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/mat_wrapper/__init__.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/__init__.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/__init__.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ogl
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ogl/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/barcode
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/barcode/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/fisheye
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/fisheye/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/cuda
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/cuda/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/flann
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/flann/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/dnn
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/dnn/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ocl
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ocl/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/samples
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/samples/__init__.pyi
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/fs
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/fs/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/nested
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/nested/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ml/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/detail
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/detail/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/py.typed
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/aruco
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/aruco/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/parallel
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/parallel/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/typing
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/typing/__init__.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/segmentation
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/segmentation/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/Error
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/Error/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ipp
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ipp/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/videoio_registry
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/videoio_registry/__init__.pyi
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/streaming
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/streaming/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot/cpu
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot/cpu/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/cpu
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/cpu/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/ocl
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/ocl/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/fluid
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/fluid/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/draw
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/draw/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/gst
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/gst/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/onevpl
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/onevpl/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ov
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ov/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own/detail
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own/detail/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render/ocv
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render/ocv/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/oak
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/oak/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx/ep
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx/ep/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie/detail
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie/detail/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc/fluid
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc/fluid/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/video
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/video/__init__.pyi
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/python-3.10/cv2.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/python-3.10/cv2.cpython-310-x86_64-linux-gnu.so" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/config-3.10.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_eye.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalcatface.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalcatface_extended.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_alt_tree.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_fullbody.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_lefteye_2splits.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_license_plate_rus_16stages.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_lowerbody.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_profileface.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_righteye_2splits.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_russian_plate_number.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_smile.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_upperbody.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_frontalcatface.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_frontalface.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_profileface.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_annotation
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_annotation" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_visualisation
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_visualisation" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_interactive-calibration
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_interactive-calibration" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_version
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_version" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_model_diagnostics
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_model_diagnostics" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"

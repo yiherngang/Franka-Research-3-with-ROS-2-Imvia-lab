@@ -1,0 +1,3 @@
+source;share/moveit_setup_framework/environment/ament_prefix_path.sh
+source;share/moveit_setup_framework/environment/library_path.sh
+source;share/moveit_setup_framework/environment/path.sh

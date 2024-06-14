@@ -1,0 +1,4 @@
+source;share/franka_robot_state_broadcaster/local_setup.bash
+source;share/franka_robot_state_broadcaster/local_setup.dsv
+source;share/franka_robot_state_broadcaster/local_setup.sh
+source;share/franka_robot_state_broadcaster/local_setup.zsh

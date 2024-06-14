@@ -1,0 +1,63 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- The C compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Checking internet connection...
+-- Internet connection identified
+-- Info: REALSENSE_VERSION_STRING=2.55.1
+-- Setting Unix configurations
+-- No output directory set; using /home/adminlab/franka_ros2_ws/build/librealsense2/Release/
+-- Building libcurl enabled
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Performing Test SUPPORTS_CXX14
+-- Performing Test SUPPORTS_CXX14 - Success
+-- using RS2_USE_V4L2_BACKEND
+-- Found usb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'libudev'
+--   Found libudev, version 249
+-- Found Udev: /usr/include  
+-- Fetching nlohmann/json...
+Cloning into 'json'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 806 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'json'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 2838 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'json'...
+error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+error: 4591 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+CMake Error at /home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/tmp/nlohmann_json-gitclone.cmake:31 (message):
+  Failed to clone repository: 'https://github.com/nlohmann/json.git'
+
+
+gmake[2]: *** [CMakeFiles/nlohmann_json.dir/build.make:98: src/nlohmann_json-stamp/nlohmann_json-download] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/nlohmann_json.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+[31mCMake Error at CMake/external_json.cmake:34 (message):
+  Failed to download nlohmann/json
+Call Stack (most recent call first):
+  CMake/external_json.cmake:50 (get_nlohmann_json)
+  third-party/CMakeLists.txt:3 (include)
+  CMakeLists.txt:58 (include)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/adminlab/franka_ros2_ws/build/librealsense2/CMakeFiles/CMakeOutput.log".

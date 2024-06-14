@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/UpdatePointcloudOctomap.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module moveit_msgs {
+  module srv {
+    struct UpdatePointcloudOctomap_Request {
+      sensor_msgs::msg::PointCloud2 cloud;
+    };
+    struct UpdatePointcloudOctomap_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+-DBACKWARD_HAS_DW=1
+-DROS_PACKAGE_NAME="moveit_setup_controllers"
+-DQT_NO_KEYWORDS
+-o
+/home/adminlab/franka_ros2_ws/build/moveit_setup_controllers/include/moveit_setup_controllers/moc_controllers_widget.cpp
+/home/adminlab/franka_ros2_ws/src/moveit2/moveit_setup_assistant/moveit_setup_controllers/include/moveit_setup_controllers/controllers_widget.hpp

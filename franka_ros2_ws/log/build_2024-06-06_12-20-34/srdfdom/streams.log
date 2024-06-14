@@ -1,0 +1,57 @@
+[0.177s] Invoking command in '/home/adminlab/franka_ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/srdfdom -- -j16 -l16
+[0.508s] [ 27%] Built target srdfdom
+[0.508s] [ 45%] Built target gtest
+[0.508s] [ 63%] Built target gtest_main
+[0.509s] [ 63%] Built target ament_cmake_python_copy_srdfdom
+[0.509s] [ 81%] Built target test_cpp_nl_NL.UTF-8
+[0.509s] running egg_info
+[0.509s] writing srdfdom.egg-info/PKG-INFO
+[0.509s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[0.509s] writing top-level names to srdfdom.egg-info/top_level.txt
+[0.509s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.509s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.509s] [ 81%] Built target ament_cmake_python_build_srdfdom_egg
+[0.509s] [100%] Built target test_cpp_C
+[0.519s] Invoked command in '/home/adminlab/franka_ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/srdfdom -- -j16 -l16
+[0.568s] Invoking command in '/home/adminlab/franka_ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/srdfdom
+[0.574s] -- Install configuration: ""
+[0.575s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[0.575s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so
+[0.575s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom
+[0.575s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/model.h
+[0.576s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/srdf_writer.h
+[0.576s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/visibility_control.h
+[0.576s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/srdfdom/display_srdf
+[0.576s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[0.576s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[0.577s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[0.578s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[0.578s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[0.578s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[0.578s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[0.580s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[0.581s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[0.581s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[0.597s] Listing '/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[0.600s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+[0.601s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[0.601s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[0.601s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[0.601s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[0.601s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[0.601s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/path.sh
+[0.601s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+[0.602s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.bash
+[0.602s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.sh
+[0.602s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+[0.602s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+[0.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/package.dsv
+[0.602s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[0.602s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[0.603s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[0.603s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[0.603s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.603s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[0.603s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[0.603s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/package.xml
+[0.649s] Invoked command in '/home/adminlab/franka_ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/srdfdom

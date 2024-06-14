@@ -1,0 +1,4 @@
+Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description -- -j16 -l16
+Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description -- -j16 -l16
+Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description
+Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_description

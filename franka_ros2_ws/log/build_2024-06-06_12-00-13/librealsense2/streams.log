@@ -1,0 +1,132 @@
+[0.558s] Invoking command in '/home/adminlab/franka_ros2_ws/build/librealsense2': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/librealsense2 -- -j16 -l16
+[0.607s] [  3%] Built target libcurl
+[0.621s] [  3%] Built target fw
+[0.628s] [  8%] Built target realsense-file
+[0.629s] [  9%] Built target rs-embed
+[0.655s] [ 15%] Built target rsutils
+[0.734s] [ 53%] Built target realsense2
+[0.779s] [ 57%] Built target realsense2-gl
+[0.779s] [ 58%] Built target rs-hello-realsense
+[0.779s] [ 59%] Built target rs-software-device
+[0.790s] [ 59%] Built target rs-capture
+[0.790s] [ 60%] Built target rs-save-to-disk
+[0.790s] [ 61%] Built target rs-multicam
+[0.791s] [ 62%] Built target rs-callback
+[0.812s] [ 62%] Built target rs-pointcloud
+[0.813s] [ 63%] Built target rs-align-gl
+[0.813s] [ 65%] Built target rs-align
+[0.814s] [ 66%] Built target rs-align-advanced
+[0.822s] [ 67%] Built target rs-depth
+[0.822s] [ 67%] Built target rs-sensor-control
+[0.822s] [ 67%] Built target rs-measure
+[0.839s] [ 69%] Built target rs-color
+[0.839s] [ 70%] Built target rs-record-playback
+[0.842s] [ 70%] Built target rs-distance
+[0.843s] [ 72%] Built target rs-post-processing
+[0.861s] [ 73%] Built target rs-motion
+[0.861s] [ 74%] Built target rs-hdr
+[0.861s] [ 75%] Built target rs-gl
+[0.861s] [ 75%] Built target rs-enumerate-devices
+[0.861s] [ 76%] Built target rs-convert
+[0.871s] [ 76%] Built target rs-terminal
+[0.876s] [ 77%] Built target rs-fw-logger
+[0.879s] [ 77%] Built target rs-fw-update
+[0.883s] [ 77%] Built target rs-data-collect
+[0.883s] [ 77%] Built target rs-record
+[0.889s] [ 79%] Built target rs-rosbag-inspector
+[0.896s] [ 80%] Built target rs-benchmark
+[0.899s] [ 90%] Built target rs-depth-quality
+[0.905s] [100%] Built target realsense-viewer
+[1.130s] Invoked command in '/home/adminlab/franka_ros2_ws/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/librealsense2 -- -j16 -l16
+[1.677s] Invoking command in '/home/adminlab/franka_ros2_ws/build/librealsense2': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/librealsense2
+[1.711s] -- Install configuration: "Release"
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55.1
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_advanced_mode_command.h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_processing.h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_pipeline.h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_config.h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_device.h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_record_playback.h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_internal.h
+[1.712s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_types.h
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_option.h
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_context.h
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_sensor.h
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_frame.h
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.h
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_internal.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_pipeline.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_export.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_types.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_record_playback.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_serializable_device.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_options.hpp
+[1.713s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_processing.hpp
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_sensor.hpp
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_context.hpp
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_frame.hpp
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_device.hpp
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rsutil.h
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.hpp
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.h
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets.cmake
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets-release.cmake
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Config.cmake
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2ConfigVersion.cmake
+[1.714s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2.pc
+[1.737s] /sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librsutils.a
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense-file.a
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55.1
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.h
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.hpp
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets.cmake
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets-release.cmake
+[1.740s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfig.cmake
+[1.741s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfigVersion.cmake
+[1.741s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2-gl.pc
+[1.816s] /sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[1.816s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hello-realsense
+[1.817s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-software-device
+[1.817s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-capture
+[1.817s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-callback
+[1.817s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-save-to-disk
+[1.818s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-multicam
+[1.818s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-pointcloud
+[1.818s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align
+[1.819s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-gl
+[1.819s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-advanced
+[1.819s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-sensor-control
+[1.820s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-measure
+[1.820s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth
+[1.820s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-color
+[1.821s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-distance
+[1.821s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-post-processing
+[1.821s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record-playback
+[1.822s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-motion
+[1.822s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-gl
+[1.822s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hdr
+[1.823s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-convert
+[1.823s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-enumerate-devices
+[1.823s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-logger
+[1.823s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-terminal
+[1.824s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record
+[1.824s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-update
+[1.824s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-embed
+[1.825s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-data-collect
+[1.825s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/realsense-viewer
+[1.825s] -- Up-to-date: /home/adminlab/Documents/librealsense2/presets
+[1.825s] -- Up-to-date: /home/adminlab/Documents/librealsense2/presets/sample.preset
+[1.825s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth-quality
+[1.826s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-rosbag-inspector
+[1.826s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-benchmark
+[1.826s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/libfw.a
+[1.941s] Invoked command in '/home/adminlab/franka_ros2_ws/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/librealsense2

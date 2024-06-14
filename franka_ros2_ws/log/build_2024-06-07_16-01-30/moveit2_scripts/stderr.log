@@ -1,0 +1,8 @@
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/approach_retreat.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/approach_retreat.cpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_group_positions[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_group_positions_arm[m[K’?
+   52 |   [01;31m[Kjoint_group_positions[m[K[0] = 0.00;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kjoint_group_positions_arm[m[K
+gmake[2]: *** [CMakeFiles/approach_retreat.dir/build.make:76: CMakeFiles/approach_retreat.dir/src/approach_retreat.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/approach_retreat.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

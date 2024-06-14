@@ -1,0 +1,3 @@
+moveit::hybrid_planning::HybridPlanningManager;lib/libmoveit_hybrid_planning_manager.so.2.5.5
+moveit::hybrid_planning::GlobalPlannerComponent;lib/libmoveit_global_planner_component.so.2.5.5
+moveit::hybrid_planning::LocalPlannerComponent;lib/libmoveit_local_planner_component.so.2.5.5

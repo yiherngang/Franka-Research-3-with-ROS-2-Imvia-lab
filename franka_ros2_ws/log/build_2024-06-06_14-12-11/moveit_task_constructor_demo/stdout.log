@@ -1,0 +1,89 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found generate_parameter_library: 0.3.7 (/home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found moveit_core: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_task_constructor_core: 0.1.3 (/home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_task_constructor_demo
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_demo_cartesian[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_demo_modular[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_demo_fallbacks_move_to[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_demo_alternative_path_costs[0m
+[  6%] Built target pick_place_demo_parameters
+[ 18%] Built target moveit_task_constructor_demo_cartesian
+[ 25%] Built target ik_clearance_cost_parameters
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_demo_pick_place_task[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_demo_ik_clearance_cost[0m
+[ 37%] Built target moveit_task_constructor_demo_alternative_path_costs
+[ 56%] Built target moveit_task_constructor_demo_fallbacks_move_to
+[ 62%] Built target moveit_task_constructor_demo_modular
+[ 75%] Built target moveit_task_constructor_demo_pick_place_task
+[ 87%] Built target moveit_task_constructor_demo_ik_clearance_cost
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_demo_pick_place_demo[0m
+[100%] Built target moveit_task_constructor_demo_pick_place_demo
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/lib/libmoveit_task_constructor_demo_pick_place_task.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/cartesian
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/modular
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/alternative_path_costs
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/include/ik_clearance_cost_parameters
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/include/ik_clearance_cost_parameters/ik_clearance_cost_parameters.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/ik_clearance_cost
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/fallbacks_move_to
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/include/pick_place_demo_parameters
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/include/pick_place_demo_parameters/pick_place_demo_parameters.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/pick_place_demo
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/modular.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/fallbacks_move_to.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/demo.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/ik_clearance_cost.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/cartesian.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/pickplace.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/alternative_path_costs.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config/panda_config.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config/mtc.rviz
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_demo
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_demo
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/ament_index/resource_index/packages/moveit_task_constructor_demo
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/package.xml

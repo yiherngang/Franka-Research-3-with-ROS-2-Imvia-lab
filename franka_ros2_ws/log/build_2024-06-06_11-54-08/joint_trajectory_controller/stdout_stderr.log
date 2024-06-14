@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[ 12%] Built target joint_trajectory_controller_parameters
+[ 25%] Built target gmock_main
+[ 43%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target joint_trajectory_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target test_load_joint_trajectory_controller[0m
+[ 62%] Built target joint_trajectory_controller
+[ 75%] Built target test_load_joint_trajectory_controller
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory[0m
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory_controller[0m
+[ 87%] Built target test_trajectory
+[100%] Built target test_trajectory_controller

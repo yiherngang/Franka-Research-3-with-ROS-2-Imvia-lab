@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetPositionIK.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/PositionIKRequest.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "A service call to carry out an inverse kinematics computation" "\n"
+      "The inverse kinematics request")
+    struct GetPositionIK_Request {
+      moveit_msgs::msg::PositionIKRequest ik_request;
+    };
+    struct GetPositionIK_Response {
+      @verbatim (language="comment", text=
+        "The returned solution" "\n"
+        "(in the same order as the list of joints specified in the IKRequest message)")
+      moveit_msgs::msg::RobotState solution;
+
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+    };
+  };
+};

@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/franka_moveit_config
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/panda_ros_controllers.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/panda_controllers.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/kinematics.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/config/ompl_planning.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/launch/moveit.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/launch/move_group.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/panda_arm.xacro
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/group_definition.xacro
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/panda_arm.srdf.xacro
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/panda_arm_hand.xacro
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/srdf/hand.xacro
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/rviz
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/rviz/moveit.rviz
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/ament_index/resource_index/package_run_dependencies/franka_moveit_config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/ament_index/resource_index/parent_prefix_path/franka_moveit_config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/ament_index/resource_index/packages/franka_moveit_config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/cmake/franka_moveit_configConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/cmake/franka_moveit_configConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_moveit_config/share/franka_moveit_config/package.xml

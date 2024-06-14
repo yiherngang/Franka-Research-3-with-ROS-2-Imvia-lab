@@ -1,0 +1,2100 @@
+[0.600s] Invoking command in '/home/adminlab/franka_ros2_ws/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/librealsense -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/librealsense2
+[0.813s] -- The CXX compiler identification is GNU 11.4.0
+[0.813s] -- The C compiler identification is GNU 11.4.0
+[0.813s] -- Detecting CXX compiler ABI info
+[0.847s] -- Detecting CXX compiler ABI info - done
+[0.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.856s] -- Detecting CXX compile features
+[0.857s] -- Detecting CXX compile features - done
+[0.859s] -- Detecting C compiler ABI info
+[0.931s] -- Detecting C compiler ABI info - done
+[0.941s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.941s] -- Detecting C compile features
+[0.941s] -- Detecting C compile features - done
+[0.941s] -- Checking internet connection...
+[1.137s] -- Internet connection identified
+[1.139s] -- Info: REALSENSE_VERSION_STRING=2.55.1
+[1.140s] -- Setting Unix configurations
+[1.140s] -- No output directory set; using /home/adminlab/franka_ros2_ws/build/librealsense2/Release/
+[1.146s] -- Building libcurl enabled
+[1.227s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.233s] -- Performing Test SUPPORTS_CXX14
+[1.321s] -- Performing Test SUPPORTS_CXX14 - Success
+[1.322s] -- using RS2_USE_V4L2_BACKEND
+[1.330s] -- Found usb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.336s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.337s] -- Checking for module 'libudev'
+[1.355s] --   Found libudev, version 249
+[1.423s] -- Found Udev: /usr/include  
+[1.423s] -- Fetching nlohmann/json...
+[1.622s] Cloning into 'json'...
+[12.736s] HEAD is now at 9cca280 JSON for Modern C++ 3.11.3 (#4222)
+[13.863s] -- Using the multi-header code from /home/adminlab/franka_ros2_ws/build/librealsense2/third-party/json/include/
+[13.864s] -- Fetching nlohmann/json - Done
+[13.931s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[13.963s] -- Looking for pthread.h
+[14.075s] -- Looking for pthread.h - found
+[14.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.177s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.179s] -- Found Threads: TRUE  
+[14.198s] -- Check for updates capability added to realsense-viewer
+[14.203s] -- Check for updates capability added to realsense-depth-quality
+[14.204s] -- Fetching recommended firmwares:
+[14.204s] -- disable link time optimization for fw project
+[14.204s] -- ... https://librealsense.intel.com/Releases/RS4xx/FW/D4XX_FW_Image-5.16.0.1.bin
+[14.692s] -- Configuring done
+[14.799s] -- Generating done
+[14.807s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/librealsense2
+[14.827s] Invoked command in '/home/adminlab/franka_ros2_ws/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/librealsense -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/librealsense2
+[14.828s] Invoking command in '/home/adminlab/franka_ros2_ws/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/librealsense2 -- -j16 -l16
+[14.887s] [  0%] [34m[1mCreating directories for 'libcurl'[0m
+[14.888s] [  0%] [32mBuilding CXX object tools/embed/CMakeFiles/rs-embed.dir/rs-embed.cpp.o[0m
+[14.888s] [  0%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/configure-elpp-logger.cpp.o[0m
+[14.899s] [  1%] [32mBuilding C object tools/embed/CMakeFiles/rs-embed.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[14.900s] [  2%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/__/easyloggingpp/src/easylogging++.cc.o[0m
+[14.911s] [  2%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/crc32.cpp.o[0m
+[14.921s] [  2%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/dispatcher.cpp.o[0m
+[14.950s] [  2%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/lz4/lz4.c.o[0m
+[14.950s] [  2%] [32mBuilding C object common/fw/CMakeFiles/fw.dir/empty.c.o[0m
+[14.954s] [  3%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/ensure-console.cpp.o[0m
+[14.965s] [  3%] [32mBuilding C object common/fw/CMakeFiles/fw.dir/D4XX_FW_Image.c.o[0m
+[14.966s] [  4%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/debug.cpp.o[0m
+[14.968s] [  4%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/console_bridge/src/console.cpp.o[0m
+[14.977s] [  4%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/executable-name.cpp.o[0m
+[14.999s] [  4%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/float3.cpp.o[0m
+[15.002s] [  4%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/header.cpp.o[0m
+[15.040s] [  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/from.cpp.o[0m
+[15.072s] [  5%] [32m[1mLinking C static library ../../Release/libfw.a[0m
+[15.073s] [  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/hexarray.cpp.o[0m
+[15.111s] [  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/hexdump.cpp.o[0m
+[15.171s] [  5%] [34m[1mPerforming download step (git clone) for 'libcurl'[0m
+[15.263s] Cloning into 'libcurl'...
+[15.364s] [  5%] Built target fw
+[15.407s] [  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/ip-address.cpp.o[0m
+[15.620s] [  6%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/json.cpp.o[0m
+[15.815s] [  6%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/make-less-screamy.cpp.o[0m
+[15.827s] [  6%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/os.cpp.o[0m
+[15.883s] [  6%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag.cpp.o[0m
+[16.115s] [  6%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag_player.cpp.o[0m
+[16.177s] [  6%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/shorten-json-string.cpp.o[0m
+[16.256s] [  7%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/buffer.cpp.o[0m
+[16.309s] [  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/special-folder.cpp.o[0m
+[16.423s] [  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/version.cpp.o[0m
+[16.436s] [  8%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/chunked_file.cpp.o[0m
+[16.480s] [  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/work-week.cpp.o[0m
+[16.655s] [  8%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/lz4_stream.cpp.o[0m
+[17.199s] [  8%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/message_instance.cpp.o[0m
+[17.231s] [  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/query.cpp.o[0m
+[17.239s] [  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/stream.cpp.o[0m
+[17.809s] [  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/uncompressed_stream.cpp.o[0m
+[17.976s] [  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/view.cpp.o[0m
+[18.141s] [ 10%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roscpp_serialization/src/serialization.cpp.o[0m
+[18.336s] [ 10%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roslz4/src/lz4s.c.o[0m
+[18.444s] [ 10%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roslz4/src/xxhash.c.o[0m
+[18.546s] [ 11%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/duration.cpp.o[0m
+[18.728s] [ 11%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/rate.cpp.o[0m
+[18.736s] [ 11%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/time.cpp.o[0m
+[21.493s] [ 11%] [32m[1mLinking CXX static library ../../Release/librealsense-file.a[0m
+[21.707s] [ 11%] Built target realsense-file
+[23.851s] [ 12%] [32m[1mLinking CXX static library ../../Release/librsutils.a[0m
+[23.986s] [ 12%] Built target rsutils
+[24.047s] [ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-container.cpp.o[0m
+[24.047s] [ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/matcher-factory.cpp.o[0m
+[24.052s] [ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/notification.cpp.o[0m
+[24.063s] [ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-registry.cpp.o[0m
+[24.103s] [ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-watcher.cpp.o[0m
+[24.129s] [ 13%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-options.cpp.o[0m
+[24.138s] [ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-private.cpp.o[0m
+[24.155s] [ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-motion.cpp.o[0m
+[24.213s] [ 14%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-nonmonochrome.cpp.o[0m
+[24.231s] [ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-color.cpp.o[0m
+[24.235s] [ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-device.cpp.o[0m
+[24.245s] [ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-active.cpp.o[0m
+[24.312s] [ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-factory.cpp.o[0m
+[24.340s] [ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-fw-update-device.cpp.o[0m
+[25.575s] HEAD is now at 2f33be817 RELEASE-NOTES: synced
+[25.839s] [ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-auto-calibration.cpp.o[0m
+[26.023s] [ 17%] [34m[1mNo update step for 'libcurl'[0m
+[26.080s] [ 17%] [32m[1mLinking CXX executable ../../Release/rs-embed[0m
+[26.156s] [ 17%] [34m[1mNo patch step for 'libcurl'[0m
+[26.288s] [ 17%] [34m[1mPerforming configure step for 'libcurl'[0m
+[26.289s] [ 17%] Built target rs-embed
+[26.344s] [ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-thermal-monitor.cpp.o[0m
+[26.427s] [ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-device.cpp.o[0m
+[26.455s] -- The C compiler identification is GNU 11.4.0
+[26.480s] -- Detecting C compiler ABI info
+[26.644s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-color.cpp.o[0m
+[26.791s] -- Detecting C compiler ABI info - done
+[26.808s] -- Check for working C compiler: /usr/bin/cc - skipped
+[26.812s] -- Detecting C compile features
+[26.812s] -- Detecting C compile features - done
+[26.812s] -- curl version=[7.75.0-DEV]
+[26.812s] -- Performing Test OPT_pedantic
+[27.126s] -- Performing Test OPT_pedantic - Success
+[27.126s] -- Performing Test OPT_Wall
+[27.152s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-motion.cpp.o[0m
+[27.444s] -- Performing Test OPT_Wall - Success
+[27.444s] -- Performing Test OPT_W
+[27.667s] -- Performing Test OPT_W - Success
+[27.668s] -- Performing Test OPT_Wpointer_arith
+[27.999s] -- Performing Test OPT_Wpointer_arith - Success
+[28.000s] -- Performing Test OPT_Wwrite_strings
+[28.323s] -- Performing Test OPT_Wwrite_strings - Success
+[28.324s] -- Performing Test OPT_Wunused
+[28.639s] -- Performing Test OPT_Wunused - Success
+[28.640s] -- Performing Test OPT_Wshadow
+[28.967s] -- Performing Test OPT_Wshadow - Success
+[28.967s] -- Performing Test OPT_Winline
+[29.261s] -- Performing Test OPT_Winline - Success
+[29.261s] -- Performing Test OPT_Wnested_externs
+[29.423s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-active.cpp.o[0m
+[29.577s] -- Performing Test OPT_Wnested_externs - Success
+[29.577s] -- Performing Test OPT_Wmissing_declarations
+[29.891s] -- Performing Test OPT_Wmissing_declarations - Success
+[29.895s] -- Performing Test OPT_Wmissing_prototypes
+[29.959s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-private.cpp.o[0m
+[30.171s] -- Performing Test OPT_Wmissing_prototypes - Success
+[30.172s] -- Performing Test OPT_Wfloat_equal
+[30.380s] [ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-factory.cpp.o[0m
+[30.516s] -- Performing Test OPT_Wfloat_equal - Success
+[30.516s] -- Performing Test OPT_Wsign_compare
+[30.855s] -- Performing Test OPT_Wsign_compare - Success
+[30.855s] -- Performing Test OPT_Wundef
+[31.171s] -- Performing Test OPT_Wundef - Success
+[31.171s] -- Performing Test OPT_Wendif_labels
+[31.359s] [ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/hw_monitor_extended_buffers.cpp.o[0m
+[31.479s] -- Performing Test OPT_Wendif_labels - Success
+[31.480s] -- Performing Test OPT_Wstrict_prototypes
+[31.799s] -- Performing Test OPT_Wstrict_prototypes - Success
+[31.799s] -- Performing Test OPT_Wdeclaration_after_statement
+[32.097s] -- Performing Test OPT_Wdeclaration_after_statement - Success
+[32.098s] -- Performing Test OPT_Wstrict_aliasing_3
+[32.361s] [ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-options.cpp.o[0m
+[32.409s] -- Performing Test OPT_Wstrict_aliasing_3 - Success
+[32.410s] -- Performing Test OPT_Wcast_align
+[32.712s] -- Performing Test OPT_Wcast_align - Success
+[32.712s] -- Performing Test OPT_Wtype_limits
+[33.023s] -- Performing Test OPT_Wtype_limits - Success
+[33.024s] -- Performing Test OPT_Wold_style_declaration
+[33.335s] -- Performing Test OPT_Wold_style_declaration - Success
+[33.336s] -- Performing Test OPT_Wmissing_parameter_type
+[33.643s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-fw-update-device.cpp.o[0m
+[33.659s] -- Performing Test OPT_Wmissing_parameter_type - Success
+[33.660s] -- Performing Test OPT_Wempty_body
+[33.983s] -- Performing Test OPT_Wempty_body - Success
+[33.984s] -- Performing Test OPT_Wclobbered
+[34.148s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-device-common.cpp.o[0m
+[34.283s] -- Performing Test OPT_Wclobbered - Success
+[34.284s] -- Performing Test OPT_Wignored_qualifiers
+[34.597s] -- Performing Test OPT_Wignored_qualifiers - Success
+[34.598s] -- Performing Test OPT_Wconversion
+[34.905s] -- Performing Test OPT_Wconversion - Success
+[34.906s] -- Performing Test OPT_Wvla
+[34.985s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-motion-common.cpp.o[0m
+[35.203s] -- Performing Test OPT_Wvla - Success
+[35.203s] -- Performing Test OPT_Wdouble_promotion
+[35.515s] -- Performing Test OPT_Wdouble_promotion - Success
+[35.515s] -- Performing Test OPTlong_long
+[35.635s] [ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-color-common.cpp.o[0m
+[35.847s] -- Performing Test OPTlong_long - Success
+[35.847s] -- Performing Test OPTmultichar
+[36.168s] -- Performing Test OPTmultichar - Success
+[36.168s] -- Performing Test OPTformat_nonliteral
+[36.475s] -- Performing Test OPTformat_nonliteral - Success
+[36.476s] -- Performing Test OPTsign_conversion
+[36.691s] [ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-active-common.cpp.o[0m
+[36.822s] -- Performing Test OPTsign_conversion - Success
+[36.823s] -- Performing Test OPTsystem_headers
+[36.979s] [ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-private.cpp.o[0m
+[37.207s] -- Performing Test OPTsystem_headers - Success
+[37.208s] -- Performing Test OPTpedantic_ms_format
+[37.365s] -- Performing Test OPTpedantic_ms_format - Failed
+[37.367s] -- Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR
+[37.613s] -- Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR - Success
+[37.619s] -- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID
+[37.703s] [ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-timestamp.cpp.o[0m
+[37.901s] -- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID - Success
+[37.938s] -- Found Perl: /usr/bin/perl (found version "5.34.0") 
+[37.947s] -- Looking for pthread.h
+[38.321s] -- Looking for pthread.h - found
+[38.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[38.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[38.727s] -- Found Threads: TRUE  
+[38.728s] -- Looking for dlopen in dl;
+[39.185s] -- Looking for dlopen in dl; - found
+[39.187s] -- Looking for connect in socket;dl
+[39.607s] -- Looking for connect in socket;dl - not found
+[39.608s] -- Looking for gethostbyname in c
+[40.031s] -- Looking for gethostbyname in c - found
+[40.032s] -- Looking for gethostname
+[40.484s] -- Looking for gethostname - found
+[40.495s] [ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-options.cpp.o[0m
+[40.947s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[40.948s] -- Looking for openssl/crypto.h
+[41.039s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/rs_advanced_mode.cpp.o[0m
+[41.403s] -- Looking for openssl/crypto.h - found
+[41.404s] -- Looking for openssl/err.h
+[41.887s] -- Looking for openssl/err.h - found
+[41.888s] -- Looking for openssl/pem.h
+[42.463s] -- Looking for openssl/pem.h - found
+[42.464s] -- Looking for openssl/rsa.h
+[42.799s] -- Looking for openssl/rsa.h - found
+[42.800s] -- Looking for openssl/ssl.h
+[43.103s] -- Looking for openssl/ssl.h - found
+[43.107s] -- Looking for openssl/x509.h
+[43.364s] -- Looking for openssl/x509.h - found
+[43.364s] -- Looking for openssl/rand.h
+[43.574s] -- Looking for openssl/rand.h - found
+[43.575s] -- Looking for RAND_status
+[43.614s] -- Looking for RAND_status - not found
+[43.615s] -- Looking for RAND_screen
+[43.687s] -- Looking for RAND_screen - not found
+[43.688s] -- Looking for RAND_egd
+[43.795s] -- Looking for RAND_egd - not found
+[43.795s] -- Looking for dlopen in dl;OpenSSL::SSL;OpenSSL::Crypto
+[44.011s] -- Looking for dlopen in dl;OpenSSL::SSL;OpenSSL::Crypto - found
+[44.012s] -- Performing Test USE_UNIX_SOCKETS
+[44.221s] -- Performing Test USE_UNIX_SOCKETS - Success
+[44.227s] -- Found CA bundle: /etc/ssl/certs/ca-certificates.crt
+[44.228s] -- Looking for include file stdio.h
+[44.447s] -- Looking for include file stdio.h - found
+[44.447s] -- Looking for include files stdio.h, inttypes.h
+[44.654s] -- Looking for include files stdio.h, inttypes.h - found
+[44.655s] -- Looking for 3 include files stdio.h, ..., sys/filio.h
+[44.784s] -- Looking for 3 include files stdio.h, ..., sys/filio.h - not found
+[44.784s] -- Looking for 3 include files stdio.h, ..., sys/ioctl.h
+[45.095s] -- Looking for 3 include files stdio.h, ..., sys/ioctl.h - found
+[45.096s] -- Looking for 4 include files stdio.h, ..., sys/param.h
+[45.397s] -- Looking for 4 include files stdio.h, ..., sys/param.h - found
+[45.398s] -- Looking for 5 include files stdio.h, ..., sys/poll.h
+[45.595s] -- Looking for 5 include files stdio.h, ..., sys/poll.h - found
+[45.596s] -- Looking for 6 include files stdio.h, ..., sys/resource.h
+[45.836s] -- Looking for 6 include files stdio.h, ..., sys/resource.h - found
+[45.839s] -- Looking for 7 include files stdio.h, ..., sys/select.h
+[46.063s] -- Looking for 7 include files stdio.h, ..., sys/select.h - found
+[46.064s] -- Looking for 8 include files stdio.h, ..., sys/socket.h
+[46.238s] -- Looking for 8 include files stdio.h, ..., sys/socket.h - found
+[46.242s] -- Looking for 9 include files stdio.h, ..., sys/sockio.h
+[46.306s] -- Looking for 9 include files stdio.h, ..., sys/sockio.h - not found
+[46.307s] -- Looking for 9 include files stdio.h, ..., sys/stat.h
+[46.507s] -- Looking for 9 include files stdio.h, ..., sys/stat.h - found
+[46.507s] -- Looking for 10 include files stdio.h, ..., sys/time.h
+[46.791s] -- Looking for 10 include files stdio.h, ..., sys/time.h - found
+[46.792s] -- Looking for 11 include files stdio.h, ..., sys/types.h
+[46.987s] -- Looking for 11 include files stdio.h, ..., sys/types.h - found
+[47.015s] -- Looking for 12 include files stdio.h, ..., sys/uio.h
+[47.281s] -- Looking for 12 include files stdio.h, ..., sys/uio.h - found
+[47.281s] -- Looking for 13 include files stdio.h, ..., sys/un.h
+[47.558s] -- Looking for 13 include files stdio.h, ..., sys/un.h - found
+[47.558s] -- Looking for 14 include files stdio.h, ..., sys/utime.h
+[47.723s] -- Looking for 14 include files stdio.h, ..., sys/utime.h - not found
+[47.724s] -- Looking for 14 include files stdio.h, ..., sys/xattr.h
+[48.001s] -- Looking for 14 include files stdio.h, ..., sys/xattr.h - found
+[48.002s] -- Looking for 15 include files stdio.h, ..., alloca.h
+[48.201s] -- Looking for 15 include files stdio.h, ..., alloca.h - found
+[48.201s] -- Looking for 16 include files stdio.h, ..., arpa/inet.h
+[48.370s] -- Looking for 16 include files stdio.h, ..., arpa/inet.h - found
+[48.371s] -- Looking for 17 include files stdio.h, ..., arpa/tftp.h
+[48.508s] -- Looking for 17 include files stdio.h, ..., arpa/tftp.h - found
+[48.509s] -- Looking for 18 include files stdio.h, ..., assert.h
+[48.664s] -- Looking for 18 include files stdio.h, ..., assert.h - found
+[48.666s] -- Looking for 19 include files stdio.h, ..., crypto.h
+[48.753s] -- Looking for 19 include files stdio.h, ..., crypto.h - not found
+[48.754s] -- Looking for 19 include files stdio.h, ..., err.h
+[48.881s] -- Looking for 19 include files stdio.h, ..., err.h - found
+[48.881s] -- Looking for 20 include files stdio.h, ..., errno.h
+[48.985s] -- Looking for 20 include files stdio.h, ..., errno.h - found
+[48.986s] -- Looking for 21 include files stdio.h, ..., fcntl.h
+[49.105s] -- Looking for 21 include files stdio.h, ..., fcntl.h - found
+[49.107s] -- Looking for 22 include files stdio.h, ..., idn2.h
+[49.174s] -- Looking for 22 include files stdio.h, ..., idn2.h - not found
+[49.176s] -- Looking for 22 include files stdio.h, ..., ifaddrs.h
+[49.296s] -- Looking for 22 include files stdio.h, ..., ifaddrs.h - found
+[49.296s] -- Looking for 23 include files stdio.h, ..., io.h
+[49.362s] -- Looking for 23 include files stdio.h, ..., io.h - not found
+[49.362s] -- Looking for 23 include files stdio.h, ..., krb.h
+[49.424s] -- Looking for 23 include files stdio.h, ..., krb.h - not found
+[49.425s] -- Looking for 23 include files stdio.h, ..., libgen.h
+[49.557s] -- Looking for 23 include files stdio.h, ..., libgen.h - found
+[49.558s] -- Looking for 24 include files stdio.h, ..., locale.h
+[49.687s] -- Looking for 24 include files stdio.h, ..., locale.h - found
+[49.688s] -- Looking for 25 include files stdio.h, ..., net/if.h
+[49.797s] -- Looking for 25 include files stdio.h, ..., net/if.h - found
+[49.798s] -- Looking for 26 include files stdio.h, ..., netdb.h
+[49.937s] -- Looking for 26 include files stdio.h, ..., netdb.h - found
+[49.937s] -- Looking for 27 include files stdio.h, ..., netinet/in.h
+[50.063s] -- Looking for 27 include files stdio.h, ..., netinet/in.h - found
+[50.064s] -- Looking for 28 include files stdio.h, ..., netinet/tcp.h
+[50.186s] -- Looking for 28 include files stdio.h, ..., netinet/tcp.h - found
+[50.187s] -- Looking for linux/tcp.h
+[50.291s] -- Looking for linux/tcp.h - found
+[50.292s] -- Looking for 29 include files stdio.h, ..., pem.h
+[50.349s] -- Looking for 29 include files stdio.h, ..., pem.h - not found
+[50.350s] -- Looking for 29 include files stdio.h, ..., poll.h
+[50.464s] -- Looking for 29 include files stdio.h, ..., poll.h - found
+[50.465s] -- Looking for 30 include files stdio.h, ..., pwd.h
+[50.592s] -- Looking for 30 include files stdio.h, ..., pwd.h - found
+[50.592s] -- Looking for 31 include files stdio.h, ..., rsa.h
+[50.640s] -- Looking for 31 include files stdio.h, ..., rsa.h - not found
+[50.641s] -- Looking for 31 include files stdio.h, ..., setjmp.h
+[50.741s] -- Looking for 31 include files stdio.h, ..., setjmp.h - found
+[50.741s] -- Looking for 32 include files stdio.h, ..., sgtty.h
+[50.843s] -- Looking for 32 include files stdio.h, ..., sgtty.h - found
+[50.844s] -- Looking for 33 include files stdio.h, ..., signal.h
+[50.972s] -- Looking for 33 include files stdio.h, ..., signal.h - found
+[50.973s] -- Looking for 34 include files stdio.h, ..., ssl.h
+[51.032s] -- Looking for 34 include files stdio.h, ..., ssl.h - not found
+[51.033s] -- Looking for 34 include files stdio.h, ..., stdbool.h
+[51.151s] -- Looking for 34 include files stdio.h, ..., stdbool.h - found
+[51.152s] -- Looking for 35 include files stdio.h, ..., stdint.h
+[51.282s] -- Looking for 35 include files stdio.h, ..., stdint.h - found
+[51.282s] -- Looking for 37 include files stdio.h, ..., stdlib.h
+[51.410s] -- Looking for 37 include files stdio.h, ..., stdlib.h - found
+[51.411s] -- Looking for 38 include files stdio.h, ..., string.h
+[51.530s] -- Looking for 38 include files stdio.h, ..., string.h - found
+[51.530s] -- Looking for 39 include files stdio.h, ..., strings.h
+[51.626s] -- Looking for 39 include files stdio.h, ..., strings.h - found
+[51.626s] -- Looking for 40 include files stdio.h, ..., stropts.h
+[51.688s] -- Looking for 40 include files stdio.h, ..., stropts.h - not found
+[51.689s] -- Looking for 40 include files stdio.h, ..., termio.h
+[51.806s] -- Looking for 40 include files stdio.h, ..., termio.h - found
+[51.807s] -- Looking for 41 include files stdio.h, ..., termios.h
+[51.934s] -- Looking for 41 include files stdio.h, ..., termios.h - found
+[51.934s] -- Looking for 42 include files stdio.h, ..., time.h
+[52.035s] -- Looking for 42 include files stdio.h, ..., time.h - found
+[52.035s] -- Looking for 43 include files stdio.h, ..., unistd.h
+[52.121s] -- Looking for 43 include files stdio.h, ..., unistd.h - found
+[52.121s] -- Looking for 44 include files stdio.h, ..., utime.h
+[52.249s] -- Looking for 44 include files stdio.h, ..., utime.h - found
+[52.250s] -- Looking for 45 include files stdio.h, ..., x509.h
+[52.316s] -- Looking for 45 include files stdio.h, ..., x509.h - not found
+[52.317s] -- Looking for 45 include files stdio.h, ..., process.h
+[52.388s] -- Looking for 45 include files stdio.h, ..., process.h - not found
+[52.388s] -- Looking for 45 include files stdio.h, ..., stddef.h
+[52.522s] -- Looking for 45 include files stdio.h, ..., stddef.h - found
+[52.522s] -- Looking for 46 include files stdio.h, ..., dlfcn.h
+[52.651s] -- Looking for 46 include files stdio.h, ..., dlfcn.h - found
+[52.653s] -- Looking for 47 include files stdio.h, ..., malloc.h
+[52.784s] -- Looking for 47 include files stdio.h, ..., malloc.h - found
+[52.785s] -- Looking for 48 include files stdio.h, ..., memory.h
+[52.915s] -- Looking for 48 include files stdio.h, ..., memory.h - found
+[52.915s] -- Looking for 49 include files stdio.h, ..., netinet/if_ether.h
+[53.042s] -- Looking for 49 include files stdio.h, ..., netinet/if_ether.h - found
+[53.043s] -- Looking for 51 include files stdio.h, ..., sockio.h
+[53.111s] -- Looking for 51 include files stdio.h, ..., sockio.h - not found
+[53.112s] -- Looking for 51 include files stdio.h, ..., sys/utsname.h
+[53.200s] -- Looking for 51 include files stdio.h, ..., sys/utsname.h - found
+[53.200s] -- Check size of size_t
+[53.279s] -- Check size of size_t - done
+[53.279s] -- Check size of ssize_t
+[53.372s] -- Check size of ssize_t - done
+[53.372s] -- Check size of long long
+[53.477s] -- Check size of long long - done
+[53.477s] -- Check size of long
+[53.572s] -- Check size of long - done
+[53.572s] -- Check size of short
+[53.673s] -- Check size of short - done
+[53.673s] -- Check size of int
+[53.778s] -- Check size of int - done
+[53.778s] -- Check size of __int64
+[53.820s] -- Check size of __int64 - failed
+[53.820s] -- Check size of long double
+[53.922s] -- Check size of long double - done
+[53.923s] -- Check size of time_t
+[54.024s] -- Check size of time_t - done
+[54.025s] -- Looking for basename
+[54.107s] -- Looking for basename - found
+[54.107s] -- Looking for socket
+[54.186s] -- Looking for socket - found
+[54.186s] -- Looking for select
+[54.308s] -- Looking for select - found
+[54.309s] -- Looking for poll
+[54.425s] -- Looking for poll - found
+[54.426s] -- Looking for strdup
+[54.548s] -- Looking for strdup - found
+[54.549s] -- Looking for strstr
+[54.670s] -- Looking for strstr - found
+[54.671s] -- Looking for strtok_r
+[54.788s] -- Looking for strtok_r - found
+[54.789s] -- Looking for strftime
+[54.907s] -- Looking for strftime - found
+[54.908s] -- Looking for uname
+[55.029s] -- Looking for uname - found
+[55.030s] -- Looking for strcasecmp
+[55.111s] -- Looking for strcasecmp - found
+[55.112s] -- Looking for stricmp
+[55.155s] -- Looking for stricmp - not found
+[55.156s] -- Looking for strcmpi
+[55.201s] -- Looking for strcmpi - not found
+[55.202s] -- Looking for strncmpi
+[55.244s] -- Looking for strncmpi - not found
+[55.244s] -- Looking for alarm
+[55.370s] -- Looking for alarm - found
+[55.371s] -- Looking for gethostbyaddr
+[55.490s] -- Looking for gethostbyaddr - found
+[55.491s] -- Looking for gethostbyaddr_r
+[55.607s] -- Looking for gethostbyaddr_r - found
+[55.608s] -- Looking for gettimeofday
+[55.724s] -- Looking for gettimeofday - found
+[55.724s] -- Looking for inet_addr
+[55.845s] -- Looking for inet_addr - found
+[55.846s] -- Looking for inet_ntoa
+[55.968s] -- Looking for inet_ntoa - found
+[55.968s] -- Looking for inet_ntoa_r
+[56.036s] -- Looking for inet_ntoa_r - not found
+[56.036s] -- Looking for tcsetattr
+[56.151s] -- Looking for tcsetattr - found
+[56.152s] -- Looking for tcgetattr
+[56.275s] -- Looking for tcgetattr - found
+[56.275s] -- Looking for perror
+[56.403s] -- Looking for perror - found
+[56.404s] -- Looking for closesocket
+[56.469s] -- Looking for closesocket - not found
+[56.470s] -- Looking for setvbuf
+[56.573s] -- Looking for setvbuf - found
+[56.574s] -- Looking for sigsetjmp
+[56.655s] -- Looking for sigsetjmp - found
+[56.656s] -- Looking for getpass_r
+[56.698s] -- Looking for getpass_r - not found
+[56.698s] -- Looking for strlcat
+[56.743s] -- Looking for strlcat - not found
+[56.744s] -- Looking for getpwuid
+[56.823s] -- Looking for getpwuid - found
+[56.823s] -- Looking for getpwuid_r
+[56.904s] -- Looking for getpwuid_r - found
+[56.905s] -- Looking for geteuid
+[56.992s] -- Looking for geteuid - found
+[56.992s] -- Looking for usleep
+[57.100s] -- Looking for usleep - found
+[57.100s] -- Looking for utime
+[57.213s] -- Looking for utime - found
+[57.213s] -- Looking for gmtime_r
+[57.329s] -- Looking for gmtime_r - found
+[57.330s] -- Looking for localtime_r
+[57.447s] -- Looking for localtime_r - found
+[57.447s] -- Looking for gethostbyname
+[57.565s] -- Looking for gethostbyname - found
+[57.566s] -- Looking for gethostbyname_r
+[57.679s] -- Looking for gethostbyname_r - found
+[57.680s] -- Looking for signal
+[57.795s] -- Looking for signal - found
+[57.796s] -- Looking for SIGALRM
+[57.914s] -- Looking for SIGALRM - found
+[57.915s] -- Looking for strtoll
+[58.034s] -- Looking for strtoll - found
+[58.034s] -- Looking for _strtoi64
+[58.095s] -- Looking for _strtoi64 - not found
+[58.095s] -- Looking for strerror_r
+[58.209s] -- Looking for strerror_r - found
+[58.210s] -- Looking for siginterrupt
+[58.324s] -- Looking for siginterrupt - found
+[58.325s] -- Looking for fork
+[58.440s] -- Looking for fork - found
+[58.441s] -- Looking for getaddrinfo
+[58.518s] -- Looking for getaddrinfo - found
+[58.519s] -- Looking for freeaddrinfo
+[58.594s] -- Looking for freeaddrinfo - found
+[58.595s] -- Looking for freeifaddrs
+[58.670s] -- Looking for freeifaddrs - found
+[58.671s] -- Looking for pipe
+[58.781s] -- Looking for pipe - found
+[58.782s] -- Looking for ftruncate
+[58.884s] -- Looking for ftruncate - found
+[58.884s] -- Looking for getprotobyname
+[58.991s] -- Looking for getprotobyname - found
+[58.992s] -- Looking for getpeername
+[59.109s] -- Looking for getpeername - found
+[59.109s] -- Looking for getsockname
+[59.239s] -- Looking for getsockname - found
+[59.239s] -- Looking for if_nametoindex
+[59.296s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/playback/playback_sensor.cpp.o[0m
+[59.358s] -- Looking for if_nametoindex - found
+[59.359s] -- Looking for getrlimit
+[59.478s] -- Looking for getrlimit - found
+[59.478s] -- Looking for setlocale
+[59.596s] -- Looking for setlocale - found
+[59.596s] -- Looking for setmode
+[59.659s] -- Looking for setmode - not found
+[59.659s] -- Looking for setrlimit
+[59.774s] -- Looking for setrlimit - found
+[59.775s] -- Looking for fcntl
+[59.880s] -- Looking for fcntl - found
+[59.881s] -- Looking for ioctl
+[59.958s] -- Looking for ioctl - found
+[59.958s] -- Looking for setsockopt
+[60.073s] -- Looking for setsockopt - found
+[60.073s] -- Looking for mach_absolute_time
+[60.153s] -- Looking for mach_absolute_time - not found
+[60.154s] -- Looking for inet_pton
+[60.260s] -- Looking for inet_pton - found
+[60.261s] -- Looking for fsetxattr
+[60.369s] -- Looking for fsetxattr - found
+[60.369s] -- Performing Curl Test HAVE_FSETXATTR_5
+[60.452s] -- Performing Curl Test HAVE_FSETXATTR_5 - Success
+[60.452s] -- Performing Curl Test HAVE_FSETXATTR_6
+[60.487s] -- Performing Curl Test HAVE_FSETXATTR_6 - Failed
+[60.488s] -- Looking for sigaction
+[60.575s] -- Looking for sigaction - found
+[60.575s] -- Performing Curl Test HAVE_FCNTL_O_NONBLOCK
+[60.665s] -- Performing Curl Test HAVE_FCNTL_O_NONBLOCK - Success
+[60.665s] -- Performing Curl Test HAVE_IOCTLSOCKET
+[60.693s] -- Performing Curl Test HAVE_IOCTLSOCKET - Failed
+[60.693s] -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL
+[60.777s] -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL - Failed
+[60.777s] -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO
+[60.809s] -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO - Failed
+[60.809s] -- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO
+[60.840s] -- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO - Failed
+[60.840s] -- Performing Curl Test HAVE_IOCTL_FIONBIO
+[60.929s] -- Performing Curl Test HAVE_IOCTL_FIONBIO - Success
+[60.929s] -- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR
+[61.020s] -- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR - Success
+[61.020s] -- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK
+[61.056s] -- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK - Failed
+[61.056s] -- Performing Curl Test TIME_WITH_SYS_TIME
+[61.142s] -- Performing Curl Test TIME_WITH_SYS_TIME - Success
+[61.142s] -- Performing Curl Test HAVE_O_NONBLOCK
+[61.219s] -- Performing Curl Test HAVE_O_NONBLOCK - Failed
+[61.219s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_5
+[61.256s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_5 - Failed
+[61.256s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_7
+[61.294s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_7 - Failed
+[61.294s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_8
+[61.384s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_8 - Success
+[61.384s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT
+[61.422s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT - Failed
+[61.422s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT
+[61.449s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT - Failed
+[61.449s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT
+[61.512s] -- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT - Success
+[61.512s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_3
+[61.540s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_3 - Failed
+[61.540s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_5
+[61.568s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_5 - Failed
+[61.568s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_6
+[61.657s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_6 - Success
+[61.657s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT
+[61.695s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT - Failed
+[61.695s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT
+[61.734s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT - Failed
+[61.734s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT
+[61.825s] -- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT - Success
+[61.825s] -- Performing Curl Test HAVE_IN_ADDR_T
+[61.912s] -- Performing Curl Test HAVE_IN_ADDR_T - Success
+[61.912s] -- Performing Curl Test HAVE_BOOL_T
+[61.996s] -- Performing Curl Test HAVE_BOOL_T - Success
+[61.997s] -- Performing Curl Test STDC_HEADERS
+[62.086s] -- Performing Curl Test STDC_HEADERS - Success
+[62.086s] -- Performing Curl Test RETSIGTYPE_TEST
+[62.173s] -- Performing Curl Test RETSIGTYPE_TEST - Success
+[62.173s] -- Performing Curl Test HAVE_INET_NTOA_R_DECL
+[62.211s] -- Performing Curl Test HAVE_INET_NTOA_R_DECL - Failed
+[62.211s] -- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT
+[62.249s] -- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT - Failed
+[62.249s] -- Performing Curl Test HAVE_FILE_OFFSET_BITS
+[62.334s] -- Performing Curl Test HAVE_FILE_OFFSET_BITS - Success
+[62.334s] -- Performing Curl Test HAVE_VARIADIC_MACROS_C99
+[62.419s] -- Performing Curl Test HAVE_VARIADIC_MACROS_C99 - Success
+[62.419s] -- Performing Curl Test HAVE_VARIADIC_MACROS_GCC
+[62.504s] -- Performing Curl Test HAVE_VARIADIC_MACROS_GCC - Success
+[62.504s] -- Check size of off_t
+[62.591s] -- Check size of off_t - done
+[62.591s] -- Check size of curl_off_t
+[62.682s] -- Check size of curl_off_t - done
+[62.682s] -- Performing Curl Test HAVE_GLIBC_STRERROR_R
+[62.716s] -- Performing Curl Test HAVE_GLIBC_STRERROR_R - Failed
+[62.717s] -- Performing Curl Test HAVE_POSIX_STRERROR_R
+[62.791s] -- Performing Curl Test HAVE_POSIX_STRERROR_R - Success
+[62.792s] -- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC
+[62.850s] -- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC - Success
+[62.850s] -- Performing Curl Test HAVE_BUILTIN_AVAILABLE
+[62.883s] -- Performing Curl Test HAVE_BUILTIN_AVAILABLE - Failed
+[62.884s] -- Performing Test curl_cv_recv
+[62.980s] -- Performing Test curl_cv_recv - Success
+[62.980s] -- Performing Test curl_cv_func_recv_test
+[63.017s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.017s] -- Tested: int recv(SOCKET, char *, int, int)
+[63.017s] -- Performing Test curl_cv_func_recv_test
+[63.053s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.053s] -- Tested: int recv(SOCKET, char *, int, unsigned int)
+[63.053s] -- Performing Test curl_cv_func_recv_test
+[63.089s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.089s] -- Tested: int recv(SOCKET, char *, size_t, int)
+[63.089s] -- Performing Test curl_cv_func_recv_test
+[63.117s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.117s] -- Tested: int recv(SOCKET, char *, size_t, unsigned int)
+[63.117s] -- Performing Test curl_cv_func_recv_test
+[63.153s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.153s] -- Tested: int recv(SOCKET, char *, socklen_t, int)
+[63.153s] -- Performing Test curl_cv_func_recv_test
+[63.189s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.189s] -- Tested: int recv(SOCKET, char *, socklen_t, unsigned int)
+[63.189s] -- Performing Test curl_cv_func_recv_test
+[63.213s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.213s] -- Tested: int recv(SOCKET, char *, unsigned int, int)
+[63.214s] -- Performing Test curl_cv_func_recv_test
+[63.249s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.249s] -- Tested: int recv(SOCKET, char *, unsigned int, unsigned int)
+[63.250s] -- Performing Test curl_cv_func_recv_test
+[63.280s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.280s] -- Tested: int recv(SOCKET, void *, int, int)
+[63.280s] -- Performing Test curl_cv_func_recv_test
+[63.316s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.316s] -- Tested: int recv(SOCKET, void *, int, unsigned int)
+[63.316s] -- Performing Test curl_cv_func_recv_test
+[63.352s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.352s] -- Tested: int recv(SOCKET, void *, size_t, int)
+[63.352s] -- Performing Test curl_cv_func_recv_test
+[63.388s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.389s] -- Tested: int recv(SOCKET, void *, size_t, unsigned int)
+[63.389s] -- Performing Test curl_cv_func_recv_test
+[63.424s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.424s] -- Tested: int recv(SOCKET, void *, socklen_t, int)
+[63.424s] -- Performing Test curl_cv_func_recv_test
+[63.460s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.460s] -- Tested: int recv(SOCKET, void *, socklen_t, unsigned int)
+[63.460s] -- Performing Test curl_cv_func_recv_test
+[63.496s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.496s] -- Tested: int recv(SOCKET, void *, unsigned int, int)
+[63.496s] -- Performing Test curl_cv_func_recv_test
+[63.524s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.524s] -- Tested: int recv(SOCKET, void *, unsigned int, unsigned int)
+[63.524s] -- Performing Test curl_cv_func_recv_test
+[63.551s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.551s] -- Tested: int recv(int, char *, int, int)
+[63.551s] -- Performing Test curl_cv_func_recv_test
+[63.588s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.588s] -- Tested: int recv(int, char *, int, unsigned int)
+[63.588s] -- Performing Test curl_cv_func_recv_test
+[63.625s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.625s] -- Tested: int recv(int, char *, size_t, int)
+[63.625s] -- Performing Test curl_cv_func_recv_test
+[63.660s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.660s] -- Tested: int recv(int, char *, size_t, unsigned int)
+[63.660s] -- Performing Test curl_cv_func_recv_test
+[63.696s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.696s] -- Tested: int recv(int, char *, socklen_t, int)
+[63.696s] -- Performing Test curl_cv_func_recv_test
+[63.731s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.731s] -- Tested: int recv(int, char *, socklen_t, unsigned int)
+[63.731s] -- Performing Test curl_cv_func_recv_test
+[63.766s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.767s] -- Tested: int recv(int, char *, unsigned int, int)
+[63.767s] -- Performing Test curl_cv_func_recv_test
+[63.799s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.800s] -- Tested: int recv(int, char *, unsigned int, unsigned int)
+[63.800s] -- Performing Test curl_cv_func_recv_test
+[63.835s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.835s] -- Tested: int recv(int, void *, int, int)
+[63.835s] -- Performing Test curl_cv_func_recv_test
+[63.870s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.870s] -- Tested: int recv(int, void *, int, unsigned int)
+[63.870s] -- Performing Test curl_cv_func_recv_test
+[63.897s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.897s] -- Tested: int recv(int, void *, size_t, int)
+[63.897s] -- Performing Test curl_cv_func_recv_test
+[63.931s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.932s] -- Tested: int recv(int, void *, size_t, unsigned int)
+[63.932s] -- Performing Test curl_cv_func_recv_test
+[63.966s] -- Performing Test curl_cv_func_recv_test - Failed
+[63.966s] -- Tested: int recv(int, void *, socklen_t, int)
+[63.966s] -- Performing Test curl_cv_func_recv_test
+[64.002s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.002s] -- Tested: int recv(int, void *, socklen_t, unsigned int)
+[64.002s] -- Performing Test curl_cv_func_recv_test
+[64.037s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.037s] -- Tested: int recv(int, void *, unsigned int, int)
+[64.037s] -- Performing Test curl_cv_func_recv_test
+[64.072s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.072s] -- Tested: int recv(int, void *, unsigned int, unsigned int)
+[64.072s] -- Performing Test curl_cv_func_recv_test
+[64.100s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.100s] -- Tested: ssize_t recv(SOCKET, char *, int, int)
+[64.100s] -- Performing Test curl_cv_func_recv_test
+[64.125s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.125s] -- Tested: ssize_t recv(SOCKET, char *, int, unsigned int)
+[64.125s] -- Performing Test curl_cv_func_recv_test
+[64.151s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.151s] -- Tested: ssize_t recv(SOCKET, char *, size_t, int)
+[64.151s] -- Performing Test curl_cv_func_recv_test
+[64.187s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.187s] -- Tested: ssize_t recv(SOCKET, char *, size_t, unsigned int)
+[64.188s] -- Performing Test curl_cv_func_recv_test
+[64.223s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.224s] -- Tested: ssize_t recv(SOCKET, char *, socklen_t, int)
+[64.224s] -- Performing Test curl_cv_func_recv_test
+[64.259s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.259s] -- Tested: ssize_t recv(SOCKET, char *, socklen_t, unsigned int)
+[64.259s] -- Performing Test curl_cv_func_recv_test
+[64.296s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.296s] -- Tested: ssize_t recv(SOCKET, char *, unsigned int, int)
+[64.296s] -- Performing Test curl_cv_func_recv_test
+[64.332s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.332s] -- Tested: ssize_t recv(SOCKET, char *, unsigned int, unsigned int)
+[64.332s] -- Performing Test curl_cv_func_recv_test
+[64.357s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.357s] -- Tested: ssize_t recv(SOCKET, void *, int, int)
+[64.357s] -- Performing Test curl_cv_func_recv_test
+[64.383s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.383s] -- Tested: ssize_t recv(SOCKET, void *, int, unsigned int)
+[64.383s] -- Performing Test curl_cv_func_recv_test
+[64.409s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.409s] -- Tested: ssize_t recv(SOCKET, void *, size_t, int)
+[64.409s] -- Performing Test curl_cv_func_recv_test
+[64.435s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.435s] -- Tested: ssize_t recv(SOCKET, void *, size_t, unsigned int)
+[64.435s] -- Performing Test curl_cv_func_recv_test
+[64.460s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.461s] -- Tested: ssize_t recv(SOCKET, void *, socklen_t, int)
+[64.461s] -- Performing Test curl_cv_func_recv_test
+[64.485s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.485s] -- Tested: ssize_t recv(SOCKET, void *, socklen_t, unsigned int)
+[64.486s] -- Performing Test curl_cv_func_recv_test
+[64.510s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.510s] -- Tested: ssize_t recv(SOCKET, void *, unsigned int, int)
+[64.510s] -- Performing Test curl_cv_func_recv_test
+[64.533s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.533s] -- Tested: ssize_t recv(SOCKET, void *, unsigned int, unsigned int)
+[64.533s] -- Performing Test curl_cv_func_recv_test
+[64.557s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.557s] -- Tested: ssize_t recv(int, char *, int, int)
+[64.557s] -- Performing Test curl_cv_func_recv_test
+[64.581s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.581s] -- Tested: ssize_t recv(int, char *, int, unsigned int)
+[64.581s] -- Performing Test curl_cv_func_recv_test
+[64.604s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.604s] -- Tested: ssize_t recv(int, char *, size_t, int)
+[64.604s] -- Performing Test curl_cv_func_recv_test
+[64.628s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.628s] -- Tested: ssize_t recv(int, char *, size_t, unsigned int)
+[64.628s] -- Performing Test curl_cv_func_recv_test
+[64.651s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.651s] -- Tested: ssize_t recv(int, char *, socklen_t, int)
+[64.651s] -- Performing Test curl_cv_func_recv_test
+[64.688s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.688s] -- Tested: ssize_t recv(int, char *, socklen_t, unsigned int)
+[64.688s] -- Performing Test curl_cv_func_recv_test
+[64.721s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.721s] -- Tested: ssize_t recv(int, char *, unsigned int, int)
+[64.721s] -- Performing Test curl_cv_func_recv_test
+[64.757s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.758s] -- Tested: ssize_t recv(int, char *, unsigned int, unsigned int)
+[64.758s] -- Performing Test curl_cv_func_recv_test
+[64.793s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.793s] -- Tested: ssize_t recv(int, void *, int, int)
+[64.793s] -- Performing Test curl_cv_func_recv_test
+[64.829s] -- Performing Test curl_cv_func_recv_test - Failed
+[64.829s] -- Tested: ssize_t recv(int, void *, int, unsigned int)
+[64.829s] -- Performing Test curl_cv_func_recv_test
+[64.940s] -- Performing Test curl_cv_func_recv_test - Success
+[64.940s] -- Tested: ssize_t recv(int, void *, size_t, int)
+[64.940s] -- Performing Test curl_cv_send
+[65.045s] -- Performing Test curl_cv_send - Success
+[65.045s] -- Performing Test curl_cv_func_send_test
+[65.080s] -- Performing Test curl_cv_func_send_test - Failed
+[65.080s] -- Tested: int send(SOCKET, const char *, int, int)
+[65.081s] -- Performing Test curl_cv_func_send_test
+[65.116s] -- Performing Test curl_cv_func_send_test - Failed
+[65.116s] -- Tested: int send(SOCKET, const char *, int, unsigned int)
+[65.116s] -- Performing Test curl_cv_func_send_test
+[65.150s] -- Performing Test curl_cv_func_send_test - Failed
+[65.151s] -- Tested: int send(SOCKET, const char *, size_t, int)
+[65.151s] -- Performing Test curl_cv_func_send_test
+[65.187s] -- Performing Test curl_cv_func_send_test - Failed
+[65.187s] -- Tested: int send(SOCKET, const char *, size_t, unsigned int)
+[65.188s] -- Performing Test curl_cv_func_send_test
+[65.222s] -- Performing Test curl_cv_func_send_test - Failed
+[65.222s] -- Tested: int send(SOCKET, const char *, socklen_t, int)
+[65.222s] -- Performing Test curl_cv_func_send_test
+[65.257s] -- Performing Test curl_cv_func_send_test - Failed
+[65.257s] -- Tested: int send(SOCKET, const char *, socklen_t, unsigned int)
+[65.258s] -- Performing Test curl_cv_func_send_test
+[65.293s] -- Performing Test curl_cv_func_send_test - Failed
+[65.294s] -- Tested: int send(SOCKET, const char *, unsigned int, int)
+[65.294s] -- Performing Test curl_cv_func_send_test
+[65.328s] -- Performing Test curl_cv_func_send_test - Failed
+[65.329s] -- Tested: int send(SOCKET, const char *, unsigned int, unsigned int)
+[65.329s] -- Performing Test curl_cv_func_send_test
+[65.364s] -- Performing Test curl_cv_func_send_test - Failed
+[65.364s] -- Tested: int send(SOCKET, const void *, int, int)
+[65.365s] -- Performing Test curl_cv_func_send_test
+[65.400s] -- Performing Test curl_cv_func_send_test - Failed
+[65.400s] -- Tested: int send(SOCKET, const void *, int, unsigned int)
+[65.400s] -- Performing Test curl_cv_func_send_test
+[65.432s] -- Performing Test curl_cv_func_send_test - Failed
+[65.432s] -- Tested: int send(SOCKET, const void *, size_t, int)
+[65.432s] -- Performing Test curl_cv_func_send_test
+[65.467s] -- Performing Test curl_cv_func_send_test - Failed
+[65.467s] -- Tested: int send(SOCKET, const void *, size_t, unsigned int)
+[65.467s] -- Performing Test curl_cv_func_send_test
+[65.502s] -- Performing Test curl_cv_func_send_test - Failed
+[65.502s] -- Tested: int send(SOCKET, const void *, socklen_t, int)
+[65.502s] -- Performing Test curl_cv_func_send_test
+[65.535s] -- Performing Test curl_cv_func_send_test - Failed
+[65.535s] -- Tested: int send(SOCKET, const void *, socklen_t, unsigned int)
+[65.536s] -- Performing Test curl_cv_func_send_test
+[65.560s] -- Performing Test curl_cv_func_send_test - Failed
+[65.561s] -- Tested: int send(SOCKET, const void *, unsigned int, int)
+[65.561s] -- Performing Test curl_cv_func_send_test
+[65.598s] -- Performing Test curl_cv_func_send_test - Failed
+[65.598s] -- Tested: int send(SOCKET, const void *, unsigned int, unsigned int)
+[65.598s] -- Performing Test curl_cv_func_send_test
+[65.633s] -- Performing Test curl_cv_func_send_test - Failed
+[65.633s] -- Tested: int send(SOCKET, void *, int, int)
+[65.633s] -- Performing Test curl_cv_func_send_test
+[65.668s] -- Performing Test curl_cv_func_send_test - Failed
+[65.668s] -- Tested: int send(SOCKET, void *, int, unsigned int)
+[65.668s] -- Performing Test curl_cv_func_send_test
+[65.703s] -- Performing Test curl_cv_func_send_test - Failed
+[65.703s] -- Tested: int send(SOCKET, void *, size_t, int)
+[65.703s] -- Performing Test curl_cv_func_send_test
+[65.738s] -- Performing Test curl_cv_func_send_test - Failed
+[65.738s] -- Tested: int send(SOCKET, void *, size_t, unsigned int)
+[65.738s] -- Performing Test curl_cv_func_send_test
+[65.775s] -- Performing Test curl_cv_func_send_test - Failed
+[65.775s] -- Tested: int send(SOCKET, void *, socklen_t, int)
+[65.775s] -- Performing Test curl_cv_func_send_test
+[65.810s] -- Performing Test curl_cv_func_send_test - Failed
+[65.811s] -- Tested: int send(SOCKET, void *, socklen_t, unsigned int)
+[65.811s] -- Performing Test curl_cv_func_send_test
+[65.848s] -- Performing Test curl_cv_func_send_test - Failed
+[65.848s] -- Tested: int send(SOCKET, void *, unsigned int, int)
+[65.848s] -- Performing Test curl_cv_func_send_test
+[65.885s] -- Performing Test curl_cv_func_send_test - Failed
+[65.885s] -- Tested: int send(SOCKET, void *, unsigned int, unsigned int)
+[65.886s] -- Performing Test curl_cv_func_send_test
+[65.922s] -- Performing Test curl_cv_func_send_test - Failed
+[65.922s] -- Tested: int send(SOCKET, char *, int, int)
+[65.922s] -- Performing Test curl_cv_func_send_test
+[65.958s] -- Performing Test curl_cv_func_send_test - Failed
+[65.959s] -- Tested: int send(SOCKET, char *, int, unsigned int)
+[65.959s] -- Performing Test curl_cv_func_send_test
+[65.995s] -- Performing Test curl_cv_func_send_test - Failed
+[65.995s] -- Tested: int send(SOCKET, char *, size_t, int)
+[65.995s] -- Performing Test curl_cv_func_send_test
+[66.031s] -- Performing Test curl_cv_func_send_test - Failed
+[66.031s] -- Tested: int send(SOCKET, char *, size_t, unsigned int)
+[66.032s] -- Performing Test curl_cv_func_send_test
+[66.068s] -- Performing Test curl_cv_func_send_test - Failed
+[66.068s] -- Tested: int send(SOCKET, char *, socklen_t, int)
+[66.068s] -- Performing Test curl_cv_func_send_test
+[66.105s] -- Performing Test curl_cv_func_send_test - Failed
+[66.105s] -- Tested: int send(SOCKET, char *, socklen_t, unsigned int)
+[66.105s] -- Performing Test curl_cv_func_send_test
+[66.141s] -- Performing Test curl_cv_func_send_test - Failed
+[66.141s] -- Tested: int send(SOCKET, char *, unsigned int, int)
+[66.141s] -- Performing Test curl_cv_func_send_test
+[66.176s] -- Performing Test curl_cv_func_send_test - Failed
+[66.176s] -- Tested: int send(SOCKET, char *, unsigned int, unsigned int)
+[66.176s] -- Performing Test curl_cv_func_send_test
+[66.211s] -- Performing Test curl_cv_func_send_test - Failed
+[66.211s] -- Tested: int send(int, const char *, int, int)
+[66.212s] -- Performing Test curl_cv_func_send_test
+[66.246s] -- Performing Test curl_cv_func_send_test - Failed
+[66.247s] -- Tested: int send(int, const char *, int, unsigned int)
+[66.247s] -- Performing Test curl_cv_func_send_test
+[66.282s] -- Performing Test curl_cv_func_send_test - Failed
+[66.282s] -- Tested: int send(int, const char *, size_t, int)
+[66.282s] -- Performing Test curl_cv_func_send_test
+[66.318s] -- Performing Test curl_cv_func_send_test - Failed
+[66.318s] -- Tested: int send(int, const char *, size_t, unsigned int)
+[66.319s] -- Performing Test curl_cv_func_send_test
+[66.354s] -- Performing Test curl_cv_func_send_test - Failed
+[66.354s] -- Tested: int send(int, const char *, socklen_t, int)
+[66.354s] -- Performing Test curl_cv_func_send_test
+[66.381s] -- Performing Test curl_cv_func_send_test - Failed
+[66.381s] -- Tested: int send(int, const char *, socklen_t, unsigned int)
+[66.381s] -- Performing Test curl_cv_func_send_test
+[66.416s] -- Performing Test curl_cv_func_send_test - Failed
+[66.417s] -- Tested: int send(int, const char *, unsigned int, int)
+[66.417s] -- Performing Test curl_cv_func_send_test
+[66.451s] -- Performing Test curl_cv_func_send_test - Failed
+[66.451s] -- Tested: int send(int, const char *, unsigned int, unsigned int)
+[66.452s] -- Performing Test curl_cv_func_send_test
+[66.484s] -- Performing Test curl_cv_func_send_test - Failed
+[66.484s] -- Tested: int send(int, const void *, int, int)
+[66.484s] -- Performing Test curl_cv_func_send_test
+[66.521s] -- Performing Test curl_cv_func_send_test - Failed
+[66.521s] -- Tested: int send(int, const void *, int, unsigned int)
+[66.521s] -- Performing Test curl_cv_func_send_test
+[66.557s] -- Performing Test curl_cv_func_send_test - Failed
+[66.557s] -- Tested: int send(int, const void *, size_t, int)
+[66.558s] -- Performing Test curl_cv_func_send_test
+[66.593s] -- Performing Test curl_cv_func_send_test - Failed
+[66.593s] -- Tested: int send(int, const void *, size_t, unsigned int)
+[66.593s] -- Performing Test curl_cv_func_send_test
+[66.629s] -- Performing Test curl_cv_func_send_test - Failed
+[66.629s] -- Tested: int send(int, const void *, socklen_t, int)
+[66.630s] -- Performing Test curl_cv_func_send_test
+[66.664s] -- Performing Test curl_cv_func_send_test - Failed
+[66.665s] -- Tested: int send(int, const void *, socklen_t, unsigned int)
+[66.665s] -- Performing Test curl_cv_func_send_test
+[66.700s] -- Performing Test curl_cv_func_send_test - Failed
+[66.700s] -- Tested: int send(int, const void *, unsigned int, int)
+[66.700s] -- Performing Test curl_cv_func_send_test
+[66.732s] -- Performing Test curl_cv_func_send_test - Failed
+[66.733s] -- Tested: int send(int, const void *, unsigned int, unsigned int)
+[66.733s] -- Performing Test curl_cv_func_send_test
+[66.768s] -- Performing Test curl_cv_func_send_test - Failed
+[66.768s] -- Tested: int send(int, void *, int, int)
+[66.768s] -- Performing Test curl_cv_func_send_test
+[66.805s] -- Performing Test curl_cv_func_send_test - Failed
+[66.805s] -- Tested: int send(int, void *, int, unsigned int)
+[66.805s] -- Performing Test curl_cv_func_send_test
+[66.842s] -- Performing Test curl_cv_func_send_test - Failed
+[66.842s] -- Tested: int send(int, void *, size_t, int)
+[66.842s] -- Performing Test curl_cv_func_send_test
+[66.881s] -- Performing Test curl_cv_func_send_test - Failed
+[66.881s] -- Tested: int send(int, void *, size_t, unsigned int)
+[66.881s] -- Performing Test curl_cv_func_send_test
+[66.920s] -- Performing Test curl_cv_func_send_test - Failed
+[66.921s] -- Tested: int send(int, void *, socklen_t, int)
+[66.921s] -- Performing Test curl_cv_func_send_test
+[66.957s] -- Performing Test curl_cv_func_send_test - Failed
+[66.958s] -- Tested: int send(int, void *, socklen_t, unsigned int)
+[66.958s] -- Performing Test curl_cv_func_send_test
+[66.991s] -- Performing Test curl_cv_func_send_test - Failed
+[66.991s] -- Tested: int send(int, void *, unsigned int, int)
+[66.991s] -- Performing Test curl_cv_func_send_test
+[67.030s] -- Performing Test curl_cv_func_send_test - Failed
+[67.030s] -- Tested: int send(int, void *, unsigned int, unsigned int)
+[67.030s] -- Performing Test curl_cv_func_send_test
+[67.072s] -- Performing Test curl_cv_func_send_test - Failed
+[67.072s] -- Tested: int send(int, char *, int, int)
+[67.072s] -- Performing Test curl_cv_func_send_test
+[67.117s] -- Performing Test curl_cv_func_send_test - Failed
+[67.117s] -- Tested: int send(int, char *, int, unsigned int)
+[67.117s] -- Performing Test curl_cv_func_send_test
+[67.161s] -- Performing Test curl_cv_func_send_test - Failed
+[67.161s] -- Tested: int send(int, char *, size_t, int)
+[67.161s] -- Performing Test curl_cv_func_send_test
+[67.205s] -- Performing Test curl_cv_func_send_test - Failed
+[67.206s] -- Tested: int send(int, char *, size_t, unsigned int)
+[67.206s] -- Performing Test curl_cv_func_send_test
+[67.248s] -- Performing Test curl_cv_func_send_test - Failed
+[67.249s] -- Tested: int send(int, char *, socklen_t, int)
+[67.249s] -- Performing Test curl_cv_func_send_test
+[67.305s] -- Performing Test curl_cv_func_send_test - Failed
+[67.311s] -- Tested: int send(int, char *, socklen_t, unsigned int)
+[67.311s] -- Performing Test curl_cv_func_send_test
+[67.347s] [ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/ros/ros_reader.cpp.o[0m
+[67.361s] [ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/playback/playback_device.cpp.o[0m
+[67.387s] -- Performing Test curl_cv_func_send_test - Failed
+[67.387s] -- Tested: int send(int, char *, unsigned int, int)
+[67.388s] -- Performing Test curl_cv_func_send_test
+[67.398s] [ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/record/record_sensor.cpp.o[0m
+[67.508s] -- Performing Test curl_cv_func_send_test - Failed
+[67.508s] -- Tested: int send(int, char *, unsigned int, unsigned int)
+[67.508s] -- Performing Test curl_cv_func_send_test
+[67.663s] -- Performing Test curl_cv_func_send_test - Failed
+[67.664s] -- Tested: int send(ssize_t, const char *, int, int)
+[67.667s] -- Performing Test curl_cv_func_send_test
+[67.809s] -- Performing Test curl_cv_func_send_test - Failed
+[67.819s] -- Tested: int send(ssize_t, const char *, int, unsigned int)
+[67.820s] -- Performing Test curl_cv_func_send_test
+[67.940s] -- Performing Test curl_cv_func_send_test - Failed
+[67.940s] -- Tested: int send(ssize_t, const char *, size_t, int)
+[67.940s] -- Performing Test curl_cv_func_send_test
+[68.099s] -- Performing Test curl_cv_func_send_test - Failed
+[68.099s] -- Tested: int send(ssize_t, const char *, size_t, unsigned int)
+[68.100s] -- Performing Test curl_cv_func_send_test
+[68.261s] -- Performing Test curl_cv_func_send_test - Failed
+[68.263s] -- Tested: int send(ssize_t, const char *, socklen_t, int)
+[68.264s] -- Performing Test curl_cv_func_send_test
+[68.419s] -- Performing Test curl_cv_func_send_test - Failed
+[68.420s] -- Tested: int send(ssize_t, const char *, socklen_t, unsigned int)
+[68.420s] -- Performing Test curl_cv_func_send_test
+[68.480s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/record/record_device.cpp.o[0m
+[68.489s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/gyro-sensitivity-feature.cpp.o[0m
+[68.510s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/gain-limit-feature.cpp.o[0m
+[68.591s] -- Performing Test curl_cv_func_send_test - Failed
+[68.592s] -- Tested: int send(ssize_t, const char *, unsigned int, int)
+[68.592s] -- Performing Test curl_cv_func_send_test
+[68.751s] -- Performing Test curl_cv_func_send_test - Failed
+[68.752s] -- Tested: int send(ssize_t, const char *, unsigned int, unsigned int)
+[68.752s] -- Performing Test curl_cv_func_send_test
+[68.919s] -- Performing Test curl_cv_func_send_test - Failed
+[68.927s] -- Tested: int send(ssize_t, const void *, int, int)
+[68.927s] -- Performing Test curl_cv_func_send_test
+[69.071s] -- Performing Test curl_cv_func_send_test - Failed
+[69.072s] -- Tested: int send(ssize_t, const void *, int, unsigned int)
+[69.072s] -- Performing Test curl_cv_func_send_test
+[69.256s] -- Performing Test curl_cv_func_send_test - Failed
+[69.259s] -- Tested: int send(ssize_t, const void *, size_t, int)
+[69.260s] -- Performing Test curl_cv_func_send_test
+[69.415s] -- Performing Test curl_cv_func_send_test - Failed
+[69.419s] -- Tested: int send(ssize_t, const void *, size_t, unsigned int)
+[69.420s] -- Performing Test curl_cv_func_send_test
+[69.595s] -- Performing Test curl_cv_func_send_test - Failed
+[69.596s] -- Tested: int send(ssize_t, const void *, socklen_t, int)
+[69.596s] -- Performing Test curl_cv_func_send_test
+[69.611s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/auto-exposure-roi-feature.cpp.o[0m
+[69.619s] [ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/auto-exposure-limit-feature.cpp.o[0m
+[69.620s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/remove-ir-pattern-feature.cpp.o[0m
+[69.795s] -- Performing Test curl_cv_func_send_test - Failed
+[69.796s] -- Tested: int send(ssize_t, const void *, socklen_t, unsigned int)
+[69.796s] -- Performing Test curl_cv_func_send_test
+[70.001s] -- Performing Test curl_cv_func_send_test - Failed
+[70.007s] -- Tested: int send(ssize_t, const void *, unsigned int, int)
+[70.011s] -- Performing Test curl_cv_func_send_test
+[70.219s] -- Performing Test curl_cv_func_send_test - Failed
+[70.220s] -- Tested: int send(ssize_t, const void *, unsigned int, unsigned int)
+[70.220s] -- Performing Test curl_cv_func_send_test
+[70.343s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/emitter-frequency-feature.cpp.o[0m
+[70.358s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/amplitude-factor-feature.cpp.o[0m
+[70.391s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-calib-parsers.cpp.o[0m
+[70.415s] -- Performing Test curl_cv_func_send_test - Failed
+[70.416s] -- Tested: int send(ssize_t, void *, int, int)
+[70.416s] -- Performing Test curl_cv_func_send_test
+[70.612s] -- Performing Test curl_cv_func_send_test - Failed
+[70.612s] -- Tested: int send(ssize_t, void *, int, unsigned int)
+[70.612s] -- Performing Test curl_cv_func_send_test
+[70.683s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/ros/ros_writer.cpp.o[0m
+[70.809s] -- Performing Test curl_cv_func_send_test - Failed
+[70.816s] -- Tested: int send(ssize_t, void *, size_t, int)
+[70.816s] -- Performing Test curl_cv_func_send_test
+[71.025s] -- Performing Test curl_cv_func_send_test - Failed
+[71.035s] -- Tested: int send(ssize_t, void *, size_t, unsigned int)
+[71.036s] -- Performing Test curl_cv_func_send_test
+[71.229s] -- Performing Test curl_cv_func_send_test - Failed
+[71.230s] -- Tested: int send(ssize_t, void *, socklen_t, int)
+[71.230s] -- Performing Test curl_cv_func_send_test
+[71.384s] -- Performing Test curl_cv_func_send_test - Failed
+[71.384s] -- Tested: int send(ssize_t, void *, socklen_t, unsigned int)
+[71.385s] -- Performing Test curl_cv_func_send_test
+[71.529s] -- Performing Test curl_cv_func_send_test - Failed
+[71.529s] -- Tested: int send(ssize_t, void *, unsigned int, int)
+[71.530s] -- Performing Test curl_cv_func_send_test
+[71.594s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sse/sse-align.cpp.o[0m
+[71.628s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/advanced_mode.cpp.o[0m
+[71.647s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/presets.cpp.o[0m
+[71.695s] -- Performing Test curl_cv_func_send_test - Failed
+[71.696s] -- Tested: int send(ssize_t, void *, unsigned int, unsigned int)
+[71.696s] -- Performing Test curl_cv_func_send_test
+[71.857s] -- Performing Test curl_cv_func_send_test - Failed
+[71.863s] -- Tested: int send(ssize_t, char *, int, int)
+[71.864s] -- Performing Test curl_cv_func_send_test
+[72.029s] -- Performing Test curl_cv_func_send_test - Failed
+[72.029s] -- Tested: int send(ssize_t, char *, int, unsigned int)
+[72.029s] -- Performing Test curl_cv_func_send_test
+[72.195s] -- Performing Test curl_cv_func_send_test - Failed
+[72.196s] -- Tested: int send(ssize_t, char *, size_t, int)
+[72.196s] -- Performing Test curl_cv_func_send_test
+[72.379s] -- Performing Test curl_cv_func_send_test - Failed
+[72.380s] -- Tested: int send(ssize_t, char *, size_t, unsigned int)
+[72.380s] -- Performing Test curl_cv_func_send_test
+[72.519s] -- Performing Test curl_cv_func_send_test - Failed
+[72.520s] -- Tested: int send(ssize_t, char *, socklen_t, int)
+[72.520s] -- Performing Test curl_cv_func_send_test
+[72.645s] -- Performing Test curl_cv_func_send_test - Failed
+[72.645s] -- Tested: int send(ssize_t, char *, socklen_t, unsigned int)
+[72.645s] -- Performing Test curl_cv_func_send_test
+[72.800s] -- Performing Test curl_cv_func_send_test - Failed
+[72.801s] -- Tested: int send(ssize_t, char *, unsigned int, int)
+[72.801s] -- Performing Test curl_cv_func_send_test
+[72.971s] -- Performing Test curl_cv_func_send_test - Failed
+[72.972s] -- Tested: int send(ssize_t, char *, unsigned int, unsigned int)
+[72.972s] -- Performing Test curl_cv_func_send_test
+[73.083s] -- Performing Test curl_cv_func_send_test - Failed
+[73.084s] -- Tested: ssize_t send(SOCKET, const char *, int, int)
+[73.084s] -- Performing Test curl_cv_func_send_test
+[73.239s] -- Performing Test curl_cv_func_send_test - Failed
+[73.240s] -- Tested: ssize_t send(SOCKET, const char *, int, unsigned int)
+[73.240s] -- Performing Test curl_cv_func_send_test
+[73.377s] -- Performing Test curl_cv_func_send_test - Failed
+[73.383s] -- Tested: ssize_t send(SOCKET, const char *, size_t, int)
+[73.384s] -- Performing Test curl_cv_func_send_test
+[73.533s] -- Performing Test curl_cv_func_send_test - Failed
+[73.539s] -- Tested: ssize_t send(SOCKET, const char *, size_t, unsigned int)
+[73.540s] -- Performing Test curl_cv_func_send_test
+[73.699s] -- Performing Test curl_cv_func_send_test - Failed
+[73.700s] -- Tested: ssize_t send(SOCKET, const char *, socklen_t, int)
+[73.700s] -- Performing Test curl_cv_func_send_test
+[73.781s] -- Performing Test curl_cv_func_send_test - Failed
+[73.787s] -- Tested: ssize_t send(SOCKET, const char *, socklen_t, unsigned int)
+[73.788s] -- Performing Test curl_cv_func_send_test
+[73.927s] -- Performing Test curl_cv_func_send_test - Failed
+[73.928s] -- Tested: ssize_t send(SOCKET, const char *, unsigned int, int)
+[73.928s] -- Performing Test curl_cv_func_send_test
+[74.087s] -- Performing Test curl_cv_func_send_test - Failed
+[74.095s] -- Tested: ssize_t send(SOCKET, const char *, unsigned int, unsigned int)
+[74.096s] -- Performing Test curl_cv_func_send_test
+[74.251s] -- Performing Test curl_cv_func_send_test - Failed
+[74.252s] -- Tested: ssize_t send(SOCKET, const void *, int, int)
+[74.252s] -- Performing Test curl_cv_func_send_test
+[74.359s] -- Performing Test curl_cv_func_send_test - Failed
+[74.360s] -- Tested: ssize_t send(SOCKET, const void *, int, unsigned int)
+[74.360s] -- Performing Test curl_cv_func_send_test
+[74.439s] -- Performing Test curl_cv_func_send_test - Failed
+[74.440s] -- Tested: ssize_t send(SOCKET, const void *, size_t, int)
+[74.440s] -- Performing Test curl_cv_func_send_test
+[74.601s] -- Performing Test curl_cv_func_send_test - Failed
+[74.608s] -- Tested: ssize_t send(SOCKET, const void *, size_t, unsigned int)
+[74.608s] -- Performing Test curl_cv_func_send_test
+[74.750s] -- Performing Test curl_cv_func_send_test - Failed
+[74.751s] -- Tested: ssize_t send(SOCKET, const void *, socklen_t, int)
+[74.755s] -- Performing Test curl_cv_func_send_test
+[74.832s] -- Performing Test curl_cv_func_send_test - Failed
+[74.840s] -- Tested: ssize_t send(SOCKET, const void *, socklen_t, unsigned int)
+[74.840s] -- Performing Test curl_cv_func_send_test
+[74.929s] -- Performing Test curl_cv_func_send_test - Failed
+[74.930s] -- Tested: ssize_t send(SOCKET, const void *, unsigned int, int)
+[74.930s] -- Performing Test curl_cv_func_send_test
+[75.039s] -- Performing Test curl_cv_func_send_test - Failed
+[75.040s] -- Tested: ssize_t send(SOCKET, const void *, unsigned int, unsigned int)
+[75.040s] -- Performing Test curl_cv_func_send_test
+[75.207s] -- Performing Test curl_cv_func_send_test - Failed
+[75.208s] -- Tested: ssize_t send(SOCKET, void *, int, int)
+[75.208s] -- Performing Test curl_cv_func_send_test
+[75.367s] -- Performing Test curl_cv_func_send_test - Failed
+[75.367s] -- Tested: ssize_t send(SOCKET, void *, int, unsigned int)
+[75.368s] -- Performing Test curl_cv_func_send_test
+[75.497s] -- Performing Test curl_cv_func_send_test - Failed
+[75.497s] -- Tested: ssize_t send(SOCKET, void *, size_t, int)
+[75.497s] -- Performing Test curl_cv_func_send_test
+[75.616s] -- Performing Test curl_cv_func_send_test - Failed
+[75.617s] -- Tested: ssize_t send(SOCKET, void *, size_t, unsigned int)
+[75.617s] -- Performing Test curl_cv_func_send_test
+[75.777s] -- Performing Test curl_cv_func_send_test - Failed
+[75.783s] -- Tested: ssize_t send(SOCKET, void *, socklen_t, int)
+[75.784s] -- Performing Test curl_cv_func_send_test
+[75.939s] -- Performing Test curl_cv_func_send_test - Failed
+[75.940s] -- Tested: ssize_t send(SOCKET, void *, socklen_t, unsigned int)
+[75.940s] -- Performing Test curl_cv_func_send_test
+[76.096s] -- Performing Test curl_cv_func_send_test - Failed
+[76.096s] -- Tested: ssize_t send(SOCKET, void *, unsigned int, int)
+[76.096s] -- Performing Test curl_cv_func_send_test
+[76.135s] -- Performing Test curl_cv_func_send_test - Failed
+[76.136s] -- Tested: ssize_t send(SOCKET, void *, unsigned int, unsigned int)
+[76.136s] -- Performing Test curl_cv_func_send_test
+[76.203s] -- Performing Test curl_cv_func_send_test - Failed
+[76.204s] -- Tested: ssize_t send(SOCKET, char *, int, int)
+[76.204s] -- Performing Test curl_cv_func_send_test
+[76.257s] -- Performing Test curl_cv_func_send_test - Failed
+[76.257s] -- Tested: ssize_t send(SOCKET, char *, int, unsigned int)
+[76.258s] -- Performing Test curl_cv_func_send_test
+[76.307s] -- Performing Test curl_cv_func_send_test - Failed
+[76.308s] -- Tested: ssize_t send(SOCKET, char *, size_t, int)
+[76.308s] -- Performing Test curl_cv_func_send_test
+[76.377s] -- Performing Test curl_cv_func_send_test - Failed
+[76.377s] -- Tested: ssize_t send(SOCKET, char *, size_t, unsigned int)
+[76.378s] -- Performing Test curl_cv_func_send_test
+[76.449s] -- Performing Test curl_cv_func_send_test - Failed
+[76.450s] -- Tested: ssize_t send(SOCKET, char *, socklen_t, int)
+[76.450s] -- Performing Test curl_cv_func_send_test
+[76.510s] -- Performing Test curl_cv_func_send_test - Failed
+[76.511s] -- Tested: ssize_t send(SOCKET, char *, socklen_t, unsigned int)
+[76.512s] -- Performing Test curl_cv_func_send_test
+[76.558s] -- Performing Test curl_cv_func_send_test - Failed
+[76.559s] -- Tested: ssize_t send(SOCKET, char *, unsigned int, int)
+[76.559s] -- Performing Test curl_cv_func_send_test
+[76.608s] -- Performing Test curl_cv_func_send_test - Failed
+[76.608s] -- Tested: ssize_t send(SOCKET, char *, unsigned int, unsigned int)
+[76.608s] -- Performing Test curl_cv_func_send_test
+[76.661s] -- Performing Test curl_cv_func_send_test - Failed
+[76.661s] -- Tested: ssize_t send(int, const char *, int, int)
+[76.662s] -- Performing Test curl_cv_func_send_test
+[76.717s] -- Performing Test curl_cv_func_send_test - Failed
+[76.717s] -- Tested: ssize_t send(int, const char *, int, unsigned int)
+[76.718s] -- Performing Test curl_cv_func_send_test
+[76.773s] -- Performing Test curl_cv_func_send_test - Failed
+[76.774s] -- Tested: ssize_t send(int, const char *, size_t, int)
+[76.774s] -- Performing Test curl_cv_func_send_test
+[76.831s] -- Performing Test curl_cv_func_send_test - Failed
+[76.831s] -- Tested: ssize_t send(int, const char *, size_t, unsigned int)
+[76.832s] -- Performing Test curl_cv_func_send_test
+[76.905s] -- Performing Test curl_cv_func_send_test - Failed
+[76.905s] -- Tested: ssize_t send(int, const char *, socklen_t, int)
+[76.906s] -- Performing Test curl_cv_func_send_test
+[76.954s] -- Performing Test curl_cv_func_send_test - Failed
+[76.955s] -- Tested: ssize_t send(int, const char *, socklen_t, unsigned int)
+[76.955s] -- Performing Test curl_cv_func_send_test
+[76.999s] -- Performing Test curl_cv_func_send_test - Failed
+[77.000s] -- Tested: ssize_t send(int, const char *, unsigned int, int)
+[77.000s] -- Performing Test curl_cv_func_send_test
+[77.049s] -- Performing Test curl_cv_func_send_test - Failed
+[77.049s] -- Tested: ssize_t send(int, const char *, unsigned int, unsigned int)
+[77.049s] -- Performing Test curl_cv_func_send_test
+[77.080s] -- Performing Test curl_cv_func_send_test - Failed
+[77.083s] -- Tested: ssize_t send(int, const void *, int, int)
+[77.083s] -- Performing Test curl_cv_func_send_test
+[77.121s] -- Performing Test curl_cv_func_send_test - Failed
+[77.121s] -- Tested: ssize_t send(int, const void *, int, unsigned int)
+[77.122s] -- Performing Test curl_cv_func_send_test
+[77.287s] -- Performing Test curl_cv_func_send_test - Success
+[77.288s] -- Tested: ssize_t send(int, const void *, size_t, int)
+[77.289s] -- Performing Test HAVE_MSG_NOSIGNAL
+[77.469s] -- Performing Test HAVE_MSG_NOSIGNAL - Success
+[77.470s] -- Performing Test HAVE_STRUCT_TIMEVAL
+[77.577s] -- Performing Test HAVE_STRUCT_TIMEVAL - Success
+[77.577s] -- Check size of sig_atomic_t
+[77.689s] -- Check size of sig_atomic_t - done
+[77.689s] -- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE
+[77.839s] -- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE - Success
+[77.840s] -- Check size of struct sockaddr_storage
+[77.980s] -- Check size of struct sockaddr_storage - done
+[77.986s] -- Enabled features: SSL IPv6 unixsockets AsynchDNS alt-svc HTTPS-proxy
+[77.986s] -- Enabled protocols: HTTP HTTPS
+[77.986s] -- Enabled SSL backends: OpenSSL
+[77.988s] -- Configuring done
+[78.023s] -- Generating done
+[78.024s] [33mCMake Warning:
+[78.024s]   Manually-specified variables were not used by the project:
+[78.024s] 
+[78.024s]     ANDROID_ABI
+[78.024s]     ANDROID_STL
+[78.024s]     CMAKE_CXX_FLAGS
+[78.024s]     CMAKE_CXX_STANDARD_LIBRARIES
+[78.024s] 
+[78.024s] [0m
+[78.024s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-build
+[78.055s] [ 26%] [34m[1mPerforming build step for 'libcurl'[0m
+[78.126s] [  0%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/altsvc.c.o[0m
+[78.306s] [  0%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/asyn-ares.c.o[0m
+[78.364s] [  1%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/amigaos.c.o[0m
+[78.405s] [  2%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/asyn-thread.c.o[0m
+[78.522s] [  3%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/base64.c.o[0m
+[78.606s] [  3%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/c-hyper.c.o[0m
+[78.646s] [  4%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/conncache.c.o[0m
+[78.776s] [  5%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/connect.c.o[0m
+[79.018s] [  5%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/content_encoding.c.o[0m
+[79.105s] [  6%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/cookie.c.o[0m
+[79.396s] [  7%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_addrinfo.c.o[0m
+[79.487s] [  7%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_ctype.c.o[0m
+[79.548s] [  8%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_des.c.o[0m
+[79.586s] [  9%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_endian.c.o[0m
+[79.634s] [  9%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_fnmatch.c.o[0m
+[79.674s] [ 10%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_get_line.c.o[0m
+[79.722s] [ 11%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_gethostname.c.o[0m
+[79.767s] [ 11%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_gssapi.c.o[0m
+[79.806s] [ 12%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_memrchr.c.o[0m
+[79.851s] [ 13%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_multibyte.c.o[0m
+[79.891s] [ 13%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.o[0m
+[79.930s] [ 14%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.o[0m
+[79.969s] [ 15%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_path.c.o[0m
+[80.008s] [ 15%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_range.c.o[0m
+[80.053s] [ 16%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_rtmp.c.o[0m
+[80.092s] [ 17%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_sasl.c.o[0m
+[80.131s] [ 17%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_sspi.c.o[0m
+[80.174s] [ 18%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_threads.c.o[0m
+[80.258s] [ 19%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/dict.c.o[0m
+[80.320s] [ 19%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/doh.c.o[0m
+[80.721s] [ 20%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/dotdot.c.o[0m
+[80.816s] [ 21%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/dynbuf.c.o[0m
+[80.924s] [ 21%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/easy.c.o[0m
+[81.164s] [ 22%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/easygetopt.c.o[0m
+[81.250s] [ 23%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/easyoptions.c.o[0m
+[81.318s] [ 23%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/escape.c.o[0m
+[81.443s] [ 24%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/file.c.o[0m
+[81.507s] [ 25%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/fileinfo.c.o[0m
+[81.567s] [ 25%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/formdata.c.o[0m
+[81.815s] [ 26%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/ftp.c.o[0m
+[81.877s] [ 26%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/ftplistparser.c.o[0m
+[81.937s] [ 27%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/getenv.c.o[0m
+[82.005s] [ 28%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/getinfo.c.o[0m
+[82.139s] [ 28%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/gopher.c.o[0m
+[82.195s] [ 29%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hash.c.o[0m
+[82.325s] [ 30%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hmac.c.o[0m
+[82.382s] [ 30%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostasyn.c.o[0m
+[82.459s] [ 31%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostcheck.c.o[0m
+[82.540s] [ 32%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostip.c.o[0m
+[82.784s] [ 32%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostip4.c.o[0m
+[82.839s] [ 33%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostip6.c.o[0m
+[82.888s] [ 34%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostsyn.c.o[0m
+[82.925s] [ 34%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hsts.c.o[0m
+[82.961s] [ 35%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http.c.o[0m
+[83.384s] [ 36%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http2.c.o[0m
+[83.424s] [ 36%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_chunks.c.o[0m
+[83.492s] [ 37%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_digest.c.o[0m
+[83.549s] [ 38%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_negotiate.c.o[0m
+[83.607s] [ 38%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_ntlm.c.o[0m
+[83.664s] [ 39%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_proxy.c.o[0m
+[83.850s] [ 40%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_aws_sigv4.c.o[0m
+[83.908s] [ 40%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/idn_win32.c.o[0m
+[83.964s] [ 41%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/if2ip.c.o[0m
+[84.046s] [ 42%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/imap.c.o[0m
+[84.104s] [ 42%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/inet_ntop.c.o[0m
+[84.261s] [ 43%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/inet_pton.c.o[0m
+[84.320s] [ 44%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/krb5.c.o[0m
+[84.380s] [ 44%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/ldap.c.o[0m
+[84.438s] [ 45%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/llist.c.o[0m
+[84.532s] [ 46%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/md4.c.o[0m
+[84.593s] [ 46%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/md5.c.o[0m
+[84.653s] [ 47%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/memdebug.c.o[0m
+[84.718s] [ 48%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/mime.c.o[0m
+[85.266s] [ 48%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/mprintf.c.o[0m
+[85.849s] [ 49%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/mqtt.c.o[0m
+[85.904s] [ 50%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/multi.c.o[0m
+[86.605s] [ 50%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/netrc.c.o[0m
+[86.707s] [ 51%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/non-ascii.c.o[0m
+[86.761s] [ 51%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/nonblock.c.o[0m
+[86.826s] [ 52%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/openldap.c.o[0m
+[86.881s] [ 53%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/parsedate.c.o[0m
+[87.017s] [ 53%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/pingpong.c.o[0m
+[87.081s] [ 54%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/pop3.c.o[0m
+[87.136s] [ 55%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/progress.c.o[0m
+[87.240s] [ 55%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/psl.c.o[0m
+[87.293s] [ 56%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/rand.c.o[0m
+[87.301s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/hole-filling-filter.cpp.o[0m
+[87.388s] [ 57%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/rename.c.o[0m
+[87.444s] [ 57%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/rtsp.c.o[0m
+[87.479s] [ 58%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/select.c.o[0m
+[87.570s] [ 59%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/sendf.c.o[0m
+[87.683s] [ 59%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/setopt.c.o[0m
+[88.084s] [ 60%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/sha256.c.o[0m
+[88.120s] [ 61%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/share.c.o[0m
+[88.189s] [ 61%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/slist.c.o[0m
+[88.239s] [ 62%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/smb.c.o[0m
+[88.274s] [ 63%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/smtp.c.o[0m
+[88.308s] [ 63%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socketpair.c.o[0m
+[88.356s] [ 64%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socks.c.o[0m
+[88.488s] [ 65%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socks_gssapi.c.o[0m
+[88.523s] [ 65%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socks_sspi.c.o[0m
+[88.578s] [ 66%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/speedcheck.c.o[0m
+[88.655s] [ 67%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/splay.c.o[0m
+[88.749s] [ 67%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strcase.c.o[0m
+[88.871s] [ 68%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strdup.c.o[0m
+[88.941s] [ 69%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strerror.c.o[0m
+[89.022s] [ 69%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strtok.c.o[0m
+[89.060s] [ 70%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strtoofft.c.o[0m
+[89.102s] [ 71%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/system_win32.c.o[0m
+[89.141s] [ 71%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/telnet.c.o[0m
+[89.196s] [ 72%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/tftp.c.o[0m
+[89.252s] [ 73%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/timeval.c.o[0m
+[89.324s] [ 73%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/transfer.c.o[0m
+[89.573s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/disparity-transform.cpp.o[0m
+[89.576s] [ 74%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/url.c.o[0m
+[89.667s] [ 75%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/urlapi.c.o[0m
+[90.044s] [ 75%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/version.c.o[0m
+[90.130s] [ 76%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/version_win32.c.o[0m
+[90.186s] [ 76%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/warnless.c.o[0m
+[90.264s] [ 77%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/wildcard.c.o[0m
+[90.271s] [ 78%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/x509asn1.c.o[0m
+[90.321s] [ 78%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/cleartext.c.o[0m
+[90.330s] [ 79%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/cram.c.o[0m
+[90.377s] [ 80%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/digest.c.o[0m
+[90.380s] [ 80%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/digest_sspi.c.o[0m
+[90.415s] [ 81%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/krb5_gssapi.c.o[0m
+[90.438s] [ 82%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/krb5_sspi.c.o[0m
+[90.453s] [ 82%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/ntlm.c.o[0m
+[90.492s] [ 83%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/oauth2.c.o[0m
+[90.493s] [ 84%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/ntlm_sspi.c.o[0m
+[90.529s] [ 84%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/spnego_gssapi.c.o[0m
+[90.550s] [ 85%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/spnego_sspi.c.o[0m
+[90.567s] [ 86%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/vauth.c.o[0m
+[90.607s] [ 86%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/bearssl.c.o[0m
+[90.612s] [ 87%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/gskit.c.o[0m
+[90.648s] [ 88%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/gtls.c.o[0m
+[90.664s] [ 88%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/keylog.c.o[0m
+[90.685s] [ 89%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.o[0m
+[90.721s] [ 90%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/mbedtls_threadlock.c.o[0m
+[90.756s] [ 90%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.o[0m
+[90.757s] [ 91%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/nss.c.o[0m
+[90.793s] [ 92%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/openssl.c.o[0m
+[90.812s] [ 92%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/schannel.c.o[0m
+[90.871s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kcert_stuff[m[K’:
+[90.871s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:803:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_ctrl[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.871s]   803 |           [01;35m[Kif[m[K(!ENGINE_ctrl(data->state.engine, ENGINE_CTRL_GET_CMD_FROM_NAME,
+[90.871s]       |           [01;35m[K^~[m[K
+[90.872s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.872s] [01m[K/usr/include/openssl/engine.h:429:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.872s]   429 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_ctrl[m[K(ENGINE *e, int cmd, long i, void *p,
+[90.872s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[90.872s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:810:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_ctrl_cmd[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.872s]   810 |           [01;35m[Kif[m[K(!ENGINE_ctrl_cmd(data->state.engine, cmd_name,
+[90.873s]       |           [01;35m[K^~[m[K
+[90.873s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.873s] [01m[K/usr/include/openssl/engine.h:450:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.873s]   450 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_ctrl_cmd[m[K(ENGINE *e, const char *cmd_name,
+[90.873s]       |                           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[90.873s] [ 93%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/schannel_verify.c.o[0m
+[90.873s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1005:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_load_private_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.873s]  1005 |             [01;35m[KENGINE_load_private_key[m[K(data->state.engine, key_file,
+[90.873s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[90.873s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.873s] [01m[K/usr/include/openssl/engine.h:638:11:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.873s]   638 | EVP_PKEY *[01;36m[KENGINE_load_private_key[m[K(ENGINE *e, const char *key_id,
+[90.874s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[90.874s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1069:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get1_RSA[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.874s]  1069 |         [01;35m[KRSA[m[K *rsa = EVP_PKEY_get1_RSA(priv_key);
+[90.874s]       |         [01;35m[K^~~[m[K
+[90.874s] In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+[90.874s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.874s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.874s] [01m[K/usr/include/openssl/evp.h:1348:16:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.874s]  1348 | struct rsa_st *[01;36m[KEVP_PKEY_get1_RSA[m[K(EVP_PKEY *pkey);
+[90.874s]       |                [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[90.874s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1070:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRSA_flags[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.874s]  1070 |         [01;35m[Kif[m[K(RSA_flags(rsa) & RSA_METHOD_FLAG_NO_CHECK)
+[90.874s]       |         [01;35m[K^~[m[K
+[90.875s] In file included from [01m[K/usr/include/openssl/x509.h:36[m[K,
+[90.875s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.875s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.875s] [01m[K/usr/include/openssl/rsa.h:301:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.875s]   301 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KRSA_flags[m[K(const RSA *r);
+[90.875s]       |                           [01;36m[K^~~~~~~~~[m[K
+[90.875s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1072:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRSA_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.875s]  1072 |         [01;35m[KRSA_free[m[K(rsa); /* Decrement reference count */
+[90.875s]       |         [01;35m[K^~~~~~~~[m[K
+[90.875s] In file included from [01m[K/usr/include/openssl/x509.h:36[m[K,
+[90.875s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.875s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.875s] [01m[K/usr/include/openssl/rsa.h:298:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.876s]   298 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KRSA_free[m[K(RSA *r);
+[90.876s]       |                            [01;36m[K^~~~~~~~[m[K
+[90.876s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_set_engine[m[K’:
+[90.876s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1278:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_by_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.876s]  1278 |   [01;35m[Ke[m[K = ENGINE_by_id(engine);
+[90.876s]       |   [01;35m[K^[m[K
+[90.876s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.876s] [01m[K/usr/include/openssl/engine.h:336:31:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.876s]   336 | OSSL_DEPRECATEDIN_3_0 ENGINE *[01;36m[KENGINE_by_id[m[K(const char *id);
+[90.876s]       |                               [01;36m[K^~~~~~~~~~~~[m[K
+[90.876s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1294:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_finish[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.876s]  1294 |     [01;35m[KENGINE_finish[m[K(data->state.engine);
+[90.877s]       |     [01;35m[K^~~~~~~~~~~~~[m[K
+[90.877s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.877s] [01m[K/usr/include/openssl/engine.h:628:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.877s]   628 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_finish[m[K(ENGINE *e);
+[90.877s]       |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[90.877s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1295:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.877s]  1295 |     [01;35m[KENGINE_free[m[K(data->state.engine);
+[90.877s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[90.877s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.877s] [01m[K/usr/include/openssl/engine.h:493:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.877s]   493 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_free[m[K(ENGINE *e);
+[90.877s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[90.877s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1298:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_init[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.878s]  1298 |   [01;35m[Kif[m[K(!ENGINE_init(e)) {
+[90.878s]       |   [01;35m[K^~[m[K
+[90.878s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.878s] [01m[K/usr/include/openssl/engine.h:620:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.878s]   620 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_init[m[K(ENGINE *e);
+[90.878s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[90.878s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1301:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.878s]  1301 |     [01;35m[KENGINE_free[m[K(e);
+[90.878s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[90.878s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.878s] [01m[K/usr/include/openssl/engine.h:493:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.878s]   493 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_free[m[K(ENGINE *e);
+[90.878s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[90.879s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_set_engine_default[m[K’:
+[90.879s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1321:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_set_default[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.879s]  1321 |     [01;35m[Kif[m[K(ENGINE_set_default(data->state.engine, ENGINE_METHOD_ALL) > 0) {
+[90.879s]       |     [01;35m[K^~[m[K
+[90.879s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.879s] [01m[K/usr/include/openssl/engine.h:708:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.879s]   708 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_set_default[m[K(ENGINE *e, unsigned int flags);
+[90.879s]       |                           [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[90.879s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1323:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.879s]  1323 |             [01;35m[KENGINE_get_id[m[K(data->state.engine));
+[90.880s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[90.880s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.880s] [01m[K/usr/include/openssl/engine.h:552:35:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.880s]   552 | OSSL_DEPRECATEDIN_3_0 const char *[01;36m[KENGINE_get_id[m[K(const ENGINE *e);
+[90.880s]       |                                   [01;36m[K^~~~~~~~~~~~~[m[K
+[90.880s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1327:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.880s]  1327 |             [01;35m[KENGINE_get_id[m[K(data->state.engine));
+[90.880s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[90.880s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.881s] [01m[K/usr/include/openssl/engine.h:552:35:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.881s]   552 | OSSL_DEPRECATEDIN_3_0 const char *[01;36m[KENGINE_get_id[m[K(const ENGINE *e);
+[90.881s]       |                                   [01;36m[K^~~~~~~~~~~~~[m[K
+[90.881s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_engines_list[m[K’:
+[90.881s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1346:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_first[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.881s]  1346 |   [01;35m[Kfor[m[K(e = ENGINE_get_first(); e; e = ENGINE_get_next(e)) {
+[90.881s]       |   [01;35m[K^~~[m[K
+[90.881s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.881s] [01m[K/usr/include/openssl/engine.h:318:31:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.881s]   318 | OSSL_DEPRECATEDIN_3_0 ENGINE *[01;36m[KENGINE_get_first[m[K(void);
+[90.881s]       |                               [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[90.881s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1346:3:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_next[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.881s]  1346 |   [01;35m[Kfor[m[K(e = ENGINE_get_first(); e; e = ENGINE_get_next(e)) {
+[90.882s]       |   [01;35m[K^~~[m[K
+[90.882s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.882s] [01m[K/usr/include/openssl/engine.h:323:31:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.882s]   323 | OSSL_DEPRECATEDIN_3_0 ENGINE *[01;36m[KENGINE_get_next[m[K(ENGINE *e);
+[90.882s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[90.882s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1347:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_get_id[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.882s]  1347 |     [01;35m[Kbeg[m[K = curl_slist_append(list, ENGINE_get_id(e));
+[90.882s]       |     [01;35m[K^~~[m[K
+[90.882s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.882s] [01m[K/usr/include/openssl/engine.h:552:35:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.882s]   552 | OSSL_DEPRECATEDIN_3_0 const char *[01;36m[KENGINE_get_id[m[K(const ENGINE *e);
+[90.883s]       |                                   [01;36m[K^~~~~~~~~~~~~[m[K
+[90.883s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kossl_close_all[m[K’:
+[90.883s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1507:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_finish[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.883s]  1507 |     [01;35m[KENGINE_finish[m[K(data->state.engine);
+[90.883s]       |     [01;35m[K^~~~~~~~~~~~~[m[K
+[90.883s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.883s] [01m[K/usr/include/openssl/engine.h:628:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.883s]   628 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_finish[m[K(ENGINE *e);
+[90.883s]       |                           [01;36m[K^~~~~~~~~~~~~[m[K
+[90.883s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:1508:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KENGINE_free[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.883s]  1508 |     [01;35m[KENGINE_free[m[K(data->state.engine);
+[90.883s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[90.884s] In file included from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:90[m[K:
+[90.884s] [01m[K/usr/include/openssl/engine.h:493:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.884s]   493 | OSSL_DEPRECATEDIN_3_0 int [01;36m[KENGINE_free[m[K(ENGINE *e);
+[90.884s]       |                           [01;36m[K^~~~~~~~~~~[m[K
+[90.884s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:[m[K In function ‘[01m[Kget_cert_chain[m[K’:
+[90.884s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3627:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get0_RSA[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.884s]  3627 |         [01;35m[Krsa[m[K = EVP_PKEY_get0_RSA(pubkey);
+[90.884s]       |         [01;35m[K^~~[m[K
+[90.884s] In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+[90.884s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.884s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.884s] [01m[K/usr/include/openssl/evp.h:1346:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.884s]  1346 | const struct rsa_st *[01;36m[KEVP_PKEY_get0_RSA[m[K(const EVP_PKEY *pkey);
+[90.885s]       |                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[90.885s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3627:13:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdiscarded-qualifiers-Wdiscarded-qualifiers]8;;[m[K]
+[90.885s]  3627 |         rsa [01;35m[K=[m[K EVP_PKEY_get0_RSA(pubkey);
+[90.885s]       |             [01;35m[K^[m[K
+[90.885s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3637:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KRSA_get0_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.885s]  3637 |           [01;35m[KRSA_get0_key[m[K(rsa, &n, &e, NULL);
+[90.885s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[90.885s] In file included from [01m[K/usr/include/openssl/x509.h:36[m[K,
+[90.885s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.885s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.885s] [01m[K/usr/include/openssl/rsa.h:222:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.885s]   222 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KRSA_get0_key[m[K(const RSA *r,
+[90.885s]       |                            [01;36m[K^~~~~~~~~~~~[m[K
+[90.886s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3657:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get0_DSA[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.886s]  3657 |         [01;35m[Kdsa[m[K = EVP_PKEY_get0_DSA(pubkey);
+[90.886s]       |         [01;35m[K^~~[m[K
+[90.886s] In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+[90.886s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.886s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.886s] [01m[K/usr/include/openssl/evp.h:1355:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.886s]  1355 | const struct dsa_st *[01;36m[KEVP_PKEY_get0_DSA[m[K(const EVP_PKEY *pkey);
+[90.886s]       |                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[90.886s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3657:13:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdiscarded-qualifiers-Wdiscarded-qualifiers]8;;[m[K]
+[90.886s]  3657 |         dsa [01;35m[K=[m[K EVP_PKEY_get0_DSA(pubkey);
+[90.886s]       |             [01;35m[K^[m[K
+[90.886s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3668:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDSA_get0_pqg[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.887s]  3668 |           [01;35m[KDSA_get0_pqg[m[K(dsa, &p, &q, &g);
+[90.887s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[90.887s] In file included from [01m[K/usr/include/openssl/x509.h:37[m[K,
+[90.887s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.887s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.887s] [01m[K/usr/include/openssl/dsa.h:201:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.887s]   201 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDSA_get0_pqg[m[K(const DSA *d, const BIGNUM **p,
+[90.887s]       |                            [01;36m[K^~~~~~~~~~~~[m[K
+[90.887s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3669:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDSA_get0_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.887s]  3669 |           [01;35m[KDSA_get0_key[m[K(dsa, &pub_key, NULL);
+[90.887s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[90.887s] In file included from [01m[K/usr/include/openssl/x509.h:37[m[K,
+[90.888s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.888s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.888s] [01m[K/usr/include/openssl/dsa.h:204:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.888s]   204 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDSA_get0_key[m[K(const DSA *d, const BIGNUM **pub_key,
+[90.888s]       |                            [01;36m[K^~~~~~~~~~~~[m[K
+[90.888s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3689:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KEVP_PKEY_get0_DH[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.888s]  3689 |         [01;35m[Kdh[m[K = EVP_PKEY_get0_DH(pubkey);
+[90.888s]       |         [01;35m[K^~[m[K
+[90.888s] In file included from [01m[K/usr/include/openssl/x509.h:29[m[K,
+[90.888s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.888s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.888s] [01m[K/usr/include/openssl/evp.h:1363:43:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.888s]  1363 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *[01;36m[KEVP_PKEY_get0_DH[m[K(const EVP_PKEY *pkey);
+[90.888s]       |                                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[90.889s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3689:12:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdiscarded-qualifiers-Wdiscarded-qualifiers]8;;[m[K]
+[90.889s]  3689 |         dh [01;35m[K=[m[K EVP_PKEY_get0_DH(pubkey);
+[90.889s]       |            [01;35m[K^[m[K
+[90.889s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3699:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDH_get0_pqg[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.889s]  3699 |           [01;35m[KDH_get0_pqg[m[K(dh, &p, &q, &g);
+[90.889s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[90.889s] In file included from [01m[K/usr/include/openssl/dsa.h:51[m[K,
+[90.889s]                  from [01m[K/usr/include/openssl/x509.h:37[m[K,
+[90.889s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.889s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.889s] [01m[K/usr/include/openssl/dh.h:257:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.889s]   257 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDH_get0_pqg[m[K(const DH *dh, const BIGNUM **p,
+[90.889s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[90.890s] [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:3700:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KDH_get0_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[90.890s]  3700 |           [01;35m[KDH_get0_key[m[K(dh, &pub_key, NULL);
+[90.890s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[90.890s] In file included from [01m[K/usr/include/openssl/dsa.h:51[m[K,
+[90.890s]                  from [01m[K/usr/include/openssl/x509.h:37[m[K,
+[90.890s]                  from [01m[K/usr/include/openssl/ssl.h:31[m[K,
+[90.890s]                  from [01m[K/home/adminlab/franka_ros2_ws/build/librealsense2/third-party/libcurl/lib/vtls/openssl.c:63[m[K:
+[90.890s] [01m[K/usr/include/openssl/dh.h:260:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[90.890s]   260 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KDH_get0_key[m[K(const DH *dh, const BIGNUM **pub_key,
+[90.890s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[90.929s] [ 94%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/sectransp.c.o[0m
+[90.995s] [ 94%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/vtls.c.o[0m
+[91.310s] [ 95%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.o[0m
+[91.346s] [ 96%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.o[0m
+[91.369s] [ 96%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vquic/quiche.c.o[0m
+[91.385s] [ 97%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vquic/vquic.c.o[0m
+[91.408s] [ 98%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vssh/libssh.c.o[0m
+[91.443s] [ 98%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vssh/libssh2.c.o[0m
+[91.446s] [ 99%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vssh/wolfssh.c.o[0m
+[91.481s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y8i-to-y8y8.cpp.o[0m
+[91.503s] [100%] [32m[1mLinking C static library libcurl.a[0m
+[91.649s] [100%] Built target libcurl
+[91.682s] [ 28%] [34m[1mPerforming install step for 'libcurl'[0m
+[91.744s] [35m[1mConsolidate compiler generated dependencies of target libcurl[0m
+[91.838s] [100%] Built target libcurl
+[91.861s] [36mInstall the project...[0m
+[91.870s] -- Install configuration: "Release"
+[91.871s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/libcurl.a
+[91.872s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/bin/curl-config
+[91.872s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/pkgconfig/libcurl.pc
+[91.872s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl
+[91.872s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/curl.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/easy.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/stdcheaders.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/mprintf.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/multi.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/system.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/curlver.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/urlapi.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/typecheck-gcc.h
+[91.873s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/options.h
+[91.874s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets.cmake
+[91.874s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets-release.cmake
+[91.874s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfigVersion.cmake
+[91.874s] -- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfig.cmake
+[91.896s] [ 28%] [34m[1mNo test step for 'libcurl'[0m
+[91.927s] [ 29%] [34m[1mCompleted 'libcurl'[0m
+[91.964s] [ 29%] Built target libcurl
+[91.975s] [ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/hdr-merge.cpp.o[0m
+[91.975s] [ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y12i-to-y16y16.cpp.o[0m
+[91.975s] [ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sequence-id-filter.cpp.o[0m
+[92.991s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/spatial-filter.cpp.o[0m
+[92.991s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/temporal-filter.cpp.o[0m
+[92.991s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/decimation-filter.cpp.o[0m
+[94.043s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/syncer-processing-block.cpp.o[0m
+[94.051s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/synthetic-stream.cpp.o[0m
+[94.071s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/occlusion-filter.cpp.o[0m
+[94.152s] [ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/pointcloud.cpp.o[0m
+[94.162s] [ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/colorizer.cpp.o[0m
+[94.178s] [ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/align.cpp.o[0m
+[95.227s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/processing-blocks-factory.cpp.o[0m
+[95.243s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sse/sse-pointcloud.cpp.o[0m
+[95.255s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y12i-to-y16y16-mipi.cpp.o[0m
+[97.855s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y16i-to-y10msby10msb.cpp.o[0m
+[97.867s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/identity-processing-block.cpp.o[0m
+[98.155s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/threshold.cpp.o[0m
+[98.167s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/rates-printer.cpp.o[0m
+[98.439s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/units-transform.cpp.o[0m
+[98.455s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/rotation-transform.cpp.o[0m
+[98.855s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/color-formats-converter.cpp.o[0m
+[99.565s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/depth-formats-converter.cpp.o[0m
+[99.743s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/motion-transform.cpp.o[0m
+[100.823s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/auto-exposure-processor.cpp.o[0m
+[100.824s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y411-converter.cpp.o[0m
+[101.539s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/formats-converter.cpp.o[0m
+[106.848s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/interface-libusb.cpp.o[0m
+[106.852s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/context-libusb.cpp.o[0m
+[106.852s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-unsigned.cpp.o[0m
+[107.895s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/device-libusb.cpp.o[0m
+[107.922s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-factory.cpp.o[0m
+[109.003s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-device.cpp.o[0m
+[109.015s] [ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-string-formatter.cpp.o[0m
+[109.254s] [ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-xml-helper.cpp.o[0m
+[109.285s] [ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-parser.cpp.o[0m
+[109.300s] [ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-formating-options.cpp.o[0m
+[109.338s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/messenger-libusb.cpp.o[0m
+[109.459s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/request-libusb.cpp.o[0m
+[110.536s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/enumerator-libusb.cpp.o[0m
+[110.555s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-log-data.cpp.o[0m
+[110.689s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/aggregator.cpp.o[0m
+[111.526s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/backend-v4l2.cpp.o[0m
+[111.539s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/profile.cpp.o[0m
+[111.563s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/config.cpp.o[0m
+[122.167s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/firmware_logger_device.cpp.o[0m
+[122.167s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/global_timestamp_reader.cpp.o[0m
+[122.171s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/error-handling.cpp.o[0m
+[122.179s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device_hub.cpp.o[0m
+[122.180s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/environment.cpp.o[0m
+[123.230s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hdr-config.cpp.o[0m
+[123.253s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device-info.cpp.o[0m
+[123.275s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device.cpp.o[0m
+[124.164s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/context.cpp.o[0m
+[124.174s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/backend-device-factory.cpp.o[0m
+[124.191s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/backend.cpp.o[0m
+[124.436s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hw-monitor.cpp.o[0m
+[125.495s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/image.cpp.o[0m
+[125.508s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/archive.cpp.o[0m
+[125.523s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/algo.cpp.o[0m
+[126.613s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/udev-device-watcher.cpp.o[0m
+[126.627s] [ 45%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/backend-hid.cpp.o[0m
+[126.652s] [ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/pipeline.cpp.o[0m
+[126.689s] [ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/image-avx.cpp.o[0m
+[135.770s] [ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/terminal-parser.cpp.o[0m
+[137.785s] [ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/types.cpp.o[0m
+[138.515s] [ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/sync.cpp.o[0m
+[139.360s] [ 47%] [32mBuilding C object CMakeFiles/realsense2.dir/src/verify.c.o[0m
+[139.408s] [ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/serialized-utilities.cpp.o[0m
+[141.435s] [ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/frame.cpp.o[0m
+[141.716s] [ 48%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/stream.cpp.o[0m
+[142.737s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/points.cpp.o[0m
+[143.789s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/source.cpp.o[0m
+[144.299s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-sensor.cpp.o[0m
+[144.858s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/to-string.cpp.o[0m
+[145.911s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform/platform-utils.cpp.o[0m
+[146.463s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-device-info.cpp.o[0m
+[146.479s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform/uvc-option.cpp.o[0m
+[151.489s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/third-party/easyloggingpp/src/easylogging++.cc.o[0m
+[160.943s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/synthetic-options-watcher.cpp.o[0m
+[163.811s] [ 51%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-device.cpp.o[0m
+[167.012s] [ 51%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/rscore-pp-block-factory.cpp.o[0m
+[168.912s] [ 51%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/uvc-sensor.cpp.o[0m
+[173.143s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hid-sensor.cpp.o[0m
+[173.143s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/rs.cpp.o[0m
+[173.143s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/sensor.cpp.o[0m
+[173.143s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform-camera.cpp.o[0m
+[173.144s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/option.cpp.o[0m
+[180.175s] [ 53%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/log.cpp.o[0m
+[199.131s] [ 53%] [32m[1mLinking CXX shared library Release/librealsense2.so[0m
+[199.801s] [ 53%] Built target realsense2
+[199.847s] [ 54%] [32mBuilding CXX object examples/hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o[0m
+[199.847s] [ 54%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/synthetic-stream-gl.cpp.o[0m
+[199.855s] [ 54%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/rs-software-device.cpp.o[0m
+[199.860s] [ 54%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/rs-capture.cpp.o[0m
+[199.868s] [ 54%] [32mBuilding CXX object examples/callback/CMakeFiles/rs-callback.dir/rs-callback.cpp.o[0m
+[200.992s] [ 55%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/rs-post-processing.cpp.o[0m
+[201.000s] [ 55%] [32mBuilding C object examples/C/distance/CMakeFiles/rs-distance.dir/rs-distance.c.o[0m
+[201.024s] [ 55%] [32mBuilding C object examples/C/color/CMakeFiles/rs-color.dir/rs-color.c.o[0m
+[201.259s] [ 55%] [32m[1mLinking CXX executable ../../../Release/rs-distance[0m
+[201.311s] [ 56%] [32m[1mLinking CXX executable ../../../Release/rs-color[0m
+[201.687s] [ 56%] Built target rs-color
+[201.723s] [ 56%] Built target rs-distance
+[201.727s] [ 56%] [32m[1mLinking CXX executable ../../Release/rs-hello-realsense[0m
+[201.735s] [ 56%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[201.763s] [ 57%] [32mBuilding C object examples/C/depth/CMakeFiles/rs-depth.dir/rs-depth.c.o[0m
+[201.808s] [ 58%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/yuy2rgb-gl.cpp.o[0m
+[201.823s] [ 58%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/rs-measure.cpp.o[0m
+[201.839s] [ 58%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/rs-sensor-control.cpp.o[0m
+[201.896s] [ 58%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/rs-align-advanced.cpp.o[0m
+[202.142s] [ 58%] [32m[1mLinking CXX executable ../../../Release/rs-depth[0m
+[202.271s] [ 58%] Built target rs-hello-realsense
+[202.584s] [ 58%] Built target rs-depth
+[203.367s] [ 59%] [32m[1mLinking CXX executable ../../Release/rs-callback[0m
+[203.728s] [ 59%] Built target rs-callback
+[204.279s] [ 59%] [32m[1mLinking CXX executable ../../Release/rs-capture[0m
+[204.543s] [ 59%] Built target rs-capture
+[207.023s] [ 59%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[207.228s] [ 59%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[207.228s] [ 59%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/y4112rgb-gl.cpp.o[0m
+[207.243s] [ 59%] [32m[1mLinking CXX executable ../../Release/rs-measure[0m
+[207.271s] [ 59%] [32m[1mLinking CXX executable ../../Release/rs-sensor-control[0m
+[207.460s] [ 59%] Built target rs-measure
+[207.474s] [ 59%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/pointcloud-gl.cpp.o[0m
+[207.480s] [ 59%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/rs-convert.cpp.o[0m
+[207.492s] [ 59%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/rs-hdr.cpp.o[0m
+[207.509s] [ 59%] Built target rs-sensor-control
+[207.526s] [ 60%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[207.578s] [ 61%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/rs-motion.cpp.o[0m
+[208.143s] [ 62%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/rs-gl.cpp.o[0m
+[208.687s] [ 62%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/rs-record-playback.cpp.o[0m
+[209.583s] [ 62%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[209.783s] [ 63%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/rs-align.cpp.o[0m
+[210.924s] [ 63%] [32mBuilding CXX object tools/enumerate-devices/CMakeFiles/rs-enumerate-devices.dir/rs-enumerate-devices.cpp.o[0m
+[211.120s] [ 64%] [32m[1mLinking CXX executable ../../Release/rs-post-processing[0m
+[211.696s] [ 64%] Built target rs-post-processing
+[211.741s] [ 64%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[211.791s] [ 64%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/rs-pointcloud.cpp.o[0m
+[211.835s] [ 65%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/rs-multicam.cpp.o[0m
+[213.559s] [ 66%] [32m[1mLinking CXX executable ../../Release/rs-software-device[0m
+[213.592s] [ 66%] [32mBuilding C object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[213.868s] [ 66%] Built target rs-software-device
+[214.036s] [ 67%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[215.295s] [ 67%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[216.471s] [ 67%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/__/__/common/opengl3.cpp.o[0m
+[217.555s] [ 67%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/converter.cpp.o[0m
+[217.619s] [ 67%] [32m[1mLinking CXX executable ../../Release/rs-pointcloud[0m
+[217.844s] [ 67%] Built target rs-pointcloud
+[217.893s] [ 67%] [32mBuilding C object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/glad/glad.c.o[0m
+[217.936s] [ 67%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[218.205s] [ 67%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[218.230s] [ 67%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/pc-shader.cpp.o[0m
+[218.339s] [ 67%] [32m[1mLinking CXX executable ../../Release/rs-hdr[0m
+[218.493s] [ 67%] Built target rs-hdr
+[218.739s] [ 67%] [32m[1mLinking CXX executable ../../Release/rs-multicam[0m
+[218.880s] [ 67%] Built target rs-multicam
+[219.540s] [ 68%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/converters/converter-csv.cpp.o[0m
+[219.890s] [ 68%] [32m[1mLinking CXX executable ../../Release/rs-motion[0m
+[219.893s] [ 69%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[219.938s] [ 69%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[220.013s] [ 69%] [32m[1mLinking CXX executable ../../Release/rs-align-advanced[0m
+[220.063s] [ 69%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[220.084s] [ 69%] Built target rs-motion
+[220.157s] [ 69%] Built target rs-align-advanced
+[220.732s] [ 69%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[220.840s] [ 69%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[221.641s] [ 69%] [32m[1mLinking CXX executable ../../Release/rs-convert[0m
+[221.688s] [ 70%] [32m[1mLinking CXX executable ../../Release/rs-align[0m
+[221.762s] [ 70%] Built target rs-convert
+[221.815s] [ 70%] [32m[1mLinking CXX executable ../../Release/rs-enumerate-devices[0m
+[221.817s] [ 70%] Built target rs-align
+[221.917s] [ 70%] Built target rs-enumerate-devices
+[222.413s] [ 71%] [32m[1mLinking CXX executable ../../Release/rs-record-playback[0m
+[222.524s] [ 71%] Built target rs-record-playback
+[222.840s] [ 71%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/easyloggingpp/src/easylogging++.cc.o[0m
+[225.872s] [ 72%] [32mBuilding C object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[227.650s] [ 73%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/camera-shader.cpp.o[0m
+[227.650s] [ 73%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/upload.cpp.o[0m
+[227.650s] [ 73%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/align-gl.cpp.o[0m
+[227.650s] [ 73%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/colorizer-gl.cpp.o[0m
+[234.984s] [ 73%] [32m[1mLinking CXX shared library ../../Release/librealsense2-gl.so[0m
+[235.711s] [ 73%] Built target realsense2-gl
+[235.815s] [ 73%] [32mBuilding CXX object tools/fw-update/CMakeFiles/rs-fw-update.dir/rs-fw-update.cpp.o[0m
+[235.833s] [ 73%] [32mBuilding CXX object tools/recorder/CMakeFiles/rs-record.dir/rs-record.cpp.o[0m
+[235.853s] [ 74%] [32mBuilding CXX object tools/fw-logger/CMakeFiles/rs-fw-logger.dir/rs-fw-logger.cpp.o[0m
+[235.866s] [ 74%] [32mBuilding CXX object tools/terminal/CMakeFiles/rs-terminal.dir/auto-complete.cpp.o[0m
+[235.868s] [ 74%] [32mBuilding CXX object tools/terminal/CMakeFiles/rs-terminal.dir/rs-terminal.cpp.o[0m
+[240.411s] [ 74%] [32m[1mLinking CXX executable ../../Release/rs-record[0m
+[240.619s] [ 74%] Built target rs-record
+[240.671s] [ 75%] [32mBuilding CXX object tools/benchmark/CMakeFiles/rs-benchmark.dir/rs-benchmark.cpp.o[0m
+[240.675s] [ 75%] [32mBuilding C object tools/benchmark/CMakeFiles/rs-benchmark.dir/__/__/third-party/glad/glad.c.o[0m
+[240.964s] [ 75%] [32m[1mLinking CXX executable ../../Release/rs-fw-logger[0m
+[241.272s] [ 75%] Built target rs-fw-logger
+[241.307s] [ 75%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/rs-rosbag-inspector.cpp.o[0m
+[241.327s] [ 75%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/common/os.cpp.o[0m
+[245.329s] [ 75%] [32m[1mLinking CXX executable ../../Release/rs-fw-update[0m
+[245.493s] [ 75%] Built target rs-fw-update
+[246.210s] [ 75%] [32m[1mLinking CXX executable ../../Release/rs-benchmark[0m
+[246.396s] [ 75%] Built target rs-benchmark
+[247.231s] [ 75%] [32m[1mLinking CXX executable ../../Release/rs-terminal[0m
+[247.404s] [ 75%] Built target rs-terminal
+[247.435s] [ 77%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/notifications.cpp.o[0m
+[247.435s] [ 77%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[247.435s] [ 77%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/model-views.cpp.o[0m
+[247.435s] [ 77%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/model-views.cpp.o[0m
+[247.436s] [ 77%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[248.536s] [ 77%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/calibration-model.cpp.o[0m
+[248.577s] [ 77%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/notifications.cpp.o[0m
+[255.744s] [ 77%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/calibration-model.cpp.o[0m
+[255.799s] [ 78%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-alignment.cpp.o[0m
+[256.092s] [ 78%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-window.cpp.o[0m
+[256.464s] [ 79%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[256.968s] In file included from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/src/core/options-watcher.h:8[m[K,
+[256.968s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../core/sensor-interface.h:12[m[K,
+[256.968s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../sensor.h:5[m[K,
+[256.968s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../uvc-sensor.h:6[m[K,
+[256.968s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/../hw-monitor.h:6[m[K,
+[256.968s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/fw-update/fw-update-unsigned.h:6[m[K,
+[256.968s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/../../src/ds/ds-private.h:7[m[K,
+[256.969s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/common/../src/ds/d400/d400-private.h:6[m[K,
+[256.969s]                  from [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/common/calibration-model.cpp:10[m[K:
+[256.969s] [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/third-party/rsutils/include/rsutils/signal.h:[m[K In member function ‘[01m[Krsutils::subscription rsutils::signal<Args>::subscribe(rsutils::signal<Args>::callback&&)[m[K’:
+[256.969s] [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/third-party/rsutils/include/rsutils/signal.h:84:20:[m[K [01;35m[Kwarning: [m[Klambda capture initializers only available with ‘[01m[K-std=c++14[m[K’ or ‘[01m[K-std=gnu++14[m[K’
+[256.969s]    84 |             [slot, [01;35m[Kweak[m[K = std::weak_ptr< impl >( _impl )]
+[256.969s]       |                    [01;35m[K^~~~[m[K
+[257.018s] [ 79%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[257.020s] [ 79%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-window.cpp.o[0m
+[257.020s] [ 79%] [32mBuilding C object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[257.024s] [ 79%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-alignment.cpp.o[0m
+[257.024s] [ 79%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[257.025s] [ 80%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/viewer.cpp.o[0m
+[257.173s] [ 81%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[257.183s] [ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/rs-config.cpp.o[0m
+[257.206s] [ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/opengl3.cpp.o[0m
+[257.210s] [ 81%] [32mBuilding C object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/glad/glad.c.o[0m
+[257.218s] [ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/viewer.cpp.o[0m
+[257.423s] [ 82%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/opengl3.cpp.o[0m
+[259.072s] [ 83%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/os.cpp.o[0m
+[259.743s] [ 83%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/fw-update-helper.cpp.o[0m
+[260.035s] [ 83%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/rs-config.cpp.o[0m
+[260.359s] [ 83%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/os.cpp.o[0m
+[271.302s] [ 83%] [32m[1mLinking CXX executable ../../Release/rs-rosbag-inspector[0m
+[271.575s] [ 83%] Built target rs-rosbag-inspector
+[275.720s] [ 83%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/measurement.cpp.o[0m
+[277.086s] [ 83%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/updates-model.cpp.o[0m
+[278.449s] [ 84%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/on-chip-calib.cpp.o[0m
+[280.173s] [ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/option-model.cpp.o[0m
+[282.186s] [ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/skybox.cpp.o[0m
+[282.186s] [ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/updates-model.cpp.o[0m
+[282.190s] [ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/measurement.cpp.o[0m
+[282.193s] [ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/on-chip-calib.cpp.o[0m
+[282.848s] [ 86%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/skybox.cpp.o[0m
+[283.895s] [ 86%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/option-model.cpp.o[0m
+[283.911s] [ 86%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/output-model.cpp.o[0m
+[283.919s] [ 86%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/metadata-helper.cpp.o[0m
+[283.923s] [ 86%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/output-model.cpp.o[0m
+[284.286s] [ 86%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/device-model.cpp.o[0m
+[284.876s] [ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/metadata-helper.cpp.o[0m
+[284.879s] [ 87%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/subdevice-model.cpp.o[0m
+[284.897s] [ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/fw-update-helper.cpp.o[0m
+[285.248s] [ 88%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/processing-block-model.cpp.o[0m
+[285.331s] [ 88%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/device-model.cpp.o[0m
+[302.422s] [ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/processing-block-model.cpp.o[0m
+[302.422s] [ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/stream-model.cpp.o[0m
+[302.422s] [ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/post-processing-filters.cpp.o[0m
+[302.425s] [ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[302.427s] [ 90%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[302.427s] [ 90%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[303.344s] [ 90%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[303.346s] [ 90%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/post-processing-filters.cpp.o[0m
+[303.346s] [ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/subdevice-model.cpp.o[0m
+[303.356s] [ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[304.402s] [ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/stream-model.cpp.o[0m
+[305.023s] [ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[305.535s] [ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[305.868s] [ 92%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/rs-depth-quality.cpp.o[0m
+[306.555s] [ 92%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/depth-quality-model.cpp.o[0m
+[317.156s] [ 92%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/glad/glad.c.o[0m
+[317.156s] [ 93%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[317.466s] [ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[317.644s] [ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[318.648s] [ 94%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/glad/glad.c.o[0m
+[318.661s] [ 94%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[318.895s] [ 94%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[318.920s] [ 94%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[319.032s] [ 95%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[319.576s] [ 95%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[319.893s] [ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/realsense-viewer.cpp.o[0m
+[320.385s] [ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[320.791s] [ 96%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[321.454s] [ 96%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[321.669s] [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/realsense-viewer.cpp:[m[K In function ‘[01m[Kvoid add_playback_device(rs2::context&, std::shared_ptr<std::vector<std::unique_ptr<rs2::device_model> > >, std::string&, rs2::viewer_model&, const string&)[m[K’:
+[321.669s] [01m[K/home/adminlab/franka_ros2_ws/src/librealsense/tools/realsense-viewer/realsense-viewer.cpp:69:33:[m[K [01;35m[Kwarning: [m[Klambda capture initializers only available with ‘[01m[K-std=c++14[m[K’ or ‘[01m[K-std=gnu++14[m[K’
+[321.669s]    69 |                 [&viewer_model, [01;35m[Kweak_device_models[m[K = std::weak_ptr< device_models_list >( device_models ), filename](
+[321.670s]       |                                 [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[324.783s] [ 97%] [32m[1mLinking CXX executable ../../Release/rs-depth-quality[0m
+[325.516s] [ 97%] Built target rs-depth-quality
+[325.651s] [ 97%] [32mBuilding CXX object tools/data-collect/CMakeFiles/rs-data-collect.dir/rs-data-collect.cpp.o[0m
+[325.668s] [ 98%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/rs-gl.cpp.o[0m
+[325.683s] [ 98%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/rs-align-gl.cpp.o[0m
+[325.707s] [ 98%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[325.715s] [ 99%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[325.727s] [ 99%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[332.180s] [ 99%] [32m[1mLinking CXX executable ../../Release/rs-gl[0m
+[332.383s] [ 99%] Built target rs-gl
+[333.163s] [ 99%] [32m[1mLinking CXX executable ../../Release/realsense-viewer[0m
+[333.695s] [ 99%] Built target realsense-viewer
+[334.977s] [ 99%] [32m[1mLinking CXX executable ../../Release/rs-align-gl[0m
+[335.143s] [ 99%] Built target rs-align-gl
+[336.689s] [ 99%] [32m[1mLinking CXX executable ../../Release/rs-data-collect[0m
+[336.860s] [ 99%] Built target rs-data-collect
+[336.880s] [ 99%] [32mBuilding CXX object examples/save-to-disk/CMakeFiles/rs-save-to-disk.dir/rs-save-to-disk.cpp.o[0m
+[338.853s] [100%] [32m[1mLinking CXX executable ../../Release/rs-save-to-disk[0m
+[338.982s] [100%] Built target rs-save-to-disk
+[338.998s] Invoked command in '/home/adminlab/franka_ros2_ws/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/librealsense2 -- -j16 -l16
+[339.688s] Invoking command in '/home/adminlab/franka_ros2_ws/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/librealsense2
+[339.700s] -- Install configuration: "Release"
+[339.700s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55.1
+[339.722s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55
+[339.722s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so
+[339.722s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2
+[339.722s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h
+[339.724s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_advanced_mode_command.h
+[339.724s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_processing.h
+[339.724s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_pipeline.h
+[339.724s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_config.h
+[339.724s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_device.h
+[339.724s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_record_playback.h
+[339.724s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_internal.h
+[339.725s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_types.h
+[339.725s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_option.h
+[339.725s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_context.h
+[339.725s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_sensor.h
+[339.725s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_frame.h
+[339.725s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.h
+[339.725s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.hpp
+[339.726s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp
+[339.726s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_internal.hpp
+[339.726s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_pipeline.hpp
+[339.726s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_export.hpp
+[339.726s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_types.hpp
+[339.726s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_record_playback.hpp
+[339.727s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_serializable_device.hpp
+[339.727s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_options.hpp
+[339.727s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_processing.hpp
+[339.727s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_sensor.hpp
+[339.727s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_context.hpp
+[339.727s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_frame.hpp
+[339.728s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_device.hpp
+[339.728s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rsutil.h
+[339.728s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.hpp
+[339.728s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.h
+[339.728s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets.cmake
+[339.729s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets-release.cmake
+[339.729s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Config.cmake
+[339.729s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2ConfigVersion.cmake
+[339.729s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2.pc
+[339.920s] /sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[339.921s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librsutils.a
+[339.923s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense-file.a
+[339.924s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55.1
+[339.927s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55
+[339.927s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55.1" to ""
+[339.927s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so
+[339.927s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.h
+[339.927s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.hpp
+[339.927s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets.cmake
+[339.927s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets-release.cmake
+[339.927s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfig.cmake
+[339.928s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfigVersion.cmake
+[339.928s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2-gl.pc
+[340.064s] /sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[340.065s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hello-realsense
+[340.065s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hello-realsense" to ""
+[340.066s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-software-device
+[340.066s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-software-device" to ""
+[340.067s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-capture
+[340.067s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-capture" to ""
+[340.068s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-callback
+[340.068s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-callback" to ""
+[340.068s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-save-to-disk
+[340.069s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-save-to-disk" to ""
+[340.069s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-multicam
+[340.070s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-multicam" to ""
+[340.070s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-pointcloud
+[340.070s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-pointcloud" to ""
+[340.071s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align
+[340.072s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align" to ""
+[340.072s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-gl
+[340.073s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-gl" to ""
+[340.073s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-advanced
+[340.074s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-advanced" to ""
+[340.075s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-sensor-control
+[340.075s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-sensor-control" to ""
+[340.076s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-measure
+[340.076s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-measure" to ""
+[340.076s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth
+[340.077s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth" to ""
+[340.077s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-color
+[340.077s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-color" to ""
+[340.077s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-distance
+[340.078s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-distance" to ""
+[340.078s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-post-processing
+[340.079s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-post-processing" to ""
+[340.079s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record-playback
+[340.080s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record-playback" to ""
+[340.081s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-motion
+[340.082s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-motion" to ""
+[340.082s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-gl
+[340.083s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-gl" to ""
+[340.083s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hdr
+[340.084s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hdr" to ""
+[340.084s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-convert
+[340.085s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-convert" to ""
+[340.085s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-enumerate-devices
+[340.086s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-enumerate-devices" to ""
+[340.086s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-logger
+[340.087s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-logger" to ""
+[340.087s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-terminal
+[340.088s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-terminal" to ""
+[340.089s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record
+[340.089s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record" to ""
+[340.089s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-update
+[340.090s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-update" to ""
+[340.090s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-embed
+[340.091s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-data-collect
+[340.092s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-data-collect" to ""
+[340.092s] -- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/realsense-viewer
+[340.101s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/realsense-viewer" to ""
+[340.103s] -- Up-to-date: /home/adminlab/Documents/librealsense2/presets
+[340.103s] [31mCMake Error at tools/realsense-viewer/cmake_install.cmake:74 (file):
+[340.103s]   file INSTALL cannot set permissions on
+[340.103s]   "/home/adminlab/Documents/librealsense2/presets": Operation not permitted.
+[340.103s] Call Stack (most recent call first):
+[340.103s]   tools/cmake_install.cmake:55 (include)
+[340.103s]   cmake_install.cmake:138 (include)
+[340.103s] 
+[340.103s] [0m
+[340.107s] Invoked command in '/home/adminlab/franka_ros2_ws/build/librealsense2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/librealsense2

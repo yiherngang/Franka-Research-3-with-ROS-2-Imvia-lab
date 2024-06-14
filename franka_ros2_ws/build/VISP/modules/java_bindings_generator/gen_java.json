@@ -1,0 +1,13 @@
+{
+  "rootdir": "/home/adminlab/franka_ros2_ws/src/visp",
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "io", "location": "modules/io" },
+    { "name": "detection", "location": "modules/detection" },
+    { "name": "mbt", "location": "modules/tracker/mbt" }
+  ],
+  "files_remap": [
+    { "src": "modules/java/generator/android/java/org/visp/android/ViSPLoader.java.in", "target": "/home/adminlab/franka_ros2_ws/build/VISP/configured/modules/java/generator/android/java/org/visp/android/ViSPLoader.java" }
+  ]
+}

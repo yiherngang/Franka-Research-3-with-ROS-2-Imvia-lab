@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_visual_tools[0m
+[ 66%] Built target moveit_visual_tools
+[35m[1mConsolidate compiler generated dependencies of target moveit_visual_tools_demo[0m
+[100%] Built target moveit_visual_tools_demo
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.xml

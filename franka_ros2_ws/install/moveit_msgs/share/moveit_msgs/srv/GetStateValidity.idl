@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetStateValidity.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/ConstraintEvalResult.idl"
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/ContactInformation.idl"
+#include "moveit_msgs/msg/CostSource.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+
+module moveit_msgs {
+  module srv {
+    struct GetStateValidity_Request {
+      moveit_msgs::msg::RobotState robot_state;
+
+      string group_name;
+
+      moveit_msgs::msg::Constraints constraints;
+    };
+    struct GetStateValidity_Response {
+      boolean valid;
+
+      sequence<moveit_msgs::msg::ContactInformation> contacts;
+
+      sequence<moveit_msgs::msg::CostSource> cost_sources;
+
+      sequence<moveit_msgs::msg::ConstraintEvalResult> constraint_result;
+    };
+  };
+};

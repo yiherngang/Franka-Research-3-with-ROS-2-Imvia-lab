@@ -1,0 +1,1 @@
+ament_index_cpp;moveit_common;moveit_core;moveit_ros_planning;moveit_ros_visualization;pluginlib;rclcpp;rviz_common;rviz_rendering;srdfdom;urdf;ament_lint_auto;ament_clang_format;ament_cmake_lint_cmake;ament_cmake_xmllint

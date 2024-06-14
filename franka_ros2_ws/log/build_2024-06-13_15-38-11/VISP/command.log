@@ -1,0 +1,4 @@
+Invoking command in '/home/adminlab/franka_ros2_ws/build/VISP': /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/VISP -- -j16 -l16
+Invoked command in '/home/adminlab/franka_ros2_ws/build/VISP' returned '0': /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/VISP -- -j16 -l16
+Invoking command in '/home/adminlab/franka_ros2_ws/build/VISP': /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/VISP
+Invoked command in '/home/adminlab/franka_ros2_ws/build/VISP' returned '0': /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/VISP

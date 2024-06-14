@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/JointLimits.msg
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains information about limits of a particular joint (or control dimension)")
+    struct JointLimits {
+      string joint_name;
+
+      @verbatim (language="comment", text=
+        "true if the joint has position limits")
+      boolean has_position_limits;
+
+      @verbatim (language="comment", text=
+        "min and max position limits")
+      double min_position;
+
+      double max_position;
+
+      @verbatim (language="comment", text=
+        "true if joint has velocity limits")
+      boolean has_velocity_limits;
+
+      @verbatim (language="comment", text=
+        "max velocity limit")
+      double max_velocity;
+
+      @verbatim (language="comment", text=
+        "min_velocity is assumed to be -max_velocity" "\n"
+        "true if joint has acceleration limits")
+      boolean has_acceleration_limits;
+
+      @verbatim (language="comment", text=
+        "max acceleration limit")
+      double max_acceleration;
+
+      @verbatim (language="comment", text=
+        "min_acceleration is assumed to be -max_acceleration" "\n"
+        "true if joint has jerk limits")
+      boolean has_jerk_limits;
+
+      @verbatim (language="comment", text=
+        "max jerk limit")
+      double max_jerk;
+    };
+  };
+};

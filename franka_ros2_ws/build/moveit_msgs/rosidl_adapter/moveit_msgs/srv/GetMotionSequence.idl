@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetMotionSequence.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MotionSequenceRequest.idl"
+#include "moveit_msgs/msg/MotionSequenceResponse.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Planning request with a list of motion commands")
+    struct GetMotionSequence_Request {
+      moveit_msgs::msg::MotionSequenceRequest request;
+    };
+    @verbatim (language="comment", text=
+      "Response to the planning request")
+    struct GetMotionSequence_Response {
+      moveit_msgs::msg::MotionSequenceResponse response;
+    };
+  };
+};

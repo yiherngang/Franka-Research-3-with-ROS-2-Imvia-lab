@@ -1,0 +1,303 @@
+[0.598s] Invoking command in '/home/adminlab/franka_ros2_ws/build/hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/FrankaTeleop/hand_interfaces -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/hand_interfaces
+[0.663s] -- The C compiler identification is GNU 11.4.0
+[0.702s] -- The CXX compiler identification is GNU 11.4.0
+[0.709s] -- Detecting C compiler ABI info
+[0.774s] -- Detecting C compiler ABI info - done
+[0.787s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.787s] -- Detecting C compile features
+[0.787s] -- Detecting C compile features - done
+[0.791s] -- Detecting CXX compiler ABI info
+[0.866s] -- Detecting CXX compiler ABI info - done
+[0.874s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.874s] -- Detecting CXX compile features
+[0.875s] -- Detecting CXX compile features - done
+[0.877s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.033s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.118s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.161s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.167s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.177s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.368s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.723s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.434s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.435s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.465s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.466s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.466s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.466s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.494s] -- Found PythonExtra: .so  
+[2.564s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.587s] -- Added test 'lint_cmake' to check CMake code style
+[2.589s] -- Added test 'xmllint' to check XML markup files
+[2.592s] -- Configuring done
+[2.618s] -- Generating done
+[2.620s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/hand_interfaces
+[2.633s] Invoked command in '/home/adminlab/franka_ros2_ws/build/hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/FrankaTeleop/hand_interfaces -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/hand_interfaces
+[2.639s] Invoking command in '/home/adminlab/franka_ros2_ws/build/hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/hand_interfaces -- -j16 -l16
+[2.695s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.695s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.716s] [  4%] Built target ament_cmake_python_copy_hand_interfaces
+[3.000s] running egg_info
+[3.002s] creating hand_interfaces.egg-info
+[3.002s] writing hand_interfaces.egg-info/PKG-INFO
+[3.002s] writing dependency_links to hand_interfaces.egg-info/dependency_links.txt
+[3.003s] writing top-level names to hand_interfaces.egg-info/top_level.txt
+[3.003s] writing manifest file 'hand_interfaces.egg-info/SOURCES.txt'
+[3.003s] reading manifest file 'hand_interfaces.egg-info/SOURCES.txt'
+[3.010s] writing manifest file 'hand_interfaces.egg-info/SOURCES.txt'
+[3.066s] [  4%] Built target ament_cmake_python_build_hand_interfaces_egg
+[3.096s] [  4%] Built target hand_interfaces__cpp
+[3.120s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.137s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.158s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.258s] [ 12%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hand_interfaces/msg/detail/finger_data__functions.c.o[0m
+[3.258s] [ 14%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hand_interfaces/srv/detail/hand_pose__functions.c.o[0m
+[3.269s] [ 17%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hand_interfaces/msg/detail/pinch__functions.c.o[0m
+[3.355s] [ 19%] [32m[1mLinking C shared library libhand_interfaces__rosidl_generator_c.so[0m
+[3.439s] [ 21%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hand_interfaces/srv/hand_pose__type_support.cpp.o[0m
+[3.447s] [ 21%] Built target hand_interfaces__rosidl_generator_c
+[3.459s] [ 23%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hand_interfaces/msg/finger_data__type_support.cpp.o[0m
+[3.481s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.499s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.499s] [ 29%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hand_interfaces/msg/pinch__type_support.cpp.o[0m
+[3.505s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.671s] [ 34%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hand_interfaces/msg/detail/finger_data__type_support.cpp.o[0m
+[3.671s] [ 38%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hand_interfaces/srv/detail/hand_pose__type_support.cpp.o[0m
+[3.671s] [ 38%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hand_interfaces/srv/detail/dds_fastrtps/hand_pose__type_support.cpp.o[0m
+[3.671s] [ 40%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hand_interfaces/msg/detail/dds_fastrtps/finger_data__type_support.cpp.o[0m
+[3.672s] [ 42%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hand_interfaces/msg/detail/dds_fastrtps/pinch__type_support.cpp.o[0m
+[3.679s] [ 44%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hand_interfaces/msg/detail/pinch__type_support.cpp.o[0m
+[3.942s] [ 46%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hand_interfaces/srv/hand_pose__type_support.cpp.o[0m
+[3.963s] [ 48%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hand_interfaces/msg/finger_data__type_support.cpp.o[0m
+[3.985s] [ 51%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_cpp.so[0m
+[3.989s] [ 53%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hand_interfaces/msg/pinch__type_support.cpp.o[0m
+[4.098s] [ 55%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_c.so[0m
+[4.129s] [ 55%] Built target hand_interfaces__rosidl_typesupport_cpp
+[4.175s] [ 57%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hand_interfaces/srv/detail/hand_pose__type_support_c.cpp.o[0m
+[4.187s] [ 59%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hand_interfaces/srv/detail/hand_pose__type_support.c.o[0m
+[4.195s] [ 61%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hand_interfaces/msg/detail/finger_data__type_support.c.o[0m
+[4.207s] [ 63%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hand_interfaces/msg/detail/pinch__type_support_c.cpp.o[0m
+[4.207s] [ 65%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hand_interfaces/msg/detail/finger_data__type_support_c.cpp.o[0m
+[4.220s] [ 68%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hand_interfaces/msg/detail/pinch__type_support.c.o[0m
+[4.263s] [ 68%] Built target hand_interfaces__rosidl_typesupport_c
+[4.327s] [ 70%] [32m[1mLinking C shared library libhand_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.391s] [ 72%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.407s] [ 72%] Built target hand_interfaces__rosidl_typesupport_introspection_c
+[4.555s] [ 72%] Built target hand_interfaces__rosidl_typesupport_introspection_cpp
+[4.623s] [ 74%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.730s] [ 74%] Built target hand_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.155s] [ 76%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.487s] [ 76%] Built target hand_interfaces__rosidl_typesupport_fastrtps_c
+[5.598s] [ 76%] Built target hand_interfaces
+[5.691s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.419s] [ 78%] Built target hand_interfaces__py
+[6.464s] [ 80%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/srv/_hand_pose_s.c.o[0m
+[6.499s] [ 82%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_finger_data_s.c.o[0m
+[6.501s] [ 85%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_pinch_s.c.o[0m
+[6.795s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/libhand_interfaces__rosidl_generator_py.so[0m
+[6.956s] [ 87%] Built target hand_interfaces__rosidl_generator_py
+[7.011s] [ 89%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.023s] [ 91%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.050s] [ 93%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.306s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.347s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.347s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.512s] [100%] Built target hand_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.536s] [100%] Built target hand_interfaces__rosidl_typesupport_c__pyext
+[7.556s] [100%] Built target hand_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.619s] Invoked command in '/home/adminlab/franka_ros2_ws/build/hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/hand_interfaces -- -j16 -l16
+[9.367s] Invoking command in '/home/adminlab/franka_ros2_ws/build/hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/hand_interfaces
+[9.413s] -- Install configuration: ""
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/ament_index/resource_index/rosidl_interfaces/hand_interfaces
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/pinch.h
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__functions.h
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__type_support.h
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__functions.c
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__type_support.h
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__functions.c
+[9.413s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__struct.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__functions.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__struct.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/finger_data.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/hand_pose.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__functions.c
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__type_support.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__functions.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__struct.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/library_path.sh
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/library_path.dsv
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_c.so
+[9.414s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_c.so" to ""
+[9.414s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[9.414s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[9.414s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_fastrtps_c.h
+[9.414s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_fastrtps_c.h
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.415s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[9.415s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_fastrtps_c.h
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.415s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.415s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[9.415s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[9.415s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__traits.hpp
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__builder.hpp
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__struct.hpp
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__struct.hpp
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__traits.hpp
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__builder.hpp
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/pinch.hpp
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/finger_data.hpp
+[9.415s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[9.415s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/hand_pose.hpp
+[9.415s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__traits.hpp
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__builder.hpp
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__struct.hpp
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/dds_fastrtps
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_fastrtps_cpp.hpp
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_fastrtps_cpp.hpp
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/dds_fastrtps
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.416s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[9.416s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[9.416s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_introspection_c.h
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_introspection_c.h
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__type_support.c
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__type_support.c
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[9.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_introspection_c.h
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__type_support.c
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_c.so
+[9.417s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_c.so
+[9.417s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_c.so" to ""
+[9.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[9.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[9.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__type_support.cpp
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__type_support.cpp
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_introspection_cpp.hpp
+[9.417s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_introspection_cpp.hpp
+[9.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[9.417s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__type_support.cpp
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_introspection_cpp.hpp
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.418s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_cpp.so
+[9.418s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/pythonpath.sh
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/pythonpath.dsv
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/__init__.py
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.418s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_c.c
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/__init__.py
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_finger_data.py
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_pinch_s.c
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_finger_data_s.c
+[9.419s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_pinch.py
+[9.424s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/libhand_interfaces__rosidl_generator_py.so
+[9.425s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv
+[9.425s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/__init__.py
+[9.425s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/_hand_pose_s.c
+[9.425s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/_hand_pose.py
+[9.575s] Listing '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces'...
+[9.575s] Compiling '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/__init__.py'...
+[9.575s] Listing '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg'...
+[9.575s] Compiling '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/__init__.py'...
+[9.575s] Compiling '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_finger_data.py'...
+[9.576s] Compiling '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_pinch.py'...
+[9.576s] Listing '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv'...
+[9.576s] Compiling '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/__init__.py'...
+[9.576s] Compiling '/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/_hand_pose.py'...
+[9.591s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.591s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.591s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.592s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.592s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.592s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.592s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_py.so
+[9.592s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_py.so" to ""
+[9.592s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/srv/HandPose.idl
+[9.592s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/msg/FingerData.idl
+[9.593s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/msg/Pinch.idl
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/srv/HandPose.srv
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/srv/HandPose_Request.msg
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/srv/HandPose_Response.msg
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/msg/FingerData.msg
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/msg/Pinch.msg
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/ament_index/resource_index/package_run_dependencies/hand_interfaces
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/ament_index/resource_index/parent_prefix_path/hand_interfaces
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/ament_prefix_path.sh
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/ament_prefix_path.dsv
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/path.sh
+[9.601s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/environment/path.dsv
+[9.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/local_setup.bash
+[9.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/local_setup.sh
+[9.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/local_setup.zsh
+[9.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/local_setup.dsv
+[9.611s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/package.dsv
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/ament_index/resource_index/packages/hand_interfaces
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_cExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_cppExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cppExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_pyExport.cmake
+[9.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfacesConfig.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfacesConfig-version.cmake
+[9.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/hand_interfaces/share/hand_interfaces/package.xml
+[9.648s] Invoked command in '/home/adminlab/franka_ros2_ws/build/hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/franka_custom_controller:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/hand_interfaces

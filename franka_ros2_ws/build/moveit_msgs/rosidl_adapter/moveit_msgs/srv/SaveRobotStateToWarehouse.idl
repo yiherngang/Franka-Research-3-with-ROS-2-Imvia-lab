@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/SaveRobotStateToWarehouse.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/RobotState.idl"
+
+module moveit_msgs {
+  module srv {
+    struct SaveRobotStateToWarehouse_Request {
+      string name;
+
+      string robot;
+
+      moveit_msgs::msg::RobotState state;
+    };
+    struct SaveRobotStateToWarehouse_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,12 @@
+source;share/generate_parameter_library_py/hook/path.ps1
+source;share/generate_parameter_library_py/hook/path.dsv
+source;share/generate_parameter_library_py/hook/path.sh
+source;share/generate_parameter_library_py/hook/pythonpath.ps1
+source;share/generate_parameter_library_py/hook/pythonpath.dsv
+source;share/generate_parameter_library_py/hook/pythonpath.sh
+source;share/generate_parameter_library_py/hook/pythonscriptspath.ps1
+source;share/generate_parameter_library_py/hook/pythonscriptspath.dsv
+source;share/generate_parameter_library_py/hook/pythonscriptspath.sh
+source;share/generate_parameter_library_py/hook/ament_prefix_path.ps1
+source;share/generate_parameter_library_py/hook/ament_prefix_path.dsv
+source;share/generate_parameter_library_py/hook/ament_prefix_path.sh

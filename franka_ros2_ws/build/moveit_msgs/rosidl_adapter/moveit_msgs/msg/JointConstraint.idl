@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/JointConstraint.msg
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Constrain the position of a joint to be within a certain bound")
+    struct JointConstraint {
+      string joint_name;
+
+      @verbatim (language="comment", text=
+        "the bound to be achieved is [position - tolerance_below, position + tolerance_above]")
+      double position;
+
+      double tolerance_above;
+
+      double tolerance_below;
+
+      @verbatim (language="comment", text=
+        "A weighting factor for this constraint (denotes relative importance to other constraints. Closer to zero means less important)")
+      double weight;
+    };
+  };
+};

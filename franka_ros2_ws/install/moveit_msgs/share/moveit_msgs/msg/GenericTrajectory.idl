@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/GenericTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/CartesianTrajectory.idl"
+#include "std_msgs/msg/Header.idl"
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A generic trajectory message that may either encode a joint- or cartesian-space trajectory, or both" "\n"
+      "Trajectories encoded in this message are considered semantically equivalent")
+    struct GenericTrajectory {
+      std_msgs::msg::Header header;
+
+      sequence<trajectory_msgs::msg::JointTrajectory> joint_trajectory;
+
+      sequence<moveit_msgs::msg::CartesianTrajectory> cartesian_trajectory;
+    };
+  };
+};

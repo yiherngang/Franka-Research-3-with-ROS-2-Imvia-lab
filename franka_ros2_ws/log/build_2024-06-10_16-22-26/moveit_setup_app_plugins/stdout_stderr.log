@@ -1,0 +1,54 @@
+[  4%] [34m[1mAutomatic MOC for target gtest_main[0m
+[  8%] [34m[1mAutomatic MOC for target moveit_setup_app_plugins[0m
+[ 12%] [34m[1mAutomatic MOC for target gtest[0m
+[ 12%] Built target moveit_setup_app_plugins_autogen
+[ 12%] Built target gtest_autogen
+[ 12%] Built target gtest_main_autogen
+[ 24%] Built target gtest_main
+[ 36%] Built target gtest
+[ 84%] Built target moveit_setup_app_plugins
+[ 88%] [34m[1mAutomatic MOC for target test_perception[0m
+[ 88%] Built target test_perception_autogen
+[100%] Built target test_perception
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/config/sensors_3d.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/config/moveit.rviz
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/launch/generic.launch.py.template
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/lib/libmoveit_setup_app_plugins.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/launches_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/perception.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/launches_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/perception_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/launch_bundle.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/launches.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/perception_config.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_app_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_app_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/ament_index/resource_index/packages/moveit_setup_app_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_app_plugins
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/export_moveit_setup_app_pluginsExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/export_moveit_setup_app_pluginsExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/moveit_setup_app_pluginsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/moveit_setup_app_pluginsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/package.xml

@@ -1,0 +1,2145 @@
+[35m[1mConsolidate compiler generated dependencies of target visp_pugixml[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_qbdevice[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_clipper[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_pololu[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_reflex_takktile2[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_apriltag[0m
+[  0%] Built target man
+[  0%] Built target developer_scripts
+[  0%] Built target visp_pololu
+[  0%] Built target visp_qbdevice
+[  0%] Built target visp_pugixml
+[  0%] Built target visp_clipper
+[  0%] Built target visp_reflex_takktile2
+[  1%] Built target visp_apriltag
+[35m[1mConsolidate compiler generated dependencies of target visp_simdlib[0m
+[  7%] Built target visp_simdlib
+[35m[1mConsolidate compiler generated dependencies of target visp_core[0m
+[ 14%] Built target visp_core
+[35m[1mConsolidate compiler generated dependencies of target visp_klt[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_ar[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_me[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_dnn_tracker[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_imgproc[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_blob[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_gui[0m
+[ 14%] Built target visp_klt
+[35m[1mConsolidate compiler generated dependencies of target visp_io[0m
+[ 14%] Built target visp_dnn_tracker
+[35m[1mConsolidate compiler generated dependencies of target visp_sensor[0m
+[ 14%] Built target visp_blob
+[ 15%] Built target visp_ar
+[ 16%] Built target visp_me
+[ 17%] Built target visp_imgproc
+[ 18%] Built target visp_io
+[35m[1mConsolidate compiler generated dependencies of target testContours[0m
+[35m[1mConsolidate compiler generated dependencies of target testAutoThreshold[0m
+[35m[1mConsolidate compiler generated dependencies of target testFloodFill[0m
+[35m[1mConsolidate compiler generated dependencies of target perfImageLoadSave[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageLoadSave[0m
+[35m[1mConsolidate compiler generated dependencies of target testImgproc[0m
+[35m[1mConsolidate compiler generated dependencies of target testConnectedComponents[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_visual_features[0m
+[35m[1mConsolidate compiler generated dependencies of target testJsonArgumentParser[0m
+[35m[1mConsolidate compiler generated dependencies of target testVideo[0m
+[ 20%] Built target visp_sensor
+[ 21%] Built target visp_gui
+[ 21%] Built target testContours
+[ 21%] Built target testAutoThreshold
+[ 21%] Built target testFloodFill
+[ 21%] Built target testConnectedComponents
+[ 21%] Built target testImgproc
+[ 21%] Built target perfImageLoadSave
+[ 21%] Built target testImageLoadSave
+[ 21%] Built target testJsonArgumentParser
+[ 21%] Built target testVideo
+[35m[1mConsolidate compiler generated dependencies of target testCameraParametersConversion[0m
+[35m[1mConsolidate compiler generated dependencies of target testXmlParserCamera[0m
+[35m[1mConsolidate compiler generated dependencies of target testJsonCamera[0m
+[35m[1mConsolidate compiler generated dependencies of target perfColorConversion[0m
+[35m[1mConsolidate compiler generated dependencies of target perfGaussianFilter[0m
+[35m[1mConsolidate compiler generated dependencies of target perfImageAddSub[0m
+[35m[1mConsolidate compiler generated dependencies of target perfImageResize[0m
+[35m[1mConsolidate compiler generated dependencies of target testColorConversion[0m
+[35m[1mConsolidate compiler generated dependencies of target perfImageWarp[0m
+[35m[1mConsolidate compiler generated dependencies of target perfImageMorphology[0m
+[35m[1mConsolidate compiler generated dependencies of target testCropAdvanced[0m
+[35m[1mConsolidate compiler generated dependencies of target testConversion[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageAddSub[0m
+[35m[1mConsolidate compiler generated dependencies of target testCrop[0m
+[ 23%] Built target visp_visual_features
+[35m[1mConsolidate compiler generated dependencies of target testGaussianFilter[0m
+[ 23%] Built target testCameraParametersConversion
+[ 23%] Built target testJsonCamera
+[ 23%] Built target perfImageAddSub
+[ 23%] Built target perfColorConversion
+[ 23%] Built target perfImageWarp
+[ 23%] Built target testXmlParserCamera
+[ 24%] Built target perfImageMorphology
+[ 24%] Built target perfImageResize
+[ 24%] Built target perfGaussianFilter
+[ 24%] Built target testCropAdvanced
+[ 24%] Built target testConversion
+[ 24%] Built target testImageAddSub
+[ 24%] Built target testCrop
+[ 24%] Built target testGaussianFilter
+[ 25%] Built target testColorConversion
+[35m[1mConsolidate compiler generated dependencies of target testImageNormalizedCorrelation[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageFilter[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageComparison[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageWarp[0m
+[35m[1mConsolidate compiler generated dependencies of target testIoPFM[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageTemplateMatching[0m
+[35m[1mConsolidate compiler generated dependencies of target testIoPGM[0m
+[35m[1mConsolidate compiler generated dependencies of target testIoEXR[0m
+[35m[1mConsolidate compiler generated dependencies of target testIoPPM[0m
+[35m[1mConsolidate compiler generated dependencies of target testPerformanceLUT[0m
+[35m[1mConsolidate compiler generated dependencies of target testReadImage[0m
+[ 25%] Built target testIoPFM
+[ 25%] Built target testImageWarp
+[35m[1mConsolidate compiler generated dependencies of target testUndistortImage[0m
+[ 25%] Built target testImageComparison
+[ 25%] Built target testImageNormalizedCorrelation
+[ 26%] Built target testImageFilter
+[ 26%] Built target testImageTemplateMatching
+[ 26%] Built target testIoEXR
+[ 27%] Built target testIoPPM
+[ 27%] Built target testPerformanceLUT
+[ 27%] Built target testIoPGM
+[ 27%] Built target testReadImage
+[ 27%] Built target testUndistortImage
+[35m[1mConsolidate compiler generated dependencies of target testImageDifference[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageDraw[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageGetValue[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageOwnership[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageMeanAndStdev[0m
+[35m[1mConsolidate compiler generated dependencies of target perfColVectorOperations[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageResize[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageMorphology[0m
+[35m[1mConsolidate compiler generated dependencies of target testImagePoint[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageBinarise[0m
+[35m[1mConsolidate compiler generated dependencies of target perfMatrixTranspose[0m
+[35m[1mConsolidate compiler generated dependencies of target testImagePrint[0m
+[35m[1mConsolidate compiler generated dependencies of target testArray2D[0m
+[35m[1mConsolidate compiler generated dependencies of target perfMatrixMultiplication[0m
+[35m[1mConsolidate compiler generated dependencies of target testColVector[0m
+[35m[1mConsolidate compiler generated dependencies of target testEigenConversion[0m
+[ 27%] Built target testImageGetValue
+[ 27%] Built target testImageDifference
+[ 27%] Built target testImageDraw
+[ 27%] Built target testImageMeanAndStdev
+[ 27%] Built target testImageBinarise
+[ 27%] Built target perfColVectorOperations
+[ 27%] Built target testImageOwnership
+[ 27%] Built target testImagePoint
+[ 27%] Built target perfMatrixTranspose
+[ 27%] Built target testImageResize
+[ 27%] Built target testImageMorphology
+[ 28%] Built target testArray2D
+[ 28%] Built target perfMatrixMultiplication
+[ 28%] Built target testColVector
+[ 29%] Built target testImagePrint
+[ 29%] Built target testEigenConversion
+[35m[1mConsolidate compiler generated dependencies of target testHomogeneousMatrix[0m
+[35m[1mConsolidate compiler generated dependencies of target testMath[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixConvolution[0m
+[35m[1mConsolidate compiler generated dependencies of target testLineFitting[0m
+[35m[1mConsolidate compiler generated dependencies of target testKalmanAcceleration[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixCholesky[0m
+[35m[1mConsolidate compiler generated dependencies of target testJsonArrayConversion[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrix[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixDeterminant[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixConditionNumber[0m
+[35m[1mConsolidate compiler generated dependencies of target testMathUtils[0m
+[35m[1mConsolidate compiler generated dependencies of target testKalmanVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixException[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixInverse[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixInitialization[0m
+[35m[1mConsolidate compiler generated dependencies of target testMatrixPseudoInverse[0m
+[ 29%] Built target testHomogeneousMatrix
+[ 29%] Built target testJsonArrayConversion
+[ 29%] Built target testLineFitting
+[ 29%] Built target testMatrix
+[ 29%] Built target testKalmanAcceleration
+[ 29%] Built target testMathUtils
+[ 29%] Built target testMatrixCholesky
+[ 30%] Built target testMath
+[ 30%] Built target testMatrixDeterminant
+[ 30%] Built target testMatrixConditionNumber
+[ 30%] Built target testKalmanVelocity
+[ 30%] Built target testMatrixConvolution
+[ 30%] Built target testMatrixPseudoInverse
+[ 30%] Built target testMatrixInverse
+[ 30%] Built target testMatrixException
+[ 31%] Built target testMatrixInitialization
+[35m[1mConsolidate compiler generated dependencies of target testMomentAlpha[0m
+[35m[1mConsolidate compiler generated dependencies of target testPoseVector[0m
+[35m[1mConsolidate compiler generated dependencies of target testRand[0m
+[35m[1mConsolidate compiler generated dependencies of target testQuaternion[0m
+[35m[1mConsolidate compiler generated dependencies of target testRowVector[0m
+[35m[1mConsolidate compiler generated dependencies of target testRobust[0m
+[35m[1mConsolidate compiler generated dependencies of target testRotation[0m
+[35m[1mConsolidate compiler generated dependencies of target testSPC[0m
+[35m[1mConsolidate compiler generated dependencies of target testSvd[0m
+[35m[1mConsolidate compiler generated dependencies of target testTwistMatrix[0m
+[35m[1mConsolidate compiler generated dependencies of target testTranslationVector[0m
+[35m[1mConsolidate compiler generated dependencies of target testXmlParserHomogeneousMatrix[0m
+[35m[1mConsolidate compiler generated dependencies of target testMunkres[0m
+[ 31%] Built target testPoseVector
+[ 31%] Built target testRand
+[ 31%] Built target testQuaternion
+[ 31%] Built target testMomentAlpha
+[ 31%] Built target testRobust
+[ 31%] Built target testRotation
+[ 31%] Built target testRowVector
+[ 31%] Built target testSvd
+[ 31%] Built target testTranslationVector
+[ 31%] Built target testXmlParserHomogeneousMatrix
+[ 31%] Built target testSPC
+[ 31%] Built target testTwistMatrix
+[ 31%] Built target testMunkres
+[35m[1mConsolidate compiler generated dependencies of target testClient[0m
+[35m[1mConsolidate compiler generated dependencies of target testCPUFeatures[0m
+[35m[1mConsolidate compiler generated dependencies of target testPolygon[0m
+[35m[1mConsolidate compiler generated dependencies of target testConvert[0m
+[35m[1mConsolidate compiler generated dependencies of target testUDPClient[0m
+[35m[1mConsolidate compiler generated dependencies of target testPolygon2[0m
+[35m[1mConsolidate compiler generated dependencies of target testEndian[0m
+[35m[1mConsolidate compiler generated dependencies of target testHistogram[0m
+[35m[1mConsolidate compiler generated dependencies of target testImageCircle[0m
+[35m[1mConsolidate compiler generated dependencies of target testXmlParserRectOriented[0m
+[35m[1mConsolidate compiler generated dependencies of target testBuildInformation[0m
+[35m[1mConsolidate compiler generated dependencies of target testServer[0m
+[35m[1mConsolidate compiler generated dependencies of target testUDPServer[0m
+[35m[1mConsolidate compiler generated dependencies of target testIoTools[0m
+[35m[1mConsolidate compiler generated dependencies of target testRect[0m
+[35m[1mConsolidate compiler generated dependencies of target testNPZ[0m
+[ 31%] Built target testConvert
+[ 31%] Built target testClient
+[ 31%] Built target testCPUFeatures
+[ 32%] Built target testServer
+[ 32%] Built target testEndian
+[ 32%] Built target testUDPClient
+[ 32%] Built target testImageCircle
+[ 32%] Built target testPolygon
+[ 33%] Built target testUDPServer
+[ 33%] Built target testPolygon2
+[ 34%] Built target testXmlParserRectOriented
+[ 34%] Built target testRect
+[ 34%] Built target testIoTools
+[ 35%] Built target testNPZ
+[ 35%] Built target testHistogram
+[ 35%] Built target testBuildInformation
+[35m[1mConsolidate compiler generated dependencies of target testSerialWrite[0m
+[35m[1mConsolidate compiler generated dependencies of target testSerialRead[0m
+[35m[1mConsolidate compiler generated dependencies of target testTime[0m
+[35m[1mConsolidate compiler generated dependencies of target testXmlParser[0m
+[35m[1mConsolidate compiler generated dependencies of target testMouseEvent[0m
+[35m[1mConsolidate compiler generated dependencies of target testVideoDevice[0m
+[35m[1mConsolidate compiler generated dependencies of target testDisplays[0m
+[35m[1mConsolidate compiler generated dependencies of target testDisplayPolygonLines[0m
+[35m[1mConsolidate compiler generated dependencies of target testClick[0m
+[35m[1mConsolidate compiler generated dependencies of target testDisplayRoi[0m
+[35m[1mConsolidate compiler generated dependencies of target testVideoDeviceDual[0m
+[35m[1mConsolidate compiler generated dependencies of target testDisplayScaled[0m
+[35m[1mConsolidate compiler generated dependencies of target testJsonMe[0m
+[35m[1mConsolidate compiler generated dependencies of target testNurbs[0m
+[ 35%] Built target testSerialWrite
+[ 35%] Built target testSerialRead
+[ 35%] Built target testTime
+[ 35%] Built target testXmlParser
+[ 35%] Built target testClick
+[ 36%] Built target testVideoDevice
+[ 37%] Built target testMouseEvent
+[ 37%] Built target testDisplayScaled
+[ 37%] Built target testDisplayPolygonLines
+[ 37%] Built target testDisplayRoi
+[ 37%] Built target testDisplays
+[ 37%] Built target testVideoDeviceDual
+[ 37%] Built target testJsonMe
+[ 37%] Built target testNurbs
+[35m[1mConsolidate compiler generated dependencies of target testComedi[0m
+[35m[1mConsolidate compiler generated dependencies of target testForceTorqueIitSensor[0m
+[35m[1mConsolidate compiler generated dependencies of target testMocapQualisys[0m
+[35m[1mConsolidate compiler generated dependencies of target testForceTorqueAtiNetFTSensor[0m
+[35m[1mConsolidate compiler generated dependencies of target test1394TwoResetBus[0m
+[35m[1mConsolidate compiler generated dependencies of target testMocapVicon[0m
+[35m[1mConsolidate compiler generated dependencies of target testOccipitalStructure_Core_images[0m
+[35m[1mConsolidate compiler generated dependencies of target testForceTorqueAti[0m
+[ 37%] Built target testComedi
+[35m[1mConsolidate compiler generated dependencies of target testOccipitalStructure_Core_imu[0m
+[35m[1mConsolidate compiler generated dependencies of target test1394TwoGrabber[0m
+[35m[1mConsolidate compiler generated dependencies of target testOccipitalStructure_Core_pcl[0m
+[ 37%] Built target testForceTorqueIitSensor
+[35m[1mConsolidate compiler generated dependencies of target testPylonGrabber[0m
+[ 37%] Built target testMocapQualisys
+[ 37%] Built target testForceTorqueAtiNetFTSensor
+[ 37%] Built target test1394TwoResetBus
+[ 37%] Built target testOccipitalStructure_Core_images
+[ 37%] Built target testOccipitalStructure_Core_imu
+[ 37%] Built target testOccipitalStructure_Core_pcl
+[ 38%] Built target testPylonGrabber
+[ 38%] Built target testForceTorqueAti
+[ 38%] Built target testMocapVicon
+[ 38%] Built target test1394TwoGrabber
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_D435_align[0m
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_D435[0m
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_D435_opencv[0m
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_SR300[0m
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_T265_images[0m
+[ 38%] Built target testRealSense2_D435_align
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_D435_pcl[0m
+[ 38%] Built target testRealSense2_D435
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_T265_images_odometry_async[0m
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_T265_images_odometry[0m
+[ 38%] Built target testRealSense2_D435_opencv
+[ 38%] Built target testRealSense2_T265_images
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_T265_imu[0m
+[ 39%] Built target testRealSense2_D435_pcl
+[ 39%] Built target testRealSense2_T265_images_odometry
+[ 39%] Built target testRealSense2_SR300
+[ 39%] Built target testRealSense2_T265_images_odometry_async
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_T265_odometry[0m
+[35m[1mConsolidate compiler generated dependencies of target testRealSense2_T265_undistort[0m
+[ 39%] Built target testRealSense2_T265_imu
+[35m[1mConsolidate compiler generated dependencies of target testTrackDot[0m
+[ 39%] Built target testRealSense2_T265_odometry
+[ 39%] Built target testRealSense2_T265_undistort
+[ 39%] Built target testTrackDot
+[35m[1mConsolidate compiler generated dependencies of target visp_vision[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_vs[0m
+[35m[1mConsolidate compiler generated dependencies of target testPoint[0m
+[ 39%] Built target testPoint
+[35m[1mConsolidate compiler generated dependencies of target visp_robot[0m
+[ 39%] Built target visp_vs
+[ 40%] Built target visp_vision
+[ 44%] Built target visp_robot
+[35m[1mConsolidate compiler generated dependencies of target visp_detection[0m
+[35m[1mConsolidate compiler generated dependencies of target testRobotBebop2[0m
+[35m[1mConsolidate compiler generated dependencies of target testQbSoftHand[0m
+[ 45%] Built target visp_detection
+[35m[1mConsolidate compiler generated dependencies of target testRobotAfma4[0m
+[35m[1mConsolidate compiler generated dependencies of target testAfma4[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_tt[0m
+[ 45%] Built target testRobotBebop2
+[35m[1mConsolidate compiler generated dependencies of target visp_mbt[0m
+[35m[1mConsolidate compiler generated dependencies of target testAfma6[0m
+[ 45%] Built target testQbSoftHand
+[ 45%] Built target testRobotAfma4
+[ 45%] Built target testAfma4
+[ 45%] Built target testAfma6
+[35m[1mConsolidate compiler generated dependencies of target testRobotAfma6[0m
+[35m[1mConsolidate compiler generated dependencies of target testRobotAfma6Pose[0m
+[ 46%] Built target visp_tt
+[35m[1mConsolidate compiler generated dependencies of target testRobotFlirPtu[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaCartForceTorque-2[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaCartVelocity-2[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaCartForceTorque[0m
+[ 46%] Built target testRobotAfma6
+[ 46%] Built target testRobotAfma6Pose
+[ 47%] Built target testFrankaCartForceTorque-2
+[ 47%] Built target testRobotFlirPtu
+[ 47%] Built target testFrankaCartVelocity-2
+[ 47%] Built target testFrankaCartForceTorque
+[35m[1mConsolidate compiler generated dependencies of target testFrankaGetPose[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaCartVelocity-3[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaCartVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaJointVelocity-2[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaJointTorque[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaJointPosition[0m
+[ 47%] Built target testFrankaGetPose
+[ 48%] Built target visp_mbt
+[ 48%] Built target testFrankaCartVelocity-3
+[ 48%] Built target testFrankaCartVelocity
+[ 48%] Built target testFrankaJointTorque
+[ 48%] Built target testFrankaJointPosition
+[ 49%] Built target testFrankaJointVelocity-2
+[35m[1mConsolidate compiler generated dependencies of target testFrankaJointVelocity-3[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaJointVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target testFrankaJointVelocityLimits[0m
+[35m[1mConsolidate compiler generated dependencies of target testPixhawkDroneKeyboard[0m
+[ 49%] Built target testFrankaJointVelocity-3
+[35m[1mConsolidate compiler generated dependencies of target testPixhawkDronePositionAbsoluteControl[0m
+[35m[1mConsolidate compiler generated dependencies of target testPixhawkDronePositionRelativeControl[0m
+[ 49%] Built target testFrankaJointVelocity
+[ 49%] Built target testFrankaJointVelocityLimits
+[ 50%] Built target testPixhawkDroneKeyboard
+[ 50%] Built target testPixhawkDronePositionAbsoluteControl
+[ 50%] Built target testPixhawkDronePositionRelativeControl
+[35m[1mConsolidate compiler generated dependencies of target testPixhawkDroneTakeoff[0m
+[35m[1mConsolidate compiler generated dependencies of target testPixhawkDroneVelocityControl[0m
+[35m[1mConsolidate compiler generated dependencies of target testPololuPosition[0m
+[35m[1mConsolidate compiler generated dependencies of target testPixhawkRoverVelocityControl[0m
+[ 50%] Built target testPixhawkDroneTakeoff
+[35m[1mConsolidate compiler generated dependencies of target testPololuVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target testUniversalRobotsCartPosition[0m
+[35m[1mConsolidate compiler generated dependencies of target testUniversalRobotsCartVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target testUniversalRobotsGetData[0m
+[ 50%] Built target testPixhawkDroneVelocityControl
+[ 50%] Built target testPololuPosition
+[ 50%] Built target testPixhawkRoverVelocityControl
+[ 51%] Built target testPololuVelocity
+[ 51%] Built target testUniversalRobotsCartPosition
+[ 51%] Built target testUniversalRobotsCartVelocity
+[ 51%] Built target testUniversalRobotsGetData
+[35m[1mConsolidate compiler generated dependencies of target testUniversalRobotsJointPosition[0m
+[35m[1mConsolidate compiler generated dependencies of target testUniversalRobotsJointVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target testRobotViper850[0m
+[35m[1mConsolidate compiler generated dependencies of target testRobotViper850-frames[0m
+[35m[1mConsolidate compiler generated dependencies of target testRobotViper650-frames[0m
+[35m[1mConsolidate compiler generated dependencies of target testRobotViper850Pose[0m
+[ 51%] Built target testUniversalRobotsJointPosition
+[35m[1mConsolidate compiler generated dependencies of target testViper650[0m
+[ 51%] Built target testUniversalRobotsJointVelocity
+[ 51%] Built target testRobotViper650-frames
+[ 52%] Built target testRobotViper850-frames
+[ 52%] Built target testRobotViper850
+[ 52%] Built target testRobotViper850Pose
+[ 52%] Built target testViper650
+[35m[1mConsolidate compiler generated dependencies of target testViper850[0m
+[35m[1mConsolidate compiler generated dependencies of target testVirtuose[0m
+[35m[1mConsolidate compiler generated dependencies of target testVirtuoseHapticBox[0m
+[35m[1mConsolidate compiler generated dependencies of target testFeature[0m
+[35m[1mConsolidate compiler generated dependencies of target testVirtuosePeriodicFunction[0m
+[35m[1mConsolidate compiler generated dependencies of target testVirtuoseJointLimits[0m
+[35m[1mConsolidate compiler generated dependencies of target testVirtuoseWithGlove[0m
+[35m[1mConsolidate compiler generated dependencies of target testVirtuoseAfma6[0m
+[35m[1mConsolidate compiler generated dependencies of target testFeatureMoment[0m
+[ 52%] Built target testViper850
+[35m[1mConsolidate compiler generated dependencies of target testFeatureSegment[0m
+[ 52%] Built target testVirtuose
+[ 52%] Built target testVirtuoseHapticBox
+[ 52%] Built target testVirtuoseJointLimits
+[ 53%] Built target testVirtuosePeriodicFunction
+[ 53%] Built target testVirtuoseAfma6
+[ 53%] Built target testVirtuoseWithGlove
+[ 53%] Built target testFeature
+[ 54%] Built target testFeatureMoment
+[ 54%] Built target testFeatureSegment
+[35m[1mConsolidate compiler generated dependencies of target testDisplacement[0m
+[35m[1mConsolidate compiler generated dependencies of target testKeyPoint-5[0m
+[35m[1mConsolidate compiler generated dependencies of target testKeyPoint-2[0m
+[35m[1mConsolidate compiler generated dependencies of target testKeyPoint-4[0m
+[35m[1mConsolidate compiler generated dependencies of target testKeyPoint-6[0m
+[35m[1mConsolidate compiler generated dependencies of target testKeyPoint-3[0m
+[35m[1mConsolidate compiler generated dependencies of target testKeyPoint-7[0m
+[35m[1mConsolidate compiler generated dependencies of target testKeyPoint[0m
+[ 55%] Built target testDisplacement
+[35m[1mConsolidate compiler generated dependencies of target testXmlConfigParserKeyPoint[0m
+[35m[1mConsolidate compiler generated dependencies of target testPoseRansac2[0m
+[ 55%] Built target testKeyPoint-5
+[ 55%] Built target testKeyPoint-2
+[ 55%] Built target testKeyPoint-3
+[ 55%] Built target testKeyPoint-4
+[ 55%] Built target testKeyPoint-6
+[ 55%] Built target testKeyPoint-7
+[ 56%] Built target testKeyPoint
+[ 56%] Built target testXmlConfigParserKeyPoint
+[ 56%] Built target testPoseRansac2
+[35m[1mConsolidate compiler generated dependencies of target testFindMatch[0m
+[35m[1mConsolidate compiler generated dependencies of target testPoseFeatures[0m
+[35m[1mConsolidate compiler generated dependencies of target testPose[0m
+[35m[1mConsolidate compiler generated dependencies of target testPoseRansac[0m
+[35m[1mConsolidate compiler generated dependencies of target perfApriltagDetection[0m
+[ 56%] Built target testFindMatch
+[35m[1mConsolidate compiler generated dependencies of target testAprilTag[0m
+[ 56%] Built target testPoseFeatures
+[ 56%] Built target testPose
+[ 56%] Built target testPoseRansac
+[ 56%] Built target perfApriltagDetection
+[ 56%] Built target testAprilTag
+[35m[1mConsolidate compiler generated dependencies of target perfGenericTracker[0m
+[35m[1mConsolidate compiler generated dependencies of target testGenericTrackerCAOParsing[0m
+[35m[1mConsolidate compiler generated dependencies of target testGenericTracker[0m
+[35m[1mConsolidate compiler generated dependencies of target testGenericTrackerDepth[0m
+[35m[1mConsolidate compiler generated dependencies of target testMbtJsonSettings[0m
+[35m[1mConsolidate compiler generated dependencies of target testGenericTrackerDeterminist[0m
+[35m[1mConsolidate compiler generated dependencies of target testMbtXmlGenericParser[0m
+[35m[1mConsolidate compiler generated dependencies of target testTukeyEstimator[0m
+[35m[1mConsolidate compiler generated dependencies of target visp_tt_mi[0m
+[ 56%] Built target perfGenericTracker
+[ 56%] Built target testGenericTracker
+[ 56%] Built target testGenericTrackerCAOParsing
+[ 56%] Built target testGenericTrackerDepth
+[ 56%] Built target testGenericTrackerDeterminist
+[ 56%] Built target testMbtJsonSettings
+[ 56%] Built target testMbtXmlGenericParser
+[ 56%] Built target testTukeyEstimator
+[ 57%] Built target visp_tt_mi
+[35m[1mConsolidate compiler generated dependencies of target visp-compute-chessboard-poses[0m
+[35m[1mConsolidate compiler generated dependencies of target visp-compute-hand-eye-calibration[0m
+[35m[1mConsolidate compiler generated dependencies of target visp-acquire-franka-calib-data[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimu4Points[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuCylinder[0m
+[35m[1mConsolidate compiler generated dependencies of target calibrate-hand-eye[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuSphere[0m
+[35m[1mConsolidate compiler generated dependencies of target calibrate-camera[0m
+[ 58%] Built target visp-compute-chessboard-poses
+[35m[1mConsolidate compiler generated dependencies of target simulateFourPoints2DCartesianCamVelocity[0m
+[ 58%] Built target visp-compute-hand-eye-calibration
+[ 58%] Built target visp-acquire-franka-calib-data
+[ 58%] Built target calibrate-hand-eye
+[ 58%] Built target servoSimu4Points
+[ 58%] Built target servoSimuCylinder
+[ 58%] Built target servoSimuSphere
+[ 58%] Built target calibrate-camera
+[ 58%] Built target simulateFourPoints2DCartesianCamVelocity
+[35m[1mConsolidate compiler generated dependencies of target simulateFourPoints2DPolarCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target simulateCircle2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target displaySequence[0m
+[35m[1mConsolidate compiler generated dependencies of target displayGDI[0m
+[35m[1mConsolidate compiler generated dependencies of target displayX[0m
+[ 58%] Built target simulateFourPoints2DPolarCamVelocity
+[35m[1mConsolidate compiler generated dependencies of target displayD3D[0m
+[35m[1mConsolidate compiler generated dependencies of target displayGTK[0m
+[ 58%] Built target simulateCircle2DCamVelocity
+[ 58%] Built target displaySequence
+[ 58%] Built target displayD3D
+[ 58%] Built target displayGDI
+[ 58%] Built target displayGTK
+[ 58%] Built target displayX
+[35m[1mConsolidate compiler generated dependencies of target displayOpenCV[0m
+[35m[1mConsolidate compiler generated dependencies of target displayXMulti[0m
+[35m[1mConsolidate compiler generated dependencies of target getRealSense2Info[0m
+[35m[1mConsolidate compiler generated dependencies of target grab1394Two[0m
+[35m[1mConsolidate compiler generated dependencies of target grab1394CMU[0m
+[35m[1mConsolidate compiler generated dependencies of target grabDisk[0m
+[35m[1mConsolidate compiler generated dependencies of target grabDirectShow[0m
+[35m[1mConsolidate compiler generated dependencies of target grabV4l2[0m
+[35m[1mConsolidate compiler generated dependencies of target grabDirectShowMulti[0m
+[ 58%] Built target getRealSense2Info
+[ 58%] Built target displayXMulti
+[ 59%] Built target displayOpenCV
+[ 59%] Built target grab1394CMU
+[ 59%] Built target grab1394Two
+[ 59%] Built target grabV4l2
+[ 59%] Built target grabDisk
+[ 59%] Built target grabDirectShow
+[ 59%] Built target grabDirectShowMulti
+[35m[1mConsolidate compiler generated dependencies of target grabRealSense2[0m
+[35m[1mConsolidate compiler generated dependencies of target grabFlyCapture[0m
+[35m[1mConsolidate compiler generated dependencies of target grabRealSense2_T265[0m
+[35m[1mConsolidate compiler generated dependencies of target readRealSenseData[0m
+[35m[1mConsolidate compiler generated dependencies of target grabV4l2MultiCpp11Thread[0m
+[ 59%] Built target grabFlyCapture
+[ 60%] Built target grabRealSense2
+[ 60%] Built target readRealSenseData
+[ 60%] Built target grabRealSense2_T265
+[ 60%] Built target grabV4l2MultiCpp11Thread
+[35m[1mConsolidate compiler generated dependencies of target saveRealSenseData[0m
+[35m[1mConsolidate compiler generated dependencies of target SickLDMRS-Acq[0m
+[35m[1mConsolidate compiler generated dependencies of target kinectAcquisition[0m
+[35m[1mConsolidate compiler generated dependencies of target ringLight[0m
+[35m[1mConsolidate compiler generated dependencies of target photometricVisualServoing[0m
+[35m[1mConsolidate compiler generated dependencies of target photometricVisualServoingWithoutVpServo[0m
+[35m[1mConsolidate compiler generated dependencies of target SickLDMRS-Process[0m
+[35m[1mConsolidate compiler generated dependencies of target homographyHartleyDLT2DObject[0m
+[ 60%] Built target saveRealSenseData
+[ 60%] Built target SickLDMRS-Acq
+[ 60%] Built target kinectAcquisition
+[ 60%] Built target ringLight
+[ 61%] Built target SickLDMRS-Process
+[ 61%] Built target photometricVisualServoingWithoutVpServo
+[ 61%] Built target homographyHartleyDLT2DObject
+[ 61%] Built target photometricVisualServoing
+[35m[1mConsolidate compiler generated dependencies of target homographyHLM3DObject[0m
+[35m[1mConsolidate compiler generated dependencies of target imageDiskRW[0m
+[35m[1mConsolidate compiler generated dependencies of target homographyHLM2DObject[0m
+[35m[1mConsolidate compiler generated dependencies of target homographyRansac2DObject[0m
+[35m[1mConsolidate compiler generated dependencies of target ukf-linear-example[0m
+[ 61%] Built target homographyHLM3DObject
+[35m[1mConsolidate compiler generated dependencies of target ukf-nonlinear-example[0m
+[ 61%] Built target homographyHLM2DObject
+[ 61%] Built target imageDiskRW
+[ 61%] Built target ukf-linear-example
+[ 62%] Built target homographyRansac2DObject
+[ 62%] Built target ukf-nonlinear-example
+[35m[1mConsolidate compiler generated dependencies of target manDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target ukf-nonlinear-complex-example[0m
+[35m[1mConsolidate compiler generated dependencies of target HelloWorld[0m
+[35m[1mConsolidate compiler generated dependencies of target manGeometricFeatures[0m
+[35m[1mConsolidate compiler generated dependencies of target manGrab1394[0m
+[35m[1mConsolidate compiler generated dependencies of target manGrabDisk[0m
+[ 62%] Built target manDisplay
+[35m[1mConsolidate compiler generated dependencies of target manGrabDirectShow[0m
+[ 62%] Built target ukf-nonlinear-complex-example
+[ 62%] Built target manGeometricFeatures
+[ 62%] Built target HelloWorld
+[ 63%] Built target manGrab1394
+[ 63%] Built target manGrabDisk
+[ 63%] Built target manGrabDirectShow
+[35m[1mConsolidate compiler generated dependencies of target manGrabV4l2[0m
+[35m[1mConsolidate compiler generated dependencies of target HelloWorldOgre[0m
+[35m[1mConsolidate compiler generated dependencies of target manServo4PointsDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target HelloWorldOgreAdvanced[0m
+[35m[1mConsolidate compiler generated dependencies of target manSimu4Dots[0m
+[35m[1mConsolidate compiler generated dependencies of target manSimu4Points[0m
+[ 63%] Built target manGrabV4l2
+[35m[1mConsolidate compiler generated dependencies of target manServoMomentsSimple[0m
+[ 63%] Built target HelloWorldOgre
+[ 63%] Built target HelloWorldOgreAdvanced
+[ 63%] Built target manServo4PointsDisplay
+[ 63%] Built target manSimu4Dots
+[ 63%] Built target manSimu4Points
+[ 63%] Built target manServoMomentsSimple
+[35m[1mConsolidate compiler generated dependencies of target quadprog_eq[0m
+[35m[1mConsolidate compiler generated dependencies of target exponentialMap[0m
+[35m[1mConsolidate compiler generated dependencies of target BSpline[0m
+[35m[1mConsolidate compiler generated dependencies of target quadprog[0m
+[35m[1mConsolidate compiler generated dependencies of target random[0m
+[35m[1mConsolidate compiler generated dependencies of target servoMomentImage[0m
+[35m[1mConsolidate compiler generated dependencies of target servoMomentPoints[0m
+[35m[1mConsolidate compiler generated dependencies of target servoMomentPolygon[0m
+[ 63%] Built target exponentialMap
+[ 63%] Built target BSpline
+[ 63%] Built target quadprog_eq
+[ 63%] Built target quadprog
+[ 63%] Built target random
+[ 63%] Built target servoMomentImage
+[35m[1mConsolidate compiler generated dependencies of target AROgre[0m
+[ 63%] Built target servoMomentPolygon
+[ 63%] Built target servoMomentPoints
+[35m[1mConsolidate compiler generated dependencies of target AROgreBasic[0m
+[35m[1mConsolidate compiler generated dependencies of target parse-argv1[0m
+[35m[1mConsolidate compiler generated dependencies of target takktile2-read-data[0m
+[35m[1mConsolidate compiler generated dependencies of target poseVirtualVS[0m
+[35m[1mConsolidate compiler generated dependencies of target parse-argv2[0m
+[35m[1mConsolidate compiler generated dependencies of target takktile2-control[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuAfma6FourPoints2DCamVelocity[0m
+[ 63%] Built target AROgre
+[ 63%] Built target AROgreBasic
+[ 63%] Built target parse-argv1
+[ 64%] Built target parse-argv2
+[ 64%] Built target poseVirtualVS
+[ 65%] Built target takktile2-read-data
+[ 65%] Built target takktile2-control
+[ 65%] Built target servoSimuAfma6FourPoints2DCamVelocity
+[35m[1mConsolidate compiler generated dependencies of target servoSimuCircle2DCamVelocityDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuCylinder2DCamVelocityDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuCircle2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimu3D_cdMc_CamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimu3D_cMcd_CamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuFourPoints2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuFourPoints2DCamVelocityDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuLine2DCamVelocityDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuPoint2DCamVelocity1[0m
+[ 66%] Built target servoSimu3D_cdMc_CamVelocity
+[ 66%] Built target servoSimu3D_cMcd_CamVelocity
+[ 66%] Built target servoSimuCircle2DCamVelocity
+[ 66%] Built target servoSimuCircle2DCamVelocityDisplay
+[ 66%] Built target servoSimuCylinder2DCamVelocityDisplay
+[ 66%] Built target servoSimuFourPoints2DCamVelocity
+[ 66%] Built target servoSimuFourPoints2DCamVelocityDisplay
+[ 66%] Built target servoSimuLine2DCamVelocityDisplay
+[ 66%] Built target servoSimuPoint2DCamVelocity1
+[35m[1mConsolidate compiler generated dependencies of target servoSimuPoint2DCamVelocity2[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuPoint2DhalfCamVelocity2[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuPoint2DCamVelocity3[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuPoint2DhalfCamVelocity1[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuPoint3DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuPoint2DhalfCamVelocity3[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuSphere2DCamVelocity[0m
+[ 66%] Built target servoSimuPoint2DCamVelocity2
+[ 66%] Built target servoSimuPoint2DhalfCamVelocity2
+[ 66%] Built target servoSimuPoint2DCamVelocity3
+[ 67%] Built target servoSimuPoint2DhalfCamVelocity1
+[ 67%] Built target servoSimuPoint2DhalfCamVelocity3
+[ 67%] Built target servoSimuPoint3DCamVelocity
+[ 67%] Built target servoSimuSphere2DCamVelocity
+[35m[1mConsolidate compiler generated dependencies of target servoSimuSphere2DCamVelocityDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuSquareLine2DCamVelocityDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuThetaUCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimu3D_cdMc_CamVelocityWithoutVpServo[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimu3D_cMcd_CamVelocityWithoutVpServo[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuCylinder2DCamVelocityDisplaySecondaryTask[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuSphere2DCamVelocityDisplaySecondaryTask[0m
+[35m[1mConsolidate compiler generated dependencies of target moveAfma4[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuFourPoints2DPolarCamVelocityDisplay[0m
+[35m[1mConsolidate compiler generated dependencies of target servoSimuViper850FourPoints2DCamVelocity[0m
+[ 67%] Built target servoSimuSphere2DCamVelocityDisplay
+[ 68%] Built target servoSimuSquareLine2DCamVelocityDisplay
+[ 68%] Built target servoSimuThetaUCamVelocity
+[ 68%] Built target servoSimu3D_cdMc_CamVelocityWithoutVpServo
+[ 68%] Built target servoSimu3D_cMcd_CamVelocityWithoutVpServo
+[ 69%] Built target servoSimuCylinder2DCamVelocityDisplaySecondaryTask
+[ 69%] Built target servoSimuSphere2DCamVelocityDisplaySecondaryTask
+[35m[1mConsolidate compiler generated dependencies of target servoAfma4Point2DArtVelocity[0m
+[ 69%] Built target servoSimuFourPoints2DPolarCamVelocityDisplay
+[ 69%] Built target servoSimuViper850FourPoints2DCamVelocity
+[ 69%] Built target moveAfma4
+[35m[1mConsolidate compiler generated dependencies of target servoAfma4Point2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma4Point2DCamVelocityKalman[0m
+[ 69%] Built target servoAfma4Point2DArtVelocity
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6AprilTagIBVS[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Ellipse2DCamVelocity[0m
+[ 69%] Built target servoAfma4Point2DCamVelocity
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6FourPoints2DArtVelocity[0m
+[ 69%] Built target servoAfma4Point2DCamVelocityKalman
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6AprilTagPBVS[0m
+[ 69%] Built target servoAfma6AprilTagIBVS
+[ 69%] Built target servoAfma6Ellipse2DCamVelocity
+[ 69%] Built target servoAfma6FourPoints2DArtVelocity
+[ 69%] Built target servoAfma6AprilTagPBVS
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Line2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Point2DArtVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Point2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6SquareLines2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Points2DCamVelocityEyeToHand[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6TwoLines2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma62DhalfCamVelocity[0m
+[ 69%] Built target servoAfma6Line2DCamVelocity
+[ 69%] Built target servoAfma6Point2DArtVelocity
+[ 70%] Built target servoAfma6Point2DCamVelocity
+[ 70%] Built target servoAfma6SquareLines2DCamVelocity
+[ 70%] Built target servoAfma6Points2DCamVelocityEyeToHand
+[ 70%] Built target servoAfma6TwoLines2DCamVelocity
+[ 70%] Built target servoAfma62DhalfCamVelocity
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Segment2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6MegaposePBVS[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Cylinder2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6FourPoints2DCamVelocityLs_des[0m
+[ 70%] Built target servoAfma6Segment2DCamVelocity
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6FourPoints2DCamVelocityLs_cur[0m
+[35m[1mConsolidate compiler generated dependencies of target servoAfma6Cylinder2DCamVelocitySecondaryTask[0m
+[35m[1mConsolidate compiler generated dependencies of target moveBiclops[0m
+[ 70%] Built target servoAfma6Cylinder2DCamVelocity
+[ 70%] Built target servoAfma6MegaposePBVS
+[ 70%] Built target servoAfma6FourPoints2DCamVelocityLs_des
+[ 70%] Built target servoAfma6FourPoints2DCamVelocityLs_cur
+[ 71%] Built target servoAfma6Cylinder2DCamVelocitySecondaryTask
+[ 71%] Built target moveBiclops
+[35m[1mConsolidate compiler generated dependencies of target servoBiclopsPoint2DArtVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target keyboardControlBebop2[0m
+[35m[1mConsolidate compiler generated dependencies of target servoBebop2[0m
+[ 71%] Built target servoBiclopsPoint2DArtVelocity
+[35m[1mConsolidate compiler generated dependencies of target frankaGripper[0m
+[35m[1mConsolidate compiler generated dependencies of target servoFlirPtuIBVS[0m
+[ 71%] Built target keyboardControlBebop2
+[35m[1mConsolidate compiler generated dependencies of target frankaMoveToPosition[0m
+[ 71%] Built target servoBebop2
+[35m[1mConsolidate compiler generated dependencies of target frankaSavePosition[0m
+[ 71%] Built target frankaGripper
+[ 71%] Built target servoFlirPtuIBVS
+[ 71%] Built target frankaMoveToPosition
+[ 71%] Built target frankaSavePosition
+[35m[1mConsolidate compiler generated dependencies of target servoFrankaIBVS[0m
+[35m[1mConsolidate compiler generated dependencies of target servoKinovaJacoCart[0m
+[35m[1mConsolidate compiler generated dependencies of target servoFrankaPBVS[0m
+[ 71%] Built target servoKinovaJacoCart
+[35m[1mConsolidate compiler generated dependencies of target servoKinovaJacoJoint[0m
+[35m[1mConsolidate compiler generated dependencies of target movePioneer[0m
+[ 72%] Built target servoFrankaIBVS
+[35m[1mConsolidate compiler generated dependencies of target servoPioneerPoint2DDepth[0m
+[ 72%] [32m[1mLinking CXX executable servoFrankaPBVS[0m
+[ 72%] Built target movePioneer
+[ 72%] Built target servoKinovaJacoJoint
+[35m[1mConsolidate compiler generated dependencies of target servoPioneerPoint2DDepthWithoutVpServo[0m
+[35m[1mConsolidate compiler generated dependencies of target servoPioneerPanSegment3D[0m
+[35m[1mConsolidate compiler generated dependencies of target sendMocapToPixhawk[0m
+[35m[1mConsolidate compiler generated dependencies of target sonarPioneerReader[0m
+[ 72%] Built target servoPioneerPoint2DDepthWithoutVpServo
+[ 73%] Built target servoPioneerPoint2DDepth
+[35m[1mConsolidate compiler generated dependencies of target servoPixhawkDroneIBVS[0m
+[ 73%] Built target servoPioneerPanSegment3D
+[35m[1mConsolidate compiler generated dependencies of target servoPololuPtuPoint2DJointVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target movePtu46[0m
+[ 74%] Built target sendMocapToPixhawk
+[ 74%] Built target sonarPioneerReader
+[ 74%] Built target servoPixhawkDroneIBVS
+[ 74%] Built target movePtu46
+[ 74%] Built target servoPololuPtuPoint2DJointVelocity
+[35m[1mConsolidate compiler generated dependencies of target servoPtu46Point2DArtVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoUniversalRobotsPBVS[0m
+[35m[1mConsolidate compiler generated dependencies of target servoUniversalRobotsIBVS[0m
+[35m[1mConsolidate compiler generated dependencies of target UniversalRobotsMoveToPosition[0m
+[35m[1mConsolidate compiler generated dependencies of target UniversalRobotsSavePosition[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper650Point2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper650FourPoints2DArtVelocityLs_cur[0m
+[ 74%] Built target servoPtu46Point2DArtVelocity
+[ 74%] Built target UniversalRobotsMoveToPosition
+[ 74%] Built target servoUniversalRobotsIBVS
+[ 74%] Built target servoUniversalRobotsPBVS
+[ 74%] Built target UniversalRobotsSavePosition
+[ 75%] Built target servoViper650Point2DCamVelocity
+[ 75%] Built target servoViper650FourPoints2DArtVelocityLs_cur
+[35m[1mConsolidate compiler generated dependencies of target servoViper650FourPoints2DCamVelocityLs_cur-SR300[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850FourPointsKinect[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper650FourPoints2DCamVelocityLs_cur[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850Point2DArtVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850Point2DCamVelocity[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850FourPoints2DArtVelocityLs_cur[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850Point2DCamVelocityKalman[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850FourPoints2DArtVelocityLs_des[0m
+[ 75%] Built target servoViper650FourPoints2DCamVelocityLs_cur-SR300
+[ 75%] Built target servoViper650FourPoints2DCamVelocityLs_cur
+[ 75%] Built target servoViper850Point2DCamVelocity
+[ 75%] Built target servoViper850FourPointsKinect
+[ 75%] Built target servoViper850Point2DArtVelocity
+[ 75%] Built target servoViper850FourPoints2DArtVelocityLs_cur
+[ 75%] Built target servoViper850FourPoints2DArtVelocityLs_des
+[ 75%] Built target servoViper850Point2DCamVelocityKalman
+[35m[1mConsolidate compiler generated dependencies of target servoViper850FourPoints2DCamVelocityLs_cur[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850Point2DArtVelocity-jointAvoidance-basic[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850Point2DArtVelocity-jointAvoidance-gpa[0m
+[35m[1mConsolidate compiler generated dependencies of target keyboard[0m
+[35m[1mConsolidate compiler generated dependencies of target servoViper850Point2DArtVelocity-jointAvoidance-large[0m
+[35m[1mConsolidate compiler generated dependencies of target parallelPort[0m
+[35m[1mConsolidate compiler generated dependencies of target plot2d[0m
+[ 75%] Built target servoViper850FourPoints2DCamVelocityLs_cur
+[ 75%] Built target servoViper850Point2DArtVelocity-jointAvoidance-gpa
+[ 75%] Built target keyboard
+[ 75%] Built target servoViper850Point2DArtVelocity-jointAvoidance-basic
+[ 76%] Built target servoViper850Point2DArtVelocity-jointAvoidance-large
+[ 76%] Built target parallelPort
+[ 76%] Built target plot2d
+[35m[1mConsolidate compiler generated dependencies of target plot3d[0m
+[ 76%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtEdgeKltTracking.dir/mbtEdgeKltTracking.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target histogram[0m
+[ 76%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtGenericTracking.dir/mbtGenericTracking.cpp.o[0m
+[ 76%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtEdgeTracking.dir/mbtEdgeTracking.cpp.o[0m
+[ 77%] Built target plot3d
+[ 77%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtGenericTracking2.dir/mbtGenericTracking2.cpp.o[0m
+[ 77%] Built target histogram
+[ 77%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtGenericTrackingDepth.dir/mbtGenericTrackingDepth.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtGenericTrackingDepthOnly.dir/mbtGenericTrackingDepthOnly.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/mbtKltTracking.dir/mbtKltTracking.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/templateTracker.dir/templateTracker.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/trackMeCircle.dir/trackMeCircle.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/trackDot2WithAutoDetection.dir/trackDot2WithAutoDetection.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/trackMeEllipse.dir/trackMeEllipse.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/trackMeLine.dir/trackMeLine.cpp.o[0m
+[ 78%] [32mBuilding CXX object example/tracking/CMakeFiles/trackDot.dir/trackDot.cpp.o[0m
+[ 79%] [32mBuilding CXX object example/tracking/CMakeFiles/trackDot2.dir/trackDot2.cpp.o[0m
+[ 79%] [32mBuilding CXX object example/tracking/CMakeFiles/trackKltOpencv.dir/trackKltOpencv.cpp.o[0m
+[ 79%] Built target servoFrankaPBVS
+[ 79%] [32mBuilding CXX object example/video/CMakeFiles/videoReader.dir/videoReader.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable trackDot2WithAutoDetection[0m
+[ 79%] [32m[1mLinking CXX executable templateTracker[0m
+[ 79%] [32m[1mLinking CXX executable trackMeLine[0m
+[ 79%] [32m[1mLinking CXX executable trackKltOpencv[0m
+[ 79%] [32m[1mLinking CXX executable trackMeCircle[0m
+[ 79%] [32m[1mLinking CXX executable trackMeEllipse[0m
+[ 79%] Built target trackDot2WithAutoDetection
+[ 79%] [32m[1mLinking CXX executable trackDot[0m
+[ 79%] [32m[1mLinking CXX executable trackDot2[0m
+[ 79%] Built target trackMeLine
+[ 79%] Built target templateTracker
+[ 79%] Built target trackKltOpencv
+[ 79%] Built target trackMeCircle
+[ 79%] Built target trackDot2
+[ 79%] Built target trackDot
+[ 79%] Built target trackMeEllipse
+[ 79%] [32m[1mLinking CXX executable videoReader[0m
+[ 79%] Built target videoReader
+[ 79%] [32m[1mLinking CXX executable mbtKltTracking[0m
+[ 79%] [32m[1mLinking CXX executable mbtEdgeTracking[0m
+[ 79%] [32m[1mLinking CXX executable mbtEdgeKltTracking[0m
+[ 79%] [32m[1mLinking CXX executable mbtGenericTracking[0m
+[ 79%] Built target mbtKltTracking
+[ 79%] Built target mbtEdgeTracking
+[ 79%] Built target mbtEdgeKltTracking
+[ 79%] Built target mbtGenericTracking
+[ 79%] [32m[1mLinking CXX executable mbtGenericTrackingDepthOnly[0m
+[ 79%] [32m[1mLinking CXX executable mbtGenericTracking2[0m
+[ 79%] [32m[1mLinking CXX executable mbtGenericTrackingDepth[0m
+[ 79%] Built target mbtGenericTrackingDepthOnly
+[ 79%] Built target mbtGenericTracking2
+[ 79%] Built target mbtGenericTrackingDepth
+[ 79%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-bebop2.dir/tutorial-grabber-bebop2.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable tutorial-grabber-bebop2[0m
+[ 79%] Built target tutorial-grabber-bebop2
+[ 79%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-CMU1394.dir/tutorial-grabber-CMU1394.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable tutorial-grabber-CMU1394[0m
+[ 79%] Built target tutorial-grabber-CMU1394
+[ 79%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-flycapture.dir/tutorial-grabber-flycapture.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable tutorial-grabber-flycapture[0m
+[ 79%] Built target tutorial-grabber-flycapture
+[ 79%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-ids-ueye.dir/tutorial-grabber-ids-ueye.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable tutorial-grabber-ids-ueye[0m
+[ 79%] Built target tutorial-grabber-ids-ueye
+[ 79%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-multiple-realsense.dir/tutorial-grabber-multiple-realsense.cpp.o[0m
+[ 79%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-opencv.dir/tutorial-grabber-opencv.cpp.o[0m
+[ 79%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-basler-pylon.dir/tutorial-grabber-basler-pylon.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable tutorial-grabber-multiple-realsense[0m
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-1394-writer.dir/tutorial-grabber-1394-writer.cpp.o[0m
+[ 80%] Built target tutorial-grabber-multiple-realsense
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-1394.dir/tutorial-grabber-1394.cpp.o[0m
+[ 80%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-qrcode-image.dir/tutorial-pose-from-qrcode-image.cpp.o[0m
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-opencv-threaded.dir/tutorial-grabber-opencv-threaded.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable tutorial-grabber-opencv[0m
+[ 80%] [32m[1mLinking CXX executable tutorial-grabber-1394-writer[0m
+[ 80%] [32m[1mLinking CXX executable tutorial-grabber-basler-pylon[0m
+[ 80%] Built target tutorial-grabber-opencv
+[ 80%] Built target tutorial-grabber-1394-writer
+[ 80%] [32m[1mLinking CXX executable tutorial-grabber-1394[0m
+[ 80%] Built target tutorial-grabber-basler-pylon
+[ 80%] Built target tutorial-grabber-1394
+[ 80%] [32m[1mLinking CXX executable tutorial-grabber-opencv-threaded[0m
+[ 80%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-qrcode-image.dir/pose_helper.cpp.o[0m
+[ 80%] Built target tutorial-grabber-opencv-threaded
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-v4l2.dir/tutorial-grabber-v4l2.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable tutorial-pose-from-qrcode-image[0m
+[ 80%] Built target tutorial-pose-from-qrcode-image
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-v4l2-threaded.dir/tutorial-grabber-v4l2-threaded.cpp.o[0m
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-structure-core.dir/tutorial-grabber-structure-core.cpp.o[0m
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-realsense-T265.dir/tutorial-grabber-realsense-T265.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable tutorial-grabber-v4l2[0m
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-realsense.dir/tutorial-grabber-realsense.cpp.o[0m
+[ 80%] Built target tutorial-grabber-v4l2
+[ 80%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-grabber-rgbd-D435-structurecore.dir/tutorial-grabber-rgbd-D435-structurecore.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable tutorial-grabber-v4l2-threaded[0m
+[ 81%] Built target tutorial-grabber-v4l2-threaded
+[ 81%] [32m[1mLinking CXX executable tutorial-grabber-structure-core[0m
+[ 81%] Built target tutorial-grabber-structure-core
+[ 81%] [32m[1mLinking CXX executable tutorial-grabber-realsense-T265[0m
+[ 81%] [32m[1mLinking CXX executable tutorial-grabber-rgbd-D435-structurecore[0m
+[ 81%] [32m[1mLinking CXX executable tutorial-grabber-realsense[0m
+[ 81%] Built target tutorial-grabber-realsense-T265
+[ 81%] Built target tutorial-grabber-realsense
+[ 81%] Built target tutorial-grabber-rgbd-D435-structurecore
+[ 81%] [32mBuilding CXX object tutorial/detection/barcode/CMakeFiles/tutorial-barcode-detector-live.dir/tutorial-barcode-detector-live.cpp.o[0m
+[ 81%] [32mBuilding CXX object tutorial/detection/dnn/CMakeFiles/tutorial-dnn-object-detection-live.dir/tutorial-dnn-object-detection-live.cpp.o[0m
+[ 81%] [32mBuilding CXX object tutorial/detection/barcode/CMakeFiles/tutorial-barcode-detector.dir/tutorial-barcode-detector.cpp.o[0m
+[ 81%] [32mBuilding CXX object tutorial/gui/pcl-visualizer/CMakeFiles/tutorial-pcl-viewer.dir/tutorial-pcl-viewer.cpp.o[0m
+[ 82%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-video-recorder.dir/tutorial-video-recorder.cpp.o[0m
+[ 82%] [32mBuilding CXX object tutorial/grabber/CMakeFiles/tutorial-video-reader.dir/tutorial-video-reader.cpp.o[0m
+[ 82%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-points-realsense-T265.dir/tutorial-pose-from-points-realsense-T265.cpp.o[0m
+[ 82%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-points-live.dir/tutorial-pose-from-points-live.cpp.o[0m
+[ 83%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-points-image.dir/tutorial-pose-from-points-image.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable tutorial-barcode-detector-live[0m
+[ 83%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-points-image.dir/pose_helper.cpp.o[0m
+[ 83%] Built target tutorial-barcode-detector-live
+[ 83%] [32m[1mLinking CXX executable tutorial-barcode-detector[0m
+[ 83%] [32m[1mLinking CXX executable tutorial-video-recorder[0m
+[ 83%] Built target tutorial-barcode-detector
+[ 83%] [32m[1mLinking CXX executable tutorial-dnn-object-detection-live[0m
+[ 83%] [32m[1mLinking CXX executable tutorial-video-reader[0m
+[ 83%] Built target tutorial-video-reader
+[ 83%] Built target tutorial-dnn-object-detection-live
+[ 83%] Built target tutorial-video-recorder
+[ 83%] [32m[1mLinking CXX executable tutorial-pose-from-points-image[0m
+[ 83%] [32mBuilding CXX object tutorial/gui/pcl-visualizer/CMakeFiles/tutorial-pcl-viewer.dir/ClassUsingPclViewer.cpp.o[0m
+[ 83%] Built target tutorial-pose-from-points-image
+[ 83%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-points-live.dir/pose_helper.cpp.o[0m
+[ 83%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-points-realsense-T265.dir/pose_helper.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable tutorial-pose-from-points-realsense-T265[0m
+[ 83%] [32m[1mLinking CXX executable tutorial-pose-from-points-live[0m
+[ 83%] Built target tutorial-pose-from-points-realsense-T265
+[ 83%] Built target tutorial-pose-from-points-live
+[ 83%] [32m[1mLinking CXX executable tutorial-pcl-viewer[0m
+[ 83%] Built target tutorial-pcl-viewer
+[ 83%] [32mBuilding CXX object tutorial/detection/object/CMakeFiles/tutorial-detection-object-mbt.dir/tutorial-detection-object-mbt.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable tutorial-detection-object-mbt[0m
+[ 83%] Built target tutorial-detection-object-mbt
+[ 83%] [32mBuilding CXX object tutorial/detection/matching/CMakeFiles/tutorial-matching-keypoint-SIFT.dir/tutorial-matching-keypoint-SIFT.cpp.o[0m
+[ 83%] [32mBuilding CXX object tutorial/detection/object/CMakeFiles/tutorial-detection-object-mbt2.dir/tutorial-detection-object-mbt2.cpp.o[0m
+[ 83%] [32mBuilding CXX object tutorial/detection/matching/CMakeFiles/tutorial-matching-keypoint-homography.dir/tutorial-matching-keypoint-homography.cpp.o[0m
+[ 83%] [32mBuilding CXX object tutorial/detection/object/CMakeFiles/tutorial-detection-object-mbt-deprecated.dir/tutorial-detection-object-mbt-deprecated.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/detection/matching/CMakeFiles/tutorial-matching-keypoint.dir/tutorial-matching-keypoint.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/detection/face/CMakeFiles/tutorial-face-detector-live.dir/tutorial-face-detector-live.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/detection/face/CMakeFiles/tutorial-face-detector-live-threaded.dir/tutorial-face-detector-live-threaded.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/detection/face/CMakeFiles/tutorial-face-detector.dir/tutorial-face-detector.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/detection/dnn/CMakeFiles/tutorial-dnn-tensorrt-live.dir/tutorial-dnn-tensorrt-live.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-dnn-tensorrt-live[0m
+[ 84%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-planar-object.dir/tutorial-pose-from-planar-object.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-homography-from-points.dir/tutorial-homography-from-points.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-face-detector-live-threaded[0m
+[ 84%] Built target tutorial-dnn-tensorrt-live
+[ 84%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-homography-from-points.dir/pose_helper.cpp.o[0m
+[ 84%] Built target tutorial-face-detector-live-threaded
+[ 84%] [32m[1mLinking CXX executable tutorial-matching-keypoint-SIFT[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-matching-keypoint[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-matching-keypoint-homography[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-face-detector-live[0m
+[ 84%] Built target tutorial-matching-keypoint-SIFT
+[ 84%] Built target tutorial-matching-keypoint
+[ 84%] Built target tutorial-matching-keypoint-homography
+[ 84%] [32m[1mLinking CXX executable tutorial-face-detector[0m
+[ 84%] Built target tutorial-face-detector-live
+[ 84%] Built target tutorial-face-detector
+[ 84%] [32m[1mLinking CXX executable tutorial-homography-from-points[0m
+[ 84%] Built target tutorial-homography-from-points
+[ 84%] [32mBuilding CXX object tutorial/computer-vision/CMakeFiles/tutorial-pose-from-planar-object.dir/pose_helper.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-detection-object-mbt-deprecated[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-detection-object-mbt2[0m
+[ 84%] Built target tutorial-detection-object-mbt-deprecated
+[ 84%] Built target tutorial-detection-object-mbt2
+[ 84%] [32m[1mLinking CXX executable tutorial-pose-from-planar-object[0m
+[ 84%] Built target tutorial-pose-from-planar-object
+[ 84%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-reader.dir/tutorial-image-reader.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-viewer.dir/tutorial-image-viewer.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-colormap.dir/tutorial-image-colormap.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-manipulation.dir/tutorial-image-manipulation.cpp.o[0m
+[ 84%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-converter.dir/tutorial-image-converter.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable tutorial-image-reader[0m
+[ 84%] [32mBuilding CXX object tutorial/detection/tag/CMakeFiles/tutorial-apriltag-detector-live-rgbd-structure-core.dir/tutorial-apriltag-detector-live-rgbd-structure-core.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/detection/tag/CMakeFiles/tutorial-apriltag-detector-live-T265-realsense.dir/tutorial-apriltag-detector-live-T265-realsense.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/detection/tag/CMakeFiles/tutorial-apriltag-detector-live-rgbd-realsense.dir/tutorial-apriltag-detector-live-rgbd-realsense.cpp.o[0m
+[ 85%] Built target tutorial-image-reader
+[ 85%] [32mBuilding CXX object tutorial/detection/object/CMakeFiles/tutorial-detection-object-mbt2-deprecated.dir/tutorial-detection-object-mbt2-deprecated.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/detection/tag/CMakeFiles/tutorial-apriltag-detector-live.dir/tutorial-apriltag-detector-live.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/detection/tag/CMakeFiles/tutorial-apriltag-detector.dir/tutorial-apriltag-detector.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/bridge/opencv/CMakeFiles/tutorial-bridge-opencv-matrix.dir/tutorial-bridge-opencv-matrix.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-undistort.dir/tutorial-undistort.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/bridge/opencv/CMakeFiles/tutorial-bridge-opencv-camera-param.dir/tutorial-bridge-opencv-camera-param.cpp.o[0m
+[ 85%] [32mBuilding CXX object tutorial/bridge/opencv/CMakeFiles/tutorial-bridge-opencv-image.dir/tutorial-bridge-opencv-image.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable tutorial-image-manipulation[0m
+[ 85%] [32mBuilding CXX object example/video/CMakeFiles/imageSequenceReader.dir/imageSequenceReader.cpp.o[0m
+[ 85%] [32mBuilding CXX object example/wireframe-simulator/CMakeFiles/wireframeSimulator.dir/wireframeSimulator.cpp.o[0m
+[ 85%] Built target tutorial-image-manipulation
+[ 85%] [32m[1mLinking CXX executable imageSequenceReader[0m
+[ 85%] [32m[1mLinking CXX executable tutorial-bridge-opencv-image[0m
+[ 85%] [32m[1mLinking CXX executable tutorial-undistort[0m
+[ 86%] [32m[1mLinking CXX executable wireframeSimulator[0m
+[ 86%] [32m[1mLinking CXX executable tutorial-bridge-opencv-camera-param[0m
+[ 86%] [32m[1mLinking CXX executable tutorial-bridge-opencv-matrix[0m
+[ 86%] Built target tutorial-bridge-opencv-image
+[ 86%] Built target tutorial-undistort
+[ 86%] Built target tutorial-bridge-opencv-camera-param
+[ 86%] [32m[1mLinking CXX executable tutorial-apriltag-detector[0m
+[ 86%] Built target tutorial-bridge-opencv-matrix
+[ 86%] Built target imageSequenceReader
+[ 86%] Built target wireframeSimulator
+[ 86%] Built target tutorial-apriltag-detector
+[ 86%] [32m[1mLinking CXX executable tutorial-apriltag-detector-live[0m
+[ 86%] Built target tutorial-apriltag-detector-live
+[ 86%] [32m[1mLinking CXX executable tutorial-apriltag-detector-live-rgbd-structure-core[0m
+[ 86%] Built target tutorial-apriltag-detector-live-rgbd-structure-core
+[ 86%] [32m[1mLinking CXX executable tutorial-image-converter[0m
+[ 86%] Built target tutorial-image-converter
+[ 86%] [32m[1mLinking CXX executable tutorial-apriltag-detector-live-T265-realsense[0m
+[ 86%] [32m[1mLinking CXX executable tutorial-image-viewer[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-detection-object-mbt2-deprecated[0m
+[ 87%] Built target tutorial-image-viewer
+[ 87%] Built target tutorial-apriltag-detector-live-T265-realsense
+[ 87%] [32m[1mLinking CXX executable tutorial-apriltag-detector-live-rgbd-realsense[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-image-colormap[0m
+[ 87%] Built target tutorial-detection-object-mbt2-deprecated
+[ 87%] Built target tutorial-image-colormap
+[ 87%] Built target tutorial-apriltag-detector-live-rgbd-realsense
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-video-manipulation.dir/tutorial-video-manipulation.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-video-manipulation[0m
+[ 87%] Built target tutorial-video-manipulation
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-canny.dir/tutorial-canny.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-canny.dir/drawingHelpers.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-canny[0m
+[ 87%] Built target tutorial-canny
+[ 87%] [32mBuilding CXX object tutorial/imgproc/autothreshold/CMakeFiles/tutorial-autothreshold.dir/tutorial-autothreshold.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-autothreshold[0m
+[ 87%] Built target tutorial-autothreshold
+[ 87%] [32mBuilding CXX object tutorial/imgproc/brightness/CMakeFiles/tutorial-brightness-adjustment.dir/tutorial-brightness-adjustment.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-brightness-adjustment[0m
+[ 87%] Built target tutorial-brightness-adjustment
+[ 87%] [32mBuilding CXX object tutorial/imgproc/connected-components/CMakeFiles/tutorial-connected-components.dir/tutorial-connected-components.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-connected-components[0m
+[ 87%] Built target tutorial-connected-components
+[ 87%] [32mBuilding CXX object tutorial/imgproc/contour/CMakeFiles/tutorial-contour.dir/tutorial-contour.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-contour[0m
+[ 87%] Built target tutorial-contour
+[ 87%] [32mBuilding CXX object tutorial/imgproc/contrast-sharpening/CMakeFiles/tutorial-contrast-sharpening.dir/tutorial-contrast-sharpening.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-contrast-sharpening[0m
+[ 87%] [32mBuilding CXX object tutorial/imgproc/count-coins/CMakeFiles/tutorial-count-coins.dir/tutorial-count-coins.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-event-keyboard.dir/tutorial-event-keyboard.cpp.o[0m
+[ 87%] Built target tutorial-contrast-sharpening
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-export-image.dir/tutorial-export-image.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-draw-frame.dir/tutorial-draw-frame.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/imgproc/flood-fill/CMakeFiles/tutorial-flood-fill.dir/tutorial-flood-fill.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-draw-text.dir/tutorial-draw-text.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-draw-cross.dir/tutorial-draw-cross.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-draw-circle.dir/tutorial-draw-circle.cpp.o[0m
+[ 87%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-draw-point.dir/tutorial-draw-point.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-draw-text[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-draw-frame[0m
+[ 87%] Built target tutorial-draw-text
+[ 87%] Built target tutorial-draw-frame
+[ 87%] [32m[1mLinking CXX executable tutorial-event-keyboard[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-draw-point[0m
+[ 87%] Built target tutorial-event-keyboard
+[ 87%] [32m[1mLinking CXX executable tutorial-export-image[0m
+[ 87%] Built target tutorial-draw-point
+[ 87%] [32m[1mLinking CXX executable tutorial-count-coins[0m
+[ 87%] [32m[1mLinking CXX executable tutorial-draw-circle[0m
+[ 87%] Built target tutorial-export-image
+[ 87%] Built target tutorial-count-coins
+[ 88%] [32m[1mLinking CXX executable tutorial-flood-fill[0m
+[ 88%] [32m[1mLinking CXX executable tutorial-draw-cross[0m
+[ 88%] Built target tutorial-draw-circle
+[ 88%] Built target tutorial-flood-fill
+[ 88%] Built target tutorial-draw-cross
+[ 88%] [32mBuilding CXX object tutorial/robot/pioneer/CMakeFiles/tutorial-simu-pioneer.dir/tutorial-simu-pioneer.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable tutorial-simu-pioneer[0m
+[ 88%] Built target tutorial-simu-pioneer
+[ 88%] [32mBuilding CXX object tutorial/robot/pioneer/CMakeFiles/tutorial-simu-pioneer-pan.dir/tutorial-simu-pioneer-pan.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable tutorial-simu-pioneer-pan[0m
+[ 88%] Built target tutorial-simu-pioneer-pan
+[ 89%] [32mBuilding CXX object tutorial/robot/pioneer/CMakeFiles/tutorial-simu-pioneer-continuous-gain-constant.dir/tutorial-simu-pioneer-continuous-gain-constant.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable tutorial-simu-pioneer-continuous-gain-constant[0m
+[ 89%] Built target tutorial-simu-pioneer-continuous-gain-constant
+[ 89%] [32mBuilding CXX object tutorial/robot/pioneer/CMakeFiles/tutorial-simu-pioneer-continuous-gain-adaptive.dir/tutorial-simu-pioneer-continuous-gain-adaptive.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable tutorial-simu-pioneer-continuous-gain-adaptive[0m
+[ 89%] Built target tutorial-simu-pioneer-continuous-gain-adaptive
+[ 89%] [32mBuilding CXX object tutorial/robot/mbot/raspberry/visp/CMakeFiles/mbot-apriltag-ibvs.dir/mbot-apriltag-ibvs.cpp.o[0m
+[ 89%] [32mBuilding CXX object tutorial/robot/mbot/raspberry/visp/CMakeFiles/mbot-apriltag-pbvs.dir/mbot-apriltag-pbvs.cpp.o[0m
+[ 89%] [32mBuilding CXX object tutorial/robot/flir-ptu/CMakeFiles/tutorial-flir-ptu-ibvs.dir/tutorial-flir-ptu-ibvs.cpp.o[0m
+[ 89%] [32mBuilding CXX object tutorial/robot/pioneer/CMakeFiles/tutorial-pioneer-robot.dir/tutorial-pioneer-robot.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable mbot-apriltag-ibvs[0m
+[ 89%] [32m[1mLinking CXX executable tutorial-pioneer-robot[0m
+[ 89%] [32mBuilding CXX object tutorial/munkres/CMakeFiles/tutorial-munkres-assignment.dir/tutorial-munkres-assignment.cpp.o[0m
+[ 90%] [32mBuilding CXX object tutorial/mean-drift/CMakeFiles/tutorial-meandrift.dir/tutorial-meandrift.cpp.o[0m
+[ 90%] [32mBuilding CXX object tutorial/misc/npz/CMakeFiles/tutorial-npz.dir/tutorial-npz.cpp.o[0m
+[ 90%] Built target mbot-apriltag-ibvs
+[ 90%] [32mBuilding CXX object tutorial/kalman/CMakeFiles/tutorial-ukf.dir/tutorial-ukf.cpp.o[0m
+[ 91%] [32mBuilding CXX object tutorial/robot/mbot/raspberry/visp/CMakeFiles/mbot-apriltag-2D-half-vs.dir/mbot-apriltag-2D-half-vs.cpp.o[0m
+[ 91%] [32mBuilding CXX object tutorial/imgproc/hough-transform/CMakeFiles/tutorial-circle-hough.dir/tutorial-circle-hough.cpp.o[0m
+[ 91%] Built target tutorial-pioneer-robot
+[ 91%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-draw-line.dir/tutorial-draw-line.cpp.o[0m
+[ 91%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-draw-rectangle.dir/tutorial-draw-rectangle.cpp.o[0m
+[ 91%] [32mBuilding CXX object tutorial/imgproc/hough-transform/CMakeFiles/tutorial-circle-hough.dir/drawingHelpers.cpp.o[0m
+[ 91%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-display-scaled-auto.dir/tutorial-image-display-scaled-auto.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable tutorial-meandrift[0m
+[ 91%] [32m[1mLinking CXX executable tutorial-draw-line[0m
+[ 92%] [32m[1mLinking CXX executable tutorial-draw-rectangle[0m
+[ 92%] [32m[1mLinking CXX executable tutorial-image-display-scaled-auto[0m
+[ 92%] Built target tutorial-draw-line
+[ 92%] Built target tutorial-image-display-scaled-auto
+[ 92%] Built target tutorial-draw-rectangle
+[ 92%] [32m[1mLinking CXX executable tutorial-flir-ptu-ibvs[0m
+[ 92%] Built target tutorial-meandrift
+[ 92%] [32m[1mLinking CXX executable mbot-apriltag-pbvs[0m
+[ 92%] [32m[1mLinking CXX executable tutorial-munkres-assignment[0m
+[ 92%] Built target tutorial-flir-ptu-ibvs
+[ 92%] Built target mbot-apriltag-pbvs
+[ 92%] Built target tutorial-munkres-assignment
+[ 92%] [32m[1mLinking CXX executable tutorial-ukf[0m
+[ 92%] [32m[1mLinking CXX executable tutorial-npz[0m
+[ 93%] [32m[1mLinking CXX executable tutorial-circle-hough[0m
+[ 93%] [32m[1mLinking CXX executable mbot-apriltag-2D-half-vs[0m
+[ 93%] Built target tutorial-npz
+[ 93%] Built target tutorial-ukf
+[ 93%] Built target tutorial-circle-hough
+[ 93%] Built target mbot-apriltag-2D-half-vs
+[ 93%] [32mBuilding CXX object tutorial/tracking/blob/CMakeFiles/tutorial-blob-tracker-live-v4l2.dir/tutorial-blob-tracker-live-v4l2.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable tutorial-blob-tracker-live-v4l2[0m
+[ 93%] Built target tutorial-blob-tracker-live-v4l2
+[ 93%] [32mBuilding CXX object tutorial/tracking/keypoint/CMakeFiles/tutorial-klt-tracker.dir/tutorial-klt-tracker.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable tutorial-klt-tracker[0m
+[ 93%] Built target tutorial-klt-tracker
+[ 93%] [32mBuilding CXX object tutorial/tracking/keypoint/CMakeFiles/tutorial-klt-tracker-live-v4l2.dir/tutorial-klt-tracker-live-v4l2.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable tutorial-klt-tracker-live-v4l2[0m
+[ 93%] Built target tutorial-klt-tracker-live-v4l2
+[ 93%] [32mBuilding CXX object tutorial/tracking/keypoint/CMakeFiles/tutorial-klt-tracker-with-reinit.dir/tutorial-klt-tracker-with-reinit.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable tutorial-klt-tracker-with-reinit[0m
+[ 93%] Built target tutorial-klt-tracker-with-reinit
+[ 93%] [32mBuilding CXX object tutorial/tracking/model-based/generic/CMakeFiles/tutorial-mb-generic-tracker.dir/tutorial-mb-generic-tracker.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker[0m
+[ 93%] Built target tutorial-mb-generic-tracker
+[ 94%] [32mBuilding CXX object tutorial/tracking/model-based/generic/CMakeFiles/tutorial-mb-generic-tracker-live.dir/tutorial-mb-generic-tracker-live.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/tracking/blob/CMakeFiles/tutorial-blob-tracker-live-firewire.dir/tutorial-blob-tracker-live-firewire.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/tracking/blob/CMakeFiles/tutorial-blob-auto-tracker.dir/tutorial-blob-auto-tracker.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/trace/CMakeFiles/tutorial-trace.dir/tutorial-trace.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/tracking/model-based/generic/CMakeFiles/tutorial-mb-generic-tracker-full.dir/tutorial-mb-generic-tracker-full.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable tutorial-trace[0m
+[ 94%] [32mBuilding CXX object tutorial/simulator/image/CMakeFiles/tutorial-image-simulator.dir/tutorial-image-simulator.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/segmentation/color/CMakeFiles/tutorial-hsv-segmentation-pcl-viewer.dir/tutorial-hsv-segmentation-pcl-viewer.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/segmentation/color/CMakeFiles/tutorial-hsv-segmentation-pcl.dir/tutorial-hsv-segmentation-pcl.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/segmentation/color/CMakeFiles/tutorial-hsv-segmentation-basic.dir/tutorial-hsv-segmentation-basic.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/segmentation/color/CMakeFiles/tutorial-hsv-segmentation.dir/tutorial-hsv-segmentation.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/segmentation/color/CMakeFiles/tutorial-hsv-range-tuner.dir/tutorial-hsv-range-tuner.cpp.o[0m
+[ 94%] Built target tutorial-trace
+[ 94%] [32mBuilding CXX object tutorial/robot/mbot/raspberry/visp/CMakeFiles/test-serial-mbot.dir/test-serial-mbot.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-display-scaled-manu.dir/tutorial-image-display-scaled-manu.cpp.o[0m
+[ 94%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-display.dir/tutorial-image-display.cpp.o[0m
+[ 95%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-image-filter.dir/tutorial-image-filter.cpp.o[0m
+[ 95%] [32mBuilding CXX object tutorial/tracking/model-based/generic/CMakeFiles/tutorial-mb-generic-tracker-save.dir/tutorial-mb-generic-tracker-save.cpp.o[0m
+[ 95%] [32mBuilding CXX object tutorial/image/CMakeFiles/tutorial-viewer.dir/tutorial-viewer.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable tutorial-blob-auto-tracker[0m
+[ 95%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-live[0m
+[ 95%] Built target tutorial-mb-generic-tracker-live
+[ 95%] [32m[1mLinking CXX executable test-serial-mbot[0m
+[ 95%] [32m[1mLinking CXX executable tutorial-image-display-scaled-manu[0m
+[ 95%] [32m[1mLinking CXX executable tutorial-image-display[0m
+[ 95%] Built target tutorial-blob-auto-tracker
+[ 95%] Built target test-serial-mbot
+[ 95%] [32m[1mLinking CXX executable tutorial-image-filter[0m
+[ 95%] Built target tutorial-image-display-scaled-manu
+[ 95%] Built target tutorial-image-display
+[ 95%] Built target tutorial-image-filter
+[ 95%] [32m[1mLinking CXX executable tutorial-image-simulator[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-blob-tracker-live-firewire[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-hsv-segmentation-pcl[0m
+[ 96%] Built target tutorial-blob-tracker-live-firewire
+[ 96%] Built target tutorial-image-simulator
+[ 96%] Built target tutorial-hsv-segmentation-pcl
+[ 96%] [32m[1mLinking CXX executable tutorial-hsv-segmentation-basic[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-viewer[0m
+[ 96%] Built target tutorial-hsv-segmentation-basic
+[ 96%] Built target tutorial-viewer
+[ 96%] [32m[1mLinking CXX executable tutorial-hsv-segmentation[0m
+[ 96%] Built target tutorial-hsv-segmentation
+[ 96%] [32m[1mLinking CXX executable tutorial-hsv-range-tuner[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-hsv-segmentation-pcl-viewer[0m
+[ 96%] Built target tutorial-hsv-range-tuner
+[ 96%] Built target tutorial-hsv-segmentation-pcl-viewer
+[ 96%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-save[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-full[0m
+[ 96%] Built target tutorial-mb-generic-tracker-save
+[ 96%] Built target tutorial-mb-generic-tracker-full
+[ 96%] [32mBuilding CXX object tutorial/tracking/model-based/old/keypoint/CMakeFiles/tutorial-mb-klt-tracker.dir/tutorial-mb-klt-tracker.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-mb-klt-tracker[0m
+[ 96%] Built target tutorial-mb-klt-tracker
+[ 96%] [32mBuilding CXX object tutorial/tracking/template-tracker/CMakeFiles/tutorial-template-tracker.dir/tutorial-template-tracker.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-template-tracker[0m
+[ 96%] Built target tutorial-template-tracker
+[ 96%] [32mBuilding CXX object tutorial/tracking/moving-edges/CMakeFiles/tutorial-me-ellipse-tracker.dir/tutorial-me-ellipse-tracker.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-me-ellipse-tracker[0m
+[ 96%] Built target tutorial-me-ellipse-tracker
+[ 96%] [32mBuilding CXX object tutorial/tracking/moving-edges/CMakeFiles/tutorial-me-line-tracker.dir/tutorial-me-line-tracker.cpp.o[0m
+[ 96%] [32mBuilding CXX object tutorial/tracking/model-based/old/hybrid/CMakeFiles/tutorial-mb-hybrid-tracker.dir/tutorial-mb-hybrid-tracker.cpp.o[0m
+[ 96%] [32mBuilding CXX object tutorial/tracking/dnn/CMakeFiles/tutorial-megapose-live-single-object-tracking.dir/tutorial-megapose-live-single-object-tracking.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable tutorial-me-line-tracker[0m
+[ 96%] [32mBuilding CXX object tutorial/tracking/model-based/old/generic/CMakeFiles/tutorial-mb-tracker.dir/tutorial-mb-tracker.cpp.o[0m
+[ 96%] [32mBuilding CXX object tutorial/tracking/model-based/old/generic/CMakeFiles/tutorial-mb-tracker-full.dir/tutorial-mb-tracker-full.cpp.o[0m
+[ 96%] Built target tutorial-me-line-tracker
+[ 97%] [32mBuilding CXX object tutorial/tracking/model-based/generic-stereo/CMakeFiles/tutorial-mb-generic-tracker-stereo.dir/tutorial-mb-generic-tracker-stereo.cpp.o[0m
+[ 97%] [32mBuilding CXX object tutorial/tracking/model-based/generic-stereo/CMakeFiles/tutorial-mb-generic-tracker-stereo-mono.dir/tutorial-mb-generic-tracker-stereo-mono.cpp.o[0m
+[ 97%] [32mBuilding CXX object tutorial/tracking/model-based/old/edges/CMakeFiles/tutorial-mb-edge-tracker.dir/tutorial-mb-edge-tracker.cpp.o[0m
+[ 97%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts.dir/tutorial-ibvs-4pts.cpp.o[0m
+[ 97%] [32mBuilding CXX object tutorial/tracking/model-based/generic-rgbd-blender/CMakeFiles/tutorial-mb-generic-tracker-rgbd-blender.dir/tutorial-mb-generic-tracker-rgbd-blender.cpp.o[0m
+[ 97%] [32mBuilding CXX object tutorial/tracking/model-based/generic-rgbd/CMakeFiles/tutorial-mb-generic-tracker-rgbd-structure-core.dir/tutorial-mb-generic-tracker-rgbd-structure-core.cpp.o[0m
+[ 97%] [32mBuilding CXX object tutorial/tracking/model-based/generic-rgbd/CMakeFiles/tutorial-mb-generic-tracker-rgbd-realsense-json.dir/tutorial-mb-generic-tracker-rgbd-realsense-json.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-rgbd-structure-core[0m
+[ 97%] [32m[1mLinking CXX executable tutorial-ibvs-4pts[0m
+[ 97%] Built target tutorial-mb-generic-tracker-rgbd-structure-core
+[ 97%] Built target tutorial-ibvs-4pts
+[ 97%] [32m[1mLinking CXX executable tutorial-mb-tracker-full[0m
+[ 97%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-stereo[0m
+[ 97%] [32m[1mLinking CXX executable tutorial-megapose-live-single-object-tracking[0m
+[ 97%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-stereo-mono[0m
+[ 97%] [32m[1mLinking CXX executable tutorial-mb-hybrid-tracker[0m
+[ 97%] Built target tutorial-mb-tracker-full
+[ 97%] Built target tutorial-mb-generic-tracker-stereo
+[ 97%] Built target tutorial-megapose-live-single-object-tracking
+[ 97%] Built target tutorial-mb-generic-tracker-stereo-mono
+[ 97%] Built target tutorial-mb-hybrid-tracker
+[ 97%] [32m[1mLinking CXX executable tutorial-mb-tracker[0m
+[ 97%] [32m[1mLinking CXX executable tutorial-mb-edge-tracker[0m
+[ 97%] Built target tutorial-mb-tracker
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-wireframe-camera.dir/tutorial-ibvs-4pts-wireframe-camera.cpp.o[0m
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-plotter-gain-adaptive.dir/tutorial-ibvs-4pts-plotter-gain-adaptive.cpp.o[0m
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-plotter.dir/tutorial-ibvs-4pts-plotter.cpp.o[0m
+[ 98%] Built target tutorial-mb-edge-tracker
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-wireframe-robot-afma6.dir/tutorial-ibvs-4pts-wireframe-robot-afma6.cpp.o[0m
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-wireframe-robot-viper.dir/tutorial-ibvs-4pts-wireframe-robot-viper.cpp.o[0m
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-ogre-tracking.dir/tutorial-ibvs-4pts-ogre-tracking.cpp.o[0m
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-ogre.dir/tutorial-ibvs-4pts-ogre.cpp.o[0m
+[ 98%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-image-tracking.dir/tutorial-ibvs-4pts-image-tracking.cpp.o[0m
+[ 98%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-rgbd-blender[0m
+[ 98%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-plotter[0m
+[100%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-display.dir/tutorial-ibvs-4pts-display.cpp.o[0m
+[100%] [32mBuilding CXX object tutorial/tracking/model-based/generic-rgbd/CMakeFiles/tutorial-mb-generic-tracker-rgbd-realsense.dir/tutorial-mb-generic-tracker-rgbd-realsense.cpp.o[0m
+[100%] [32mBuilding CXX object tutorial/tracking/model-based/generic-rgbd/CMakeFiles/tutorial-mb-generic-tracker-rgbd.dir/tutorial-mb-generic-tracker-rgbd.cpp.o[0m
+[100%] [32mBuilding CXX object tutorial/tracking/model-based/generic-apriltag/CMakeFiles/tutorial-mb-generic-tracker-apriltag-rs2.dir/tutorial-mb-generic-tracker-apriltag-rs2.cpp.o[0m
+[100%] Built target tutorial-ibvs-4pts-plotter
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-plotter-gain-adaptive[0m
+[100%] Built target tutorial-mb-generic-tracker-rgbd-blender
+[100%] Built target tutorial-ibvs-4pts-plotter-gain-adaptive
+[100%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-rgbd-realsense-json[0m
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-wireframe-robot-afma6[0m
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-wireframe-camera[0m
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-wireframe-robot-viper[0m
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-image-tracking[0m
+[100%] Built target tutorial-ibvs-4pts-wireframe-robot-afma6
+[100%] Built target tutorial-ibvs-4pts-wireframe-camera
+[100%] Built target tutorial-mb-generic-tracker-rgbd-realsense-json
+[100%] Built target tutorial-ibvs-4pts-wireframe-robot-viper
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-display[0m
+[100%] Built target tutorial-ibvs-4pts-image-tracking
+[100%] Built target tutorial-ibvs-4pts-display
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-ogre-tracking[0m
+[100%] Built target tutorial-ibvs-4pts-ogre-tracking
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-ogre[0m
+[100%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-rgbd[0m
+[100%] Built target tutorial-ibvs-4pts-ogre
+[100%] Built target tutorial-mb-generic-tracker-rgbd
+[100%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-apriltag-rs2[0m
+[100%] Built target tutorial-mb-generic-tracker-apriltag-rs2
+[100%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-plotter-continuous-gain-adaptive.dir/tutorial-ibvs-4pts-plotter-continuous-gain-adaptive.cpp.o[0m
+[100%] [32mBuilding CXX object tutorial/tracking/model-based/generic-apriltag/CMakeFiles/tutorial-mb-generic-tracker-apriltag-webcam.dir/tutorial-mb-generic-tracker-apriltag-webcam.cpp.o[0m
+[100%] [32mBuilding CXX object tutorial/visual-servo/ibvs/CMakeFiles/tutorial-ibvs-4pts-json.dir/tutorial-ibvs-4pts-json.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-rgbd-realsense[0m
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-plotter-continuous-gain-adaptive[0m
+[100%] Built target tutorial-ibvs-4pts-plotter-continuous-gain-adaptive
+[100%] [32mBuilding CXX object tutorial/tracking/model-based/generic/CMakeFiles/tutorial-mb-generic-tracker-read.dir/tutorial-mb-generic-tracker-read.cpp.o[0m
+[100%] Built target tutorial-mb-generic-tracker-rgbd-realsense
+[100%] [32m[1mLinking CXX executable tutorial-ibvs-4pts-json[0m
+[100%] Built target tutorial-ibvs-4pts-json
+[100%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-read[0m
+[100%] Built target tutorial-mb-generic-tracker-read
+[100%] [32m[1mLinking CXX executable tutorial-mb-generic-tracker-apriltag-webcam[0m
+[100%] Built target tutorial-mb-generic-tracker-apriltag-webcam
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/visp/data/ogre-simulator/plugins.cfg
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/visp/data/ogre-simulator/plugins_d.cfg
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/resources.cfg
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/models
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/models/robot.skeleton
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/models/robot.mesh
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/textures
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/textures/r2skin.jpg
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/textures/grass_1024.jpg
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/scripts
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/ogre-simulator/media/materials/scripts/Examples.material
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/man/man1/visp-config.1.gz
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpConfig.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_modules.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/visp_modules.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vp1394CMUGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vp1394TwoGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAR.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAROgre.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAdaptiveGain.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAfma4.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpAfma6.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpArray2D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBSpline.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBasicFeature.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBasicKeyPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpBiclops.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCPUFeatures.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCalibration.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCalibrationException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCameraParameters.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCannyEdgeDetection.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCircle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCircleHoughTransform.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpClient.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColorBlindFriendlyPalette.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColorDepthConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpColormap.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpComedi.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpConfig.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpContours.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpConvert.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpCylinder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpD3DRenderer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDebug.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorAprilTag.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorBase.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorDNNOpenCV.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorDataMatrixCode.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorFace.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDetectorQRCode.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowDevice.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowGrabberImpl.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDirectShowSampleGrabberI.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDiskGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayD3D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayFactory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayGDI.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayGTK.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayOpenCV.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayPCL.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayWin32.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDisplayX.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDot.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpDot2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpEigenConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpEndian.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpExponentialMap.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureBuilder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureDepth.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureEllipse.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureLuminance.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMoment.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentAlpha.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentArea.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentAreaNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentBasic.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentCInvariant.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentCentered.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentCommon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentDatabase.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentGravityCenter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureMomentGravityCenterNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeaturePoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeaturePoint3D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeaturePointPolar.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureSegment.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureThetaU.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureTranslation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFeatureVanishingPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFlyCaptureGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFont.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTorqueAtiNetFTSensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTorqueAtiSensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTorqueIitSensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForceTwistMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpForwardProjection.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFrameGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpFrameGrabberException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGDIRenderer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGEMM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGaussRand.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGaussianFilter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpGenericFeature.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHandEyeCalibration.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHinkley.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHistogram.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHistogramPeak.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHistogramValey.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHomogeneousMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpHomography.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImage.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageCircle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageConvert.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageDraw.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageFilter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageIo.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageMorphology.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImagePoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageQueue.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageStorageWorker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImageTools.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpImgproc.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpIoException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpIoTools.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpJsonArgumentParser.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpJsonParsing.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKalmanFilter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKeyPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKeyboard.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKinect.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpKltOpencv.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLaserScan.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLaserScanner.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLinProg.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpLinearKalmanFilterInstantiation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpList.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMath.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMatrixException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbDepthDenseTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbDepthNormalTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbEdgeKltTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbEdgeTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbGenericTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbHiddenFaces.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbKltTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbScanLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceCircle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceCylinder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceKltCylinder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceKltPoints.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtDistanceLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtFaceDepthDense.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtFaceDepthNormal.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtMeEllipse.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtMeLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtPolygon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtTukeyEstimator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMbtXmlGenericParser.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMe.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeEllipse.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeNurbs.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeSite.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMegaPose.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMegaPoseTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMeterPixelConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMocap.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMocapQualisys.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMocapVicon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMoment.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentAlpha.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentArea.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentAreaNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentBasic.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentCInvariant.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentCentered.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentCommon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentDatabase.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentGravityCenter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentGravityCenterNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMomentObject.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMouseButton.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMunkres.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpMutex.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNetwork.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNoise.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNullptrEmulated.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpNurbs.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpOccipitalStructure.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpParallelPort.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpParallelPortException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpParseArgv.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPclViewer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPioneer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPioneerPan.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPixelMeterConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlane.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlaneEstimation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlot.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlotCurve.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPlotGraph.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPololu.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPolygon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPolygon3D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPose.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoseException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoseFeatures.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPoseVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpProjectionDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPtu46.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPylonFactory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpPylonGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQbDevice.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQbSoftHand.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQuadProg.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpQuaternionVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRGBa.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRGBf.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRansac.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRealSense.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRealSense2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRect.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRectOriented.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpReflexTakktile2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRequest.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRingLight.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobot.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotAfma4.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotAfma6.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotBebop2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotBiclops.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotCamera.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotFlirPtu.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotFranka.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotKinova.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotMavsdk.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotPioneer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotPololuPtu.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotPtu46.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotTemplate.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotUniversalRobots.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotViper650.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotViper850.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobotWireFrameSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRobust.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRotationMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRotationVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRowVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRxyzVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRzyxVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpRzyzVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpScale.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpScanPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSerial.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServo.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServoData.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServoDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServoException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpServolens.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSickLDMRS.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorAfma6.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorCamera.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorPioneer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorPioneerPan.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSimulatorViper850.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSphere.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestAbstract.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestEWMA.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestHinkley.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestMeanAdjustedCUSUM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestShewhart.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpStatisticalTestSigma.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSubColVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSubMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpSubRowVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerBSpline.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerHeader.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMI.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIBSpline.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIESM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIForwardAdditional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIForwardCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerMIInverseCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSD.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDESM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDForwardAdditional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDForwardCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerSSDInverseCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerTriangle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarp.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpAffine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpHomography.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpHomographySL3.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpRT.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpSRT.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerWarpTranslation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZNCC.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZNCCForwardAdditional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZNCCInverseCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTemplateTrackerZone.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpThetaUVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpThread.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTime.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTrackingException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTranslationVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpTriangle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUDPClient.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUDPServer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUKSigmaDrawerAbstract.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUKSigmaDrawerMerwe.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUeyeGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUniRand.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUnicycle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpUnscentedKalman.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpV4l2Grabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVelocityTwistMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVideoReader.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVideoWriter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViewer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViper.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViper650.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpViper850.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpVirtuose.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWin32API.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWin32Renderer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWin32Window.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWireFrameSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpWireFrameSimulatorTypes.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlConfigParserKeyPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParser.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParserCamera.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParserHomogeneousMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp/vpXmlParserRectOriented.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPModules.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPModules-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/cmake/visp/VISPUse.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-config
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/pkgconfig/visp.pc
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_core.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_core.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_core.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_core.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpArray2D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpBSpline.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCPUFeatures.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCameraParameters.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCannyEdgeDetection.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCircle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpClient.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColorDepthConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpColormap.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpConvert.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpCylinder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpDebug.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpDisplayException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpEigenConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpEndian.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpExponentialMap.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFeatureDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFont.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpForceTwistMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpForwardProjection.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFrameGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpFrameGrabberException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpGEMM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpGaussRand.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpGaussianFilter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHinkley.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHistogram.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHistogramPeak.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHistogramValey.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpHomogeneousMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImage.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageCircle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageConvert.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageDraw.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageFilter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageMorphology.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImagePoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpImageTools.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpIoException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpIoTools.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpJsonParsing.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpKalmanFilter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpLinProg.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpLinearKalmanFilterInstantiation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpList.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMath.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMatrixException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMeterPixelConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMoment.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentAlpha.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentArea.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentAreaNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentBasic.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentCInvariant.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentCentered.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentCommon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentDatabase.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentGravityCenter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentGravityCenterNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMomentObject.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMouseButton.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMunkres.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpMutex.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpNetwork.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpNoise.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpNullptrEmulated.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPixelMeterConversion.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPlane.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPolygon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPolygon3D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpPoseVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpQuadProg.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpQuaternionVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRGBa.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRGBf.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRansac.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRect.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRectOriented.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRequest.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRobust.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRotationMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRotationVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRowVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRxyzVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRzyxVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpRzyzVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpScale.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSerial.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpServer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSphere.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestAbstract.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestEWMA.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestHinkley.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestMeanAdjustedCUSUM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestShewhart.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpStatisticalTestSigma.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSubColVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSubMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpSubRowVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpThetaUVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpThread.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTime.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTrackingException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTranslationVector.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpTriangle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUDPClient.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUDPServer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUKSigmaDrawerAbstract.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUKSigmaDrawerMerwe.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUniRand.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpUnscentedKalman.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpVelocityTwistMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParser.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParserCamera.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParserHomogeneousMatrix.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpXmlParserRectOriented.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/core/vpConfig.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_modules.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/font/Rubik-Regular.ttf
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_dnn_tracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_dnn_tracker.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_dnn_tracker.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_dnn_tracker.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_dnn_tracker.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/dnn_tracker/vpMegaPose.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/dnn_tracker/vpMegaPoseTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_gui.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_gui.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_gui.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_gui.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_gui.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpColorBlindFriendlyPalette.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpD3DRenderer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayD3D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayFactory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayGDI.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayGTK.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayOpenCV.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayPCL.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayWin32.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpDisplayX.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpGDIRenderer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPclViewer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPlot.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPlotCurve.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpPlotGraph.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpProjectionDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpWin32API.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpWin32Renderer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/gui/vpWin32Window.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_imgproc.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_imgproc.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_imgproc.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_imgproc.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_imgproc.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/imgproc/vpCircleHoughTransform.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/imgproc/vpContours.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/imgproc/vpImgproc.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_io.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_io.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_io.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_io.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_io.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpDiskGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpImageIo.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpImageQueue.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpImageStorageWorker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpJsonArgumentParser.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpKeyboard.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpParallelPort.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpParallelPortException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpParseArgv.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpVideoReader.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/io/vpVideoWriter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_klt.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_klt.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_klt.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_klt.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_klt.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/klt/vpKltOpencv.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_me.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_me.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_me.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_me.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_me.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMe.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeEllipse.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeNurbs.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeSite.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpMeTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/me/vpNurbs.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_sensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_sensor.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_sensor.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_sensor.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_sensor.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vp1394CMUGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vp1394TwoGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpComedi.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowDevice.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowGrabberImpl.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpDirectShowSampleGrabberI.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpFlyCaptureGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpForceTorqueAtiNetFTSensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpForceTorqueAtiSensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpForceTorqueIitSensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpKinect.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpLaserScan.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpLaserScanner.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpMocap.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpMocapQualisys.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpMocapVicon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpOccipitalStructure.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpPylonFactory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpPylonGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpRealSense.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpRealSense2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpScanPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpSickLDMRS.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpUeyeGrabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/sensor/vpV4l2Grabber.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_ar.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_ar.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_ar.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_ar.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_ar.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpAR.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpAROgre.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpSimulatorException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/ar/vpViewer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_blob.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_blob.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_blob.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_blob.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_blob.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/blob/vpDot.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/blob/vpDot2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm1.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm2.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm3.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_arm4.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_gate.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_tool_ccmop.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_tool_gripper.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/afma6_tool_vacuum.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm1.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm2.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm3.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm4.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm5.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/robot-simulator/viper850_arm6.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/3pts.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/camera.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle_sq2.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circles2.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cube.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cylinder.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/diamond.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/line.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/pipe.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plan.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_6cm.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_8cm.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point_cloud.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/rectangle.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/road.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/sphere.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/square10cm.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/tool.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/trapezoid.bnd
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/3pts.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/camera.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circle_sq2.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/circles2.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cube.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/cylinder.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/diamond.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/line.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/pipe.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plan.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_6cm.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/plate_8cm.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/point_cloud.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/rectangle.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/road.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/sphere.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/square10cm.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/tool.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/share/visp-3.6.1/data/wireframe-simulator/trapezoid.sld
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_robot.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_robot.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_robot.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_robot.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_robot.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpAfma4.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpAfma6.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpBiclops.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpImageSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPioneer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPioneerPan.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPololu.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpPtu46.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpQbDevice.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpQbSoftHand.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpReflexTakktile2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRingLight.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobot.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotAfma4.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotAfma6.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotBebop2.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotBiclops.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotCamera.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotFlirPtu.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotFranka.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotKinova.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotMavsdk.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotPioneer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotPololuPtu.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotPtu46.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotTemplate.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotUniversalRobots.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotViper650.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotViper850.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpRobotWireFrameSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpServolens.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorAfma6.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorCamera.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorPioneer.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorPioneerPan.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpSimulatorViper850.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpUnicycle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpViper.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpViper650.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpViper850.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpVirtuose.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpWireFrameSimulator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/robot/vpWireFrameSimulatorTypes.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_visual_features.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_visual_features.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_visual_features.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_visual_features.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_visual_features.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpBasicFeature.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureBuilder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureDepth.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureEllipse.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureLuminance.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMoment.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentAlpha.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentArea.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentAreaNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentBasic.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentCInvariant.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentCentered.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentCommon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentDatabase.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentGravityCenter.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureMomentGravityCenterNormalized.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeaturePoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeaturePoint3D.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeaturePointPolar.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureSegment.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureThetaU.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureTranslation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpFeatureVanishingPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visual_features/vpGenericFeature.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_vs.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vs.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vs.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vs.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vs.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpAdaptiveGain.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServo.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServoData.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServoDisplay.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vs/vpServoException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_vision.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vision.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vision.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vision.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_vision.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpBasicKeyPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpCalibration.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpCalibrationException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpHandEyeCalibration.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpHomography.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpKeyPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPlaneEstimation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPose.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPoseException.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpPoseFeatures.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/vision/vpXmlConfigParserKeyPoint.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_detection.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_detection.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_detection.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_detection.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_detection.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorAprilTag.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorBase.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorDNNOpenCV.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorDataMatrixCode.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorFace.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/detection/vpDetectorQRCode.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_mbt.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_mbt.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_mbt.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_mbt.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_mbt.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbDepthDenseTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbDepthNormalTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbEdgeKltTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbEdgeTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbGenericTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbHiddenFaces.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbKltTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbScanLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceCircle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceCylinder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceKltCylinder.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceKltPoints.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtDistanceLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtFaceDepthDense.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtFaceDepthNormal.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtMeEllipse.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtMeLine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtPolygon.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtTukeyEstimator.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/mbt/vpMbtXmlGenericParser.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_tt.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTracker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerBSpline.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerHeader.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSD.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDESM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDForwardAdditional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDForwardCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerSSDInverseCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerTriangle.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarp.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpAffine.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpHomography.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpHomographySL3.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpRT.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpSRT.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerWarpTranslation.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZNCC.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZNCCForwardAdditional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZNCCInverseCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt/vpTemplateTrackerZone.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/visp_tt_mi.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt_mi.so.3.6.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt_mi.so.3.6
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt_mi.so.3.6.1" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/lib/libvisp_tt_mi.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMI.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIBSpline.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIESM.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIForwardAdditional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIForwardCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/include/visp3/tt_mi/vpTemplateTrackerMIInverseCompositional.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-compute-chessboard-poses
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/bin/visp-compute-chessboard-poses" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-compute-hand-eye-calibration
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/bin/visp-compute-hand-eye-calibration" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"
+-- Installing: /home/adminlab/franka_ros2_ws/install/VISP/bin/visp-acquire-franka-calib-data
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/VISP/bin/visp-acquire-franka-calib-data" to "/home/adminlab/franka_ros2_ws/install/VISP/lib:/usr/local/lib"

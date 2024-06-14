@@ -1,0 +1,39 @@
+[  3%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir/src/pilz_move_group.cpp.o[0m
+[  7%] [32mBuilding CXX object doc/examples/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o[0m
+[ 11%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/minimal_mtc_tutorial.dir/src/minimal.cpp.o[0m
+[ 15%] [32mBuilding CXX object doc/examples/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[ 23%] [32mBuilding CXX object doc/examples/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o[0m
+[ 23%] [32mBuilding CXX object doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o[0m
+[ 26%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/mtc_tutorial.dir/src/mtc_node.cpp.o[0m
+[ 30%] [32mBuilding CXX object doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o[0m
+[ 34%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_mtc.dir/src/pilz_mtc.cpp.o[0m
+[ 38%] [32mBuilding CXX object doc/examples/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[ 42%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[ 46%] [32mBuilding CXX object doc/how_to_guides/using_ompl_constrained_planning/CMakeFiles/ompl_constrained_planning.dir/src/ompl_constrained_planning_tutorial.cpp.o[0m
+[ 50%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[ 53%] Built target servo_keyboard_input
+[ 57%] [32m[1mLinking CXX executable robot_model_and_robot_state_tutorial[0m
+[ 61%] [32m[1mLinking CXX executable pilz_mtc[0m
+[ 65%] [32m[1mLinking CXX executable planning_scene_ros_api_tutorial[0m
+[ 65%] Built target robot_model_and_robot_state_tutorial
+[ 65%] Built target pilz_mtc
+[ 65%] Built target planning_scene_ros_api_tutorial
+[ 69%] [32m[1mLinking CXX executable planning_scene_tutorial[0m
+[ 73%] [32m[1mLinking CXX executable minimal_mtc_tutorial[0m
+[ 76%] [32m[1mLinking CXX executable moveit_cpp_tutorial[0m
+[ 76%] Built target minimal_mtc_tutorial
+[ 80%] [32m[1mLinking CXX executable mtc_tutorial[0m
+[ 80%] Built target planning_scene_tutorial
+[ 80%] Built target mtc_tutorial
+[ 84%] [32m[1mLinking CXX executable pilz_move_group[0m
+[ 88%] [32m[1mLinking CXX executable ompl_constrained_planning[0m
+[ 92%] [32m[1mLinking CXX executable move_group_interface_tutorial[0m
+[ 92%] Built target moveit_cpp_tutorial
+[ 96%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[ 96%] Built target ompl_constrained_planning
+[ 96%] Built target pilz_move_group
+[ 96%] Built target move_group_interface_tutorial
+[100%] [32m[1mLinking CXX executable motion_planning_api_tutorial[0m
+[100%] Built target servo_cpp_interface_demo
+[100%] Built target motion_planning_api_tutorial

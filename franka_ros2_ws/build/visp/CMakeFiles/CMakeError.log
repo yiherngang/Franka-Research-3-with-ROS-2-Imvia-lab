@@ -1,0 +1,323 @@
+Performing C++ SOURCE FILE Test HAVE_FUNC__ISNAN failed with the following output:
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c26ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c26ad.dir/build.make CMakeFiles/cmTC_c26ad.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c26ad.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_FUNC__ISNAN  -std=c++17 -o CMakeFiles/cmTC_c26ad.dir/src.cxx.o -c /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx:5:11: error: ‘_isnan’ was not declared in this scope
+    5 |     (void)_isnan(1.0);
+      |           ^~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_c26ad.dir/build.make:78: CMakeFiles/cmTC_c26ad.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c26ad/fast] Error 2
+
+
+Source file was:
+
+#include <float.h>
+int main(int argc, char ** argv)
+{
+    (void)_isnan(1.0);
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_FUNC__FINITE failed with the following output:
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7f0de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f0de.dir/build.make CMakeFiles/cmTC_7f0de.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f0de.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_FUNC__FINITE  -std=c++17 -o CMakeFiles/cmTC_7f0de.dir/src.cxx.o -c /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx:5:11: error: ‘_finite’ was not declared in this scope
+    5 |     (void)_finite(1.0);
+      |           ^~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_7f0de.dir/build.make:78: CMakeFiles/cmTC_7f0de.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7f0de/fast] Error 2
+
+
+Source file was:
+
+#include <float.h>
+int main(int argc, char ** argv)
+{
+    (void)_finite(1.0);
+    return 0;
+}
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' /wd26812'
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36e1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36e1d.dir/build.make CMakeFiles/cmTC_36e1d.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36e1d.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC  -O3 -DNDEBUG    /wd26812 -std=c++17 -o CMakeFiles/cmTC_36e1d.dir/src.cxx.o -c /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx
+c++: warning: /wd26812: linker input file unused because linking not done
+c++: error: /wd26812: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_36e1d.dir/build.make:78: CMakeFiles/cmTC_36e1d.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_36e1d.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_36e1d/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' /wd4244'
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b394d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b394d.dir/build.make CMakeFiles/cmTC_b394d.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b394d.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC  -O3 -DNDEBUG    /wd4244 -std=c++17 -o CMakeFiles/cmTC_b394d.dir/src.cxx.o -c /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx
+c++: warning: /wd4244: linker input file unused because linking not done
+c++: error: /wd4244: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_b394d.dir/build.make:78: CMakeFiles/cmTC_b394d.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_b394d.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b394d/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' /wd4267'
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23ce7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23ce7.dir/build.make CMakeFiles/cmTC_23ce7.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23ce7.dir/src.cxx.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -fopenmp -fPIC -fopenmp -fPIC  -O3 -DNDEBUG    /wd4267 -o CMakeFiles/cmTC_23ce7.dir/src.cxx.o -c /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx
+c++: warning: /wd4267: linker input file unused because linking not done
+c++: error: /wd4267: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_23ce7.dir/build.make:78: CMakeFiles/cmTC_23ce7.dir/src.cxx.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_23ce7.dir/src.cxx.o'
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_23ce7/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9be4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9be4.dir/build.make CMakeFiles/cmTC_c9be4.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9be4.dir/cpu_sse41.cpp.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC  -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_c9be4.dir/cpu_sse41.cpp.o -c /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp: In function ‘int main()’:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp:4:13: warning: unused variable ‘c’ [-Wunused-variable]
+    4 |     __m128i c = _mm_packus_epi32(a, b);
+      |             ^
+In file included from /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp:1:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h:559:1: error: inlining failed in call to ‘always_inline’ ‘__m128i _mm_packus_epi32(__m128i, __m128i)’: target specific option mismatch
+  559 | _mm_packus_epi32 (__m128i __X, __m128i __Y)
+      | ^~~~~~~~~~~~~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp:4:33: note: called from here
+    4 |     __m128i c = _mm_packus_epi32(a, b);
+      |                 ~~~~~~~~~~~~~~~~^~~~~~
+In file included from /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp:1:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h:559:1: error: inlining failed in call to ‘always_inline’ ‘__m128i _mm_packus_epi32(__m128i, __m128i)’: target specific option mismatch
+  559 | _mm_packus_epi32 (__m128i __X, __m128i __Y)
+      | ^~~~~~~~~~~~~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse41.cpp:4:33: note: called from here
+    4 |     __m128i c = _mm_packus_epi32(a, b);
+      |                 ~~~~~~~~~~~~~~~~^~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_c9be4.dir/build.make:78: CMakeFiles/cmTC_c9be4.dir/cpu_sse41.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c9be4/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse42.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20d9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20d9a.dir/build.make CMakeFiles/cmTC_20d9a.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20d9a.dir/cpu_sse42.cpp.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC  -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_20d9a.dir/cpu_sse42.cpp.o -c /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse42.cpp
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse42.cpp: In function ‘int main()’:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse42.cpp:5:18: warning: unused variable ‘res’ [-Wunused-variable]
+    5 |     unsigned int res = _mm_crc32_u8(1, 2);
+      |                  ^~~
+In file included from /usr/lib/gcc/x86_64-linux-gnu/11/include/nmmintrin.h:31,
+                 from /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse42.cpp:1:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h:828:1: error: inlining failed in call to ‘always_inline’ ‘unsigned int _mm_crc32_u8(unsigned int, unsigned char)’: target specific option mismatch
+  828 | _mm_crc32_u8 (unsigned int __C, unsigned char __V)
+      | ^~~~~~~~~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_sse42.cpp:5:36: note: called from here
+    5 |     unsigned int res = _mm_crc32_u8(1, 2);
+      |                        ~~~~~~~~~~~~^~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_20d9a.dir/build.make:78: CMakeFiles/cmTC_20d9a.dir/cpu_sse42.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_20d9a/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5014c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5014c.dir/build.make CMakeFiles/cmTC_5014c.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5014c.dir/cpu_avx.cpp.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC  -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_5014c.dir/cpu_avx.cpp.o -c /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx.cpp
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx.cpp:2:2: error: #error "__AVX__ define is missing"
+    2 | #error "__AVX__ define is missing"
+      |  ^~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx.cpp: In function ‘void test()’:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx.cpp:7:12: warning: unused variable ‘a’ [-Wunused-variable]
+    7 |     __m256 a = _mm256_set1_ps(0.0f);
+      |            ^
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx.cpp:7:35: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+    7 |     __m256 a = _mm256_set1_ps(0.0f);
+      |                                   ^
+gmake[1]: *** [CMakeFiles/cmTC_5014c.dir/build.make:78: CMakeFiles/cmTC_5014c.dir/cpu_avx.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5014c/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx2.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_229c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_229c9.dir/build.make CMakeFiles/cmTC_229c9.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_229c9.dir/cpu_avx2.cpp.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC  -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_229c9.dir/cpu_avx2.cpp.o -c /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx2.cpp
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx2.cpp:2:2: error: #error "__AVX2__ define is missing"
+    2 | #error "__AVX2__ define is missing"
+      |  ^~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx2.cpp: In function ‘void test()’:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx2.cpp:9:13: warning: unused variable ‘b’ [-Wunused-variable]
+    9 |     __m256i b = _mm256_bslli_epi128(a, 1);  // available in GCC 4.9.3+
+      |             ^
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_avx2.cpp:8:57: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+    8 |     __m256i a = _mm256_loadu_si256((const __m256i *)data);
+      |                                                         ^
+gmake[1]: *** [CMakeFiles/cmTC_229c9.dir/build.make:78: CMakeFiles/cmTC_229c9.dir/cpu_avx2.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_229c9/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_15908/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_15908.dir/build.make CMakeFiles/cmTC_15908.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15908.dir/cpu_neon.cpp.o
+/usr/bin/c++   -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC  -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_15908.dir/cpu_neon.cpp.o -c /home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:25:2: error: #error "NEON is not supported"
+   25 | #error "NEON is not supported"
+      |  ^~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:14:30: error: ‘uint8x16_t’ does not name a type
+   14 | void test_aliased_type(const uint8x16_t& a) { }
+      |                              ^~~~~~~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp: In function ‘void test_aliased_type(const int&)’:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:14:42: warning: unused parameter ‘a’ [-Wunused-parameter]
+   14 | void test_aliased_type(const uint8x16_t& a) { }
+      |                        ~~~~~~~~~~~~~~~~~~^
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp: At global scope:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:15:30: error: ‘int8x16_t’ does not name a type
+   15 | void test_aliased_type(const int8x16_t& a) { }
+      |                              ^~~~~~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:15:6: error: redefinition of ‘void test_aliased_type(const int&)’
+   15 | void test_aliased_type(const int8x16_t& a) { }
+      |      ^~~~~~~~~~~~~~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:14:6: note: ‘void test_aliased_type(const int&)’ previously defined here
+   14 | void test_aliased_type(const uint8x16_t& a) { }
+      |      ^~~~~~~~~~~~~~~~~
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp: In function ‘void test_aliased_type(const int&)’:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:15:41: warning: unused parameter ‘a’ [-Wunused-parameter]
+   15 | void test_aliased_type(const int8x16_t& a) { }
+      |                        ~~~~~~~~~~~~~~~~~^
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp: In function ‘int main()’:
+/home/adminlab/franka_ros2_ws/src/visp/cmake/checks/cpu_neon.cpp:30:18: error: ‘test’ was not declared in this scope
+   30 |   printf("%d\n", test());
+      |                  ^~~~
+gmake[1]: *** [CMakeFiles/cmTC_15908.dir/build.make:78: CMakeFiles/cmTC_15908.dir/cpu_neon.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_15908/fast] Error 2
+
+
+===== END =====
+
+Performing C++ SOURCE FILE Test HAVE_FUNC__ISNAN failed with the following output:
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_becc9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_becc9.dir/build.make CMakeFiles/cmTC_becc9.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_becc9.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_FUNC__ISNAN  -std=c++17 -o CMakeFiles/cmTC_becc9.dir/src.cxx.o -c /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx:5:11: error: ‘_isnan’ was not declared in this scope
+    5 |     (void)_isnan(1.0);
+      |           ^~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_becc9.dir/build.make:78: CMakeFiles/cmTC_becc9.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_becc9/fast] Error 2
+
+
+Source file was:
+
+#include <float.h>
+int main(int argc, char ** argv)
+{
+    (void)_isnan(1.0);
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_FUNC__FINITE failed with the following output:
+Change Dir: /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66820/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66820.dir/build.make CMakeFiles/cmTC_66820.dir/build
+gmake[1]: Entering directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66820.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_FUNC__FINITE  -std=c++17 -o CMakeFiles/cmTC_66820.dir/src.cxx.o -c /home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp/src.cxx:5:11: error: ‘_finite’ was not declared in this scope
+    5 |     (void)_finite(1.0);
+      |           ^~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_66820.dir/build.make:78: CMakeFiles/cmTC_66820.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/adminlab/franka_ros2_ws/build/visp/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_66820/fast] Error 2
+
+
+Source file was:
+
+#include <float.h>
+int main(int argc, char ** argv)
+{
+    (void)_finite(1.0);
+    return 0;
+}
+

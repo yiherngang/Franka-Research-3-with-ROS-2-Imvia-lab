@@ -1,0 +1,2 @@
+share/moveit_ros_perception/pointcloud_octomap_updater_plugin_description.xml
+share/moveit_ros_perception/depth_image_octomap_updater_plugin_description.xml

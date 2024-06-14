@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/Constraints.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/JointConstraint.idl"
+#include "moveit_msgs/msg/OrientationConstraint.idl"
+#include "moveit_msgs/msg/PositionConstraint.idl"
+#include "moveit_msgs/msg/VisibilityConstraint.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains a list of motion planning constraints." "\n"
+      "All constraints must be satisfied for a goal to be considered valid")
+    struct Constraints {
+      string name;
+
+      sequence<moveit_msgs::msg::JointConstraint> joint_constraints;
+
+      sequence<moveit_msgs::msg::PositionConstraint> position_constraints;
+
+      sequence<moveit_msgs::msg::OrientationConstraint> orientation_constraints;
+
+      sequence<moveit_msgs::msg::VisibilityConstraint> visibility_constraints;
+    };
+  };
+};

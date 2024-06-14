@@ -1,0 +1,23 @@
+[0.177s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_common -- -j16 -l16
+[0.517s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_common -- -j16 -l16
+[0.547s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_common
+[0.555s] -- Install configuration: ""
+[0.556s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.556s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.556s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.556s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.556s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/environment/path.sh
+[0.556s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.557s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.558s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.558s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/package.xml
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake
+[0.559s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.577s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_common

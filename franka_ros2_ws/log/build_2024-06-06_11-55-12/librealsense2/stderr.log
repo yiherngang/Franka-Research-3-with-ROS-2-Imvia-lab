@@ -1,0 +1,10 @@
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[31mCMake Error at tools/realsense-viewer/cmake_install.cmake:74 (file):
+  file INSTALL cannot set permissions on
+  "/home/adminlab/Documents/librealsense2/presets": Operation not permitted.
+Call Stack (most recent call first):
+  tools/cmake_install.cmake:55 (include)
+  cmake_install.cmake:138 (include)
+
+[0m

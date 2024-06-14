@@ -1,0 +1,11 @@
+source;share/opencv_cam/hook/cmake_prefix_path.ps1
+source;share/opencv_cam/hook/cmake_prefix_path.dsv
+source;share/opencv_cam/hook/cmake_prefix_path.sh
+source;share/opencv_cam/hook/ld_library_path_lib.ps1
+source;share/opencv_cam/hook/ld_library_path_lib.dsv
+source;share/opencv_cam/hook/ld_library_path_lib.sh
+source;share/opencv_cam/local_setup.bash
+source;share/opencv_cam/local_setup.dsv
+source;share/opencv_cam/local_setup.ps1
+source;share/opencv_cam/local_setup.sh
+source;share/opencv_cam/local_setup.zsh

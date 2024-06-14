@@ -1,0 +1,4 @@
+source;share/moveit_ros_move_group/local_setup.bash
+source;share/moveit_ros_move_group/local_setup.dsv
+source;share/moveit_ros_move_group/local_setup.sh
+source;share/moveit_ros_move_group/local_setup.zsh

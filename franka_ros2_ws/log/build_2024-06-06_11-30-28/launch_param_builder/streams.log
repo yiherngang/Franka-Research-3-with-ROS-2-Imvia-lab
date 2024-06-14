@@ -1,0 +1,50 @@
+[1.110s] Invoking command in '/home/adminlab/franka_ros2_ws/src/launch_param_builder': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/launch_param_builder/prefix_override:/home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/adminlab/franka_ros2_ws/build/launch_param_builder/build install --record /home/adminlab/franka_ros2_ws/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[1.331s] running egg_info
+[1.331s] creating ../../build/launch_param_builder/launch_param_builder.egg-info
+[1.331s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[1.332s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[1.332s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[1.332s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[1.332s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[1.332s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.333s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.333s] adding license file 'LICENSE'
+[1.334s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.334s] running build
+[1.334s] running build_py
+[1.334s] creating /home/adminlab/franka_ros2_ws/build/launch_param_builder/build
+[1.334s] creating /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib
+[1.334s] creating /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.334s] copying launch_param_builder/__init__.py -> /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.334s] copying launch_param_builder/launch_param_builder.py -> /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.334s] copying launch_param_builder/utils.py -> /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.335s] running install
+[1.335s] running install_lib
+[1.335s] creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.336s] copying /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.336s] copying /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.336s] copying /home/adminlab/franka_ros2_ws/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder
+[1.336s] byte-compiling /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/__init__.py to __init__.cpython-310.pyc
+[1.336s] byte-compiling /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-310.pyc
+[1.336s] byte-compiling /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder/utils.py to utils.cpython-310.pyc
+[1.337s] running install_data
+[1.337s] creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index
+[1.337s] creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index/resource_index
+[1.337s] creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.337s] copying resource/launch_param_builder -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.337s] creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/launch
+[1.337s] copying example/launch_param_builder_example.launch.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/launch
+[1.337s] creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.337s] copying test/data/parameters.yaml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.337s] copying test/data/parameters_injection.yaml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.337s] copying test/data/parameter_file -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.338s] copying test/data/parameter.xacro -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.338s] copying test/data/param_file_to_inject.yaml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.338s] copying package.xml -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/share/launch_param_builder
+[1.338s] creating /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/launch_param_builder
+[1.338s] copying example/example_node.py -> /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/launch_param_builder
+[1.338s] running install_egg_info
+[1.339s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[1.339s] running install_scripts
+[1.356s] writing list of installed files to '/home/adminlab/franka_ros2_ws/build/launch_param_builder/install.log'
+[1.423s] Invoked command in '/home/adminlab/franka_ros2_ws/src/launch_param_builder' returned '0': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/launch_param_builder/prefix_override:/home/adminlab/franka_ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/adminlab/franka_ros2_ws/build/launch_param_builder/build install --record /home/adminlab/franka_ros2_ws/build/launch_param_builder/install.log --single-version-externally-managed install_data

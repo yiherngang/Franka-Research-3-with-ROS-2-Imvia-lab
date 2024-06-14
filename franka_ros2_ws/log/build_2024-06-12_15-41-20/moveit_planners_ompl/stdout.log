@@ -1,0 +1,172 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread serialization 
+-- Found moveit_core: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/adminlab/franka_ros2_ws/src/moveit2/moveit_planners/ompl/ompl_interface/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_planners_ompl
+[  2%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/ompl_interface.cpp.o[0m
+[  7%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/threadsafe_state_storage.cpp.o[0m
+[  7%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/state_validity_checker.cpp.o[0m
+[  9%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/ompl_constraints.cpp.o[0m
+[ 12%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space_factory.cpp.o[0m
+[ 14%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/work_space/pose_model_state_space.cpp.o[0m
+[ 17%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space_factory.cpp.o[0m
+[ 19%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_goal_sampler.cpp.o[0m
+[ 21%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_valid_state_sampler.cpp.o[0m
+[ 29%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constraints_library.cpp.o[0m
+[ 29%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_sampler.cpp.o[0m
+[ 29%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/goal_union.cpp.o[0m
+[ 31%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/joint_model_state_space.cpp.o[0m
+[ 34%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/detail/projection_evaluators.cpp.o[0m
+[ 36%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space_factory.cpp.o[0m
+[ 39%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/joint_space/constrained_planning_state_space.cpp.o[0m
+[ 41%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space_factory.cpp.o[0m
+[ 46%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/model_based_planning_context.cpp.o[0m
+[ 46%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/parameterization/model_based_state_space.cpp.o[0m
+[ 48%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_interface.dir/src/planning_context_manager.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libmoveit_ompl_interface.so[0m
+[ 51%] Built target moveit_ompl_interface
+[ 56%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 56%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 58%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_generate_state_database.dir/scripts/generate_state_database.cpp.o[0m
+[ 60%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/src/ompl_planner_manager.cpp.o[0m
+[ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 63%] Built target gtest_main
+[ 65%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 65%] Built target gtest
+[ 68%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_planning_context_manager.dir/test/test_planning_context_manager.cpp.o[0m
+[ 70%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_space.dir/test/test_state_space.cpp.o[0m
+[ 80%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_planning_state_space.dir/test/test_constrained_planning_state_space.cpp.o[0m
+[ 80%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_constrained_state_validity_checker.dir/test/test_constrained_state_validity_checker.cpp.o[0m
+[ 80%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_state_validity_checker.dir/test/test_state_validity_checker.cpp.o[0m
+[ 80%] [32mBuilding CXX object ompl_interface/CMakeFiles/test_threadsafe_state_storage.dir/test/test_threadsafe_state_storage.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libmoveit_ompl_planner_plugin.so[0m
+[ 82%] Built target moveit_ompl_planner_plugin
+[ 85%] [32m[1mLinking CXX executable generate_state_database[0m
+[ 85%] Built target moveit_generate_state_database
+[ 87%] [32m[1mLinking CXX executable test_threadsafe_state_storage[0m
+[ 87%] Built target test_threadsafe_state_storage
+[ 90%] [32m[1mLinking CXX executable test_state_space[0m
+[ 90%] Built target test_state_space
+[ 92%] [32m[1mLinking CXX executable test_constrained_state_validity_checker[0m
+[ 95%] [32m[1mLinking CXX executable test_constrained_planning_state_space[0m
+[ 95%] Built target test_constrained_state_validity_checker
+[ 95%] Built target test_constrained_planning_state_space
+[ 97%] [32m[1mLinking CXX executable test_state_validity_checker[0m
+[100%] [32m[1mLinking CXX executable test_planning_context_manager[0m
+[100%] Built target test_state_validity_checker
+[100%] Built target test_planning_context_manager
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space_factory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space_factory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/joint_model_state_space.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/joint_space/constrained_planning_state_space.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space_factory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/work_space/pose_model_state_space.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space_factory.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/parameterization/model_based_state_space.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/planning_context_manager.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/ompl_interface.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/model_based_planning_context.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/state_validity_checker.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraint_approximations.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/ompl_constraints.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constraints_library.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/goal_union.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_goal_sampler.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/threadsafe_state_storage.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_valid_state_sampler.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/projection_evaluators.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/include/moveit/ompl_interface/detail/constrained_sampler.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/libmoveit_ompl_interface.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/ompl_interface_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/ament_index/resource_index/package_run_dependencies/moveit_planners_ompl
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/ament_index/resource_index/parent_prefix_path/moveit_planners_ompl
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/ament_index/resource_index/packages/moveit_planners_ompl
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_planners_ompl
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/export_moveit_planners_omplExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/cmake/moveit_planners_omplConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_planners_ompl/share/moveit_planners_ompl/package.xml

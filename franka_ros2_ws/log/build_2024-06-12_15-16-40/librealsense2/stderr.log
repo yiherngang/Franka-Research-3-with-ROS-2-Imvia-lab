@@ -1,0 +1,33 @@
+Cloning into 'json'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 806 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'json'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 2838 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'json'...
+error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+error: 4591 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+CMake Error at /home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/tmp/nlohmann_json-gitclone.cmake:31 (message):
+  Failed to clone repository: 'https://github.com/nlohmann/json.git'
+
+
+gmake[2]: *** [CMakeFiles/nlohmann_json.dir/build.make:98: src/nlohmann_json-stamp/nlohmann_json-download] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/nlohmann_json.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+[31mCMake Error at CMake/external_json.cmake:34 (message):
+  Failed to download nlohmann/json
+Call Stack (most recent call first):
+  CMake/external_json.cmake:50 (get_nlohmann_json)
+  third-party/CMakeLists.txt:3 (include)
+  CMakeLists.txt:58 (include)
+
+[0m

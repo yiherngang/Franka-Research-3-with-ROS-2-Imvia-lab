@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libvisp_pugixml.a CMakeFiles/visp_pugixml.dir/pugixml.cpp.o
+/usr/bin/ranlib ../lib/libvisp_pugixml.a

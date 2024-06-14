@@ -1,0 +1,1814 @@
+-- Checking internet connection...
+-- Internet connection identified
+-- Info: REALSENSE_VERSION_STRING=2.55.1
+-- Setting Unix configurations
+-- No output directory set; using /home/adminlab/franka_ros2_ws/build/librealsense2/Release/
+-- Building libcurl enabled
+-- using RS2_USE_V4L2_BACKEND
+-- Fetching nlohmann/json...
+-- Using the multi-header code from /home/adminlab/franka_ros2_ws/build/librealsense2/third-party/json/include/
+-- Fetching nlohmann/json - Done
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Check for updates capability added to realsense-viewer
+-- Check for updates capability added to realsense-depth-quality
+-- Fetching recommended firmwares:
+-- disable link time optimization for fw project
+-- ... https://librealsense.intel.com/Releases/RS4xx/FW/D4XX_FW_Image-5.16.0.1.bin
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/librealsense2
+[  1%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/__/easyloggingpp/src/easylogging++.cc.o[0m
+[  1%] [34m[1mCreating directories for 'libcurl'[0m
+[  1%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/configure-elpp-logger.cpp.o[0m
+[  1%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/crc32.cpp.o[0m
+[  1%] [32mBuilding CXX object tools/embed/CMakeFiles/rs-embed.dir/rs-embed.cpp.o[0m
+[  1%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/console_bridge/src/console.cpp.o[0m
+[  1%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/lz4/lz4.c.o[0m
+[  1%] [32mBuilding C object common/fw/CMakeFiles/fw.dir/empty.c.o[0m
+[  1%] [32mBuilding C object common/fw/CMakeFiles/fw.dir/D4XX_FW_Image.c.o[0m
+[  1%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/dispatcher.cpp.o[0m
+[  2%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/ensure-console.cpp.o[0m
+[  3%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/debug.cpp.o[0m
+[  4%] [32mBuilding C object tools/embed/CMakeFiles/rs-embed.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[  4%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/cpp_common/src/header.cpp.o[0m
+[  4%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/executable-name.cpp.o[0m
+[  4%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/float3.cpp.o[0m
+[  4%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/from.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/hexarray.cpp.o[0m
+[  5%] [32m[1mLinking C static library ../../Release/libfw.a[0m
+[  5%] [34m[1mPerforming download step (git clone) for 'libcurl'[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/hexdump.cpp.o[0m
+[  5%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/ip-address.cpp.o[0m
+[  6%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/json.cpp.o[0m
+[  6%] Built target fw
+[  6%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/bag_player.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/buffer.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/chunked_file.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/lz4_stream.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/message_instance.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/make-less-screamy.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/os.cpp.o[0m
+[  7%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/shorten-json-string.cpp.o[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/special-folder.cpp.o[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/version.cpp.o[0m
+[  8%] [32mBuilding CXX object third-party/rsutils/CMakeFiles/rsutils.dir/src/work-week.cpp.o[0m
+[  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/query.cpp.o[0m
+[  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/stream.cpp.o[0m
+[  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/uncompressed_stream.cpp.o[0m
+[  9%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rosbag_storage/src/view.cpp.o[0m
+[ 10%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roscpp_serialization/src/serialization.cpp.o[0m
+[ 10%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roslz4/src/lz4s.c.o[0m
+[ 10%] [32mBuilding C object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/roslz4/src/xxhash.c.o[0m
+[ 10%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/rate.cpp.o[0m
+[ 11%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/duration.cpp.o[0m
+[ 11%] [32mBuilding CXX object third-party/realsense-file/CMakeFiles/realsense-file.dir/rosbag/rostime/src/time.cpp.o[0m
+[ 11%] [32m[1mLinking CXX static library ../../Release/librealsense-file.a[0m
+[ 11%] Built target realsense-file
+[ 11%] [32m[1mLinking CXX executable ../../Release/rs-embed[0m
+[ 12%] [34m[1mNo update step for 'libcurl'[0m
+[ 12%] [34m[1mNo patch step for 'libcurl'[0m
+[ 12%] [34m[1mPerforming configure step for 'libcurl'[0m
+[ 12%] Built target rs-embed
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- curl version=[7.75.0-DEV]
+-- Performing Test OPT_pedantic
+-- Performing Test OPT_pedantic - Success
+-- Performing Test OPT_Wall
+-- Performing Test OPT_Wall - Success
+-- Performing Test OPT_W
+-- Performing Test OPT_W - Success
+-- Performing Test OPT_Wpointer_arith
+-- Performing Test OPT_Wpointer_arith - Success
+-- Performing Test OPT_Wwrite_strings
+-- Performing Test OPT_Wwrite_strings - Success
+-- Performing Test OPT_Wunused
+-- Performing Test OPT_Wunused - Success
+-- Performing Test OPT_Wshadow
+-- Performing Test OPT_Wshadow - Success
+-- Performing Test OPT_Winline
+-- Performing Test OPT_Winline - Success
+-- Performing Test OPT_Wnested_externs
+[ 13%] [32m[1mLinking CXX static library ../../Release/librsutils.a[0m
+-- Performing Test OPT_Wnested_externs - Success
+-- Performing Test OPT_Wmissing_declarations
+-- Performing Test OPT_Wmissing_declarations - Success
+-- Performing Test OPT_Wmissing_prototypes
+[ 13%] Built target rsutils
+-- Performing Test OPT_Wmissing_prototypes - Success
+-- Performing Test OPT_Wfloat_equal
+-- Performing Test OPT_Wfloat_equal - Success
+-- Performing Test OPT_Wsign_compare
+-- Performing Test OPT_Wsign_compare - Success
+-- Performing Test OPT_Wundef
+-- Performing Test OPT_Wundef - Success
+-- Performing Test OPT_Wendif_labels
+-- Performing Test OPT_Wendif_labels - Success
+-- Performing Test OPT_Wstrict_prototypes
+-- Performing Test OPT_Wstrict_prototypes - Success
+-- Performing Test OPT_Wdeclaration_after_statement
+-- Performing Test OPT_Wdeclaration_after_statement - Success
+-- Performing Test OPT_Wstrict_aliasing_3
+-- Performing Test OPT_Wstrict_aliasing_3 - Success
+-- Performing Test OPT_Wcast_align
+-- Performing Test OPT_Wcast_align - Success
+-- Performing Test OPT_Wtype_limits
+-- Performing Test OPT_Wtype_limits - Success
+-- Performing Test OPT_Wold_style_declaration
+-- Performing Test OPT_Wold_style_declaration - Success
+-- Performing Test OPT_Wmissing_parameter_type
+-- Performing Test OPT_Wmissing_parameter_type - Success
+-- Performing Test OPT_Wempty_body
+-- Performing Test OPT_Wempty_body - Success
+-- Performing Test OPT_Wclobbered
+-- Performing Test OPT_Wclobbered - Success
+-- Performing Test OPT_Wignored_qualifiers
+-- Performing Test OPT_Wignored_qualifiers - Success
+-- Performing Test OPT_Wconversion
+-- Performing Test OPT_Wconversion - Success
+-- Performing Test OPT_Wvla
+-- Performing Test OPT_Wvla - Success
+-- Performing Test OPT_Wdouble_promotion
+-- Performing Test OPT_Wdouble_promotion - Success
+-- Performing Test OPTlong_long
+-- Performing Test OPTlong_long - Success
+-- Performing Test OPTmultichar
+-- Performing Test OPTmultichar - Success
+-- Performing Test OPTformat_nonliteral
+-- Performing Test OPTformat_nonliteral - Success
+-- Performing Test OPTsign_conversion
+-- Performing Test OPTsign_conversion - Success
+-- Performing Test OPTsystem_headers
+-- Performing Test OPTsystem_headers - Success
+-- Performing Test OPTpedantic_ms_format
+-- Performing Test OPTpedantic_ms_format - Failed
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_ADDR - Success
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID
+-- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID - Success
+-- Found Perl: /usr/bin/perl (found version "5.34.0") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for dlopen in dl;
+-- Looking for dlopen in dl; - found
+-- Looking for connect in socket;dl
+-- Looking for connect in socket;dl - not found
+-- Looking for gethostbyname in c
+-- Looking for gethostbyname in c - found
+-- Looking for gethostname
+-- Looking for gethostname - found
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Looking for openssl/crypto.h
+-- Looking for openssl/crypto.h - found
+-- Looking for openssl/err.h
+-- Looking for openssl/err.h - found
+-- Looking for openssl/pem.h
+-- Looking for openssl/pem.h - found
+-- Looking for openssl/rsa.h
+-- Looking for openssl/rsa.h - found
+-- Looking for openssl/ssl.h
+-- Looking for openssl/ssl.h - found
+-- Looking for openssl/x509.h
+-- Looking for openssl/x509.h - found
+-- Looking for openssl/rand.h
+-- Looking for openssl/rand.h - found
+-- Looking for RAND_status
+-- Looking for RAND_status - not found
+-- Looking for RAND_screen
+-- Looking for RAND_screen - not found
+-- Looking for RAND_egd
+-- Looking for RAND_egd - not found
+-- Looking for dlopen in dl;OpenSSL::SSL;OpenSSL::Crypto
+-- Looking for dlopen in dl;OpenSSL::SSL;OpenSSL::Crypto - found
+-- Performing Test USE_UNIX_SOCKETS
+-- Performing Test USE_UNIX_SOCKETS - Success
+-- Found CA bundle: /etc/ssl/certs/ca-certificates.crt
+-- Looking for include file stdio.h
+-- Looking for include file stdio.h - found
+-- Looking for include files stdio.h, inttypes.h
+-- Looking for include files stdio.h, inttypes.h - found
+-- Looking for 3 include files stdio.h, ..., sys/filio.h
+-- Looking for 3 include files stdio.h, ..., sys/filio.h - not found
+-- Looking for 3 include files stdio.h, ..., sys/ioctl.h
+-- Looking for 3 include files stdio.h, ..., sys/ioctl.h - found
+-- Looking for 4 include files stdio.h, ..., sys/param.h
+-- Looking for 4 include files stdio.h, ..., sys/param.h - found
+-- Looking for 5 include files stdio.h, ..., sys/poll.h
+-- Looking for 5 include files stdio.h, ..., sys/poll.h - found
+-- Looking for 6 include files stdio.h, ..., sys/resource.h
+-- Looking for 6 include files stdio.h, ..., sys/resource.h - found
+-- Looking for 7 include files stdio.h, ..., sys/select.h
+-- Looking for 7 include files stdio.h, ..., sys/select.h - found
+-- Looking for 8 include files stdio.h, ..., sys/socket.h
+-- Looking for 8 include files stdio.h, ..., sys/socket.h - found
+-- Looking for 9 include files stdio.h, ..., sys/sockio.h
+-- Looking for 9 include files stdio.h, ..., sys/sockio.h - not found
+-- Looking for 9 include files stdio.h, ..., sys/stat.h
+-- Looking for 9 include files stdio.h, ..., sys/stat.h - found
+-- Looking for 10 include files stdio.h, ..., sys/time.h
+-- Looking for 10 include files stdio.h, ..., sys/time.h - found
+-- Looking for 11 include files stdio.h, ..., sys/types.h
+-- Looking for 11 include files stdio.h, ..., sys/types.h - found
+-- Looking for 12 include files stdio.h, ..., sys/uio.h
+-- Looking for 12 include files stdio.h, ..., sys/uio.h - found
+-- Looking for 13 include files stdio.h, ..., sys/un.h
+-- Looking for 13 include files stdio.h, ..., sys/un.h - found
+-- Looking for 14 include files stdio.h, ..., sys/utime.h
+-- Looking for 14 include files stdio.h, ..., sys/utime.h - not found
+-- Looking for 14 include files stdio.h, ..., sys/xattr.h
+-- Looking for 14 include files stdio.h, ..., sys/xattr.h - found
+-- Looking for 15 include files stdio.h, ..., alloca.h
+-- Looking for 15 include files stdio.h, ..., alloca.h - found
+-- Looking for 16 include files stdio.h, ..., arpa/inet.h
+-- Looking for 16 include files stdio.h, ..., arpa/inet.h - found
+-- Looking for 17 include files stdio.h, ..., arpa/tftp.h
+-- Looking for 17 include files stdio.h, ..., arpa/tftp.h - found
+-- Looking for 18 include files stdio.h, ..., assert.h
+-- Looking for 18 include files stdio.h, ..., assert.h - found
+-- Looking for 19 include files stdio.h, ..., crypto.h
+-- Looking for 19 include files stdio.h, ..., crypto.h - not found
+-- Looking for 19 include files stdio.h, ..., err.h
+-- Looking for 19 include files stdio.h, ..., err.h - found
+-- Looking for 20 include files stdio.h, ..., errno.h
+-- Looking for 20 include files stdio.h, ..., errno.h - found
+-- Looking for 21 include files stdio.h, ..., fcntl.h
+-- Looking for 21 include files stdio.h, ..., fcntl.h - found
+-- Looking for 22 include files stdio.h, ..., idn2.h
+-- Looking for 22 include files stdio.h, ..., idn2.h - not found
+-- Looking for 22 include files stdio.h, ..., ifaddrs.h
+-- Looking for 22 include files stdio.h, ..., ifaddrs.h - found
+-- Looking for 23 include files stdio.h, ..., io.h
+-- Looking for 23 include files stdio.h, ..., io.h - not found
+-- Looking for 23 include files stdio.h, ..., krb.h
+-- Looking for 23 include files stdio.h, ..., krb.h - not found
+-- Looking for 23 include files stdio.h, ..., libgen.h
+-- Looking for 23 include files stdio.h, ..., libgen.h - found
+-- Looking for 24 include files stdio.h, ..., locale.h
+-- Looking for 24 include files stdio.h, ..., locale.h - found
+-- Looking for 25 include files stdio.h, ..., net/if.h
+-- Looking for 25 include files stdio.h, ..., net/if.h - found
+-- Looking for 26 include files stdio.h, ..., netdb.h
+-- Looking for 26 include files stdio.h, ..., netdb.h - found
+-- Looking for 27 include files stdio.h, ..., netinet/in.h
+-- Looking for 27 include files stdio.h, ..., netinet/in.h - found
+-- Looking for 28 include files stdio.h, ..., netinet/tcp.h
+-- Looking for 28 include files stdio.h, ..., netinet/tcp.h - found
+-- Looking for linux/tcp.h
+-- Looking for linux/tcp.h - found
+-- Looking for 29 include files stdio.h, ..., pem.h
+-- Looking for 29 include files stdio.h, ..., pem.h - not found
+-- Looking for 29 include files stdio.h, ..., poll.h
+-- Looking for 29 include files stdio.h, ..., poll.h - found
+-- Looking for 30 include files stdio.h, ..., pwd.h
+-- Looking for 30 include files stdio.h, ..., pwd.h - found
+-- Looking for 31 include files stdio.h, ..., rsa.h
+-- Looking for 31 include files stdio.h, ..., rsa.h - not found
+-- Looking for 31 include files stdio.h, ..., setjmp.h
+-- Looking for 31 include files stdio.h, ..., setjmp.h - found
+-- Looking for 32 include files stdio.h, ..., sgtty.h
+-- Looking for 32 include files stdio.h, ..., sgtty.h - found
+-- Looking for 33 include files stdio.h, ..., signal.h
+-- Looking for 33 include files stdio.h, ..., signal.h - found
+-- Looking for 34 include files stdio.h, ..., ssl.h
+-- Looking for 34 include files stdio.h, ..., ssl.h - not found
+-- Looking for 34 include files stdio.h, ..., stdbool.h
+-- Looking for 34 include files stdio.h, ..., stdbool.h - found
+-- Looking for 35 include files stdio.h, ..., stdint.h
+-- Looking for 35 include files stdio.h, ..., stdint.h - found
+-- Looking for 37 include files stdio.h, ..., stdlib.h
+-- Looking for 37 include files stdio.h, ..., stdlib.h - found
+-- Looking for 38 include files stdio.h, ..., string.h
+-- Looking for 38 include files stdio.h, ..., string.h - found
+-- Looking for 39 include files stdio.h, ..., strings.h
+-- Looking for 39 include files stdio.h, ..., strings.h - found
+-- Looking for 40 include files stdio.h, ..., stropts.h
+-- Looking for 40 include files stdio.h, ..., stropts.h - not found
+-- Looking for 40 include files stdio.h, ..., termio.h
+-- Looking for 40 include files stdio.h, ..., termio.h - found
+-- Looking for 41 include files stdio.h, ..., termios.h
+-- Looking for 41 include files stdio.h, ..., termios.h - found
+-- Looking for 42 include files stdio.h, ..., time.h
+-- Looking for 42 include files stdio.h, ..., time.h - found
+-- Looking for 43 include files stdio.h, ..., unistd.h
+-- Looking for 43 include files stdio.h, ..., unistd.h - found
+-- Looking for 44 include files stdio.h, ..., utime.h
+-- Looking for 44 include files stdio.h, ..., utime.h - found
+-- Looking for 45 include files stdio.h, ..., x509.h
+-- Looking for 45 include files stdio.h, ..., x509.h - not found
+-- Looking for 45 include files stdio.h, ..., process.h
+-- Looking for 45 include files stdio.h, ..., process.h - not found
+-- Looking for 45 include files stdio.h, ..., stddef.h
+-- Looking for 45 include files stdio.h, ..., stddef.h - found
+-- Looking for 46 include files stdio.h, ..., dlfcn.h
+-- Looking for 46 include files stdio.h, ..., dlfcn.h - found
+-- Looking for 47 include files stdio.h, ..., malloc.h
+-- Looking for 47 include files stdio.h, ..., malloc.h - found
+-- Looking for 48 include files stdio.h, ..., memory.h
+-- Looking for 48 include files stdio.h, ..., memory.h - found
+-- Looking for 49 include files stdio.h, ..., netinet/if_ether.h
+-- Looking for 49 include files stdio.h, ..., netinet/if_ether.h - found
+-- Looking for 51 include files stdio.h, ..., sockio.h
+-- Looking for 51 include files stdio.h, ..., sockio.h - not found
+-- Looking for 51 include files stdio.h, ..., sys/utsname.h
+-- Looking for 51 include files stdio.h, ..., sys/utsname.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Looking for basename
+-- Looking for basename - found
+-- Looking for socket
+-- Looking for socket - found
+-- Looking for select
+-- Looking for select - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for strtok_r
+-- Looking for strtok_r - found
+-- Looking for strftime
+-- Looking for strftime - found
+-- Looking for uname
+-- Looking for uname - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for stricmp
+-- Looking for stricmp - not found
+-- Looking for strcmpi
+-- Looking for strcmpi - not found
+-- Looking for strncmpi
+-- Looking for strncmpi - not found
+-- Looking for alarm
+-- Looking for alarm - found
+-- Looking for gethostbyaddr
+-- Looking for gethostbyaddr - found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for inet_addr
+-- Looking for inet_addr - found
+-- Looking for inet_ntoa
+-- Looking for inet_ntoa - found
+-- Looking for inet_ntoa_r
+-- Looking for inet_ntoa_r - not found
+-- Looking for tcsetattr
+-- Looking for tcsetattr - found
+-- Looking for tcgetattr
+-- Looking for tcgetattr - found
+-- Looking for perror
+-- Looking for perror - found
+-- Looking for closesocket
+-- Looking for closesocket - not found
+-- Looking for setvbuf
+-- Looking for setvbuf - found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - found
+-- Looking for getpass_r
+-- Looking for getpass_r - not found
+-- Looking for strlcat
+-- Looking for strlcat - not found
+-- Looking for getpwuid
+-- Looking for getpwuid - found
+-- Looking for getpwuid_r
+-- Looking for getpwuid_r - found
+-- Looking for geteuid
+-- Looking for geteuid - found
+-- Looking for usleep
+-- Looking for usleep - found
+-- Looking for utime
+-- Looking for utime - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - found
+-- Looking for signal
+-- Looking for signal - found
+-- Looking for SIGALRM
+-- Looking for SIGALRM - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for _strtoi64
+-- Looking for _strtoi64 - not found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for siginterrupt
+-- Looking for siginterrupt - found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for freeaddrinfo
+-- Looking for freeaddrinfo - found
+-- Looking for freeifaddrs
+-- Looking for freeifaddrs - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for getprotobyname
+-- Looking for getprotobyname - found
+-- Looking for getpeername
+-- Looking for getpeername - found
+-- Looking for getsockname
+-- Looking for getsockname - found
+-- Looking for if_nametoindex
+-- Looking for if_nametoindex - found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for setmode
+-- Looking for setmode - not found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for ioctl
+-- Looking for ioctl - found
+-- Looking for setsockopt
+-- Looking for setsockopt - found
+-- Looking for mach_absolute_time
+-- Looking for mach_absolute_time - not found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for fsetxattr
+-- Looking for fsetxattr - found
+-- Performing Curl Test HAVE_FSETXATTR_5
+-- Performing Curl Test HAVE_FSETXATTR_5 - Success
+-- Performing Curl Test HAVE_FSETXATTR_6
+-- Performing Curl Test HAVE_FSETXATTR_6 - Failed
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Performing Curl Test HAVE_FCNTL_O_NONBLOCK
+-- Performing Curl Test HAVE_FCNTL_O_NONBLOCK - Success
+-- Performing Curl Test HAVE_IOCTLSOCKET
+-- Performing Curl Test HAVE_IOCTLSOCKET - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO
+-- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO - Failed
+-- Performing Curl Test HAVE_IOCTL_FIONBIO
+-- Performing Curl Test HAVE_IOCTL_FIONBIO - Success
+-- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR
+-- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR - Success
+-- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK
+-- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK - Failed
+-- Performing Curl Test TIME_WITH_SYS_TIME
+-- Performing Curl Test TIME_WITH_SYS_TIME - Success
+-- Performing Curl Test HAVE_O_NONBLOCK
+-- Performing Curl Test HAVE_O_NONBLOCK - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8 - Success
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT - Success
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6 - Success
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT - Success
+-- Performing Curl Test HAVE_IN_ADDR_T
+-- Performing Curl Test HAVE_IN_ADDR_T - Success
+-- Performing Curl Test HAVE_BOOL_T
+-- Performing Curl Test HAVE_BOOL_T - Success
+-- Performing Curl Test STDC_HEADERS
+-- Performing Curl Test STDC_HEADERS - Success
+-- Performing Curl Test RETSIGTYPE_TEST
+-- Performing Curl Test RETSIGTYPE_TEST - Success
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL - Failed
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT - Failed
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS - Success
+-- Performing Curl Test HAVE_VARIADIC_MACROS_C99
+-- Performing Curl Test HAVE_VARIADIC_MACROS_C99 - Success
+-- Performing Curl Test HAVE_VARIADIC_MACROS_GCC
+-- Performing Curl Test HAVE_VARIADIC_MACROS_GCC - Success
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of curl_off_t
+-- Check size of curl_off_t - done
+-- Performing Curl Test HAVE_GLIBC_STRERROR_R
+-- Performing Curl Test HAVE_GLIBC_STRERROR_R - Failed
+-- Performing Curl Test HAVE_POSIX_STRERROR_R
+-- Performing Curl Test HAVE_POSIX_STRERROR_R - Success
+-- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC
+-- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC - Success
+-- Performing Curl Test HAVE_BUILTIN_AVAILABLE
+-- Performing Curl Test HAVE_BUILTIN_AVAILABLE - Failed
+-- Performing Test curl_cv_recv
+-- Performing Test curl_cv_recv - Success
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, size_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, socklen_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, unsigned int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, size_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, socklen_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, unsigned int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(SOCKET, void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, size_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, socklen_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, unsigned int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, size_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, socklen_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, unsigned int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: int recv(int, void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, size_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, socklen_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, unsigned int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, size_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, socklen_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, unsigned int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(SOCKET, void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, size_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, socklen_t, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, unsigned int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, void *, int, int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Failed
+-- Tested: ssize_t recv(int, void *, int, unsigned int)
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Success
+-- Tested: ssize_t recv(int, void *, size_t, int)
+-- Performing Test curl_cv_send
+-- Performing Test curl_cv_send - Success
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, const void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(SOCKET, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, const void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(int, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, const void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: int send(ssize_t, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, const void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, void *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(SOCKET, char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, size_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, size_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, socklen_t, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, socklen_t, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, unsigned int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const char *, unsigned int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const void *, int, int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Failed
+-- Tested: ssize_t send(int, const void *, int, unsigned int)
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Success
+-- Tested: ssize_t send(int, const void *, size_t, int)
+-- Performing Test HAVE_MSG_NOSIGNAL
+-- Performing Test HAVE_MSG_NOSIGNAL - Success
+-- Performing Test HAVE_STRUCT_TIMEVAL
+-- Performing Test HAVE_STRUCT_TIMEVAL - Success
+-- Check size of sig_atomic_t
+-- Check size of sig_atomic_t - done
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE - Success
+-- Check size of struct sockaddr_storage
+-- Check size of struct sockaddr_storage - done
+-- Enabled features: SSL IPv6 unixsockets AsynchDNS alt-svc HTTPS-proxy
+-- Enabled protocols: HTTP HTTPS
+-- Enabled SSL backends: OpenSSL
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-build
+[ 13%] [34m[1mPerforming build step for 'libcurl'[0m
+[  0%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/altsvc.c.o[0m
+[  0%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_fnmatch.c.o[0m
+[  1%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_get_line.c.o[0m
+[  2%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_gethostname.c.o[0m
+[  2%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_gssapi.c.o[0m
+[  3%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_memrchr.c.o[0m
+[  4%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_multibyte.c.o[0m
+[  4%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.o[0m
+[  5%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.o[0m
+[  6%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_path.c.o[0m
+[  6%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_range.c.o[0m
+[  7%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_rtmp.c.o[0m
+[  8%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_sasl.c.o[0m
+[  8%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_sspi.c.o[0m
+[  9%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_threads.c.o[0m
+[ 10%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/dict.c.o[0m
+[ 10%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/doh.c.o[0m
+[ 11%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/dotdot.c.o[0m
+[ 12%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/dynbuf.c.o[0m
+[ 12%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/easy.c.o[0m
+[ 13%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/easygetopt.c.o[0m
+[ 14%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/easyoptions.c.o[0m
+[ 14%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/escape.c.o[0m
+[ 15%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/file.c.o[0m
+[ 16%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/fileinfo.c.o[0m
+[ 16%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/formdata.c.o[0m
+[ 17%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/ftp.c.o[0m
+[ 17%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/ftplistparser.c.o[0m
+[ 18%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/getenv.c.o[0m
+[ 19%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/getinfo.c.o[0m
+[ 19%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/gopher.c.o[0m
+[ 20%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hash.c.o[0m
+[ 21%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hmac.c.o[0m
+[ 21%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostasyn.c.o[0m
+[ 22%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostcheck.c.o[0m
+[ 23%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostip.c.o[0m
+[ 23%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostip4.c.o[0m
+[ 24%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostip6.c.o[0m
+[ 25%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hostsyn.c.o[0m
+[ 25%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/hsts.c.o[0m
+[ 26%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http.c.o[0m
+[ 27%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http2.c.o[0m
+[ 28%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_endian.c.o[0m
+[ 28%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_chunks.c.o[0m
+[ 29%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_digest.c.o[0m
+[ 30%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_negotiate.c.o[0m
+[ 30%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_ntlm.c.o[0m
+[ 31%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_proxy.c.o[0m
+[ 32%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/http_aws_sigv4.c.o[0m
+[ 32%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/idn_win32.c.o[0m
+[ 33%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/if2ip.c.o[0m
+[ 34%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/imap.c.o[0m
+[ 34%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/inet_ntop.c.o[0m
+[ 35%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/inet_pton.c.o[0m
+[ 36%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/krb5.c.o[0m
+[ 36%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/ldap.c.o[0m
+[ 37%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/llist.c.o[0m
+[ 38%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/md4.c.o[0m
+[ 38%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/md5.c.o[0m
+[ 39%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/memdebug.c.o[0m
+[ 40%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/mime.c.o[0m
+[ 40%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/mprintf.c.o[0m
+[ 41%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/mqtt.c.o[0m
+[ 42%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/multi.c.o[0m
+[ 42%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/netrc.c.o[0m
+[ 43%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/non-ascii.c.o[0m
+[ 43%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/nonblock.c.o[0m
+[ 44%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/openldap.c.o[0m
+[ 45%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/parsedate.c.o[0m
+[ 45%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/pingpong.c.o[0m
+[ 46%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_des.c.o[0m
+[ 47%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/pop3.c.o[0m
+[ 47%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/psl.c.o[0m
+[ 48%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/rand.c.o[0m
+[ 49%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/rename.c.o[0m
+[ 50%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/select.c.o[0m
+[ 51%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/sendf.c.o[0m
+[ 51%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/setopt.c.o[0m
+[ 51%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/rtsp.c.o[0m
+[ 52%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/sha256.c.o[0m
+[ 53%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/share.c.o[0m
+[ 54%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/smb.c.o[0m
+[ 55%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/smtp.c.o[0m
+[ 55%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socketpair.c.o[0m
+[ 56%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socks.c.o[0m
+[ 57%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socks_gssapi.c.o[0m
+[ 57%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/socks_sspi.c.o[0m
+[ 58%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/speedcheck.c.o[0m
+[ 59%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/splay.c.o[0m
+[ 59%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strcase.c.o[0m
+[ 60%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strdup.c.o[0m
+[ 61%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strerror.c.o[0m
+[ 61%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strtok.c.o[0m
+[ 62%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/strtoofft.c.o[0m
+[ 63%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/system_win32.c.o[0m
+[ 63%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/telnet.c.o[0m
+[ 64%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/tftp.c.o[0m
+[ 65%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/timeval.c.o[0m
+[ 65%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/transfer.c.o[0m
+[ 66%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/url.c.o[0m
+[ 67%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/urlapi.c.o[0m
+[ 67%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/version.c.o[0m
+[ 68%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/version_win32.c.o[0m
+[ 68%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/warnless.c.o[0m
+[ 69%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/wildcard.c.o[0m
+[ 70%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/x509asn1.c.o[0m
+[ 70%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/cleartext.c.o[0m
+[ 71%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/cram.c.o[0m
+[ 72%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/digest.c.o[0m
+[ 72%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/digest_sspi.c.o[0m
+[ 73%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/krb5_gssapi.c.o[0m
+[ 74%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/krb5_sspi.c.o[0m
+[ 74%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/ntlm.c.o[0m
+[ 75%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/ntlm_sspi.c.o[0m
+[ 76%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/oauth2.c.o[0m
+[ 76%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/spnego_gssapi.c.o[0m
+[ 77%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/spnego_sspi.c.o[0m
+[ 78%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vauth/vauth.c.o[0m
+[ 78%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/bearssl.c.o[0m
+[ 79%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/gskit.c.o[0m
+[ 80%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/gtls.c.o[0m
+[ 80%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/keylog.c.o[0m
+[ 81%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.o[0m
+[ 82%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/mbedtls_threadlock.c.o[0m
+[ 82%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.o[0m
+[ 83%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/nss.c.o[0m
+[ 84%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/openssl.c.o[0m
+[ 84%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/schannel.c.o[0m
+[ 85%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/schannel_verify.c.o[0m
+[ 86%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/sectransp.c.o[0m
+[ 86%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/vtls.c.o[0m
+[ 87%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.o[0m
+[ 88%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.o[0m
+[ 88%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vquic/quiche.c.o[0m
+[ 89%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vquic/vquic.c.o[0m
+[ 90%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vssh/libssh.c.o[0m
+[ 90%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vssh/libssh2.c.o[0m
+[ 91%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/vssh/wolfssh.c.o[0m
+[ 91%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/slist.c.o[0m
+[ 92%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/progress.c.o[0m
+[ 92%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_ctype.c.o[0m
+[ 93%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/curl_addrinfo.c.o[0m
+[ 94%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/cookie.c.o[0m
+[ 94%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/content_encoding.c.o[0m
+[ 95%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/connect.c.o[0m
+[ 96%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/conncache.c.o[0m
+[ 96%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/c-hyper.c.o[0m
+[ 97%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/base64.c.o[0m
+[ 98%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/asyn-thread.c.o[0m
+[ 98%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/asyn-ares.c.o[0m
+[ 99%] [32mBuilding C object lib/CMakeFiles/libcurl.dir/amigaos.c.o[0m
+[100%] [32m[1mLinking C static library libcurl.a[0m
+[100%] Built target libcurl
+[ 14%] [34m[1mPerforming install step for 'libcurl'[0m
+[35m[1mConsolidate compiler generated dependencies of target libcurl[0m
+[100%] Built target libcurl
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/libcurl.a
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/bin/curl-config
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/pkgconfig/libcurl.pc
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/curl.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/easy.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/stdcheaders.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/mprintf.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/multi.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/system.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/curlver.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/urlapi.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/typecheck-gcc.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/include/curl/options.h
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfigVersion.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/libcurl_install/lib/cmake/CURL/CURLConfig.cmake
+[ 14%] [34m[1mNo test step for 'libcurl'[0m
+[ 15%] [34m[1mCompleted 'libcurl'[0m
+[ 15%] Built target libcurl
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/notification.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/matcher-factory.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-thermal-monitor.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-device.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-color.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-auto-calibration.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-private.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-active.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-factory.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-motion.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-fw-update-device.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-factory.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-active.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-color.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-device.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-nonmonochrome.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-motion.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-options.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/rs_advanced_mode.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/presets.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/advanced_mode/advanced_mode.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-calib-parsers.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-timestamp.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-private.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-active-common.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-color-common.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-motion-common.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/ds-device-common.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-fw-update-device.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/record/record_device.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/record/record_sensor.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/gyro-sensitivity-feature.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/auto-exposure-limit-feature.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/gain-limit-feature.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/playback/playback_device.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/remove-ir-pattern-feature.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/auto-exposure-roi-feature.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/emitter-frequency-feature.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/features/amplitude-factor-feature.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/d500-options.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d500/hw_monitor_extended_buffers.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-private.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/playback/playback_sensor.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-watcher.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/ds/d400/d400-options.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/ros/ros_reader.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/media/ros/ros_writer.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-registry.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sequence-id-filter.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/hole-filling-filter.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/disparity-transform.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y8i-to-y8y8.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y12i-to-y16y16.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y12i-to-y16y16-mipi.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y16i-to-y10msby10msb.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/identity-processing-block.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/threshold.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/rates-printer.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/units-transform.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/rotation-transform.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/temporal-filter.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/color-formats-converter.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/hdr-merge.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/depth-formats-converter.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/spatial-filter.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/decimation-filter.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/syncer-processing-block.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/synthetic-stream.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/occlusion-filter.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/aggregator.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-log-data.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-formating-options.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-parser.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-logs-xml-helper.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-logs/fw-string-formatter.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-device.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-factory.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/profile.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/fw-update/fw-update-unsigned.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/config.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/pipeline/pipeline.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/context-libusb.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/formats-converter.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/y411-converter.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/auto-exposure-processor.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/motion-transform.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/pointcloud.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/colorizer.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/align.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/backend.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/backend-device-factory.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/context.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device-info.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/device_hub.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/environment.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/error-handling.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/firmware_logger_device.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/global_timestamp_reader.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hdr-config.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hw-monitor.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/image.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/image-avx.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/log.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/option.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/algo.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform-camera.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/archive.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/udev-device-watcher.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/backend-hid.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/linux/backend-v4l2.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/enumerator-libusb.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/request-libusb.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/messenger-libusb.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/device-libusb.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/processing-blocks-factory.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/libusb/interface-libusb.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sse/sse-pointcloud.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/rs.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/proc/sse/sse-align.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/serialized-utilities.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/frame.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/points.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/to-string.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform/platform-utils.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/platform/uvc-option.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/synthetic-options-watcher.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/realsense2.dir/third-party/easyloggingpp/src/easylogging++.cc.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/types.cpp.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/realsense2.dir/src/verify.c.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/terminal-parser.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/sync.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/stream.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/source.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-sensor.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/rscore-pp-block-factory.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-device-info.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/software-device.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/uvc-sensor.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/hid-sensor.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/sensor.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/realsense2.dir/src/core/options-container.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library Release/librealsense2.so[0m
+[ 53%] Built target realsense2
+[ 54%] [32mBuilding CXX object examples/hello-realsense/CMakeFiles/rs-hello-realsense.dir/rs-hello-realsense.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/synthetic-stream-gl.cpp.o[0m
+[ 54%] [32mBuilding CXX object examples/software-device/CMakeFiles/rs-software-device.dir/rs-software-device.cpp.o[0m
+[ 54%] [32mBuilding CXX object examples/capture/CMakeFiles/rs-capture.dir/rs-capture.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable ../../Release/rs-hello-realsense[0m
+[ 54%] [32mBuilding C object examples/C/distance/CMakeFiles/rs-distance.dir/rs-distance.c.o[0m
+[ 55%] [32mBuilding C object examples/C/color/CMakeFiles/rs-color.dir/rs-color.c.o[0m
+[ 55%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/rs-post-processing.cpp.o[0m
+[ 55%] Built target rs-hello-realsense
+[ 56%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/yuy2rgb-gl.cpp.o[0m
+[ 57%] [32mBuilding C object examples/C/depth/CMakeFiles/rs-depth.dir/rs-depth.c.o[0m
+[ 58%] [32m[1mLinking CXX executable ../../../Release/rs-distance[0m
+[ 58%] [32m[1mLinking CXX executable ../../../Release/rs-color[0m
+[ 58%] [32m[1mLinking CXX executable ../../../Release/rs-depth[0m
+[ 58%] Built target rs-distance
+[ 58%] Built target rs-color
+[ 58%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/y4112rgb-gl.cpp.o[0m
+[ 58%] [32mBuilding CXX object examples/measure/CMakeFiles/rs-measure.dir/rs-measure.cpp.o[0m
+[ 58%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/rs-align-advanced.cpp.o[0m
+[ 58%] [32mBuilding CXX object examples/sensor-control/CMakeFiles/rs-sensor-control.dir/rs-sensor-control.cpp.o[0m
+[ 59%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/rs-align.cpp.o[0m
+[ 59%] [32mBuilding CXX object examples/pointcloud/CMakeFiles/rs-pointcloud.dir/rs-pointcloud.cpp.o[0m
+[ 59%] Built target rs-depth
+[ 59%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 60%] [32mBuilding CXX object examples/multicam/CMakeFiles/rs-multicam.dir/rs-multicam.cpp.o[0m
+[ 60%] [32mBuilding CXX object examples/save-to-disk/CMakeFiles/rs-save-to-disk.dir/rs-save-to-disk.cpp.o[0m
+[ 60%] [32mBuilding CXX object examples/callback/CMakeFiles/rs-callback.dir/rs-callback.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable ../../Release/rs-capture[0m
+[ 60%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/pointcloud-gl.cpp.o[0m
+[ 60%] Built target rs-capture
+[ 60%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/rs-record-playback.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable ../../Release/rs-pointcloud[0m
+[ 61%] [32m[1mLinking CXX executable ../../Release/rs-save-to-disk[0m
+[ 61%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 61%] [32mBuilding CXX object examples/post-processing/CMakeFiles/rs-post-processing.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 61%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 61%] Built target rs-pointcloud
+[ 61%] Built target rs-save-to-disk
+[ 62%] [32mBuilding CXX object examples/motion/CMakeFiles/rs-motion.dir/rs-motion.cpp.o[0m
+[ 62%] [32mBuilding C object examples/motion/CMakeFiles/rs-motion.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[ 62%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/rs-hdr.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/rs-gl.cpp.o[0m
+[ 63%] [32mBuilding C object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/glad/glad.c.o[0m
+[ 64%] [32m[1mLinking CXX executable ../../Release/rs-callback[0m
+[ 64%] Built target rs-callback
+[ 64%] [32m[1mLinking CXX executable ../../Release/rs-sensor-control[0m
+[ 64%] [32m[1mLinking CXX executable ../../Release/rs-measure[0m
+[ 64%] [32m[1mLinking CXX executable ../../Release/rs-multicam[0m
+[ 64%] Built target rs-sensor-control
+[ 64%] Built target rs-measure
+[ 64%] Built target rs-multicam
+[ 65%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable ../../Release/rs-post-processing[0m
+[ 66%] Built target rs-post-processing
+[ 67%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable ../../Release/rs-motion[0m
+[ 68%] [32m[1mLinking CXX executable ../../Release/rs-software-device[0m
+[ 68%] Built target rs-motion
+[ 68%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 68%] [32mBuilding CXX object tools/recorder/CMakeFiles/rs-record.dir/rs-record.cpp.o[0m
+[ 68%] Built target rs-software-device
+[ 68%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 68%] [32mBuilding CXX object tools/terminal/CMakeFiles/rs-terminal.dir/rs-terminal.cpp.o[0m
+[ 68%] [32mBuilding CXX object examples/record-playback/CMakeFiles/rs-record-playback.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 68%] [32mBuilding CXX object tools/terminal/CMakeFiles/rs-terminal.dir/auto-complete.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/pc-shader.cpp.o[0m
+[ 68%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/upload.cpp.o[0m
+[ 68%] [32mBuilding CXX object examples/hdr/CMakeFiles/rs-hdr.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 69%] [32mBuilding CXX object examples/align-advanced/CMakeFiles/rs-align-advanced.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 69%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 69%] [32mBuilding CXX object examples/align/CMakeFiles/rs-align.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable ../../Release/rs-record[0m
+[ 69%] Built target rs-record
+[ 70%] [32mBuilding C object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/realsense-file/lz4/lz4.c.o[0m
+[ 70%] [32mBuilding CXX object tools/fw-update/CMakeFiles/rs-fw-update.dir/rs-fw-update.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable ../../Release/rs-align-advanced[0m
+[ 70%] Built target rs-align-advanced
+[ 71%] [32mBuilding CXX object tools/fw-logger/CMakeFiles/rs-fw-logger.dir/rs-fw-logger.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable ../../Release/rs-align[0m
+[ 72%] Built target rs-align
+[ 72%] [32mBuilding CXX object tools/enumerate-devices/CMakeFiles/rs-enumerate-devices.dir/rs-enumerate-devices.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/__/__/third-party/easyloggingpp/src/easylogging++.cc.o[0m
+[ 73%] [32m[1mLinking CXX executable ../../Release/rs-record-playback[0m
+[ 73%] Built target rs-record-playback
+[ 73%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/rs-convert.cpp.o[0m
+[ 73%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/converter.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/align-gl.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable ../../Release/rs-hdr[0m
+[ 73%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/colorizer-gl.cpp.o[0m
+[ 73%] Built target rs-hdr
+[ 74%] [32mBuilding CXX object tools/convert/CMakeFiles/rs-convert.dir/converters/converter-csv.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable ../../Release/rs-terminal[0m
+[ 74%] Built target rs-terminal
+[ 74%] [32m[1mLinking CXX executable ../../Release/rs-fw-logger[0m
+[ 74%] Built target rs-fw-logger
+[ 75%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/camera-shader.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/gl/CMakeFiles/realsense2-gl.dir/__/__/common/opengl3.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ../../Release/rs-enumerate-devices[0m
+[ 75%] Built target rs-enumerate-devices
+[ 75%] [32m[1mLinking CXX executable ../../Release/rs-fw-update[0m
+[ 75%] Built target rs-fw-update
+[ 75%] [32m[1mLinking CXX executable ../../Release/rs-convert[0m
+[ 75%] Built target rs-convert
+[ 75%] [32m[1mLinking CXX shared library ../../Release/librealsense2-gl.so[0m
+[ 75%] Built target realsense2-gl
+[ 75%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/rs-align-gl.cpp.o[0m
+[ 76%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 76%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 77%] [32mBuilding CXX object examples/gl/CMakeFiles/rs-gl.dir/rs-gl.cpp.o[0m
+[ 77%] [32mBuilding CXX object tools/data-collect/CMakeFiles/rs-data-collect.dir/rs-data-collect.cpp.o[0m
+[ 77%] [32mBuilding CXX object examples/align-gl/CMakeFiles/rs-align-gl.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable ../../Release/rs-gl[0m
+[ 77%] Built target rs-gl
+[ 77%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/common/os.cpp.o[0m
+[ 78%] [32mBuilding CXX object tools/benchmark/CMakeFiles/rs-benchmark.dir/rs-benchmark.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 79%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/model-views.cpp.o[0m
+[ 79%] [32mBuilding C object tools/benchmark/CMakeFiles/rs-benchmark.dir/__/__/third-party/glad/glad.c.o[0m
+[ 79%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/rs-rosbag-inspector.cpp.o[0m
+[ 79%] [32mBuilding C object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/glad/glad.c.o[0m
+[ 80%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 80%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 80%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/calibration-model.cpp.o[0m
+[ 80%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/notifications.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/model-views.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/viewer.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-window.cpp.o[0m
+[ 81%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 81%] [32mBuilding C object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 81%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/notifications.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/ux-alignment.cpp.o[0m
+[ 82%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/opengl3.cpp.o[0m
+[ 83%] [32mBuilding CXX object tools/rosbag-inspector/CMakeFiles/rs-rosbag-inspector.dir/__/__/third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable ../../Release/rs-align-gl[0m
+[ 83%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/rs-config.cpp.o[0m
+[ 83%] Built target rs-align-gl
+[ 84%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/os.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/calibration-model.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/viewer.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-window.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable ../../Release/rs-data-collect[0m
+[ 85%] Built target rs-data-collect
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/fw-update-helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/metadata-helper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/ux-alignment.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable ../../Release/rs-benchmark[0m
+[ 85%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/output-model.cpp.o[0m
+[ 85%] Built target rs-benchmark
+[ 85%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/rs-config.cpp.o[0m
+[ 86%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/skybox.cpp.o[0m
+[ 86%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/os.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/opengl3.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/measurement.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/on-chip-calib.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/updates-model.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable ../../Release/rs-rosbag-inspector[0m
+[ 87%] Built target rs-rosbag-inspector
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/skybox.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/measurement.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/output-model.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/on-chip-calib.cpp.o[0m
+[ 88%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/post-processing-filters.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/stream-model.cpp.o[0m
+[ 90%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/metadata-helper.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/processing-block-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/subdevice-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/updates-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/fw-update-helper.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/option-model.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/http-downloader.cpp.o[0m
+[ 91%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 91%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/dev-updates-profile.cpp.o[0m
+[ 91%] [32mBuilding C object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/glad/glad.c.o[0m
+[ 92%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/reflectivity/reflectivity.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/third-party/imgui/imgui.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_impl_glfw.cpp.o[0m
+[ 94%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/imgui/imgui_draw.cpp.o[0m
+[ 94%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/glad/glad.c.o[0m
+[ 95%] [32mBuilding C object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/third-party/tinyfiledialogs/tinyfiledialogs.c.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/realsense-viewer.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/utilities/imgui/wrap.cpp.o[0m
+[ 95%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/sw-update/versions-db-manager.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/depth-quality-model.cpp.o[0m
+[ 96%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/rs-depth-quality.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/post-processing-filters.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/stream-model.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/processing-block-model.cpp.o[0m
+[ 97%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/device-model.cpp.o[0m
+[ 98%] [32mBuilding CXX object tools/depth-quality/CMakeFiles/rs-depth-quality.dir/__/__/common/option-model.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/subdevice-model.cpp.o[0m
+[ 99%] [32mBuilding CXX object tools/realsense-viewer/CMakeFiles/realsense-viewer.dir/__/__/common/device-model.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../../Release/rs-depth-quality[0m
+[100%] Built target rs-depth-quality
+[100%] [32m[1mLinking CXX executable ../../Release/realsense-viewer[0m
+[100%] Built target realsense-viewer
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so.2.55
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_advanced_mode_command.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_processing.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_pipeline.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_config.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_device.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_record_playback.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_internal.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_types.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_option.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_context.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_sensor.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/h/rs_frame.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_internal.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_pipeline.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_export.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_types.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_record_playback.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_serializable_device.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_options.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_processing.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_sensor.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_context.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_frame.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/hpp/rs_device.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rsutil.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2/rs.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2Config.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2/realsense2ConfigVersion.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2.pc
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librsutils.a
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense-file.a
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55.1
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so.2.55.1" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/librealsense2-gl.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfigVersion.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/pkgconfig/realsense2-gl.pc
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hello-realsense
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hello-realsense" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-software-device
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-software-device" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-capture
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-capture" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-callback
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-callback" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-save-to-disk
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-save-to-disk" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-multicam
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-multicam" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-pointcloud
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-pointcloud" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-gl
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-gl" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-advanced
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-align-advanced" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-sensor-control
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-sensor-control" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-measure
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-measure" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-color
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-color" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-distance
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-distance" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-post-processing
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-post-processing" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record-playback
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record-playback" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-motion
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-motion" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-gl
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-gl" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hdr
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-hdr" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-convert
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-convert" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-enumerate-devices
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-enumerate-devices" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-logger
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-logger" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-terminal
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-terminal" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-record" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-update
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-fw-update" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-embed
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-data-collect
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-data-collect" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/realsense-viewer
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/realsense-viewer" to ""
+-- Up-to-date: /home/adminlab/Documents/librealsense2/presets
+-- Up-to-date: /home/adminlab/Documents/librealsense2/presets/sample.preset
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth-quality
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-depth-quality" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-rosbag-inspector
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-rosbag-inspector" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-benchmark
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/librealsense2/bin/rs-benchmark" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/librealsense2/lib/libfw.a

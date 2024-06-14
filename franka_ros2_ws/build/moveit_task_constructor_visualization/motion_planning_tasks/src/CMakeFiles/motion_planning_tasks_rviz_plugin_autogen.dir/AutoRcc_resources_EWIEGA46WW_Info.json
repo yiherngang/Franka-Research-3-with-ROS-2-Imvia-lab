@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/home/adminlab/franka_ros2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen",
+	"CMAKE_BINARY_DIR" : "/home/adminlab/franka_ros2_ws/build/moveit_task_constructor_visualization",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/adminlab/franka_ros2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src",
+	"CMAKE_SOURCE_DIR" : "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization",
+	"INCLUDE_DIR" : "/home/adminlab/franka_ros2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/motion_planning_tasks_rviz_plugin_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/tasks.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/updownarrow.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/add.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/generatearrow.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/failed.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/downarrow.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/success.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/connectarrow.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/new-stage.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/settings.png",
+		"/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/icons/uparrow.png"
+	],
+	"LOCK_FILE" : "/home/adminlab/franka_ros2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/adminlab/franka_ros2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/visualization/motion_planning_tasks/src/resources.qrc",
+	"VERBOSITY" : 0
+}

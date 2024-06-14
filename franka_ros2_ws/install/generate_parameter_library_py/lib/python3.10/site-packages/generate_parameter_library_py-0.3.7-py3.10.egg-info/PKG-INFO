@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: generate-parameter-library-py
+Version: 0.3.7
+Summary: Generate the ROS parameter struct in C++ and Python with callbacks for updating.
+Home-page: https://github.com/PickNikRobotics/generate_parameter_library
+Author: Paul Gesel
+Author-email: paul.gesel@picknik.ai
+License: BSD-3-Clause
+Download-URL: https://github.com/PickNikRobotics/generate_parameter_library/releases
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD-3-Clause
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

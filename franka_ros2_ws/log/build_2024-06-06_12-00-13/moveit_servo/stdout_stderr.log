@@ -1,0 +1,94 @@
+[35m[1mConsolidate compiler generated dependencies of target servo_controller_input[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib_parameters[0m
+[  6%] Built target gtest_main
+[ 12%] Built target gtest
+[ 18%] Built target fake_command_publisher
+[ 24%] Built target servo_controller_input
+[ 33%] Built target moveit_servo_lib_parameters
+[35m[1mConsolidate compiler generated dependencies of target test_servo_integration[0m
+[35m[1mConsolidate compiler generated dependencies of target test_servo_collision[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib[0m
+[ 39%] Built target test_servo_integration
+[ 45%] Built target test_servo_collision
+[ 63%] Built target moveit_servo_lib
+[35m[1mConsolidate compiler generated dependencies of target servo_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/servo_calcs_unit_tests.dir/test/servo_calcs_unit_tests.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m
+[ 75%] Built target servo_node
+[ 78%] [32mBuilding CXX object CMakeFiles/servo_node_main.dir/src/servo_node_main.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable servo_node_main[0m
+[ 81%] Built target servo_node_main
+[ 84%] [32m[1mLinking CXX shared library libpose_tracking.so[0m
+[ 84%] Built target pose_tracking
+[ 90%] [32mBuilding CXX object CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/test_servo_pose_tracking.dir/test/pose_tracking_test.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable servo_calcs_unit_tests[0m
+[ 93%] Built target servo_calcs_unit_tests
+[ 96%] [32m[1mLinking CXX executable servo_pose_tracking_demo[0m
+[ 96%] Built target servo_pose_tracking_demo
+[100%] [32m[1mLinking CXX executable test_servo_pose_tracking[0m
+[100%] Built target test_servo_pose_tracking
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libmoveit_servo_lib.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libpose_tracking.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libpose_tracking.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libservo_node.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libservo_node.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libservo_controller_input.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/libservo_controller_input.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/moveit_servo/servo_node_main
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/moveit_servo/servo_node_main" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/lib/moveit_servo/fake_command_publisher
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_servo/lib/moveit_servo/fake_command_publisher" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/servo_calcs.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/pose_tracking.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/make_shared_from_pool.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/servo_server.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/utilities.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/servo.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/collision_check.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/status_codes.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/servo_parameters.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/servo_node.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/enforce_limits.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/include/moveit_servo/parameter_descriptor_builder.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/launch
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/launch/pose_tracking_example.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/launch/servo_example.launch.py
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/config
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/config/demo_rviz_config.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/config/demo_rviz_pose_tracking.rviz
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/config/panda_simulated_config.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/config/pose_tracking_settings.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/config/panda_simulated_config_pose_tracking.yaml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_servo/share/moveit_servo/package.xml

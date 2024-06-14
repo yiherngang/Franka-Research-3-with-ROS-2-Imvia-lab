@@ -1,0 +1,263 @@
+PORTED FUNCs LIST (231 of 237):
+
+static Ptr_AKAZE cv::AKAZE::create(AKAZE_DescriptorType descriptor_type = AKAZE::DESCRIPTOR_MLDB, int descriptor_size = 0, int descriptor_channels = 3, float threshold = 0.001f, int nOctaves = 4, int nOctaveLayers = 4, KAZE_DiffusivityType diffusivity = KAZE::DIFF_PM_G2, int max_points = -1)
+ void cv::AKAZE::setDescriptorType(AKAZE_DescriptorType dtype)
+ AKAZE_DescriptorType cv::AKAZE::getDescriptorType()
+ void cv::AKAZE::setDescriptorSize(int dsize)
+ int cv::AKAZE::getDescriptorSize()
+ void cv::AKAZE::setDescriptorChannels(int dch)
+ int cv::AKAZE::getDescriptorChannels()
+ void cv::AKAZE::setThreshold(double threshold)
+ double cv::AKAZE::getThreshold()
+ void cv::AKAZE::setNOctaves(int octaves)
+ int cv::AKAZE::getNOctaves()
+ void cv::AKAZE::setNOctaveLayers(int octaveLayers)
+ int cv::AKAZE::getNOctaveLayers()
+ void cv::AKAZE::setDiffusivity(KAZE_DiffusivityType diff)
+ KAZE_DiffusivityType cv::AKAZE::getDiffusivity()
+ String cv::AKAZE::getDefaultName()
+ void cv::AKAZE::setMaxPoints(int max_points)
+ int cv::AKAZE::getMaxPoints()
+static Ptr_AffineFeature cv::AffineFeature::create(Ptr_Feature2D backend, int maxTilt = 5, int minTilt = 0, float tiltStep = 1.4142135623730951f, float rotateStepBase = 72)
+ void cv::AffineFeature::setViewParams(vector_float tilts, vector_float rolls)
+ void cv::AffineFeature::getViewParams(vector_float tilts, vector_float rolls)
+ String cv::AffineFeature::getDefaultName()
+static Ptr_AgastFeatureDetector cv::AgastFeatureDetector::create(int threshold = 10, bool nonmaxSuppression = true, AgastFeatureDetector_DetectorType type = AgastFeatureDetector::OAST_9_16)
+ void cv::AgastFeatureDetector::setThreshold(int threshold)
+ int cv::AgastFeatureDetector::getThreshold()
+ void cv::AgastFeatureDetector::setNonmaxSuppression(bool f)
+ bool cv::AgastFeatureDetector::getNonmaxSuppression()
+ void cv::AgastFeatureDetector::setType(AgastFeatureDetector_DetectorType type)
+ AgastFeatureDetector_DetectorType cv::AgastFeatureDetector::getType()
+ String cv::AgastFeatureDetector::getDefaultName()
+  cv::BFMatcher::BFMatcher(int normType = NORM_L2, bool crossCheck = false)
+static Ptr_BFMatcher cv::BFMatcher::create(int normType = NORM_L2, bool crossCheck = false)
+  cv::BOWImgDescriptorExtractor::BOWImgDescriptorExtractor(Ptr_Feature2D dextractor, Ptr_DescriptorMatcher dmatcher)
+ void cv::BOWImgDescriptorExtractor::setVocabulary(Mat vocabulary)
+ Mat cv::BOWImgDescriptorExtractor::getVocabulary()
+ void cv::BOWImgDescriptorExtractor::compute2(Mat image, vector_KeyPoint keypoints, Mat& imgDescriptor)
+ int cv::BOWImgDescriptorExtractor::descriptorSize()
+ int cv::BOWImgDescriptorExtractor::descriptorType()
+  cv::BOWKMeansTrainer::BOWKMeansTrainer(int clusterCount, TermCriteria termcrit = TermCriteria(), int attempts = 3, int flags = KMEANS_PP_CENTERS)
+ Mat cv::BOWKMeansTrainer::cluster()
+ Mat cv::BOWKMeansTrainer::cluster(Mat descriptors)
+ void cv::BOWTrainer::add(Mat descriptors)
+ vector_Mat cv::BOWTrainer::getDescriptors()
+ int cv::BOWTrainer::descriptorsCount()
+ void cv::BOWTrainer::clear()
+ Mat cv::BOWTrainer::cluster()
+ Mat cv::BOWTrainer::cluster(Mat descriptors)
+static Ptr_BRISK cv::BRISK::create(int thresh = 30, int octaves = 3, float patternScale = 1.0f)
+static Ptr_BRISK cv::BRISK::create(vector_float radiusList, vector_int numberList, float dMax = 5.85f, float dMin = 8.2f, vector_int indexChange = std::vector<int>())
+static Ptr_BRISK cv::BRISK::create(int thresh, int octaves, vector_float radiusList, vector_int numberList, float dMax = 5.85f, float dMin = 8.2f, vector_int indexChange = std::vector<int>())
+ String cv::BRISK::getDefaultName()
+ void cv::BRISK::setThreshold(int threshold)
+ int cv::BRISK::getThreshold()
+ void cv::BRISK::setOctaves(int octaves)
+ int cv::BRISK::getOctaves()
+ void cv::BRISK::setPatternScale(float patternScale)
+ float cv::BRISK::getPatternScale()
+ void cv::DescriptorMatcher::add(vector_Mat descriptors)
+ vector_Mat cv::DescriptorMatcher::getTrainDescriptors()
+ void cv::DescriptorMatcher::clear()
+ bool cv::DescriptorMatcher::empty()
+ bool cv::DescriptorMatcher::isMaskSupported()
+ void cv::DescriptorMatcher::train()
+ void cv::DescriptorMatcher::match(Mat queryDescriptors, Mat trainDescriptors, vector_DMatch& matches, Mat mask = Mat())
+ void cv::DescriptorMatcher::knnMatch(Mat queryDescriptors, Mat trainDescriptors, vector_vector_DMatch& matches, int k, Mat mask = Mat(), bool compactResult = false)
+ void cv::DescriptorMatcher::radiusMatch(Mat queryDescriptors, Mat trainDescriptors, vector_vector_DMatch& matches, float maxDistance, Mat mask = Mat(), bool compactResult = false)
+ void cv::DescriptorMatcher::match(Mat queryDescriptors, vector_DMatch& matches, vector_Mat masks = vector_Mat())
+ void cv::DescriptorMatcher::knnMatch(Mat queryDescriptors, vector_vector_DMatch& matches, int k, vector_Mat masks = vector_Mat(), bool compactResult = false)
+ void cv::DescriptorMatcher::radiusMatch(Mat queryDescriptors, vector_vector_DMatch& matches, float maxDistance, vector_Mat masks = vector_Mat(), bool compactResult = false)
+ void cv::DescriptorMatcher::write(String fileName)
+ void cv::DescriptorMatcher::read(String fileName)
+ Ptr_DescriptorMatcher cv::DescriptorMatcher::clone(bool emptyTrainData = false)
+static Ptr_DescriptorMatcher cv::DescriptorMatcher::create(String descriptorMatcherType)
+static Ptr_DescriptorMatcher cv::DescriptorMatcher::create(DescriptorMatcher_MatcherType matcherType)
+static Ptr_FastFeatureDetector cv::FastFeatureDetector::create(int threshold = 10, bool nonmaxSuppression = true, FastFeatureDetector_DetectorType type = FastFeatureDetector::TYPE_9_16)
+ void cv::FastFeatureDetector::setThreshold(int threshold)
+ int cv::FastFeatureDetector::getThreshold()
+ void cv::FastFeatureDetector::setNonmaxSuppression(bool f)
+ bool cv::FastFeatureDetector::getNonmaxSuppression()
+ void cv::FastFeatureDetector::setType(FastFeatureDetector_DetectorType type)
+ FastFeatureDetector_DetectorType cv::FastFeatureDetector::getType()
+ String cv::FastFeatureDetector::getDefaultName()
+ void cv::Feature2D::detect(Mat image, vector_KeyPoint& keypoints, Mat mask = Mat())
+ void cv::Feature2D::detect(vector_Mat images, vector_vector_KeyPoint& keypoints, vector_Mat masks = vector_Mat())
+ void cv::Feature2D::compute(Mat image, vector_KeyPoint& keypoints, Mat& descriptors)
+ void cv::Feature2D::compute(vector_Mat images, vector_vector_KeyPoint& keypoints, vector_Mat& descriptors)
+ void cv::Feature2D::detectAndCompute(Mat image, Mat mask, vector_KeyPoint& keypoints, Mat& descriptors, bool useProvidedKeypoints = false)
+ int cv::Feature2D::descriptorSize()
+ int cv::Feature2D::descriptorType()
+ int cv::Feature2D::defaultNorm()
+ void cv::Feature2D::write(String fileName)
+ void cv::Feature2D::read(String fileName)
+ bool cv::Feature2D::empty()
+ String cv::Feature2D::getDefaultName()
+ void cv::drawKeypoints(Mat image, vector_KeyPoint keypoints, Mat& outImage, Scalar color = Scalar::all(-1), DrawMatchesFlags flags = DrawMatchesFlags::DEFAULT)
+ void cv::drawMatches(Mat img1, vector_KeyPoint keypoints1, Mat img2, vector_KeyPoint keypoints2, vector_DMatch matches1to2, Mat& outImg, Scalar matchColor = Scalar::all(-1), Scalar singlePointColor = Scalar::all(-1), vector_char matchesMask = std::vector<char>(), DrawMatchesFlags flags = DrawMatchesFlags::DEFAULT)
+ void cv::drawMatches(Mat img1, vector_KeyPoint keypoints1, Mat img2, vector_KeyPoint keypoints2, vector_DMatch matches1to2, Mat& outImg, int matchesThickness, Scalar matchColor = Scalar::all(-1), Scalar singlePointColor = Scalar::all(-1), vector_char matchesMask = std::vector<char>(), DrawMatchesFlags flags = DrawMatchesFlags::DEFAULT)
+ void cv::drawMatches(Mat img1, vector_KeyPoint keypoints1, Mat img2, vector_KeyPoint keypoints2, vector_vector_DMatch matches1to2, Mat& outImg, Scalar matchColor = Scalar::all(-1), Scalar singlePointColor = Scalar::all(-1), vector_vector_char matchesMask = std::vector<std::vector<char> >(), DrawMatchesFlags flags = DrawMatchesFlags::DEFAULT)
+  cv::FlannBasedMatcher::FlannBasedMatcher(Ptr_flann_IndexParams indexParams = makePtr<flann::KDTreeIndexParams>(), Ptr_flann_SearchParams searchParams = makePtr<flann::SearchParams>())
+static Ptr_FlannBasedMatcher cv::FlannBasedMatcher::create()
+static Ptr_GFTTDetector cv::GFTTDetector::create(int maxCorners = 1000, double qualityLevel = 0.01, double minDistance = 1, int blockSize = 3, bool useHarrisDetector = false, double k = 0.04)
+static Ptr_GFTTDetector cv::GFTTDetector::create(int maxCorners, double qualityLevel, double minDistance, int blockSize, int gradiantSize, bool useHarrisDetector = false, double k = 0.04)
+ void cv::GFTTDetector::setMaxFeatures(int maxFeatures)
+ int cv::GFTTDetector::getMaxFeatures()
+ void cv::GFTTDetector::setQualityLevel(double qlevel)
+ double cv::GFTTDetector::getQualityLevel()
+ void cv::GFTTDetector::setMinDistance(double minDistance)
+ double cv::GFTTDetector::getMinDistance()
+ void cv::GFTTDetector::setBlockSize(int blockSize)
+ int cv::GFTTDetector::getBlockSize()
+ void cv::GFTTDetector::setGradientSize(int gradientSize_)
+ int cv::GFTTDetector::getGradientSize()
+ void cv::GFTTDetector::setHarrisDetector(bool val)
+ bool cv::GFTTDetector::getHarrisDetector()
+ void cv::GFTTDetector::setK(double k)
+ double cv::GFTTDetector::getK()
+ String cv::GFTTDetector::getDefaultName()
+static Ptr_KAZE cv::KAZE::create(bool extended = false, bool upright = false, float threshold = 0.001f, int nOctaves = 4, int nOctaveLayers = 4, KAZE_DiffusivityType diffusivity = KAZE::DIFF_PM_G2)
+ void cv::KAZE::setExtended(bool extended)
+ bool cv::KAZE::getExtended()
+ void cv::KAZE::setUpright(bool upright)
+ bool cv::KAZE::getUpright()
+ void cv::KAZE::setThreshold(double threshold)
+ double cv::KAZE::getThreshold()
+ void cv::KAZE::setNOctaves(int octaves)
+ int cv::KAZE::getNOctaves()
+ void cv::KAZE::setNOctaveLayers(int octaveLayers)
+ int cv::KAZE::getNOctaveLayers()
+ void cv::KAZE::setDiffusivity(KAZE_DiffusivityType diff)
+ KAZE_DiffusivityType cv::KAZE::getDiffusivity()
+ String cv::KAZE::getDefaultName()
+static Ptr_MSER cv::MSER::create(int delta = 5, int min_area = 60, int max_area = 14400, double max_variation = 0.25, double min_diversity = .2, int max_evolution = 200, double area_threshold = 1.01, double min_margin = 0.003, int edge_blur_size = 5)
+ void cv::MSER::detectRegions(Mat image, vector_vector_Point& msers, vector_Rect& bboxes)
+ void cv::MSER::setDelta(int delta)
+ int cv::MSER::getDelta()
+ void cv::MSER::setMinArea(int minArea)
+ int cv::MSER::getMinArea()
+ void cv::MSER::setMaxArea(int maxArea)
+ int cv::MSER::getMaxArea()
+ void cv::MSER::setMaxVariation(double maxVariation)
+ double cv::MSER::getMaxVariation()
+ void cv::MSER::setMinDiversity(double minDiversity)
+ double cv::MSER::getMinDiversity()
+ void cv::MSER::setMaxEvolution(int maxEvolution)
+ int cv::MSER::getMaxEvolution()
+ void cv::MSER::setAreaThreshold(double areaThreshold)
+ double cv::MSER::getAreaThreshold()
+ void cv::MSER::setMinMargin(double min_margin)
+ double cv::MSER::getMinMargin()
+ void cv::MSER::setEdgeBlurSize(int edge_blur_size)
+ int cv::MSER::getEdgeBlurSize()
+ void cv::MSER::setPass2Only(bool f)
+ bool cv::MSER::getPass2Only()
+ String cv::MSER::getDefaultName()
+static Ptr_ORB cv::ORB::create(int nfeatures = 500, float scaleFactor = 1.2f, int nlevels = 8, int edgeThreshold = 31, int firstLevel = 0, int WTA_K = 2, ORB_ScoreType scoreType = ORB::HARRIS_SCORE, int patchSize = 31, int fastThreshold = 20)
+ void cv::ORB::setMaxFeatures(int maxFeatures)
+ int cv::ORB::getMaxFeatures()
+ void cv::ORB::setScaleFactor(double scaleFactor)
+ double cv::ORB::getScaleFactor()
+ void cv::ORB::setNLevels(int nlevels)
+ int cv::ORB::getNLevels()
+ void cv::ORB::setEdgeThreshold(int edgeThreshold)
+ int cv::ORB::getEdgeThreshold()
+ void cv::ORB::setFirstLevel(int firstLevel)
+ int cv::ORB::getFirstLevel()
+ void cv::ORB::setWTA_K(int wta_k)
+ int cv::ORB::getWTA_K()
+ void cv::ORB::setScoreType(ORB_ScoreType scoreType)
+ ORB_ScoreType cv::ORB::getScoreType()
+ void cv::ORB::setPatchSize(int patchSize)
+ int cv::ORB::getPatchSize()
+ void cv::ORB::setFastThreshold(int fastThreshold)
+ int cv::ORB::getFastThreshold()
+ String cv::ORB::getDefaultName()
+static Ptr_SIFT cv::SIFT::create(int nfeatures = 0, int nOctaveLayers = 3, double contrastThreshold = 0.04, double edgeThreshold = 10, double sigma = 1.6, bool enable_precise_upscale = false)
+static Ptr_SIFT cv::SIFT::create(int nfeatures, int nOctaveLayers, double contrastThreshold, double edgeThreshold, double sigma, int descriptorType, bool enable_precise_upscale = false)
+ String cv::SIFT::getDefaultName()
+ void cv::SIFT::setNFeatures(int maxFeatures)
+ int cv::SIFT::getNFeatures()
+ void cv::SIFT::setNOctaveLayers(int nOctaveLayers)
+ int cv::SIFT::getNOctaveLayers()
+ void cv::SIFT::setContrastThreshold(double contrastThreshold)
+ double cv::SIFT::getContrastThreshold()
+ void cv::SIFT::setEdgeThreshold(double edgeThreshold)
+ double cv::SIFT::getEdgeThreshold()
+ void cv::SIFT::setSigma(double sigma)
+ double cv::SIFT::getSigma()
+static Ptr_SimpleBlobDetector cv::SimpleBlobDetector::create(SimpleBlobDetector_Params parameters = SimpleBlobDetector::Params())
+ void cv::SimpleBlobDetector::setParams(SimpleBlobDetector_Params params)
+ SimpleBlobDetector_Params cv::SimpleBlobDetector::getParams()
+ String cv::SimpleBlobDetector::getDefaultName()
+ vector_vector_Point cv::SimpleBlobDetector::getBlobContours()
+  cv::SimpleBlobDetector::Params::Params()
+float SimpleBlobDetector_Params::thresholdStep
+void SimpleBlobDetector_Params::thresholdStep
+float SimpleBlobDetector_Params::minThreshold
+void SimpleBlobDetector_Params::minThreshold
+float SimpleBlobDetector_Params::maxThreshold
+void SimpleBlobDetector_Params::maxThreshold
+size_t SimpleBlobDetector_Params::minRepeatability
+void SimpleBlobDetector_Params::minRepeatability
+float SimpleBlobDetector_Params::minDistBetweenBlobs
+void SimpleBlobDetector_Params::minDistBetweenBlobs
+bool SimpleBlobDetector_Params::filterByColor
+void SimpleBlobDetector_Params::filterByColor
+bool SimpleBlobDetector_Params::filterByArea
+void SimpleBlobDetector_Params::filterByArea
+float SimpleBlobDetector_Params::minArea
+void SimpleBlobDetector_Params::minArea
+float SimpleBlobDetector_Params::maxArea
+void SimpleBlobDetector_Params::maxArea
+bool SimpleBlobDetector_Params::filterByCircularity
+void SimpleBlobDetector_Params::filterByCircularity
+float SimpleBlobDetector_Params::minCircularity
+void SimpleBlobDetector_Params::minCircularity
+float SimpleBlobDetector_Params::maxCircularity
+void SimpleBlobDetector_Params::maxCircularity
+bool SimpleBlobDetector_Params::filterByInertia
+void SimpleBlobDetector_Params::filterByInertia
+float SimpleBlobDetector_Params::minInertiaRatio
+void SimpleBlobDetector_Params::minInertiaRatio
+float SimpleBlobDetector_Params::maxInertiaRatio
+void SimpleBlobDetector_Params::maxInertiaRatio
+bool SimpleBlobDetector_Params::filterByConvexity
+void SimpleBlobDetector_Params::filterByConvexity
+float SimpleBlobDetector_Params::minConvexity
+void SimpleBlobDetector_Params::minConvexity
+float SimpleBlobDetector_Params::maxConvexity
+void SimpleBlobDetector_Params::maxConvexity
+bool SimpleBlobDetector_Params::collectContours
+void SimpleBlobDetector_Params::collectContours
+
+SKIPPED FUNCs LIST (6 of 237):
+
+ void cv::DescriptorMatcher::read(FileNode arg1)
+// Unknown type 'FileNode' (I), skipping the function
+
+ void cv::DescriptorMatcher::write(FileStorage fs, String name)
+// Unknown type 'FileStorage' (I), skipping the function
+
+ void cv::Feature2D::read(FileNode arg1)
+// Unknown type 'FileNode' (I), skipping the function
+
+ void cv::Feature2D::write(FileStorage fs, String name)
+// Unknown type 'FileStorage' (I), skipping the function
+
+uchar SimpleBlobDetector_Params::blobColor
+// Return type 'uchar' is not supported, skipping the function
+
+void SimpleBlobDetector_Params::blobColor
+// Unknown type 'uchar' (I), skipping the function
+
+
+0 def args - 164 funcs
+1 def args - 8 funcs
+2 def args - 9 funcs
+3 def args - 6 funcs
+4 def args - 4 funcs
+6 def args - 3 funcs
+8 def args - 1 funcs
+9 def args - 2 funcs

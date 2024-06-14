@@ -1,0 +1,42 @@
+[ 25%] Built target moveit_ros_control_interface_empty_plugin
+[ 50%] Built target moveit_ros_control_interface_trajectory_plugin
+[ 75%] Built target moveit_ros_control_interface_gripper_plugin
+[100%] Built target moveit_ros_control_interface_plugin
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.5.5
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/include/moveit_ros_control_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_core_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_ros_control_interface_plugins.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_control_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_control_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/packages/moveit_ros_control_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_control_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_ros_control_interface__pluginlib__plugin/moveit_ros_control_interface
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/export_moveit_ros_control_interfaceExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ConfigExtras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.xml

@@ -1,0 +1,20 @@
+{
+  "package_name": "franka_msgs",
+  "non_idl_tuples": [
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:action/Grasp.action",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:action/Homing.action",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:action/Move.action",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:msg/CollisionIndicators.msg",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:msg/Elbow.msg",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:msg/Errors.msg",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:msg/GraspEpsilon.msg",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:msg/FrankaRobotState.msg",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:srv/SetCartesianStiffness.srv",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:srv/SetTCPFrame.srv",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:srv/SetForceTorqueCollisionBehavior.srv",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:srv/SetFullCollisionBehavior.srv",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:srv/SetJointStiffness.srv",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:srv/SetStiffnessFrame.srv",
+    "/home/adminlab/franka_ros2_ws/src/franka_ros2/franka_msgs:srv/SetLoad.srv"
+  ]
+}

@@ -1,0 +1,52 @@
+Package libusb was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libusb.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libusb' found
+[0mCUDA_TOOLKIT_ROOT_DIR not found or specified[0m
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/src/tools/file/vpIoTools.cpp:113[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/src/tools/file/basisu_miniz.h:[m[K In function ‘[01m[Kbuminiz::tinfl_status buminiz::tinfl_decompress(buminiz::tinfl_decompressor*, const mz_uint8*, size_t*, buminiz::mz_uint8*, buminiz::mz_uint8*, size_t*, buminiz::mz_uint32)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/src/tools/file/basisu_miniz.h:1234:91:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+ 1234 |             if ([01;35m[K(sym2 = r->m_tables[0].m_look_up[bit_buf & (TINFL_FAST_LOOKUP_SIZE - 1)]) >= 0[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/src/tools/file/basisu_miniz.h:1237:138:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K< 0[m[K’ is always false [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+ 1237 |               code_len = TINFL_FAST_LOOKUP_BITS; do { sym2 = r->m_tables[0].m_tree[~sym2 + ((bit_buf >> code_len++) & 1)]; } while ([01;35m[Ksym2 < 0[m[K);
+      |                                                                                                                                     [01;35m[K~~~~~^~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/src/tools/file/basisu_miniz.h:1246:91:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+ 1246 |             if ([01;35m[K(sym2 = r->m_tables[0].m_look_up[bit_buf & (TINFL_FAST_LOOKUP_SIZE - 1)]) >= 0[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/src/tools/file/basisu_miniz.h:1249:138:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K< 0[m[K’ is always false [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+ 1249 |               code_len = TINFL_FAST_LOOKUP_BITS; do { sym2 = r->m_tables[0].m_tree[~sym2 + ((bit_buf >> code_len++) & 1)]; } while ([01;35m[Ksym2 < 0[m[K);
+      |                                                                                                                                     [01;35m[K~~~~~^~~[m[K
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/visp/example/device/framegrabber/saveRealSenseData.cpp:64[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/include/visp3/core/vpIoTools.h:[m[K In function ‘[01m[Kvoid visp::cnpy::npz_save(std::string, std::string, const T*, const std::vector<long unsigned int>&, std::string) [with T = float][m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/visp/modules/core/include/visp3/core/vpIoTools.h:318:9:[m[K [01;35m[Kwarning: [m[Kargument 1 null where non-null expected [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+  318 |   [01;35m[Kfwrite(data, sizeof(T), nels, fp)[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/cstdio:42[m[K,
+                 from [01m[K/usr/include/c++/11/ext/string_conversions.h:43[m[K,
+                 from [01m[K/usr/include/c++/11/bits/basic_string.h:6608[m[K,
+                 from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/visp/example/device/framegrabber/saveRealSenseData.cpp:39[m[K:
+[01m[K/usr/include/stdio.h:681:15:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Ksize_t fwrite(const void*, size_t, size_t, FILE*)[m[K’ declared ‘[01m[Knonnull[m[K’
+  681 | extern size_t [01;36m[Kfwrite[m[K (const void *__restrict __ptr, size_t __size,
+      |               [01;36m[K^~~~~~[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-unqualified-std-cast-call[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-inconsistent-missing-override[m[K’ may have been intended to silence earlier diagnostics
+gmake[2]: *** Deleting file 'example/servo-franka/servoFrankaPBVS'
+gmake[2]: *** [example/tracking/CMakeFiles/mbtGenericTracking.dir/build.make:76: example/tracking/CMakeFiles/mbtGenericTracking.dir/mbtGenericTracking.cpp.o] Interrupt
+gmake[2]: *** [example/tracking/CMakeFiles/mbtGenericTracking2.dir/build.make:76: example/tracking/CMakeFiles/mbtGenericTracking2.dir/mbtGenericTracking2.cpp.o] Interrupt
+gmake[2]: *** [example/tracking/CMakeFiles/mbtEdgeTracking.dir/build.make:76: example/tracking/CMakeFiles/mbtEdgeTracking.dir/mbtEdgeTracking.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:19268: example/tracking/CMakeFiles/mbtGenericTracking.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:19311: example/tracking/CMakeFiles/mbtGenericTracking2.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:19225: example/tracking/CMakeFiles/mbtEdgeTracking.dir/all] Interrupt
+gmake[2]: *** [example/tracking/CMakeFiles/mbtEdgeKltTracking.dir/build.make:76: example/tracking/CMakeFiles/mbtEdgeKltTracking.dir/mbtEdgeKltTracking.cpp.o] Interrupt
+gmake[2]: *** [example/servo-franka/CMakeFiles/servoFrankaPBVS.dir/build.make:277: example/servo-franka/servoFrankaPBVS] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:19182: example/tracking/CMakeFiles/mbtEdgeKltTracking.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:17634: example/servo-franka/CMakeFiles/servoFrankaPBVS.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

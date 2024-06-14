@@ -1,0 +1,41 @@
+[0.072s] Invoking command in '/home/adminlab/franka_ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/franka_hardware -- -j16 -l16
+[0.149s] [ 18%] Built target gmock
+[0.152s] [ 31%] Built target gmock_main
+[0.175s] [ 62%] Built target franka_hardware
+[0.225s] [ 75%] Built target franka_hardware_command_interface_test
+[0.230s] [ 87%] Built target franka_hardware_test
+[0.237s] [100%] Built target franka_hardware_robot_test
+[0.259s] Invoked command in '/home/adminlab/franka_ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/franka_hardware -- -j16 -l16
+[0.414s] Invoking command in '/home/adminlab/franka_ros2_ws/build/franka_hardware': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/franka_hardware
+[0.420s] -- Install configuration: ""
+[0.420s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/franka_hardware.xml
+[0.421s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/lib/libfranka_hardware.so
+[0.422s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include
+[0.422s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware
+[0.422s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp
+[0.422s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_param_service_server.hpp
+[0.423s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp
+[0.423s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/robot.hpp
+[0.423s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_executor.hpp
+[0.423s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+[0.423s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+[0.423s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+[0.423s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+[0.424s] -- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.dsv
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.424s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+[0.425s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+[0.425s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.xml
+[0.429s] Invoked command in '/home/adminlab/franka_ros2_ws/build/franka_hardware' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/franka_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/franka_hardware

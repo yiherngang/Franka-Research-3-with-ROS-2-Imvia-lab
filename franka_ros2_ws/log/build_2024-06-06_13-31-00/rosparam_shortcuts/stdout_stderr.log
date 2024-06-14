@@ -1,0 +1,90 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.7.0 (/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/rosparam_shortcuts
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/node_parameters.cpp.o[0m
+[ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts.dir/src/rosparam_shortcuts.cpp.o[0m
+[ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 38%] Built target gtest_main
+[ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 46%] Built target gtest
+[ 53%] [32m[1mLinking CXX shared library librosparam_shortcuts.so[0m
+[ 53%] Built target rosparam_shortcuts
+[35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_example[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_example.dir/src/example.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable example[0m
+[ 69%] Built target rosparam_shortcuts_example
+[35m[1mConsolidate compiler generated dependencies of target test_node_parameters[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_node_parameters.dir/test/test_node_parameters.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable test_node_parameters[0m
+[ 84%] Built target test_node_parameters
+[35m[1mConsolidate compiler generated dependencies of target rosparam_shortcuts_node_parameters_example[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rosparam_shortcuts_node_parameters_example.dir/src/node_parameters_example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable node_parameters_example[0m
+[100%] Built target rosparam_shortcuts_node_parameters_example
+-- Install configuration: "Debug"
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/librosparam_shortcuts.so" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/example" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml

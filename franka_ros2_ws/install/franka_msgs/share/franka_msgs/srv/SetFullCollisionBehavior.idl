@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_msgs/srv/SetFullCollisionBehavior.srv
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module srv {
+    typedef double double__7[7];
+    typedef double double__6[6];
+    struct SetFullCollisionBehavior_Request {
+      double__7 lower_torque_thresholds_acceleration;
+
+      double__7 upper_torque_thresholds_acceleration;
+
+      double__7 lower_torque_thresholds_nominal;
+
+      double__7 upper_torque_thresholds_nominal;
+
+      double__6 lower_force_thresholds_acceleration;
+
+      double__6 upper_force_thresholds_acceleration;
+
+      double__6 lower_force_thresholds_nominal;
+
+      double__6 upper_force_thresholds_nominal;
+    };
+    struct SetFullCollisionBehavior_Response {
+      boolean success;
+
+      string error;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/MotionPlanResponse.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The representation of a solution to a planning problem")
+    struct MotionPlanResponse {
+      @verbatim (language="comment", text=
+        "The corresponding robot state")
+      moveit_msgs::msg::RobotState trajectory_start;
+
+      @verbatim (language="comment", text=
+        "The group used for planning (usually the same as in the request)")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        "A solution trajectory, if found")
+      moveit_msgs::msg::RobotTrajectory trajectory;
+
+      @verbatim (language="comment", text=
+        "Planning time (seconds)")
+      double planning_time;
+
+      @verbatim (language="comment", text=
+        "Error code - encodes the overall reason for failure")
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+    };
+  };
+};

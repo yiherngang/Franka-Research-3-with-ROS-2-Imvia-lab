@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/ChangeControlDimensions.srv
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "For use with moveit_jog_arm Cartesian planner" "\n"
+      "" "\n"
+      "Turn on/off jogging along these dimensions." "\n"
+      "Give 'true' to enable jogging in the direction, 'false' to disable")
+    struct ChangeControlDimensions_Request {
+      boolean control_x_translation;
+
+      boolean control_y_translation;
+
+      boolean control_z_translation;
+
+      boolean control_x_rotation;
+
+      boolean control_y_rotation;
+
+      boolean control_z_rotation;
+    };
+    struct ChangeControlDimensions_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,937 @@
+[0.069s] Invoking command in '/home/adminlab/franka_ros2_ws/build/OpenCV': /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/OpenCV -- -j16 -l16
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target ittnotify[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target ippiw[0m
+[0.144s] [  0%] Built target opencv_dnn_plugins
+[0.144s] [  0%] Built target opencv_videoio_plugins
+[0.144s] [  0%] Built target opencv_highgui_plugins
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target ade[0m
+[0.147s] [  0%] Built target ittnotify
+[0.150s] [  0%] Built target gen_opencv_python_source
+[0.152s] [  0%] Built target gen_opencv_java_source
+[0.157s] [  2%] Built target ippiw
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target libprotobuf[0m
+[0.171s] [  3%] Built target ade
+[0.174s] [  3%] Built target opencv_java_jar_source_copy
+[0.198s] [  3%] Built target opencv_java_jar_sources
+[0.209s] [  6%] Built target libprotobuf
+[0.221s] [  6%] Built target opencv_java_jar
+[0.253s] [35m[1mConsolidate compiler generated dependencies of target opencv_core[0m
+[0.416s] [ 14%] Built target opencv_core
+[0.428s] [35m[1mConsolidate compiler generated dependencies of target opencv_version[0m
+[0.433s] [35m[1mConsolidate compiler generated dependencies of target opencv_flann[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target opencv_ml[0m
+[0.440s] [ 14%] Built target opencv_version
+[0.448s] [ 15%] Built target opencv_flann
+[0.471s] [ 16%] Built target opencv_ml
+[0.494s] [35m[1mConsolidate compiler generated dependencies of target opencv_imgproc[0m
+[0.653s] [ 23%] Built target opencv_imgproc
+[0.682s] [35m[1mConsolidate compiler generated dependencies of target opencv_photo[0m
+[0.689s] [35m[1mConsolidate compiler generated dependencies of target opencv_imgcodecs[0m
+[0.712s] [35m[1mConsolidate compiler generated dependencies of target opencv_features2d[0m
+[0.722s] [ 24%] Built target opencv_photo
+[0.750s] [ 26%] Built target opencv_imgcodecs
+[0.789s] [ 28%] Built target opencv_features2d
+[0.789s] [35m[1mConsolidate compiler generated dependencies of target opencv_videoio[0m
+[0.790s] [35m[1mConsolidate compiler generated dependencies of target opencv_dnn[0m
+[0.833s] [ 29%] Built target opencv_videoio
+[0.847s] [35m[1mConsolidate compiler generated dependencies of target opencv_calib3d[0m
+[0.850s] [35m[1mConsolidate compiler generated dependencies of target opencv_highgui[0m
+[0.883s] [ 29%] Built target opencv_highgui
+[0.895s] [35m[1mConsolidate compiler generated dependencies of target opencv_annotation[0m
+[0.896s] [35m[1mConsolidate compiler generated dependencies of target opencv_visualisation[0m
+[0.908s] [35m[1mConsolidate compiler generated dependencies of target opencv_ts[0m
+[0.912s] [ 29%] Built target opencv_annotation
+[0.919s] [ 30%] Built target opencv_visualisation
+[0.937s] [ 31%] Built target opencv_ts
+[0.957s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_flann[0m
+[0.965s] [ 35%] Built target opencv_calib3d
+[0.966s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_ml[0m
+[0.966s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_photo[0m
+[0.972s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_photo[0m
+[0.973s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_imgcodecs[0m
+[0.975s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_core[0m
+[0.982s] [ 46%] Built target opencv_dnn
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_features2d[0m
+[0.982s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_videoio[0m
+[0.982s] [ 46%] Built target opencv_test_flann
+[0.982s] [ 46%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_accumulate.cpp.o[0m
+[0.985s] [ 46%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_3vs4.cpp.o[0m
+[0.986s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_features2d[0m
+[0.986s] [ 46%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_accumulate.cpp.o[0m
+[0.987s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_imgcodecs[0m
+[0.992s] [ 46%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_blend.cpp.o[0m
+[0.992s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_videoio[0m
+[0.993s] [ 47%] Built target opencv_perf_photo
+[0.995s] [ 48%] Built target opencv_test_photo
+[0.995s] [ 48%] Built target opencv_perf_imgcodecs
+[0.996s] [ 49%] Built target opencv_test_ml
+[1.003s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_highgui[0m
+[1.007s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_core[0m
+[1.007s] [ 50%] Built target opencv_perf_videoio
+[1.011s] [ 50%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_blend.cpp.o[0m
+[1.012s] [ 51%] Built target opencv_perf_features2d
+[1.014s] [ 51%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_canny.cpp.o[0m
+[1.015s] [ 51%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_boxfilter.cpp.o[0m
+[1.038s] [ 52%] Built target opencv_test_imgcodecs
+[1.038s] [35m[1mConsolidate compiler generated dependencies of target opencv_objdetect[0m
+[1.041s] [ 52%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_color.cpp.o[0m
+[1.042s] [ 54%] Built target opencv_perf_core
+[1.043s] [ 56%] Built target opencv_test_features2d
+[1.044s] [ 56%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_filter2d.cpp.o[0m
+[1.050s] [ 57%] Built target opencv_test_videoio
+[1.050s] [ 57%] Built target opencv_test_highgui
+[1.057s] [ 57%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_color.cpp.o[0m
+[1.074s] [35m[1mConsolidate compiler generated dependencies of target opencv_model_diagnostics[0m
+[1.078s] [35m[1mConsolidate compiler generated dependencies of target opencv_stitching[0m
+[1.080s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_dnn[0m
+[1.098s] [ 59%] Built target opencv_objdetect
+[1.099s] [ 59%] Built target opencv_model_diagnostics
+[1.115s] [35m[1mConsolidate compiler generated dependencies of target opencv_video[0m
+[1.119s] [ 59%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_filters.cpp.o[0m
+[1.122s] [ 60%] Built target opencv_stitching
+[1.122s] [ 60%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o[0m
+[1.126s] [ 60%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_filters.cpp.o[0m
+[1.134s] [ 61%] Built target opencv_test_dnn
+[1.165s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_dnn[0m
+[1.193s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_calib3d[0m
+[1.207s] [ 62%] Built target opencv_perf_dnn
+[1.245s] [ 64%] Built target opencv_video
+[1.264s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_calib3d[0m
+[1.264s] [ 67%] Built target opencv_test_calib3d
+[1.282s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_objdetect[0m
+[1.297s] [ 68%] Built target opencv_perf_calib3d
+[1.300s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_objdetect[0m
+[1.327s] [35m[1mConsolidate compiler generated dependencies of target opencv_test_stitching[0m
+[1.335s] [ 69%] Built target opencv_test_objdetect
+[1.359s] [ 69%] Built target opencv_perf_objdetect
+[1.359s] [ 69%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx512_skx.cpp.o[0m
+[1.366s] [ 69%] Built target opencv_test_stitching
+[1.447s] [35m[1mConsolidate compiler generated dependencies of target opencv_perf_stitching[0m
+[1.459s] [ 69%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o[0m
+[1.499s] [ 69%] Built target opencv_perf_stitching
+[1.603s] [ 69%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_bgfg_knn.cpp.o[0m
+[5.934s] [ 69%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_gftt.cpp.o[0m
+[6.064s] [ 69%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_bgfg_mog2.cpp.o[0m
+[6.236s] [ 69%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_gftt.cpp.o[0m
+[6.296s] [ 69%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_dis.cpp.o[0m
+[6.534s] [ 69%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_houghlines.cpp.o[0m
+[6.823s] [ 70%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_imgproc.cpp.o[0m
+[7.150s] [ 70%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_histogram.cpp.o[0m
+[7.214s] [ 70%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_houghlines.cpp.o[0m
+[7.214s] [ 70%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_imgwarp.cpp.o[0m
+[7.303s] [ 70%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o[0m
+[8.094s] [ 70%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_imgproc.cpp.o[0m
+[9.070s] [ 70%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o[0m
+[11.606s] [ 70%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_matchTemplate.cpp.o[0m
+[11.998s] [ 70%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_dis_optflow.cpp.o[0m
+[12.688s] [ 71%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_match_template.cpp.o[0m
+[13.475s] [ 72%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_accuracy.cpp.o[0m
+[13.778s] [ 72%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_moments.cpp.o[0m
+[14.622s] [ 72%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/opencl/perf_pyramid.cpp.o[0m
+[15.494s] [ 72%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_medianfilter.cpp.o[0m
+[15.752s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_motempl.cpp.o[0m
+[16.859s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_sepfilter2d.cpp.o[0m
+[16.861s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_pyramids.cpp.o[0m
+[17.026s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_accumulate.cpp.o[0m
+[18.670s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_OF_reproducibility.cpp.o[0m
+[19.858s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_optflow_farneback.cpp.o[0m
+[20.800s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o[0m
+[21.020s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/ocl/test_warp.cpp.o[0m
+[22.407s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_bilateral.cpp.o[0m
+[24.350s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_approxpoly.cpp.o[0m
+[24.486s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o[0m
+[28.471s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o[0m
+[28.504s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/opencl/perf_optflow_pyrlk.cpp.o[0m
+[31.142s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o[0m
+[33.206s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_bgfg_mog2.cpp.o[0m
+[34.954s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o[0m
+[36.703s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o[0m
+[37.086s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_canny.cpp.o[0m
+[37.586s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_contours.cpp.o[0m
+[37.814s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_disflow.cpp.o[0m
+[38.065s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o[0m
+[40.186s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_trackers.cpp.o[0m
+[41.870s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_bgfg_knn.cpp.o[0m
+[41.976s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_blur.cpp.o[0m
+[42.096s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_cornersubpix.cpp.o[0m
+[43.867s] [ 73%] [32m[1mLinking CXX executable ../../bin/opencv_test_video[0m
+[44.285s] [ 73%] Built target opencv_test_video
+[45.178s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_convhull.cpp.o[0m
+[45.546s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_ecc.cpp.o[0m
+[48.437s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_main.cpp.o[0m
+[49.348s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_optflowpyrlk.cpp.o[0m
+[49.498s] [ 73%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_cvt_color.cpp.o[0m
+[53.672s] [ 73%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_trackers.cpp.o[0m
+[53.908s] [ 74%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_cvtyuv.cpp.o[0m
+[55.365s] [ 74%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_distanceTransform.cpp.o[0m
+[56.038s] [ 74%] [32mBuilding CXX object modules/video/CMakeFiles/opencv_perf_video.dir/perf/perf_variational_refinement.cpp.o[0m
+[57.285s] [ 74%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_contours_new.cpp.o[0m
+[58.604s] [ 74%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_filter2d.cpp.o[0m
+[59.013s] [ 74%] [32m[1mLinking CXX executable ../../bin/opencv_perf_video[0m
+[59.210s] [ 74%] [32mBuilding CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx512_skx.cpp.o[0m
+[59.356s] [ 74%] Built target opencv_perf_video
+[63.155s] [ 74%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_corners.cpp.o[0m
+[64.867s] [ 74%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_filter.cpp.o[0m
+[66.322s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_floodfill.cpp.o[0m
+[68.608s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_contours.cpp.o[0m
+[70.618s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_fitellipse_ams.cpp.o[0m
+[71.359s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_fitellipse.cpp.o[0m
+[71.363s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_goodFeaturesToTrack.cpp.o[0m
+[72.418s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_emd.cpp.o[0m
+[73.494s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_drawing.cpp.o[0m
+[74.038s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_histogram.cpp.o[0m
+[74.282s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_distancetransform.cpp.o[0m
+[74.342s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_connectedcomponents.cpp.o[0m
+[81.904s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_houghlines.cpp.o[0m
+[85.351s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_histograms.cpp.o[0m
+[85.351s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_integral.cpp.o[0m
+[87.369s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_grabcut.cpp.o[0m
+[87.405s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_intelligent_scissors.cpp.o[0m
+[89.394s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_goodfeaturetotrack.cpp.o[0m
+[89.394s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_main.cpp.o[0m
+[89.762s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_floodfill.cpp.o[0m
+[90.114s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_matchTemplate.cpp.o[0m
+[90.700s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_houghcircles.cpp.o[0m
+[90.962s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_moments.cpp.o[0m
+[91.722s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_houghlines.cpp.o[0m
+[92.782s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_morph.cpp.o[0m
+[93.324s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_houghcircles.cpp.o[0m
+[93.710s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_fitellipse_direct.cpp.o[0m
+[94.592s] [ 75%] [32m[1mLinking CXX executable ../../bin/opencv_test_core[0m
+[94.698s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_pyramids.cpp.o[0m
+[99.379s] [ 75%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_spatialgradient.cpp.o[0m
+[99.813s] [ 78%] Built target opencv_test_core
+[101.762s] [ 78%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_threshold.cpp.o[0m
+[102.295s] [ 78%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_imgwarp_strict.cpp.o[0m
+[104.656s] [ 78%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_warp.cpp.o[0m
+[105.665s] [ 78%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_intelligent_scissors.cpp.o[0m
+[105.665s] [ 78%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_imgwarp.cpp.o[0m
+[106.709s] [ 79%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_imgproc_umat.cpp.o[0m
+[106.721s] [ 79%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_color.cpp.o[0m
+[107.164s] [ 79%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_canny.cpp.o[0m
+[108.223s] [ 79%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_intersectconvexconvex.cpp.o[0m
+[108.233s] [ 79%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_boundingrect.cpp.o[0m
+[108.297s] [ 79%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_bilateral_filter.cpp.o[0m
+[111.899s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_sepfilters.cpp.o[0m
+[124.256s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_resize.cpp.o[0m
+[124.925s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_stackblur.cpp.o[0m
+[130.959s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_remap.cpp.o[0m
+[131.088s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_templmatch.cpp.o[0m
+[132.981s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc.dir/perf/perf_phasecorr.cpp.o[0m
+[133.739s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_thresh.cpp.o[0m
+[134.212s] [ 80%] [32m[1mLinking CXX executable ../../bin/opencv_perf_imgproc[0m
+[134.665s] [ 80%] Built target opencv_perf_imgproc
+[137.273s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_watershed.cpp.o[0m
+[139.265s] [ 80%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_templmatchmask.cpp.o[0m
+[143.216s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_subdivision2d.cpp.o[0m
+[143.230s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_smooth_bitexact.cpp.o[0m
+[143.250s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_resize_bitexact.cpp.o[0m
+[143.266s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_pyramid.cpp.o[0m
+[143.306s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_pc.cpp.o[0m
+[143.341s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_moments.cpp.o[0m
+[151.706s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_main.cpp.o[0m
+[154.465s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_lsd.cpp.o[0m
+[157.899s] [ 81%] [32mBuilding CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc.dir/test/test_intersection.cpp.o[0m
+[160.130s] [ 81%] [32m[1mLinking CXX executable ../../bin/opencv_test_imgproc[0m
+[160.885s] [ 81%] Built target opencv_test_imgproc
+[160.903s] [35m[1mConsolidate compiler generated dependencies of target opencv_interactive-calibration[0m
+[160.904s] [35m[1mConsolidate compiler generated dependencies of target opencv_java[0m
+[160.926s] [ 81%] Built target opencv_interactive-calibration
+[160.932s] [ 82%] Built target opencv_java
+[160.975s] [35m[1mConsolidate compiler generated dependencies of target opencv_gapi[0m
+[161.173s] [ 92%] Built target opencv_gapi
+[161.195s] [35m[1mConsolidate compiler generated dependencies of target opencv_python3[0m
+[161.207s] [ 92%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_core_perf_tests.cpp.o[0m
+[161.208s] [ 92%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_render_perf_tests.cpp.o[0m
+[161.210s] [ 92%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_imgproc_perf_tests.cpp.o[0m
+[161.215s] [ 92%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_compoundkernel_tests.cpp.o[0m
+[161.219s] [ 92%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/common/gapi_video_perf_tests.cpp.o[0m
+[161.221s] [ 92%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_core_tests.cpp.o[0m
+[161.226s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_render_tests.cpp.o[0m
+[161.232s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_imgproc_tests.cpp.o[0m
+[161.238s] [ 93%] Built target opencv_python3
+[161.242s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_core_perf_tests_cpu.cpp.o[0m
+[161.245s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_operators_tests.cpp.o[0m
+[161.297s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_imgproc_tests_fluid.cpp.o[0m
+[161.313s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_imgproc_tests_cpu.cpp.o[0m
+[161.329s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_core_tests_fluid.cpp.o[0m
+[162.402s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_core_tests_cpu.cpp.o[0m
+[162.422s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_video_tests.cpp.o[0m
+[162.445s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_stereo_tests.cpp.o[0m
+[214.621s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/gpu/gapi_imgproc_perf_tests_gpu.cpp.o[0m
+[217.889s] [ 93%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_async_test.cpp.o[0m
+[221.642s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_array_tests.cpp.o[0m
+[223.798s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/perf_bench.cpp.o[0m
+[225.770s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_basic_hetero_tests.cpp.o[0m
+[225.865s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/perf_main.cpp.o[0m
+[226.846s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/internal/gapi_compiler_perf_tests.cpp.o[0m
+[229.133s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/gpu/gapi_core_perf_tests_gpu.cpp.o[0m
+[230.141s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_desc_tests.cpp.o[0m
+[230.141s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_parallel_rois_test.cpp.o[0m
+[230.149s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_video_perf_tests_cpu.cpp.o[0m
+[230.149s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_imgproc_perf_tests_fluid.cpp.o[0m
+[231.166s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_compile_args_tests.cpp.o[0m
+[231.178s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_imgproc_perf_tests_cpu.cpp.o[0m
+[231.766s] [ 94%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/executor/gtbbexecutor_internal_tests.cpp.o[0m
+[231.766s] [ 95%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/render/gapi_render_perf_tests_ocv.cpp.o[0m
+[231.766s] [ 95%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_video_tests_cpu.cpp.o[0m
+[231.781s] [ 95%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/cpu/gapi_core_perf_tests_fluid.cpp.o[0m
+[231.918s] [ 95%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_stereo_tests_cpu.cpp.o[0m
+[232.998s] [ 95%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_ot_tests_cpu.cpp.o[0m
+[234.078s] [ 95%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_operators_tests_fluid.cpp.o[0m
+[234.114s] [ 95%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_operators_tests_cpu.cpp.o[0m
+[251.865s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_graph_meta_tests.cpp.o[0m
+[256.413s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_mat_tests.cpp.o[0m
+[259.034s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_plaidml_pipelines.cpp.o[0m
+[260.216s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_planar_test.cpp.o[0m
+[263.129s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_sample_pipelines.cpp.o[0m
+[263.817s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_perf_gapi.dir/perf/streaming/gapi_streaming_source_perf_tests.cpp.o[0m
+[263.833s] [ 96%] [32m[1mLinking CXX executable ../../bin/opencv_perf_gapi[0m
+[264.456s] [ 96%] Built target opencv_perf_gapi
+[265.472s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_smoke_test.cpp.o[0m
+[265.472s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_transform_tests.cpp.o[0m
+[265.472s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_typed_tests.cpp.o[0m
+[266.522s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_scalar_tests.cpp.o[0m
+[266.546s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_opaque_tests.cpp.o[0m
+[267.580s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_kernel_tests.cpp.o[0m
+[267.606s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_gpu_test.cpp.o[0m
+[268.707s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_gcomputation_tests.cpp.o[0m
+[268.734s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_gcompiled_tests.cpp.o[0m
+[269.790s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_frame_tests.cpp.o[0m
+[269.806s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_test_kernels.cpp.o[0m
+[287.723s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_executor_tests.cpp.o[0m
+[291.093s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_garg_test.cpp.o[0m
+[295.945s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_gmetaarg_test.cpp.o[0m
+[298.086s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_gmodel_builder_test.cpp.o[0m
+[301.110s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_island_fusion_tests.cpp.o[0m
+[304.874s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_island_tests.cpp.o[0m
+[309.087s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_pattern_matching_test.cpp.o[0m
+[314.379s] [ 96%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_perform_substitution_test.cpp.o[0m
+[315.395s] [ 97%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_dynamic_graph.cpp.o[0m
+[315.395s] [ 97%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_backend_tests.cpp.o[0m
+[315.395s] [ 97%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_proto_tests.cpp.o[0m
+[316.418s] [ 97%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_tests.cpp.o[0m
+[316.418s] [ 97%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_ov_tests.cpp.o[0m
+[316.438s] [ 97%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_onnx_test.cpp.o[0m
+[316.506s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/infer/gapi_infer_ie_test.cpp.o[0m
+[317.566s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_recompilation_test.cpp.o[0m
+[317.586s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_operators_tests_gpu.cpp.o[0m
+[317.603s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_imgproc_tests_gpu.cpp.o[0m
+[318.693s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_core_tests_gpu.cpp.o[0m
+[318.705s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_util_tests.cpp.o[0m
+[318.750s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_test.cpp.o[0m
+[319.541s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_roi_test.cpp.o[0m
+[319.545s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_resize_test.cpp.o[0m
+[319.590s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_ocv_stateful_kernel_tests.cpp.o[0m
+[349.798s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/s11n/gapi_s11n_tests.cpp.o[0m
+[357.809s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/s11n/gapi_sample_pipelines_s11n.cpp.o[0m
+[360.833s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_gstreamer_pipeline_facade_int_tests.cpp.o[0m
+[360.833s] [ 98%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_view_tests.cpp.o[0m
+[361.854s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_tests.cpp.o[0m
+[361.858s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_integration_tests.cpp.o[0m
+[362.886s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/render/gapi_render_tests_ocv.cpp.o[0m
+[362.902s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/render/ftp_render_test.cpp.o[0m
+[363.954s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/thread_pool_tests.cpp.o[0m
+[363.978s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/scalar_tests.cpp.o[0m
+[365.067s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/mat_tests.cpp.o[0m
+[365.074s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/last_written_value_tests.cpp.o[0m
+[380.538s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/test_main.cpp.o[0m
+[380.538s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpp_preproc_test.cpp.o[0m
+[381.454s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpl_device_selector.cpp.o[0m
+[381.454s] [ 99%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpl_data_provider.cpp.o[0m
+[381.486s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/util/any_tests.cpp.o[0m
+[382.514s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/util/optional_tests.cpp.o[0m
+[382.534s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_vpl_core_test.cpp.o[0m
+[383.273s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_utils_test.cpp.o[0m
+[383.293s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/util/variant_tests.cpp.o[0m
+[383.310s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_tests.cpp.o[0m
+[383.926s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_sync_tests.cpp.o[0m
+[384.040s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_streaming_queue_source_tests.cpp.o[0m
+[412.922s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/streaming/gapi_gstreamersource_tests.cpp.o[0m
+[429.152s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/gapi_types_tests.cpp.o[0m
+[429.156s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/oak/gapi_tests_oak.cpp.o[0m
+[429.156s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/own/conc_queue_tests.cpp.o[0m
+[430.923s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_transactions_test.cpp.o[0m
+[430.924s] [100%] [32mBuilding CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/internal/gapi_int_vectorref_test.cpp.o[0m
+[440.182s] [100%] [32m[1mLinking CXX executable ../../bin/opencv_test_gapi[0m
+[444.566s] [100%] Built target opencv_test_gapi
+[445.825s] Invoked command in '/home/adminlab/franka_ros2_ws/build/OpenCV' returned '0': /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/OpenCV -- -j16 -l16
+[447.070s] Invoking command in '/home/adminlab/franka_ros2_ws/build/OpenCV': /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/OpenCV
+[447.082s] -- Install configuration: "Release"
+[447.090s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippicv-readme.htm
+[447.090s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippicv-EULA.txt
+[447.106s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippicv-third-party-programs.txt
+[447.106s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippiw-support.txt
+[447.106s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippiw-third-party-programs.txt
+[447.106s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ippiw-EULA.txt
+[447.118s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/flatbuffers-LICENSE.txt
+[447.122s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/opencl-headers-LICENSE.txt
+[447.126s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ade-LICENSE
+[447.130s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/cvconfig.h
+[447.130s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/opencv_modules.hpp
+[447.146s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVModules.cmake
+[447.146s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVModules-release.cmake
+[447.154s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVConfig-version.cmake
+[447.158s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4/OpenCVConfig.cmake
+[447.167s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/setup_vars_opencv4.sh
+[447.182s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/valgrind.supp
+[447.186s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/valgrind_3rdparty.supp
+[447.214s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/protobuf-LICENSE
+[447.218s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/protobuf-README.md
+[447.242s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ittnotify-LICENSE.BSD
+[447.250s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/ittnotify-LICENSE.GPL
+[447.256s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/opencv.hpp
+[447.435s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so.4.10.0
+[447.510s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so.410
+[447.511s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[447.512s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_core.so
+[447.513s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core.hpp
+[447.513s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/affine.hpp
+[447.522s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/async.hpp
+[447.526s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/base.hpp
+[447.527s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/bindings_utils.hpp
+[447.534s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/bufferpool.hpp
+[447.535s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/check.hpp
+[447.535s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/core.hpp
+[447.542s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/core_c.h
+[447.554s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda.hpp
+[447.562s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda.inl.hpp
+[447.570s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/block.hpp
+[447.570s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/border_interpolate.hpp
+[447.582s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/color.hpp
+[447.582s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/common.hpp
+[447.590s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/datamov_utils.hpp
+[447.598s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/color_detail.hpp
+[447.610s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/reduce.hpp
+[447.611s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/reduce_key_val.hpp
+[447.622s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/transform_detail.hpp
+[447.622s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/type_traits_detail.hpp
+[447.627s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/detail/vec_distance_detail.hpp
+[447.634s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/dynamic_smem.hpp
+[447.634s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/emulation.hpp
+[447.637s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/filters.hpp
+[447.638s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/funcattrib.hpp
+[447.649s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/functional.hpp
+[447.649s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/limits.hpp
+[447.649s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/reduce.hpp
+[447.649s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/saturate_cast.hpp
+[447.649s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/scan.hpp
+[447.649s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/simd_functions.hpp
+[447.651s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/transform.hpp
+[447.658s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/type_traits.hpp
+[447.658s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/utility.hpp
+[447.658s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/vec_distance.hpp
+[447.658s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/vec_math.hpp
+[447.666s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/vec_traits.hpp
+[447.674s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/warp.hpp
+[447.674s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/warp_reduce.hpp
+[447.678s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda/warp_shuffle.hpp
+[447.686s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda_stream_accessor.hpp
+[447.686s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cuda_types.hpp
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cv_cpu_helper.h
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvdef.h
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvstd.hpp
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvstd.inl.hpp
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/detail/async_promise.hpp
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/detail/dispatch_helper.impl.hpp
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/detail/exception_ptr.hpp
+[447.695s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/directx.hpp
+[447.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/dualquaternion.hpp
+[447.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/dualquaternion.inl.hpp
+[447.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/eigen.hpp
+[447.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/fast_math.hpp
+[447.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/hal.hpp
+[447.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/interface.h
+[447.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin.hpp
+[447.710s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_avx.hpp
+[447.718s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_avx512.hpp
+[447.734s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_cpp.hpp
+[447.734s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_forward.hpp
+[447.734s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_lasx.hpp
+[447.738s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_lsx.hpp
+[447.742s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_msa.hpp
+[447.750s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_neon.hpp
+[447.753s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv.hpp
+[447.754s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv071.hpp
+[447.765s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_010_compat_non-policy.hpp
+[447.771s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_010_compat_overloaded-non-policy.hpp
+[447.781s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_011_compat.hpp
+[447.781s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_compat_overloaded.hpp
+[447.781s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_rvv_scalable.hpp
+[447.784s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_sse.hpp
+[447.785s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_sse_em.hpp
+[447.790s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_vsx.hpp
+[447.798s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/intrin_wasm.hpp
+[447.806s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/msa_macros.h
+[447.818s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/hal/simd_utils.impl.hpp
+[447.818s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/mat.hpp
+[447.818s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/mat.inl.hpp
+[447.818s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/matx.hpp
+[447.819s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/matx.inl.hpp
+[447.819s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/neon_utils.hpp
+[447.819s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/ocl.hpp
+[447.819s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/ocl_genbase.hpp
+[447.819s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/ocl_defs.hpp
+[447.820s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/opencl_info.hpp
+[447.826s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/opencl_svm.hpp
+[447.838s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clblas.hpp
+[447.850s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clfft.hpp
+[447.855s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp
+[447.855s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp
+[447.862s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp
+[447.862s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp
+[447.862s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_clblas.hpp
+[447.862s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_clfft.hpp
+[447.862s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_core.hpp
+[447.862s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp
+[447.871s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_gl.hpp
+[447.871s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp
+[447.871s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_20.hpp
+[447.871s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp
+[447.871s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp
+[447.871s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/opengl.hpp
+[447.890s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/operations.hpp
+[447.890s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/optim.hpp
+[447.890s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/ovx.hpp
+[447.890s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/parallel/backend/parallel_for.openmp.hpp
+[447.890s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/parallel/backend/parallel_for.tbb.hpp
+[447.890s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/parallel/parallel_backend.hpp
+[447.890s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/persistence.hpp
+[447.891s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/quaternion.hpp
+[447.891s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/quaternion.inl.hpp
+[447.891s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/saturate.hpp
+[447.891s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/simd_intrinsics.hpp
+[447.891s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/softfloat.hpp
+[447.898s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/sse_utils.hpp
+[447.898s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/traits.hpp
+[447.898s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/types.hpp
+[447.898s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/types_c.h
+[447.907s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utility.hpp
+[447.907s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/allocator_stats.hpp
+[447.907s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/allocator_stats.impl.hpp
+[447.911s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/filesystem.hpp
+[447.911s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/fp_control_utils.hpp
+[447.920s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/instrumentation.hpp
+[447.922s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/logger.defines.hpp
+[447.922s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/logger.hpp
+[447.923s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/logtag.hpp
+[447.923s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/tls.hpp
+[447.930s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/utils/trace.hpp
+[447.930s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/va_intel.hpp
+[447.938s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/version.hpp
+[447.938s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/core/vsx_utils.hpp
+[447.958s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/SoftFloat-COPYING.txt
+[447.965s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so.4.10.0
+[447.966s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so.410
+[447.967s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[447.967s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_flann.so
+[447.968s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann.hpp
+[447.972s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/all_indices.h
+[447.972s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/allocator.h
+[447.976s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/any.h
+[447.978s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/autotuned_index.h
+[447.978s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/composite_index.h
+[447.979s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/config.h
+[447.980s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/defines.h
+[447.980s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/dist.h
+[447.982s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/dummy.h
+[447.983s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/dynamic_bitset.h
+[447.984s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/flann.hpp
+[447.985s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/flann_base.hpp
+[447.986s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/general.h
+[447.987s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/ground_truth.h
+[447.988s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/hdf5.h
+[447.989s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/heap.h
+[447.994s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/hierarchical_clustering_index.h
+[448.002s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/index_testing.h
+[448.003s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/kdtree_index.h
+[448.010s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/kdtree_single_index.h
+[448.014s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/kmeans_index.h
+[448.027s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/linear_index.h
+[448.034s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/logger.h
+[448.035s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/lsh_index.h
+[448.046s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/lsh_table.h
+[448.050s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/matrix.h
+[448.051s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/miniflann.hpp
+[448.058s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/nn_index.h
+[448.059s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/object_factory.h
+[448.066s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/params.h
+[448.070s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/random.h
+[448.074s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/result_set.h
+[448.075s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/sampling.h
+[448.075s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/saving.h
+[448.075s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/simplex_downhill.h
+[448.076s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/flann/timer.h
+[448.087s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so.4.10.0
+[448.175s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so.410
+[448.175s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.175s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgproc.so
+[448.176s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc.hpp
+[448.176s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/bindings.hpp
+[448.178s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/detail/gcgraph.hpp
+[448.179s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/detail/legacy.hpp
+[448.179s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/hal/hal.hpp
+[448.180s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/hal/interface.h
+[448.180s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/imgproc.hpp
+[448.181s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/imgproc_c.h
+[448.181s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/segmentation.hpp
+[448.181s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgproc/types_c.h
+[448.183s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so.4.10.0
+[448.184s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so.410
+[448.185s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.185s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_ml.so
+[448.186s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/ml.hpp
+[448.187s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/ml/ml.hpp
+[448.188s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/ml/ml.inl.hpp
+[448.189s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so.4.10.0
+[448.192s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so.410
+[448.193s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.193s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_photo.so
+[448.202s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo.hpp
+[448.210s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo/cuda.hpp
+[448.214s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo/legacy/constants_c.h
+[448.214s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/photo/photo.hpp
+[448.226s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so.4.10.0
+[448.246s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so.410
+[448.246s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.246s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_dnn.so
+[448.246s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn.hpp
+[448.258s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/all_layers.hpp
+[448.258s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/dict.hpp
+[448.260s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/dnn.hpp
+[448.260s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/dnn.inl.hpp
+[448.261s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/layer.details.hpp
+[448.261s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/layer.hpp
+[448.261s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/shape_utils.hpp
+[448.262s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/utils/debug_utils.hpp
+[448.262s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/utils/inference_engine.hpp
+[448.262s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/dnn/version.hpp
+[448.263s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so.4.10.0
+[448.267s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so.410
+[448.267s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.267s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_features2d.so
+[448.268s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/features2d.hpp
+[448.268s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/features2d/features2d.hpp
+[448.269s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/features2d/hal/interface.h
+[448.269s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/mscr-chi_table_LICENSE.txt
+[448.273s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so.4.10.0
+[448.274s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so.410
+[448.275s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.275s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_imgcodecs.so
+[448.275s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs.hpp
+[448.276s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp
+[448.276s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/imgcodecs_c.h
+[448.277s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/ios.h
+[448.277s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/legacy/constants_c.h
+[448.278s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/imgcodecs/macosx.h
+[448.279s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so.4.10.0
+[448.281s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so.410
+[448.282s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.282s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_videoio.so
+[448.282s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio.hpp
+[448.283s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/cap_ios.h
+[448.284s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/legacy/constants_c.h
+[448.285s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/registry.hpp
+[448.286s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/videoio.hpp
+[448.286s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/videoio/videoio_c.h
+[448.287s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so.4.10.0
+[448.295s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so.410
+[448.298s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.298s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_calib3d.so
+[448.302s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/calib3d.hpp
+[448.310s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/calib3d/calib3d.hpp
+[448.310s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/calib3d/calib3d_c.h
+[448.311s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so.4.10.0
+[448.315s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so.410
+[448.316s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.316s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_highgui.so
+[448.316s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/highgui.hpp
+[448.321s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/highgui/highgui.hpp
+[448.321s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/highgui/highgui_c.h
+[448.326s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so.4.10.0
+[448.332s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so.410
+[448.333s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.333s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_objdetect.so
+[448.334s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect.hpp
+[448.336s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/aruco_board.hpp
+[448.336s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/aruco_detector.hpp
+[448.340s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
+[448.341s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/barcode.hpp
+[448.341s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/charuco_detector.hpp
+[448.342s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+[448.342s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/face.hpp
+[448.343s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
+[448.343s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/objdetect/objdetect.hpp
+[448.344s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so.4.10.0
+[448.354s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so.410
+[448.354s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.355s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_stitching.so
+[448.360s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching.hpp
+[448.364s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/autocalib.hpp
+[448.365s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/blenders.hpp
+[448.366s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/camera.hpp
+[448.367s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp
+[448.368s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/matchers.hpp
+[448.371s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp
+[448.378s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/seam_finders.hpp
+[448.382s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/timelapsers.hpp
+[448.386s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/util.hpp
+[448.390s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/util_inl.hpp
+[448.394s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/warpers.hpp
+[448.397s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/stitching/warpers.hpp
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so.4.10.0
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so.410
+[448.402s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_video.so
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video.hpp
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/background_segm.hpp
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/detail/tracking.detail.hpp
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/legacy/constants_c.h
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/tracking.hpp
+[448.402s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/video/video.hpp
+[448.410s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so.4.10.0
+[448.430s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so.410
+[448.431s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so.4.10.0" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.431s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/libopencv_gapi.so
+[448.431s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/core.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/core.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/gcpukernel.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/imgproc.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/ot.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/stereo.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/cpu/video.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/core.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/gfluidbuffer.hpp
+[448.438s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/gfluidkernel.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/fluid/imgproc.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/garg.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/garray.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gasync_context.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcall.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcommon.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcompiled.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcompiled_async.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcompoundkernel.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcomputation.hpp
+[448.439s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gcomputation_async.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gframe.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gkernel.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gmat.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gmetaarg.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gopaque.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gproto.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gpu/core.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gpu/ggpukernel.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gpu/imgproc.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gscalar.hpp
+[448.446s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gstreaming.hpp
+[448.447s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gtransform.hpp
+[448.447s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gtype_traits.hpp
+[448.447s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/gtyped.hpp
+[448.447s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/imgproc.hpp
+[448.447s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer.hpp
+[448.447s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/bindings_ie.hpp
+[448.454s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/bindings_onnx.hpp
+[448.454s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/bindings_ov.hpp
+[448.466s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/ie.hpp
+[448.466s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/onnx.hpp
+[448.466s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/ov.hpp
+[448.482s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/infer/parsers.hpp
+[448.482s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/media.hpp
+[448.482s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/oak/infer.hpp
+[448.486s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/oak/oak.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ocl/core.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ocl/goclkernel.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ocl/imgproc.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/opencv_includes.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/operators.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/ot.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/assert.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/convert.hpp
+[448.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/cvdefs.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/exports.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/mat.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/saturate.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/scalar.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/own/types.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/plaidml/core.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/plaidml/gplaidmlkernel.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/plaidml/plaidml.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/python/python.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/render.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/render/render.hpp
+[448.498s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/render/render_types.hpp
+[448.499s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/rmat.hpp
+[448.499s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/s11n.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/s11n/base.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/stereo.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/cap.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/desync.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/format.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/gstreamer/gstreamerpipeline.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/gstreamer/gstreamersource.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/meta.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/accel_types.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/cfg_params.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/data_provider_interface.hpp
+[448.503s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/default.hpp
+[448.510s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/device_selector_interface.hpp
+[448.510s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/onevpl/source.hpp
+[448.510s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/queue_source.hpp
+[448.518s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/source.hpp
+[448.518s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/streaming/sync.hpp
+[448.518s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/any.hpp
+[448.518s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/compiler_hints.hpp
+[448.518s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/copy_through_move.hpp
+[448.523s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/optional.hpp
+[448.523s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/throw.hpp
+[448.523s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/type_traits.hpp
+[448.523s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/util.hpp
+[448.523s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/util/variant.hpp
+[448.523s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/include/opencv4/opencv2/gapi/video.hpp
+[448.534s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/licenses/opencv4/vasot-LICENSE.txt
+[448.540s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/java/opencv4/libopencv_java4100.so
+[448.545s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/share/java/opencv4/libopencv_java4100.so" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.558s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/java/opencv4/opencv-4100.jar
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/__init__.py
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/load_config_py2.py
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/load_config_py3.py
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/config.py
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/misc/__init__.py
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/misc/version.py
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/mat_wrapper/__init__.py
+[448.602s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/__init__.py
+[448.603s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/__init__.py
+[448.603s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2
+[448.604s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ogl
+[448.604s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ogl/__init__.pyi
+[448.605s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/barcode
+[448.605s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/barcode/__init__.pyi
+[448.605s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/fisheye
+[448.605s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/fisheye/__init__.pyi
+[448.606s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/cuda
+[448.606s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/cuda/__init__.pyi
+[448.606s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/flann
+[448.606s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/flann/__init__.pyi
+[448.607s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/dnn
+[448.607s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/dnn/__init__.pyi
+[448.607s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ocl
+[448.608s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ocl/__init__.pyi
+[448.608s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/samples
+[448.608s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/samples/__init__.pyi
+[448.609s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils
+[448.609s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/fs
+[448.609s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/fs/__init__.pyi
+[448.610s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/__init__.pyi
+[448.610s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/nested
+[448.610s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/utils/nested/__init__.pyi
+[448.611s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ml
+[448.611s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ml/__init__.pyi
+[448.611s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/detail
+[448.612s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/detail/__init__.pyi
+[448.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/py.typed
+[448.613s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/aruco
+[448.615s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/aruco/__init__.pyi
+[448.616s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/__init__.pyi
+[448.617s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/parallel
+[448.617s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/parallel/__init__.pyi
+[448.618s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/typing
+[448.618s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/typing/__init__.py
+[448.618s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/segmentation
+[448.619s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/segmentation/__init__.pyi
+[448.619s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/Error
+[448.619s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/Error/__init__.pyi
+[448.620s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ipp
+[448.620s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/ipp/__init__.pyi
+[448.620s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/videoio_registry
+[448.621s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/videoio_registry/__init__.pyi
+[448.621s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi
+[448.621s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/streaming
+[448.622s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/streaming/__init__.pyi
+[448.622s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot
+[448.623s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot/cpu
+[448.623s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot/cpu/__init__.pyi
+[448.623s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ot/__init__.pyi
+[448.624s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core
+[448.624s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/cpu
+[448.624s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/cpu/__init__.pyi
+[448.625s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/ocl
+[448.625s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/ocl/__init__.pyi
+[448.625s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/fluid
+[448.626s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/fluid/__init__.pyi
+[448.626s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/core/__init__.pyi
+[448.626s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip
+[448.627s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/draw
+[448.627s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/draw/__init__.pyi
+[448.628s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/gst
+[448.629s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/gst/__init__.pyi
+[448.629s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/onevpl
+[448.630s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/onevpl/__init__.pyi
+[448.630s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/wip/__init__.pyi
+[448.630s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ov
+[448.630s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ov/__init__.pyi
+[448.631s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own
+[448.631s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own/detail
+[448.632s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own/detail/__init__.pyi
+[448.634s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/own/__init__.pyi
+[448.634s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render
+[448.635s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render/ocv
+[448.635s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render/ocv/__init__.pyi
+[448.635s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/render/__init__.pyi
+[448.636s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/oak
+[448.636s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/oak/__init__.pyi
+[448.636s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx
+[448.636s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx/ep
+[448.637s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx/ep/__init__.pyi
+[448.637s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/onnx/__init__.pyi
+[448.637s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie
+[448.639s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie/detail
+[448.640s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie/detail/__init__.pyi
+[448.640s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/ie/__init__.pyi
+[448.641s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/__init__.pyi
+[448.642s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc
+[448.642s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc/fluid
+[448.642s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc/fluid/__init__.pyi
+[448.643s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/imgproc/__init__.pyi
+[448.643s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/video
+[448.643s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/gapi/video/__init__.pyi
+[448.644s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/python-3.10/cv2.cpython-310-x86_64-linux-gnu.so
+[448.660s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/python-3.10/cv2.cpython-310-x86_64-linux-gnu.so" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.660s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/lib/python3.10/dist-packages/cv2/config-3.10.py
+[448.661s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_eye.xml
+[448.663s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+[448.665s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalcatface.xml
+[448.666s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalcatface_extended.xml
+[448.667s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
+[448.669s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml
+[448.674s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_alt_tree.xml
+[448.702s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
+[448.712s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_fullbody.xml
+[448.723s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_lefteye_2splits.xml
+[448.734s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_license_plate_rus_16stages.xml
+[448.737s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_lowerbody.xml
+[448.739s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_profileface.xml
+[448.742s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_righteye_2splits.xml
+[448.744s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_russian_plate_number.xml
+[448.745s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_smile.xml
+[448.747s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/haarcascades/haarcascade_upperbody.xml
+[448.751s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_frontalcatface.xml
+[448.753s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_frontalface.xml
+[448.753s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_frontalface_improved.xml
+[448.754s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_profileface.xml
+[448.755s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/share/opencv4/lbpcascades/lbpcascade_silverware.xml
+[448.756s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_annotation
+[448.757s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_annotation" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.759s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_visualisation
+[448.760s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_visualisation" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.760s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_interactive-calibration
+[448.762s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_interactive-calibration" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.769s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_version
+[448.770s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_version" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.770s] -- Installing: /home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_model_diagnostics
+[448.771s] -- Set runtime path of "/home/adminlab/franka_ros2_ws/install/OpenCV/bin/opencv_model_diagnostics" to "/home/adminlab/franka_ros2_ws/install/OpenCV/lib"
+[448.822s] Invoked command in '/home/adminlab/franka_ros2_ws/build/OpenCV' returned '0': /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/OpenCV

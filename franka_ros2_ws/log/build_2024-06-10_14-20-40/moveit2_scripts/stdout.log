@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[ 40%] Built target test_gripper
+[ 40%] Built target test_trajectory3
+[ 60%] Built target test_trajectory
+[ 70%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[ 90%] Built target approach_retreat

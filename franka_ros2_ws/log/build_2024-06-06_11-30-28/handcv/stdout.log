@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../build/handcv/handcv.egg-info
+writing ../../../build/handcv/handcv.egg-info/PKG-INFO
+writing dependency_links to ../../../build/handcv/handcv.egg-info/dependency_links.txt
+writing entry points to ../../../build/handcv/handcv.egg-info/entry_points.txt
+writing requirements to ../../../build/handcv/handcv.egg-info/requires.txt
+writing top-level names to ../../../build/handcv/handcv.egg-info/top_level.txt
+writing manifest file '../../../build/handcv/handcv.egg-info/SOURCES.txt'
+reading manifest file '../../../build/handcv/handcv.egg-info/SOURCES.txt'
+writing manifest file '../../../build/handcv/handcv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adminlab/franka_ros2_ws/build/handcv/build
+creating /home/adminlab/franka_ros2_ws/build/handcv/build/lib
+creating /home/adminlab/franka_ros2_ws/build/handcv/build/lib/handcv
+copying handcv/__init__.py -> /home/adminlab/franka_ros2_ws/build/handcv/build/lib/handcv
+copying handcv/mediapipehelper.py -> /home/adminlab/franka_ros2_ws/build/handcv/build/lib/handcv
+copying handcv/handcv.py -> /home/adminlab/franka_ros2_ws/build/handcv/build/lib/handcv
+running install
+running install_lib
+creating /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv
+copying /home/adminlab/franka_ros2_ws/build/handcv/build/lib/handcv/__init__.py -> /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv
+copying /home/adminlab/franka_ros2_ws/build/handcv/build/lib/handcv/mediapipehelper.py -> /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv
+copying /home/adminlab/franka_ros2_ws/build/handcv/build/lib/handcv/handcv.py -> /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv
+byte-compiling /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv/mediapipehelper.py to mediapipehelper.cpython-310.pyc
+byte-compiling /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv/handcv.py to handcv.cpython-310.pyc
+running install_data
+creating /home/adminlab/franka_ros2_ws/install/handcv/share/ament_index
+creating /home/adminlab/franka_ros2_ws/install/handcv/share/ament_index/resource_index
+creating /home/adminlab/franka_ros2_ws/install/handcv/share/ament_index/resource_index/packages
+copying resource/handcv -> /home/adminlab/franka_ros2_ws/install/handcv/share/ament_index/resource_index/packages
+copying package.xml -> /home/adminlab/franka_ros2_ws/install/handcv/share/handcv
+creating /home/adminlab/franka_ros2_ws/install/handcv/share/handcv/config
+copying config/handcv.rviz -> /home/adminlab/franka_ros2_ws/install/handcv/share/handcv/config
+copying config/hand_landmarker.task -> /home/adminlab/franka_ros2_ws/install/handcv/share/handcv/config
+copying config/gesture_recognizer.task -> /home/adminlab/franka_ros2_ws/install/handcv/share/handcv/config
+copying config/high_density_preset.json -> /home/adminlab/franka_ros2_ws/install/handcv/share/handcv/config
+creating /home/adminlab/franka_ros2_ws/install/handcv/share/handcv/launch
+copying launch/camera.launch.py -> /home/adminlab/franka_ros2_ws/install/handcv/share/handcv/launch
+running install_egg_info
+Copying ../../../build/handcv/handcv.egg-info to /home/adminlab/franka_ros2_ws/install/handcv/lib/python3.10/site-packages/handcv-0.0.1-py3.10.egg-info
+running install_scripts
+Installing handcv script to /home/adminlab/franka_ros2_ws/install/handcv/lib/handcv
+writing list of installed files to '/home/adminlab/franka_ros2_ws/build/handcv/install.log'

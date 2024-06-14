@@ -1,0 +1,7 @@
+setup.py
+srdfdom/__init__.py
+srdfdom/srdf.py
+srdfdom.egg-info/PKG-INFO
+srdfdom.egg-info/SOURCES.txt
+srdfdom.egg-info/dependency_links.txt
+srdfdom.egg-info/top_level.txt

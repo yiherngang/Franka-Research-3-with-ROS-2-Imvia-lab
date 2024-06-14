@@ -1,0 +1,8 @@
+source;share/cmake_generate_parameter_module_example/hook/cmake_prefix_path.ps1
+source;share/cmake_generate_parameter_module_example/hook/cmake_prefix_path.dsv
+source;share/cmake_generate_parameter_module_example/hook/cmake_prefix_path.sh
+source;share/cmake_generate_parameter_module_example/local_setup.bash
+source;share/cmake_generate_parameter_module_example/local_setup.dsv
+source;share/cmake_generate_parameter_module_example/local_setup.ps1
+source;share/cmake_generate_parameter_module_example/local_setup.sh
+source;share/cmake_generate_parameter_module_example/local_setup.zsh

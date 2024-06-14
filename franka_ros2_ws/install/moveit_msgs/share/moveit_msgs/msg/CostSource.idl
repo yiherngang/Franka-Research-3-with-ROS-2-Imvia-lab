@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/CostSource.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The density of the cost source")
+    struct CostSource {
+      double cost_density;
+
+      @verbatim (language="comment", text=
+        "The volume of the cost source is represented as an" "\n"
+        "axis-aligned bounding box (AABB)" "\n"
+        "The AABB is specified by two of its opposite corners")
+      geometry_msgs::msg::Vector3 aabb_min;
+
+      geometry_msgs::msg::Vector3 aabb_max;
+    };
+  };
+};

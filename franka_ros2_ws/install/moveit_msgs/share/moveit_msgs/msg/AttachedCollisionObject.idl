@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/AttachedCollisionObject.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/CollisionObject.idl"
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The CollisionObject will be attached with a fixed joint to this link")
+    struct AttachedCollisionObject {
+      string link_name;
+
+      @verbatim (language="comment", text=
+        "This contains the actual shapes and poses for the CollisionObject" "\n"
+        "to be attached to the link" "\n"
+        "If action is remove and no object.id is set, all objects" "\n"
+        "attached to the link indicated by link_name will be removed")
+      moveit_msgs::msg::CollisionObject object;
+
+      @verbatim (language="comment", text=
+        "The set of links that the attached objects are allowed to touch" "\n"
+        "by default - the link_name is already considered by default")
+      sequence<string> touch_links;
+
+      @verbatim (language="comment", text=
+        "If certain links were placed in a particular posture for this object to remain attached" "\n"
+        "(e.g., an end effector closing around an object), the posture necessary for releasing" "\n"
+        "the object is stored here")
+      trajectory_msgs::msg::JointTrajectory detach_posture;
+
+      @verbatim (language="comment", text=
+        "The weight of the attached object, if known")
+      double weight;
+    };
+  };
+};

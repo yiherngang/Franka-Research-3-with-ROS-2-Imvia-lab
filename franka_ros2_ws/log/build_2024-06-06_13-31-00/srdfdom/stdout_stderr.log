@@ -1,0 +1,80 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_pytest: 1.3.9 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/srdfdom
+[35m[1mConsolidate compiler generated dependencies of target srdfdom[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[ 27%] Built target ament_cmake_python_copy_srdfdom
+[ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+running egg_info
+writing srdfdom.egg-info/PKG-INFO
+writing dependency_links to srdfdom.egg-info/dependency_links.txt
+writing top-level names to srdfdom.egg-info/top_level.txt
+reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 45%] Built target gtest_main
+[ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[ 54%] Built target srdfdom
+[ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 63%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target test_cpp_nl_NL.UTF-8[0m
+[35m[1mConsolidate compiler generated dependencies of target test_cpp_C[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[ 90%] Built target test_cpp_nl_NL.UTF-8
+[100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[100%] Built target test_cpp_C
+-- Install configuration: "Debug"
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/libsrdfdom.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/model.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/srdf_writer.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/include/srdfdom/visibility_control.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/lib/srdfdom/display_srdf
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+Listing '/home/adminlab/franka_ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/srdfdom/share/srdfdom/package.xml

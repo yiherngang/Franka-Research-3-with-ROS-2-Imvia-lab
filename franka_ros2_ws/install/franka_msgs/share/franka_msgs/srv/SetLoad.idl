@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_msgs/srv/SetLoad.srv
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module srv {
+    typedef double double__3[3];
+    typedef double double__9[9];
+    @verbatim (language="comment", text=
+      "The mass of the object")
+    struct SetLoad_Request {
+      double mass;
+
+      @verbatim (language="comment", text=
+        "Position of the center of mass")
+      double__3 center_of_mass;
+
+      @verbatim (language="comment", text=
+        "Inertia of the object - the provided 3x3 matrix is in column major form.")
+      double__9 load_inertia;
+    };
+    struct SetLoad_Response {
+      boolean success;
+
+      string error;
+    };
+  };
+};

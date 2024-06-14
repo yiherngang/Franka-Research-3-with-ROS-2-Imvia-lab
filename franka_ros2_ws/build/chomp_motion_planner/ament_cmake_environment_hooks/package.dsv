@@ -1,0 +1,4 @@
+source;share/chomp_motion_planner/local_setup.bash
+source;share/chomp_motion_planner/local_setup.dsv
+source;share/chomp_motion_planner/local_setup.sh
+source;share/chomp_motion_planner/local_setup.zsh

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/WorkspaceParameters.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains a set of parameters useful in" "\n"
+      "setting up the volume (a box) in which the robot is allowed to move." "\n"
+      "This is useful only when planning for mobile parts of " "\n"
+      "the robot as well.")
+    struct WorkspaceParameters {
+      @verbatim (language="comment", text=
+        "Define the frame of reference for the box corners")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "The minumum corner of the box, with respect to the robot starting pose")
+      geometry_msgs::msg::Vector3 min_corner;
+
+      @verbatim (language="comment", text=
+        "The maximum corner of the box, with respect to the robot starting pose")
+      geometry_msgs::msg::Vector3 max_corner;
+    };
+  };
+};

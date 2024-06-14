@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found generate_parameter_library: 0.3.7 (/home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/cmake_generate_parameter_module_example
+[100%] Built target admittance_parameters
+[100%] Built target ament_cmake_python_copy_cmake_generate_parameter_module_example
+running egg_info
+writing cmake_generate_parameter_module_example.egg-info/PKG-INFO
+writing dependency_links to cmake_generate_parameter_module_example.egg-info/dependency_links.txt
+writing top-level names to cmake_generate_parameter_module_example.egg-info/top_level.txt
+reading manifest file 'cmake_generate_parameter_module_example.egg-info/SOURCES.txt'
+writing manifest file 'cmake_generate_parameter_module_example.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_cmake_generate_parameter_module_example_egg
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/pythonpath.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/pythonpath.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example-0.3.7-py3.10.egg-info
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example-0.3.7-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example-0.3.7-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example-0.3.7-py3.10.egg-info/top_level.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example-0.3.7-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example/__init__.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example/custom_validation.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example/parameters.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example/minimal_publisher.py
+Listing '/home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/local/lib/python3.10/dist-packages/cmake_generate_parameter_module_example'...
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/ament_index/resource_index/package_run_dependencies/cmake_generate_parameter_module_example
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/ament_index/resource_index/parent_prefix_path/cmake_generate_parameter_module_example
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/ament_index/resource_index/packages/cmake_generate_parameter_module_example
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/cmake/cmake_generate_parameter_module_exampleConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/cmake/cmake_generate_parameter_module_exampleConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/package.xml

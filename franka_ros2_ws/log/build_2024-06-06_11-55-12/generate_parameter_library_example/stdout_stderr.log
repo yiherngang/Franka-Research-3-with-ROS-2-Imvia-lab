@@ -1,0 +1,8 @@
+[ 11%] Built target admittance_controller_parameters
+[ 23%] Built target gtest
+[ 41%] Built target gmock
+[ 52%] Built target test_node
+[ 64%] Built target minimal_publisher
+[ 76%] Built target test_descriptor_gtest
+[100%] Built target test_example_gtest
+[100%] Built target test_example_gmock

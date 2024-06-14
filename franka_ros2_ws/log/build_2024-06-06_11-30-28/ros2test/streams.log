@@ -1,0 +1,41 @@
+[0.991s] Invoking command in '/home/adminlab/franka_ros2_ws/src/ros_testing/ros2test': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/ros2test/prefix_override:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2test build --build-base /home/adminlab/franka_ros2_ws/build/ros2test/build install --record /home/adminlab/franka_ros2_ws/build/ros2test/install.log --single-version-externally-managed install_data
+[1.294s] running egg_info
+[1.295s] creating ../../../build/ros2test/ros2test.egg-info
+[1.295s] writing ../../../build/ros2test/ros2test.egg-info/PKG-INFO
+[1.295s] writing dependency_links to ../../../build/ros2test/ros2test.egg-info/dependency_links.txt
+[1.295s] writing entry points to ../../../build/ros2test/ros2test.egg-info/entry_points.txt
+[1.296s] writing requirements to ../../../build/ros2test/ros2test.egg-info/requires.txt
+[1.296s] writing top-level names to ../../../build/ros2test/ros2test.egg-info/top_level.txt
+[1.296s] writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[1.298s] reading manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[1.299s] writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[1.299s] running build
+[1.299s] running build_py
+[1.305s] creating /home/adminlab/franka_ros2_ws/build/ros2test/build
+[1.305s] creating /home/adminlab/franka_ros2_ws/build/ros2test/build/lib
+[1.305s] creating /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test
+[1.305s] copying ros2test/__init__.py -> /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test
+[1.305s] creating /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test/command
+[1.305s] copying ros2test/command/__init__.py -> /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test/command
+[1.305s] copying ros2test/command/test.py -> /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test/command
+[1.305s] running install
+[1.305s] running install_lib
+[1.305s] creating /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test
+[1.305s] copying /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test/__init__.py -> /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test
+[1.305s] creating /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test/command
+[1.305s] copying /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test/command/__init__.py -> /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test/command
+[1.306s] copying /home/adminlab/franka_ros2_ws/build/ros2test/build/lib/ros2test/command/test.py -> /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test/command
+[1.306s] byte-compiling /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test/__init__.py to __init__.cpython-310.pyc
+[1.306s] byte-compiling /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test/command/__init__.py to __init__.cpython-310.pyc
+[1.306s] byte-compiling /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test/command/test.py to test.cpython-310.pyc
+[1.306s] running install_data
+[1.306s] copying package.xml -> /home/adminlab/franka_ros2_ws/install/ros2test/share/ros2test
+[1.306s] creating /home/adminlab/franka_ros2_ws/install/ros2test/share/ament_index
+[1.306s] creating /home/adminlab/franka_ros2_ws/install/ros2test/share/ament_index/resource_index
+[1.306s] creating /home/adminlab/franka_ros2_ws/install/ros2test/share/ament_index/resource_index/packages
+[1.306s] copying resource/ros2test -> /home/adminlab/franka_ros2_ws/install/ros2test/share/ament_index/resource_index/packages
+[1.306s] running install_egg_info
+[1.306s] Copying ../../../build/ros2test/ros2test.egg-info to /home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages/ros2test-0.7.0-py3.10.egg-info
+[1.306s] running install_scripts
+[1.329s] writing list of installed files to '/home/adminlab/franka_ros2_ws/build/ros2test/install.log'
+[1.363s] Invoked command in '/home/adminlab/franka_ros2_ws/src/ros_testing/ros2test' returned '0': PYTHONPATH=/home/adminlab/franka_ros2_ws/build/ros2test/prefix_override:/home/adminlab/franka_ros2_ws/install/ros2test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2test build --build-base /home/adminlab/franka_ros2_ws/build/ros2test/build install --record /home/adminlab/franka_ros2_ws/build/ros2test/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+source;share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.sh
+source;share/pilz_industrial_motion_planner_testutils/environment/library_path.sh
+source;share/pilz_industrial_motion_planner_testutils/environment/path.sh

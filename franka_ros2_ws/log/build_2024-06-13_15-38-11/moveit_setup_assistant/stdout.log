@@ -1,0 +1,41 @@
+[ 14%] [34m[1mAutomatic MOC for target moveit_setup_assistant[0m
+[ 14%] [34m[1mAutomatic MOC for target moveit_setup_assistant_updater[0m
+[ 14%] Built target moveit_setup_assistant_autogen
+[ 14%] Built target moveit_setup_assistant_updater_autogen
+[35m[1mConsolidate compiler generated dependencies of target moveit_setup_assistant_updater[0m
+[ 35%] Built target moveit_setup_assistant_updater
+[35m[1mConsolidate compiler generated dependencies of target moveit_setup_assistant[0m
+[100%] Built target moveit_setup_assistant
+-- Install configuration: "Release"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/lib/moveit_setup_assistant/collisions_updater
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/include/moveit_setup_assistant
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/include/moveit_setup_assistant/setup_assistant_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/include/moveit_setup_assistant/navigation_widget.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/launch/setup_assistant.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/resources
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/resources/MoveIt_Setup_Assistant2.png
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/ament_index/resource_index/package_run_dependencies/moveit_setup_assistant
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/ament_index/resource_index/parent_prefix_path/moveit_setup_assistant
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/ament_index/resource_index/packages/moveit_setup_assistant
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantTargetsExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantTargetsExport-release.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_setup_assistant/share/moveit_setup_assistant/package.xml

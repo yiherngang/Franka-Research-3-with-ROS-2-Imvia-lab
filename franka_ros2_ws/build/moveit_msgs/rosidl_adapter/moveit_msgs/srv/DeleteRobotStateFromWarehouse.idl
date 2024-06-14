@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/DeleteRobotStateFromWarehouse.srv
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module srv {
+    struct DeleteRobotStateFromWarehouse_Request {
+      string name;
+
+      string robot;
+    };
+    struct DeleteRobotStateFromWarehouse_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

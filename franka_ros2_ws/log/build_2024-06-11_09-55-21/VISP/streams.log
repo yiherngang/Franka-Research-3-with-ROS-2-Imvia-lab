@@ -1,0 +1,591 @@
+[0.120s] Invoking command in '/home/adminlab/franka_ros2_ws/build/VISP': /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/visp -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/VISP
+[0.226s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.345s] -- Detecting C compile features
+[0.346s] -- Detecting C compile features - done
+[0.349s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.451s] -- Detecting CXX compile features
+[0.451s] -- Detecting CXX compile features - done
+[0.451s] -- Performing Test HAVE_CXX11_FLAG (check file: cmake/checks/cxx11.cpp)
+[0.563s] -- Performing Test HAVE_CXX11_FLAG - Success
+[0.563s] -- Performing Test HAVE_CXX14_FLAG (check file: cmake/checks/cxx14.cpp)
+[0.701s] -- Performing Test HAVE_CXX14_FLAG - Success
+[0.702s] -- Performing Test HAVE_CXX17_FLAG (check file: cmake/checks/cxx17.cpp)
+[1.092s] -- Performing Test HAVE_CXX17_FLAG - Success
+[1.092s] -- Performing Test HAVE_STD_CXX17_FLAG (check file: cmake/checks/cxx17.cpp)
+[1.338s] -- Performing Test HAVE_STD_CXX17_FLAG - Success
+[1.338s] -- Performing Test HAVE_NULLPTR (check file: cmake/checks/nullptr.cpp)
+[1.559s] -- Performing Test HAVE_NULLPTR - Success
+[1.565s] -- Detected processor: x86_64
+[1.915s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[1.957s] -- Performing Test HAS_FLTO
+[2.106s] -- Performing Test HAS_FLTO - Success
+[2.106s] -- pybind11 found
+[2.106s] -- The python version that you are using (/usr/bin/python3.10) is the system interpreter.
+[2.106s]     pip packages should not be installed system-wide!
+[2.106s]     Python bindings targets will be deactivated!
+[2.107s]     To reenable them, install conda or virtualenv,
+[2.107s]     delete the CMakeCache file then rerun cmake when inside the virtual environment.
+[2.107s]     
+[2.108s] -- Looking for sys/types.h
+[2.179s] -- Looking for sys/types.h - found
+[2.179s] -- Looking for stdint.h
+[2.245s] -- Looking for stdint.h - found
+[2.245s] -- Looking for stddef.h
+[2.323s] -- Looking for stddef.h - found
+[2.323s] -- Check size of int
+[2.383s] -- Check size of int - done
+[2.386s] -- Could NOT find MKL (missing: MKL_LIBRARIES MKL_INCLUDE_DIRS MKL_INTERFACE_LIBRARY MKL_SEQUENTIAL_LAYER_LIBRARY MKL_CORE_LIBRARY) 
+[2.395s] -- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+[2.406s] -- Could NOT find Atlas (missing: Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY) 
+[2.415s] -- Looking for inet_ntop
+[2.484s] -- Looking for inet_ntop - found
+[2.580s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.580s] -- Try C99 flag = [-std=gnu99]
+[2.580s] -- Performing Test C99_FLAG_DETECTED
+[2.588s] -- Performing Test C99_FLAG_DETECTED - Success
+[2.588s] -- Performing Test __compiler_doesnt_need_c99_flag
+[2.648s] -- Performing Test __compiler_doesnt_need_c99_flag - Success
+[2.693s] -- Looking for pthread.h
+[2.757s] -- Looking for pthread.h - found
+[2.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.822s] -- Found Threads: TRUE  
+[2.822s] -- franka found
+[2.836s] -- Performing Test DC1394_CAMERA_ENUMERATE_FOUND
+[2.909s] -- Performing Test DC1394_CAMERA_ENUMERATE_FOUND - Success
+[2.910s] -- dc1394 found
+[2.914s] -- v4l2 found
+[2.956s] -- Could NOT find FTIITSDK (missing: FTIITSDK_FT_LIBRARY FTIITSDK_COMMUNICATION_LIBRARY FTIITSDK_INCLUDE_DIR) 
+[3.164s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.230s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.231s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.231s] -- openmp found
+[3.242s] -- eigen3 found
+[3.246s] -- Could NOT find Coin3D (missing: COIN3D_LIBRARIES COIN3D_INCLUDE_DIRS) 
+[3.258s] -- OGRE_PREFIX_WATCH changed.
+[3.264s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.264s] -- Checking for module 'OGRE'
+[3.281s] --   Found OGRE, version 1.9.0
+[3.350s] -- Looking for OGRE_Paging...
+[3.358s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.358s] -- Looking for OGRE_Terrain...
+[3.366s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.366s] -- Looking for OGRE_Property...
+[3.373s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.373s] -- Looking for OGRE_RTShaderSystem...
+[3.379s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.379s] -- Looking for OGRE_Volume...
+[3.386s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.386s] -- Looking for OGRE_Overlay...
+[3.394s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.557s] -- ogre found
+[3.558s] -- OIS_PREFIX_PATH changed.
+[3.562s] -- Checking for module 'OIS'
+[3.564s] --   No package 'OIS' found
+[3.631s] Package libusb was not found in the pkg-config search path.
+[3.631s] Perhaps you should add the directory containing `libusb.pc'
+[3.631s] to the PKG_CONFIG_PATH environment variable
+[3.631s] No package 'libusb' found
+[3.631s] -- libusb_1 found
+[3.649s] -- realsense2 found
+[3.659s] -- threads found
+[3.667s] -- xml2 found
+[3.675s] -- opencv found
+[3.697s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.697s] -- zlib found
+[3.806s] -- Found X11: /usr/include   
+[3.806s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.862s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.862s] -- Looking for gethostbyname
+[3.917s] -- Looking for gethostbyname - found
+[3.917s] -- Looking for connect
+[3.970s] -- Looking for connect - found
+[3.970s] -- Looking for remove
+[4.027s] -- Looking for remove - found
+[4.027s] -- Looking for shmat
+[4.080s] -- Looking for shmat - found
+[4.080s] -- Looking for IceConnectionNumber in ICE
+[4.136s] -- Looking for IceConnectionNumber in ICE - found
+[4.137s] -- x11 found
+[4.242s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[4.242s] -- jpeg found
+[4.274s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[4.274s] -- png found
+[4.291s] -- zbar found
+[4.315s] -- Checking for module 'eigen3'
+[4.328s] --   Found eigen3, version 3.4.0
+[4.366s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.366s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.407s] -- Checking for module 'flann'
+[4.420s] --   Found flann, version 1.9.1
+[4.464s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.464s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.015s] -- Checking for module 'libusb-1.0'
+[5.030s] --   Found libusb-1.0, version 1.0.25
+[5.069s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.070s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.131s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.261s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.266s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.272s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.411s] -- Found Qhull version 8.0.2
+[5.558s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.675s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.679s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.682s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.686s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.689s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.692s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.695s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.698s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.703s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.707s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.711s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.715s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.720s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.725s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.730s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.734s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.738s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.741s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.746s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.749s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.754s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.756s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.760s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.764s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.768s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.768s] -- pcl found
+[5.775s] [0mCUDA_TOOLKIT_ROOT_DIR not found or specified[0m
+[5.800s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[5.823s] -- nlohmann_json found
+[6.601s] -- Performing Test HAVE_FUNC_ISNAN
+[6.728s] -- Performing Test HAVE_FUNC_ISNAN - Success
+[6.728s] -- Performing Test HAVE_FUNC_STD_ISNAN
+[6.852s] -- Performing Test HAVE_FUNC_STD_ISNAN - Success
+[6.852s] -- Performing Test HAVE_FUNC__ISNAN
+[6.876s] -- Performing Test HAVE_FUNC__ISNAN - Failed
+[6.877s] -- Performing Test HAVE_FUNC_ISINF
+[7.000s] -- Performing Test HAVE_FUNC_ISINF - Success
+[7.000s] -- Performing Test HAVE_FUNC_STD_ISINF
+[7.211s] -- Performing Test HAVE_FUNC_STD_ISINF - Success
+[7.212s] -- Performing Test HAVE_FUNC_ROUND
+[7.432s] -- Performing Test HAVE_FUNC_ROUND - Success
+[7.432s] -- Performing Test HAVE_FUNC_STD_ROUND
+[7.561s] -- Performing Test HAVE_FUNC_STD_ROUND - Success
+[7.561s] -- Performing Test HAVE_FUNC_ERFC
+[7.687s] -- Performing Test HAVE_FUNC_ERFC - Success
+[7.688s] -- Performing Test HAVE_FUNC_STD_ERFC
+[7.835s] -- Performing Test HAVE_FUNC_STD_ERFC - Success
+[7.836s] -- Performing Test HAVE_FUNC_STRTOF
+[7.902s] -- Performing Test HAVE_FUNC_STRTOF - Success
+[7.902s] -- Performing Test HAVE_FUNC_ISFINITE
+[8.027s] -- Performing Test HAVE_FUNC_ISFINITE - Success
+[8.027s] -- Performing Test HAVE_FUNC_STD_ISFINITE
+[8.212s] -- Performing Test HAVE_FUNC_STD_ISFINITE - Success
+[8.213s] -- Performing Test HAVE_FUNC__FINITE
+[8.250s] -- Performing Test HAVE_FUNC__FINITE - Failed
+[8.251s] -- Performing Test HAVE_FUNC_LOG1P
+[8.383s] -- Performing Test HAVE_FUNC_LOG1P - Success
+[8.388s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[8.741s] -- Performing Test HAVE_CXX_WNO_FLOAT_EQUAL
+[8.805s] -- Performing Test HAVE_CXX_WNO_FLOAT_EQUAL - Success
+[8.805s] -- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS
+[8.872s] -- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS - Success
+[8.876s] -- Performing Test HAVE_CXX_WNO_DEPRECATED
+[8.939s] -- Performing Test HAVE_CXX_WNO_DEPRECATED - Success
+[8.939s] -- Performing Test HAVE_CXX_WNO_SIGN_COMPARE
+[9.002s] -- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success
+[9.002s] -- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER
+[9.066s] -- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success
+[9.066s] -- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE
+[9.130s] -- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE - Success
+[9.131s] -- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW
+[9.191s] -- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW - Success
+[9.191s] -- Performing Test HAVE_CXX_WNO_TYPE_LIMITS
+[9.257s] -- Performing Test HAVE_CXX_WNO_TYPE_LIMITS - Success
+[9.257s] -- Performing Test HAVE_CXX_WNO_SHIFT_NEGATIVE_VALUE
+[9.323s] -- Performing Test HAVE_CXX_WNO_SHIFT_NEGATIVE_VALUE - Success
+[9.323s] -- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32
+[9.411s] -- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32 - Success
+[9.412s] -- Performing Test HAVE_CXX_WNO_ATTRIBUTES
+[9.480s] -- Performing Test HAVE_CXX_WNO_ATTRIBUTES - Success
+[9.502s] -- Performing Test HAVE_CXX_O0
+[9.574s] -- Performing Test HAVE_CXX_O0 - Success
+[9.577s] -- Performing Test HAVE_CXX_WNO_UNUSED_RESULT
+[9.640s] -- Performing Test HAVE_CXX_WNO_UNUSED_RESULT - Success
+[9.649s] -- Performing Test HAVE_SSE2_FLAG (check file: cmake/checks/cpu_sse2.cpp)
+[9.722s] -- Performing Test HAVE_SSE2_FLAG - Success
+[9.722s] -- Performing Test HAVE_SSE4_2_FLAG (check file: cmake/checks/cpu_sse42.cpp)
+[9.796s] -- Performing Test HAVE_SSE4_2_FLAG - Success
+[9.796s] -- Performing Test HAVE_AVX_FLAG (check file: cmake/checks/cpu_avx.cpp)
+[9.994s] -- Performing Test HAVE_AVX_FLAG - Success
+[9.994s] -- Performing Test HAVE_AVX2_FLAG (check file: cmake/checks/cpu_avx2.cpp)
+[10.185s] -- Performing Test HAVE_AVX2_FLAG - Success
+[10.185s] -- Performing Test HAVE_MBMI_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[10.362s] -- Performing Test HAVE_MBMI_FLAG - Success
+[10.362s] -- Performing Test HAVE_MBMI2_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[10.545s] -- Performing Test HAVE_MBMI2_FLAG - Success
+[10.545s] -- Performing Test HAVE_MLZCNT_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[10.722s] -- Performing Test HAVE_MLZCNT_FLAG - Success
+[10.722s] -- Performing Test HAVE_MFMA_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[10.899s] -- Performing Test HAVE_MFMA_FLAG - Success
+[10.899s] -- Performing Test HAVE_AVX256_SUL_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[11.075s] -- Performing Test HAVE_AVX256_SUL_FLAG - Success
+[11.075s] -- Performing Test HAVE_AVX256_SUS_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[11.252s] -- Performing Test HAVE_AVX256_SUS_FLAG - Success
+[11.252s] -- Performing Test HAVE_ABIV4_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[11.431s] -- Performing Test HAVE_ABIV4_FLAG - Success
+[11.431s] -- Performing Test HAVE_NO_UNUSED_VARIABLE_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[11.608s] -- Performing Test HAVE_NO_UNUSED_VARIABLE_FLAG - Success
+[11.608s] -- Performing Test HAVE_NO_UNUSED_PARAMETER_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[11.785s] -- Performing Test HAVE_NO_UNUSED_PARAMETER_FLAG - Success
+[11.785s] -- Performing Test HAVE_NO_UNUSED_FUNCTION_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[11.962s] -- Performing Test HAVE_NO_UNUSED_FUNCTION_FLAG - Success
+[11.962s] -- Performing Test HAVE_NO_SIGN_COMPARE_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[12.140s] -- Performing Test HAVE_NO_SIGN_COMPARE_FLAG - Success
+[12.140s] -- Performing Test HAVE_NO_IGNORED_QUALIFIERS_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[12.319s] -- Performing Test HAVE_NO_IGNORED_QUALIFIERS_FLAG - Success
+[12.319s] -- Performing Test HAVE_NO_REORDER_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[12.497s] -- Performing Test HAVE_NO_REORDER_FLAG - Success
+[12.497s] -- Performing Test HAVE_NO_STRICT_ALIASING_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[12.674s] -- Performing Test HAVE_NO_STRICT_ALIASING_FLAG - Success
+[12.674s] -- Performing Test HAVE_NO_MISSING_FIELD_FLAG (check file: cmake/checks/cpu_warning.cpp)
+[12.851s] -- Performing Test HAVE_NO_MISSING_FIELD_FLAG - Success
+[12.869s] -- Found JNI: /usr/lib/jvm/default-java/lib/libjawt.so  
+[12.870s] -- Performing Test HAVE_CXX_WALL
+[12.931s] -- Performing Test HAVE_CXX_WALL - Success
+[12.931s] -- Performing Test HAVE_C_WALL
+[12.988s] -- Performing Test HAVE_C_WALL - Success
+[12.988s] -- Performing Test HAVE_CXX_WEXTRA
+[13.049s] -- Performing Test HAVE_CXX_WEXTRA - Success
+[13.049s] -- Performing Test HAVE_C_WEXTRA
+[13.103s] -- Performing Test HAVE_C_WEXTRA - Success
+[13.103s] -- Performing Test HAVE_CXX_WSTRICT_OVERFLOW_5
+[13.166s] -- Performing Test HAVE_CXX_WSTRICT_OVERFLOW_5 - Success
+[13.166s] -- Performing Test HAVE_C_WSTRICT_OVERFLOW_5
+[13.220s] -- Performing Test HAVE_C_WSTRICT_OVERFLOW_5 - Success
+[13.220s] -- Performing Test HAVE_CXX_WFLOAT_EQUAL
+[13.280s] -- Performing Test HAVE_CXX_WFLOAT_EQUAL - Success
+[13.280s] -- Performing Test HAVE_C_WFLOAT_EQUAL
+[13.333s] -- Performing Test HAVE_C_WFLOAT_EQUAL - Success
+[13.333s] -- Performing Test HAVE_CXX_WSIGN_CONVERSION
+[13.392s] -- Performing Test HAVE_CXX_WSIGN_CONVERSION - Success
+[13.392s] -- Performing Test HAVE_C_WSIGN_CONVERSION
+[13.447s] -- Performing Test HAVE_C_WSIGN_CONVERSION - Success
+[13.447s] -- Performing Test HAVE_CXX_WSHADOW
+[13.507s] -- Performing Test HAVE_CXX_WSHADOW - Success
+[13.507s] -- Performing Test HAVE_C_WSHADOW
+[13.561s] -- Performing Test HAVE_C_WSHADOW - Success
+[13.561s] -- Performing Test HAVE_CXX_FFAST_MATH
+[13.622s] -- Performing Test HAVE_CXX_FFAST_MATH - Success
+[13.623s] -- Performing Test HAVE_C_FFAST_MATH
+[13.677s] -- Performing Test HAVE_C_FFAST_MATH - Success
+[13.677s] -- Performing Test HAVE_CXX_FOPENMP
+[13.738s] -- Performing Test HAVE_CXX_FOPENMP - Success
+[13.738s] -- Performing Test HAVE_C_FOPENMP
+[13.792s] -- Performing Test HAVE_C_FOPENMP - Success
+[13.792s] -- Performing Test HAVE_CXX_STD_C++17
+[13.853s] -- Performing Test HAVE_CXX_STD_C++17 - Success
+[13.853s] -- Performing Test HAVE_C_STD_C++17
+[13.908s] -- Performing Test HAVE_C_STD_C++17 - Success
+[13.908s] -- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
+[13.969s] -- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
+[13.969s] -- Performing Test HAVE_C_FVISIBILITY_HIDDEN
+[14.022s] -- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
+[14.022s] -- Performing Test HAVE_CXX_MSSE2
+[14.082s] -- Performing Test HAVE_CXX_MSSE2 - Success
+[14.082s] -- Performing Test HAVE_C_MSSE2
+[14.137s] -- Performing Test HAVE_C_MSSE2 - Success
+[14.137s] -- Performing Test HAVE_CXX_MSSE3
+[14.197s] -- Performing Test HAVE_CXX_MSSE3 - Success
+[14.197s] -- Performing Test HAVE_C_MSSE3
+[14.253s] -- Performing Test HAVE_C_MSSE3 - Success
+[14.253s] -- Performing Test HAVE_CXX_MSSSE3
+[14.313s] -- Performing Test HAVE_CXX_MSSSE3 - Success
+[14.313s] -- Performing Test HAVE_C_MSSSE3
+[14.369s] -- Performing Test HAVE_C_MSSSE3 - Success
+[14.370s] -- Performing Test HAVE_CXX_FPIC
+[14.429s] -- Performing Test HAVE_CXX_FPIC - Success
+[14.429s] -- Performing Test HAVE_C_FPIC
+[14.485s] -- Performing Test HAVE_C_FPIC - Success
+[14.491s] -- Performing Test HAVE_CXX_WNO_MISLEADING_INDENTATION
+[14.552s] -- Performing Test HAVE_CXX_WNO_MISLEADING_INDENTATION - Success
+[14.552s] -- Performing Test HAVE_CXX_WNO_INT_IN_BOOL_CONTEXT
+[14.614s] -- Performing Test HAVE_CXX_WNO_INT_IN_BOOL_CONTEXT - Success
+[14.614s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY
+[14.675s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY - Success
+[14.675s] -- Performing Test HAVE_CXX_WNO_SHADOW
+[14.736s] -- Performing Test HAVE_CXX_WNO_SHADOW - Success
+[14.736s] -- Performing Test HAVE_CXX_WNO_MAYBE_UNINITIALIZED
+[14.796s] -- Performing Test HAVE_CXX_WNO_MAYBE_UNINITIALIZED - Success
+[14.799s] -- Performing Test HAVE_CXX_WNO_STRICT_ALIASING
+[14.860s] -- Performing Test HAVE_CXX_WNO_STRICT_ALIASING - Success
+[14.860s] -- Performing Test HAVE_CXX_WD26812
+[14.886s] -- Performing Test HAVE_CXX_WD26812 - Failed
+[14.886s] -- Performing Test HAVE_CXX_WD4244
+[14.913s] -- Performing Test HAVE_CXX_WD4244 - Failed
+[14.913s] -- Performing Test HAVE_CXX_WNO_PESSIMIZING_MOVE
+[14.974s] -- Performing Test HAVE_CXX_WNO_PESSIMIZING_MOVE - Success
+[14.977s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+[15.039s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+[15.126s] -- Performing Test HAVE_CXX_WNO_MISSING_FIELD_INITIALIZERS
+[15.187s] -- Performing Test HAVE_CXX_WNO_MISSING_FIELD_INITIALIZERS - Success
+[15.188s] -- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE
+[15.248s] -- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE - Success
+[15.267s] -- Performing Test HAVE_CXX_WNO_REORDER
+[15.328s] -- Performing Test HAVE_CXX_WNO_REORDER - Success
+[15.328s] -- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION
+[15.389s] -- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION - Success
+[15.389s] -- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+[15.449s] -- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+[15.450s] -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE
+[15.510s] -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE - Success
+[15.510s] -- Performing Test HAVE_CXX_WNO_SIGN_CONVERSION
+[15.571s] -- Performing Test HAVE_CXX_WNO_SIGN_CONVERSION - Success
+[15.571s] -- Performing Test HAVE_CXX_WNO_COMMENT
+[15.632s] -- Performing Test HAVE_CXX_WNO_COMMENT - Success
+[15.632s] -- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS
+[15.692s] -- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS - Success
+[15.692s] -- Performing Test HAVE_CXX_WNO_UNQUALIFIED_STD_CAST_CALL
+[15.753s] -- Performing Test HAVE_CXX_WNO_UNQUALIFIED_STD_CAST_CALL - Success
+[15.771s] -- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_PARAMETER
+[15.832s] -- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_PARAMETER - Success
+[15.832s] -- Performing Test HAVE_CXX_WNO_REGISTER
+[15.893s] -- Performing Test HAVE_CXX_WNO_REGISTER - Success
+[15.974s] -- opencv nonfree or xfeature2d module not found
+[16.025s] -- Performing Test HAVE_CXX_WD4267
+[16.057s] -- Performing Test HAVE_CXX_WD4267 - Failed
+[16.113s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY_WITH_USER_PROVIDED_COPY
+[16.174s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY_WITH_USER_PROVIDED_COPY - Success
+[16.311s] -- Performing Test HAVE_SSE2 (check file: cmake/checks/cpu_sse2.cpp)
+[16.389s] -- Performing Test HAVE_SSE2 - Success
+[16.389s] -- Performing Test HAVE_SSE3 (check file: cmake/checks/cpu_sse3.cpp)
+[16.465s] -- Performing Test HAVE_SSE3 - Success
+[16.466s] -- Performing Test HAVE_SSSE3 (check file: cmake/checks/cpu_ssse3.cpp)
+[16.542s] -- Performing Test HAVE_SSSE3 - Success
+[16.542s] -- Performing Test HAVE_SSE4_1 (check file: cmake/checks/cpu_sse41.cpp)
+[16.586s] -- Performing Test HAVE_SSE4_1 - Failed
+[16.586s] -- Performing Test HAVE_SSE4_2 (check file: cmake/checks/cpu_sse42.cpp)
+[16.625s] -- Performing Test HAVE_SSE4_2 - Failed
+[16.625s] -- Performing Test HAVE_AVX (check file: cmake/checks/cpu_avx.cpp)
+[16.821s] -- Performing Test HAVE_AVX - Failed
+[16.821s] -- Performing Test HAVE_AVX2 (check file: cmake/checks/cpu_avx2.cpp)
+[17.018s] -- Performing Test HAVE_AVX2 - Failed
+[17.018s] -- Performing Test HAVE_NEON (check file: cmake/checks/cpu_neon.cpp)
+[17.046s] -- Performing Test HAVE_NEON - Failed
+[17.124s] -- 
+[17.124s] -- ==========================================================
+[17.124s] -- General configuration information for ViSP 3.6.1
+[17.124s] -- 
+[17.124s] --   Version control:               v3.6.0-1056-g92b1ddcd6
+[17.124s] -- 
+[17.124s] --   Platform:
+[17.124s] --     Timestamp:                   2024-06-11T07:55:40Z
+[17.124s] --     Host:                        Linux 6.5.0-35-generic x86_64
+[17.124s] --     CMake:                       3.22.1
+[17.124s] --     CMake generator:             Unix Makefiles
+[17.124s] --     CMake build tool:            /usr/bin/gmake
+[17.124s] --     Configuration:               Release
+[17.124s] -- 
+[17.124s] --   System information:
+[17.124s] --     Number of CPU logical cores: 16
+[17.124s] --     Number of CPU physical cores: 12
+[17.124s] --     Total physical memory (in MiB): 15668
+[17.124s] --     OS name:                     Linux
+[17.125s] --     OS release:                  6.5.0-35-generic
+[17.125s] --     OS version:                  #35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May  7 09:00:52 UTC 2
+[17.125s] --     OS platform:                 x86_64
+[17.125s] --     CPU name:                    Unknown P6 family
+[17.125s] --     Is the CPU 64-bit?           yes
+[17.125s] --     Does the CPU have FPU?       yes
+[17.125s] --     CPU optimization:            SSE2 SSE3 SSSE3
+[17.125s] -- 
+[17.125s] --   C/C++:
+[17.125s] --     Built as dynamic libs?:      yes
+[17.125s] --     C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
+[17.125s] --     C++ flags (Release):         -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+[17.125s] --     C++ flags (Debug):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+[17.125s] --     C Compiler:                  /usr/bin/cc
+[17.125s] --     C flags (Release):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+[17.125s] --     C flags (Debug):             -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+[17.125s] --     Linker flags (Release):
+[17.125s] --     Linker flags (Debug):
+[17.125s] --     Use cxx standard:            17
+[17.125s] -- 
+[17.125s] --   ViSP modules:
+[17.125s] --     To be built:                 core dnn_tracker gui imgproc io java_bindings_generator klt me sensor ar blob robot visual_features vs vision detection mbt tt tt_mi
+[17.125s] --     Disabled:                    -
+[17.125s] --     Disabled by dependency:      -
+[17.125s] --     Unavailable:                 java
+[17.125s] --     Enable visp namespace:       no
+[17.125s] -- 
+[17.125s] --   Python 3:
+[17.125s] --     Interpreter:                 /usr/bin/python3.10 (ver 3.10.12)
+[17.125s] -- 
+[17.126s] --   Java:                          
+[17.126s] --     ant:                         no
+[17.126s] --     JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+[17.126s] -- 
+[17.126s] --   Python3 bindings:              no
+[17.126s] --     Requirements: 
+[17.126s] --       Python version > 3.7.0:    ok (ver 3.10.12)
+[17.126s] --       Python in Virtual environment or conda:
+[17.126s] --                                  failed
+[17.126s] --       Pybind11 found:            ok
+[17.126s] --       CMake > 3.19.0:            ok (3.22.1)
+[17.126s] --       C++ standard > 201703L:    ok (201703L)
+[17.126s] -- 
+[17.126s] --   Build options: 
+[17.126s] --     Build deprecated:            yes
+[17.126s] --     Build with moment combine:   no
+[17.126s] -- 
+[17.126s] --   OpenCV: 
+[17.126s] --     Version:                     4.10.0
+[17.126s] --     Modules:                     calib3d core dnn features2d flann gapi highgui imgcodecs imgproc ml objdetect photo stitching video videoio
+[17.126s] --     OpenCV dir:                  /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4
+[17.126s] -- 
+[17.126s] --   Mathematics: 
+[17.126s] --     Blas/Lapack:                 yes
+[17.126s] --     \- Use MKL:                  no
+[17.126s] --     \- Use OpenBLAS:             no
+[17.126s] --     \- Use Atlas:                no
+[17.126s] --     \- Use Netlib:               yes (ver 3.10.0)
+[17.127s] --     \- Use GSL:                  no
+[17.127s] --     \- Use Lapack (built-in):    no
+[17.127s] --     Use Eigen3:                  yes (ver 3.4.0)
+[17.127s] --     Use OpenCV:                  yes (ver 4.10.0)
+[17.127s] -- 
+[17.127s] --   Simulator: 
+[17.127s] --     Ogre simulator: 
+[17.127s] --     \- Use Ogre3D:               yes (ver 1.9.0)
+[17.127s] --     \- Use OIS:                  no
+[17.127s] --     Coin simulator: 
+[17.127s] --     \- Use Coin3D:               no
+[17.127s] --     \- Use SoWin:                no
+[17.127s] --     \- Use SoXt:                 no
+[17.127s] --     \- Use SoQt:                 no
+[17.127s] --     \- Use Qt5:                  no
+[17.127s] --     \- Use Qt4:                  no
+[17.127s] --     \- Use Qt3:                  no
+[17.127s] -- 
+[17.127s] --   Media I/O: 
+[17.127s] --     Use JPEG:                    yes (ver 80)
+[17.127s] --     Use PNG:                     yes (ver 1.6.37)
+[17.127s] --     \- Use ZLIB:                 yes (ver 1.2.11)
+[17.127s] --     Use OpenCV:                  yes (ver 4.10.0)
+[17.127s] --     Use stb_image (built-in):    yes (ver 2.27.0)
+[17.127s] --     Use TinyEXR (built-in):      yes (ver 1.0.2)
+[17.127s] --     Use simdlib (built-in):      yes
+[17.128s] --     Use npz I/O (built-in):      yes
+[17.128s] -- 
+[17.128s] --   Real robots: 
+[17.128s] --     Use Afma4:                   no
+[17.128s] --     Use Afma6:                   no
+[17.128s] --     Use Franka:                  yes (ver 0.13.2)
+[17.128s] --     Use Viper650:                no
+[17.128s] --     Use Viper850:                no
+[17.128s] --     Use ur_rtde:                 no
+[17.128s] --     Use Kinova Jaco:             no
+[17.128s] --     Use aria (Pioneer):          no
+[17.128s] --     Use PTU46:                   no
+[17.128s] --     Use Biclops PTU:             no
+[17.128s] --     Use Flir PTU SDK:            no
+[17.128s] --     Use MAVSDK:                  no
+[17.128s] --     Use Parrot ARSDK:            no
+[17.128s] --     \-Use ffmpeg:                no
+[17.128s] --     Use Virtuose:                no
+[17.128s] --     Use qbdevice (built-in):     yes (ver 2.6.0)
+[17.128s] --     Use takktile2 (built-in):    yes (ver 1.0.0)
+[17.128s] --     Use pololu (built-in):       yes (ver 1.0.0)
+[17.128s] -- 
+[17.128s] --   GUI: 
+[17.128s] --     Use X11:                     yes
+[17.128s] --     Use GTK:                     no
+[17.128s] --     Use OpenCV:                  yes (ver 4.10.0)
+[17.129s] --     Use GDI:                     no
+[17.129s] --     Use Direct3D:                no
+[17.129s] -- 
+[17.129s] --   Cameras: 
+[17.129s] --     Use DC1394-2.x:              yes (ver 2.2.6)
+[17.129s] --     Use CMU 1394:                no
+[17.129s] --     Use V4L2:                    yes (ver 1.22.1)
+[17.129s] --     Use directshow:              no
+[17.129s] --     Use OpenCV:                  yes (ver 4.10.0)
+[17.129s] --     Use FLIR Flycapture:         no
+[17.129s] --     Use Basler Pylon:            no
+[17.129s] --     Use IDS uEye:                no
+[17.129s] -- 
+[17.129s] --   RGB-D sensors: 
+[17.129s] --     Use Realsense:               no
+[17.129s] --     Use Realsense2:              yes (ver 2.55.1)
+[17.129s] --     Use Occipital Structure:     no
+[17.129s] --     Use Kinect:                  no
+[17.129s] --     \- Use libfreenect:          no
+[17.129s] --     \- Use libusb-1:             yes (ver 1.0.25)
+[17.129s] --     \- Use std::thread:          yes
+[17.129s] --     Use PCL:                     yes (ver 1.12.1)
+[17.129s] --     \- Use VTK:                  yes (ver 9.1.0)
+[17.129s] -- 
+[17.129s] --   F/T sensors: 
+[17.129s] --     Use atidaq (built-in):       no
+[17.129s] --     Use comedi:                  no
+[17.130s] --     Use IIT SDK:                 no
+[17.130s] -- 
+[17.130s] --   Mocap: 
+[17.130s] --     Use Qualisys:                no
+[17.130s] --     Use Vicon:                   no
+[17.130s] -- 
+[17.130s] --   Detection: 
+[17.130s] --     Use zbar:                    yes (ver 0.23.92)
+[17.130s] --     Use dmtx:                    no
+[17.130s] --     Use AprilTag (built-in):     yes (ver 3.1.1)
+[17.130s] --     \- Use AprilTag big family:  no
+[17.130s] -- 
+[17.130s] --   Misc: 
+[17.130s] --     Use Clipper (built-in):      yes (ver 6.4.2)
+[17.130s] --     Use pugixml (built-in):      yes (ver 1.9.0)
+[17.130s] --     Use libxml2:                 yes (ver 2.9.13)
+[17.130s] --     Use json (nlohmann):         yes (ver 3.10.5)
+[17.130s] -- 
+[17.130s] --   Optimization: 
+[17.130s] --     Use OpenMP:                  yes
+[17.130s] --     Use std::thread:             yes
+[17.130s] --     Use pthread:                 yes
+[17.130s] --     Use pthread (built-in):      no
+[17.130s] --     Use simdlib (built-in):      yes
+[17.130s] -- 
+[17.130s] --   DNN: 
+[17.130s] --     Use CUDA Toolkit:            no
+[17.130s] --     Use TensorRT:                no
+[17.130s] -- 
+[17.130s] --   Documentation: 
+[17.131s] --     Use doxygen:                 no
+[17.131s] --     \- Use mathjax:              no
+[17.131s] -- 
+[17.131s] --   Tests and samples:
+[17.131s] --     Use catch2 (built-in):       yes (ver 2.13.7)
+[17.131s] --     Tests:                       yes
+[17.131s] --     Apps:                        yes
+[17.131s] --     Demos:                       yes
+[17.131s] --     Examples:                    yes
+[17.131s] --     Tutorials:                   yes
+[17.131s] --     Dataset found:               no
+[17.131s] -- 
+[17.131s] --   Library dirs:
+[17.131s] --     Eigen3 include dir:          /usr/share/eigen3/cmake
+[17.131s] --     OpenCV dir:                  /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4
+[17.131s] --     PCL dir:                     /usr/lib/x86_64-linux-gnu/cmake/pcl
+[17.131s] -- 
+[17.131s] --   Install path:                  /home/adminlab/franka_ros2_ws/install/VISP
+[17.131s] -- 
+[17.131s] -- ==========================================================
+[17.146s] -- Configuring done
+[23.870s] -- Generating done
+[23.900s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/VISP

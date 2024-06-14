@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[  4%] Built target gtest_main
+[  4%] Built target gtest
+[  7%] Built target gmock_main
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_core[0m
+[ 11%] Built target gmock
+[ 14%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/CMakeFiles/moveit_task_constructor_core.dir/solvers/multi_planner.cpp.o[0m
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/core/src/solvers/pipeline_planner.cpp:39[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/core/include/moveit/task_constructor/solvers/pipeline_planner.h:42:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp: No such file or directory
+   42 | #include [01;31m[K<moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:258: src/CMakeFiles/moveit_task_constructor_core.dir/solvers/pipeline_planner.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/core/src/solvers/cartesian_path.cpp:[m[K In member function ‘[01m[Kvirtual moveit::task_constructor::solvers::PlannerInterface::Result moveit::task_constructor::solvers::CartesianPath::plan(const PlanningSceneConstPtr&, const moveit::core::LinkModel&, const Isometry3d&, const Isometry3d&, const moveit::core::JointModelGroup*, double, robot_trajectory::RobotTrajectoryPtr&, const Constraints&)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit_task_constructor/core/src/solvers/cartesian_path.cpp:103:42:[m[K [01;31m[Kerror: [m[K‘[01m[Krelative[m[K’ is not a member of ‘[01m[Kmoveit::core::JumpThreshold[m[K’
+  103 |             moveit::core::JumpThreshold::[01;31m[Krelative[m[K(props.get<double>("jump_threshold")), is_valid,
+      |                                          [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [src/CMakeFiles/moveit_task_constructor_core.dir/build.make:230: src/CMakeFiles/moveit_task_constructor_core.dir/solvers/cartesian_path.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:258: src/CMakeFiles/moveit_task_constructor_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

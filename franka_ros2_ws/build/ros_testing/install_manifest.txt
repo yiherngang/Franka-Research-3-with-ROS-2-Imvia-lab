@@ -1,0 +1,17 @@
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ament_index/resource_index/package_run_dependencies/ros_testing
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ament_index/resource_index/parent_prefix_path/ros_testing
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/environment/ament_prefix_path.sh
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/environment/ament_prefix_path.dsv
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/environment/path.sh
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/environment/path.dsv
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/local_setup.bash
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/local_setup.sh
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/local_setup.zsh
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/local_setup.dsv
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/package.dsv
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ament_index/resource_index/packages/ros_testing
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake/ros_testing-extras.cmake
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake/ros_testingConfig.cmake
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake/ros_testingConfig-version.cmake
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/package.xml
+/home/adminlab/franka_ros2_ws/install/ros_testing/share/ros_testing/cmake/add_ros_test.cmake

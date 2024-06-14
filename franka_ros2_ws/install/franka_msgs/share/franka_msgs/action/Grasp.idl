@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from franka_msgs/action/Grasp.action
+// generated code does not contain a copyright notice
+
+#include "franka_msgs/msg/GraspEpsilon.idl"
+
+module franka_msgs {
+  module action {
+    struct Grasp_Goal {
+      @unit (value="m")
+      double width;
+
+      franka_msgs::msg::GraspEpsilon epsilon;
+
+      @unit (value="m/s")
+      double speed;
+
+      @unit (value="N")
+      double force;
+    };
+    struct Grasp_Result {
+      boolean success;
+
+      string error;
+    };
+    struct Grasp_Feedback {
+      @unit (value="m")
+      double current_width;
+    };
+  };
+};

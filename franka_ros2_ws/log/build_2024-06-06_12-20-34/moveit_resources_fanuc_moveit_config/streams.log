@@ -1,0 +1,37 @@
+[0.049s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config -- -j16 -l16
+[0.269s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config -- -j16 -l16
+[0.284s] Invoking command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config
+[0.292s] -- Install configuration: ""
+[0.292s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_fanuc_moveit_config
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_fanuc_moveit_config
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.sh
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.dsv
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.sh
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.dsv
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.bash
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.sh
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.zsh
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.dsv
+[0.293s] -- Installing: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv
+[0.293s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/packages/moveit_resources_fanuc_moveit_config
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig.cmake
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig-version.cmake
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.xml
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/demo.launch.py
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/moveit.rviz
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/sensors_3d.yaml
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/initial_positions.yaml
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.ros2_control.xacro
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.urdf.xacro
+[0.294s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/kinematics.yaml
+[0.295s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.srdf
+[0.295s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/chomp_planning.yaml
+[0.295s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/moveit_controllers.yaml
+[0.295s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ros2_controllers.yaml
+[0.295s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/pilz_cartesian_limits.yaml
+[0.295s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/joint_limits.yaml
+[0.295s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ompl_planning.yaml
+[0.296s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/.setup_assistant
+[0.300s] Invoked command in '/home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/moveit_resources_fanuc_moveit_config

@@ -1,0 +1,5 @@
+Package libusb was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libusb.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libusb' found
+[0mCUDA_TOOLKIT_ROOT_DIR not found or specified[0m

@@ -1,0 +1,94 @@
+#!/bin/sh
+
+#############################################################################
+#
+# ViSP, open source Visual Servoing Platform software.
+# Copyright (C) 2005 - 2023 by Inria. All rights reserved.
+#
+# This software is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+# See the file LICENSE.txt at the root directory of this source
+# distribution for additional information about the GNU GPL.
+#
+# For using ViSP with software that can not be combined with the GNU
+# GPL, please contact Inria about acquiring a ViSP Professional
+# Edition License.
+#
+# See https://visp.inria.fr for more information.
+#
+# This software was developed at:
+# Inria Rennes - Bretagne Atlantique
+# Campus Universitaire de Beaulieu
+# 35042 Rennes Cedex
+# France
+#
+# If you have questions regarding the use of this file, please contact
+# Inria at visp@inria.fr
+#
+# This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+# WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+#
+# Description:
+# visp-config shell script.
+# Auto-generated from visp-config.in by cmake.
+#
+#############################################################################
+
+
+relpath=`dirname $0`
+relpath=`(cd $relpath/..; pwd)`
+
+PREFIX=$relpath
+
+CFLAGS=" -fopenmp -std=c++17 -I$PREFIX/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/tracker/tt_mi/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/tracker/tt/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/tracker/mbt/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/detection/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/vision/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/vs/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/visual_features/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/robot/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/tracker/blob/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/ar/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/sensor/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/tracker/me/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/tracker/klt/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/io/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/imgproc/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/gui/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/tracker/dnn/include -I/home/adminlab/franka_ros2_ws/src/visp/modules/core/include -I/usr/local/include/opencv4 -I/usr/include/eigen3 -I/usr/include/libxml2 -I/usr/include -I/usr/include/pcl-1.12 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/vtk-9.1 -I/usr/include/libusb-1.0 -I/usr/local/include -I/usr/include/OGRE/"
+
+LIBS=" -L$PREFIX/lib -lvisp_detection -lvisp_imgproc -lvisp_robot -lvisp_sensor -lvisp_dnn_tracker -lvisp_mbt -lvisp_ar -lvisp_klt -lvisp_gui -lvisp_tt_mi -lvisp_tt -lvisp_vision -lvisp_io -lvisp_vs -lvisp_visual_features -lvisp_blob -lvisp_me -lvisp_core  -L/usr/lib/x86_64-linux-gnu -lOgreMain -lboost_thread -L/usr/local/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_calib3d -lopencv_features2d -llapack -lblas -lxml2 -L/usr/lib/gcc/x86_64-linux-gnu/11 -lgomp -lzbar -lopencv_objdetect -lopencv_dnn -lopencv_videoio -lopencv_imgcodecs -L/usr/lib -lfranka -lv4l2 -lv4lconvert -ldc1394 -lusb-1.0 -lrealsense2 -lopencv_video -lpcl_apps -lpcl_outofcore -lpcl_people -lboost_system -lboost_filesystem -lboost_date_time -lboost_iostreams -lboost_serialization -lvtkChartsCore-9.1 -lvtkCommonColor-9.1 -lvtkCommonComputationalGeometry-9.1 -lvtkCommonCore-9.1 -lvtkCommonDataModel-9.1 -lvtkCommonExecutionModel-9.1 -lvtkCommonMath-9.1 -lvtkCommonMisc-9.1 -lvtkCommonTransforms-9.1 -lvtkFiltersCore-9.1 -lvtkFiltersExtraction-9.1 -lvtkFiltersGeneral-9.1 -lvtkFiltersGeometry-9.1 -lvtkFiltersModeling-9.1 -lvtkFiltersSources-9.1 -lvtkImagingCore-9.1 -lvtkImagingSources-9.1 -lvtkInteractionImage-9.1 -lvtkInteractionStyle-9.1 -lvtkInteractionWidgets-9.1 -lvtkIOCore-9.1 -lvtkIOGeometry-9.1 -lvtkIOImage-9.1 -lvtkIOLegacy-9.1 -lvtkIOPLY-9.1 -lvtkRenderingAnnotation-9.1 -lvtkRenderingCore-9.1 -lvtkRenderingContext2D-9.1 -lvtkRenderingLOD-9.1 -lvtkRenderingFreeType-9.1 -lvtkViewsCore-9.1 -lvtkViewsContext2D-9.1 -lvtkRenderingOpenGL2-9.1 -lvtkGUISupportQt-9.1 -lflann_cpp -lpcl_common -lpcl_kdtree -lpcl_octree -lpcl_search -lpcl_sample_consensus -lOpenNI -lOpenNI2 -lpng -lz -lpcl_filters -lpcl_features -lpcl_ml -lpcl_io -lpcl_registration -lpcl_segmentation -lpcl_visualization -lpcl_surface -lpcl_keypoints -lpcl_tracking -lpcl_recognition -lpcl_stereo -lvtksys-9.1 -ltbb -lvtkkissfft-9.1 -lvtkRenderingUI-9.1 -lQt5OpenGL -lQt5Widgets -llz4 -lqhull_r -lOpenGL -lGLX -lGLU -lopencv_flann"
+
+VERSION="3.6.1"
+
+NO_NEWLINE_CHARACTER=""
+NO_NEWLINE_OPTION="-n"
+
+usage()
+{
+    cat <<EOF
+
+ViSP $VERSION (Visual Servoing Platform)
+Copyright (C) 2005 - 2023 Inria. All rights reserved.
+
+Usage: $0 [--prefix] [--cflags] [--libs] [--version] [--dumpversion]  [--help]
+
+  --prefix      Show ViSP installation prefix.
+  --cflags      Print pre-processor and compiler flags including
+                third party includes we depend on.
+  --libs        Print library linking information with ViSP
+                including third party libraries we depend on.
+  --version     Output ViSP information.
+  --dumpversion Output ViSP version information.
+  --help        Display this help and exit.
+
+EOF
+    exit $1
+}
+
+if ! test "$1"; then
+    usage;
+    exit 0;
+fi;
+
+for arg in $@; do
+    case $arg in
+  --prefix) echo $NO_NEWLINE_OPTION "$PREFIX$NO_NEWLINE_CHARACTER";;
+  --cflags) echo $NO_NEWLINE_OPTION "$CFLAGS$NO_NEWLINE_CHARACTER";;
+  --libs) echo $NO_NEWLINE_OPTION "$LIBS$NO_NEWLINE_CHARACTER";;
+  --version)
+      echo "ViSP $VERSION (Visual Servoing Platform)"
+      echo ""
+      echo "Copyright (C) 2005 - 2023 Inria. All rights reserved.";;
+  --dumpversion) echo $NO_NEWLINE_OPTION "$VERSION$NO_NEWLINE_CHARACTER";;
+        *) usage; exit 0 ;;
+    esac;
+done;
+echo ""

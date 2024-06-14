@@ -1,0 +1,2 @@
+source;share/ros_testing/environment/ament_prefix_path.sh
+source;share/ros_testing/environment/path.sh

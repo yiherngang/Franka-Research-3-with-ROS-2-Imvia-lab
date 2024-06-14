@@ -1,0 +1,47 @@
+[0.027s] Invoking command in '/home/adminlab/franka_ros2_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/joint_trajectory_controller -- -j16 -l16
+[0.080s] [ 12%] Built target joint_trajectory_controller_parameters
+[0.095s] [ 25%] Built target gmock_main
+[0.118s] [ 43%] Built target joint_trajectory_controller
+[0.136s] [ 62%] Built target gmock
+[0.154s] [ 75%] Built target test_trajectory
+[0.183s] [ 87%] Built target test_load_joint_trajectory_controller
+[0.208s] [100%] Built target test_trajectory_controller
+[0.336s] Invoked command in '/home/adminlab/franka_ros2_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/joint_trajectory_controller -- -j16 -l16
+[0.441s] Invoking command in '/home/adminlab/franka_ros2_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/joint_trajectory_controller
+[0.457s] -- Install configuration: ""
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/joint_trajectory_controller_parameters.hpp
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/validate_jtc_parameters.hpp
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/joint_trajectory_plugin.xml
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[0.458s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[0.459s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[0.459s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[0.459s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[0.459s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[0.459s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[0.460s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[0.460s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[0.460s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[0.460s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[0.460s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[0.460s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[0.460s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[0.460s] -- Installing: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[0.461s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[0.462s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[0.464s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[0.464s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
+[0.464s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.465s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.465s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[0.465s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[0.465s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[0.497s] Invoked command in '/home/adminlab/franka_ros2_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library:/home/adminlab/franka_ros2_ws/install/parameter_traits:/opt/ros/humble LD_LIBRARY_PATH=/home/adminlab/franka_ros2_ws/install/parameter_traits/lib:${LD_LIBRARY_PATH} PATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/bin:${PATH} PYTHONPATH=/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/joint_trajectory_controller

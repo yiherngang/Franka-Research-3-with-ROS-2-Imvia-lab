@@ -1,0 +1,4 @@
+source;share/moveit_ros_robot_interaction/local_setup.bash
+source;share/moveit_ros_robot_interaction/local_setup.dsv
+source;share/moveit_ros_robot_interaction/local_setup.sh
+source;share/moveit_ros_robot_interaction/local_setup.zsh

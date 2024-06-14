@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target test_gripper[0m
+[ 20%] Built target test_trajectory
+[ 40%] Built target test_trajectory3
+[ 60%] Built target test_trajectory2
+[ 70%] [32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o[0m
+[ 90%] Built target approach_retreat
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess_gripper[m[K’ was not declared in this scope
+   58 |   [01;31m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2_scripts/src/test_gripper.cpp:58:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan_gripper[m[K’ was not declared in this scope
+   58 |   success_gripper = (move_group_gripper.plan([01;31m[Kmy_plan_gripper[m[K) ==
+      |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_gripper.dir/build.make:76: CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/test_gripper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

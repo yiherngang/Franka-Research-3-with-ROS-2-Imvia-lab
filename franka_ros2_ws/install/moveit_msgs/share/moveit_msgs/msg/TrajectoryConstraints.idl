@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/TrajectoryConstraints.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/Constraints.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The array of constraints to consider along the trajectory")
+    struct TrajectoryConstraints {
+      sequence<moveit_msgs::msg::Constraints> constraints;
+    };
+  };
+};

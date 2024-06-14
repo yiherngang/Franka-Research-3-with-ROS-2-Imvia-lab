@@ -1,0 +1,15 @@
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_plugins
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_plugins
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.sh
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.dsv
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/environment/path.sh
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/environment/path.dsv
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/local_setup.bash
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/local_setup.sh
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/local_setup.zsh
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/local_setup.dsv
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/package.dsv
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/ament_index/resource_index/packages/moveit_plugins
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig.cmake
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig-version.cmake
+/home/adminlab/franka_ros2_ws/install/moveit_plugins/share/moveit_plugins/package.xml

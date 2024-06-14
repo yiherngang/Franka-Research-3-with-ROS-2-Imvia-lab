@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target gripper_server[0m
+[35m[1mConsolidate compiler generated dependencies of target franka_gripper_node[0m
+[ 50%] Built target franka_gripper_node
+[ 50%] Built target ament_cmake_python_copy_franka_gripper
+[100%] Built target gripper_server
+running egg_info
+writing franka_gripper.egg-info/PKG-INFO
+writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+writing top-level names to franka_gripper.egg-info/top_level.txt
+reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_franka_gripper_egg
+-- Install configuration: ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/lib/libgripper_server.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper//launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper//launch/gripper.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper//config
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper//config/franka_gripper_node.yaml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.13-py3.10.egg-info
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.13-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.13-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.13-py3.10.egg-info/top_level.txt
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper-0.1.13-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper/__init__.py
+Listing '/home/adminlab/franka_ros2_ws/install/franka_gripper/local/lib/python3.10/dist-packages/franka_gripper'...
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/lib/franka_gripper/fake_gripper_state_publisher.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/package_run_dependencies/franka_gripper
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/parent_prefix_path/franka_gripper
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/packages/franka_gripper
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/rclcpp_components/franka_gripper
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.xml

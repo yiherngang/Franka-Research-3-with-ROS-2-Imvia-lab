@@ -1,0 +1,32 @@
+[0.059s] Invoking command in '/home/adminlab/franka_ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/rviz_marker_tools -- -j16 -l16
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target rviz_marker_tools[0m
+[0.126s] [100%] Built target rviz_marker_tools
+[0.283s] Invoked command in '/home/adminlab/franka_ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/rviz_marker_tools -- -j16 -l16
+[0.303s] Invoking command in '/home/adminlab/franka_ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/rviz_marker_tools
+[0.311s] -- Install configuration: "Release"
+[0.311s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/include
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[0.312s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[0.313s] -- Installing: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[0.313s] -- Up-to-date: /home/adminlab/franka_ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[0.321s] Invoked command in '/home/adminlab/franka_ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adminlab/franka_ros2_ws/install/moveit_common:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/rviz_marker_tools

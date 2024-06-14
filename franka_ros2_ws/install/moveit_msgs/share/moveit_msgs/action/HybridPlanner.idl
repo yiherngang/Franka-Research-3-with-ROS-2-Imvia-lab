@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_msgs/action/HybridPlanner.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/MotionSequenceRequest.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+
+module moveit_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Motion planning request to the hybrid planning architecture")
+    struct HybridPlanner_Goal {
+      string planning_group;
+
+      moveit_msgs::msg::MotionSequenceRequest motion_sequence;
+    };
+    @verbatim (language="comment", text=
+      "Result of the hybrid planning")
+    struct HybridPlanner_Result {
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+
+      @verbatim (language="comment", text=
+        "Error message with more detailed information about the hybrid planning result")
+      string error_message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback about the hybrid planning")
+    struct HybridPlanner_Feedback {
+      string feedback;
+    };
+  };
+};

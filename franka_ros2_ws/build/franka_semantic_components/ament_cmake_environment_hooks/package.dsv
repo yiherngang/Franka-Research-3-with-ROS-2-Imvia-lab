@@ -1,0 +1,4 @@
+source;share/franka_semantic_components/local_setup.bash
+source;share/franka_semantic_components/local_setup.dsv
+source;share/franka_semantic_components/local_setup.sh
+source;share/franka_semantic_components/local_setup.zsh

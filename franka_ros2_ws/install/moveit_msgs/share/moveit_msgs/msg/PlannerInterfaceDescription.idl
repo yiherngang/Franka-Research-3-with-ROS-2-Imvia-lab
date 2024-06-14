@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PlannerInterfaceDescription.msg
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The name of the planner interface")
+    struct PlannerInterfaceDescription {
+      string name;
+
+      @verbatim (language="comment", text=
+        "The name of the planning pipeline")
+      string pipeline_id;
+
+      @verbatim (language="comment", text=
+        "The names of the planner ids within the interface")
+      sequence<string> planner_ids;
+    };
+  };
+};

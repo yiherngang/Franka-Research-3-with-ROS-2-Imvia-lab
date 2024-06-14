@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target servo_controller_input[0m
+[35m[1mConsolidate compiler generated dependencies of target fake_command_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib_parameters[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  6%] Built target gtest_main
+[ 12%] Built target fake_command_publisher
+[ 18%] Built target servo_controller_input
+[ 24%] Built target gtest
+[ 33%] Built target moveit_servo_lib_parameters
+[35m[1mConsolidate compiler generated dependencies of target moveit_servo_lib[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o[0m
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/test_servo_collision.cpp:41[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/servo_launch_test_common.hpp:54:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory
+   54 | #include [01;31m[K<moveit_msgs/srv/change_drift_dimensions.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/test_servo_interface.cpp:39[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/test/servo_launch_test_common.hpp:54:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory
+   54 | #include [01;31m[K<moveit_msgs/srv/change_drift_dimensions.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_servo_integration.dir/build.make:76: CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/test_servo_collision.dir/build.make:76: CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/test_servo_integration.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/test_servo_collision.dir/all] Error 2
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/servo.h:47[m[K,
+                 from [01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/src/servo.cpp:41[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/servo_calcs.h:52:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory
+   52 | #include [01;31m[K<moveit_msgs/srv/change_drift_dimensions.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_servo_lib.dir/build.make:104: CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/src/servo_calcs.cpp:50[m[K:
+[01m[K/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/include/moveit_servo/servo_calcs.h:52:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_msgs/srv/change_drift_dimensions.hpp: No such file or directory
+   52 | #include [01;31m[K<moveit_msgs/srv/change_drift_dimensions.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_servo_lib.dir/build.make:118: CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/moveit_servo_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

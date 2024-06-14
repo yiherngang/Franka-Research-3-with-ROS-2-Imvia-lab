@@ -1,0 +1,91 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/MotionPlanRequest.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/GenericTrajectory.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/TrajectoryConstraints.idl"
+#include "moveit_msgs/msg/WorkspaceParameters.idl"
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This service contains the definition for a request to the motion" "\n"
+      "planner and the output it provides")
+    struct MotionPlanRequest {
+      @verbatim (language="comment", text=
+        "Parameters for the workspace that the planner should work inside")
+      moveit_msgs::msg::WorkspaceParameters workspace_parameters;
+
+      @verbatim (language="comment", text=
+        "Starting state updates. If certain joints should be considered" "\n"
+        "at positions other than the current ones, these positions should" "\n"
+        "be set here")
+      moveit_msgs::msg::RobotState start_state;
+
+      @verbatim (language="comment", text=
+        "The possible goal states for the model to plan for. Each element of" "\n"
+        "the array defines a goal region. The goal is achieved" "\n"
+        "if the constraints for a particular region are satisfied")
+      sequence<moveit_msgs::msg::Constraints> goal_constraints;
+
+      @verbatim (language="comment", text=
+        "No state at any point along the path in the produced motion plan will violate these constraints (this applies to all points, not just waypoints)")
+      moveit_msgs::msg::Constraints path_constraints;
+
+      @verbatim (language="comment", text=
+        "The constraints the resulting trajectory must satisfy")
+      moveit_msgs::msg::TrajectoryConstraints trajectory_constraints;
+
+      @verbatim (language="comment", text=
+        "A set of trajectories that may be used as reference or initial trajectories for (typically optimization-based) planners" "\n"
+        "These trajectories do not override start_state or goal_constraints")
+      sequence<moveit_msgs::msg::GenericTrajectory> reference_trajectories;
+
+      @verbatim (language="comment", text=
+        "The name of the planning pipeline to use. If no name is specified," "\n"
+        "the configured planning pipeline will be used")
+      string pipeline_id;
+
+      @verbatim (language="comment", text=
+        "The name of the planning algorithm to use. If no name is specified," "\n"
+        "the default planner of the planning pipeline will be used")
+      string planner_id;
+
+      @verbatim (language="comment", text=
+        "The name of the group of joints on which this planner is operating")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        "The number of times this plan is to be computed. Shortest solution" "\n"
+        "will be reported.")
+      int32 num_planning_attempts;
+
+      @verbatim (language="comment", text=
+        "The maximum amount of time the motion planner is allowed to plan for (in seconds)")
+      double allowed_planning_time;
+
+      @verbatim (language="comment", text=
+        "Scaling factors for optionally reducing the maximum joint velocities and" "\n"
+        "accelerations.  Allowed values are in (0,1].  The maximum joint velocity and" "\n"
+        "acceleration specified in the robot model are multiplied by thier respective" "\n"
+        "factors.  If either are outside their valid ranges (importantly, this" "\n"
+        "includes being set to 0.0), the factor is set to the default value of 1.0" "\n"
+        "internally (i.e., maximum joint velocity or maximum joint acceleration).")
+      double max_velocity_scaling_factor;
+
+      double max_acceleration_scaling_factor;
+
+      @verbatim (language="comment", text=
+        "Maximum cartesian speed for the given end effector." "\n"
+        "If max_cartesian_speed <= 0 the trajectory is not modified." "\n"
+        "These fields require the following planning request adapter: default_planner_request_adapters/SetMaxCartesianEndEffectorSpeed")
+      string cartesian_speed_end_effector_link;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      double max_cartesian_speed;
+    };
+  };
+};

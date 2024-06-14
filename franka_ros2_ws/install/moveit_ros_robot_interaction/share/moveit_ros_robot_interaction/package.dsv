@@ -1,0 +1,11 @@
+source;share/moveit_ros_robot_interaction/hook/cmake_prefix_path.ps1
+source;share/moveit_ros_robot_interaction/hook/cmake_prefix_path.dsv
+source;share/moveit_ros_robot_interaction/hook/cmake_prefix_path.sh
+source;share/moveit_ros_robot_interaction/hook/ld_library_path_lib.ps1
+source;share/moveit_ros_robot_interaction/hook/ld_library_path_lib.dsv
+source;share/moveit_ros_robot_interaction/hook/ld_library_path_lib.sh
+source;share/moveit_ros_robot_interaction/local_setup.bash
+source;share/moveit_ros_robot_interaction/local_setup.dsv
+source;share/moveit_ros_robot_interaction/local_setup.ps1
+source;share/moveit_ros_robot_interaction/local_setup.sh
+source;share/moveit_ros_robot_interaction/local_setup.zsh

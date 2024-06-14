@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_msgs/msg/Elbow.msg
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module msg {
+    typedef double double__2[2];
+    @verbatim (language="comment", text=
+      "The state of the elbow")
+    struct Elbow {
+      double__2 position;
+
+      double__2 desired_position;
+
+      double__2 commanded_position;
+
+      double__2 commanded_velocity;
+
+      double__2 commanded_acceleration;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../Release/libfw.a CMakeFiles/fw.dir/empty.c.o CMakeFiles/fw.dir/D4XX_FW_Image.c.o
+/usr/bin/ranlib ../../Release/libfw.a

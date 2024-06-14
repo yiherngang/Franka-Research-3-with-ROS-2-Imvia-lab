@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../lib/libvisp_io.pdb"
+  "../../lib/libvisp_io.so"
+  "../../lib/libvisp_io.so.3.6"
+  "../../lib/libvisp_io.so.3.6.1"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoLibjpeg.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoLibjpeg.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoLibpng.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoLibpng.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoOpenCV.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoOpenCV.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoPortable.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoPortable.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoSimd.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoSimd.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoStb.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoStb.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoTinyEXR.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/private/vpImageIoTinyEXR.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/image/vpImageIo.cpp.o"
+  "CMakeFiles/visp_io.dir/src/image/vpImageIo.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/parallel-port/vpParallelPort.cpp.o"
+  "CMakeFiles/visp_io.dir/src/parallel-port/vpParallelPort.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/tools/vpJsonArgumentParser.cpp.o"
+  "CMakeFiles/visp_io.dir/src/tools/vpJsonArgumentParser.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/tools/vpKeyboard.cpp.o"
+  "CMakeFiles/visp_io.dir/src/tools/vpKeyboard.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/tools/vpParseArgv.cpp.o"
+  "CMakeFiles/visp_io.dir/src/tools/vpParseArgv.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/video/vpDiskGrabber.cpp.o"
+  "CMakeFiles/visp_io.dir/src/video/vpDiskGrabber.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/video/vpVideoReader.cpp.o"
+  "CMakeFiles/visp_io.dir/src/video/vpVideoReader.cpp.o.d"
+  "CMakeFiles/visp_io.dir/src/video/vpVideoWriter.cpp.o"
+  "CMakeFiles/visp_io.dir/src/video/vpVideoWriter.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/visp_io.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

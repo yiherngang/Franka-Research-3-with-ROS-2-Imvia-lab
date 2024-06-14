@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/SetPlannerParams.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/PlannerParams.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Name of the planning pipeline, uses default if empty")
+    struct SetPlannerParams_Request {
+      string pipeline_id;
+
+      @verbatim (language="comment", text=
+        "Name of planning config")
+      string planner_config;
+
+      @verbatim (language="comment", text=
+        "Optional name of planning group (set global defaults if empty)")
+      string group;
+
+      @verbatim (language="comment", text=
+        "parameters as key-value pairs")
+      moveit_msgs::msg::PlannerParams params;
+
+      @verbatim (language="comment", text=
+        "replace params or augment existing ones?")
+      boolean replace;
+    };
+    struct SetPlannerParams_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

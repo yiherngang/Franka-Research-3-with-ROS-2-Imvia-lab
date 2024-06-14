@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 11%] Built target admittance_controller_parameters
+[ 23%] Built target test_node
+[ 41%] Built target gmock
+[ 52%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target minimal_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target test_example_gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target test_descriptor_gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target test_example_gtest[0m
+[ 64%] Built target minimal_publisher
+[ 76%] Built target test_descriptor_gtest
+[ 88%] Built target test_example_gmock
+[100%] Built target test_example_gtest

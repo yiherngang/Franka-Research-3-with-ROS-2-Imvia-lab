@@ -1,0 +1,11 @@
+source;share/pilz_industrial_motion_planner/hook/cmake_prefix_path.ps1
+source;share/pilz_industrial_motion_planner/hook/cmake_prefix_path.dsv
+source;share/pilz_industrial_motion_planner/hook/cmake_prefix_path.sh
+source;share/pilz_industrial_motion_planner/hook/ld_library_path_lib.ps1
+source;share/pilz_industrial_motion_planner/hook/ld_library_path_lib.dsv
+source;share/pilz_industrial_motion_planner/hook/ld_library_path_lib.sh
+source;share/pilz_industrial_motion_planner/local_setup.bash
+source;share/pilz_industrial_motion_planner/local_setup.dsv
+source;share/pilz_industrial_motion_planner/local_setup.ps1
+source;share/pilz_industrial_motion_planner/local_setup.sh
+source;share/pilz_industrial_motion_planner/local_setup.zsh

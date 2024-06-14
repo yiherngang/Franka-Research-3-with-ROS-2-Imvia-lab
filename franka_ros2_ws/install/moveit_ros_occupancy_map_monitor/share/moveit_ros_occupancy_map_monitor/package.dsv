@@ -1,0 +1,11 @@
+source;share/moveit_ros_occupancy_map_monitor/hook/cmake_prefix_path.ps1
+source;share/moveit_ros_occupancy_map_monitor/hook/cmake_prefix_path.dsv
+source;share/moveit_ros_occupancy_map_monitor/hook/cmake_prefix_path.sh
+source;share/moveit_ros_occupancy_map_monitor/hook/ld_library_path_lib.ps1
+source;share/moveit_ros_occupancy_map_monitor/hook/ld_library_path_lib.dsv
+source;share/moveit_ros_occupancy_map_monitor/hook/ld_library_path_lib.sh
+source;share/moveit_ros_occupancy_map_monitor/local_setup.bash
+source;share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+source;share/moveit_ros_occupancy_map_monitor/local_setup.ps1
+source;share/moveit_ros_occupancy_map_monitor/local_setup.sh
+source;share/moveit_ros_occupancy_map_monitor/local_setup.zsh

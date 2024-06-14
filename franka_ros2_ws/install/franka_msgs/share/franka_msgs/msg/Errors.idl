@@ -1,0 +1,82 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_msgs/msg/Errors.msg
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module msg {
+    struct Errors {
+      boolean joint_position_limits_violation;
+
+      boolean cartesian_position_limits_violation;
+
+      boolean self_collision_avoidance_violation;
+
+      boolean joint_velocity_violation;
+
+      boolean cartesian_velocity_violation;
+
+      boolean force_control_safety_violation;
+
+      boolean joint_reflex;
+
+      boolean cartesian_reflex;
+
+      boolean max_goal_pose_deviation_violation;
+
+      boolean max_path_pose_deviation_violation;
+
+      boolean cartesian_velocity_profile_safety_violation;
+
+      boolean joint_position_motion_generator_start_pose_invalid;
+
+      boolean joint_motion_generator_position_limits_violation;
+
+      boolean joint_motion_generator_velocity_limits_violation;
+
+      boolean joint_motion_generator_velocity_discontinuity;
+
+      boolean joint_motion_generator_acceleration_discontinuity;
+
+      boolean cartesian_position_motion_generator_start_pose_invalid;
+
+      boolean cartesian_motion_generator_elbow_limit_violation;
+
+      boolean cartesian_motion_generator_velocity_limits_violation;
+
+      boolean cartesian_motion_generator_velocity_discontinuity;
+
+      boolean cartesian_motion_generator_acceleration_discontinuity;
+
+      boolean cartesian_motion_generator_elbow_sign_inconsistent;
+
+      boolean cartesian_motion_generator_start_elbow_invalid;
+
+      boolean cartesian_motion_generator_joint_position_limits_violation;
+
+      boolean cartesian_motion_generator_joint_velocity_limits_violation;
+
+      boolean cartesian_motion_generator_joint_velocity_discontinuity;
+
+      boolean cartesian_motion_generator_joint_acceleration_discontinuity;
+
+      boolean cartesian_position_motion_generator_invalid_frame;
+
+      boolean force_controller_desired_force_tolerance_violation;
+
+      boolean controller_torque_discontinuity;
+
+      boolean start_elbow_sign_inconsistent;
+
+      boolean communication_constraints_violation;
+
+      boolean power_limit_violation;
+
+      boolean joint_p2p_insufficient_torque_for_planning;
+
+      boolean tau_j_range_violation;
+
+      boolean instability_detected;
+    };
+  };
+};

@@ -1,0 +1,27 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/generate_parameter_library
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake/generate_parameter_library.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/ament_index/resource_index/package_run_dependencies/generate_parameter_library
+-- Installing: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/ament_index/resource_index/parent_prefix_path/generate_parameter_library
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/ament_index/resource_index/packages/generate_parameter_library
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/cmake/generate_parameter_libraryConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/generate_parameter_library/share/generate_parameter_library/package.xml

@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GraspPlanning.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/CollisionObject.idl"
+#include "moveit_msgs/msg/Grasp.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Requests that grasp planning be performed for the target object" "\n"
+      "returns a list of candidate grasps to be tested and executed")
+    struct GraspPlanning_Request {
+      @verbatim (language="comment", text=
+        "the planning group used")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        "the object to be grasped")
+      moveit_msgs::msg::CollisionObject target;
+
+      @verbatim (language="comment", text=
+        "the names of the relevant support surfaces (e.g. tables) in the collision map" "\n"
+        "can be left empty if no names are available")
+      sequence<string> support_surfaces;
+
+      @verbatim (language="comment", text=
+        "an optional list of grasps to be evaluated by the planner")
+      sequence<moveit_msgs::msg::Grasp> candidate_grasps;
+
+      @verbatim (language="comment", text=
+        "an optional list of obstacles that we have semantic information about" "\n"
+        "and that can be moved in the course of grasping")
+      sequence<moveit_msgs::msg::CollisionObject> movable_obstacles;
+    };
+    struct GraspPlanning_Response {
+      @verbatim (language="comment", text=
+        "the list of planned grasps")
+      sequence<moveit_msgs::msg::Grasp> grasps;
+
+      @verbatim (language="comment", text=
+        "whether an error occurred")
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+    };
+  };
+};

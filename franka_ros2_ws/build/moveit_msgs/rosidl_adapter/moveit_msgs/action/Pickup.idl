@@ -1,0 +1,107 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_msgs/action/Pickup.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/Grasp.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/PlanningOptions.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "moveit_msgs/msg/RobotTrajectory.idl"
+
+module moveit_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "An action for picking up an object")
+    struct Pickup_Goal {
+      @verbatim (language="comment", text=
+        "The name of the object to pick up (as known in the planning scene)")
+      string target_name;
+
+      @verbatim (language="comment", text=
+        "which group should be used to plan for pickup")
+      string group_name;
+
+      @verbatim (language="comment", text=
+        "which end-effector to be used for pickup (ideally descending from the group above)")
+      string end_effector;
+
+      @verbatim (language="comment", text=
+        "a list of possible grasps to be used. At least one grasp must be filled in")
+      sequence<moveit_msgs::msg::Grasp> possible_grasps;
+
+      @verbatim (language="comment", text=
+        "the name that the support surface (e.g. table) has in the collision map" "\n"
+        "can be left empty if no name is available")
+      string support_surface_name;
+
+      @verbatim (language="comment", text=
+        "whether collisions between the gripper and the support surface should be acceptable" "\n"
+        "during move from pre-grasp to grasp and during lift. Collisions when moving to the" "\n"
+        "pre-grasp location are still not allowed even if this is set to true.")
+      boolean allow_gripper_support_collision;
+
+      @verbatim (language="comment", text=
+        "The names of the links the object to be attached is allowed to touch;" "\n"
+        "If this is left empty, it defaults to the links in the used end-effector")
+      sequence<string> attached_object_touch_links;
+
+      @verbatim (language="comment", text=
+        "Optionally notify the pick action that it should approach the object further," "\n"
+        "as much as possible (this minimizing the distance to the object before the grasp)" "\n"
+        "along the approach direction; Note: this option changes the grasping poses" "\n"
+        "supplied in possible_grasps[] such that they are closer to the object when possible.")
+      boolean minimize_object_distance;
+
+      @verbatim (language="comment", text=
+        "Optional constraints to be imposed on every point in the motion plan")
+      moveit_msgs::msg::Constraints path_constraints;
+
+      @verbatim (language="comment", text=
+        "The name of the motion planner to use. If no name is specified," "\n"
+        "a default motion planner will be used")
+      string planner_id;
+
+      @verbatim (language="comment", text=
+        "an optional list of obstacles that we have semantic information about" "\n"
+        "and that can be touched/pushed/moved in the course of grasping")
+      sequence<string> allowed_touch_objects;
+
+      @verbatim (language="comment", text=
+        "The maximum amount of time the motion planner is allowed to plan for")
+      double allowed_planning_time;
+
+      @verbatim (language="comment", text=
+        "Planning options")
+      moveit_msgs::msg::PlanningOptions planning_options;
+    };
+    struct Pickup_Result {
+      @verbatim (language="comment", text=
+        "The overall result of the pickup attempt")
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+
+      @verbatim (language="comment", text=
+        "The full starting state of the robot at the start of the trajectory")
+      moveit_msgs::msg::RobotState trajectory_start;
+
+      @verbatim (language="comment", text=
+        "The trajectory that moved group produced for execution")
+      sequence<moveit_msgs::msg::RobotTrajectory> trajectory_stages;
+
+      sequence<string> trajectory_descriptions;
+
+      @verbatim (language="comment", text=
+        "The performed grasp, if attempt was successful")
+      moveit_msgs::msg::Grasp grasp;
+
+      @verbatim (language="comment", text=
+        "The amount of time in seconds it took to complete the plan")
+      double planning_time;
+    };
+    struct Pickup_Feedback {
+      @verbatim (language="comment", text=
+        "The internal state that the pickup action currently is in")
+      string state;
+    };
+  };
+};

@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/PlanningSceneComponents.msg
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module msg {
+    module PlanningSceneComponents_Constants {
+      @verbatim (language="comment", text=
+        "Scene name, model name, model root")
+      const uint32 SCENE_SETTINGS = 1;
+      @verbatim (language="comment", text=
+        "Joint values of the robot state")
+      const uint32 ROBOT_STATE = 2;
+      @verbatim (language="comment", text=
+        "Attached objects (including geometry) for the robot state")
+      const uint32 ROBOT_STATE_ATTACHED_OBJECTS = 4;
+      @verbatim (language="comment", text=
+        "The names of the world objects")
+      const uint32 WORLD_OBJECT_NAMES = 8;
+      @verbatim (language="comment", text=
+        "The geometry of the world objects")
+      const uint32 WORLD_OBJECT_GEOMETRY = 16;
+      @verbatim (language="comment", text=
+        "The maintained octomap")
+      const uint32 OCTOMAP = 32;
+      @verbatim (language="comment", text=
+        "The maintained list of transforms")
+      const uint32 TRANSFORMS = 64;
+      @verbatim (language="comment", text=
+        "The allowed collision matrix")
+      const uint32 ALLOWED_COLLISION_MATRIX = 128;
+      @verbatim (language="comment", text=
+        "The default link padding and link scaling")
+      const uint32 LINK_PADDING_AND_SCALING = 256;
+      @verbatim (language="comment", text=
+        "The stored object colors")
+      const uint32 OBJECT_COLORS = 512;
+    };
+    @verbatim (language="comment", text=
+      "This message defines the components that make up the PlanningScene message." "\n"
+      "The values can be used as a bitfield to specify which parts of the PlanningScene message" "\n"
+      "are of interest")
+    struct PlanningSceneComponents {
+      @verbatim (language="comment", text=
+        "Bitfield combining options indicated above")
+      uint32 components;
+    };
+  };
+};

@@ -1,0 +1,279 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0mmoveit_ros_visualization: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+-- Found geometric_shapes: 2.1.3 (/opt/ros/humble/share/geometric_shapes/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+-- Found moveit_ros_planning: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning_interface: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_ros_robot_interaction: 2.5.5 (/home/adminlab/franka_ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake)
+-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rviz2: 11.2.12 (/opt/ros/humble/share/rviz2/cmake)
+-- Found rviz_common: 11.2.12 (/opt/ros/humble/share/rviz_common/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- Found rviz_default_plugins: 11.2.12 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/visualization/rviz_plugin_render_tools/include;/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/visualization/robot_state_rviz_plugin/include;/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/visualization/planning_scene_rviz_plugin/include;/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/visualization/motion_planning_rviz_plugin/include;/home/adminlab/franka_ros2_ws/src/moveit2/moveit_ros/visualization/trajectory_rviz_plugin/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/moveit_ros_visualization
+[  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[  3%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/moveit_rviz_plugin_render_tools_autogen/mocs_compilation.cpp.o[0m
+[  5%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/render_shapes.cpp.o[0m
+[  6%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_scene_render.cpp.o[0m
+[  8%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/robot_state_visualization.cpp.o[0m
+[ 10%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_link_updater.cpp.o[0m
+[ 12%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/octomap_render.cpp.o[0m
+[ 13%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_visualization.cpp.o[0m
+[ 15%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_panel.cpp.o[0m
+[ 17%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/mesh_shape.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library libmoveit_rviz_plugin_render_tools.so[0m
+[ 18%] Built target moveit_rviz_plugin_render_tools
+[ 20%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin_core[0m
+[ 22%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin_core[0m
+[ 22%] Built target moveit_robot_state_rviz_plugin_core_autogen
+[ 22%] Built target moveit_planning_scene_rviz_plugin_core_autogen
+[ 24%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 25%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.o[0m
+[ 27%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/moveit_planning_scene_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 29%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/planning_scene_display.cpp.o[0m
+[ 31%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/background_processing.cpp.o[0m
+[ 32%] [32m[1mLinking CXX shared library libmoveit_planning_scene_rviz_plugin_core.so[0m
+[ 32%] Built target moveit_planning_scene_rviz_plugin_core
+[ 34%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin_core[0m
+[ 36%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin[0m
+[ 36%] Built target moveit_planning_scene_rviz_plugin_autogen
+[ 39%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin.dir/moveit_planning_scene_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 39%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[ 39%] Built target moveit_trajectory_rviz_plugin_core_autogen
+[ 43%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core.dir/src/trajectory_display.cpp.o[0m
+[ 43%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core.dir/moveit_trajectory_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libmoveit_robot_state_rviz_plugin_core.so[0m
+[ 44%] Built target moveit_robot_state_rviz_plugin_core
+[ 46%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin[0m
+[ 46%] Built target moveit_robot_state_rviz_plugin_autogen
+[ 48%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 50%] [32mBuilding CXX object robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libmoveit_trajectory_rviz_plugin_core.so[0m
+[ 51%] Built target moveit_trajectory_rviz_plugin_core
+[ 53%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin[0m
+[ 53%] Built target moveit_trajectory_rviz_plugin_autogen
+[ 56%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[ 56%] [32mBuilding CXX object trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin.dir/moveit_trajectory_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libmoveit_planning_scene_rviz_plugin.so[0m
+[ 58%] Built target moveit_planning_scene_rviz_plugin
+[ 60%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin_core[0m
+[ 60%] Built target moveit_motion_planning_rviz_plugin_core_autogen
+[ 65%] [34m[1mAutomatic RCC for src/icons/icons.qrc[0m
+[ 65%] [34m[1mGenerating ui_motion_planning_rviz_plugin_frame.h[0m
+[ 65%] [34m[1mGenerating ui_motion_planning_rviz_plugin_frame_joints.h[0m
+[ 70%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_context.cpp.o[0m
+[ 70%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame.cpp.o[0m
+[ 70%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/moveit_motion_planning_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 72%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_planning.cpp.o[0m
+[ 74%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_objects.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libmoveit_robot_state_rviz_plugin.so[0m
+[ 75%] Built target moveit_robot_state_rviz_plugin
+[ 77%] [32m[1mLinking CXX shared library libmoveit_trajectory_rviz_plugin.so[0m
+[ 77%] Built target moveit_trajectory_rviz_plugin
+[ 79%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/moveit_motion_planning_rviz_plugin_core_autogen/2OST2OT5Q2/qrc_icons.cpp.o[0m
+[ 81%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/interactive_marker_display.cpp.o[0m
+[ 82%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_param_widget.cpp.o[0m
+[ 84%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_manipulation.cpp.o[0m
+[ 86%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_display.cpp.o[0m
+[ 87%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_joints_widget.cpp.o[0m
+[ 89%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_states.cpp.o[0m
+[ 91%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_scenes.cpp.o[0m
+[ 93%] [32m[1mLinking CXX shared library libmoveit_motion_planning_rviz_plugin_core.so[0m
+[ 93%] Built target moveit_motion_planning_rviz_plugin_core
+[ 94%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin[0m
+[ 94%] Built target moveit_motion_planning_rviz_plugin_autogen
+[ 96%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin.dir/moveit_motion_planning_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 98%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmoveit_motion_planning_rviz_plugin.so[0m
+[100%] Built target moveit_motion_planning_rviz_plugin
+-- Install configuration: "Release"
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/planning_scene_render.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/planning_link_updater.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/render_shapes.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/trajectory_panel.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/trajectory_visualization.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/ogre_helpers
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/ogre_helpers/mesh_shape.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin/background_processing.hpp
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin/planning_scene_display.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit_planning_scene_rviz_plugin_core_export.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_frame.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/interactive_marker_display.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_display.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/trajectory_rviz_plugin
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/include/moveit/trajectory_rviz_plugin/trajectory_display.h
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/RobotState.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/MotionPlanning.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/PlanningScene.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/Trajectory.png
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/motion_planning_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/trajectory_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/planning_scene_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/robot_state_rviz_plugin_description.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so.2.5.5
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so.2.5.5" to ""
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/package_run_dependencies/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/parent_prefix_path/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.bash
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/packages/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_ros_visualization
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/export_moveit_ros_visualizationExport.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/export_moveit_ros_visualizationExport-release.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ConfigExtras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig-version.cmake
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.xml

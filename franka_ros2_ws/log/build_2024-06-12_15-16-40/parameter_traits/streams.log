@@ -1,0 +1,72 @@
+[0.199s] Invoking command in '/home/adminlab/franka_ros2_ws/build/parameter_traits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/generate_parameter_library/parameter_traits -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/parameter_traits
+[0.594s] -- The C compiler identification is GNU 11.4.0
+[0.594s] -- The CXX compiler identification is GNU 11.4.0
+[0.595s] -- Detecting C compiler ABI info
+[0.595s] -- Detecting C compiler ABI info - done
+[0.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.596s] -- Detecting C compile features
+[0.597s] -- Detecting C compile features - done
+[0.597s] -- Detecting CXX compiler ABI info
+[0.598s] -- Detecting CXX compiler ABI info - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.598s] -- Detecting CXX compile features
+[0.598s] -- Detecting CXX compile features - done
+[0.598s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.685s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.798s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.861s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.864s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.875s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.931s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.029s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.199s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.234s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.304s] -- Looking for pthread.h
+[1.400s] -- Looking for pthread.h - found
+[1.400s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.474s] -- Found Threads: TRUE  
+[1.640s] -- Found tcb_span: 1.0.2 (/opt/ros/humble/share/tcb_span/cmake)
+[1.643s] -- Found tl_expected: 1.0.2 (/opt/ros/humble/share/tl_expected/cmake)
+[1.649s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.744s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.748s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/adminlab/franka_ros2_ws/src/generate_parameter_library/parameter_traits/include>
+[1.748s] -- Configured cppcheck exclude dirs and/or files: 
+[1.751s] -- Added test 'lint_cmake' to check CMake code style
+[1.754s] -- Added test 'xmllint' to check XML markup files
+[1.761s] -- Configuring done
+[1.767s] -- Generating done
+[1.769s] -- Build files have been written to: /home/adminlab/franka_ros2_ws/build/parameter_traits
+[1.943s] Invoked command in '/home/adminlab/franka_ros2_ws/build/parameter_traits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/generate_parameter_library/parameter_traits -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/parameter_traits
+[1.944s] Invoking command in '/home/adminlab/franka_ros2_ws/build/parameter_traits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/parameter_traits -- -j16 -l16
+[2.161s] Invoked command in '/home/adminlab/franka_ros2_ws/build/parameter_traits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --build /home/adminlab/franka_ros2_ws/build/parameter_traits -- -j16 -l16
+[2.308s] Invoking command in '/home/adminlab/franka_ros2_ws/build/parameter_traits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/parameter_traits
+[2.489s] -- Install configuration: ""
+[2.489s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/include/parameter_traits
+[2.489s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/include/parameter_traits/parameter_traits
+[2.489s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/include/parameter_traits/parameter_traits/parameter_traits.hpp
+[2.489s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/environment/library_path.sh
+[2.489s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/environment/library_path.dsv
+[2.489s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/ament_index/resource_index/package_run_dependencies/parameter_traits
+[2.489s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/ament_index/resource_index/parent_prefix_path/parameter_traits
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/environment/ament_prefix_path.sh
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/environment/ament_prefix_path.dsv
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/environment/path.sh
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/environment/path.dsv
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/local_setup.bash
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/local_setup.sh
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/local_setup.zsh
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/local_setup.dsv
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/package.dsv
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/ament_index/resource_index/packages/parameter_traits
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake/export_parameter_traitsExport.cmake
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake/ament_cmake_export_targets-extras.cmake
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake/parameter_traitsConfig.cmake
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/cmake/parameter_traitsConfig-version.cmake
+[2.490s] -- Installing: /home/adminlab/franka_ros2_ws/install/parameter_traits/share/parameter_traits/package.xml
+[2.495s] Invoked command in '/home/adminlab/franka_ros2_ws/build/parameter_traits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake --install /home/adminlab/franka_ros2_ws/build/parameter_traits

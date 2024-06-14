@@ -1,0 +1,12 @@
+source;share/VISP/hook/cmake_prefix_path.ps1
+source;share/VISP/hook/cmake_prefix_path.dsv
+source;share/VISP/hook/cmake_prefix_path.sh
+source;share/VISP/hook/ld_library_path_lib.ps1
+source;share/VISP/hook/ld_library_path_lib.dsv
+source;share/VISP/hook/ld_library_path_lib.sh
+source;share/VISP/hook/path.ps1
+source;share/VISP/hook/path.dsv
+source;share/VISP/hook/path.sh
+source;share/VISP/hook/pythonscriptspath.ps1
+source;share/VISP/hook/pythonscriptspath.dsv
+source;share/VISP/hook/pythonscriptspath.sh

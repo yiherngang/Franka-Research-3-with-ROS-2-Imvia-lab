@@ -1,0 +1,134 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_msgs/msg/FrankaRobotState.msg
+// generated code does not contain a copyright notice
+
+#include "franka_msgs/msg/CollisionIndicators.idl"
+#include "franka_msgs/msg/Elbow.idl"
+#include "franka_msgs/msg/Errors.idl"
+#include "geometry_msgs/msg/AccelStamped.idl"
+#include "geometry_msgs/msg/InertiaStamped.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "geometry_msgs/msg/TwistStamped.idl"
+#include "geometry_msgs/msg/WrenchStamped.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module franka_msgs {
+  module msg {
+    typedef double double__7[7];
+    module FrankaRobotState_Constants {
+      const uint8 ROBOT_MODE_OTHER = 0;
+      const uint8 ROBOT_MODE_IDLE = 1;
+      const uint8 ROBOT_MODE_MOVE = 2;
+      const uint8 ROBOT_MODE_GUIDING = 3;
+      const uint8 ROBOT_MODE_REFLEX = 4;
+      const uint8 ROBOT_MODE_USER_STOPPED = 5;
+      const uint8 ROBOT_MODE_AUTOMATIC_ERROR_RECOVERY = 6;
+    };
+    @verbatim (language="comment", text=
+      "Default parts of the message")
+    struct FrankaRobotState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Indicates which dimensions have an active contact/collision flag raised")
+      franka_msgs::msg::CollisionIndicators collision_indicators;
+
+      @verbatim (language="comment", text=
+        "The state of the arm in joint space" "\n"
+        "The joint state consisting out of position (q), velocity (dq) and effort (tau_J)")
+      sensor_msgs::msg::JointState measured_joint_state;
+
+      @verbatim (language="comment", text=
+        "The desired joint state consisting out of position (q_d), velocity (dq_d) and effort (tau_J_d)")
+      sensor_msgs::msg::JointState desired_joint_state;
+
+      @verbatim (language="comment", text=
+        "The measured motor state of the joints consisting out of position (theta) and velocity (dtheta)")
+      sensor_msgs::msg::JointState measured_joint_motor_state;
+
+      @verbatim (language="comment", text=
+        "The desired joint acceleration")
+      double__7 ddq_d;
+
+      @verbatim (language="comment", text=
+        "The derivative of the measured torque signal")
+      double__7 dtau_j;
+
+      @verbatim (language="comment", text=
+        "Filtered external torque. The JointState consists out of effort (tau_ext_hat_filtered)")
+      sensor_msgs::msg::JointState tau_ext_hat_filtered;
+
+      @verbatim (language="comment", text=
+        "The state of the elbow")
+      franka_msgs::msg::Elbow elbow;
+
+      @verbatim (language="comment", text=
+        "The active wrenches acting on the stiffness frame expressed relative to" "\n"
+        "stiffness frame")
+      geometry_msgs::msg::WrenchStamped k_f_ext_hat_k;
+
+      @verbatim (language="comment", text=
+        "base frame")
+      geometry_msgs::msg::WrenchStamped o_f_ext_hat_k;
+
+      @verbatim (language="comment", text=
+        "The different inertias of the arm" "\n"
+        "The end-effector inertia")
+      geometry_msgs::msg::InertiaStamped inertia_ee;
+
+      @verbatim (language="comment", text=
+        "The load inertia")
+      geometry_msgs::msg::InertiaStamped inertia_load;
+
+      @verbatim (language="comment", text=
+        "The total (end-effector + load) inertia")
+      geometry_msgs::msg::InertiaStamped inertia_total;
+
+      @verbatim (language="comment", text=
+        "The poses describing the transformations between different frames of the arm" "\n"
+        "Measured end-effector pose in base frame")
+      geometry_msgs::msg::PoseStamped o_t_ee;
+
+      @verbatim (language="comment", text=
+        "Last desired end-effector pose of motion generation in base frame")
+      geometry_msgs::msg::PoseStamped o_t_ee_d;
+
+      @verbatim (language="comment", text=
+        "Last commanded end-effector pose of motion generation in base frame")
+      geometry_msgs::msg::PoseStamped o_t_ee_c;
+
+      @verbatim (language="comment", text=
+        "Flange to end-effector frame")
+      geometry_msgs::msg::PoseStamped f_t_ee;
+
+      @verbatim (language="comment", text=
+        "End-effector to stiffness frame")
+      geometry_msgs::msg::PoseStamped ee_t_k;
+
+      @verbatim (language="comment", text=
+        "Desired end effector twist in base frame")
+      geometry_msgs::msg::TwistStamped o_dp_ee_d;
+
+      @verbatim (language="comment", text=
+        "Last commanded end effector twist in base frame")
+      geometry_msgs::msg::TwistStamped o_dp_ee_c;
+
+      @verbatim (language="comment", text=
+        "Last commanded end effector acceleration in base frame")
+      geometry_msgs::msg::AccelStamped o_ddp_ee_c;
+
+      @verbatim (language="comment", text=
+        "Additional information")
+      double time;
+
+      double control_command_success_rate;
+
+      uint8 robot_mode;
+
+      franka_msgs::msg::Errors current_errors;
+
+      franka_msgs::msg::Errors last_motion_errors;
+    };
+  };
+};

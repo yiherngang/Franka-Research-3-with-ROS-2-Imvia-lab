@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory3[0m
+[ 50%] Built target test_trajectory
+[ 50%] Built target test_gripper
+[ 60%] Built target test_trajectory2
+[ 70%] [32mBuilding CXX object CMakeFiles/test_trajectory3.dir/src/test_trajectory3.cpp.o[0m
+[ 90%] Built target approach_retreat
+[100%] [32m[1mLinking CXX executable test_trajectory3[0m
+[100%] Built target test_trajectory3
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/approach_retreat
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/approach_retreat.launch.py
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py

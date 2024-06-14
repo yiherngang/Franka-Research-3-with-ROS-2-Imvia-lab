@@ -1,0 +1,585 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_CXX11_FLAG (check file: cmake/checks/cxx11.cpp)
+-- Performing Test HAVE_CXX11_FLAG - Success
+-- Performing Test HAVE_CXX14_FLAG (check file: cmake/checks/cxx14.cpp)
+-- Performing Test HAVE_CXX14_FLAG - Success
+-- Performing Test HAVE_CXX17_FLAG (check file: cmake/checks/cxx17.cpp)
+-- Performing Test HAVE_CXX17_FLAG - Success
+-- Performing Test HAVE_STD_CXX17_FLAG (check file: cmake/checks/cxx17.cpp)
+-- Performing Test HAVE_STD_CXX17_FLAG - Success
+-- Performing Test HAVE_NULLPTR (check file: cmake/checks/nullptr.cpp)
+-- Performing Test HAVE_NULLPTR - Success
+-- Detected processor: x86_64
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- pybind11 found
+-- The python version that you are using (/usr/bin/python3.10) is the system interpreter.
+    pip packages should not be installed system-wide!
+    Python bindings targets will be deactivated!
+    To reenable them, install conda or virtualenv,
+    delete the CMakeCache file then rerun cmake when inside the virtual environment.
+    
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of int
+-- Check size of int - done
+-- Could NOT find MKL (missing: MKL_LIBRARIES MKL_INCLUDE_DIRS MKL_INTERFACE_LIBRARY MKL_SEQUENTIAL_LAYER_LIBRARY MKL_CORE_LIBRARY) 
+-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+-- Could NOT find Atlas (missing: Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY) 
+-- Looking for inet_ntop
+-- Looking for inet_ntop - found
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Try C99 flag = [-std=gnu99]
+-- Performing Test C99_FLAG_DETECTED
+-- Performing Test C99_FLAG_DETECTED - Success
+-- Performing Test __compiler_doesnt_need_c99_flag
+-- Performing Test __compiler_doesnt_need_c99_flag - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- franka found
+-- Performing Test DC1394_CAMERA_ENUMERATE_FOUND
+-- Performing Test DC1394_CAMERA_ENUMERATE_FOUND - Success
+-- dc1394 found
+-- v4l2 found
+-- Could NOT find FTIITSDK (missing: FTIITSDK_FT_LIBRARY FTIITSDK_COMMUNICATION_LIBRARY FTIITSDK_INCLUDE_DIR) 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- openmp found
+-- eigen3 found
+-- Could NOT find Coin3D (missing: COIN3D_LIBRARIES COIN3D_INCLUDE_DIRS) 
+-- OGRE_PREFIX_WATCH changed.
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- ogre found
+-- OIS_PREFIX_PATH changed.
+-- Checking for module 'OIS'
+--   No package 'OIS' found
+-- libusb_1 found
+-- realsense2 found
+-- threads found
+-- xml2 found
+-- opencv found
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- zlib found
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- x11 found
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- jpeg found
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- png found
+-- zbar found
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- pcl found
+-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+-- nlohmann_json found
+-- Performing Test HAVE_FUNC_ISNAN
+-- Performing Test HAVE_FUNC_ISNAN - Success
+-- Performing Test HAVE_FUNC_STD_ISNAN
+-- Performing Test HAVE_FUNC_STD_ISNAN - Success
+-- Performing Test HAVE_FUNC__ISNAN
+-- Performing Test HAVE_FUNC__ISNAN - Failed
+-- Performing Test HAVE_FUNC_ISINF
+-- Performing Test HAVE_FUNC_ISINF - Success
+-- Performing Test HAVE_FUNC_STD_ISINF
+-- Performing Test HAVE_FUNC_STD_ISINF - Success
+-- Performing Test HAVE_FUNC_ROUND
+-- Performing Test HAVE_FUNC_ROUND - Success
+-- Performing Test HAVE_FUNC_STD_ROUND
+-- Performing Test HAVE_FUNC_STD_ROUND - Success
+-- Performing Test HAVE_FUNC_ERFC
+-- Performing Test HAVE_FUNC_ERFC - Success
+-- Performing Test HAVE_FUNC_STD_ERFC
+-- Performing Test HAVE_FUNC_STD_ERFC - Success
+-- Performing Test HAVE_FUNC_STRTOF
+-- Performing Test HAVE_FUNC_STRTOF - Success
+-- Performing Test HAVE_FUNC_ISFINITE
+-- Performing Test HAVE_FUNC_ISFINITE - Success
+-- Performing Test HAVE_FUNC_STD_ISFINITE
+-- Performing Test HAVE_FUNC_STD_ISFINITE - Success
+-- Performing Test HAVE_FUNC__FINITE
+-- Performing Test HAVE_FUNC__FINITE - Failed
+-- Performing Test HAVE_FUNC_LOG1P
+-- Performing Test HAVE_FUNC_LOG1P - Success
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Performing Test HAVE_CXX_WNO_FLOAT_EQUAL
+-- Performing Test HAVE_CXX_WNO_FLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS
+-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE
+-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER
+-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE
+-- Performing Test HAVE_CXX_WNO_UNUSED_VARIABLE - Success
+-- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW
+-- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW - Success
+-- Performing Test HAVE_CXX_WNO_TYPE_LIMITS
+-- Performing Test HAVE_CXX_WNO_TYPE_LIMITS - Success
+-- Performing Test HAVE_CXX_WNO_SHIFT_NEGATIVE_VALUE
+-- Performing Test HAVE_CXX_WNO_SHIFT_NEGATIVE_VALUE - Success
+-- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32 - Success
+-- Performing Test HAVE_CXX_WNO_ATTRIBUTES
+-- Performing Test HAVE_CXX_WNO_ATTRIBUTES - Success
+-- Performing Test HAVE_CXX_O0
+-- Performing Test HAVE_CXX_O0 - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_RESULT
+-- Performing Test HAVE_CXX_WNO_UNUSED_RESULT - Success
+-- Performing Test HAVE_SSE2_FLAG (check file: cmake/checks/cpu_sse2.cpp)
+-- Performing Test HAVE_SSE2_FLAG - Success
+-- Performing Test HAVE_SSE4_2_FLAG (check file: cmake/checks/cpu_sse42.cpp)
+-- Performing Test HAVE_SSE4_2_FLAG - Success
+-- Performing Test HAVE_AVX_FLAG (check file: cmake/checks/cpu_avx.cpp)
+-- Performing Test HAVE_AVX_FLAG - Success
+-- Performing Test HAVE_AVX2_FLAG (check file: cmake/checks/cpu_avx2.cpp)
+-- Performing Test HAVE_AVX2_FLAG - Success
+-- Performing Test HAVE_MBMI_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MBMI_FLAG - Success
+-- Performing Test HAVE_MBMI2_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MBMI2_FLAG - Success
+-- Performing Test HAVE_MLZCNT_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MLZCNT_FLAG - Success
+-- Performing Test HAVE_MFMA_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_MFMA_FLAG - Success
+-- Performing Test HAVE_AVX256_SUL_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_AVX256_SUL_FLAG - Success
+-- Performing Test HAVE_AVX256_SUS_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_AVX256_SUS_FLAG - Success
+-- Performing Test HAVE_ABIV4_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_ABIV4_FLAG - Success
+-- Performing Test HAVE_NO_UNUSED_VARIABLE_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_UNUSED_VARIABLE_FLAG - Success
+-- Performing Test HAVE_NO_UNUSED_PARAMETER_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_UNUSED_PARAMETER_FLAG - Success
+-- Performing Test HAVE_NO_UNUSED_FUNCTION_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_UNUSED_FUNCTION_FLAG - Success
+-- Performing Test HAVE_NO_SIGN_COMPARE_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_SIGN_COMPARE_FLAG - Success
+-- Performing Test HAVE_NO_IGNORED_QUALIFIERS_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_IGNORED_QUALIFIERS_FLAG - Success
+-- Performing Test HAVE_NO_REORDER_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_REORDER_FLAG - Success
+-- Performing Test HAVE_NO_STRICT_ALIASING_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_STRICT_ALIASING_FLAG - Success
+-- Performing Test HAVE_NO_MISSING_FIELD_FLAG (check file: cmake/checks/cpu_warning.cpp)
+-- Performing Test HAVE_NO_MISSING_FIELD_FLAG - Success
+-- Found JNI: /usr/lib/jvm/default-java/lib/libjawt.so  
+-- Performing Test HAVE_CXX_WALL
+-- Performing Test HAVE_CXX_WALL - Success
+-- Performing Test HAVE_C_WALL
+-- Performing Test HAVE_C_WALL - Success
+-- Performing Test HAVE_CXX_WEXTRA
+-- Performing Test HAVE_CXX_WEXTRA - Success
+-- Performing Test HAVE_C_WEXTRA
+-- Performing Test HAVE_C_WEXTRA - Success
+-- Performing Test HAVE_CXX_WSTRICT_OVERFLOW_5
+-- Performing Test HAVE_CXX_WSTRICT_OVERFLOW_5 - Success
+-- Performing Test HAVE_C_WSTRICT_OVERFLOW_5
+-- Performing Test HAVE_C_WSTRICT_OVERFLOW_5 - Success
+-- Performing Test HAVE_CXX_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_C_WFLOAT_EQUAL
+-- Performing Test HAVE_C_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_WSIGN_CONVERSION
+-- Performing Test HAVE_CXX_WSIGN_CONVERSION - Success
+-- Performing Test HAVE_C_WSIGN_CONVERSION
+-- Performing Test HAVE_C_WSIGN_CONVERSION - Success
+-- Performing Test HAVE_CXX_WSHADOW
+-- Performing Test HAVE_CXX_WSHADOW - Success
+-- Performing Test HAVE_C_WSHADOW
+-- Performing Test HAVE_C_WSHADOW - Success
+-- Performing Test HAVE_CXX_FFAST_MATH
+-- Performing Test HAVE_CXX_FFAST_MATH - Success
+-- Performing Test HAVE_C_FFAST_MATH
+-- Performing Test HAVE_C_FFAST_MATH - Success
+-- Performing Test HAVE_CXX_FOPENMP
+-- Performing Test HAVE_CXX_FOPENMP - Success
+-- Performing Test HAVE_C_FOPENMP
+-- Performing Test HAVE_C_FOPENMP - Success
+-- Performing Test HAVE_CXX_STD_C++17
+-- Performing Test HAVE_CXX_STD_C++17 - Success
+-- Performing Test HAVE_C_STD_C++17
+-- Performing Test HAVE_C_STD_C++17 - Success
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_CXX_MSSE2
+-- Performing Test HAVE_CXX_MSSE2 - Success
+-- Performing Test HAVE_C_MSSE2
+-- Performing Test HAVE_C_MSSE2 - Success
+-- Performing Test HAVE_CXX_MSSE3
+-- Performing Test HAVE_CXX_MSSE3 - Success
+-- Performing Test HAVE_C_MSSE3
+-- Performing Test HAVE_C_MSSE3 - Success
+-- Performing Test HAVE_CXX_MSSSE3
+-- Performing Test HAVE_CXX_MSSSE3 - Success
+-- Performing Test HAVE_C_MSSSE3
+-- Performing Test HAVE_C_MSSSE3 - Success
+-- Performing Test HAVE_CXX_FPIC
+-- Performing Test HAVE_CXX_FPIC - Success
+-- Performing Test HAVE_C_FPIC
+-- Performing Test HAVE_C_FPIC - Success
+-- Performing Test HAVE_CXX_WNO_MISLEADING_INDENTATION
+-- Performing Test HAVE_CXX_WNO_MISLEADING_INDENTATION - Success
+-- Performing Test HAVE_CXX_WNO_INT_IN_BOOL_CONTEXT
+-- Performing Test HAVE_CXX_WNO_INT_IN_BOOL_CONTEXT - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY - Success
+-- Performing Test HAVE_CXX_WNO_SHADOW
+-- Performing Test HAVE_CXX_WNO_SHADOW - Success
+-- Performing Test HAVE_CXX_WNO_MAYBE_UNINITIALIZED
+-- Performing Test HAVE_CXX_WNO_MAYBE_UNINITIALIZED - Success
+-- Performing Test HAVE_CXX_WNO_STRICT_ALIASING
+-- Performing Test HAVE_CXX_WNO_STRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_WD26812
+-- Performing Test HAVE_CXX_WD26812 - Failed
+-- Performing Test HAVE_CXX_WD4244
+-- Performing Test HAVE_CXX_WD4244 - Failed
+-- Performing Test HAVE_CXX_WNO_PESSIMIZING_MOVE
+-- Performing Test HAVE_CXX_WNO_PESSIMIZING_MOVE - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_WNO_MISSING_FIELD_INITIALIZERS
+-- Performing Test HAVE_CXX_WNO_MISSING_FIELD_INITIALIZERS - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test HAVE_CXX_WNO_REORDER
+-- Performing Test HAVE_CXX_WNO_REORDER - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION
+-- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION - Success
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+-- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE
+-- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE - Success
+-- Performing Test HAVE_CXX_WNO_SIGN_CONVERSION
+-- Performing Test HAVE_CXX_WNO_SIGN_CONVERSION - Success
+-- Performing Test HAVE_CXX_WNO_COMMENT
+-- Performing Test HAVE_CXX_WNO_COMMENT - Success
+-- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS
+-- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS - Success
+-- Performing Test HAVE_CXX_WNO_UNQUALIFIED_STD_CAST_CALL
+-- Performing Test HAVE_CXX_WNO_UNQUALIFIED_STD_CAST_CALL - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_PARAMETER
+-- Performing Test HAVE_CXX_WNO_UNUSED_BUT_SET_PARAMETER - Success
+-- Performing Test HAVE_CXX_WNO_REGISTER
+-- Performing Test HAVE_CXX_WNO_REGISTER - Success
+-- opencv nonfree or xfeature2d module not found
+-- Performing Test HAVE_CXX_WD4267
+-- Performing Test HAVE_CXX_WD4267 - Failed
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY_WITH_USER_PROVIDED_COPY
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_COPY_WITH_USER_PROVIDED_COPY - Success
+-- Performing Test HAVE_SSE2 (check file: cmake/checks/cpu_sse2.cpp)
+-- Performing Test HAVE_SSE2 - Success
+-- Performing Test HAVE_SSE3 (check file: cmake/checks/cpu_sse3.cpp)
+-- Performing Test HAVE_SSE3 - Success
+-- Performing Test HAVE_SSSE3 (check file: cmake/checks/cpu_ssse3.cpp)
+-- Performing Test HAVE_SSSE3 - Success
+-- Performing Test HAVE_SSE4_1 (check file: cmake/checks/cpu_sse41.cpp)
+-- Performing Test HAVE_SSE4_1 - Failed
+-- Performing Test HAVE_SSE4_2 (check file: cmake/checks/cpu_sse42.cpp)
+-- Performing Test HAVE_SSE4_2 - Failed
+-- Performing Test HAVE_AVX (check file: cmake/checks/cpu_avx.cpp)
+-- Performing Test HAVE_AVX - Failed
+-- Performing Test HAVE_AVX2 (check file: cmake/checks/cpu_avx2.cpp)
+-- Performing Test HAVE_AVX2 - Failed
+-- Performing Test HAVE_NEON (check file: cmake/checks/cpu_neon.cpp)
+-- Performing Test HAVE_NEON - Failed
+-- 
+-- ==========================================================
+-- General configuration information for ViSP 3.6.1
+-- 
+--   Version control:               v3.6.0-1056-g92b1ddcd6
+-- 
+--   Platform:
+--     Timestamp:                   2024-06-11T07:55:40Z
+--     Host:                        Linux 6.5.0-35-generic x86_64
+--     CMake:                       3.22.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/gmake
+--     Configuration:               Release
+-- 
+--   System information:
+--     Number of CPU logical cores: 16
+--     Number of CPU physical cores: 12
+--     Total physical memory (in MiB): 15668
+--     OS name:                     Linux
+--     OS release:                  6.5.0-35-generic
+--     OS version:                  #35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May  7 09:00:52 UTC 2
+--     OS platform:                 x86_64
+--     CPU name:                    Unknown P6 family
+--     Is the CPU 64-bit?           yes
+--     Does the CPU have FPU?       yes
+--     CPU optimization:            SSE2 SSE3 SSSE3
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      yes
+--     C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
+--     C++ flags (Release):         -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+--     C++ flags (Debug):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -O3 -DNDEBUG
+--     C flags (Debug):             -Wall -Wextra -fopenmp -std=c++17 -fvisibility=hidden -msse2 -msse3 -mssse3 -fPIC -g
+--     Linker flags (Release):
+--     Linker flags (Debug):
+--     Use cxx standard:            17
+-- 
+--   ViSP modules:
+--     To be built:                 core dnn_tracker gui imgproc io java_bindings_generator klt me sensor ar blob robot visual_features vs vision detection mbt tt tt_mi
+--     Disabled:                    -
+--     Disabled by dependency:      -
+--     Unavailable:                 java
+--     Enable visp namespace:       no
+-- 
+--   Python 3:
+--     Interpreter:                 /usr/bin/python3.10 (ver 3.10.12)
+-- 
+--   Java:                          
+--     ant:                         no
+--     JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+-- 
+--   Python3 bindings:              no
+--     Requirements: 
+--       Python version > 3.7.0:    ok (ver 3.10.12)
+--       Python in Virtual environment or conda:
+--                                  failed
+--       Pybind11 found:            ok
+--       CMake > 3.19.0:            ok (3.22.1)
+--       C++ standard > 201703L:    ok (201703L)
+-- 
+--   Build options: 
+--     Build deprecated:            yes
+--     Build with moment combine:   no
+-- 
+--   OpenCV: 
+--     Version:                     4.10.0
+--     Modules:                     calib3d core dnn features2d flann gapi highgui imgcodecs imgproc ml objdetect photo stitching video videoio
+--     OpenCV dir:                  /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4
+-- 
+--   Mathematics: 
+--     Blas/Lapack:                 yes
+--     \- Use MKL:                  no
+--     \- Use OpenBLAS:             no
+--     \- Use Atlas:                no
+--     \- Use Netlib:               yes (ver 3.10.0)
+--     \- Use GSL:                  no
+--     \- Use Lapack (built-in):    no
+--     Use Eigen3:                  yes (ver 3.4.0)
+--     Use OpenCV:                  yes (ver 4.10.0)
+-- 
+--   Simulator: 
+--     Ogre simulator: 
+--     \- Use Ogre3D:               yes (ver 1.9.0)
+--     \- Use OIS:                  no
+--     Coin simulator: 
+--     \- Use Coin3D:               no
+--     \- Use SoWin:                no
+--     \- Use SoXt:                 no
+--     \- Use SoQt:                 no
+--     \- Use Qt5:                  no
+--     \- Use Qt4:                  no
+--     \- Use Qt3:                  no
+-- 
+--   Media I/O: 
+--     Use JPEG:                    yes (ver 80)
+--     Use PNG:                     yes (ver 1.6.37)
+--     \- Use ZLIB:                 yes (ver 1.2.11)
+--     Use OpenCV:                  yes (ver 4.10.0)
+--     Use stb_image (built-in):    yes (ver 2.27.0)
+--     Use TinyEXR (built-in):      yes (ver 1.0.2)
+--     Use simdlib (built-in):      yes
+--     Use npz I/O (built-in):      yes
+-- 
+--   Real robots: 
+--     Use Afma4:                   no
+--     Use Afma6:                   no
+--     Use Franka:                  yes (ver 0.13.2)
+--     Use Viper650:                no
+--     Use Viper850:                no
+--     Use ur_rtde:                 no
+--     Use Kinova Jaco:             no
+--     Use aria (Pioneer):          no
+--     Use PTU46:                   no
+--     Use Biclops PTU:             no
+--     Use Flir PTU SDK:            no
+--     Use MAVSDK:                  no
+--     Use Parrot ARSDK:            no
+--     \-Use ffmpeg:                no
+--     Use Virtuose:                no
+--     Use qbdevice (built-in):     yes (ver 2.6.0)
+--     Use takktile2 (built-in):    yes (ver 1.0.0)
+--     Use pololu (built-in):       yes (ver 1.0.0)
+-- 
+--   GUI: 
+--     Use X11:                     yes
+--     Use GTK:                     no
+--     Use OpenCV:                  yes (ver 4.10.0)
+--     Use GDI:                     no
+--     Use Direct3D:                no
+-- 
+--   Cameras: 
+--     Use DC1394-2.x:              yes (ver 2.2.6)
+--     Use CMU 1394:                no
+--     Use V4L2:                    yes (ver 1.22.1)
+--     Use directshow:              no
+--     Use OpenCV:                  yes (ver 4.10.0)
+--     Use FLIR Flycapture:         no
+--     Use Basler Pylon:            no
+--     Use IDS uEye:                no
+-- 
+--   RGB-D sensors: 
+--     Use Realsense:               no
+--     Use Realsense2:              yes (ver 2.55.1)
+--     Use Occipital Structure:     no
+--     Use Kinect:                  no
+--     \- Use libfreenect:          no
+--     \- Use libusb-1:             yes (ver 1.0.25)
+--     \- Use std::thread:          yes
+--     Use PCL:                     yes (ver 1.12.1)
+--     \- Use VTK:                  yes (ver 9.1.0)
+-- 
+--   F/T sensors: 
+--     Use atidaq (built-in):       no
+--     Use comedi:                  no
+--     Use IIT SDK:                 no
+-- 
+--   Mocap: 
+--     Use Qualisys:                no
+--     Use Vicon:                   no
+-- 
+--   Detection: 
+--     Use zbar:                    yes (ver 0.23.92)
+--     Use dmtx:                    no
+--     Use AprilTag (built-in):     yes (ver 3.1.1)
+--     \- Use AprilTag big family:  no
+-- 
+--   Misc: 
+--     Use Clipper (built-in):      yes (ver 6.4.2)
+--     Use pugixml (built-in):      yes (ver 1.9.0)
+--     Use libxml2:                 yes (ver 2.9.13)
+--     Use json (nlohmann):         yes (ver 3.10.5)
+-- 
+--   Optimization: 
+--     Use OpenMP:                  yes
+--     Use std::thread:             yes
+--     Use pthread:                 yes
+--     Use pthread (built-in):      no
+--     Use simdlib (built-in):      yes
+-- 
+--   DNN: 
+--     Use CUDA Toolkit:            no
+--     Use TensorRT:                no
+-- 
+--   Documentation: 
+--     Use doxygen:                 no
+--     \- Use mathjax:              no
+-- 
+--   Tests and samples:
+--     Use catch2 (built-in):       yes (ver 2.13.7)
+--     Tests:                       yes
+--     Apps:                        yes
+--     Demos:                       yes
+--     Examples:                    yes
+--     Tutorials:                   yes
+--     Dataset found:               no
+-- 
+--   Library dirs:
+--     Eigen3 include dir:          /usr/share/eigen3/cmake
+--     OpenCV dir:                  /home/adminlab/franka_ros2_ws/install/OpenCV/lib/cmake/opencv4
+--     PCL dir:                     /usr/lib/x86_64-linux-gnu/cmake/pcl
+-- 
+--   Install path:                  /home/adminlab/franka_ros2_ws/install/VISP
+-- 
+-- ==========================================================
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/VISP

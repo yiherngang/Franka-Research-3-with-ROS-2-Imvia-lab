@@ -1,0 +1,65 @@
+[0.555s] Invoking command in '/home/adminlab/franka_ros2_ws/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/librealsense -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/librealsense2
+[1.029s] -- The CXX compiler identification is GNU 11.4.0
+[1.029s] -- The C compiler identification is GNU 11.4.0
+[1.030s] -- Detecting CXX compiler ABI info
+[1.030s] -- Detecting CXX compiler ABI info - done
+[1.030s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.030s] -- Detecting CXX compile features
+[1.030s] -- Detecting CXX compile features - done
+[1.030s] -- Detecting C compiler ABI info
+[1.030s] -- Detecting C compiler ABI info - done
+[1.030s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.030s] -- Detecting C compile features
+[1.030s] -- Detecting C compile features - done
+[1.030s] -- Checking internet connection...
+[1.250s] -- Internet connection identified
+[1.254s] -- Info: REALSENSE_VERSION_STRING=2.55.1
+[1.256s] -- Setting Unix configurations
+[1.256s] -- No output directory set; using /home/adminlab/franka_ros2_ws/build/librealsense2/Release/
+[1.264s] -- Building libcurl enabled
+[1.393s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.393s] -- Performing Test SUPPORTS_CXX14
+[1.487s] -- Performing Test SUPPORTS_CXX14 - Success
+[1.497s] -- using RS2_USE_V4L2_BACKEND
+[1.503s] -- Found usb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.511s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.511s] -- Checking for module 'libudev'
+[1.533s] --   Found libudev, version 249
+[1.599s] -- Found Udev: /usr/include  
+[1.608s] -- Fetching nlohmann/json...
+[1.849s] Cloning into 'json'...
+[153.985s] error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+[153.985s] error: 806 bytes of body are still expected
+[153.989s] fetch-pack: unexpected disconnect while reading sideband packet
+[153.989s] fatal: early EOF
+[153.989s] fatal: fetch-pack: invalid index-pack output
+[153.997s] Cloning into 'json'...
+[261.520s] error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+[261.521s] error: 2838 bytes of body are still expected
+[261.523s] fetch-pack: unexpected disconnect while reading sideband packet
+[261.523s] fatal: early EOF
+[261.524s] fatal: fetch-pack: invalid index-pack output
+[261.529s] Cloning into 'json'...
+[416.047s] error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+[416.047s] error: 4591 bytes of body are still expected
+[416.050s] fetch-pack: unexpected disconnect while reading sideband packet
+[416.050s] fatal: early EOF
+[416.051s] fatal: fetch-pack: invalid index-pack output
+[416.056s] CMake Error at /home/adminlab/franka_ros2_ws/build/librealsense2/external-projects/json-download/tmp/nlohmann_json-gitclone.cmake:31 (message):
+[416.056s]   Failed to clone repository: 'https://github.com/nlohmann/json.git'
+[416.056s] 
+[416.056s] 
+[416.058s] gmake[2]: *** [CMakeFiles/nlohmann_json.dir/build.make:98: src/nlohmann_json-stamp/nlohmann_json-download] Error 1
+[416.058s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/nlohmann_json.dir/all] Error 2
+[416.058s] gmake: *** [Makefile:91: all] Error 2
+[416.060s] [31mCMake Error at CMake/external_json.cmake:34 (message):
+[416.060s]   Failed to download nlohmann/json
+[416.060s] Call Stack (most recent call first):
+[416.060s]   CMake/external_json.cmake:50 (get_nlohmann_json)
+[416.060s]   third-party/CMakeLists.txt:3 (include)
+[416.060s]   CMakeLists.txt:58 (include)
+[416.060s] 
+[416.060s] [0m
+[416.061s] -- Configuring incomplete, errors occurred!
+[416.061s] See also "/home/adminlab/franka_ros2_ws/build/librealsense2/CMakeFiles/CMakeOutput.log".
+[416.070s] Invoked command in '/home/adminlab/franka_ros2_ws/build/librealsense2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adminlab/franka_ros2_ws/install/moveit_configs_utils:/home/adminlab/franka_ros2_ws/install/ros2test:/home/adminlab/franka_ros2_ws/install/generate_parameter_module_example:/home/adminlab/franka_ros2_ws/install/launch_param_builder:/home/adminlab/franka_ros2_ws/install/handcv:/home/adminlab/franka_ros2_ws/install/generate_parameter_library_py:/home/adminlab/franka_ros2_ws/install/camera_publisher:/opt/ros/humble /usr/bin/cmake /home/adminlab/franka_ros2_ws/src/librealsense -DCMAKE_INSTALL_PREFIX=/home/adminlab/franka_ros2_ws/install/librealsense2

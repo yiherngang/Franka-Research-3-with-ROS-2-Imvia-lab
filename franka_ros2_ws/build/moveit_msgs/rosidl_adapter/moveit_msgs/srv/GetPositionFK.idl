@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetPositionFK.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "A service definition for a standard forward kinematics service" "\n"
+      "The frame_id in the header message is the frame in which " "\n"
+      "the forward kinematics poses will be returned")
+    struct GetPositionFK_Request {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "A vector of link name for which forward kinematics must be computed")
+      sequence<string> fk_link_names;
+
+      @verbatim (language="comment", text=
+        "A robot state consisting of joint names and joint positions to be used for forward kinematics")
+      moveit_msgs::msg::RobotState robot_state;
+    };
+    @verbatim (language="comment", text=
+      "The resultant vector of PoseStamped messages that contains the (stamped) poses of the requested links")
+    struct GetPositionFK_Response {
+      sequence<geometry_msgs::msg::PoseStamped> pose_stamped;
+
+      @verbatim (language="comment", text=
+        "The list of link names corresponding to the poses")
+      sequence<string> fk_link_names;
+
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+    };
+  };
+};

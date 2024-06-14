@@ -1,0 +1,99 @@
+[  5%] Built target gmock_main
+[  5%] Built target gtest_main
+[  8%] Built target gmock
+[ 11%] Built target gtest
+[ 31%] Built target moveit_task_constructor_core
+[ 36%] Built target gtest_utils
+[ 59%] Built target moveit_task_constructor_core_stages
+[ 65%] Built target moveit_task_constructor_core-test-stage
+[ 67%] Built target moveit_task_constructor_core-test-cost-terms
+[ 67%] Built target moveit_task_constructor_core-test-properties
+[ 69%] Built target moveit_task_constructor_core-test-mockups
+[ 72%] Built target moveit_task_constructor_core_stage_plugins
+[ 74%] Built target moveit_task_constructor_core-test-cost-queue
+[ 77%] Built target moveit_task_constructor_core-test-pruning
+[ 82%] Built target moveit_task_constructor_core-test-container
+[ 82%] Built target moveit_task_constructor_core-test-interface-state
+[ 84%] Built target moveit_task_constructor_core-test-serial
+[ 87%] Built target moveit_task_constructor_core-test-move-to
+[ 89%] Built target pick_pa10
+[ 92%] Built target moveit_task_constructor_core-test-move-relative
+[ 94%] Built target pick_ur5
+[ 97%] Built target moveit_task_constructor_core-test-fallback
+[100%] Built target pick_pr2
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_terms.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/simple_grasp.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/noop.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/pick.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/marker_tools.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/moveit_compat.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/multi_planner.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/merge.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/python
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/python/task_constructor
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/python/task_constructor/properties.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/python/python_tools
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/include/moveit/python/python_tools/ros_types.h
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/motion_planning_stages_plugin_description.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_core
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_core
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.zsh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/packages/moveit_task_constructor_core
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/ament_index/resource_index/moveit_task_constructor_core__pluginlib__plugin/moveit_task_constructor_core
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport-debug.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/package.xml
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so

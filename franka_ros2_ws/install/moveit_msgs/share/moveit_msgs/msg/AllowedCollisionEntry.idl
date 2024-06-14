@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_msgs/msg/AllowedCollisionEntry.msg
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "whether or not collision checking is enabled")
+    struct AllowedCollisionEntry {
+      sequence<boolean> enabled;
+    };
+  };
+};

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/CMakeFiles/libcurl"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/CMakeFiles/libcurl.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/CMakeFiles/libcurl-complete.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-build.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-configure.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-download.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-install.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-mkdir.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-patch.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-test.rule"
+		},
+		{
+			"file" : "/home/adminlab/franka_ros2_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libcurl"
+		],
+		"name" : "libcurl"
+	}
+}

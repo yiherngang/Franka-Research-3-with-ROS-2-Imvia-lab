@@ -1,0 +1,5 @@
+share/moveit_hybrid_planning/single_plan_execution_plugin.xml
+share/moveit_hybrid_planning/moveit_planning_pipeline_plugin.xml
+share/moveit_hybrid_planning/simple_sampler_plugin.xml
+share/moveit_hybrid_planning/replan_invalidated_trajectory_plugin.xml
+share/moveit_hybrid_planning/forward_trajectory_plugin.xml

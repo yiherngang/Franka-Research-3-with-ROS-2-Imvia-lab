@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from moveit_msgs/action/LocalPlanner.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/MoveItErrorCodes.idl"
+
+module moveit_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Local constraints to apply when following the target trajectory produced by the GlobalPlanner")
+    struct LocalPlanner_Goal {
+      sequence<moveit_msgs::msg::Constraints> local_constraints;
+    };
+    @verbatim (language="comment", text=
+      "Result of the local planning operation")
+    struct LocalPlanner_Result {
+      moveit_msgs::msg::MoveItErrorCodes error_code;
+
+      @verbatim (language="comment", text=
+        "Error message with more detailed information about the local planning result")
+      string error_message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback about the currently running local planning operation")
+    struct LocalPlanner_Feedback {
+      string feedback;
+    };
+  };
+};

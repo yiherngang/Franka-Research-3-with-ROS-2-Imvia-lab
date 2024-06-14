@@ -1,0 +1,87 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found franka_msgs: 0.1.13 (/home/adminlab/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found ament_cmake_clang_format: 0.12.11 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.12.11 (/opt/ros/humble/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.12.11 (/opt/ros/humble/share/ament_cmake_xmllint/cmake)
+-- Found ament_cmake_gmock: 1.3.9 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminlab/franka_ros2_ws/build/franka_hardware
+[35m[1mConsolidate compiler generated dependencies of target franka_hardware[0m
+[  6%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/franka_hardware_interface.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/franka_executor.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/franka_param_service_server.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/franka_hardware.dir/src/robot.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libfranka_hardware.so[0m
+[ 31%] Built target franka_hardware
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[ 37%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 43%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 50%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[ 56%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 62%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 62%] Built target gmock_main
+[35m[1mConsolidate compiler generated dependencies of target franka_hardware_test[0m
+[ 68%] [32mBuilding CXX object test/CMakeFiles/franka_hardware_test.dir/franka_hardware_interface_test.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable franka_hardware_test[0m
+[ 75%] Built target franka_hardware_test
+[35m[1mConsolidate compiler generated dependencies of target franka_hardware_robot_test[0m
+[ 81%] [32mBuilding CXX object test/CMakeFiles/franka_hardware_robot_test.dir/franka_robot_test.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable franka_hardware_robot_test[0m
+[ 87%] Built target franka_hardware_robot_test
+[35m[1mConsolidate compiler generated dependencies of target franka_hardware_command_interface_test[0m
+[ 93%] [32mBuilding CXX object test/CMakeFiles/franka_hardware_command_interface_test.dir/franka_hardware_cartesian_command_interface_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable franka_hardware_command_interface_test[0m
+[100%] Built target franka_hardware_command_interface_test
+-- Install configuration: "Debug"
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/franka_hardware.xml
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/lib/libfranka_hardware.so
+-- Set runtime path of "/home/adminlab/franka_ros2_ws/install/franka_hardware/lib/libfranka_hardware.so" to ""
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_param_service_server.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/robot.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/include/franka_hardware/franka_executor.hpp
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/library_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/package_run_dependencies/franka_hardware
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/parent_prefix_path/franka_hardware
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.sh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/environment/path.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.bash
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.sh
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.zsh
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/local_setup.dsv
+-- Installing: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.dsv
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/packages/franka_hardware
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/franka_hardware
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake/franka_hardwareConfig-version.cmake
+-- Up-to-date: /home/adminlab/franka_ros2_ws/install/franka_hardware/share/franka_hardware/package.xml

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libvisp_qbdevice.a CMakeFiles/visp_qbdevice.dir/qb_device_driver.cpp.o CMakeFiles/visp_qbdevice.dir/qbmove_communications.cpp.o
+/usr/bin/ranlib ../lib/libvisp_qbdevice.a
