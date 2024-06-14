@@ -75,5 +75,5 @@ sudo apt upgrade
 3. Install Required packages
 
 ```sh
-sudo apt-get install build essential bc curl ca-certifates gnupg2 libssl-dev lsb-release libelf-dev bison flex dwarves zstd libncurses-dev
+sudo apt-get install build-essential bc curl ca-certificates gnupg2 libssl-dev lsb-release libelf-dev bison flex dwarves zstd libncurses-dev
 ```
