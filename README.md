@@ -161,6 +161,8 @@ make menuconfig
 > General setup
 >> Preemption Model (Voluntary Kernel Preemption (Desktop))
 >>> (x) Fully Preemptible Kernel (Real-Time)
+>>> exit
+
 > Cryptographic API
 >> Certificates for signature checking
 >>> Additional X.509 keys for default system keyring
