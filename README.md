@@ -1,3 +1,4 @@
+
 # Franka Research 3 with ROS 2 Imvia lab
 
 ## 1. Introduction
@@ -160,3 +161,12 @@ make menuconfig
 > General setup
 >> Preemption Model (Voluntary Kernel Preemption (Desktop))
 >>> (x) Fully Preemptible Kernel (Real-Time)
+> Cryptographic API
+>> Certificates for signature checking
+>>> Additional X.509 keys for default system keyring
+>>>> Remove the permission
+>>>>> ok
+>>>> X.509 cerficates to be preloaded into the system blacklist keyring
+>>>>> Remove the permission
+> save to .config
+
