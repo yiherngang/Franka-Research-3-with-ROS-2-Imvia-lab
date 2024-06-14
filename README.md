@@ -255,3 +255,54 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF ..
 cmake --build .
 ```
+#### Install ROS2 Humble Hawksbill
+
+##### Add the ROS 2 apt repository to the system
+
+1. Ensure the Ubuntu Universe repository is enabled.
+
+```bash
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+```
+
+2. Add the ROS 2 GPG key with apt
+
+```bash
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+```
+
+3. add the repository to the sources list
+
+```bash
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
+
+##### Install ROS 2 packages
+
+4. Update your apt repository caches after setting up the repositories
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+5. Desktop
+
+```bash
+sudo apt install ros-humble-desktop
+```
+###### If doesn't work, change another internet and do again, I also don't understand why
+
+5. Set up the environment
+
+``` bash
+source /opt/ros/humble/setup.bash
+```
+###### can add it to the ./bashrc file 
+
+```bash
+nano ~/.bashrc
+```
+
