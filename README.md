@@ -77,3 +77,14 @@ sudo apt upgrade
 ```sh
 sudo apt-get install build-essential bc curl ca-certificates gnupg2 libssl-dev lsb-release libelf-dev bison flex dwarves zstd libncurses-dev
 ```
+
+You can skip the steps 4 and 5 if you want to follow my version:
+
+4. Check for available real-time patches:
+
+https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/
+
+5. Check for available linux version:
+
+https://mirrors.edge.kernel.org/pub/linux/kernel/
+
