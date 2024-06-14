@@ -177,3 +177,25 @@ make menuconfig
 
 > save to .config
 
+14. Initialize a Git REpository in the kernel source directory
+
+```sh
+git init
+git add .
+git commit -m "Initial commit"
+```
+
+15. Kernel compilation
+
+```sh
+make -j$(nproc) deb-pkg
+```
+
+16. Install the new kernel packages
+
+```sh
+sudo dpkg -i ../linux-headers-*.deb ../linux-image-*.deb
+```
+
+17. Restart the computer
+
