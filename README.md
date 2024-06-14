@@ -63,7 +63,7 @@ Below is the step-by-step guide for installation:
 uname -a
 ```
 
-**The libfranka library will only works with a PREEMPT_RT kernel**
+*The libfranka library will only works with a PREEMPT_RT kernel
 
 2. Update your system
 
