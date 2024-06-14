@@ -181,8 +181,7 @@ make menuconfig
 
 ```sh
 git init
-git add .
-git commit -m "Initial commit"
+git remote add origin <remote-url>
 ```
 
 15. Kernel compilation
@@ -199,3 +198,42 @@ sudo dpkg -i ../linux-headers-*.deb ../linux-image-*.deb
 
 17. Restart the computer
 
+> Advanced options for Ubuntu
+>> Ubuntu, with Linux 6.9.0-rt5
+>>> Enter
+
+18. On the Ubuntu terminal, check the new Linux kernel
+
+```sh
+uname -a
+```
+
+The correct output is below:
+
+```sh
+Linux CO-P-MASTERS-13 6.9.0-rt5+ #5 SMP PREEMPT_RT Thu Jun 13 14:50:20 CEST 2024 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+19. Allow user to set real-time permissions for its processes
+
+```sh
+sudo addgroup realtime
+sudo usermod -a -G realtime $(whoami)
+```
+
+20. Edit the limits
+
+```bash
+sudo nano /etc/security/limits.conf
+```
+
+21. Add the following lines to the end of the file
+
+```bash
+@realtime soft rtprio 99
+@realtime soft priority 99
+@realtime soft memlock 102400
+@realtime hard rtprio 99
+@realtime hard priority 99
+@realtime hard memlock 102400
+```
