@@ -10,3 +10,30 @@ Special thanks go to my host supervisors, Professor David Fofi and Mr. Raphael D
 
 ### Overview
 
+This project integrates advanced robotics technologies to enhance the capabilities of the Franka Research 3 Cobot, provided by the Imvia lab at Universite de Bourgogne. The integration leverages modern software frameworks and hardware components to achieve sophisticated manipulation and perception functionalities.
+
+### Hardware and Software Integration
+
+The project utilizes the following hardware and software components:
+
+- **Franka Research 3 Cobot**: Provided by the Imvia lab, this robotic platform serves as the foundation for the project's functionalities.
+
+- **ROS 2 and Linux Real-Time Kernel**: The robot operates on ROS 2, running on a Linux real-time kernel. This setup ensures precise and deterministic control over the robot's actions.
+
+- **MoveIt2**: A renowned manipulator robot platform, integrated with the Franka Research 3 Cobot. MoveIt2 facilitates essential manipulation functions such as movement, pick and place operations, and servoing using a Logitech F710 joystick.
+
+- **Camera Perception**: The project incorporates camera perception capabilities using a combination of 3D printing designs from Franka World and the Intel Depth Camera D534F. This setup enables the robot to perceive its environment in three dimensions, enhancing its interaction capabilities.
+
+- **ViSP (Visual Servoing Platform)**: Integrated into the robot's system, ViSP is an open-source library that provides visual servoing capabilities. This allows the robot to perform tasks based on visual feedback, improving accuracy and adaptability in various applications.
+
+### Objectives
+
+The primary objectives of this project include:
+
+1. Implementing advanced manipulation functionalities using MoveIt2.
+2. Integrating camera perception to enhance environmental awareness.
+3. Utilizing ViSP for visual servoing capabilities, improving task precision and flexibility.
+
+### Applications
+
+The integrated system is designed to support various applications, including industrial automation, research in robotics, and educational purposes. By combining state-of-the-art hardware and software, this project aims to advance the capabilities of robotic systems in real-world scenarios.
