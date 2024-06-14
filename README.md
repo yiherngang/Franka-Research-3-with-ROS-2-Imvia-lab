@@ -253,7 +253,9 @@ cd libfranka
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF ..
-cmake --build .
+cmake --build . -j$(nproc)
+cpack -G DEB
+sudo dpkg -i libfranka-*.deb
 ```
 #### Install ROS2 Humble Hawksbill
 
