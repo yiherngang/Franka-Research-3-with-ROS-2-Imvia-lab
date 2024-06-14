@@ -62,3 +62,18 @@ Below is the step-by-step guide for installation:
 ```sh
 uname -a
 ```
+
+**The libfranka library will only works with a PREEMPT_RT kernel**
+
+2. Update your system
+
+```sh
+sudo apt update
+sudo apt upgrade
+```
+
+3. Install Required packages
+
+```sh
+sudo apt-get install build essential bc curl ca-certifates gnupg2 libssl-dev lsb-release libelf-dev bison flex dwarves zstd libncurses-dev
+```
