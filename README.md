@@ -88,3 +88,71 @@ https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/
 
 https://mirrors.edge.kernel.org/pub/linux/kernel/
 
+6. Create a directory for the kernel:
+
+```sh
+mkdir linuxKernel
+cd linuxKernel
+```
+
+7. Download the source files (Just substitute the numbers for different versions):
+
+```sh
+curl -SLO https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.9.tar.xz
+curl -SLO https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.9.tar.sign
+curl -SLO https://www.kernel.org/pub/linux/kernel/projects/rt/6.9/patch-6.9-rt5.patch.xz
+curl -SLO https://www.kernel.org/pub/linux/kernel/projects/rt/6.9/patch-6.9-rt5.patch.sign
+```
+
+8. decompress all the files
+
+```sh
+xz -d *.xz
+```
+
+9. Verify file integrity
+
+```sh
+gpg2 --verify linux-*.tar.sign
+gpg2 --verify patch-*.patch.sign
+```
+
+* example of a correct output
+
+```sh
+$ gpg2 --verify linux-*.tar.sign
+gpg: assuming signed data in 'linux-4.14.12.tar'
+gpg: Signature made Fr 05 Jan 2018 06:49:11 PST using RSA key ID 6092693E
+gpg: Good signature from "Greg Kroah-Hartman <gregkh@linuxfoundation.org>" [unknown]
+gpg:                 aka "Greg Kroah-Hartman <gregkh@kernel.org>" [unknown]
+gpg:                 aka "Greg Kroah-Hartman (Linux kernel stable release signing key) <greg@kroah.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 647F 2865 4894 E3BD 4571  99BE 38DB BDC8 6092 693E
+```
+
+10. Compiling the kernel
+
+```sh
+tar xf linux-*.tar
+cd linux-*/
+patch -p1 < ../patch-*.patch
+```
+
+11. copy the currently booted kernel configuration as the default config for the new real time kernel:
+
+```sh
+cp -v /boot/config-$(uname -r) .config
+```
+
+12. Update configuration
+
+```sh
+make olddefconfig
+```
+
+13. Customize configuration
+
+```sh
+make menuconfig
+```
