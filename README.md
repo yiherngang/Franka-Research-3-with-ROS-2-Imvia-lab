@@ -28,7 +28,7 @@ The project utilizes the following hardware and software components:
 
 ## 2.0 Pre-requisite
 
-Tested Working Versions
+### 2.1 Tested Working Versions
 
 Below are the tested working versions for each software:
 
@@ -40,11 +40,11 @@ Below are the tested working versions for each software:
 - **Linux RT Kernel**: Version 6.9.0-rt5+ PREEMPT_RT
 - **Visual Servoing Platform(ViSP)**: Version 3.6.1
 
-### 2.1 Installation
+### 2.2 Installation
 
 Below is the step-by-step guide for installation:
 
-#### 2.1.1 Setting up the Real-Time Kernel
+#### 2.2.1 Setting up the Real-Time Kernel
 
 1. Check the current Linux kernel:
 
@@ -226,7 +226,7 @@ sudo nano /etc/security/limits.conf
 @realtime hard memlock 102400
 ```
 
-#### 2.1.2 Building libfranka from source 
+#### 2.2.2 Building libfranka from source 
 
 1. Uninstall the existing installations of libfranka
 
@@ -257,7 +257,7 @@ cmake --build . -j$(nproc)
 cpack -G DEB
 sudo dpkg -i libfranka-*.deb
 ```
-#### 2.1.3 Install ROS2 Humble Hawksbill
+#### 2.2.3 Install ROS2 Humble Hawksbill
 
 Add the ROS 2 apt repository to the system
 
@@ -307,7 +307,7 @@ can add it to the ./bashrc file
 ```bash
 nano ~/.bashrc
 ```
-#### 2.1.4 Install **Franka_ros2** from source
+#### 2.2.4 Install **Franka_ros2** from source
 
 1. Install requirements
 
@@ -346,7 +346,7 @@ git clone https://github.com/frankaemika/franka_ros2.git src/franka_ros2
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 source install/setup.sh
 ```
-#### 2.1.5 Install ViSP from source
+#### 2.2.5 Install ViSP from source
 
 1. Install pre-requisite
 
@@ -381,7 +381,7 @@ make -j$(nproc)
 export VISP_DIR=~/franka_ros2_ws/build/visp
 source ~/.bashrc
 ```
-#### 2.1.6 Install librealsense SDK for Intel D435F camera
+#### 2.2.6 Install librealsense SDK for Intel D435F camera
 
 1. Install pre-requisite
 
