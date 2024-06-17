@@ -412,5 +412,13 @@ sudo make install
 ```bash
 rs-capture
 ```
+## 3.0 How to set up the Franka Research 3
+
+1. Switch on the control
+2. Connect to Franka Desk
+
+https://192.168.1.40/desk/
+
+3. Activate FCI
 
 
