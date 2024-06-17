@@ -518,6 +518,6 @@ ros2 launch franka_moveit_config moveit.launch.py robot_ip:=192.168.1.40
 
 - [x] MotionPlanning
 
-5. Plan the oposition of the end effector and click "Plan & execute"
+5. Plan the position of the end effector and click "Plan & execute"
 
 ![Rviz2 window](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2011-36-07.png)
