@@ -492,3 +492,28 @@ ros2 launch franka_bringup move_to_start_example_controller.launch.py robot_ip:=
 ```
 
 This code will move the Franka Research 3 to the start position
+
+## 6.0 How to use MoveIt2 on Franka Research 3 ?
+
+### 6.1 Control Franka Research 3 using MotionPlanning Group 
+
+1. Go to the Franka ros2 workspace
+
+```bash
+cd ~/franka_ros2_ws/
+```
+
+2. Source the setup.bash file
+
+```bash
+source install/setup.bash
+```
+
+3. Run the franka_moveit_config
+```bash
+ros2 launch franka_moveit_config moveit.launch.py robot_ip:=192.168.1.40
+```
+
+4. Tick the MotionPlanning group on the Display pannel
+
+-[x] MotionPlanning
