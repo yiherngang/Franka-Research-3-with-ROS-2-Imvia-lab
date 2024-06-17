@@ -524,4 +524,4 @@ View the demo video below:
 
 [![Watch the video](https://raw.githubusercontent.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2011-36-07.png)](https://www.youtube.com/watch?v=0sax6AV4quo)
 
-
+## 7.0 Control Franka Research 3 with Logitech Gamepad F710
