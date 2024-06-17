@@ -522,7 +522,7 @@ ros2 launch franka_moveit_config moveit.launch.py robot_ip:=192.168.1.40
 
 ![Rviz2 window](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2011-36-07.png)
 
-[![Watch the video]([https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2011-36-07.png))]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=0sax6AV4quo))]
+[![Watch the video]([https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2011-36-07.png))](https://www.youtube.com/watch?v=0sax6AV4quo)
 
 View the demo video below:
 
