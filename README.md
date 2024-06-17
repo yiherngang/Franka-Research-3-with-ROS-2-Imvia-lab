@@ -421,4 +421,5 @@ https://192.168.1.40/desk/
 
 3. Activate FCI
 
+![Click on Activate FCI](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/Screenshot%20from%202024-06-17%2010-42-05.png)
 
