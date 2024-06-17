@@ -516,4 +516,4 @@ ros2 launch franka_moveit_config moveit.launch.py robot_ip:=192.168.1.40
 
 4. Tick the MotionPlanning group on the Display pannel
 
--[x] MotionPlanning
+- [x] MotionPlanning
