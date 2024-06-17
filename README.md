@@ -1,6 +1,6 @@
 # Franka Research 3 with ROS 2 Imvia lab
 
-## 1. Introduction
+## 1.0 Introduction
 
 Welcome to the documentation of the project titled **"ROS 2 Integration of MoveIt2 with Franka Research 3 Cobot: Enhancing Advanced Manipulation with Camera Perception"**. This project was undertaken as part of the requirements for the subject IEB3047 Student Industrial Project (SIP) in Universiti Teknologi PETRONAS (UTP), in collaboration with Universite De Bourgogne, France, and The ViBot lab.
 
@@ -26,7 +26,7 @@ The project utilizes the following hardware and software components:
 
 - **ViSP (Visual Servoing Platform)**: Integrated into the robot's system, ViSP is an open-source library that provides visual servoing capabilities. This allows the robot to perform tasks based on visual feedback, improving accuracy and adaptability in various applications.
 
-## 2. Pre-requisite
+## 2.0 Pre-requisite
 
 ### Tested Working Versions
 
