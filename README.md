@@ -462,7 +462,7 @@ generate_cartesian_pose_motion  generate_joint_position_motion_external_control_
 ```bash
 ./generate_cartesian_pose_motion 192.168.1.40
 ```
-## How to run the example controller in Franka ROS2 library
+## 5.0 How to run the example controller in Franka ROS2 library
 
 1. Go to the Franka ros2 workspace
 
