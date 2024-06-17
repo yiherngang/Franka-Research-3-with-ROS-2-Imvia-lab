@@ -462,3 +462,33 @@ generate_cartesian_pose_motion  generate_joint_position_motion_external_control_
 ```bash
 ./generate_cartesian_pose_motion 192.168.1.40
 ```
+## How to run the example controller in Franka ROS2 library
+
+1. Go to the Franka ros2 workspace
+
+```bash
+cd ~/franka_ros2_ws/
+```
+
+2. Source the setup.bash file
+
+```bash
+source install/setup.bash
+```
+
+3. View the available example controller
+
+```bash
+adminlab@CO-P-MASTERS-13:~/franka_ros2_ws$ ls src/franka_ros2/franka_bringup/launch/
+cartesian_elbow_example_controller.launch.py        elbow_example_controller.launch.py                 joint_impedance_with_ik_example_controller.launch.py  move_to_start_example_controller.launch.py
+cartesian_orientation_example_controller.launch.py  franka.launch.py                                   joint_position_example_controller.launch.py
+cartesian_pose_example_controller.launch.py         gravity_compensation_example_controller.launch.py  joint_velocity_example_controller.launch.py
+cartesian_velocity_example_controller.launch.py     joint_impedance_example_controller.launch.py       model_example_controller.launch.py
+```
+
+4. Run an example controller
+```bash
+ros2 launch franka_bringup move_to_start_example_controller.launch.py robot_ip:=192.168.1.40
+```
+
+This code will move the Franka Research 3 to the start position
