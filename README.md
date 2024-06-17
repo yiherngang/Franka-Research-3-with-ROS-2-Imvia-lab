@@ -1,4 +1,3 @@
-
 # Franka Research 3 with ROS 2 Imvia lab
 
 ## 1. Introduction
@@ -39,6 +38,7 @@ Below are the tested working versions for each software:
 - **franka_ros2**: Version 0.1.13
 - **Ubuntu**: Ubuntu 22.04.4 LTS (Jammy)
 - **Linux RT Kernel**: Version 6.9.0-rt5+ PREEMPT_RT
+- **Visual Servoing Platform(ViSP)**: Version 3.6.1
 
 ### 2.1 Installation
 
@@ -307,4 +307,110 @@ source /opt/ros/humble/setup.bash
 ```bash
 nano ~/.bashrc
 ```
+#### 2.1.4 Install **Franka_ros2** from source
+
+1. Install requirements
+
+```bash
+sudo apt install -y \
+ros-humble-hardware-interface \
+ros-humble-generate-parameter-library \
+ros-humble-ros2-control-test-assets \
+ros-humble-controller-manager \
+ros-humble-control-msgs \
+ros-humble-xacro \
+ros-humble-angles \
+ros-humble-ros2-control \
+ros-humble-realtime-tools \
+ros-humble-control-toolbox \
+ros-humble-moveit \
+ros-humble-ros2-controllers \
+ros-humble-joint-state-publisher \
+ros-humble-joint-state-publisher-gui \
+ros-humble-ament-cmake \
+ros-humble-ament-cmake-clang-format \
+python3-colcon-common-extensions
+```
+2. Create a ROS 2 workspace
+
+```bash
+mkdir -p ~/franka_ros2_ws/src
+```
+
+3. Clone repo and build packages
+
+```bash
+source /opt/ros/humble/setup.bash
+cd ~/franka_ros2_ws
+git clone https://github.com/frankaemika/franka_ros2.git src/franka_ros2
+colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+source install/setup.sh
+```
+#### 2.1.5 Install ViSP from source
+
+1. Install pre-requisite
+
+```bash
+sudo apt-get install build-essential cmake-curses-gui git wget
+```
+
+```bash
+sudo apt-get install libopencv-dev libx11-dev liblapack-dev libeigen3-dev libv4l-dev libzbar-dev libpthread-stubs0-dev libdc1394-dev nlohmann-json3-dev
+```
+
+2. Install ViSP from github
+
+```bash
+cd franka_ros2_ws/src/
+git clone https://github.com/lagadic/visp.git
+```
+
+3. Build ViSP
+
+```bash
+cd franka_ros2_ws/build
+mkdir visp
+cd visp
+cmake ../../scr/visp
+make -j$(nproc)
+```
+
+4. Set VISP_DIR environment variable
+
+```bash
+export VISP_DIR=~/franka_ros2_ws/build/visp
+source ~/.bashrc
+```
+#### 2.1.6 Install librealsense SDK
+
+1. Install pre-requisite
+
+```bash
+sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev cmake-curses-gui
+sudo apt-get install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
+```
+
+2. Get librealsense from github
+
+```bash
+cd franka_ros2_ws
+git clone https://github.com/IntelRealSense/librealsense.git
+cd librealsense
+```
+
+3. build and install librealsense
+
+```bash
+mkdir build
+cd build
+cmake .. -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Release
+make -j4
+sudo make install
+```
+
+4. Check if its working
+```bash
+rs-capture
+```
+
 
