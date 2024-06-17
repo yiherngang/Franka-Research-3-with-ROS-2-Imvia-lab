@@ -259,7 +259,7 @@ sudo dpkg -i libfranka-*.deb
 ```
 #### 2.1.3 Install ROS2 Humble Hawksbill
 
-##### Add the ROS 2 apt repository to the system
+Add the ROS 2 apt repository to the system
 
 1. Ensure the Ubuntu Universe repository is enabled.
 
@@ -281,7 +281,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
 
-##### Install ROS 2 packages
+Install ROS 2 packages
 
 4. Update your apt repository caches after setting up the repositories
 
@@ -295,14 +295,14 @@ sudo apt upgrade
 ```bash
 sudo apt install ros-humble-desktop
 ```
-###### If doesn't work, change another internet and do again, I also don't understand why
+If doesn't work, change another internet and do again, I also don't understand why
 
 5. Set up the environment
 
 ``` bash
 source /opt/ros/humble/setup.bash
 ```
-###### can add it to the ./bashrc file 
+can add it to the ./bashrc file 
 
 ```bash
 nano ~/.bashrc
