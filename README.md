@@ -381,7 +381,7 @@ make -j$(nproc)
 export VISP_DIR=~/franka_ros2_ws/build/visp
 source ~/.bashrc
 ```
-#### 2.1.6 Install librealsense SDK
+#### 2.1.6 Install librealsense SDK for Intel D435F camera
 
 1. Install pre-requisite
 
@@ -422,4 +422,6 @@ https://192.168.1.40/desk/
 3. Activate FCI
 
 ![Click on Activate FCI](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/Screenshot%20from%202024-06-17%2010-42-05.png)
+
+4. Unlock Joint
 
