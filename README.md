@@ -434,3 +434,31 @@ Click on the right button
 4. Change the operation mode to execution
 
 ![execution mode](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2010-57-51.png)
+
+## 4.0 How to run the example in libfranka
+
+1. Go to the libfranka example build file
+
+```bash
+cd ~/libfranka/build/examples
+```
+
+2. View the available example
+
+Use the command **ls** and you should see the list like below 
+```bash
+adminlab@CO-P-MASTERS-13:~/libfranka/build/examples$ ls
+cartesian_impedance_control     generate_cartesian_pose_motion_external_control_loop      generate_joint_velocity_motion                        motion_with_control
+CMakeFiles                      generate_cartesian_velocity_motion                        generate_joint_velocity_motion_external_control_loop  motion_with_control_external_control_loop
+cmake_install.cmake             generate_cartesian_velocity_motion_external_control_loop  grasp_object                                          print_joint_poses
+communication_test              generate_consecutive_motions                              joint_impedance_control                               vacuum_object
+echo_robot_state                generate_elbow_motion                                     joint_point_to_point_motion
+force_control                   generate_joint_position_motion                            libexamples_common.a
+generate_cartesian_pose_motion  generate_joint_position_motion_external_control_loop      Makefile
+```
+
+3. Run an example file
+
+```bash
+./generate_cartesian_pose_motion 192.168.1.40
+```
