@@ -419,6 +419,8 @@ rs-capture
 
 https://192.168.1.40/desk/
 
+![Franka desk page](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2010-54-44.png)
+
 3. Activate FCI
 
 ![Click on Activate FCI](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/Screenshot%20from%202024-06-17%2010-42-05.png)
