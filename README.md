@@ -28,7 +28,7 @@ The project utilizes the following hardware and software components:
 
 ## 2.0 Pre-requisite
 
-### Tested Working Versions
+Tested Working Versions
 
 Below are the tested working versions for each software:
 
