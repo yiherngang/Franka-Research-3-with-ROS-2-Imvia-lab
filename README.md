@@ -425,3 +425,6 @@ https://192.168.1.40/desk/
 
 4. Unlock Joint
 
+Click on the right button
+
+![Click on the unlock joint button](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2010-50-24.png)
