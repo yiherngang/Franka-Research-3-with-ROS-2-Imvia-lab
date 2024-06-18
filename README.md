@@ -731,4 +731,19 @@ $ more franka_eMc.txt
 ```bash
 python hand_eye_calibration_show_extrinsics.py --ndata 8 --eMc_yaml franka_eMc.yaml --cPo_file_pattern franka_pose_cPo_%d.yaml --square_size 0.0262 --focal_px 605.146728515625
 ```
+### 7.2 Visual Servoing with Franka Research 3
 
+1. Go to servo-franka folder
+
+```bash
+cd ~/franka_ros2_ws/build/visp/example/servo-franka
+```
+
+2. Run the binary
+```bash
+./servoFrankaIBVS --eMc ../../apps/calibration/eMc.yaml --ip 192.168.1.40
+```
+
+Demo Video:
+
+![Watch the video](https://img.youtube.com/vi/gEpAMvD41xw/maxresdefault.jpg)](https://www.youtube.com/watch?v=gEpAMvD41xw)
