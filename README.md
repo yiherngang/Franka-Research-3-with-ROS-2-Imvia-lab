@@ -746,4 +746,5 @@ cd ~/franka_ros2_ws/build/visp/example/servo-franka
 
 Demo Video:
 
-![Watch the video](https://img.youtube.com/vi/gEpAMvD41xw/maxresdefault.jpg)](https://www.youtube.com/watch?v=gEpAMvD41xw)
+[![Watch the video](https://img.youtube.com/vi/gEpAMvD41xw/maxresdefault.jpg)](https://www.youtube.com/watch?v=gEpAMvD41xw)
+
