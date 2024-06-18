@@ -591,3 +591,7 @@ ros2 launch franka_moveit_config moveit.launch.py robot_ip:=192.168.1.40
 ros2 launch moveit_servo servo_example.launch.py
 ```
 
+Below is the labbeling of Logitech Gamepad F710:
+
+![Labeling for Logitech Gamepad](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/Labelling%20of%20controller.png)
+
