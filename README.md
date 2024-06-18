@@ -598,3 +598,5 @@ Below is the labbeling of Logitech Gamepad F710:
 Watch my Demo:
 
 [![Watch the video](https://img.youtube.com/vi/vvzb1XYdZws/maxresdefault.jpg)](https://www.youtube.com/watch?v=vvzb1XYdZws)
+
+### 6.3 Control Franka Research 3 with custom package (C++ code)
