@@ -657,3 +657,9 @@ You can change the value in test_trajectory2.cpp
 Demo Video:
 
 [![Pick and Place](https://img.youtube.com/vi/nNuHjoyj9CM/maxresdefault.jpg)](https://www.youtube.com/watch?v=nNuHjoyj9CM)
+
+## 7.0 Visual Servoing with Franka Research 3
+
+### 7.1 Camera Calibration
+
+1. Connect the Realsense D435 camera to the computer
