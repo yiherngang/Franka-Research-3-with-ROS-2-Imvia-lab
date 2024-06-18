@@ -599,4 +599,59 @@ Watch my Demo:
 
 [![Watch the video](https://img.youtube.com/vi/vvzb1XYdZws/maxresdefault.jpg)](https://www.youtube.com/watch?v=vvzb1XYdZws)
 
-### 6.3 Control Franka Research 3 with custom package (C++ code)
+### 6.3 Franka Research 3 pick & place with custom package (C++ code)
+
+1. Create a custom package
+
+```bash
+cd ~/franka_ros2_ws/src
+ros2 pkg create --build-type ament_cmake moveit2_scripts
+```
+
+2. Copy all the file in the **moveit2_scripts** in this directory
+
+https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/tree/main/franka_ros2_ws/src/moveit2_scripts 
+
+4. Build the package
+```bash
+cd ~/franka_ros2_ws
+colcon build --packages-select
+source install/setup.bash
+```
+
+5. Run pick & place Example 1 (define joint angle).
+
+```bash
+ros2 launch moveit2_scripts test_trajectory3.launch.py
+```
+
+You can change the value in test_trajectory3.cpp
+```cpp
+  joint_group_positions[0] = 0.00;  
+  joint_group_positions[1] = 0.45; 
+  joint_group_positions[2] = 0.00;  
+  joint_group_positions[3] = -2.36;  
+  joint_group_positions[4] = 0.00;  
+  joint_group_positions[5] = 2.80;  
+  joint_group_positions[6] = 0.78;
+```
+
+6. Run pick & place Example 2 (define quaternion / Euler angle)
+
+```bash
+ros2 launch moveit2_scripts test_trajectory2.launch.py
+```
+
+You can change the value in test_trajectory2.cpp
+```cpp
+  tf2::Quaternion quaternion2 = quaternionFromEuler(3.142, 0, -0.70);
+  target_pose1.orientation.x = quaternion2.x();
+  target_pose1.orientation.y = quaternion2.y();
+  target_pose1.orientation.z = quaternion2.z();
+  target_pose1.orientation.w = quaternion2.w();
+  target_pose1.position.x = 0.500;
+  target_pose1.position.y = 0.000;
+  target_pose1.position.z = 0.140;
+```
+
+Demo Video:
