@@ -655,3 +655,5 @@ You can change the value in test_trajectory2.cpp
 ```
 
 Demo Video:
+
+[![Pick and Place](https://img.youtube.com/vi/nNuHjoyj9CM/maxresdefault.jpg)](https://www.youtube.com/watch?v=nNuHjoyj9CM)
