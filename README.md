@@ -525,3 +525,69 @@ View the demo video below:
 [![Watch the video](https://raw.githubusercontent.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/main/franka_ros2_ws/src/images/Screenshot%20from%202024-06-17%2011-36-07.png)](https://www.youtube.com/watch?v=0sax6AV4quo)
 
 ### 6.2 Control Franka Research 3 with Logitech Gamepad F710 joystick
+
+1. Go to franka_ros2_ws/src/moveit2/moveit_ros/moveit_servo/src/teleop_demo
+2. Edit the code joystick_servo_example.cpp, comment out this snippet of code and save it.
+
+```cpp
+	/*
+    // Load the collision scene asynchronously
+    collision_pub_thread_ = std::thread([this]() {
+      rclcpp::sleep_for(std::chrono::seconds(3));
+      // Create collision object, in the way of servoing
+      moveit_msgs::msg::CollisionObject collision_object;
+      collision_object.header.frame_id = "panda_link0";
+      collision_object.id = "box";
+
+      shape_msgs::msg::SolidPrimitive table_1;
+      table_1.type = table_1.BOX;
+      table_1.dimensions = { 0.4, 0.6, 0.03 };
+
+      geometry_msgs::msg::Pose table_1_pose;
+      table_1_pose.position.x = 0.6;
+      table_1_pose.position.y = 0.0;
+      table_1_pose.position.z = 0.4;
+
+      shape_msgs::msg::SolidPrimitive table_2;
+      table_2.type = table_2.BOX;
+      table_2.dimensions = { 0.6, 0.4, 0.03 };
+
+      geometry_msgs::msg::Pose table_2_pose;
+      table_2_pose.position.x = 0.0;
+      table_2_pose.position.y = 0.5;
+      table_2_pose.position.z = 0.25;
+
+      collision_object.primitives.push_back(table_1);
+      collision_object.primitive_poses.push_back(table_1_pose);
+      collision_object.primitives.push_back(table_2);
+      collision_object.primitive_poses.push_back(table_2_pose);
+      collision_object.operation = collision_object.ADD;
+
+      moveit_msgs::msg::PlanningSceneWorld psw;
+      psw.collision_objects.push_back(collision_object);
+
+      auto ps = std::make_unique<moveit_msgs::msg::PlanningScene>();
+      ps->world = psw;
+      ps->is_diff = true;
+      collision_pub_->publish(std::move(ps));
+    });*/
+```
+3. Build the package
+
+```bash
+cd ~/franka_ros2_ws/
+colcon build --packages-select moveit_servo
+source install/setup.bash
+```
+
+4. Run the franka_moveit_config
+```bash
+ros2 launch franka_moveit_config moveit.launch.py robot_ip:=192.168.1.40
+```
+
+5. On another terminal, Run the moveit_servo example
+
+```bash
+ros2 launch moveit_servo servo_example.launch.py
+```
+
