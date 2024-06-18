@@ -663,3 +663,68 @@ Demo Video:
 ### 7.1 Camera Calibration
 
 1. Connect the Realsense D435 camera to the computer
+
+2. Print the [OpenCV_Chessboard.pdf](https://github.com/yiherngang/Franka-Research-3-with-ROS-2-Imvia-lab/blob/main/franka_ros2_ws/src/images/OpenCV_Chessboard.pdf) and put it under the camera.
+
+3. Go to ~/franka_ros2_ws/build/visp/apps/calibration
+
+4. Open the franka calibration apps
+
+```bash
+./visp-acquire-franka-calib-data --ip 192.168.1.40
+```
+
+5. Move the robot to different position and remains the chessboard. Left mouse click to take 10 different data. Right click after 10 data
+
+```bash
+Sample output
+Image size: 640 x 480
+Found camera with name: "Camera"
+Save: franka_image-1.png and franka_pose_fPe_1.yaml
+Save: franka_image-2.png and franka_pose_fPe_2.yaml
+Save: franka_image-3.png and franka_pose_fPe_3.yaml
+Save: franka_image-4.png and franka_pose_fPe_4.yaml
+Save: franka_image-5.png and franka_pose_fPe_5.yaml
+Save: franka_image-6.png and franka_pose_fPe_6.yaml
+Save: franka_image-7.png and franka_pose_fPe_7.yaml
+Save: franka_image-8.png and franka_pose_fPe_8.yaml
+```
+
+6. Compute camera poses from corresponding images
+
+```bash
+./visp-compute-chessboard-poses --square-size 0.0262 --input franka_image-%d.png --intrinsic franka_camera.xml --output franka_pose_cPo_%d.yaml
+```
+
+7. Estimate end effector to camera transformation
+
+```bash
+./visp-compute-hand-eye-calibration --data-path . --fPe franka_pose_fPe_%d.yaml --cPo franka_pose_cPo_%d.yaml --output franka_eMc.yaml
+```
+
+```bash
+sample output
+more franka_eMc.yaml
+rows: 6
+cols: 1
+data:
+  - [-0.0351726]
+  - [-0.0591187]
+  - [0.015876]
+  - [-0.00265638]
+  - [0.00565946]
+  - [0.0166116]
+
+$ more franka_eMc.txt
+0.9998460169  -0.01661822717  0.005637104144  -0.03517264821
+0.0166031939  0.9998585032  0.002703241732  -0.05911865752
+-0.005681229597  -0.002609231545  0.9999804576  0.0158759732
+0  0  0  1
+```
+
+8. Visualise Camera pose
+
+```bash
+python hand_eye_calibration_show_extrinsics.py --ndata 8 --eMc_yaml franka_eMc.yaml --cPo_file_pattern franka_pose_cPo_%d.yaml --square_size 0.0262 --focal_px 605.146728515625
+```
+
