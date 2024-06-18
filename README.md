@@ -668,7 +668,11 @@ Demo Video:
 
 3. Go to ~/franka_ros2_ws/build/visp/apps/calibration
 
-4. Open the franka calibration apps
+```bash
+cd ~/franka_ros2_ws/build/visp/apps/calibration
+```
+
+5. Open the franka calibration apps
 
 ```bash
 ./visp-acquire-franka-calib-data --ip 192.168.1.40
