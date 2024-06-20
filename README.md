@@ -757,3 +757,9 @@ Demo Video:
 3. Click "Shut Down" on the Franka Desk
 
 4. Switch off the control  
+
+## 9.0 Reference
+
+1. Franka Control Interface Documentation: https://frankaemika.github.io/docs/index.html
+2. ROS 2 Humble Documentation: https://docs.ros.org/en/humble/index.html 
+3. Visual Servoing Platform: https://visp-doc.inria.fr/doxygen/visp-daily/index.html#tutorial 
